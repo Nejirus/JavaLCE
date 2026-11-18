@@ -1,0 +1,209 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/Logos/mojang.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/startup/mojang.png",
+      "kind": "verbatim",
+      "sha256": "65e37beefdc1ec3dd43867bab6ce1f30d9245ac3aae39af2fe7d1e422c8d7ed2"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/Logos/4JStudios_logo.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/startup/4j.png",
+      "kind": "verbatim",
+      "sha256": "047d6df8ee730d256477efc37d835ac03ae023154018c652892d9802fd7693e4"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/Logos/ESRB_10_Large.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/startup/rating.png",
+      "kind": "verbatim",
+      "sha256": "ee4507ef7faaeb72cb9c2b3ba3c52b72e09ed1c17e306a17a677765118037e89"
+    },
+    {
+      "source": "Minecraft.Client/Common/res/title/mclogo.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/startup/title.png",
+      "kind": "verbatim",
+      "sha256": "1ec37872aa65aa3f73b327db488472f6a301269b1a458e0d93108b652a487a82"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "bitmap_id": 85,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/startup/progress_background.png",
+      "sha256": "4b702f14ea9352be448367ee407771b0c9771e8cac220cfe4e5b911ccbdd8a70",
+      "rgba_sha256": "54617034691fc2067594299d0b6bd833e930d638a547398881c9120a5bbb5f7a",
+      "width": 640,
+      "height": 20
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "bitmap_id": 90,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/startup/progress_fill.png",
+      "sha256": "6567fcaf2e2566083239e1a601f043162d27f005f4d186d7a39269276024ec69",
+      "rgba_sha256": "7ab036745057a3282a6a9a97ec647e9d8e18c6c51bbaec8b8dc53d217a0596d9",
+      "width": 636,
+      "height": 16
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/strings.resx",
+      "source_sha256": "9dc63146e8f17dcd7df7d759ba25cc2c95b8af4068e6c2ce23d493448af4819f",
+      "kind": "extracted_text",
+      "keys": [
+        "IDS_TIPS_GAMETIP_3",
+        "IDS_TIPS_GAMETIP_4",
+        "IDS_TIPS_GAMETIP_6",
+        "IDS_TIPS_GAMETIP_8",
+        "IDS_TIPS_GAMETIP_9",
+        "IDS_TIPS_GAMETIP_10",
+        "IDS_TIPS_GAMETIP_11",
+        "IDS_TIPS_GAMETIP_14"
+      ],
+      "destination": "src/main/resources/assets/legacyconsole/startup_tips.txt",
+      "sha256": "224b3d9fe23fc66c3176d820652c69c036c551a2a8f0db6e849014eee61afe5e"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "bitmap_id": 213,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/startup/tip_panel.png",
+      "sha256": "c61433850d50353411ed12e30dd6f550fb6da108b082fd8bbeb3c8508c3d8c73",
+      "rgba_sha256": "55ae635db50e3dcfaaa7a1d1cb3eadc1ef5033512c62f9b8c1fedb01c024daca",
+      "width": 24,
+      "height": 24
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.World/Boat.cpp",
+      "sha256": "4d57dddd7d7d14872ee5a524a7dbca5c806799417ba2f979d5a472250f2b4bd9"
+    },
+    {
+      "path": "Minecraft.World/Boat.h",
+      "sha256": "2dd1dd7140c1557ec4451ed69f2f1c6994db40764039a52b2034e4025c1c2526"
+    },
+    {
+      "path": "Minecraft.Client/Input.cpp",
+      "sha256": "59d6e0b555de197b23b85f8f10db629464cd93979440ca5163abbd1b42731691"
+    },
+    {
+      "path": "Minecraft.Client/LocalPlayer.cpp",
+      "sha256": "b46429c8705c369d355beda663041dbcf524764aa9f0a82477cc9cca9dc145c1"
+    },
+    {
+      "path": "Minecraft.Client/Minecraft.cpp",
+      "sha256": "73da12dd2730e1995e0c46a7aaa37a43d97a1158826868f4cb1611b0405ded34"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_Intro.cpp",
+      "sha256": "29ab27da190db7810ccd3159e9639e2cb7ef10f3a08e5dfb03910150917794a7"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_FullscreenProgress.cpp",
+      "sha256": "5957015d2e21811f3e08d64e9f637b7fe9d02d230bf6aca7679633448c8b1f51"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_FullscreenProgress.h",
+      "sha256": "3c553ab142ad3ddd1e5e12ccd33b39025e68617cdb81d0b07dbe26c40c25c63b"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIComponent_Tooltips.cpp",
+      "sha256": "46f7fb4c707382c766471a9e763edd334650d028d6fb40884cbb73461ab72fc4"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/Intro720.swf",
+      "sha256": "c013e0f5bdb99cb996750194d2512b99097356e0c56d7852806936e90be7a791"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/FullscreenProgress720.swf",
+      "sha256": "7b13f7f0dd4273d4a9005298e27e70490fc5971af5cb3133edd0a16d55ca1efe"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skin.swf",
+      "sha256": "f2f1fc6c14c98da2507b4f711fa7efdffedc2f955224d8e2191b53fce6d37157"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/ComponentLogo720.swf",
+      "sha256": "1572041bd60929fc28e62393358d20f85b262efd8c35835e0df04c7d7b050825"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/strings.resx",
+      "sha256": "9dc63146e8f17dcd7df7d759ba25cc2c95b8af4068e6c2ce23d493448af4819f"
+    }
+  ],
+  "intro": {
+    "fps": 30,
+    "sequence": [
+      "ESRB",
+      "Mojang",
+      "4J"
+    ],
+    "frame_lengths": [
+      261,
+      94,
+      100
+    ],
+    "fade_frames": 9,
+    "canvas": [
+      1280,
+      720
+    ],
+    "platform": "PC / PS4 sequence; no Xbox platform branding"
+  },
+  "loading": {
+    "bar": [
+      320,
+      390,
+      640,
+      20
+    ],
+    "fill": [
+      322,
+      392,
+      636,
+      16
+    ],
+    "title_center": [
+      640,
+      300
+    ],
+    "status_center": [
+      640,
+      364
+    ],
+    "tips": [
+      240,
+      510,
+      800,
+      110
+    ],
+    "tip_period_ms": 7000,
+    "panorama_source": "SCENES-REFERENCE.json",
+    "header": "Original LCE title atlas; platform-neutral Minecraft wordmark"
+  },
+  "boats": {
+    "source_input": "Input::tick, Minecraft.cpp boat tooltip case, Boat::interact",
+    "move": "analog left stick",
+    "enter": "Use / L2: Sail",
+    "exit": "Use / L2: Exit",
+    "glyphs": "Existing original Orbis PS4 bitmaps from LCE-INTERFACES.json"
+  },
+  "java_adaptations": [
+    "Forge retains its own loader/thread lifecycle; its canvas uses the original intro, followed by the user-requested opaque 4J hold.",
+    "Progress callbacks advance the fallback intro while initialization reaches the game sound engine. The native finish call waits for remaining intro frames on both startup paths.",
+    "Fullscreen is selected before LWJGL creates the Minecraft window; F11 remains available afterward.",
+    "Java 1.11 boat types, two seats, collisions, networking and buoyancy remain native. Analog input scales the native steering coefficients; controls and prompts follow the provided LCE reference."
+  ],
+  "adaptations": [
+    "1.8.1 user-requested startup presentation: retain the original 4J Studios intro image at full opacity until Forge finishes, instead of transitioning to the FullScreenProgress scene. Original intro timing and fallback completion checks remain.",
+    "1.8.3 user-requested startup music: start the normal selected music stream as soon as the game's audio engine is ready during the rating card. Preserve that engine through startup sound-definition refreshes. The fallback overlaps intro and initialization so audio can become ready before the rating card ends."
+  ]
+}

@@ -1,0 +1,2303 @@
+[
+  {
+    "type": "MapOptions",
+    "attributes": {
+      "seed": "0",
+      "spawnX": "-15",
+      "spawnY": "71",
+      "spawnZ": "85",
+      "flatworld": "false",
+      "isTutorial": "true",
+      "baseSaveName": "Tutorial.mcs",
+      "hasBeenInCreative": "0"
+    },
+    "children": []
+  },
+  {
+    "type": "LevelRules",
+    "attributes": {},
+    "children": [
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "tutorialArea",
+          "x0": "-36",
+          "y0": "0",
+          "z0": "62",
+          "x1": "20",
+          "y1": "75",
+          "z1": "113"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "minecartArea",
+          "x0": "-45",
+          "y0": "82",
+          "z0": "-80",
+          "x1": "-39",
+          "y1": "87",
+          "z1": "-63"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "boatArea",
+          "x0": "-51",
+          "y0": "73",
+          "z0": "-73",
+          "x1": "-46",
+          "y1": "80",
+          "z1": "-62"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "fishingArea",
+          "x0": "-58",
+          "y0": "74",
+          "z0": "-73",
+          "x1": "-52",
+          "y1": "80",
+          "z1": "-63"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "pistonArea",
+          "x0": "-7",
+          "y0": "72",
+          "z0": "-78",
+          "x1": "3",
+          "y1": "84",
+          "z1": "-63"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "portalArea1",
+          "x0": "-245",
+          "y0": "90",
+          "z0": "201",
+          "x1": "-233",
+          "y1": "102",
+          "z1": "208"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "portalArea2",
+          "x0": "120",
+          "y0": "46",
+          "z0": "-125",
+          "x1": "133",
+          "y1": "58",
+          "z1": "-112"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "brewingArea",
+          "x0": "3",
+          "y0": "75",
+          "z0": "-43",
+          "x1": "9",
+          "y1": "81",
+          "z1": "-38"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "enchantingArea",
+          "x0": "-7",
+          "y0": "78",
+          "z0": "-60",
+          "x1": "4",
+          "y1": "87",
+          "z1": "-49"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "farmingArea",
+          "x0": "-54",
+          "y0": "77",
+          "z0": "-61",
+          "x1": "-40",
+          "y1": "83",
+          "z1": "-43"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "breedingArea",
+          "x0": "-40",
+          "y0": "76",
+          "z0": "-48",
+          "x1": "-21",
+          "y1": "82",
+          "z1": "-30"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "golemArea",
+          "x0": "-33",
+          "y0": "76",
+          "z0": "-83",
+          "x1": "-26",
+          "y1": "82",
+          "z1": "-77"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "anvilArea",
+          "x0": "-35",
+          "y0": "73",
+          "z0": "-74",
+          "x1": "-25",
+          "y1": "79",
+          "z1": "-63"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "tradingArea",
+          "x0": "-36",
+          "y0": "76",
+          "z0": "-60",
+          "x1": "-24",
+          "y1": "82",
+          "z1": "-49"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "fireworksArea",
+          "x0": "-5",
+          "y0": "75",
+          "z0": "-36",
+          "x1": "2",
+          "y1": "81",
+          "z1": "-30"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "beaconArea",
+          "x0": "-20",
+          "y0": "71",
+          "z0": "-59",
+          "x1": "-11",
+          "y1": "77",
+          "z1": "-48"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "hopperArea",
+          "x0": "8",
+          "y0": "74",
+          "z0": "-78",
+          "x1": "37",
+          "y1": "84",
+          "z1": "-66"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "bannerArea",
+          "x0": "-23",
+          "y0": "78",
+          "z0": "-101",
+          "x1": "-8",
+          "y1": "84",
+          "z1": "-88"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "slimeArea",
+          "x0": "9",
+          "y0": "74",
+          "z0": "-65",
+          "x1": "25",
+          "y1": "85",
+          "z1": "-44"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "elytraArea",
+          "x0": "-23",
+          "y0": "82",
+          "z0": "-134",
+          "x1": "-8",
+          "y1": "100",
+          "z1": "-105"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "goldElytraArea",
+          "x0": "-44",
+          "y0": "140",
+          "z0": "-120",
+          "x1": "-41",
+          "y1": "145",
+          "z1": "-111"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "emeraldElytraArea",
+          "x0": "10",
+          "y0": "117",
+          "z0": "-148",
+          "x1": "13",
+          "y1": "122",
+          "z1": "-138"
+        },
+        "children": []
+      },
+      {
+        "type": "NamedArea",
+        "attributes": {
+          "name": "diamondElytraArea",
+          "x0": "-29",
+          "y0": "154",
+          "z0": "-130",
+          "x1": "-24",
+          "y1": "159",
+          "z1": "-127"
+        },
+        "children": []
+      },
+      {
+        "type": "OnInitialiseWorld",
+        "attributes": {},
+        "children": [
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-12",
+              "y": "74",
+              "z": "-55"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "265",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-30",
+              "y": "79",
+              "z": "-41"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "296",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "295",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "391",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "363",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "349",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "352",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-30",
+              "y": "79",
+              "z": "-55"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "339",
+                  "quantity": "30",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "388",
+                  "quantity": "11",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-49",
+              "y": "80",
+              "z": "-55"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "295",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "362",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "361",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "435",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "391",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "392",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "291",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "6"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "15",
+                  "dataTag": "0",
+                  "slot": "7"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-45",
+              "y": "83",
+              "z": "-79"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "265",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "265",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "9"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "265",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "18"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "280",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "10"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "265",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "265",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "11"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "265",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "20"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "328",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "328",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "12"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "328",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "21"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "66",
+                  "quantity": "16",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "27",
+                  "quantity": "6",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "6"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "38",
+                  "quantity": "6",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "7"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "157",
+                  "quantity": "6",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "8"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "266",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "15"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "70",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "16"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "280",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "17"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "331",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "24"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "331",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "25"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "76",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "26"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-58",
+              "y": "77",
+              "z": "-70"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "346",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-52",
+              "y": "77",
+              "z": "-70"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "444",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "445",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "446",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "447",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "448",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-32",
+              "y": "79",
+              "z": "-79"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "86",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "80",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "10"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "80",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "19"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "86",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "42",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "12"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "42",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "13"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "42",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "14"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "42",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "22"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "42",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "8"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "42",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "17"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-34",
+              "y": "77",
+              "z": "-67"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "270",
+                  "quantity": "1",
+                  "auxValue": "33",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "284",
+                  "quantity": "1",
+                  "auxValue": "28",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "256",
+                  "quantity": "1",
+                  "auxValue": "62",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "265",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "266",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "272",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "403",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "6"
+                },
+                "children": [
+                  {
+                    "type": "AddEnchantment",
+                    "attributes": {
+                      "enchantmentId": "20",
+                      "enchantmentLevel": "2"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "384",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "7"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "421",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "8"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "327",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "9"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-2",
+              "y": "78",
+              "z": "-31"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "289",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "348",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "371",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "1",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "14",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "11",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "339",
+                  "quantity": "64",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "6"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "8",
+              "y": "78",
+              "z": "-41"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "374",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "378",
+                  "quantity": "15",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "414",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "433",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "377",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "376",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "370",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "6"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "326",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "7"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "372",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "8"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-1",
+              "y": "81",
+              "z": "-54"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "32",
+                  "auxValue": "4",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "384",
+                  "quantity": "32",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "273",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "274",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "275",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "291",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "403",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "9"
+                },
+                "children": [
+                  {
+                    "type": "AddEnchantment",
+                    "attributes": {
+                      "enchantmentId": "35",
+                      "enchantmentLevel": "3"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "267",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "10"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "256",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "11"
+                },
+                "children": [
+                  {
+                    "type": "AddEnchantment",
+                    "attributes": {
+                      "enchantmentId": "32",
+                      "enchantmentLevel": "4"
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "AddEnchantment",
+                    "attributes": {
+                      "enchantmentId": "34",
+                      "enchantmentLevel": "3"
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "AddEnchantment",
+                    "attributes": {
+                      "enchantmentId": "35",
+                      "enchantmentLevel": "2"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "276",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "19"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "258",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "13"
+                },
+                "children": [
+                  {
+                    "type": "AddEnchantment",
+                    "attributes": {
+                      "enchantmentId": "32",
+                      "enchantmentLevel": "2"
+                    },
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "271",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "22"
+                },
+                "children": [
+                  {
+                    "type": "AddEnchantment",
+                    "attributes": {
+                      "enchantmentId": "34",
+                      "enchantmentLevel": "1"
+                    },
+                    "children": []
+                  },
+                  {
+                    "type": "AddEnchantment",
+                    "attributes": {
+                      "enchantmentId": "32",
+                      "enchantmentLevel": "2"
+                    },
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "12",
+              "y": "77",
+              "z": "-52"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "341",
+                  "quantity": "64",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "165",
+                  "quantity": "64",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-2",
+              "y": "78",
+              "z": "-69"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "331",
+                  "quantity": "20",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "29",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "33",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "77",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "143",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "70",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "72",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "6"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "148",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "7"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "147",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "8"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "76",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "9"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "123",
+                  "quantity": "5",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "10"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "131",
+                  "quantity": "6",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "11"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "151",
+                  "quantity": "2",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "12"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "356",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "13"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-17",
+              "y": "81",
+              "z": "-96"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "14",
+                  "dataTag": "0",
+                  "slot": "0"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "1",
+                  "dataTag": "0",
+                  "slot": "1"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "4",
+                  "dataTag": "0",
+                  "slot": "2"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "5",
+                  "dataTag": "0",
+                  "slot": "3"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "3",
+                  "dataTag": "0",
+                  "slot": "4"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "9",
+                  "dataTag": "0",
+                  "slot": "5"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "11",
+                  "dataTag": "0",
+                  "slot": "6"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "10",
+                  "dataTag": "0",
+                  "slot": "7"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "2",
+                  "dataTag": "0",
+                  "slot": "8"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "6",
+                  "dataTag": "0",
+                  "slot": "9"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "10"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "8",
+                  "dataTag": "0",
+                  "slot": "11"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "7",
+                  "dataTag": "0",
+                  "slot": "12"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "15",
+                  "dataTag": "0",
+                  "slot": "13"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "13",
+                  "dataTag": "0",
+                  "slot": "14"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "35",
+                  "quantity": "10",
+                  "auxValue": "12",
+                  "dataTag": "0",
+                  "slot": "15"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "280",
+                  "quantity": "64",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "16"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "397",
+                  "quantity": "5",
+                  "auxValue": "4",
+                  "dataTag": "0",
+                  "slot": "17"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "397",
+                  "quantity": "5",
+                  "auxValue": "1",
+                  "dataTag": "0",
+                  "slot": "18"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "1",
+                  "dataTag": "0",
+                  "slot": "19"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "14",
+                  "dataTag": "0",
+                  "slot": "20"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "11",
+                  "dataTag": "0",
+                  "slot": "21"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "10",
+                  "dataTag": "0",
+                  "slot": "22"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "12",
+                  "dataTag": "0",
+                  "slot": "23"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "6",
+                  "dataTag": "0",
+                  "slot": "24"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "4",
+                  "dataTag": "0",
+                  "slot": "25"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "5",
+                  "dataTag": "0",
+                  "slot": "26"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "13",
+                  "dataTag": "0",
+                  "slot": "27"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "9",
+                  "dataTag": "0",
+                  "slot": "28"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "7",
+                  "dataTag": "0",
+                  "slot": "29"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "8",
+                  "dataTag": "0",
+                  "slot": "30"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "31"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "2",
+                  "dataTag": "0",
+                  "slot": "32"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "351",
+                  "quantity": "10",
+                  "auxValue": "3",
+                  "dataTag": "0",
+                  "slot": "33"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "38",
+                  "quantity": "5",
+                  "auxValue": "8",
+                  "dataTag": "0",
+                  "slot": "34"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "322",
+                  "quantity": "1",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "35"
+                },
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "PopulateContainer",
+            "attributes": {
+              "x": "-16",
+              "y": "87",
+              "z": "-132"
+            },
+            "children": [
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "443",
+                  "quantity": "1",
+                  "auxValue": "100",
+                  "dataTag": "0",
+                  "slot": "13"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "384",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "25"
+                },
+                "children": []
+              },
+              {
+                "type": "AddItem",
+                "attributes": {
+                  "itemId": "334",
+                  "quantity": "10",
+                  "auxValue": "0",
+                  "dataTag": "0",
+                  "slot": "26"
+                },
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "UpdatePlayer",
+        "attributes": {
+          "spawnX": "-15",
+          "spawnY": "71",
+          "spawnZ": "85",
+          "yRot": "180",
+          "food": "12",
+          "health": "12"
+        },
+        "children": [
+          {
+            "type": "AddItem",
+            "attributes": {
+              "itemId": "364",
+              "quantity": "1",
+              "auxValue": "0",
+              "dataTag": "0",
+              "slot": "10"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "CompleteAll",
+        "attributes": {
+          "goalType": "1",
+          "descriptionName": "IDS_COLLECTED_MUSIC_DISCS"
+        },
+        "children": [
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2256",
+              "quantity": "1",
+              "dataTag": "1"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2257",
+              "quantity": "1",
+              "dataTag": "2"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2258",
+              "quantity": "1",
+              "dataTag": "3"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2267",
+              "quantity": "1",
+              "dataTag": "4"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2262",
+              "quantity": "1",
+              "dataTag": "5"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2263",
+              "quantity": "1",
+              "dataTag": "6"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2260",
+              "quantity": "1",
+              "dataTag": "7"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2261",
+              "quantity": "1",
+              "dataTag": "8"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2259",
+              "quantity": "1",
+              "dataTag": "9"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2264",
+              "quantity": "1",
+              "dataTag": "10"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2265",
+              "quantity": "1",
+              "dataTag": "11"
+            },
+            "children": []
+          },
+          {
+            "type": "CollectItem",
+            "attributes": {
+              "itemId": "2266",
+              "quantity": "1",
+              "dataTag": "12"
+            },
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

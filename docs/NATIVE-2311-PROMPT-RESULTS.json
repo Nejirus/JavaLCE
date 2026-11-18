@@ -1,0 +1,338 @@
+{
+  "version": "2.3.11",
+  "reference": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8e3"
+  },
+  "native_whitespace": {
+    "helper": "0x68a570",
+    "tab_comparisons": [
+      "0x68a7e3",
+      "0x68a813"
+    ],
+    "affected_original_fields": 17,
+    "translated_behavior": "Remove authoring U+0009 before Java component/font layout; preserve existing explicit paragraph breaks"
+  },
+  "flint_and_steel": {
+    "adapter": "Minecraft 1.17.1 read-only ignition predicates; block-hit requirement and adventure placement permissions",
+    "target_contexts": 14,
+    "side_effect_probe": "Availability checks do not call useOn; actual campfire ignition checked separately"
+  },
+  "runtime_environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "optifine": "1.17.1_HD_U_H1",
+    "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+    "lce_look": "2.0.0",
+    "lce_look_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+    "graphics": "Linux / llvmpipe / Mesa 25.0.7"
+  },
+  "limits": [
+    "Physical controller and Apple Retina hardware were not tested.",
+    "Runtime screenshots use synthetic controller state and controlled ray-hit fixtures in a private flat world.",
+    "Focused text and campfire tests were run for this release; full world generation parity is not claimed."
+  ],
+  "automated_suites": [
+    {
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Focused Ps4TutorialTextTest and CampfirePromptTest regressions"
+    }
+  ],
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Original PS4 trading, anvil and final tutorial messages render without U+0009 placeholders while retaining controller glyphs and paragraph breaks",
+      "Flint and steel HUD: sky misses, blocked/unsupported/water-filled placement and wet/lit targets hide Use; valid fire sites, campfires, candles, candle cakes, TNT and creepers retain Use",
+      "Read-only HUD checks do not ignite blocks or damage the tool; the real use interaction still lights an unlit campfire"
+    ],
+    "screenshots": [
+      {
+        "file": "off-tutorial-0-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "9a9438ca929ad0f946a28af0d6def2b2a765bd32a30f9290edf7e995fdfb9269"
+      },
+      {
+        "file": "off-tutorial-0-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "8e510ae4d0ab7f32e81b8e2bed3022f2854b367e6cb0a8eaed147ed2a909961b"
+      },
+      {
+        "file": "look-tutorial-0-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "40238ca4cbf50d6c82acead3480d7377bb2396cd1bf1a836744d83d58772e807"
+      },
+      {
+        "file": "look-tutorial-0-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ab95cf1022bc58571761dca8b4c17d67fb45f3edd0b558f408202172252f8533"
+      },
+      {
+        "file": "off-tutorial-1-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "cde000f0ae44b4f5fbb7d48c9d3b439a5991e3cdbeaae1fa48ad8f39ddd4e1a8"
+      },
+      {
+        "file": "off-tutorial-1-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "5a0db4f317be0c8f1e1211b2a16372dc05444785d3524e1ce624bfcf50c0606a"
+      },
+      {
+        "file": "look-tutorial-1-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "8525fb8971f6a9089ab6419311ff1b5831965604e842c63902711ddcca4501f5"
+      },
+      {
+        "file": "look-tutorial-1-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "258d876dcfabc19e5e8cbe7aad5d5495ae639a1b2702484b3fc5fcc06e40ac72"
+      },
+      {
+        "file": "off-tutorial-2-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "56084895085ca333d898743325fe8f5700c721a6ae4b3a440a7e1d85b02f9f57"
+      },
+      {
+        "file": "off-tutorial-2-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "55f46e4f3d28ae63be41547ddbe5ac816b9227203e67a447a8a479dba4c0c834"
+      },
+      {
+        "file": "look-tutorial-2-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "80161922ca73e5b294a2eaeb0ae397d7ff39cb41e3f0b51e4e25ffc0a9c85b94"
+      },
+      {
+        "file": "look-tutorial-2-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "97163ea350eb331a23176d82bf977d6223ad3e7b15324536fe5f1b929725825d"
+      },
+      {
+        "file": "off-flint-sky-miss-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "92ee451cc880d7723487150ee1ecf2dfc1aacc3830ce74c3da2108e608c1a800"
+      },
+      {
+        "file": "off-flint-supported-fire-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "577ed634d245e712e6e8159ee432f12159d0b28a57096e6bbc580cc47c861349"
+      },
+      {
+        "file": "off-flint-blocked-fire-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "8adcf0eb51f5e0854fe5bf0ee252b50cc9642052de9b3677d900d5d39908545b"
+      },
+      {
+        "file": "off-flint-unsupported-side-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "f733b38032cbfeebe103a7b69b2242d17295dfa8e7e0da053daf4d8f712bb44d"
+      },
+      {
+        "file": "off-flint-unlit-campfire-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "73948fd546adb4b08b3103559301f3c40c594c9ad836f32a50c18dff046eb745"
+      },
+      {
+        "file": "off-flint-wet-campfire-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "96023d3b84f337e166fabf5a54bde9a1b6300db3bd72e370c908dd8ffa73e948"
+      },
+      {
+        "file": "off-flint-candle-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "27c75947f6ef330adb42faf1aa46412bed4a487107c9c7a684103ea1137fb749"
+      },
+      {
+        "file": "off-flint-candle-cake-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "17cc8b578e7b0127ad0ae57579bc9beb40db29263b42555b3442a90a82bb76a9"
+      },
+      {
+        "file": "off-flint-tnt-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "e8a2ed97de2ed5c6a2c2f013d38388268624b08eb84eb381dd001049b23468fd"
+      },
+      {
+        "file": "off-flint-creeper-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "b0fadaf1027dc0c7089d795cd22bbbc95d7e45c055ded2ae506011f4932ec7ca"
+      },
+      {
+        "file": "off-flint-pig-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "02367b2e85a0cb3aa3d356b72c8ab3588a8cd0ba22a15af991f8edc1434724f2"
+      },
+      {
+        "file": "off-flint-water-blocked-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "036cead986917b6925f4946306de0bdbd58efe3af78901a44d0e1960bb857f8d"
+      },
+      {
+        "file": "off-flint-lit-campfire-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "2c196ad2519d7f5f322b3511a2b03f1071b73b1d02da458476b4ae838302fefd"
+      },
+      {
+        "file": "off-flint-wet-candle-720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "8eb2f9c8d936f2d51aac103704665740519daa437a2753cfae63b2e60176f394"
+      },
+      {
+        "file": "look-flint-sky-miss-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ab8955e0a1d97b0f136cece1ecb3c62dbadac7d85ffa6ac732b22cf2b2bfa734"
+      },
+      {
+        "file": "look-flint-supported-fire-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "32e4ab7d2fb0a1329914d76479041df5f41b8be4e1645e10b874b16b1b61648c"
+      },
+      {
+        "file": "look-flint-blocked-fire-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c62adcf2e76e5c3d6fc37d3376f9fbcc4f354dc1fb4ae32c4a3a53783d92c9ad"
+      },
+      {
+        "file": "look-flint-unsupported-side-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "932d658679cfc52a3fcea9489b5e0d8727e71ef8610f5deac6e797070ffda356"
+      },
+      {
+        "file": "look-flint-unlit-campfire-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "60333f87a93b796e7a8cb27dcc79c8ecd1eb167336fdb00294f0d13e0653d172"
+      },
+      {
+        "file": "look-flint-wet-campfire-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ced35a1b90a0077fc398bd0bac141ca03738b014530dacd7c0c8b25c9cddc4b2"
+      },
+      {
+        "file": "look-flint-candle-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "f531bec4268ae92166472fe68f903f8442297ab94c9d563bcd762e5960d1d1ad"
+      },
+      {
+        "file": "look-flint-candle-cake-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "93f8d805c85a165f69a64f25dde054c0942bdc0d13bc5c23999b34e4e756f75a"
+      },
+      {
+        "file": "look-flint-tnt-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "32b75d4d29d774e22ead710a71f19588768a64c42f20535a42c974089e6e8f68"
+      },
+      {
+        "file": "look-flint-creeper-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "65ffbd255de5f93aeb137b18432293721629ec106f9f3d83b891cdf409918125"
+      },
+      {
+        "file": "look-flint-pig-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ae277274b885d59f1853bcce67e7be9e6afcab95276eba480c2aa415d60c8b48"
+      },
+      {
+        "file": "look-flint-water-blocked-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ec6c9b3c222e3776b3261f5959da94c918e9ba04a6aabb514b69a83e9a2bebe6"
+      },
+      {
+        "file": "look-flint-lit-campfire-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "226279680895cbe341edfdff668073577e52a8f3e02cc57d51ae6139bac26bbf"
+      },
+      {
+        "file": "look-flint-wet-candle-1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8431e8510fc35f318b60f14f4cdbec81c81bbfb60b27cf5697dabe4eaa3a4855"
+      }
+    ]
+  }
+}

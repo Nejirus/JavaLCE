@@ -1,0 +1,1206 @@
+[
+  {
+    "hash": "bo",
+    "source_hash": "bo",
+    "group": 4,
+    "crafting_type": 1,
+    "shape": [
+      "###",
+      "#*#",
+      "###"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 1,
+    "ps4_ordinal": 1
+  },
+  {
+    "hash": "bri",
+    "source_hash": "bri",
+    "group": 4,
+    "crafting_type": 1,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "bricks",
+    "reusable": false,
+    "ps4_id": 2,
+    "ps4_ordinal": 2
+  },
+  {
+    "hash": "bri",
+    "source_hash": "brip",
+    "group": 4,
+    "crafting_type": 5,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "field_masoned_banner_pattern",
+    "reusable": true,
+    "ps4_id": 38,
+    "ps4_ordinal": 2
+  },
+  {
+    "hash": "mc",
+    "source_hash": "mc",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      "   ",
+      " # ",
+      " * "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 3,
+    "ps4_ordinal": 3
+  },
+  {
+    "hash": "cre",
+    "source_hash": "cre",
+    "group": 5,
+    "crafting_type": 1,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "creeper_head",
+    "reusable": false,
+    "ps4_id": 4,
+    "ps4_ordinal": 4
+  },
+  {
+    "hash": "cre",
+    "source_hash": "crep",
+    "group": 5,
+    "crafting_type": 5,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "creeper_banner_pattern",
+    "reusable": true,
+    "ps4_id": 39,
+    "ps4_ordinal": 4
+  },
+  {
+    "hash": "cr",
+    "source_hash": "cr",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "# #",
+      " # ",
+      "#*#"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 5,
+    "ps4_ordinal": 5
+  },
+  {
+    "hash": "cbo",
+    "source_hash": "cbo",
+    "group": 4,
+    "crafting_type": 1,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "vine",
+    "reusable": false,
+    "ps4_id": 6,
+    "ps4_ordinal": 6
+  },
+  {
+    "hash": "cbo",
+    "source_hash": "cbop",
+    "group": 4,
+    "crafting_type": 5,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "bordure_indented_banner_pattern",
+    "reusable": true,
+    "ps4_id": 40,
+    "ps4_ordinal": 6
+  },
+  {
+    "hash": "ld",
+    "source_hash": "ld",
+    "group": 2,
+    "crafting_type": 1,
+    "shape": [
+      "## ",
+      "#* ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 7,
+    "ps4_ordinal": 7
+  },
+  {
+    "hash": "rud",
+    "source_hash": "rud",
+    "group": 2,
+    "crafting_type": 1,
+    "shape": [
+      " ##",
+      " *#",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 8,
+    "ps4_ordinal": 8
+  },
+  {
+    "hash": "lud",
+    "source_hash": "lud",
+    "group": 2,
+    "crafting_type": 1,
+    "shape": [
+      "   ",
+      "#* ",
+      "## "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 9,
+    "ps4_ordinal": 9
+  },
+  {
+    "hash": "rd",
+    "source_hash": "rd",
+    "group": 2,
+    "crafting_type": 1,
+    "shape": [
+      "   ",
+      " *#",
+      " ##"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 10,
+    "ps4_ordinal": 10
+  },
+  {
+    "hash": "flo",
+    "source_hash": "flo",
+    "group": 5,
+    "crafting_type": 1,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "oxeye_daisy",
+    "reusable": false,
+    "ps4_id": 11,
+    "ps4_ordinal": 11
+  },
+  {
+    "hash": "flo",
+    "source_hash": "flop",
+    "group": 5,
+    "crafting_type": 5,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "flower_banner_pattern",
+    "reusable": true,
+    "ps4_id": 41,
+    "ps4_ordinal": 11
+  },
+  {
+    "hash": "gra",
+    "source_hash": "gra",
+    "group": 4,
+    "crafting_type": 1,
+    "shape": [
+      "#*#",
+      " # ",
+      " # "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 12,
+    "ps4_ordinal": 12
+  },
+  {
+    "hash": "gru",
+    "source_hash": "gru",
+    "group": 4,
+    "crafting_type": 1,
+    "shape": [
+      " # ",
+      " # ",
+      "#*#"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 13,
+    "ps4_ordinal": 13
+  },
+  {
+    "hash": "hh",
+    "source_hash": "hh",
+    "group": 2,
+    "crafting_type": 1,
+    "shape": [
+      "###",
+      "###",
+      " * "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 14,
+    "ps4_ordinal": 14
+  },
+  {
+    "hash": "hhb",
+    "source_hash": "hhb",
+    "group": 2,
+    "crafting_type": 1,
+    "shape": [
+      " * ",
+      "###",
+      "###"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 15,
+    "ps4_ordinal": 15
+  },
+  {
+    "hash": "vh",
+    "source_hash": "vh",
+    "group": 2,
+    "crafting_type": 1,
+    "shape": [
+      "## ",
+      "##*",
+      "## "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 16,
+    "ps4_ordinal": 16
+  },
+  {
+    "hash": "vhr",
+    "source_hash": "vhr",
+    "group": 2,
+    "crafting_type": 1,
+    "shape": [
+      " ##",
+      "*##",
+      " ##"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 17,
+    "ps4_ordinal": 17
+  },
+  {
+    "hash": "moj",
+    "source_hash": "moj",
+    "group": 5,
+    "crafting_type": 1,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "enchanted_golden_apple",
+    "reusable": false,
+    "ps4_id": 18,
+    "ps4_ordinal": 18
+  },
+  {
+    "hash": "moj",
+    "source_hash": "mojp",
+    "group": 5,
+    "crafting_type": 5,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "mojang_banner_pattern",
+    "reusable": true,
+    "ps4_id": 42,
+    "ps4_ordinal": 18
+  },
+  {
+    "hash": "mr",
+    "source_hash": "mr",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      " # ",
+      "#*#",
+      " # "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 19,
+    "ps4_ordinal": 19
+  },
+  {
+    "hash": "sku",
+    "source_hash": "sku",
+    "group": 5,
+    "crafting_type": 1,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "wither_skeleton_skull",
+    "reusable": false,
+    "ps4_id": 20,
+    "ps4_ordinal": 20
+  },
+  {
+    "hash": "sku",
+    "source_hash": "skup",
+    "group": 5,
+    "crafting_type": 5,
+    "shape": [
+      "",
+      "",
+      ""
+    ],
+    "special": "skull_banner_pattern",
+    "reusable": true,
+    "ps4_id": 43,
+    "ps4_ordinal": 20
+  },
+  {
+    "hash": "ss",
+    "source_hash": "ss",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "# #",
+      "#*#",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 21,
+    "ps4_ordinal": 21
+  },
+  {
+    "hash": "bl",
+    "source_hash": "bl",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      "   ",
+      " * ",
+      "#  "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 22,
+    "ps4_ordinal": 22
+  },
+  {
+    "hash": "br",
+    "source_hash": "br",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      "   ",
+      " * ",
+      "  #"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 23,
+    "ps4_ordinal": 23
+  },
+  {
+    "hash": "tl",
+    "source_hash": "tl",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      "#  ",
+      " * ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 24,
+    "ps4_ordinal": 24
+  },
+  {
+    "hash": "tr",
+    "source_hash": "tr",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      "  #",
+      " * ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 25,
+    "ps4_ordinal": 25
+  },
+  {
+    "hash": "sc",
+    "source_hash": "sc",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      " # ",
+      "###",
+      "*# "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 26,
+    "ps4_ordinal": 26
+  },
+  {
+    "hash": "bs",
+    "source_hash": "bs",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "   ",
+      " * ",
+      "###"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 27,
+    "ps4_ordinal": 27
+  },
+  {
+    "hash": "cs",
+    "source_hash": "cs",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      " # ",
+      " #*",
+      " # "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 28,
+    "ps4_ordinal": 28
+  },
+  {
+    "hash": "dls",
+    "source_hash": "dls",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "  #",
+      " #*",
+      "#  "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 29,
+    "ps4_ordinal": 29
+  },
+  {
+    "hash": "drs",
+    "source_hash": "drs",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "#  ",
+      " #*",
+      "  #"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 30,
+    "ps4_ordinal": 30
+  },
+  {
+    "hash": "ls",
+    "source_hash": "ls",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "#  ",
+      "#* ",
+      "#  "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 31,
+    "ps4_ordinal": 31
+  },
+  {
+    "hash": "ms",
+    "source_hash": "ms",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "   ",
+      "###",
+      " * "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 32,
+    "ps4_ordinal": 32
+  },
+  {
+    "hash": "rs",
+    "source_hash": "rs",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "  #",
+      " *#",
+      "  #"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 33,
+    "ps4_ordinal": 33
+  },
+  {
+    "hash": "ts",
+    "source_hash": "ts",
+    "group": 1,
+    "crafting_type": 1,
+    "shape": [
+      "###",
+      " * ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 34,
+    "ps4_ordinal": 34
+  },
+  {
+    "hash": "bt",
+    "source_hash": "bt",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      " * ",
+      " # ",
+      "# #"
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 35,
+    "ps4_ordinal": 35
+  },
+  {
+    "hash": "tt",
+    "source_hash": "tt",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      "# #",
+      " # ",
+      " * "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 36,
+    "ps4_ordinal": 36
+  },
+  {
+    "hash": "bts",
+    "source_hash": "bts",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      "   ",
+      "#*#",
+      " # "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 37,
+    "ps4_ordinal": 37
+  },
+  {
+    "hash": "tts",
+    "source_hash": "tts",
+    "group": 3,
+    "crafting_type": 1,
+    "shape": [
+      " # ",
+      "#*#",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "ps4_id": 38,
+    "ps4_ordinal": 38
+  },
+  {
+    "hash": "bo",
+    "source_hash": "loom:bo",
+    "group": 4,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 101,
+    "ps4_ordinal": 1,
+    "registration_pc": "0x4b52a"
+  },
+  {
+    "hash": "mc",
+    "source_hash": "loom:mc",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 103,
+    "ps4_ordinal": 3,
+    "registration_pc": "0x4b5eb"
+  },
+  {
+    "hash": "cr",
+    "source_hash": "loom:cr",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 105,
+    "ps4_ordinal": 5,
+    "registration_pc": "0x4b6ac"
+  },
+  {
+    "hash": "ld",
+    "source_hash": "loom:ld",
+    "group": 2,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 107,
+    "ps4_ordinal": 7,
+    "registration_pc": "0x4b76d"
+  },
+  {
+    "hash": "rud",
+    "source_hash": "loom:rud",
+    "group": 2,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 108,
+    "ps4_ordinal": 8,
+    "registration_pc": "0x4b82e"
+  },
+  {
+    "hash": "lud",
+    "source_hash": "loom:lud",
+    "group": 2,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 109,
+    "ps4_ordinal": 9,
+    "registration_pc": "0x4b8ef"
+  },
+  {
+    "hash": "rd",
+    "source_hash": "loom:rd",
+    "group": 2,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 110,
+    "ps4_ordinal": 10,
+    "registration_pc": "0x4b9b0"
+  },
+  {
+    "hash": "gra",
+    "source_hash": "loom:gra",
+    "group": 4,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 112,
+    "ps4_ordinal": 12,
+    "registration_pc": "0x4ba71"
+  },
+  {
+    "hash": "gru",
+    "source_hash": "loom:gru",
+    "group": 4,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 113,
+    "ps4_ordinal": 13,
+    "registration_pc": "0x4bb32"
+  },
+  {
+    "hash": "hh",
+    "source_hash": "loom:hh",
+    "group": 2,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 114,
+    "ps4_ordinal": 14,
+    "registration_pc": "0x4bbf3"
+  },
+  {
+    "hash": "hhb",
+    "source_hash": "loom:hhb",
+    "group": 2,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 115,
+    "ps4_ordinal": 15,
+    "registration_pc": "0x4bcb4"
+  },
+  {
+    "hash": "vh",
+    "source_hash": "loom:vh",
+    "group": 2,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 116,
+    "ps4_ordinal": 16,
+    "registration_pc": "0x4bd75"
+  },
+  {
+    "hash": "vhr",
+    "source_hash": "loom:vhr",
+    "group": 2,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 117,
+    "ps4_ordinal": 17,
+    "registration_pc": "0x4be36"
+  },
+  {
+    "hash": "mr",
+    "source_hash": "loom:mr",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 119,
+    "ps4_ordinal": 19,
+    "registration_pc": "0x4bef7"
+  },
+  {
+    "hash": "ss",
+    "source_hash": "loom:ss",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 121,
+    "ps4_ordinal": 21,
+    "registration_pc": "0x4bfb8"
+  },
+  {
+    "hash": "bl",
+    "source_hash": "loom:bl",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 122,
+    "ps4_ordinal": 22,
+    "registration_pc": "0x4c079"
+  },
+  {
+    "hash": "br",
+    "source_hash": "loom:br",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 123,
+    "ps4_ordinal": 23,
+    "registration_pc": "0x4c13a"
+  },
+  {
+    "hash": "tl",
+    "source_hash": "loom:tl",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 124,
+    "ps4_ordinal": 24,
+    "registration_pc": "0x4c1fb"
+  },
+  {
+    "hash": "tr",
+    "source_hash": "loom:tr",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 125,
+    "ps4_ordinal": 25,
+    "registration_pc": "0x4c2bc"
+  },
+  {
+    "hash": "sc",
+    "source_hash": "loom:sc",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 126,
+    "ps4_ordinal": 26,
+    "registration_pc": "0x4c37d"
+  },
+  {
+    "hash": "bs",
+    "source_hash": "loom:bs",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 127,
+    "ps4_ordinal": 27,
+    "registration_pc": "0x4c43e"
+  },
+  {
+    "hash": "cs",
+    "source_hash": "loom:cs",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 128,
+    "ps4_ordinal": 28,
+    "registration_pc": "0x4c4ff"
+  },
+  {
+    "hash": "dls",
+    "source_hash": "loom:dls",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 129,
+    "ps4_ordinal": 29,
+    "registration_pc": "0x4c5c0"
+  },
+  {
+    "hash": "drs",
+    "source_hash": "loom:drs",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 130,
+    "ps4_ordinal": 30,
+    "registration_pc": "0x4c681"
+  },
+  {
+    "hash": "ls",
+    "source_hash": "loom:ls",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 131,
+    "ps4_ordinal": 31,
+    "registration_pc": "0x4c742"
+  },
+  {
+    "hash": "ms",
+    "source_hash": "loom:ms",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 132,
+    "ps4_ordinal": 32,
+    "registration_pc": "0x4c803"
+  },
+  {
+    "hash": "rs",
+    "source_hash": "loom:rs",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 133,
+    "ps4_ordinal": 33,
+    "registration_pc": "0x4c8c4"
+  },
+  {
+    "hash": "ts",
+    "source_hash": "loom:ts",
+    "group": 1,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 134,
+    "ps4_ordinal": 34,
+    "registration_pc": "0x4c985"
+  },
+  {
+    "hash": "bt",
+    "source_hash": "loom:bt",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 135,
+    "ps4_ordinal": 35,
+    "registration_pc": "0x4ca46"
+  },
+  {
+    "hash": "tt",
+    "source_hash": "loom:tt",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 136,
+    "ps4_ordinal": 36,
+    "registration_pc": "0x4cb07"
+  },
+  {
+    "hash": "bts",
+    "source_hash": "loom:bts",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 137,
+    "ps4_ordinal": 37,
+    "registration_pc": "0x4cbc8"
+  },
+  {
+    "hash": "tts",
+    "source_hash": "loom:tts",
+    "group": 3,
+    "crafting_type": 5,
+    "shape": [
+      "   ",
+      "   ",
+      "   "
+    ],
+    "special": null,
+    "reusable": false,
+    "loom": true,
+    "ps4_id": 138,
+    "ps4_ordinal": 38,
+    "registration_pc": "0x4cc89"
+  }
+]

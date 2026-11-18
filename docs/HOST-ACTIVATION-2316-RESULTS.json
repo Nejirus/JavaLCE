@@ -1,0 +1,1215 @@
+{
+  "version": "2.3.16",
+  "scope": "Host-menu focused confirmation, time/spawn actions and all checkboxes through controller and mouse",
+  "reproduction": {
+    "version": "2.3.15",
+    "jar_sha256": "c3049b05878315c93ecea3fadaae85838b437e53661af14ca92bf07c2fc936e5",
+    "input": "controller",
+    "action": "Set Day",
+    "before": 1234,
+    "after": 1234,
+    "expected": 6000,
+    "status": "failed"
+  },
+  "automated_suites": [
+    {
+      "tests": 408,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite after focused host confirmation correction"
+    }
+  ],
+  "runtime": {
+    "status": "passed",
+    "mod": "2.3.16",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "controller at 720p OFF: Set Day/Night, world/player spawn, all global/self/guest checkboxes verified through the actual UI and server state",
+      "mouse at 720p OFF: Set Day/Night, world/player spawn, all global/self/guest checkboxes verified through the actual UI and server state",
+      "controller at 1440p LCE Look: Set Day/Night, world/player spawn, all global/self/guest checkboxes verified through the actual UI and server state",
+      "mouse at 1440p LCE Look: Set Day/Night, world/player spawn, all global/self/guest checkboxes verified through the actual UI and server state"
+    ],
+    "screenshots": [
+      {
+        "file": "profile-0-group-0-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "bf58335a12f4259d562a259a3ea051338db943bf10479edf67afe3fd5a3f3c3c"
+      },
+      {
+        "file": "profile-0-group-0-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "b08b6223603a7c1cbc3a5f1f8da59dce159d077c71356a2c77be8fd090709024"
+      },
+      {
+        "file": "profile-0-group-1-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "b27e98f79335e969c57ff9d9ee402c170c93f19403e5478c4893fcbb710c4af5"
+      },
+      {
+        "file": "profile-0-group-1-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "7b2064dd646321f67e45d2abca6f910542ff9a8f3ababaf445b8478b41835b7a"
+      },
+      {
+        "file": "profile-0-group-2-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "51dd18be6a6878bb629a254cc24d27d422c855037e5784ab39dca60372f6aa7c"
+      },
+      {
+        "file": "profile-0-group-2-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "f91dcd98291c88996aadfe81f2de7aef0a8731cefff622c648b595bfbbac1fca"
+      },
+      {
+        "file": "profile-1-group-0-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "22ceeddf27db951d9738e9cab7dff9cbd3bd29bb7ec81a8a623a1b511d8980aa"
+      },
+      {
+        "file": "profile-1-group-0-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "dcb669d4631f909262a42a632d6246790fd0c8e22a2a08383d2a6210e238ea18"
+      },
+      {
+        "file": "profile-1-group-1-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "a609e0dcc002bba68f6b89c59a0e89e0e55a7333d9d694e4da32aab3acc12e1f"
+      },
+      {
+        "file": "profile-1-group-1-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "a74687c8e025e893d044e828cc40573a8d3fc9ae4f52282ba5f619e03b3b6041"
+      },
+      {
+        "file": "profile-1-group-2-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "f3a49afd4073ab64614a1cd83b75383f01e42dabbf31391d58f2701fafd2a185"
+      },
+      {
+        "file": "profile-1-group-2-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "61069e60f5954750c47944666d3c754a55c119123820ffdc18f9c4a3f38c5c75"
+      },
+      {
+        "file": "profile-2-group-0-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "494c0e8e6e33a405c931595470c5d5ce73363781e3d99f92f3da45e1fc3aaab1"
+      },
+      {
+        "file": "profile-2-group-0-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "e03be6574750edc73d422a8cffa63a5795f01713f26c66d41cb1f44767a13cc2"
+      },
+      {
+        "file": "profile-2-group-1-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "caf1c025400ff69e66c2b025249ab390517b2c7c5144a8dfb8682d120faa16a9"
+      },
+      {
+        "file": "profile-2-group-1-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "91b7e27def8be5492ff6d503339725e396e5e5802fe94a2aed640372517a6ae3"
+      },
+      {
+        "file": "profile-2-group-2-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "523e01bf771966351f779ebeddc0756c1306731f840040b44f4d901a4ff1d381"
+      },
+      {
+        "file": "profile-2-group-2-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "5c95865af31aac64e3a13938f96a3ed2d9b61a98f516b230ba331fb0ea7d31dd"
+      },
+      {
+        "file": "profile-3-group-0-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3919434aa9b07aa2788ccc5ee077b996ac211cb2288d572c2568210d99dbbdad"
+      },
+      {
+        "file": "profile-3-group-0-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8a5c1c8190314c7d85f1574815ca09e5a4aaafe78e45cdbb9c64c2a68542dc91"
+      },
+      {
+        "file": "profile-3-group-1-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4364abfc4eb4554c60c913c9674e0a8a5f804356a62f811db480599ca87ab5f6"
+      },
+      {
+        "file": "profile-3-group-1-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0507719932175c164fa97b68d1b51ee96beb6f5340d7a18fdf99bf87e645ea03"
+      },
+      {
+        "file": "profile-3-group-2-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3fff3067d0b9a6fb45b838af69fb00b0a3abe34e621f22a44ad0976474be0f4e"
+      },
+      {
+        "file": "profile-3-group-2-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "455d864b865c9bb38df62ac4f928e8a4600357910dab3e1f13a56ab2484191dc"
+      }
+    ],
+    "actions": [
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 12,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 13,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 14,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 0,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 1,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 2,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 3,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 4,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 5,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 9,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 6,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 7,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 8,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 18,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 1,
+        "action": 109,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 1,
+        "action": 107,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 1,
+        "action": 108,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 1,
+        "action": 112,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 100,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 101,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 102,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 103,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 104,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 105,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 109,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 107,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 108,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 106,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 12,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 13,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 14,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 0,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 1,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 2,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 3,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 4,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 5,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 9,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 6,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 7,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 8,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 18,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 1,
+        "action": 109,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 1,
+        "action": 107,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 1,
+        "action": 108,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 1,
+        "action": 112,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 100,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 101,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 102,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 103,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 104,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 105,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 109,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 107,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 108,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 106,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 12,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 13,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 14,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 0,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 1,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 2,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 3,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 4,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 5,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 9,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 6,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 7,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 8,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 18,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 1,
+        "action": 109,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 1,
+        "action": 107,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 1,
+        "action": 108,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 1,
+        "action": 112,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 100,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 101,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 102,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 103,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 104,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 105,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 109,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 107,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 108,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 106,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 12,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 13,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 14,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 0,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 1,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 2,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 3,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 4,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 5,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 9,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 6,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 7,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 8,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 18,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 1,
+        "action": 109,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 1,
+        "action": 107,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 1,
+        "action": 108,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 1,
+        "action": 112,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 100,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 101,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 102,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 103,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 104,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 105,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 109,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 107,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 108,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 106,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      }
+    ]
+  }
+}

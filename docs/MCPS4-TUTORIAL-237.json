@@ -1,0 +1,44 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "sources": {
+    "eboot.bin": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+    "Tutorial.mcs": "9e5133519c7229ceac89eeeaab50068f768d1ae1fdfc3af59e473132685578ae",
+    "Tutorial.pck": "c12e2e23d2e046aad691d6d4bf112629b86b7030a8d7ad959882819c3deac250",
+    "TutorialPopup1080.fui": "4ae6ac88583f49039852b841398a238e19446f9399f53b0c52ab8d4cc7d6c8e3"
+  },
+  "template_sha256": "497f4d3f8ffc24ebcdd975e0c6a1670bbdec10cb9f0e417925be588d665677b7",
+  "native_addresses": {
+    "FullTutorial": "0x964350",
+    "Tutorial": "0x96d5c0",
+    "common_tasks": "0x999780",
+    "common_hints": "0x986450",
+    "block_descriptions": "vtable +0x370",
+    "stone_variants": "0x67f1f0"
+  },
+  "chunks": 3384,
+  "world_seed": 110485071283,
+  "spawn": [
+    -15,
+    71,
+    85
+  ],
+  "starting_area": [
+    -36,
+    0,
+    62,
+    20,
+    75,
+    113
+  ],
+  "main_registrations": 43,
+  "main_flattened_tasks": 45,
+  "common_menu_states": 17,
+  "full_area_hints": 6,
+  "hunt_discs": 12,
+  "timings_ms": {
+    "hint_delay": 14000,
+    "hint_display": 7000,
+    "minimum_input": 2000
+  }
+}

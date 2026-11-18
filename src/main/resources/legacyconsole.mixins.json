@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "minVersion": "0.8.4",
+  "package": "dev.legacyconsole.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "legacyconsole.refmap.json",
+  "client": [
+    "SoundManagerMixin",
+    "SoundBufferLibraryMixin",
+    "SoundEngineMixin",
+    "WindowMixin",
+    "LocalPlayerMixin",
+    "MapRendererMixin",
+    "OptifineShaderMacrosMixin",
+    "OptifineParticleMixin",
+    "MinecraftMixin",
+    "BoatMixin",
+    "ContainerScreenMixin",
+    "ChatScreenMixin",
+    "ChatComponentMixin",
+    "GuiMessageMixin",
+    "AdvancementToastMixin",
+    "ToastComponentMixin",
+    "ProgressScreenAccess",
+    "ConnectScreenAccess",
+    "BackupConfirmScreenAccess",
+    "LevelLoadingScreenAccess",
+    "MouseHandlerAccess",
+    "HeldMapBackgroundMixin",
+    "HeldMapViewportMixin",
+    "MapTextureMixin",
+    "PlayerNameTagBorderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MapItemMixin",
+    "EmptyMapItemMixin",
+    "ServerPlayerSpawnMixin",
+    "CartographyMenuMixin",
+    "CartographyInputSlotMixin",
+    "MapRenamePacketMixin",
+    "SleepAnnouncementsMixin",
+    "WorldGenSettingsMixin",
+    "LegacyBiomeManagerMixin",
+    "Ps4StructureSaveMixin",
+    "Ps4VillageReferencesMixin",
+    "HostExhaustionMixin"
+  ]
+}

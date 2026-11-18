@@ -1,0 +1,273 @@
+{
+  "environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "renderer": "llvmpipe"
+  },
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Play Tutorial launches original PS4 world with original spawn, health, food, steak, classic bounds and Nether scale 3",
+      "All 12 original hunt chests and tagged discs survived conversion; duplicates rejected and completion persists",
+      "Tutorial starting-area restriction returns an escaping player",
+      "Original tutorial popup captured at eight framebuffer sizes with shaders OFF and LCE Look",
+      "Client welcome confirmation advances the authoritative tutorial through the network channel"
+    ],
+    "screenshots": [
+      {
+        "file": "off-tutorial-popup-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "f857f6250cb5389e2cdd427bc0b08e486bb60d48e7cdb2a3efc5fb4d2626b163"
+      },
+      {
+        "file": "off-tutorial-popup-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "716465a37c33b135a4472350d4e76d6c80a4fffb4a677ac4f75bfcc14bae9c90"
+      },
+      {
+        "file": "off-tutorial-popup-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "991a2ad87d800473412f72d2d7e4fdd13edd502ee3a69fc3ff6719c25a736e85"
+      },
+      {
+        "file": "off-tutorial-popup-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "0a32941341b1ee8b1810e71ea83ed24bdd6b368499169b3d04a004862946e73e"
+      },
+      {
+        "file": "off-tutorial-popup-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "3ab6a8c3bb300228040362e91066aa6fe2cb3b680f596a2854c962aab91a6641"
+      },
+      {
+        "file": "off-tutorial-popup-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "f45ead267d6066c633da62c409aa0de2ef7758d480a9afdc54a1934b8e6470ae"
+      },
+      {
+        "file": "off-tutorial-popup-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "3fb0f5b9f2a0bcb172a4307fe4d64d325edc075a73e0d62750e16f0839537888"
+      },
+      {
+        "file": "off-tutorial-popup-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "d810398b8e777d7fceb4d534ab943d0e8204078c85757b0ff3703d531edd4a3a"
+      },
+      {
+        "file": "look-tutorial-popup-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "17b4675ca0cc8652a96f44f9fb2e85b1dcc8c656218577e221988f94e7b54958"
+      },
+      {
+        "file": "look-tutorial-popup-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": true,
+        "sha256": "1242f102b55035e84e44da284cab8318078c3ffcaf75dc48b484025db7267380"
+      },
+      {
+        "file": "look-tutorial-popup-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "653be12fafb405223ba5a3e2854628bc354ab3b0f23444537a5043ed798c8da9"
+      },
+      {
+        "file": "look-tutorial-popup-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": true,
+        "sha256": "01645d92e7e45d286db10794161347d9ee21ee194a745f894bca59291de5073d"
+      },
+      {
+        "file": "look-tutorial-popup-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": true,
+        "sha256": "5e9333d0579bcf1091e7d707b8b0882f641dd5e9220caf906c7d7b93abc42812"
+      },
+      {
+        "file": "look-tutorial-popup-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": true,
+        "sha256": "8d5b104f11d42282c887f5fcee52d508d45941583afe04afc20d94b11e57a7eb"
+      },
+      {
+        "file": "look-tutorial-popup-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": true,
+        "sha256": "e2045b9f5e7a8dbe3bcd3d0964f08a7a3e0080f6b324d433497573421b7a8004"
+      },
+      {
+        "file": "look-tutorial-popup-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": true,
+        "sha256": "053b0afdde85a3a76676da9a5bcf4605f3cc104aa215e5cd8ff737162fd4ed06"
+      }
+    ]
+  },
+  "menu_captures": [
+    {
+      "file": "off-play-tutorial-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "shaders": false,
+      "sha256": "46cbd2b82a025fd0f42fe159fa4bd9c1d0b91b48d2a98371942d7d9dac311584"
+    },
+    {
+      "file": "off-play-tutorial-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "shaders": false,
+      "sha256": "3b36b065874297038abdb8a615a4350984496148e3cb87ef509ef125c9d0524f"
+    },
+    {
+      "file": "off-play-tutorial-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "shaders": false,
+      "sha256": "8f5174cfd2da7eb059018fd9c1e70417efb5eb8e2c6767105c07a3ec46cf3d49"
+    },
+    {
+      "file": "off-play-tutorial-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "shaders": false,
+      "sha256": "937a7c7a88355d0d04bf0a003c97fc714a85e49e349082104aa1f8436917ed32"
+    },
+    {
+      "file": "off-play-tutorial-1024x768.png",
+      "width": 1024,
+      "height": 768,
+      "shaders": false,
+      "sha256": "59ce8c2c4cd2b9b526c2c08e269f3070ed384204ab8193046e7ed53f2b22911b"
+    },
+    {
+      "file": "off-play-tutorial-1600x1000.png",
+      "width": 1600,
+      "height": 1000,
+      "shaders": false,
+      "sha256": "f4482b597af5270f9297977117e7189ce789988b97086fd2f0ac96e97547dd6c"
+    },
+    {
+      "file": "off-play-tutorial-1512x982.png",
+      "width": 1512,
+      "height": 982,
+      "shaders": false,
+      "sha256": "9ba641a480929d8b123fde8568fee1b43534d363eba8da04aca16c2557962a95"
+    },
+    {
+      "file": "off-play-tutorial-3024x1964.png",
+      "width": 3024,
+      "height": 1964,
+      "shaders": false,
+      "sha256": "2e6f3d6ee6ed8ae5d151be0bd9ae682c598fb1a9c4a7ce9f1661c01125d38062"
+    },
+    {
+      "file": "look-play-tutorial-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "shaders": true,
+      "sha256": "79e25bb4657ae1514960fd9f90a77a4e48cc7851a0e103f1e297dc70e41267d2"
+    },
+    {
+      "file": "look-play-tutorial-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "shaders": true,
+      "sha256": "6a7acb4f5949439133b1ad6969fcf2b956d3af939261a48cc3e6a5052c076753"
+    },
+    {
+      "file": "look-play-tutorial-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "shaders": true,
+      "sha256": "bf7a8ea711c9ce6e1fc2621fcd506ff3f84e65e79f5813df47a1c744cf886b36"
+    },
+    {
+      "file": "look-play-tutorial-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "shaders": true,
+      "sha256": "b726ec27ee03bd38964bd5976a9bbdf5a29a5a6290ff3e56e1dae397ba32e9b6"
+    },
+    {
+      "file": "look-play-tutorial-1024x768.png",
+      "width": 1024,
+      "height": 768,
+      "shaders": true,
+      "sha256": "15f54bb208e905f522ef359442ac758311369248bfc05209cab25446cf85892c"
+    },
+    {
+      "file": "look-play-tutorial-1600x1000.png",
+      "width": 1600,
+      "height": 1000,
+      "shaders": true,
+      "sha256": "e31b9d639770726695f2380eeb2be12ea8151bd067a6fc04fa4d886f170685c4"
+    },
+    {
+      "file": "look-play-tutorial-1512x982.png",
+      "width": 1512,
+      "height": 982,
+      "shaders": true,
+      "sha256": "2468c1580080bfb4e9458154067a3a8353e7cfef2748a02585aead70d50440ab"
+    },
+    {
+      "file": "look-play-tutorial-3024x1964.png",
+      "width": 3024,
+      "height": 1964,
+      "shaders": true,
+      "sha256": "561ef25f8a2ca674c109e60ce6ff2c4fdcbc4eff1c76b1f1fcac0c8d0106dd38"
+    }
+  ],
+  "tested_jars": {
+    "legacy-console-1.17.1-2.3.7.jar": "aeabaaed5eca79b00022836bc53f1bea867052631282429b36027f6163f7950c",
+    "legacy-join-compat-1.17.1-2.3.7.jar": "a983bea121ee428af6371cacd334714b166dfafee40364fcc8dbe9b1f9de4421"
+  },
+  "scope": [
+    "Final production jars launch the tutorial through the new menu button.",
+    "16 menu captures precede the final launch-dialog adapter; placement source is unchanged.",
+    "16 tutorial captures use the final production jars and assert physical framebuffer sizes and shader states."
+  ],
+  "limits": [
+    "No full end-to-end player playthrough of every recovered task/menu branch.",
+    "Some console-only entity attributes are ignored by Java; entity physics and AI are native Java.",
+    "Not every conditional PS4 hint or screenshot token is implemented.",
+    "Physical Retina display, controller hardware and authenticated remote multiplayer were not tested."
+  ],
+  "automated_suites": [
+    {
+      "tests": 365,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "log": "full-final-tests.log",
+      "scope": "Full automated suite after final production changes"
+    }
+  ]
+}

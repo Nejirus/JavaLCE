@@ -1,0 +1,23 @@
+{
+  "version": "2.2.1",
+  "map_fix": {
+    "target": "Minecraft 1.17.1 / OptiFine 1.17.1 HD U H1",
+    "cause": "GlStateManager.applyAlphaTest updates the OptiFine alphaTestRef uniform; uniform updates can flush buffered item geometry inside map render-state setup, replacing its texture binding.",
+    "adaptation": "Suspend RenderUtils buffer flushing only around map alpha-state capture/disable/restore; restore the previous flush flag in finally. No shaderpack equations or map textures changed.",
+    "vanilla": "Original custom core shader remains for 16/255 and 24/255 unexplored pixels."
+  },
+  "seed_policy_reference": {
+    "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+    "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+    "path": "Minecraft.Client/Common/UI/UIScene_CreateWorldMenu.cpp",
+    "lines": "1095-1146",
+    "behavior": "Explicit seed parsed/hashed; blank seed sets findSeed for server initialization.",
+    "sha256": "571d5f565d6a7864029356755bf918ad5e4dfd4242b5cd716996c3dc140f0e8b"
+  },
+  "controls": {
+    "layout": "Requested full-width World Type, then World Size, then Biome Scale",
+    "checkbox_assets": "Existing original LCE HD checkbox, checkbox_selected and tick sprites",
+    "checkbox_policy": "Legacy only, on by default, blank seed only, runs on creation, cancelable",
+    "seed_storage": "Chosen seed updates both the textbox and backing creation model before screen reinitialization."
+  }
+}

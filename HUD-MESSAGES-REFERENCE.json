@@ -1,0 +1,175 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "sleep_message_path": [
+    "Minecraft.World/BedTile.cpp: NOT_POSSIBLE_NOW -> IDS_TILE_BED_NO_SLEEP; NOT_SAFE -> IDS_TILE_BED_NOTSAFE",
+    "Minecraft.Client/LocalPlayer.cpp: LocalPlayer::displayClientMessage -> Gui::displayClientMessage",
+    "Minecraft.Client/Gui.cpp: Gui::displayClientMessage -> Gui::addMessage"
+  ],
+  "chat_opacity_source": "Gui::getOpacity and UIComponent_Chat::handleTimerComplete apply message age to each LabelNBackground and LabelN; Java ChatComponent retains the same ten-second quadratic fade function.",
+  "chat_backgrounds": {
+    "HUD720.swf": {
+      "sha256": "b61f9bcc83f618a4cb8940249aab6d27e3ec25b28ba617ea780dcf66dcb53d96",
+      "background": {
+        "id": 4,
+        "type": "sprite",
+        "nodes": [
+          {
+            "depth": 1,
+            "id": 3,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0,
+              0
+            ],
+            "child": {
+              "id": 3,
+              "type": "shape",
+              "bounds": [
+                0.0,
+                1378.0,
+                0.0,
+                35.0
+              ],
+              "fills": [
+                {
+                  "solid": [
+                    51,
+                    51,
+                    51,
+                    127
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placements": [
+        {
+          "depth": 9,
+          "id": 4,
+          "matrix": [
+            0.9288787841796875,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            472.0
+          ],
+          "name": "Label1Background"
+        },
+        {
+          "depth": 27,
+          "class": "fourj.Labels.FJ_Label_HUD_White",
+          "matrix": [
+            11.428436279296875,
+            0.0,
+            0.0,
+            1.346160888671875,
+            0.0,
+            472.0
+          ],
+          "name": "Label1"
+        }
+      ]
+    },
+    "HUD1080.swf": {
+      "sha256": "06912bf2e02800665afa9504e1a9871459b521bdab526484ecfc09dbea020448",
+      "background": {
+        "id": 4,
+        "type": "sprite",
+        "nodes": [
+          {
+            "depth": 1,
+            "id": 3,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0,
+              0
+            ],
+            "child": {
+              "id": 3,
+              "type": "shape",
+              "bounds": [
+                0.0,
+                1378.0,
+                0.0,
+                35.0
+              ],
+              "fills": [
+                {
+                  "solid": [
+                    51,
+                    51,
+                    51,
+                    127
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "placements": [
+        {
+          "depth": 9,
+          "id": 4,
+          "matrix": [
+            1.393310546875,
+            0.0,
+            0.0,
+            1.428558349609375,
+            0.0,
+            700.0
+          ],
+          "name": "Label1Background"
+        },
+        {
+          "depth": 27,
+          "class": "fourj.Labels.FJ_Label_HUD_White",
+          "matrix": [
+            13.384490966796875,
+            0.0,
+            0.0,
+            1.346160888671875,
+            0.0,
+            700.0
+          ],
+          "name": "Label1"
+        }
+      ]
+    }
+  },
+  "full_width_evidence": "Gui.cpp documents filling the black bar across the whole screen for safe-area compatibility. The active HUD movie LabelNBackground shapes corroborate this: original width 1378 is scaled to 1280 or 1920 at X=0, with fill RGBA [51,51,51,127].",
+  "java_adaptation": [
+    "Bed failure overlay Components are delivered to native chat history, retaining translations and rich text. The native server continues to decide whether sleeping is allowed.",
+    "Visible chat and advancement announcement rows extend to both viewport edges after inverting the actual chat pose translation/scale. Native text wrapping, chat width, click/link positions, vertical placement, background-opacity setting and fade are retained.",
+    "The source shape is a flat colour rectangle, so it is drawn directly using the original RGB 51 rather than inventing a texture.",
+    "The achievement popup is outside this change; the user identified achievement announcements in chat."
+  ],
+  "source_files": [
+    {
+      "path": "Minecraft.World/BedTile.cpp",
+      "sha256": "33ee99de60869c4a39afd392407be9ddd914cc520e69966430dcb2314524ab1d"
+    },
+    {
+      "path": "Minecraft.Client/LocalPlayer.cpp",
+      "sha256": "b46429c8705c369d355beda663041dbcf524764aa9f0a82477cc9cca9dc145c1"
+    },
+    {
+      "path": "Minecraft.Client/Gui.cpp",
+      "sha256": "992b489a18036199ae27274a279bb9cc467f6169bef2f7ad9a87c3180e15a517"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIComponent_Chat.cpp",
+      "sha256": "157949cb6b4003d5038899a78f287dbbfcce7baf3df54ba3da758540bd94caae"
+    }
+  ]
+}

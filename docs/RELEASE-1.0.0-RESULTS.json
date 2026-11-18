@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "release_name": "Release 1.0.0",
+  "renamed_from": "2.3.18",
+  "baseline_commit": "03dc18c2ed846e96be1f218eab3a0f169c5cbe2a",
+  "network_protocol": 8,
+  "jar_comparisons": [
+    {
+      "filename": "legacy-console-1.17.1-1.0.0.jar",
+      "baseline_sha256": "e99ff817a39c6067330e054f28b44955446298e67972fd5761be5be5972dbd20",
+      "sha256": "6287ee3852702b7c585734a4027774880a5941a9d3d70688e1827b102e8ef42b",
+      "identical_entries": 2338,
+      "version_label_entries": [
+        "META-INF/MANIFEST.MF",
+        "dev/legacyconsole/client/ui/ConsoleMainMenu.class",
+        "dev/legacyconsole/LegacyConsole.class",
+        "META-INF/mods.toml"
+      ],
+      "normalized_equivalent": true
+    },
+    {
+      "filename": "legacy-join-compat-1.17.1-1.0.0.jar",
+      "baseline_sha256": "9faa0edd3371727b1fb68cfa285c0b9674bf7bc3dba69a276ff396d32fa9124c",
+      "sha256": "eefe08d5cff4dc7a883c5b9ad05a3c1f6a85fd26f1ad5eae954890c609b4cc75",
+      "identical_entries": 11,
+      "version_label_entries": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "normalized_equivalent": true
+    },
+    {
+      "filename": "legacy-console-1.17.1-1.0.0-sources.jar",
+      "baseline_sha256": "ee3709c4cb5242ccf92fd1afbc8e17c84046be7bab2796aec84c513afa308baa",
+      "sha256": "fe97f54c69eb8ee7e3236b05b3f703a1cb4f9c2c9365af067a0bfc5326bb861c",
+      "identical_entries": 2005,
+      "version_label_entries": [
+        "META-INF/mods.toml",
+        "dev/legacyconsole/client/ui/ConsoleMainMenu.java",
+        "dev/legacyconsole/LegacyConsole.java"
+      ],
+      "normalized_equivalent": true
+    }
+  ],
+  "new_gameplay_test_run": false,
+  "validation_provenance": "docs/MAP-CURSOR-2318-RESULTS.json",
+  "baseline_validation": {
+    "automated_tests": 421,
+    "native_layer_cases": 64,
+    "cursor_visibility_views": 256,
+    "emitted_vertex_checks": 256,
+    "previous_version": "2.3.17",
+    "previous_failing_views": 26,
+    "previous_total_views": 64,
+    "fixed_failing_views": 0,
+    "walking_captures": 24,
+    "viewport_profiles": 7,
+    "captures": 31,
+    "host_options_list_unchanged": true,
+    "live_downloads_verified": 5,
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "network_protocol": 8
+  }
+}

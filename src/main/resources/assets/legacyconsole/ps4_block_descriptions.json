@@ -1,0 +1,2514 @@
+[
+  {
+    "name": "stone",
+    "native_id": 1,
+    "pc": "0x95b3a",
+    "name_hash": "8bad4dac",
+    "description_hash": "46782239",
+    "text": "Can be mined with a pickaxe to collect cobblestone."
+  },
+  {
+    "name": "grass",
+    "native_id": 2,
+    "pc": "0x95cf1",
+    "name_hash": "c3aed26b",
+    "description_hash": "504be4ae",
+    "text": "A block of dirt with grass growing on top. Collected using a shovel. Can be used for construction."
+  },
+  {
+    "name": "dirt",
+    "native_id": 3,
+    "pc": "0x95e69",
+    "name_hash": "672cd46c",
+    "description_hash": "5437faf1",
+    "text": "Collected using a shovel. Can be used for construction."
+  },
+  {
+    "name": "planks",
+    "native_id": 5,
+    "pc": "0x964c9",
+    "name_hash": "13035fa5",
+    "description_hash": "1c842361",
+    "text": "Used as a building material and can be crafted into many things. Can be crafted from any form of wood."
+  },
+  {
+    "name": "sapling",
+    "native_id": 6,
+    "pc": "0x9668d",
+    "name_hash": "6f4ddfc1",
+    "description_hash": "be37e0e4",
+    "text": "Can be planted and will eventually grow into a tree."
+  },
+  {
+    "name": "flowing_water",
+    "native_id": 8,
+    "pc": "0x96a7d",
+    "name_hash": "34cf51aa",
+    "description_hash": "a10ad34f",
+    "text": "Extinguishes fire and helps crops grow. Can be collected in a bucket."
+  },
+  {
+    "name": "water",
+    "native_id": 9,
+    "pc": "0x96c06",
+    "name_hash": "34cf51aa",
+    "description_hash": "a10ad34f",
+    "text": "Extinguishes fire and helps crops grow. Can be collected in a bucket."
+  },
+  {
+    "name": "flowing_lava",
+    "native_id": 10,
+    "pc": "0x96da3",
+    "name_hash": "eef49e15",
+    "description_hash": "2f2cd2b8",
+    "text": "Sets fire to anything that touches it. Can be collected in a bucket."
+  },
+  {
+    "name": "lava",
+    "native_id": 11,
+    "pc": "0x96f40",
+    "name_hash": "eef49e15",
+    "description_hash": "2f2cd2b8",
+    "text": "Sets fire to anything that touches it. Can be collected in a bucket."
+  },
+  {
+    "name": "sand",
+    "native_id": 12,
+    "pc": "0x970a6",
+    "name_hash": "e477542f",
+    "description_hash": "2c05fe82",
+    "text": "Collected using a shovel. Can be smelted into glass using the furnace. Is affected by gravity if there is no other tile underneath it."
+  },
+  {
+    "name": "gravel",
+    "native_id": 13,
+    "pc": "0x9721d",
+    "name_hash": "6ab0b644",
+    "description_hash": "befa9389",
+    "text": "Collected using a shovel. Sometimes produces flint when dug up. Is affected by gravity if there is no other tile underneath it."
+  },
+  {
+    "name": "gold_ore",
+    "native_id": 14,
+    "pc": "0x97397",
+    "name_hash": "053aa5c8",
+    "description_hash": "451ca025",
+    "text": "Can be mined with an iron pickaxe or better, then smelted in a furnace to produce gold ingots."
+  },
+  {
+    "name": "iron_ore",
+    "native_id": 15,
+    "pc": "0x97511",
+    "name_hash": "bb0020fa",
+    "description_hash": "d9247e57",
+    "text": "Can be mined with a stone pickaxe or better, then smelted in a furnace to produce iron ingots."
+  },
+  {
+    "name": "coal_ore",
+    "native_id": 16,
+    "pc": "0x9768b",
+    "name_hash": "d06a6009",
+    "description_hash": "ed8c0e54",
+    "text": "Can be mined with a pickaxe to collect coal."
+  },
+  {
+    "name": "log",
+    "native_id": 17,
+    "pc": "0x977d5",
+    "name_hash": "6284c9fb",
+    "description_hash": "4d75aa3e",
+    "text": "Chopped using an axe. Can be crafted into planks, used as a fuel, or stripped with an axe."
+  },
+  {
+    "name": "leaves",
+    "native_id": 18,
+    "pc": "0x9791f",
+    "name_hash": "cff1b597",
+    "description_hash": "da15164a",
+    "text": "When broken, sometimes drops a sapling which can be replanted to grow into a tree."
+  },
+  {
+    "name": "sponge",
+    "native_id": 19,
+    "pc": "0x97a85",
+    "name_hash": "ba98e3d7",
+    "description_hash": "567096da",
+    "text": "Can absorb water nearby, turning into a wet sponge in the process."
+  },
+  {
+    "name": "glass",
+    "native_id": 20,
+    "pc": "0x97bf7",
+    "name_hash": "67edf7b5",
+    "description_hash": "f3940610",
+    "text": "Created in a furnace by smelting sand. Can be used for construction, but will break if you try to mine it."
+  },
+  {
+    "name": "lapis_ore",
+    "native_id": 21,
+    "pc": "0x97d82",
+    "name_hash": "9755013f",
+    "description_hash": "ad0eeefa",
+    "text": "Can be mined with a stone pickaxe or better to collect lapis lazuli."
+  },
+  {
+    "name": "dispenser",
+    "native_id": 23,
+    "pc": "0x98160",
+    "name_hash": "66d6565e",
+    "description_hash": "c2fafa1b",
+    "text": "Used to hold and shoot out items in a random order when given a Redstone charge."
+  },
+  {
+    "name": "sandstone",
+    "native_id": 24,
+    "pc": "0x982be",
+    "name_hash": "d01aaf1c",
+    "description_hash": "6cdee509",
+    "text": "Used as a building material. Is not influenced by gravity like normal Sand."
+  },
+  {
+    "name": "noteblock",
+    "native_id": 25,
+    "pc": "0x98497",
+    "name_hash": "22358258",
+    "description_hash": "0ef9d20b",
+    "text": "Plays a note when triggered. Hit it to change the pitch of the note. Placing this on top of different blocks will change the type of instrument."
+  },
+  {
+    "name": "bed",
+    "native_id": 26,
+    "pc": "0x9861a",
+    "name_hash": "8625d364",
+    "description_hash": "b8e5e821",
+    "text": "Used to forward time from any time at night to morning if all the players in the world are in bed, and changes the spawn point of the player. \r\nBeds can be crafted in various colors by using dyed wool."
+  },
+  {
+    "name": "golden_rail",
+    "native_id": 27,
+    "pc": "0x98792",
+    "name_hash": "6936c885",
+    "description_hash": "470018ca",
+    "text": "When powered, accelerates minecarts that pass over it. When unpowered, causes minecarts to stop on it."
+  },
+  {
+    "name": "detector_rail",
+    "native_id": 28,
+    "pc": "0x98927",
+    "name_hash": "c929def4",
+    "description_hash": "d6f77db6",
+    "text": "Functions like a Pressure Plate (sends a Redstone signal when powered) but can only be activated by a Minecart."
+  },
+  {
+    "name": "sticky_piston",
+    "native_id": 29,
+    "pc": "0x98a4d",
+    "name_hash": "c02ed983",
+    "description_hash": "e0bd9c05",
+    "text": "When powered (using a button, a lever, a pressure plate, a redstone torch, or redstone with any one of these), a piston extends if it can and pushes blocks. When it retracts it pulls back the block touching the extended part of the piston."
+  },
+  {
+    "name": "web",
+    "native_id": 30,
+    "pc": "0x98c09",
+    "name_hash": "beed864f",
+    "description_hash": "a24b73ba",
+    "text": "Slows movement when walking through it. Can be destroyed using shears to collect string."
+  },
+  {
+    "name": "tallgrass",
+    "native_id": 31,
+    "pc": "0x98d77",
+    "name_hash": "64063791",
+    "description_hash": "d6bac09c",
+    "text": "Sometimes produces wheat seeds when broken."
+  },
+  {
+    "name": "deadbush",
+    "native_id": 32,
+    "pc": "0x98ee5",
+    "name_hash": "f0f425f8",
+    "description_hash": "5ceb143d",
+    "text": "Can be used as decoration."
+  },
+  {
+    "name": "piston",
+    "native_id": 33,
+    "pc": "0x98ff7",
+    "name_hash": "992f879a",
+    "description_hash": "286ca0e5",
+    "text": "When powered (using a button, a lever, a pressure plate, a redstone torch, or redstone with any one of these), a piston extends if it can and pushes blocks."
+  },
+  {
+    "name": "piston_head",
+    "native_id": 34,
+    "pc": "0x9913d",
+    "name_hash": "992f879a",
+    "description_hash": "286ca0e5",
+    "text": "When powered (using a button, a lever, a pressure plate, a redstone torch, or redstone with any one of these), a piston extends if it can and pushes blocks."
+  },
+  {
+    "name": "wool",
+    "native_id": 35,
+    "pc": "0x992ba",
+    "name_hash": "bf01d5cb",
+    "description_hash": "09c006f1",
+    "text": "Collected from sheep, and can be colored with dyes."
+  },
+  {
+    "name": "yellow_flower",
+    "native_id": 37,
+    "pc": "0x99568",
+    "name_hash": "43a69202",
+    "description_hash": "4737b9ef",
+    "text": "Can be crafted into a dye."
+  },
+  {
+    "name": "red_flower",
+    "native_id": 38,
+    "pc": "0x996d7",
+    "name_hash": "894c6039",
+    "description_hash": "4737b9ef",
+    "text": "Can be crafted into a dye."
+  },
+  {
+    "name": "brown_mushroom",
+    "native_id": 39,
+    "pc": "0x9981e",
+    "name_hash": "0b7adaeb",
+    "description_hash": "6eb533d6",
+    "text": "Can be crafted with a bowl to make stew."
+  },
+  {
+    "name": "red_mushroom",
+    "native_id": 40,
+    "pc": "0x99990",
+    "name_hash": "0b7adaeb",
+    "description_hash": "6eb533d6",
+    "text": "Can be crafted with a bowl to make stew."
+  },
+  {
+    "name": "double_stone_slab",
+    "native_id": 43,
+    "pc": "0x9a038",
+    "name_hash": "60ddfaa0",
+    "description_hash": "829bf11e",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "stone_slab",
+    "native_id": 44,
+    "pc": "0x9a1c4",
+    "name_hash": "60ddfaa0",
+    "description_hash": "333c0af5",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "tnt",
+    "native_id": 46,
+    "pc": "0x9a5ab",
+    "name_hash": "e9396789",
+    "description_hash": "bbb4736c",
+    "text": "Used to cause explosions. Activated after placing by igniting with Flint and Steel item, or with an electrical charge."
+  },
+  {
+    "name": "obsidian",
+    "native_id": 49,
+    "pc": "0x9ac56",
+    "name_hash": "047cbe1a",
+    "description_hash": "8b931867",
+    "text": "Can only be mined with a diamond pickaxe. Is produced by the meeting of water and still lava, and is used to build Nether portals."
+  },
+  {
+    "name": "torch",
+    "native_id": 50,
+    "pc": "0x9adde",
+    "name_hash": "e6c9f625",
+    "description_hash": "b920bd80",
+    "text": "Used to create light. Torches also melt snow and ice."
+  },
+  {
+    "name": "mob_spawner",
+    "native_id": 52,
+    "pc": "0x9b0fb",
+    "name_hash": "64ac489c",
+    "description_hash": "004330c9",
+    "text": "Spawns monsters into the world."
+  },
+  {
+    "name": "oak_stairs",
+    "native_id": 53,
+    "pc": "0x9b2ba",
+    "name_hash": "d1897145",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "chest",
+    "native_id": 54,
+    "pc": "0x9b449",
+    "name_hash": "708c68fe",
+    "description_hash": "a753f16b",
+    "text": "Stores blocks and items inside. Place two chests side by side to create a larger chest with double the capacity."
+  },
+  {
+    "name": "redstone_wire",
+    "native_id": 55,
+    "pc": "0x9b5db",
+    "name_hash": "2bbd75ee",
+    "description_hash": "83b8379b",
+    "text": "Can be placed on the ground to carry an electrical charge. When brewed with a potion it will increase the duration of the effect."
+  },
+  {
+    "name": "diamond_ore",
+    "native_id": 56,
+    "pc": "0x9b761",
+    "name_hash": "85b2e824",
+    "description_hash": "1f64b501",
+    "text": "Can be mined with an iron pickaxe or better to collect diamonds."
+  },
+  {
+    "name": "crafting_table",
+    "native_id": 58,
+    "pc": "0x9bb3c",
+    "name_hash": "e2e6e91c",
+    "description_hash": "e7d59516",
+    "text": "Allows you to craft a more varied selection of items than the normal crafting."
+  },
+  {
+    "name": "wheat",
+    "native_id": 59,
+    "pc": "0x9bca6",
+    "name_hash": "a2b4d032",
+    "description_hash": "ead0b3a7",
+    "text": "When fully grown, crops can be harvested to collect wheat."
+  },
+  {
+    "name": "farmland",
+    "native_id": 60,
+    "pc": "0x9bdee",
+    "name_hash": "37ae9f58",
+    "description_hash": "25e10a65",
+    "text": "Ground that has been prepared ready to plant seeds."
+  },
+  {
+    "name": "furnace",
+    "native_id": 61,
+    "pc": "0x9bfa7",
+    "name_hash": "8015994f",
+    "description_hash": "1435874a",
+    "text": "Allows you to smelt ore, create charcoal and glass, and cook fish and porkchops."
+  },
+  {
+    "name": "lit_furnace",
+    "native_id": 62,
+    "pc": "0x9c14a",
+    "name_hash": "8015994f",
+    "description_hash": "1435874a",
+    "text": "Allows you to smelt ore, create charcoal and glass, and cook fish and porkchops."
+  },
+  {
+    "name": "standing_sign",
+    "native_id": 63,
+    "pc": "0x9c2d0",
+    "name_hash": "c902e8b4",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "wooden_door",
+    "native_id": 64,
+    "pc": "0x9c45e",
+    "name_hash": "7513c0b0",
+    "description_hash": "2aaf6f70",
+    "text": "Wooden doors are activated by using, hitting them or with Redstone."
+  },
+  {
+    "name": "ladder",
+    "native_id": 65,
+    "pc": "0x9c5d5",
+    "name_hash": "b54f84cd",
+    "description_hash": "806b05b0",
+    "text": "Used to climb vertically."
+  },
+  {
+    "name": "rail",
+    "native_id": 66,
+    "pc": "0x9c76b",
+    "name_hash": "7acd0591",
+    "description_hash": "0c6204ec",
+    "text": "Used to guide minecarts."
+  },
+  {
+    "name": "stone_stairs",
+    "native_id": 323,
+    "pc": "0x9c8e1",
+    "name_hash": "34a49535",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "wall_sign",
+    "native_id": 68,
+    "pc": "0x9ca79",
+    "name_hash": "c902e8b4",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "lever",
+    "native_id": 69,
+    "pc": "0x9cbf0",
+    "name_hash": "5ad3769f",
+    "description_hash": "1937507a",
+    "text": "Used to send an electrical charge by being turned on or off. Stays in the on or off state until pressed again."
+  },
+  {
+    "name": "stone_pressure_plate",
+    "native_id": 70,
+    "pc": "0x9cd76",
+    "name_hash": "9b589145",
+    "description_hash": "7f85c858",
+    "text": "A pressure sensitive pad that will activate when heavy mobs or the player step on it."
+  },
+  {
+    "name": "iron_door",
+    "native_id": 71,
+    "pc": "0x9cf13",
+    "name_hash": "96ce6bc4",
+    "description_hash": "e4acc401",
+    "text": "Iron doors can only be opened by Redstone, buttons or switches."
+  },
+  {
+    "name": "wooden_pressure_plate",
+    "native_id": 72,
+    "pc": "0x9d084",
+    "name_hash": "003827f5",
+    "description_hash": "e761e240",
+    "text": "A sensitive Oak pressure plate that can be activated by applying almost any amount of pressure."
+  },
+  {
+    "name": "redstone_ore",
+    "native_id": 73,
+    "pc": "0x9d220",
+    "name_hash": "b3920e50",
+    "description_hash": "57c4c63d",
+    "text": "Can be mined with an iron pickaxe or better to collect redstone dust."
+  },
+  {
+    "name": "lit_redstone_ore",
+    "native_id": 74,
+    "pc": "0x9d3c2",
+    "name_hash": "b3920e50",
+    "description_hash": "57c4c63d",
+    "text": "Can be mined with an iron pickaxe or better to collect redstone dust."
+  },
+  {
+    "name": "unlit_redstone_torch",
+    "native_id": 75,
+    "pc": "0x9d535",
+    "name_hash": "7972a942",
+    "description_hash": "2e847ce0",
+    "text": "Constantly sends an electrical charge, or can be used as a receiver/transmitter when connected to the side of a block. \r\nCan also be used for low-level lighting."
+  },
+  {
+    "name": "redstone_torch",
+    "native_id": 76,
+    "pc": "0x9d6cb",
+    "name_hash": "7972a942",
+    "description_hash": "2e847ce0",
+    "text": "Constantly sends an electrical charge, or can be used as a receiver/transmitter when connected to the side of a block. \r\nCan also be used for low-level lighting."
+  },
+  {
+    "name": "stone_button",
+    "native_id": 77,
+    "pc": "0x9d84c",
+    "name_hash": "57495415",
+    "description_hash": "d31beeac",
+    "text": "Used to send an electrical charge by being pressed. Stays activated for approximately a second before shutting off again."
+  },
+  {
+    "name": "snow_layer",
+    "native_id": 78,
+    "pc": "0x9d9e1",
+    "name_hash": "f27c0102",
+    "description_hash": "af5216fb",
+    "text": "Can be dug with a shovel to create snowballs."
+  },
+  {
+    "name": "ice",
+    "native_id": 79,
+    "pc": "0x9db75",
+    "name_hash": "8a66ba28",
+    "description_hash": "654be4fd",
+    "text": "Slippery when walked on. Turns into water if above another block when destroyed. Melts if close enough to a light source or when placed in The Nether."
+  },
+  {
+    "name": "snow",
+    "native_id": 80,
+    "pc": "0x9dcd8",
+    "name_hash": "f27c0102",
+    "description_hash": "60a1a31f",
+    "text": "A compact way to store snowballs."
+  },
+  {
+    "name": "cactus",
+    "native_id": 81,
+    "pc": "0x9de4d",
+    "name_hash": "b721a32c",
+    "description_hash": "88ffdcb1",
+    "text": "Can be cooked in a furnace to create a green dye."
+  },
+  {
+    "name": "clay",
+    "native_id": 82,
+    "pc": "0x9dfbc",
+    "name_hash": "212a1de0",
+    "description_hash": "b5b55f16",
+    "text": "When broken drops clay balls which can be baked into bricks in a furnace."
+  },
+  {
+    "name": "reeds",
+    "native_id": 83,
+    "pc": "0x9e139",
+    "name_hash": "976dcc42",
+    "description_hash": "298fe4b7",
+    "text": "Can be crafted to create sugar."
+  },
+  {
+    "name": "jukebox",
+    "native_id": 84,
+    "pc": "0x9e2cd",
+    "name_hash": "2859c7bb",
+    "description_hash": "8558691e",
+    "text": "Plays Music Discs."
+  },
+  {
+    "name": "fence",
+    "native_id": 85,
+    "pc": "0x9e466",
+    "name_hash": "5737e595",
+    "description_hash": "43457fd1",
+    "text": "Used as a barrier that cannot be jumped over. Counts as 1.5 blocks high for players, animals and monsters, but 1 block high for other blocks."
+  },
+  {
+    "name": "carved_pumpkin",
+    "native_id": 86,
+    "pc": "0x9e5ed",
+    "name_hash": "f1fc832b",
+    "description_hash": "10986ea6",
+    "text": "Can be worn as a helmet or crafted with a torch to create a Jack-O-Lantern."
+  },
+  {
+    "name": "pumpkin",
+    "native_id": 257,
+    "pc": "0x9e726",
+    "name_hash": "b4318a53",
+    "description_hash": "5ac0c206",
+    "text": "Can be carved with shears to create a Carved Pumpkin. It is also the main ingredient in Pumpkin Pie."
+  },
+  {
+    "name": "netherrack",
+    "native_id": 87,
+    "pc": "0x9e8c8",
+    "name_hash": "c957bc78",
+    "description_hash": "e7b08bcd",
+    "text": "Burns forever if set alight."
+  },
+  {
+    "name": "soul_sand",
+    "native_id": 88,
+    "pc": "0x9ea2b",
+    "name_hash": "cc08dbdd",
+    "description_hash": "aea7a978",
+    "text": "Slows the movement of anything walking over it."
+  },
+  {
+    "name": "glowstone",
+    "native_id": 89,
+    "pc": "0x9ebac",
+    "name_hash": "5ae2b631",
+    "description_hash": "888b921a",
+    "text": "Used to create brighter light than torches. Melts snow/ice and can be used underwater."
+  },
+  {
+    "name": "portal",
+    "native_id": 90,
+    "pc": "0x9ed37",
+    "name_hash": "78681083",
+    "description_hash": "15861dbe",
+    "text": "Standing in the portal allows you to pass between the Overworld and the Nether."
+  },
+  {
+    "name": "lit_pumpkin",
+    "native_id": 91,
+    "pc": "0x9eec0",
+    "name_hash": "f75dc4fd",
+    "description_hash": "0c9d5fb8",
+    "text": "Used to create brighter light than torches. Melts snow/ice and can be used underwater."
+  },
+  {
+    "name": "cake",
+    "native_id": 92,
+    "pc": "0x9f051",
+    "name_hash": "9fc37613",
+    "description_hash": "1ba88c3e",
+    "text": "Restores 1{*ICON_SHANK_01*}. Can be used 7 times."
+  },
+  {
+    "name": "unpowered_repeater",
+    "native_id": 93,
+    "pc": "0x9f1d0",
+    "name_hash": "b97b9d5d",
+    "description_hash": "f8568a02",
+    "text": "Used in Redstone circuits as a repeater, a delayer, and/or a diode."
+  },
+  {
+    "name": "powered_repeater",
+    "native_id": 94,
+    "pc": "0x9f36f",
+    "name_hash": "b97b9d5d",
+    "description_hash": "f8568a02",
+    "text": "Used in Redstone circuits as a repeater, a delayer, and/or a diode."
+  },
+  {
+    "name": "stained_glass",
+    "native_id": 95,
+    "pc": "0x9f4fa",
+    "name_hash": "8060237a",
+    "description_hash": "4d31ea2f",
+    "text": "Crafted from glass and a dye."
+  },
+  {
+    "name": "trapdoor",
+    "native_id": 96,
+    "pc": "0x9f6ab",
+    "name_hash": "dd72034a",
+    "description_hash": "7564004b",
+    "text": "Activated by using, hitting them or with redstone. They function as normal doors, but are a one by one block and lay flat on the ground."
+  },
+  {
+    "name": "monster_egg",
+    "native_id": 97,
+    "pc": "0x9f80a",
+    "name_hash": "2ee4b5c8",
+    "description_hash": "414a79d5",
+    "text": "Spawns a Silverfish when destroyed. May also spawn Silverfish if nearby to another Silverfish being attacked."
+  },
+  {
+    "name": "stonebrick",
+    "native_id": 98,
+    "pc": "0x9f94d",
+    "name_hash": "c34caff7",
+    "description_hash": "8fd75dca",
+    "text": "Made from stone blocks. Commonly found in Strongholds."
+  },
+  {
+    "name": "brown_mushroom_block",
+    "native_id": 99,
+    "pc": "0x9fb19",
+    "name_hash": "ec0029f5",
+    "description_hash": "5627cb20",
+    "text": "Can be used as decoration."
+  },
+  {
+    "name": "red_mushroom_block",
+    "native_id": 100,
+    "pc": "0x9fcac",
+    "name_hash": "1202a45e",
+    "description_hash": "5627cb20",
+    "text": "Can be used as decoration."
+  },
+  {
+    "name": "iron_bars",
+    "native_id": 101,
+    "pc": "0x9fe67",
+    "name_hash": "fac11cf9",
+    "description_hash": "ed02b8a4",
+    "text": "Used as a barrier, similar to fences."
+  },
+  {
+    "name": "glass_pane",
+    "native_id": 102,
+    "pc": "0xa0017",
+    "name_hash": "5fcc9ee9",
+    "description_hash": "2be941d4",
+    "text": "Transparent blocks that can be used as an alternative to Glass Blocks."
+  },
+  {
+    "name": "melon_block",
+    "native_id": 103,
+    "pc": "0xa015d",
+    "name_hash": "dcbdabfa",
+    "description_hash": "fdf7a029",
+    "text": "Can be crafted from Melon Slices."
+  },
+  {
+    "name": "vine",
+    "native_id": 106,
+    "pc": "0xa0613",
+    "name_hash": "6ac205bb",
+    "description_hash": "ec14a206",
+    "text": "Grows over time when placed. Can be collected using shears. Can be climbed like a ladder."
+  },
+  {
+    "name": "fence_gate",
+    "native_id": 107,
+    "pc": "0xa07e9",
+    "name_hash": "97001ac5",
+    "description_hash": "8d16b979",
+    "text": "Similar to a door, but used primarily with fences."
+  },
+  {
+    "name": "brick_stairs",
+    "native_id": 108,
+    "pc": "0xa095a",
+    "name_hash": "be96fa3c",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "stone_brick_stairs",
+    "native_id": 109,
+    "pc": "0xa0b2b",
+    "name_hash": "f103ac8d",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "mycelium",
+    "native_id": 110,
+    "pc": "0xa0ca4",
+    "name_hash": "48412839",
+    "description_hash": "6218a6ec",
+    "text": "Similar to Grass Blocks, but very good for growing mushrooms on."
+  },
+  {
+    "name": "waterlily",
+    "native_id": 111,
+    "pc": "0xa0e03",
+    "name_hash": "92d77aba",
+    "description_hash": "d5b7623f",
+    "text": "Floats on water, and can be walked on."
+  },
+  {
+    "name": "nether_brick",
+    "native_id": 112,
+    "pc": "0xa0f4b",
+    "name_hash": "228b485e",
+    "description_hash": "d2b51c3b",
+    "text": "Used to build Nether Fortresses. Immune to Ghast's fireballs."
+  },
+  {
+    "name": "nether_brick_fence",
+    "native_id": 113,
+    "pc": "0xa1118",
+    "name_hash": "de8b3dec",
+    "description_hash": "7830fe09",
+    "text": "Used in Nether Fortresses."
+  },
+  {
+    "name": "nether_brick_stairs",
+    "native_id": 114,
+    "pc": "0xa1282",
+    "name_hash": "ea82ec37",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "nether_wart",
+    "native_id": 115,
+    "pc": "0xa13de",
+    "name_hash": "98da9f86",
+    "description_hash": "51aa8fc3",
+    "text": "Found in Nether Fortresses. Will drop Nether Wart when broken."
+  },
+  {
+    "name": "enchanting_table",
+    "native_id": 116,
+    "pc": "0xa154b",
+    "name_hash": "4e8c9ca8",
+    "description_hash": "8742c055",
+    "text": "This allows players to enchant Swords, Pickaxes, Axes, Shovels, Bows, and Armor, using the player's Experience Points."
+  },
+  {
+    "name": "brewing_stand",
+    "native_id": 117,
+    "pc": "0xa16cf",
+    "name_hash": "20259a79",
+    "description_hash": "8dad714b",
+    "text": "Used for making Potions and Splash Potions."
+  },
+  {
+    "name": "cauldron",
+    "native_id": 118,
+    "pc": "0xa183f",
+    "name_hash": "ad8ee84b",
+    "description_hash": "92b04126",
+    "text": "Used to mix dyes and dye armor, or store Potions and make Tipped Arrows. Filled with water by rain or with a bucket of water."
+  },
+  {
+    "name": "end_portal",
+    "native_id": 119,
+    "pc": "0xa195f",
+    "name_hash": "49d952fb",
+    "description_hash": "d845f206",
+    "text": "This can be activated using twelve Eye of Ender, and will allow the player to travel to The End dimension."
+  },
+  {
+    "name": "end_portal_frame",
+    "native_id": 120,
+    "pc": "0xa1ae9",
+    "name_hash": "de87b4a1",
+    "description_hash": "4dc365ac",
+    "text": "Used to form an End Portal."
+  },
+  {
+    "name": "dragon_egg",
+    "native_id": 122,
+    "pc": "0xa1ecc",
+    "name_hash": "830ce1e3",
+    "description_hash": "77a04f26",
+    "text": "This block is created by the defeat of the Dragon in The End."
+  },
+  {
+    "name": "redstone_lamp",
+    "native_id": 123,
+    "pc": "0xa2043",
+    "name_hash": "60fc2bf6",
+    "description_hash": "9f48ec4b",
+    "text": "Emits light when powered."
+  },
+  {
+    "name": "lit_redstone_lamp",
+    "native_id": 124,
+    "pc": "0xa21bd",
+    "name_hash": "60fc2bf6",
+    "description_hash": "9f48ec4b",
+    "text": "Emits light when powered."
+  },
+  {
+    "name": "double_wooden_slab",
+    "native_id": 125,
+    "pc": "0xa2335",
+    "name_hash": "2cf50bd5",
+    "description_hash": "2cf50bd5",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "wooden_slab",
+    "native_id": 126,
+    "pc": "0xa24bf",
+    "name_hash": "2cf50bd5",
+    "description_hash": "2cf50bd5",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "cocoa",
+    "native_id": 127,
+    "pc": "0xa2659",
+    "name_hash": "eb788e4e",
+    "description_hash": "9bfc9ccb",
+    "text": "Can be farmed to collect Cocoa Beans."
+  },
+  {
+    "name": "sandstone_stairs",
+    "native_id": 128,
+    "pc": "0xa2818",
+    "name_hash": "922c7175",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "emerald_ore",
+    "native_id": 129,
+    "pc": "0xa29a5",
+    "name_hash": "5af0f4d9",
+    "description_hash": "4020b9b4",
+    "text": "Can be mined with an Iron pickaxe or better to collect Emeralds."
+  },
+  {
+    "name": "ender_chest",
+    "native_id": 130,
+    "pc": "0xa2b45",
+    "name_hash": "daf7bb26",
+    "description_hash": "4bbced6b",
+    "text": "Similar to a Chest except that items placed in an Ender Chest are available in every one of the player's Ender Chests, even in different dimensions."
+  },
+  {
+    "name": "tripwire_hook",
+    "native_id": 131,
+    "pc": "0xa2ca2",
+    "name_hash": "742ffccb",
+    "description_hash": "adee68ee",
+    "text": "Is activated when an entity passes through a connected Tripwire."
+  },
+  {
+    "name": "tripwire",
+    "native_id": 132,
+    "pc": "0xa2dff",
+    "name_hash": "036c80c9",
+    "description_hash": "f4b93df4",
+    "text": "Activates a connected Tripwire Hook when an entity passes through it."
+  },
+  {
+    "name": "spruce_stairs",
+    "native_id": 134,
+    "pc": "0xa3225",
+    "name_hash": "27b26207",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "birch_stairs",
+    "native_id": 135,
+    "pc": "0xa33ef",
+    "name_hash": "7f930197",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "jungle_stairs",
+    "native_id": 136,
+    "pc": "0xa35b9",
+    "name_hash": "65590822",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "command_block",
+    "native_id": 137,
+    "pc": "0xa3734",
+    "name_hash": "5dd6147e",
+    "description_hash": "fb413e2b",
+    "text": "Used to execute commands."
+  },
+  {
+    "name": "beacon",
+    "native_id": 138,
+    "pc": "0xa3897",
+    "name_hash": "fc3cc3ab",
+    "description_hash": "c1094ee6",
+    "text": "Projects a beam of light into the sky, and can provide Status Effects to nearby players."
+  },
+  {
+    "name": "cobblestone_wall",
+    "native_id": 139,
+    "pc": "0xa39ea",
+    "name_hash": "2b4e0150",
+    "description_hash": "9fa77edd",
+    "text": "A wall made of Cobblestone."
+  },
+  {
+    "name": "flower_pot",
+    "native_id": 140,
+    "pc": "0xa3b5e",
+    "name_hash": "d6cef3c9",
+    "description_hash": "b636176c",
+    "text": "Used as a decoration. Flowers, Saplings, Cacti and Mushrooms can be planted in it."
+  },
+  {
+    "name": "potatoes",
+    "native_id": 142,
+    "pc": "0xa3e03",
+    "name_hash": "a0323088",
+    "description_hash": "6fe336fb",
+    "text": "Restores 0.5{*ICON_SHANK_01*}, or can be cooked in a furnace. This can be planted in farmland."
+  },
+  {
+    "name": "wooden_button",
+    "native_id": 143,
+    "pc": "0xa3f95",
+    "name_hash": "952eb581",
+    "description_hash": "d31beeac",
+    "text": "Used to send an electrical charge by being pressed. Stays activated for approximately a second before shutting off again."
+  },
+  {
+    "name": "skull",
+    "native_id": 144,
+    "pc": "0xa40f6",
+    "name_hash": "fe1de21a",
+    "description_hash": "896ae85f",
+    "text": "Mob Heads can be placed as a decoration, or worn as a mask in the helmet slot."
+  },
+  {
+    "name": "anvil",
+    "native_id": 145,
+    "pc": "0xa428f",
+    "name_hash": "15d98f43",
+    "description_hash": "8011e036",
+    "text": "Can be used to repair weapons, tools and armor."
+  },
+  {
+    "name": "trapped_chest",
+    "native_id": 146,
+    "pc": "0xa43ba",
+    "name_hash": "326a111e",
+    "description_hash": "96a5dac3",
+    "text": "Stores blocks and items inside. Place two chests side by side to create a larger chest with double capacity. A trapped chest also creates a Redstone charge when opened."
+  },
+  {
+    "name": "light_weighted_pressure_plate",
+    "native_id": 147,
+    "pc": "0xa452d",
+    "name_hash": "70908cd4",
+    "description_hash": "6caf3109",
+    "text": "Provides a Redstone charge. The charge will be stronger if more items are on the plate."
+  },
+  {
+    "name": "heavy_weighted_pressure_plate",
+    "native_id": 148,
+    "pc": "0xa46ab",
+    "name_hash": "1e33d131",
+    "description_hash": "3ad250fc",
+    "text": "Provides a Redstone charge. The charge will be stronger if more items are on the plate. Requires more weight than the light plate."
+  },
+  {
+    "name": "unpowered_comparator",
+    "native_id": 149,
+    "pc": "0xa480d",
+    "name_hash": "5600b90d",
+    "description_hash": "f7057fe0",
+    "text": "Used in Redstone circuits to maintain, compare, or subtract signal strength, or to measure certain block states."
+  },
+  {
+    "name": "powered_comparator",
+    "native_id": 150,
+    "pc": "0xa49a4",
+    "name_hash": "5600b90d",
+    "description_hash": "f7057fe0",
+    "text": "Used in Redstone circuits to maintain, compare, or subtract signal strength, or to measure certain block states."
+  },
+  {
+    "name": "daylight_detector",
+    "native_id": 151,
+    "pc": "0xa4afd",
+    "name_hash": "3f7eedd8",
+    "description_hash": "e95fbdbd",
+    "text": "A block that outputs a Redstone signal based on sunlight or lack of sunlight if inverted."
+  },
+  {
+    "name": "redstone_block",
+    "native_id": 152,
+    "pc": "0xa4c88",
+    "name_hash": "847b7aa9",
+    "description_hash": "3972c9e4",
+    "text": "Used as a redstone power source. Can be crafted back into Redstone."
+  },
+  {
+    "name": "quartz_ore",
+    "native_id": 153,
+    "pc": "0xa4e1b",
+    "name_hash": "3cae10f9",
+    "description_hash": "bf60af5b",
+    "text": "Can be mined with a pickaxe to collect Nether Quartz."
+  },
+  {
+    "name": "hopper",
+    "native_id": 154,
+    "pc": "0xa4f92",
+    "name_hash": "7c89fe37",
+    "description_hash": "7d15a4fa",
+    "text": "Used to catch items or to transfer items into and out of containers."
+  },
+  {
+    "name": "quartz_block",
+    "native_id": 155,
+    "pc": "0xa50cc",
+    "name_hash": "53b1f748",
+    "description_hash": "a2565935",
+    "text": "Used as a decoration."
+  },
+  {
+    "name": "quartz_stairs",
+    "native_id": 156,
+    "pc": "0xa52c3",
+    "name_hash": "787e495f",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "activator_rail",
+    "native_id": 157,
+    "pc": "0xa543d",
+    "name_hash": "ff84f9b7",
+    "description_hash": "0e397c8a",
+    "text": "A type of rail that can enable or disable Minecarts with Hoppers and trigger Minecarts with TNT."
+  },
+  {
+    "name": "dropper",
+    "native_id": 158,
+    "pc": "0xa55b2",
+    "name_hash": "25cba5e1",
+    "description_hash": "9b0fe124",
+    "text": "Used to hold and drop items, or push items into another container, when given a Redstone charge."
+  },
+  {
+    "name": "stained_hardened_clay",
+    "native_id": 159,
+    "pc": "0xa573c",
+    "name_hash": "471a5f97",
+    "description_hash": "38633dda",
+    "text": "Colorful blocks crafted by dyeing Terracotta."
+  },
+  {
+    "name": "stained_glass_pane",
+    "native_id": 160,
+    "pc": "0xa58be",
+    "name_hash": "942c1157",
+    "description_hash": "7618912a",
+    "text": "Crafted from Stained Glass."
+  },
+  {
+    "name": "leaves2",
+    "native_id": 161,
+    "pc": "0xa5a1b",
+    "name_hash": "cff1b597",
+    "description_hash": "da15164a",
+    "text": "When broken, sometimes drops a sapling which can be replanted to grow into a tree."
+  },
+  {
+    "name": "log2",
+    "native_id": 162,
+    "pc": "0xa5b66",
+    "name_hash": "6284c9fb",
+    "description_hash": "4d75aa3e",
+    "text": "Chopped using an axe. Can be crafted into planks, used as a fuel, or stripped with an axe."
+  },
+  {
+    "name": "acacia_stairs",
+    "native_id": 163,
+    "pc": "0xa5d1a",
+    "name_hash": "83e0e195",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "dark_oak_stairs",
+    "native_id": 164,
+    "pc": "0xa5ee4",
+    "name_hash": "6c88317c",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "slime",
+    "native_id": 165,
+    "pc": "0xa5ffb",
+    "name_hash": "4be7a457",
+    "description_hash": "0c6ece52",
+    "text": "Causes players and mobs to bounce when they jump on it."
+  },
+  {
+    "name": "barrier",
+    "native_id": 166,
+    "pc": "0xa613b",
+    "name_hash": "0435e342",
+    "description_hash": "2a6c6247",
+    "text": "An invisible but solid block."
+  },
+  {
+    "name": "iron_trapdoor",
+    "native_id": 167,
+    "pc": "0xa62c5",
+    "name_hash": "fa6df1eb",
+    "description_hash": "158a4a1e",
+    "text": "Iron trapdoors can only be opened by Redstone, buttons or switches."
+  },
+  {
+    "name": "prismarine",
+    "native_id": 168,
+    "pc": "0xa6413",
+    "name_hash": "c36ed73b",
+    "description_hash": "4d2dbbd6",
+    "text": "Rare decorative stone that can be found in Ocean Monuments. Can be crafted from Prismarine shards."
+  },
+  {
+    "name": "sea_lantern",
+    "native_id": 169,
+    "pc": "0xa65e8",
+    "name_hash": "7b9ccad9",
+    "description_hash": "7f32a3fc",
+    "text": "Underwater light sources that can be found in Ocean Monuments. Can be crafted from Prismarine shards and Prismarine crystals."
+  },
+  {
+    "name": "hay_block",
+    "native_id": 170,
+    "pc": "0xa675f",
+    "name_hash": "da9016bf",
+    "description_hash": "6ab5d8aa",
+    "text": "Can be fed to Horses, Donkeys, Mules, and Llamas to heal up to 10 Hearts. Speeds up the growth of foals."
+  },
+  {
+    "name": "carpet",
+    "native_id": 171,
+    "pc": "0xa68e2",
+    "name_hash": "fbfa6b46",
+    "description_hash": "01c5501b",
+    "text": "Crafted from Wool. Used as a decoration."
+  },
+  {
+    "name": "hardened_clay",
+    "native_id": 172,
+    "pc": "0xa6a6a",
+    "name_hash": "7fb3f65a",
+    "description_hash": "38e3976f",
+    "text": "Created by smelting Clay in a furnace."
+  },
+  {
+    "name": "packed_ice",
+    "native_id": 174,
+    "pc": "0xa6e45",
+    "name_hash": "1c499f27",
+    "description_hash": "9afc961a",
+    "text": "A solid unmeltable block of ice that can have objects placed on it."
+  },
+  {
+    "name": "double_plant",
+    "native_id": 175,
+    "pc": "0xa6f42",
+    "name_hash": "505f1b7a",
+    "description_hash": "fe1b89e7",
+    "text": "A large plant."
+  },
+  {
+    "name": "standing_banner",
+    "native_id": 176,
+    "pc": "0xa70a8",
+    "name_hash": "1a9454b0",
+    "description_hash": "661aaa05",
+    "text": "A highly customizable free-standing decoration. Can be crafted using dyes in various patterns."
+  },
+  {
+    "name": "wall_banner",
+    "native_id": 177,
+    "pc": "0xa7218",
+    "name_hash": "25a2bc32",
+    "description_hash": "5d7483f7",
+    "text": "A highly customizable decoration attached to a block. Can be crafted using dyes in various patterns."
+  },
+  {
+    "name": "daylight_detector_inverted",
+    "native_id": 178,
+    "pc": "0xa7357",
+    "name_hash": "3f7eedd8",
+    "description_hash": "e95fbdbd",
+    "text": "A block that outputs a Redstone signal based on sunlight or lack of sunlight if inverted."
+  },
+  {
+    "name": "red_sandstone",
+    "native_id": 179,
+    "pc": "0xa747f",
+    "name_hash": "70c0ad9f",
+    "description_hash": "b6b8a4b2",
+    "text": "Red colored Sandstone. It is not influenced by gravity like normal Sand."
+  },
+  {
+    "name": "red_sandstone_stairs",
+    "native_id": 180,
+    "pc": "0xa7676",
+    "name_hash": "6dfb6fde",
+    "description_hash": "2edb944b",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "double_stone_slab_3",
+    "native_id": 181,
+    "pc": "0xa7803",
+    "name_hash": "4e7d3907",
+    "description_hash": "99c0d82a",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "stone_slab_3",
+    "native_id": 182,
+    "pc": "0xa798c",
+    "name_hash": "4e7d3907",
+    "description_hash": "99c0d82a",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "spruce_fence_gate",
+    "native_id": 183,
+    "pc": "0xa7b68",
+    "name_hash": "e3b590aa",
+    "description_hash": "8d16b979",
+    "text": "Similar to a door, but used primarily with fences."
+  },
+  {
+    "name": "birch_fence_gate",
+    "native_id": 184,
+    "pc": "0xa7d4a",
+    "name_hash": "d5d2ee22",
+    "description_hash": "8d16b979",
+    "text": "Similar to a door, but used primarily with fences."
+  },
+  {
+    "name": "jungle_fence_gate",
+    "native_id": 185,
+    "pc": "0xa7f2c",
+    "name_hash": "a969428f",
+    "description_hash": "8d16b979",
+    "text": "Similar to a door, but used primarily with fences."
+  },
+  {
+    "name": "dark_oak_fence_gate",
+    "native_id": 186,
+    "pc": "0xa810e",
+    "name_hash": "e6b3a329",
+    "description_hash": "8d16b979",
+    "text": "Similar to a door, but used primarily with fences."
+  },
+  {
+    "name": "acacia_fence_gate",
+    "native_id": 187,
+    "pc": "0xa82f0",
+    "name_hash": "acb35658",
+    "description_hash": "8d16b979",
+    "text": "Similar to a door, but used primarily with fences."
+  },
+  {
+    "name": "spruce_fence",
+    "native_id": 188,
+    "pc": "0xa848f",
+    "name_hash": "5db2627a",
+    "description_hash": "43457fd1",
+    "text": "Used as a barrier that cannot be jumped over. Counts as 1.5 blocks high for players, animals and monsters, but 1 block high for other blocks."
+  },
+  {
+    "name": "birch_fence",
+    "native_id": 189,
+    "pc": "0xa8628",
+    "name_hash": "97305152",
+    "description_hash": "43457fd1",
+    "text": "Used as a barrier that cannot be jumped over. Counts as 1.5 blocks high for players, animals and monsters, but 1 block high for other blocks."
+  },
+  {
+    "name": "jungle_fence",
+    "native_id": 190,
+    "pc": "0xa87c1",
+    "name_hash": "1a91493f",
+    "description_hash": "43457fd1",
+    "text": "Used as a barrier that cannot be jumped over. Counts as 1.5 blocks high for players, animals and monsters, but 1 block high for other blocks."
+  },
+  {
+    "name": "dark_oak_fence",
+    "native_id": 191,
+    "pc": "0xa895a",
+    "name_hash": "1e759a99",
+    "description_hash": "43457fd1",
+    "text": "Used as a barrier that cannot be jumped over. Counts as 1.5 blocks high for players, animals and monsters, but 1 block high for other blocks."
+  },
+  {
+    "name": "acacia_fence",
+    "native_id": 192,
+    "pc": "0xa8af3",
+    "name_hash": "8f7a6f28",
+    "description_hash": "43457fd1",
+    "text": "Used as a barrier that cannot be jumped over. Counts as 1.5 blocks high for players, animals and monsters, but 1 block high for other blocks."
+  },
+  {
+    "name": "spruce_door",
+    "native_id": 193,
+    "pc": "0xa8c90",
+    "name_hash": "2f2632e7",
+    "description_hash": "2aaf6f70",
+    "text": "Wooden doors are activated by using, hitting them or with Redstone."
+  },
+  {
+    "name": "birch_door",
+    "native_id": 194,
+    "pc": "0xa8e1b",
+    "name_hash": "fd2f0cf7",
+    "description_hash": "2aaf6f70",
+    "text": "Wooden doors are activated by using, hitting them or with Redstone."
+  },
+  {
+    "name": "jungle_door",
+    "native_id": 195,
+    "pc": "0xa8fa6",
+    "name_hash": "98015282",
+    "description_hash": "2aaf6f70",
+    "text": "Wooden doors are activated by using, hitting them or with Redstone."
+  },
+  {
+    "name": "acacia_door",
+    "native_id": 196,
+    "pc": "0xa9131",
+    "name_hash": "640ed0f5",
+    "description_hash": "2aaf6f70",
+    "text": "Wooden doors are activated by using, hitting them or with Redstone."
+  },
+  {
+    "name": "dark_oak_door",
+    "native_id": 197,
+    "pc": "0xa92bc",
+    "name_hash": "df5fd05c",
+    "description_hash": "2aaf6f70",
+    "text": "Wooden doors are activated by using, hitting them or with Redstone."
+  },
+  {
+    "name": "end_rod",
+    "native_id": 198,
+    "pc": "0xa942f",
+    "name_hash": "bb746286",
+    "description_hash": "6fc5fff3",
+    "text": "A decorative light source found in End Cities. Can be crafted using Blaze Rods and Popped Chorus Fruit."
+  },
+  {
+    "name": "chorus_plant",
+    "native_id": 199,
+    "pc": "0xa9593",
+    "name_hash": "2781f467",
+    "description_hash": "9d1c103a",
+    "text": "Grows from Chorus Flowers. Sometimes drops Chorus Fruit when destroyed."
+  },
+  {
+    "name": "chorus_flower",
+    "native_id": 200,
+    "pc": "0xa96f6",
+    "name_hash": "d1a40555",
+    "description_hash": "90579e00",
+    "text": "Can be planted on End Stone to grow more Chorus Flowers, and Chorus Plants."
+  },
+  {
+    "name": "purpur_pillar",
+    "native_id": 202,
+    "pc": "0xa9b32",
+    "name_hash": "0a7b0f2a",
+    "description_hash": "9d49631f",
+    "text": "Can be mined with a pickaxe, or crafted using Purpur Slabs."
+  },
+  {
+    "name": "purpur_stairs",
+    "native_id": 203,
+    "pc": "0xa9c42",
+    "name_hash": "78870286",
+    "description_hash": "0dda0c93",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "double_stone_slab_4",
+    "native_id": 204,
+    "pc": "0xa9db9",
+    "name_hash": "b13bc474",
+    "description_hash": "0bc84765",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "stone_slab_4",
+    "native_id": 205,
+    "pc": "0xa9f46",
+    "name_hash": "b13bc474",
+    "description_hash": "0bc84765",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "beetroots",
+    "native_id": 207,
+    "pc": "0xaa30a",
+    "name_hash": "f4ebec3c",
+    "description_hash": "7dd19a72",
+    "text": "Restores 0.5{*ICON_SHANK_01*} when eaten. This can be planted in farmland."
+  },
+  {
+    "name": "grass_path",
+    "native_id": 208,
+    "pc": "0xaa441",
+    "name_hash": "7bdbbb51",
+    "description_hash": "17243b3f",
+    "text": "A decorative block that can be created by using a shovel on a Grass Block."
+  },
+  {
+    "name": "end_gateway",
+    "native_id": 209,
+    "pc": "0xaa5f0",
+    "name_hash": "376886d4",
+    "description_hash": "ed9f24fa",
+    "text": "Generated when the Ender Dragon is killed. Throwing an Ender Pearl into the portal will teleport you to an End Island."
+  },
+  {
+    "name": "repeating_command_block",
+    "native_id": 210,
+    "pc": "0xaa758",
+    "name_hash": "5dd6147e",
+    "description_hash": "fb413e2b",
+    "text": "Used to execute commands."
+  },
+  {
+    "name": "chain_command_block",
+    "native_id": 211,
+    "pc": "0xaa8c0",
+    "name_hash": "5dd6147e",
+    "description_hash": "fb413e2b",
+    "text": "Used to execute commands."
+  },
+  {
+    "name": "frosted_ice",
+    "native_id": 212,
+    "pc": "0xaa9e6",
+    "name_hash": "938fe5c2",
+    "description_hash": "ce630eac",
+    "text": "A type of ice that melts quickly."
+  },
+  {
+    "name": "magma",
+    "native_id": 213,
+    "pc": "0xaab36",
+    "name_hash": "169239f8",
+    "description_hash": "92b3d276",
+    "text": "Causes fire damage when you stand on it."
+  },
+  {
+    "name": "red_nether_brick",
+    "native_id": 215,
+    "pc": "0xaaef1",
+    "name_hash": "178494b5",
+    "description_hash": "b443635b",
+    "text": "Crafted from Nether Wart and Nether Brick. Can be used as decoration."
+  },
+  {
+    "name": "observer",
+    "native_id": 218,
+    "pc": "0xab3d9",
+    "name_hash": "36c898bf",
+    "description_hash": "e51e7cd1",
+    "text": "Emits a redstone signal when adjacent blocks are updated."
+  },
+  {
+    "name": "white_shulker_box",
+    "native_id": 219,
+    "pc": "0xab531",
+    "name_hash": "91987a6b",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "orange_shulker_box",
+    "native_id": 220,
+    "pc": "0xab6b1",
+    "name_hash": "f527bfbc",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "magenta_shulker_box",
+    "native_id": 221,
+    "pc": "0xab831",
+    "name_hash": "acb84ed9",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "light_blue_shulker_box",
+    "native_id": 222,
+    "pc": "0xab9b1",
+    "name_hash": "c4c6db53",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "yellow_shulker_box",
+    "native_id": 223,
+    "pc": "0xabb31",
+    "name_hash": "addb8da0",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "lime_shulker_box",
+    "native_id": 224,
+    "pc": "0xabcb1",
+    "name_hash": "4cf50419",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "pink_shulker_box",
+    "native_id": 225,
+    "pc": "0xabe31",
+    "name_hash": "53d14a18",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "gray_shulker_box",
+    "native_id": 226,
+    "pc": "0xabfb1",
+    "name_hash": "812f8ba1",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "silver_shulker_box",
+    "native_id": 227,
+    "pc": "0xac131",
+    "name_hash": "25b4e7db",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "cyan_shulker_box",
+    "native_id": 228,
+    "pc": "0xac2b1",
+    "name_hash": "1011e079",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "purple_shulker_box",
+    "native_id": 260,
+    "pc": "0xac431",
+    "name_hash": "c968050a",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "blue_shulker_box",
+    "native_id": 230,
+    "pc": "0xac5b1",
+    "name_hash": "51b1f252",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "undyed_shulker_box",
+    "native_id": 229,
+    "pc": "0xac729",
+    "name_hash": "3d080c00",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "brown_shulker_box",
+    "native_id": 231,
+    "pc": "0xac8a9",
+    "name_hash": "31e39cfa",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "green_shulker_box",
+    "native_id": 232,
+    "pc": "0xaca29",
+    "name_hash": "ec0ae17f",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "red_shulker_box",
+    "native_id": 233,
+    "pc": "0xacba9",
+    "name_hash": "2aab8967",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "black_shulker_box",
+    "native_id": 234,
+    "pc": "0xacd29",
+    "name_hash": "0c17c633",
+    "description_hash": "75189ce5",
+    "text": "A special kind of chest that can contain items even when broken. Can be crafted using a Chest and Shulker Shells."
+  },
+  {
+    "name": "white_glazed_terracotta",
+    "native_id": 235,
+    "pc": "0xace7f",
+    "name_hash": "610a322c",
+    "description_hash": "f6f96d7a",
+    "text": "A decorative block created by baking White Terracotta in a Furnace."
+  },
+  {
+    "name": "orange_glazed_terracotta",
+    "native_id": 236,
+    "pc": "0xacfc3",
+    "name_hash": "b3a9ce53",
+    "description_hash": "9c676add",
+    "text": "A decorative block created by baking Orange Terracotta in a Furnace."
+  },
+  {
+    "name": "magenta_glazed_terracotta",
+    "native_id": 237,
+    "pc": "0xad107",
+    "name_hash": "35c3bb1e",
+    "description_hash": "07b8dd58",
+    "text": "A decorative block created by baking Magenta Terracotta in a Furnace."
+  },
+  {
+    "name": "light_blue_glazed_terracotta",
+    "native_id": 238,
+    "pc": "0xad24b",
+    "name_hash": "253769cc",
+    "description_hash": "e208e89a",
+    "text": "A decorative block created by baking Light Blue Terracotta in a Furnace."
+  },
+  {
+    "name": "yellow_glazed_terracotta",
+    "native_id": 239,
+    "pc": "0xad38f",
+    "name_hash": "a088caef",
+    "description_hash": "72a370e1",
+    "text": "A decorative block created by baking Yellow Terracotta in a Furnace."
+  },
+  {
+    "name": "lime_glazed_terracotta",
+    "native_id": 240,
+    "pc": "0xad4d3",
+    "name_hash": "3a564d26",
+    "description_hash": "79ffc770",
+    "text": "A decorative block created by baking Lime Terracotta in a Furnace."
+  },
+  {
+    "name": "pink_glazed_terracotta",
+    "native_id": 241,
+    "pc": "0xad617",
+    "name_hash": "4732ec37",
+    "description_hash": "c6ff4459",
+    "text": "A decorative block created by baking Pink Terracotta in a Furnace."
+  },
+  {
+    "name": "gray_glazed_terracotta",
+    "native_id": 242,
+    "pc": "0xad75b",
+    "name_hash": "00a10f3e",
+    "description_hash": "73ee9df8",
+    "text": "A decorative block created by baking Gray Terracotta in a Furnace."
+  },
+  {
+    "name": "silver_glazed_terracotta",
+    "native_id": 243,
+    "pc": "0xad89f",
+    "name_hash": "659307b4",
+    "description_hash": "d76a52d2",
+    "text": "A decorative block created by baking Light Gray Terracotta in a Furnace."
+  },
+  {
+    "name": "cyan_glazed_terracotta",
+    "native_id": 244,
+    "pc": "0xad9e3",
+    "name_hash": "022f7636",
+    "description_hash": "aaa0edc0",
+    "text": "A decorative block created by baking Cyan Terracotta in a Furnace."
+  },
+  {
+    "name": "purple_glazed_terracotta",
+    "native_id": 245,
+    "pc": "0xadb27",
+    "name_hash": "6b4a2d35",
+    "description_hash": "fcb294eb",
+    "text": "A decorative block created by baking Purple Terracotta in a Furnace."
+  },
+  {
+    "name": "blue_glazed_terracotta",
+    "native_id": 246,
+    "pc": "0xadc6b",
+    "name_hash": "8fce9f6d",
+    "description_hash": "7166aa73",
+    "text": "A decorative block created by baking Blue Terracotta in a Furnace."
+  },
+  {
+    "name": "brown_glazed_terracotta",
+    "native_id": 247,
+    "pc": "0xaddaf",
+    "name_hash": "847c958d",
+    "description_hash": "4b91ac93",
+    "text": "A decorative block created by baking Brown Terracotta in a Furnace."
+  },
+  {
+    "name": "green_glazed_terracotta",
+    "native_id": 248,
+    "pc": "0xadef3",
+    "name_hash": "080fc468",
+    "description_hash": "7009291e",
+    "text": "A decorative block created by baking Green Terracotta in a Furnace."
+  },
+  {
+    "name": "red_glazed_terracotta",
+    "native_id": 249,
+    "pc": "0xae037",
+    "name_hash": "1bd8d270",
+    "description_hash": "717e54f6",
+    "text": "A decorative block created by baking Red Terracotta in a Furnace."
+  },
+  {
+    "name": "black_glazed_terracotta",
+    "native_id": 250,
+    "pc": "0xae17b",
+    "name_hash": "be18d1c4",
+    "description_hash": "34a78ce2",
+    "text": "A decorative block created by baking Black Terracotta in a Furnace."
+  },
+  {
+    "name": "concrete",
+    "native_id": 251,
+    "pc": "0xae2eb",
+    "name_hash": "3ce29930",
+    "description_hash": "c43f7e5e",
+    "text": "Can be mined with a pickaxe, or created when Concrete Powder comes into contact with a Water block."
+  },
+  {
+    "name": "concrete_powder",
+    "native_id": 252,
+    "pc": "0xae451",
+    "name_hash": "ef251bc4",
+    "description_hash": "544d116a",
+    "text": "Turns into Concrete after coming into contact with a Water block."
+  },
+  {
+    "name": "conduit",
+    "native_id": 256,
+    "pc": "0xae6ce",
+    "name_hash": "da1c2954",
+    "description_hash": "2336b52a",
+    "text": "Gives nearby players a powerful status effect if they are in water or rain."
+  },
+  {
+    "name": "kelp",
+    "native_id": 258,
+    "pc": "0xae82a",
+    "name_hash": "041cb6f5",
+    "description_hash": "4d1705fb",
+    "text": "A plant that grows on the ocean floor. Can be dried in a Furnace and eaten."
+  },
+  {
+    "name": "coral_block",
+    "native_id": 259,
+    "pc": "0xae978",
+    "name_hash": "916ff93b",
+    "description_hash": "7a0cc2d4",
+    "text": "A decorative block that can be found in Warm Oceans, and mined with a Pickaxe. Coral blocks will die if not touching water."
+  },
+  {
+    "name": "coral",
+    "native_id": 263,
+    "pc": "0xaeac1",
+    "name_hash": "25d640bd",
+    "description_hash": "226a4ae2",
+    "text": "A decorative block that can be found in Coral Reefs. Can only be placed underwater."
+  },
+  {
+    "name": "coral_fan",
+    "native_id": 264,
+    "pc": "0xaec2a",
+    "name_hash": "a1128c9d",
+    "description_hash": "38f557a4",
+    "text": "A decorative block that can be found in Coral Reefs. Can be placed on the sides of blocks."
+  },
+  {
+    "name": "coral_fan_dead",
+    "native_id": 265,
+    "pc": "0xaed93",
+    "name_hash": "b34422ee",
+    "description_hash": "e2b838af",
+    "text": "A Coral Fan that is dried out and dead."
+  },
+  {
+    "name": "coral_fan_hang",
+    "native_id": 266,
+    "pc": "0xaeefc",
+    "name_hash": "a1128c9d",
+    "description_hash": "38f557a4",
+    "text": "A decorative block that can be found in Coral Reefs. Can be placed on the sides of blocks."
+  },
+  {
+    "name": "coral_fan_hang2",
+    "native_id": 267,
+    "pc": "0xaf065",
+    "name_hash": "54923487",
+    "description_hash": "38f557a4",
+    "text": "A decorative block that can be found in Coral Reefs. Can be placed on the sides of blocks."
+  },
+  {
+    "name": "coral_fan_hang3",
+    "native_id": 268,
+    "pc": "0xaf1ce",
+    "name_hash": "5c092885",
+    "description_hash": "38f557a4",
+    "text": "A decorative block that can be found in Coral Reefs. Can be placed on the sides of blocks."
+  },
+  {
+    "name": "dried_kelp_block",
+    "native_id": 269,
+    "pc": "0xaf34a",
+    "name_hash": "7bee8944",
+    "description_hash": "1e2ec4ea",
+    "text": "Made of 9 Dried Kelp. Can be used as fuel in a Furnace."
+  },
+  {
+    "name": "sea_grass",
+    "native_id": 270,
+    "pc": "0xaf4bb",
+    "name_hash": "ce367353",
+    "description_hash": "000b15bd",
+    "text": "Grows at the bottom of the Ocean. Can be collected with Shears and used to breed Sea Turtles."
+  },
+  {
+    "name": "sea_pickle",
+    "native_id": 271,
+    "pc": "0xaf61e",
+    "name_hash": "a07d8f37",
+    "description_hash": "2662f199",
+    "text": "Small animals that generate light when underwater. Can be found in Warm Oceans."
+  },
+  {
+    "name": "bubble_column_segment",
+    "native_id": 272,
+    "pc": "0xaf773",
+    "name_hash": "e3805d4c",
+    "description_hash": "fea5d8f2",
+    "text": "Created by underwater Magma or Soul Sand blocks."
+  },
+  {
+    "name": "spruce_trapdoor",
+    "native_id": 274,
+    "pc": "0xafb21",
+    "name_hash": "7252d423",
+    "description_hash": "7564004b",
+    "text": "Activated by using, hitting them or with redstone. They function as normal doors, but are a one by one block and lay flat on the ground."
+  },
+  {
+    "name": "birch_trapdoor",
+    "native_id": 275,
+    "pc": "0xafcc7",
+    "name_hash": "7808498b",
+    "description_hash": "7564004b",
+    "text": "Activated by using, hitting them or with redstone. They function as normal doors, but are a one by one block and lay flat on the ground."
+  },
+  {
+    "name": "jungle_trapdoor",
+    "native_id": 276,
+    "pc": "0xafe6d",
+    "name_hash": "a71f4fa6",
+    "description_hash": "7564004b",
+    "text": "Activated by using, hitting them or with redstone. They function as normal doors, but are a one by one block and lay flat on the ground."
+  },
+  {
+    "name": "acacia_trapdoor",
+    "native_id": 277,
+    "pc": "0xb0013",
+    "name_hash": "5cce5951",
+    "description_hash": "7564004b",
+    "text": "Activated by using, hitting them or with redstone. They function as normal doors, but are a one by one block and lay flat on the ground."
+  },
+  {
+    "name": "dark_oak_trapdoor",
+    "native_id": 278,
+    "pc": "0xb01b9",
+    "name_hash": "8babb047",
+    "description_hash": "7564004b",
+    "text": "Activated by using, hitting them or with redstone. They function as normal doors, but are a one by one block and lay flat on the ground."
+  },
+  {
+    "name": "turtle_egg",
+    "native_id": 279,
+    "pc": "0xb0332",
+    "name_hash": "365d8ecb",
+    "description_hash": "fd3e7955",
+    "text": "Laid on Sand blocks by Sea Turtles, and will hatch at night after a while. Very fragile!"
+  },
+  {
+    "name": "prismarine_stairs",
+    "native_id": 291,
+    "pc": "0xb04e0",
+    "name_hash": "dd023f2a",
+    "description_hash": "4b047e2f",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "prismarine_bricks_stairs",
+    "native_id": 292,
+    "pc": "0xb0698",
+    "name_hash": "0e5002df",
+    "description_hash": "06246062",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "dark_prismarine_stairs",
+    "native_id": 293,
+    "pc": "0xb0850",
+    "name_hash": "cad95cf1",
+    "description_hash": "c1457e1c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "stripped_log_spruce",
+    "native_id": 295,
+    "pc": "0xb0a0a",
+    "name_hash": "3430f9d4",
+    "description_hash": "a0c7ef51",
+    "text": "A Spruce log that has had the bark removed with an axe."
+  },
+  {
+    "name": "stripped_log_birch",
+    "native_id": 296,
+    "pc": "0xb0bb5",
+    "name_hash": "e88f40c4",
+    "description_hash": "02e489c9",
+    "text": "A Birch log that has had the bark removed with an axe."
+  },
+  {
+    "name": "stripped_log_jungle",
+    "native_id": 297,
+    "pc": "0xb0d60",
+    "name_hash": "ffbfe261",
+    "description_hash": "3eddf8f4",
+    "text": "A Jungle log that has had the bark removed with an axe."
+  },
+  {
+    "name": "stripped_log_acacia",
+    "native_id": 298,
+    "pc": "0xb0f0b",
+    "name_hash": "226cecb6",
+    "description_hash": "906c1c83",
+    "text": "An Acacia log that has had the bark removed with an axe."
+  },
+  {
+    "name": "stripped_log_dark_oak",
+    "native_id": 299,
+    "pc": "0xb10b6",
+    "name_hash": "7008bd70",
+    "description_hash": "a6578cb5",
+    "text": "A Dark Oak log that has had the bark removed with an axe."
+  },
+  {
+    "name": "stripped_log_oak",
+    "native_id": 300,
+    "pc": "0xb1261",
+    "name_hash": "bab2f5a3",
+    "description_hash": "310bccae",
+    "text": "An Oak log that has had the bark removed with an axe."
+  },
+  {
+    "name": "acacia_pressure_plate",
+    "native_id": 301,
+    "pc": "0xb13d8",
+    "name_hash": "dd5bf7ee",
+    "description_hash": "0827bac0",
+    "text": "A sensitive Acacia pressure plate that can be activated by applying almost any amount of pressure."
+  },
+  {
+    "name": "birch_pressure_plate",
+    "native_id": 302,
+    "pc": "0xb155b",
+    "name_hash": "186ab02c",
+    "description_hash": "9a851fe2",
+    "text": "A sensitive Birch pressure plate that can be activated by applying almost any amount of pressure."
+  },
+  {
+    "name": "dark_oak_pressure_plate",
+    "native_id": 303,
+    "pc": "0xb16de",
+    "name_hash": "d56a37f8",
+    "description_hash": "5e7cdb06",
+    "text": "A sensitive Dark Oak pressure plate that can be activated by applying almost any amount of pressure."
+  },
+  {
+    "name": "jungle_pressure_plate",
+    "native_id": 304,
+    "pc": "0xb1861",
+    "name_hash": "36d397f9",
+    "description_hash": "492a6397",
+    "text": "A sensitive Jungle wood pressure plate that can be activated by applying almost any amount of pressure."
+  },
+  {
+    "name": "spruce_pressure_plate",
+    "native_id": 305,
+    "pc": "0xb19e4",
+    "name_hash": "be1786dc",
+    "description_hash": "1e3d54a2",
+    "text": "A sensitive Spruce pressure plate that can be activated by applying almost any amount of pressure."
+  },
+  {
+    "name": "acacia_button",
+    "native_id": 306,
+    "pc": "0xb1b7c",
+    "name_hash": "7b67147e",
+    "description_hash": "d31beeac",
+    "text": "Used to send an electrical charge by being pressed. Stays activated for approximately a second before shutting off again."
+  },
+  {
+    "name": "birch_button",
+    "native_id": 307,
+    "pc": "0xb1d02",
+    "name_hash": "0623a05c",
+    "description_hash": "d31beeac",
+    "text": "Used to send an electrical charge by being pressed. Stays activated for approximately a second before shutting off again."
+  },
+  {
+    "name": "dark_oak_button",
+    "native_id": 308,
+    "pc": "0xb1e88",
+    "name_hash": "0e3d07c8",
+    "description_hash": "d31beeac",
+    "text": "Used to send an electrical charge by being pressed. Stays activated for approximately a second before shutting off again."
+  },
+  {
+    "name": "jungle_button",
+    "native_id": 309,
+    "pc": "0xb200e",
+    "name_hash": "5d552f29",
+    "description_hash": "d31beeac",
+    "text": "Used to send an electrical charge by being pressed. Stays activated for approximately a second before shutting off again."
+  },
+  {
+    "name": "spruce_button",
+    "native_id": 310,
+    "pc": "0xb2194",
+    "name_hash": "93c6242c",
+    "description_hash": "d31beeac",
+    "text": "Used to send an electrical charge by being pressed. Stays activated for approximately a second before shutting off again."
+  },
+  {
+    "name": "double_stone_slab_2",
+    "native_id": 311,
+    "pc": "0xb230f",
+    "name_hash": "da0d9878",
+    "description_hash": "bfc35293",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "stone_slab_2",
+    "native_id": 312,
+    "pc": "0xb249c",
+    "name_hash": "da0d9878",
+    "description_hash": "bfc35293",
+    "text": "Used for making long staircases. Two slabs placed on top of each other will create a normal-sized double slab block."
+  },
+  {
+    "name": "wood",
+    "native_id": 313,
+    "pc": "0xb25d4",
+    "name_hash": "6284c9fb",
+    "description_hash": "4d75aa3e",
+    "text": "Chopped using an axe. Can be crafted into planks, used as a fuel, or stripped with an axe."
+  },
+  {
+    "name": "bamboo",
+    "native_id": 319,
+    "pc": "0xb2745",
+    "name_hash": "caeb2923",
+    "description_hash": "c78c8a8e",
+    "text": "Pandas love to eat Bamboo, and you can use it to build Scaffolding."
+  },
+  {
+    "name": "scaffolding",
+    "native_id": 320,
+    "pc": "0xb28cd",
+    "name_hash": "0fe81681",
+    "description_hash": "7691afc4",
+    "text": "Scaffolding can help you create huge structures safely! You can walk inside scaffolding and stand on it."
+  },
+  {
+    "name": "bamboo_sapling",
+    "native_id": 321,
+    "pc": "0xb2a3d",
+    "name_hash": "830172ca",
+    "description_hash": "05778c37",
+    "text": "Bamboo Saplings can be planted and will eventually grow into a towering bamboo plant."
+  },
+  {
+    "name": "cobblestone_stairs",
+    "native_id": 67,
+    "pc": "0xb2ba2",
+    "name_hash": "31deec48",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "mossy_cobblestone_stairs",
+    "native_id": 324,
+    "pc": "0xb2d0d",
+    "name_hash": "77a848e4",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "andesite_stairs",
+    "native_id": 325,
+    "pc": "0xb2ede",
+    "name_hash": "938872d3",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "diorite_stairs",
+    "native_id": 326,
+    "pc": "0xb30a8",
+    "name_hash": "cdd0f0de",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "granite_stairs",
+    "native_id": 327,
+    "pc": "0xb3272",
+    "name_hash": "5563cc6c",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "smooth_andesite_stairs",
+    "native_id": 328,
+    "pc": "0xb343c",
+    "name_hash": "4b0f738e",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "smooth_diorite_stairs",
+    "native_id": 329,
+    "pc": "0xb3606",
+    "name_hash": "bf9e6f4b",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "smooth_granite_stairs",
+    "native_id": 330,
+    "pc": "0xb37d0",
+    "name_hash": "8646af89",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "smooth_quartz_stairs",
+    "native_id": 331,
+    "pc": "0xb399a",
+    "name_hash": "59344f62",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "mossy_stone_brick_stairs",
+    "native_id": 332,
+    "pc": "0xb3b64",
+    "name_hash": "5aad0d17",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "smooth_sandstone_stairs",
+    "native_id": 333,
+    "pc": "0xb3d2e",
+    "name_hash": "5ff77cd8",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "smooth_red_sandstone_stairs",
+    "native_id": 334,
+    "pc": "0xb3ef8",
+    "name_hash": "97029e14",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "red_nether_brick_stairs",
+    "native_id": 335,
+    "pc": "0xb4067",
+    "name_hash": "fbfea7b4",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "end_brick_stairs",
+    "native_id": 336,
+    "pc": "0xb41d2",
+    "name_hash": "727ad464",
+    "description_hash": "74f8956c",
+    "text": "Used for compact staircases."
+  },
+  {
+    "name": "standing_sign_spruce",
+    "native_id": 337,
+    "pc": "0xb436d",
+    "name_hash": "39caa431",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "standing_sign_birch",
+    "native_id": 338,
+    "pc": "0xb44f6",
+    "name_hash": "abc1eaa9",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "standing_sign_acacia",
+    "native_id": 339,
+    "pc": "0xb467f",
+    "name_hash": "3d7d84e3",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "standing_sign_jungle",
+    "native_id": 340,
+    "pc": "0xb4808",
+    "name_hash": "b307d0d4",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "standing_sign_dark_oak",
+    "native_id": 341,
+    "pc": "0xb4991",
+    "name_hash": "f22e9a15",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "wall_sign_spruce",
+    "native_id": 342,
+    "pc": "0xb4b1a",
+    "name_hash": "39caa431",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "wall_sign_birch",
+    "native_id": 343,
+    "pc": "0xb4ca3",
+    "name_hash": "abc1eaa9",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "wall_sign_acacia",
+    "native_id": 344,
+    "pc": "0xb4e2c",
+    "name_hash": "3d7d84e3",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "wall_sign_jungle",
+    "native_id": 345,
+    "pc": "0xb4fb5",
+    "name_hash": "b307d0d4",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "wall_sign_dark_oak",
+    "native_id": 346,
+    "pc": "0xb513e",
+    "name_hash": "f22e9a15",
+    "description_hash": "b6286b39",
+    "text": "Shows text entered by you or other players."
+  },
+  {
+    "name": "lava_cauldron",
+    "native_id": 347,
+    "pc": "0xb52b1",
+    "name_hash": "ad8ee84b",
+    "description_hash": "92b04126",
+    "text": "Used to mix dyes and dye armor, or store Potions and make Tipped Arrows. Filled with water by rain or with a bucket of water."
+  },
+  {
+    "name": "lectern",
+    "native_id": 348,
+    "pc": "0xb5426",
+    "name_hash": "8ad93490",
+    "description_hash": "95a22df5",
+    "text": "A lectern is a block found in villages, it can be used to hold books for multiple players to read in multiplayer."
+  },
+  {
+    "name": "lantern",
+    "native_id": 349,
+    "pc": "0xb55b3",
+    "name_hash": "6bdaaba1",
+    "description_hash": "336ff764",
+    "text": "Lanterns can be placed either hanging under a block or on top of a block. It gives slightly more light than the torch."
+  },
+  {
+    "name": "loom",
+    "native_id": 350,
+    "pc": "0xb571f",
+    "name_hash": "298d16be",
+    "description_hash": "1cec30b3",
+    "text": "A Loom can be used to dye Banners more efficiently than Crafting Tables."
+  },
+  {
+    "name": "composter",
+    "native_id": 351,
+    "pc": "0xb5c6b",
+    "name_hash": "1868f9b1",
+    "description_hash": "3424b2b4",
+    "text": "The Composter can be used to recycle various plant and food items to produce Bone Meal."
+  },
+  {
+    "name": "bell",
+    "native_id": 354,
+    "pc": "0xb5df5",
+    "name_hash": "c4ec31e0",
+    "description_hash": "8323731d",
+    "text": "Use the Bell to alert villagers of nearby danger."
+  },
+  {
+    "name": "smoker",
+    "native_id": 355,
+    "pc": "0xb5f6e",
+    "name_hash": "ddb15382",
+    "description_hash": "2b6eb5ff",
+    "text": "The Smoker can be used to cook food items faster than a furnace can."
+  },
+  {
+    "name": "lit_smoker",
+    "native_id": 356,
+    "pc": "0xb6111",
+    "name_hash": "ddb15382",
+    "description_hash": "2b6eb5ff",
+    "text": "The Smoker can be used to cook food items faster than a furnace can."
+  },
+  {
+    "name": "grindstone",
+    "native_id": 359,
+    "pc": "0xb69db",
+    "name_hash": "4161d092",
+    "description_hash": "6d606ecf",
+    "text": "The Grindstone can be used to restore durability and disenchant equipment."
+  },
+  {
+    "name": "stonecutter2",
+    "native_id": 360,
+    "pc": "0xb6b68",
+    "name_hash": "ec992395",
+    "description_hash": "9b09efe0",
+    "text": "The Stonecutter can be used to craft stone related items."
+  },
+  {
+    "name": "cartography_table",
+    "native_id": 364,
+    "pc": "0xb6ce1",
+    "name_hash": "7fd6e9b8",
+    "description_hash": "7bc9568d",
+    "text": "The Cartography Table provides a simpler way or cloning and creating maps."
+  },
+  {
+    "name": "campfire",
+    "native_id": 361,
+    "pc": "0xb6e6b",
+    "name_hash": "51404330",
+    "description_hash": "9896860d",
+    "text": "The Campfire can be used to cook food or act as a light source or smoke signal."
+  },
+  {
+    "name": "barrel",
+    "native_id": 362,
+    "pc": "0xb714d",
+    "name_hash": "ba5ed23d",
+    "description_hash": "86ca5550",
+    "text": "The Barrel can be used to store items like a chest."
+  },
+  {
+    "name": "sweet_berry_bush",
+    "native_id": 363,
+    "pc": "0xb72ff",
+    "name_hash": "2d52a76d",
+    "description_hash": "32503850",
+    "text": "A thorny bush that grows edible Sweet Berries!"
+  }
+]

@@ -1,0 +1,379 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "export_tool": "JPEXS FFDec 26.4.0; original bitmap export and unmodified background symbol render",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 109,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/stand.png",
+      "width": 192,
+      "height": 192,
+      "sha256": "195081f64898631d720266cd1a4dcb02f3e857c9d896f8261e9bfd3a9f48d00d",
+      "rgba_sha256": "ff30c7cff72c48bb1b1961b0223b48c3322f36166927c12475dd0a011b13ce4d"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 110,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/bubbles_on.png",
+      "width": 36,
+      "height": 84,
+      "sha256": "7d9ac5467eca9dece9a423c13440d20a5a6f915a4dab7e313bc7a9982ea73286",
+      "rgba_sha256": "8e8874748be511195d29f472ceb93de2f622df77c1049f3c3608193ec70475c9"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 111,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/bubbles_off.png",
+      "width": 36,
+      "height": 84,
+      "sha256": "3d7685b5596e83f2e5ce2d15f57206af749d1b732453bbc60edc92212259af8d",
+      "rgba_sha256": "539f2ecaa9b69a9a105c60dbff10831d867c63143c69d392e8d35caee9ae3c4b"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 112,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/arrow_on.png",
+      "width": 27,
+      "height": 84,
+      "sha256": "19f415b36842cf93fe2cb5f120438253350a669f0f8dc8dddf37ab1e8929d98d",
+      "rgba_sha256": "511027bbdabfc2f03620be478c2a1922c7f523a2dfe0c384da2b3dbda965b708"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 113,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/arrow_off.png",
+      "width": 27,
+      "height": 84,
+      "sha256": "5971d3089dbb130a2f26f2d748b41e128ee2d7569ad8297bac6c482e3400f842",
+      "rgba_sha256": "15b0424836c588081db0a36d5a9be4e6588d65cbe08bd12caa60e445bc8a01a6"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 114,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/stand_small.png",
+      "width": 128,
+      "height": 108,
+      "sha256": "ee1f08c91eee16a669c6252041f558fd427ed31c0ea1916e0798d5572c9dc6a4",
+      "rgba_sha256": "a4aa78843bf5f63d4ef7dadf4aad6ceb8982158062f8842cfcf04714ba8b7f61"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 115,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/bubbles_on_small.png",
+      "width": 24,
+      "height": 56,
+      "sha256": "b523e578b1c9afb9b2a788836a9ef0207e2f1c19dcf5e01589db160ee53d2897",
+      "rgba_sha256": "bc1c1654059b0fd696b144dc4d68b876b228081041809dedf29746a940c677c8"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 116,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/bubbles_off_small.png",
+      "width": 24,
+      "height": 56,
+      "sha256": "fc2b2879b1eb2d37308c646234ed746d9bb988489944211909211fa0df6c3065",
+      "rgba_sha256": "c80413ce8cba676d77d68038012ae0565d504c0f4a4365198476341e08b93cb1"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 117,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/arrow_on_small.png",
+      "width": 18,
+      "height": 56,
+      "sha256": "e3082b0f7e6e8b7e8c4fb30305ae3219a1562fd508a29c99de50499c907faec5",
+      "rgba_sha256": "8cc1a2d55ca4acb58a4fc8b13b55f23c28d580d8fa0e5e29d24cb7cda282ac87"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "source_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+      "bitmap_id": 118,
+      "kind": "lossless_bitmap",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/arrow_off_small.png",
+      "width": 18,
+      "height": 56,
+      "sha256": "839341eb07bbfe73bd4b80d7343c1297b2a7553f19e20602a57190b7439f7a6f",
+      "rgba_sha256": "6b4b216532b4d157e88599d3fa7edc2dbe44ae8b9199369bced525c3f1a276e8"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/BrewingStandMenu720.swf",
+      "source_sha256": "d460fc4b2dcbdddb81de926f277313cf10e3255f388ba49a0f9ca3f55c2c0981",
+      "symbol_id": 1,
+      "frame": 1,
+      "kind": "rendered_symbol",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/panel.png",
+      "width": 425,
+      "height": 450,
+      "sha256": "3bb0f8f01934af71aeaaea991ed5c180ed35c6b1abcc32a687cfab94077a5442",
+      "rgba_sha256": "cd0b2f49b1745d9cd0d1665908d823843fc6a8900590192bee44368362078930"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/BrewingStandMenu480.swf",
+      "source_sha256": "3250b34547a063f854696ec1859d4380116647dabf5c7b4e94143c87c12f1cce",
+      "symbol_id": 1,
+      "frame": 1,
+      "kind": "rendered_symbol",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing/panel_small.png",
+      "width": 260,
+      "height": 290,
+      "sha256": "4d9aa9779e84a55636fbc752d4ed8a6231b51853be8da6df64eb5552dd6bcc58",
+      "rgba_sha256": "d4fd482c78a647dd87f605f731d8cf568aeb348fec653e5844f1305408a58bfd"
+    }
+  ],
+  "reused_identical_rgba": [
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "bitmap_id": 131,
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/icon_holder.png",
+      "rgba_sha256": "f7fe07357dd86c0d8f2cb40c17fd1b42436a91dc9d5144ac9f0ec0674b6b6d4e"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "bitmap_id": 133,
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/slot_highlight.png",
+      "rgba_sha256": "2baafa228a1be0f5bbefd0d1126bb6cbeef717d88d63f27872fc2e30482a64d4"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.World/BrewingStandMenu.cpp",
+      "sha256": "b69b1db190b12f35e16826c791c20cae9ed2da43f60dd1584a777ea4ee9ee466"
+    },
+    {
+      "path": "Minecraft.World/BrewingStandTileEntity.cpp",
+      "sha256": "b6076f56e3838236b87d10829add692902f1e31e78bce965948a652d47732c95"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_BrewingStandMenu.cpp",
+      "sha256": "1896fb3cc2b2a83fc31a836d1d83592f9d779c0046b2f09be30004f7f9816bb2"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_EnchantmentButton.cpp",
+      "sha256": "ad08939c32ea2c91597d05e5e8074039132ef4c5710bfc4439d5dcc6ce941010"
+    },
+    {
+      "path": "Minecraft.Client/Common/XUI/XUI_Ctrl_EnchantmentBook.cpp",
+      "sha256": "6882fc94f3c5be0c171beb34e769407b16830bd86bffe3c52df55d36f23420a7"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/BrewingStandMenu720.swf",
+      "sha256": "d460fc4b2dcbdddb81de926f277313cf10e3255f388ba49a0f9ca3f55c2c0981"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/BrewingStandMenu480.swf",
+      "sha256": "3250b34547a063f854696ec1859d4380116647dabf5c7b4e94143c87c12f1cce"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinInGame.swf",
+      "sha256": "7804150cf9adb367a89d0bc41abebbbf08f49b9d18826f8a0c8d251ae9ff9e18"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/EnchantingMenu720.swf",
+      "sha256": "c0de741cff2ce4ec4fc7492ce1e4302e195561003f0d652d7ba032358e8a4c77"
+    }
+  ],
+  "historical_layout_version": "1.6.10 only; retained export provenance, superseded by Legacy4J brewing in 1.6.11",
+  "version_1_6_10_layout": {
+    "full": {
+      "source": "BrewingStandMenu720.swf / Panel.as",
+      "panel": [
+        425,
+        450
+      ],
+      "root_y": 94,
+      "working_slot": 54,
+      "inventory_slot": 42,
+      "inventory": [
+        27,
+        244
+      ],
+      "hotbar": [
+        27,
+        382
+      ],
+      "ingredient": [
+        188,
+        47.5
+      ],
+      "bottles": [
+        [
+          119,
+          135
+        ],
+        [
+          188,
+          156
+        ],
+        [
+          257,
+          135
+        ]
+      ],
+      "title_alignment": "center"
+    },
+    "compact": {
+      "source": "BrewingStandMenu480.swf / Panel.as",
+      "panel": [
+        260,
+        290
+      ],
+      "root_y": 96,
+      "working_slot": 36,
+      "inventory_slot": 26,
+      "inventory": [
+        12,
+        161
+      ],
+      "hotbar": [
+        12,
+        250
+      ],
+      "ingredient": [
+        112,
+        30
+      ],
+      "bottles": [
+        [
+          65.6,
+          87.8
+        ],
+        [
+          112,
+          102
+        ],
+        [
+          158,
+          88
+        ]
+      ]
+    },
+    "item_inset": "round(slot_width / 20) source pixels; highlight is 18/20 of the slot",
+    "brewing_progress": "FJ_BrewingArrow countdown inversion; seven C++ bubble states and vertical mask",
+    "book": "XUI_Ctrl_EnchantmentBook::OnRender: orthographic; height * 1.5, 122x78 at 26/48",
+    "enchanting_language": "UIControl_EnchantmentButton uses altFont; standardGalacticFontRenderer in Java"
+  },
+  "version_1_6_10_adaptations": [
+    "Scene coordinates are divided by two for Java GUI units; compact source scene selected below 300 GUI pixels high.",
+    "Integrated worlds use four visible working slots and require no blaze powder fuel. The native fifth slot and its saved contents are preserved, hidden in this scene.",
+    "Native 1.11.2 potion recipes, 400-tick brew time, packets and hoppers are retained. Multiplayer retains the native fuel GUI.",
+    "Native item counts/durability and book animation are retained; item viewports and slot highlights use separate source measurements.",
+    "The installed Java enchanting book texture is pixel-identical to the reference LCE book texture."
+  ],
+  "current_brewing": {
+    "version": "1.6.11",
+    "repository": "https://github.com/Wilyicaro/Legacy-Minecraft",
+    "revision": "80ca31049dd5ea9f7169810f3cadd0aa38114a51",
+    "provenance": "REFERENCE-ASSETS.json records all current brewing image and code-source hashes",
+    "panel": [
+      213,
+      225
+    ],
+    "title_y": 11,
+    "title_alignment": "center",
+    "inventory_label": [
+      13,
+      115
+    ],
+    "item_origins": [
+      [
+        60,
+        76.5
+      ],
+      [
+        94.5,
+        87
+      ],
+      [
+        129,
+        76.5
+      ],
+      [
+        94.5,
+        25.5
+      ],
+      [
+        19,
+        25.5
+      ]
+    ],
+    "working_holder_size": 27,
+    "inventory_origin": [
+      13,
+      126
+    ],
+    "hotbar_origin": [
+      13,
+      195
+    ],
+    "inventory_pitch": 21,
+    "inventory_holder_size": 21,
+    "composite": [
+      58.5,
+      22.5,
+      96,
+      96
+    ],
+    "coil": [
+      43,
+      42,
+      51,
+      33
+    ],
+    "fuel_bar": [
+      65.5,
+      66,
+      27,
+      6
+    ],
+    "arrow": [
+      121.5,
+      22.5,
+      13.5,
+      42
+    ],
+    "bubbles": [
+      71,
+      21,
+      18,
+      43.5
+    ],
+    "bubble_lengths": [
+      29,
+      24,
+      20,
+      16,
+      11,
+      6,
+      0
+    ],
+    "fuel_width": "clamp((27*fuel + 19)/20,0,27), integer division",
+    "fuel_rules": "Unmodified Minecraft 1.11.2 fuel accounting: powder in slot 4 supplies 20 brews. No automatic fuel handler. Existing saved fuel and active brew timers are preserved.",
+    "java_adaptations": [
+      "Native protocol IDs and inventory validation are retained. Powder Quick Move targets fuel through native pickup clicks, avoiding 1.11 ingredient-first routing; all other quick moves remain native.",
+      "At 240 GUI pixels high, raise the intact panel by six pixels to clear the existing controller footer.",
+      "No conversion of old fuel data: any charge saved by 1.6.10 is used once and never replenished by this mod."
+    ]
+  }
+}

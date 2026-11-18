@@ -1,0 +1,323 @@
+{
+  "version": "2.3.14",
+  "ps4_reference": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8"
+  },
+  "runtime_environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "optifine": "1.17.1_HD_U_H1",
+    "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+    "lce_look": "2.0.0",
+    "lce_look_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+    "graphics": "Linux / llvmpipe / Mesa 25.0.7"
+  },
+  "network_protocol": 7,
+  "native_navigation_cases": 3024,
+  "notes": "PS4-FRONTEND-2314.md",
+  "automated_suites": [
+    {
+      "tests": 402,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite after PS4 panorama, anvil/furnace, Survival difficulty and host options"
+    }
+  ],
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Survival without privileges keeps editable difficulty across a real save/reload; disabled privileges reject both Select opening and direct option packets; pause Square is unbound",
+      "Select opens native PS4 player/host scenes; actual network requests update rules, TNT, day/night, difficulty, weather, game modes, world/player spawn, self abilities, guest permissions/moderator and both teleport directions",
+      "Anvil field, native result transaction and furnace/blast furnace/smoker outputs work; PS4 containers and host scenes render at all requested size stops, 720p OFF/1440p LCE Look",
+      "Unmodified PS4 panorama JPEGs and timeline render in the main menu; GUI input and source artwork remain aligned with supplied OptiFine H1"
+    ],
+    "screenshots": [
+      {
+        "file": "main-menu-720p.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "fa45b8f77182a1690c91af6df12e9b1727115fcb4d6bfde0b1ee31740d208d01"
+      },
+      {
+        "file": "pause-no-host-square.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "46fac392d390030fbb5e52bf35f8e825277827a3b08390b5733d11ba5552c98c"
+      },
+      {
+        "file": "view-0-anvil-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "31445b34f88009abcae5d46789044ec5bffccbe52bb4ee088947bd276d865c78"
+      },
+      {
+        "file": "view-0-anvil-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "109edfc10560b66bf142d156743abe9c165ccb60d5468fc606b9b75d9d956e00"
+      },
+      {
+        "file": "view-0-anvil-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "c4d7bcf935c06a0169d9ef13a8f059225dd2a60842d939086b20abaa29a7dd71"
+      },
+      {
+        "file": "view-0-furnace-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "77ca43d6013e84aa630fba30053e40fedf0c92921fa4a148ccfff4d0b05d9e8f"
+      },
+      {
+        "file": "view-0-furnace-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "42da7f6a544d5acb0c39ab86d6888b814108cce813f25257a05b3ef21cd3b3c1"
+      },
+      {
+        "file": "view-0-furnace-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "204e5c3c5a3eb592f75fe12fffd6cbd8d4c7bb6d41820b7e1227413441a3d3ef"
+      },
+      {
+        "file": "view-0-blast-furnace-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "369a1394ae6ba34dc3366109608aaab6401fe2cd08e2bffeada1abb322b42d76"
+      },
+      {
+        "file": "view-0-smoker-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "e090bffa3e7dff2b0e5573a39a562d3c4448b82d0b8878b9ff01000d1fc7a98e"
+      },
+      {
+        "file": "view-0-host-info-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "2ccb076bbeb1b3332a47726bd26f8850ffb6884fa23a04722ebf248e69583633"
+      },
+      {
+        "file": "view-0-host-info-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "6e539e8e61c7dbc609f3d7a9cf9ecdc7589e0f31f2d894f9b1df90f1c31fa36b"
+      },
+      {
+        "file": "view-0-host-info-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "28a8f9f5c512c5188c82b6dfc5974acf93d0f043ffa65a0c56d5cf31f90a7402"
+      },
+      {
+        "file": "view-0-host-global-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "52fc9c1adc7405303f415693a0a49f1056ac5d26b3d1c6466dfdfdc98d1b7a49"
+      },
+      {
+        "file": "view-0-host-global-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "8d936ccf35a1d86684bab6612d715e951808ec3a960046035f943c88bb48c1f9"
+      },
+      {
+        "file": "view-0-host-global-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "c2d8d2cbb5b5df217d8b532b052f9528b20ce1a6d13314705dc5749c09cf622c"
+      },
+      {
+        "file": "view-0-host-self-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "afc12494bb619c41bf1a1a1f237e419568eef96729f4a83d658444fa1f1196a5"
+      },
+      {
+        "file": "view-0-host-self-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "0fc0d214d7e4d05be2897a1d74179e69e97bc2e17f6e0171da69be25c2d15d4d"
+      },
+      {
+        "file": "view-0-host-self-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "7df028bf7f4cd16fdee22f8a8fa8e9facd4e7b361d035b482d1f27512d1dd03e"
+      },
+      {
+        "file": "view-0-host-guest-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "a84c7da0cad191c935e2ff3c3a3e6ecf41f0a3735aec79f91ad24c346004c2a7"
+      },
+      {
+        "file": "view-0-teleport-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "6b39c3e42384abdda25f785dfcab81f3678b77c0af3f8d4c4ec4540b4d208b09"
+      },
+      {
+        "file": "view-1-anvil-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c5587a25ef6bd6ab132c610a68fa34d24af724be95f6ab6139f430011a1871b4"
+      },
+      {
+        "file": "view-1-anvil-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "017db94188699b783eadeda96891e968dc159de36b43d48706e37210448725ce"
+      },
+      {
+        "file": "view-1-anvil-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "fbe4122a466a63b4fd31b349efbb59441ec83ba5997bcae8314833186d16e496"
+      },
+      {
+        "file": "view-1-furnace-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0f87714379b132268723cff0ecfd118ae286404b207b4f849139fd9aa1b6a6bc"
+      },
+      {
+        "file": "view-1-furnace-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "bb42a206be5a82beda35ed80ea373acc86d5ee8565d5d60e730d3cdb8cb4c6e9"
+      },
+      {
+        "file": "view-1-furnace-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "1dff205b84d3ca1442d813f7e0de38c43208945850d27dca0b83455adf6610ef"
+      },
+      {
+        "file": "view-1-blast-furnace-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4a11f5d6257589585709429acc6ebd18e97cb6e07602bde6a95442541a6f1da0"
+      },
+      {
+        "file": "view-1-smoker-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "043fd6fcfb07056fce76a78bc7df10f7539956347d9414f5318a2cbd894a3321"
+      },
+      {
+        "file": "view-1-host-info-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "2ed8bd824443fb1044d70c990bae26700237c4fabf2c5d41e6ddedd33677d499"
+      },
+      {
+        "file": "view-1-host-info-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "e704045ab95296d9f639367baff54c86d23c37c126bd61603a7ce5f1830cc2ae"
+      },
+      {
+        "file": "view-1-host-info-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "b4ec5ed290d3b0346544eab12234061976e4ee702eaed40770c083694a24aeed"
+      },
+      {
+        "file": "view-1-host-global-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "600352ff76fd5545fccaf5d816450acfd2c0880cace612cc5376490fc51e15b8"
+      },
+      {
+        "file": "view-1-host-global-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0475fbc2ab142e0c89e0ee171d57d050d19be5380d47682ba62b1d88a0f08cf6"
+      },
+      {
+        "file": "view-1-host-global-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "9962f2893df2286ef07ab1f2bb3b06c5f288db7183880a1c453332aad87786fb"
+      },
+      {
+        "file": "view-1-host-self-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "601dc2b96c7208bd41bff31557d982db4573eed46ec43d41ea6eeccdbe3aa97d"
+      },
+      {
+        "file": "view-1-host-self-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ea21385569ce5dce9d73afe5f906e46d16f1997d49371cab21f26b5c31d3d80b"
+      },
+      {
+        "file": "view-1-host-self-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4fe1cf7f7e8fa506bace611b2842232ab5e1808b932304f26ad814e3d685803a"
+      },
+      {
+        "file": "view-1-host-guest-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c99f528ce693238c2f9f8c91248507266ef2f07b878ef5af76fc351ecf3e4b8d"
+      },
+      {
+        "file": "view-1-teleport-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "600dc870dbc4769eea629a430cc7090fa6934b62dd99c3e72733525e099cfbc4"
+      }
+    ]
+  }
+}

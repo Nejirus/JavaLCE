@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8.4","package":"dev.legacyconsole.joincompat.mixin","compatibilityLevel":"JAVA_16","mixins":["HandshakeMixin"],"injectors":{"defaultRequire":1}}

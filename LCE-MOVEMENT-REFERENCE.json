@@ -1,0 +1,31 @@
+{
+  "release": "2.0.9",
+  "reference_revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "initialization": {
+    "file": "Minecraft.Client/Orbis/Orbis_Minecraft.cpp",
+    "line": 963,
+    "call": "SetDeadzoneAndMovementRange(10000,20000,32767)"
+  },
+  "provided_library": {
+    "file": "Minecraft.Client/Orbis/4JLibs/Libs/4J_Input.a",
+    "sha256": "73741b394d00f2df725ea22140b355502e0d91675c7ff9baed18b57c415b460a",
+    "member": "INP_Main.o",
+    "functions": [
+      "CInput::Initialise",
+      "CInput::SetDeadzoneAndMovementRange",
+      "CInput::SetJoypadValues",
+      "CInput::GetJoypadStick_LX"
+    ]
+  },
+  "movement_axis": {
+    "deadzone": 10000,
+    "maximum": 32767,
+    "divisor": 22767,
+    "operation": "Zero each axis inside +/-10000; subtract signed deadzone outside it; divide by 22767 independently."
+  },
+  "sprint": {
+    "file": "Minecraft.Client/LocalPlayer.cpp",
+    "forward_threshold": 0.8
+  },
+  "scope": "Gameplay movement uses the source axis filter when Legacy Movement is enabled. Look, menus and cursor keep their existing radial filter. No reference library binary is redistributed."
+}

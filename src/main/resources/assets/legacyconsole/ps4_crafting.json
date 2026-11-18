@@ -1,0 +1,1366 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "scene_sha256": "5ff680be3c5080e09692731baddce151710da7e0544cd90e75b110f1136fbfa5",
+  "graphics_sha256": "4fd014d618f881b18231f1b5eadf2044f033ea0358edac2fd1b16fac2985b695",
+  "root": [
+    496.5,
+    170.5
+  ],
+  "placeholder": 50,
+  "controls": {
+    "HorTabOn": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "iggy": [
+      3.0,
+      0.0,
+      0.0,
+      3.0,
+      38.0,
+      25.649999618530273
+    ],
+    "staticicon": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      40.0,
+      28.0
+    ],
+    "VertTabOn": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Crafting2VSlot1": [
+      1.6399993896484375,
+      0.0,
+      0.0,
+      1.639984130859375,
+      19.0,
+      71.0
+    ],
+    "Crafting2VSlot2": [
+      1.6399993896484375,
+      0.0,
+      0.0,
+      1.639984130859375,
+      19.0,
+      153.0
+    ],
+    "Crafting3VSlot1": [
+      1.6399993896484375,
+      0.0,
+      0.0,
+      1.639984130859375,
+      19.0,
+      71.0
+    ],
+    "Crafting3VSlot2": [
+      1.6399993896484375,
+      0.0,
+      0.0,
+      1.639984130859375,
+      19.0,
+      153.0
+    ],
+    "Crafting3VSlot3": [
+      1.6399993896484375,
+      0.0,
+      0.0,
+      1.639984130859375,
+      19.0,
+      235.0
+    ],
+    "ScrollArrows": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      30.0,
+      0.0
+    ],
+    "TabH_1_Off": [
+      0.9999847412109375,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      6.0,
+      10.0
+    ],
+    "TabV_1_Off": [
+      1.0,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      -99.0,
+      119.0
+    ],
+    "TabV_2_Off": [
+      1.0,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      -99.0,
+      239.0
+    ],
+    "TabV_3_Off": [
+      1.0,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      -99.0,
+      359.0
+    ],
+    "TabV_4_Off": [
+      1.0,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      -99.0,
+      479.0
+    ],
+    "TabV_5_Off": [
+      1.0,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      -99.0,
+      599.0
+    ],
+    "TabH_2_Off": [
+      0.9999847412109375,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      153.0,
+      10.0
+    ],
+    "TabH_3_Off": [
+      0.9999847412109375,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      300.0,
+      10.0
+    ],
+    "TabH_4_Off": [
+      0.9999847412109375,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      447.0,
+      10.0
+    ],
+    "TabH_5_Off": [
+      0.9999847412109375,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      594.0,
+      10.0
+    ],
+    "TabH_6_Off": [
+      0.9999847412109375,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      741.0,
+      10.0
+    ],
+    "TabH_7_Off": [
+      0.9999847412109375,
+      0.0,
+      0.0,
+      0.9999847412109375,
+      888.0,
+      10.0
+    ],
+    "TabH_1": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      6.0,
+      0.0
+    ],
+    "TabH_2": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      153.0,
+      0.0
+    ],
+    "TabH_3": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      300.0,
+      0.0
+    ],
+    "TabH_4": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      447.0,
+      0.0
+    ],
+    "TabH_5": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      594.0,
+      0.0
+    ],
+    "TabH_6": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      741.0,
+      0.0
+    ],
+    "TabH_7": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      888.0,
+      0.0
+    ],
+    "TabV_2": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -113.0,
+      239.0
+    ],
+    "TabV_1": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -113.0,
+      119.0
+    ],
+    "TabV_3": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -113.0,
+      359.0
+    ],
+    "TabV_4": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -113.0,
+      479.0
+    ],
+    "TabV_5": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -113.0,
+      599.0
+    ],
+    "CraftingArrow": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      290.0,
+      564.0
+    ],
+    "ItemName": [
+      1.3143310546875,
+      0.0,
+      0.0,
+      1.0,
+      31.0,
+      426.0
+    ],
+    "IngredientsLayout": [
+      4.200042724609375,
+      0.0,
+      0.0,
+      4.200042724609375,
+      61.0,
+      487.0
+    ],
+    "CraftingOutput": [
+      2.160003662109375,
+      0.0,
+      0.0,
+      2.160003662109375,
+      380.0,
+      534.0
+    ],
+    "IngredientsLayout_Small": [
+      2.800048828125,
+      0.0,
+      0.0,
+      2.800048828125,
+      96.0,
+      522.0
+    ],
+    "ItemNameSmall": [
+      1.5352783203125,
+      0.0,
+      0.0,
+      1.0,
+      31.0,
+      432.0
+    ],
+    "CraftingInput": [
+      2.160003662109375,
+      0.0,
+      0.0,
+      2.160003662109375,
+      111.0,
+      534.0
+    ],
+    "CraftingHSlots": [
+      19.679931640625,
+      0.0,
+      0.0,
+      1.6399993896484375,
+      30.0,
+      215.0
+    ],
+    "GroupName": [
+      4.4111328125,
+      0.0,
+      0.0,
+      1.0,
+      23.0,
+      143.0
+    ],
+    "SlotSelector2": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      137.10000610351562,
+      162.0
+    ],
+    "SlotSelector3": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      257.0,
+      162.0
+    ],
+    "Ingredient1": [
+      0.8400115966796875,
+      0.0,
+      0.0,
+      0.8400115966796875,
+      548.0,
+      478.0
+    ],
+    "Ingredient2": [
+      0.8400115966796875,
+      0.0,
+      0.0,
+      0.8400115966796875,
+      548.0,
+      523.0
+    ],
+    "Ingredient3": [
+      0.8400115966796875,
+      0.0,
+      0.0,
+      0.8400115966796875,
+      548.0,
+      568.0
+    ],
+    "Ingredient4": [
+      0.8400115966796875,
+      0.0,
+      0.0,
+      0.8400115966796875,
+      548.0,
+      613.0
+    ],
+    "Ingredient1Desc": [
+      1.9258270263671875,
+      0.0,
+      0.0,
+      1.0,
+      592.0,
+      486.0
+    ],
+    "Ingredient2Desc": [
+      1.9258270263671875,
+      0.0,
+      0.0,
+      1.0,
+      592.0,
+      531.0
+    ],
+    "Ingredient3Desc": [
+      1.9258270263671875,
+      0.0,
+      0.0,
+      1.0,
+      592.0,
+      576.0
+    ],
+    "Ingredient4Desc": [
+      1.9258270263671875,
+      0.0,
+      0.0,
+      1.0,
+      592.0,
+      621.0
+    ],
+    "IngredientsLabel": [
+      2.11712646484375,
+      0.0,
+      0.0,
+      1.0,
+      535.0499877929688,
+      412.0
+    ],
+    "Ingredient5": [
+      0.8400115966796875,
+      0.0,
+      0.0,
+      0.8400115966796875,
+      548.0,
+      657.0
+    ],
+    "Ingredient5Desc": [
+      1.9258270263671875,
+      0.0,
+      0.0,
+      1.0,
+      592.0,
+      665.0
+    ],
+    "InventoryLabel": [
+      2.117156982421875,
+      0.0,
+      0.0,
+      1.0,
+      535.0499877929688,
+      412.0
+    ],
+    "HotBar": [
+      8.639999389648438,
+      0.0,
+      0.0,
+      0.9600067138671875,
+      556.0,
+      634.0
+    ],
+    "Inventory": [
+      8.639999389648438,
+      0.0,
+      0.0,
+      2.879974365234375,
+      556.0,
+      466.0
+    ],
+    "DescriptionText": [
+      1.8160858154296875,
+      0.0,
+      0.0,
+      2.630035400390625,
+      548.0,
+      439.0
+    ],
+    "PreviewSlot": [
+      4.66009521484375,
+      0.0,
+      0.0,
+      4.66009521484375,
+      656.0499877929688,
+      472.0
+    ],
+    "PreviewLabel": [
+      2.117156982421875,
+      0.0,
+      0.0,
+      1.0,
+      535.0499877929688,
+      412.0
+    ],
+    "DescriptionPanel": [
+      0.9697113037109375,
+      0.0,
+      0.0,
+      0.96966552734375,
+      530.0,
+      127.0
+    ],
+    "DescriptionTextTop": [
+      1.8560028076171875,
+      0.0,
+      0.0,
+      2.44989013671875,
+      540.0,
+      136.5500030517578
+    ],
+    "Slot2_1": [
+      1.639892578125,
+      0.0,
+      0.0,
+      1.6399993896484375,
+      120.0,
+      230.0
+    ],
+    "Slot2_2": [
+      1.639892578125,
+      0.0,
+      0.0,
+      1.6399993896484375,
+      350.0,
+      230.0
+    ],
+    "Slot3_1": [
+      1.639892578125,
+      0.0,
+      0.0,
+      1.6399993896484375,
+      86.0,
+      230.0
+    ],
+    "Slot3_2": [
+      1.639892578125,
+      0.0,
+      0.0,
+      1.6399993896484375,
+      226.0,
+      230.0
+    ],
+    "Slot3_3": [
+      1.639892578125,
+      0.0,
+      0.0,
+      1.6399993896484375,
+      366.0,
+      230.0
+    ],
+    "SpinnerTitle": [
+      1.3143310546875,
+      0.0,
+      0.0,
+      1.0,
+      31.0,
+      143.0
+    ],
+    "CraftingSelector": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      29.100000381469727,
+      199.5500030517578
+    ]
+  },
+  "sprites": {
+    "scrollUp": {
+      "texture": "scrollup",
+      "size": [
+        48,
+        33
+      ],
+      "source_sha256": "56b9b16af63cfa14f6436b45ff70d53f31901168badd92fb16b5a579ead99b56",
+      "sha256": "34d363a6d1de0bd66c2488a6a15213bfe60dfd7a4e910e76259a8afd65b84f14"
+    },
+    "scrollDown": {
+      "texture": "scrolldown",
+      "size": [
+        48,
+        33
+      ],
+      "source_sha256": "13a19a8ff0874055523e4409325de7ceb1e6385891f430bbc6caf818727251ed",
+      "sha256": "a9c5e0b411e8682d7de889c4d05054d0398de64bc2f56116a7f3f7f7aab0dbb8"
+    },
+    "Crafting_2SlotLargeV": {
+      "texture": "crafting_2slotlargev",
+      "size": [
+        120,
+        306
+      ],
+      "source_sha256": "fdcc3c2e4796503f09ece29d1bc56012d458460da030e8217eaa352e428a1d2b",
+      "sha256": "fdcc3c2e4796503f09ece29d1bc56012d458460da030e8217eaa352e428a1d2b"
+    },
+    "Crafting_3SlotLargeV": {
+      "texture": "crafting_3slotlargev",
+      "size": [
+        120,
+        388
+      ],
+      "source_sha256": "77283acd15632d51887e49d365c03357571224435a7124465556b0fa18624f6b",
+      "sha256": "77283acd15632d51887e49d365c03357571224435a7124465556b0fa18624f6b"
+    },
+    "Craft_Highlight_L_Small": {
+      "texture": "craft_highlight_l_small",
+      "size": [
+        108,
+        108
+      ],
+      "source_sha256": "c94c8408806669c539a83518dc362426b29add238a494e947ccd8ad2697e2580",
+      "sha256": "b832f9f578797d32cd6eda0a16647922074b60196401be8ad4094d49a0f61959"
+    },
+    "LargeVertTabOff": {
+      "texture": "largeverttaboff",
+      "size": [
+        144,
+        125
+      ],
+      "source_sha256": "2b6eb58bf97a6053dad98cae7bf892988a947a889706183cd1b831e246dae013",
+      "sha256": "2b6eb58bf97a6053dad98cae7bf892988a947a889706183cd1b831e246dae013"
+    },
+    "LargeVertTabOn": {
+      "texture": "largeverttabon",
+      "size": [
+        144,
+        125
+      ],
+      "source_sha256": "906246a355bad409c4af5f3e4d0c8d0ab81d48a358ba15303992317dcd81a467",
+      "sha256": "906246a355bad409c4af5f3e4d0c8d0ab81d48a358ba15303992317dcd81a467"
+    },
+    "LargeOffTab": {
+      "texture": "largeofftab",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "f6eb6f32a39f714bcec4ceccb0945b9b3cb702b1a85056f8d8b577264ef4b363",
+      "sha256": "f6eb6f32a39f714bcec4ceccb0945b9b3cb702b1a85056f8d8b577264ef4b363"
+    },
+    "LargeTabLeft": {
+      "texture": "largetableft",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "f92c5d897530b1078ed9fda7437ef62bd4a529a813bbf388e4cf9c69e66df92e",
+      "sha256": "f92c5d897530b1078ed9fda7437ef62bd4a529a813bbf388e4cf9c69e66df92e"
+    },
+    "LargeTabMiddle": {
+      "texture": "largetabmiddle",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "fb78b39ff040a8e234f4791700a87a0d86e04525931a077137570af74beb9501",
+      "sha256": "fb78b39ff040a8e234f4791700a87a0d86e04525931a077137570af74beb9501"
+    },
+    "LargeTabRight": {
+      "texture": "largetabright",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "8c27dc4c53fab4f1076daa906cfc1c210bbe8afc17807f14f8fc852fede50b12",
+      "sha256": "8c27dc4c53fab4f1076daa906cfc1c210bbe8afc17807f14f8fc852fede50b12"
+    },
+    "IconHolder_1x1border": {
+      "texture": "iconholder_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "e0c816362663472e46bf5cf6253957df2c916505ec9355563fae99a3c5d3df5c",
+      "sha256": "9d93bfee75f3eb5c694680d9271d91187cf161f9cf3d0979006ccfa411166fae"
+    },
+    "IconHolderRed_1x1border": {
+      "texture": "iconholderred_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "71b26185051610ceca795defeb554951832f1997583da599b62c22df4bf4fb6f",
+      "sha256": "e0a9b32c0d629aa17c44a70ff4ec0b81543dd4bfad5678f1595d2957a273db50"
+    },
+    "IconHolderInactive_1x1border": {
+      "texture": "iconholderinactive_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "efcb5df24e300746a1016ec67cc281e572a5cae43fede472721c6c7133e20a70",
+      "sha256": "f00f2e1f89ab6eba4f417780b0afc6d63d2d5a3e4ec797a9fbd3d2d8baff8b08"
+    },
+    "IconHolderHighlight_1x1border": {
+      "texture": "iconholderhighlight_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "76333e9981a54a8d358d7021c9674b8903745f181f46868a2a12b338bf0f41e3",
+      "sha256": "af0497d77f5fa4760fd037e760c714926905dd4ed96e44b6a8e9a975f6bfc8a4"
+    },
+    "SlotHighlight": {
+      "texture": "slothighlight",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "8415d24fa4c0f2edb82d08007845bb572cdbfa781e5569f279fd47ba20fa7e0c",
+      "sha256": "8e01f9e721f8f23f29def9e19001c345ac119ae34f6b1cb2c8065e1700ddbbdd"
+    },
+    "Arrow_Small_Off": {
+      "texture": "arrow_small_off",
+      "size": [
+        72,
+        48
+      ],
+      "source_sha256": "f5982b7ff8f9b9db702692db237c2663d053e1394ce5e2c521d720dddde32021",
+      "sha256": "299d2dbc354c00aa1706bae9e498478be835caeaa3e284bf7d2d9acfa68eb350"
+    },
+    "Craft_Scroll_up": {
+      "texture": "craft_scroll_up",
+      "size": [
+        32,
+        18
+      ],
+      "source_sha256": "ead9a91c6d70d3508c1c00b95ebd1a3e8600bf8c203c2d429a30f2ec7d71d03e",
+      "sha256": "7da6170591f609585f0fcfcccf4f144f0b7051a2087c00b37d055c88be53ee4f"
+    },
+    "Craft_Scroll_Down": {
+      "texture": "craft_scroll_down",
+      "size": [
+        32,
+        18
+      ],
+      "source_sha256": "64ae134f73c1c495e3b1e6118a66ed7f7e96396edaa1822b7aa23b2ce6220b86",
+      "sha256": "a065b4e00e56e49c389b4a03fbfbec9801214b0668317ece2331984937d35143"
+    }
+  },
+  "panels": {
+    "FJ_Panel9Grid": {
+      "grid": [
+        53.0,
+        106.0,
+        53.0,
+        106.0
+      ],
+      "pieces": [
+        {
+          "texture": "fj_panel9grid_0",
+          "rect": [
+            0.0,
+            0.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_sha256": "f2907aac39e0741720a662ab0ff8a53d664e580672ee6fc26114201154f166ba",
+          "sha256": "76fe4c456d27d534085f5b4f4b3715581bc386dea96b3718331204caea7222e6"
+        },
+        {
+          "texture": "fj_panel9grid_1",
+          "rect": [
+            53.0,
+            0.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            53.0,
+            0.0
+          ],
+          "source_sha256": "ae041bbb54de3a50fc674b74e9f5354e46d1b45924698f3d618abcad5b0bd27c",
+          "sha256": "7607a4d79b8852c9e5d2726ec79339779ed67bbbd1ecd104769e9a4f13a280ff"
+        },
+        {
+          "texture": "fj_panel9grid_2",
+          "rect": [
+            106.0,
+            0.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            106.0,
+            0.0
+          ],
+          "source_sha256": "9e2d8de2af7248234ab4bca995d6a944e9630bfacddc828f8fdffbe63ab0249d",
+          "sha256": "00b713c0f789e66943f1b387a77340789df3fe49c17de47d1160b05afeed2160"
+        },
+        {
+          "texture": "fj_panel9grid_3",
+          "rect": [
+            0.0,
+            53.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            53.0
+          ],
+          "source_sha256": "3d34664a1067f8c93cd1d2b52e2d260d2d9725cd72ef74af0d315fb365ae8392",
+          "sha256": "583aa5378714c80be9a8a66b6ba2cabf2f37960f953f1569539c6aed04a994de"
+        },
+        {
+          "texture": "fj_panel9grid_4",
+          "rect": [
+            53.0,
+            53.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            53.0,
+            53.0
+          ],
+          "source_sha256": "fcbe8f60c2ac9517b7e76d383553aed3eedff17e04bd9bb1d187cc77d5109da6",
+          "sha256": "33f02ebb9fabd497ab2a817213bd86292e8cb3c82d57f4f91f173161a390efba"
+        },
+        {
+          "texture": "fj_panel9grid_5",
+          "rect": [
+            106.0,
+            53.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            106.0,
+            53.0
+          ],
+          "source_sha256": "9b42b8a9a118738bfd00c4c1b7c02eb087e8547435b59a44f5820bfeac09bce3",
+          "sha256": "0495a80fd85fea7942405bdfcd042224d8c14483a8cbffa17988914e196d59d6"
+        },
+        {
+          "texture": "fj_panel9grid_6",
+          "rect": [
+            0.0,
+            106.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            106.0
+          ],
+          "source_sha256": "218a7900a80d918973de9f8783ed710d18c3131ed9b3ae75ac73ab48c742493d",
+          "sha256": "9920b155dbb300b70c762465a147abb95817048aa368edfba5d600879536dbe3"
+        },
+        {
+          "texture": "fj_panel9grid_7",
+          "rect": [
+            53.0,
+            106.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            53.0,
+            106.0
+          ],
+          "source_sha256": "5ab9b16b639bb31f2901fd9c1bcbdbe6ced8bfbd15d92d70249f1b466afdb440",
+          "sha256": "5d58099d251a929ed4e4b193439e89cc509877ad63d6278af7826735fb8beb40"
+        },
+        {
+          "texture": "fj_panel9grid_8",
+          "rect": [
+            106.0,
+            106.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            106.0,
+            106.0
+          ],
+          "source_sha256": "e0c269219293287097481f3e0ace7afafcd8d296b5977d49f5576a3245ae7937",
+          "sha256": "def6c46321b78d55874fee01e50b36e87763ea290fd6068755ef445318461b95"
+        }
+      ]
+    },
+    "FJ_SquareRecessedPanel": {
+      "grid": [
+        22.0,
+        44.0,
+        22.0,
+        44.0
+      ],
+      "pieces": [
+        {
+          "texture": "fj_squarerecessedpanel_0",
+          "rect": [
+            0.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_sha256": "9915bfbe82edadc4f769d0132d8da8400a20ac71baa96c47c590c000ce73967d",
+          "sha256": "47293f9fdb2d3f8d97ee3c8cdc1ce353c01475ea137ae991691a5a36366bf944"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_1",
+          "rect": [
+            22.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            0.0
+          ],
+          "source_sha256": "3e86a765c771a92a3a3f4d0a9c38a7a11d64a3aa2dd64ab57d87f7072ff1381f",
+          "sha256": "de5c0ce8ced81b219bb47bdeeb4813a475d5e52d55518a5b115a5fdafbb69145"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_2",
+          "rect": [
+            44.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            0.0
+          ],
+          "source_sha256": "3854f2d352f22189ae34a54387611712d70be805c3874ecfd7e2ddc6a18868b3",
+          "sha256": "18ea8e13d3ffa694f1f86c395a79acfe9e89118754805269effdb35bde2118e5"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_3",
+          "rect": [
+            0.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            22.0
+          ],
+          "source_sha256": "8ad22a464956af91eb6f0de3180e35030f1ad90bcc54867621af97b5a2080694",
+          "sha256": "20fcd597749ae9770673beff1c5bd2f62e573f330621d5cc7e72af29fec51230"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_4",
+          "rect": [
+            22.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            22.0
+          ],
+          "source_sha256": "b6d668cbe9e1aa006f6a114eaa59eb764c49407f124a8eafab2ae55a6568d2a2",
+          "sha256": "8cb06401985a80622290202d365325cfc06ff49b63f22be1673fc6755fc6b979"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_5",
+          "rect": [
+            44.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            22.0
+          ],
+          "source_sha256": "efea1d8e7b474a7d298dabb7b19db851ddb1fe04d35eba85026cf38853645c85",
+          "sha256": "bd2d790f40ebeae6cc0b94a5ebaf12ee72fb5cb947cd9fd8d56077a996113579"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_6",
+          "rect": [
+            0.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            44.0
+          ],
+          "source_sha256": "269c1343a7fc8e06c559b9cd88c32efad05bf9b1767f545a9d2395243d45d850",
+          "sha256": "a93d50e64af8de60d3fa8d9ea0356f18eb0bc7171bf348efc93954230e0b9875"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_7",
+          "rect": [
+            22.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            44.0
+          ],
+          "source_sha256": "11aa8952f1ec734a2542b9938896bad296301b6af5f02b012200ee56a1c05083",
+          "sha256": "78bde1baba75229ad19ad93c62d0bd266411973d014feef8e7985e1a4e2433e1"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_8",
+          "rect": [
+            44.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            44.0
+          ],
+          "source_sha256": "82ef98283afc3ff6e8f5a6ea95e85502e6aeac27934da05ae0525bf21c8b12ef",
+          "sha256": "095001b900adf8541ceaba37df49c7e58e4b2127b3a629b0ec8bf0be9d26acdb"
+        }
+      ]
+    }
+  },
+  "backgrounds": [
+    {
+      "panel": "FJ_Panel9Grid",
+      "matrix": [
+        6.5032196044921875,
+        0.0,
+        0.0,
+        3.993682861328125,
+        6.0,
+        104.0
+      ]
+    },
+    {
+      "panel": "FJ_SquareRecessedPanel",
+      "matrix": [
+        7.34881591796875,
+        0.0,
+        0.0,
+        4.7122802734375,
+        31.0,
+        403.0
+      ]
+    },
+    {
+      "panel": "FJ_SquareRecessedPanel",
+      "matrix": [
+        7.34881591796875,
+        0.0,
+        0.0,
+        4.7122802734375,
+        530.0,
+        403.0
+      ]
+    }
+  ],
+  "palette": [
+    {
+      "color": 0,
+      "dyes": [
+        15,
+        19
+      ],
+      "name": "white",
+      "rgb": 16383998
+    },
+    {
+      "color": 1,
+      "dyes": [
+        14
+      ],
+      "name": "orange",
+      "rgb": 16351261
+    },
+    {
+      "color": 2,
+      "dyes": [
+        13
+      ],
+      "name": "magenta",
+      "rgb": 13061821
+    },
+    {
+      "color": 3,
+      "dyes": [
+        12
+      ],
+      "name": "light_blue",
+      "rgb": 3847130
+    },
+    {
+      "color": 4,
+      "dyes": [
+        11
+      ],
+      "name": "yellow",
+      "rgb": 16701501
+    },
+    {
+      "color": 5,
+      "dyes": [
+        10
+      ],
+      "name": "lime",
+      "rgb": 8439583
+    },
+    {
+      "color": 6,
+      "dyes": [
+        9
+      ],
+      "name": "pink",
+      "rgb": 15961002
+    },
+    {
+      "color": 7,
+      "dyes": [
+        8
+      ],
+      "name": "gray",
+      "rgb": 4673362
+    },
+    {
+      "color": 8,
+      "dyes": [
+        7
+      ],
+      "name": "silver",
+      "rgb": 10329495
+    },
+    {
+      "color": 9,
+      "dyes": [
+        6
+      ],
+      "name": "cyan",
+      "rgb": 1481884
+    },
+    {
+      "color": 10,
+      "dyes": [
+        5
+      ],
+      "name": "purple",
+      "rgb": 8991416
+    },
+    {
+      "color": 11,
+      "dyes": [
+        4,
+        17
+      ],
+      "name": "blue",
+      "rgb": 3949738
+    },
+    {
+      "color": 12,
+      "dyes": [
+        3,
+        18
+      ],
+      "name": "brown",
+      "rgb": 8606770
+    },
+    {
+      "color": 13,
+      "dyes": [
+        2
+      ],
+      "name": "green",
+      "rgb": 6192150
+    },
+    {
+      "color": 14,
+      "dyes": [
+        1
+      ],
+      "name": "red",
+      "rgb": 11546150
+    },
+    {
+      "color": 15,
+      "dyes": [
+        0,
+        16
+      ],
+      "name": "black",
+      "rgb": 1908001
+    }
+  ],
+  "tab_patterns": [
+    "cr",
+    "ld",
+    "mc",
+    "bo",
+    "cre"
+  ],
+  "channel_conversion": "PS4 BGRA to Java RGBA; no other pixel changes",
+  "vertical_tab_icons": {
+    "on": [
+      3.0,
+      0.0,
+      0.0,
+      3.0,
+      38.0,
+      25.649999618530273
+    ],
+    "off": [
+      2.9999542236328125,
+      0.0,
+      0.0,
+      2.9999542236328125,
+      30.0,
+      26.049999237060547
+    ]
+  },
+  "description_panel": [
+    0.9697113037109375,
+    0.0,
+    0.0,
+    0.96966552734375,
+    530.0,
+    127.0,
+    7.578369140625,
+    4.171844482421875
+  ],
+  "labels": {
+    "133e5cd4": "Stripes",
+    "b35ee68b": "Halves",
+    "dd9417ba": "Shapes",
+    "f8e4117f": "Borders, Backgrounds and Gradients",
+    "8078384b": "Symbols",
+    "7f57b5e0": "Create Banner",
+    "93d2882c": "Select Banner",
+    "f6bfb839": "Copy Banner",
+    "d0d94a48": "Color",
+    "dcca69ba": "Shape",
+    "7a3f69fa": "Effect",
+    "529a620a": "Add Fade",
+    "80ac0ce1": "Select Star",
+    "3a0766fb": "Add Power",
+    "d047a3ce": "Preview",
+    "5f116e91": "Create",
+    "ded2ef45": "Exit",
+    "9219698b": "Remove",
+    "91d18454": "Add",
+    "f73b4f2d": "Type",
+    "06974812": "Group",
+    "8d6323ed": "Select",
+    "fe4f3a12": "Copy",
+    "1a4e966d": "Dye",
+    "cb14bd42": "Ingredients",
+    "a89bcc3a": "Inventory",
+    "6ca19582": "Armor",
+    "47c65cd1": "Item",
+    "ae01f627": "Show Description",
+    "63d85f8f": "Show Ingredients",
+    "ccf37993": "Show Inventory",
+    "52c6df2e": "Wool (any color)",
+    "a4fbd60e": "Planks (any type)",
+    "6bb77ede": "Sandstone (any type)",
+    "f36c79ed": "Red Sandstone (any type)",
+    "d2631070": "Stone Bricks (any type)",
+    "48008e1a": "Block of Quartz (any type)",
+    "acc3dd75": "Stone (any type)",
+    "68615d41": "Wood Slab (any type)",
+    "86f48c5a": "Dye Powder",
+    "2fccdffb": "What's This?"
+  }
+}

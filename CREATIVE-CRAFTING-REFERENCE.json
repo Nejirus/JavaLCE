@@ -1,0 +1,34 @@
+{
+  "release": "2.0.10",
+  "lce_revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "creative_reference": "Minecraft.Client/Common/UI/IUIScene_CreativeMenu.cpp",
+  "functions": [
+    "handleValidKeyPress",
+    "handleOutsideClicked",
+    "handleSlotListClicked",
+    "getEmptyInventorySlot",
+    "overrideTooltips"
+  ],
+  "legacy4j_revision": "80ca31049dd5ea9f7169810f3cadd0aa38114a51",
+  "legacy4j_references": [
+    "common/src/main/java/wily/legacy/mixin/LoomScreenMixin.java",
+    "common/src/main/java/wily/legacy/mixin/LoomMenuMixin.java",
+    "common/src/main/java/wily/legacy/client/screen/LegacyCraftingScreen.java"
+  ],
+  "loom_layout": "classic native loom, 215x217; pattern grid x73.5 y19.5, step18; preview x168.5 y69 scale24",
+  "new_original_assets": [
+    {
+      "file": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/loom/dye_slot.png",
+      "sha256": "bf2abc0ec5327828eb307428d1af19d2de2592a7ea42853aba4b06e565eedd4a"
+    },
+    {
+      "file": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/loom/pattern_slot.png",
+      "sha256": "413102a00f33215cb1d3595f1e1ed894251ae81e6eaa039f57ea338cc43debea"
+    },
+    {
+      "file": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/loom/banner_slot.png",
+      "sha256": "abf5e5810f57faa47b81f672216824db6a3826ffd282d25b7dda06e2a868cecc"
+    }
+  ],
+  "native_draw_adaptation": "Full-bright GUI texturing pass for the original banner mesh, atlas sprites and dye colors; bypass the shared Material render-type cache to preserve world rendering with OptiFine H1."
+}

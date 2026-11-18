@@ -1,0 +1,931 @@
+{
+  "minecraft:cobblestone_building_low_decay": [
+    {
+      "input": {
+        "kind": "block_random",
+        "input": {
+          "block": "cobblestone",
+          "data": 0
+        },
+        "chance": 0.10000000149011612
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "mossy_cobblestone",
+        "data": 0
+      }
+    }
+  ],
+  "minecraft:cobblestone_building_decay": [
+    {
+      "input": {
+        "kind": "block_random",
+        "input": {
+          "block": "cobblestone",
+          "data": 0
+        },
+        "chance": 0.20000000298023224
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "mossy_cobblestone",
+        "data": 0
+      }
+    }
+  ],
+  "minecraft:cobblestone_building_high_decay": [
+    {
+      "input": {
+        "kind": "block_random",
+        "input": {
+          "block": "cobblestone",
+          "data": 0
+        },
+        "chance": 0.699999988079071
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "mossy_cobblestone",
+        "data": 0
+      }
+    }
+  ],
+  "minecraft:plains_path_decay": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "flowing_water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "ice",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "air",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "air",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block_biome",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        },
+        "biome": 1
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "sand",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "sandstone",
+        "data": 2
+      }
+    },
+    {
+      "input": {
+        "kind": "block_random",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        },
+        "chance": 0.02500000037252903
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "grass",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "water",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "dirt",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "water",
+        "data": 0
+      }
+    }
+  ],
+  "minecraft:desert_path_decay": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "air",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "air",
+        "data": 0
+      }
+    }
+  ],
+  "minecraft:savanna_path_decay": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "flowing_water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "ice",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "air",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "air",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block_biome",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        },
+        "biome": 1
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "sand",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "sandstone",
+        "data": 2
+      }
+    },
+    {
+      "input": {
+        "kind": "block_random",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        },
+        "chance": 0.05000000074505806
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "grass",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "water",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "dirt",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "water",
+        "data": 0
+      }
+    }
+  ],
+  "minecraft:snowy_path_decay": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "flowing_water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "ice",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "air",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "air",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block_biome",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        },
+        "biome": 1
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "sand",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "sandstone",
+        "data": 2
+      }
+    },
+    {
+      "input": {
+        "kind": "block_random",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        },
+        "chance": 0.05000000074505806
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "grass",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "water",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "dirt",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "water",
+        "data": 0
+      }
+    }
+  ],
+  "minecraft:taiga_path_decay": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "flowing_water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "ice",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "planks",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "air",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "air",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block_biome",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        },
+        "biome": 1
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "sand",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "sandstone",
+        "data": 2
+      }
+    },
+    {
+      "input": {
+        "kind": "block_random",
+        "input": {
+          "block": "grass_path",
+          "data": 0
+        },
+        "chance": 0.05000000074505806
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "grass",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "grass",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "water",
+        "data": 0
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "dirt",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "block",
+        "input": {
+          "block": "water",
+          "data": 0
+        }
+      },
+      "output": {
+        "block": "water",
+        "data": 0
+      }
+    }
+  ],
+  "minecraft:wheat_wheat_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "carrots",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "wheat",
+        "data": 7
+      }
+    }
+  ],
+  "minecraft:wheat_potato_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "carrots",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "potatoes",
+        "data": 7
+      }
+    }
+  ],
+  "minecraft:wheat_beet_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "carrots",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "beetroots",
+        "data": 7
+      }
+    }
+  ],
+  "minecraft:potato_potato_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "wheat",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "potatoes",
+        "data": 7
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "carrots",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "potatoes",
+        "data": 7
+      }
+    }
+  ],
+  "minecraft:potato_beet_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "wheat",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "potatoes",
+        "data": 7
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "carrots",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "beetroots",
+        "data": 7
+      }
+    }
+  ],
+  "minecraft:potato_carrot_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "wheat",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "potatoes",
+        "data": 7
+      }
+    }
+  ],
+  "minecraft:beet_beet_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "wheat",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "beetroots",
+        "data": 7
+      }
+    },
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "carrots",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "beetroots",
+        "data": 7
+      }
+    }
+  ],
+  "minecraft:beet_carrot_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "wheat",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "beetroots",
+        "data": 7
+      }
+    }
+  ],
+  "minecraft:carrot_carrot_farm": [
+    {
+      "input": {
+        "kind": "block",
+        "input": {
+          "block": "wheat",
+          "data": 0
+        }
+      },
+      "location": {
+        "kind": "always"
+      },
+      "output": {
+        "block": "carrots",
+        "data": 7
+      }
+    }
+  ]
+}

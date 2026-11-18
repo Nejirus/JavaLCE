@@ -1,0 +1,3016 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "full_constructor": "0x964350",
+  "common_constructor": "0x999780",
+  "gameplay": [
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x96450b",
+      "description_hash": "989a3f76",
+      "prompt_hash": "03f9463f",
+      "text": "Minecraft is a game about placing blocks to build anything you can imagine!  \r\nAt night monsters come out, so make sure to build a shelter before that happens.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "ControllerTask",
+      "allocation_return_pc": "0x96458c",
+      "description_hash": "68129f42",
+      "prompt_hash": "ffffffff",
+      "text": "Use{*CONTROLLER_ACTION_LOOK*} to look up, down and around.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "actions": [
+        31,
+        32,
+        29,
+        30
+      ],
+      "completion_masks": [
+        10,
+        9,
+        6,
+        5
+      ]
+    },
+    {
+      "kind": "ControllerTask",
+      "allocation_return_pc": "0x9645e2",
+      "description_hash": "d6b36624",
+      "prompt_hash": "ffffffff",
+      "text": "Use{*CONTROLLER_ACTION_MOVE*} to move around.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "actions": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "completion_masks": [
+        10,
+        9,
+        6,
+        5
+      ]
+    },
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x96462c",
+      "description_hash": "24614e1f",
+      "prompt_hash": "03f9463f",
+      "text": "To sprint, push{*CONTROLLER_ACTION_MOVE*} forward twice quickly. While you hold{*CONTROLLER_ACTION_MOVE*} forward, you will continue to sprint until you run out of sprint time or {*ICON_SHANK_01*}.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "ControllerTask",
+      "allocation_return_pc": "0x964678",
+      "description_hash": "e21ad07f",
+      "prompt_hash": "ffffffff",
+      "text": "Press{*CONTROLLER_ACTION_JUMP*} to jump.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        33
+      ],
+      "completion_masks": []
+    },
+    {
+      "kind": "ControllerTask",
+      "allocation_return_pc": "0x9646d0",
+      "description_hash": "fa88ce3a",
+      "prompt_hash": "ffffffff",
+      "text": "Hold{*CONTROLLER_ACTION_ACTION*} to mine and chop using your hand or whatever you are holding. You may need to craft a tool to mine some blocks...",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        35
+      ],
+      "completion_masks": []
+    },
+    {
+      "kind": "PickupTask",
+      "allocation_return_pc": "0x9647c2",
+      "description_hash": "c76706b5",
+      "prompt_hash": "ffffffff",
+      "text": "Hold{*CONTROLLER_ACTION_ACTION*} to chop down 4 blocks of wood (tree trunks).{*B*}When a block breaks you can pick it up by standing near the floating item that appears, causing it to appear in your inventory.",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "log",
+          "aux": -1
+        },
+        {
+          "name": "log2",
+          "aux": -1
+        },
+        {
+          "name": "stripped_log_dark_oak",
+          "aux": -1
+        },
+        {
+          "name": "stripped_log_acacia",
+          "aux": -1
+        },
+        {
+          "name": "stripped_log_birch",
+          "aux": -1
+        },
+        {
+          "name": "stripped_log_jungle",
+          "aux": -1
+        },
+        {
+          "name": "stripped_log_oak",
+          "aux": -1
+        },
+        {
+          "name": "stripped_log_spruce",
+          "aux": -1
+        }
+      ],
+      "required": 4
+    },
+    {
+      "kind": "ControllerTask",
+      "allocation_return_pc": "0x964839",
+      "description_hash": "d50ac0c8",
+      "prompt_hash": "ffffffff",
+      "text": "Use{*CONTROLLER_ACTION_LEFT_SCROLL*} and{*CONTROLLER_ACTION_RIGHT_SCROLL*} to change the current held item.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "actions": [
+        36,
+        37
+      ],
+      "completion_masks": [
+        2,
+        1
+      ]
+    },
+    {
+      "kind": "ControllerTask",
+      "allocation_return_pc": "0x964897",
+      "description_hash": "69b79ddf",
+      "prompt_hash": "ffffffff",
+      "text": "As you collect and craft more items, your inventory will fill up.{*B*}\r\nPress{*CONTROLLER_ACTION_INVENTORY*} to open the inventory.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "actions": [
+        38
+      ],
+      "completion_masks": []
+    },
+    {
+      "kind": "StateChangeTask",
+      "allocation_return_pc": "0x9648e5",
+      "description_hash": "ffffffff",
+      "prompt_hash": "ffffffff",
+      "text": "",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "state": 1
+    },
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x964943",
+      "description_hash": "67613737",
+      "prompt_hash": "03f9463f",
+      "text": "As you move around, mine, and attack, you will deplete your {*ICON_SHANK_01*} bar. Sprinting and sprint jumping use a lot more {*ICON_SHANK_01*} than walking and jumping normally.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x964985",
+      "description_hash": "d756c6a6",
+      "prompt_hash": "03f9463f",
+      "text": "If you lose some health, but have a {*ICON_SHANK_01*} bar with 9 or more{*ICON_SHANK_01*} in it, your health will automatically replenish. Eating food will replenish your {*ICON_SHANK_01*} bar.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x9649c7",
+      "description_hash": "642c1bb4",
+      "prompt_hash": "03f9463f",
+      "text": "With a food item in your hand, hold{*CONTROLLER_ACTION_USE*} to eat it and replenish your {*ICON_SHANK_01*} bar. You cannot eat if your {*ICON_SHANK_01*} bar is full.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "CompleteUsingItemTask",
+      "allocation_return_pc": "0x964afa",
+      "description_hash": "355eb7d9",
+      "prompt_hash": "ffffffff",
+      "text": "Your {*ICON_SHANK_01*} bar is low, and you have lost some health. Eat the steak in your inventory to replenish your {*ICON_SHANK_01*} bar and start healing.{*ICON*}364{*/ICON*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "mushroom_stew",
+          "aux": -1
+        },
+        {
+          "name": "apple",
+          "aux": -1
+        },
+        {
+          "name": "bread",
+          "aux": -1
+        },
+        {
+          "name": "porkchop",
+          "aux": -1
+        },
+        {
+          "name": "cooked_porkchop",
+          "aux": -1
+        },
+        {
+          "name": "golden_apple",
+          "aux": -1
+        },
+        {
+          "name": "fish",
+          "aux": -1
+        },
+        {
+          "name": "cooked_fish",
+          "aux": -1
+        },
+        {
+          "name": "cookie",
+          "aux": -1
+        },
+        {
+          "name": "cooked_beef",
+          "aux": -1
+        },
+        {
+          "name": "beef",
+          "aux": -1
+        },
+        {
+          "name": "cooked_chicken",
+          "aux": -1
+        },
+        {
+          "name": "chicken",
+          "aux": -1
+        },
+        {
+          "name": "melon",
+          "aux": -1
+        },
+        {
+          "name": "rotten_flesh",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "ControllerTask",
+      "allocation_return_pc": "0x964cf2",
+      "description_hash": "b5fcd4e7",
+      "prompt_hash": "ffffffff",
+      "text": "Press{*CONTROLLER_ACTION_CRAFTING*} to open the crafting interface.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "actions": [
+        41
+      ],
+      "completion_masks": []
+    },
+    {
+      "kind": "ProgressFlagTask",
+      "allocation_return_pc": "0x964d40",
+      "description_hash": "ffffffff",
+      "prompt_hash": "ffffffff",
+      "text": "",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "flag": 1,
+      "operation": 0
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x964dad",
+      "description_hash": "4d449d7d",
+      "prompt_hash": "ffffffff",
+      "text": "The wood that you have collected can be crafted into planks. Open the crafting interface to craft them.{*PlanksIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "planks",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x964f28",
+      "description_hash": "2e35e925",
+      "prompt_hash": "ffffffff",
+      "text": "A lot of crafting involves multiple steps. Now that you have some planks, there are more items that you can craft. Craft a crafting table.{*CraftingTableIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "crafting_table",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x965093",
+      "description_hash": "eae5d55e",
+      "prompt_hash": "03f9463f",
+      "text": "Use{*CONTROLLER_ACTION_USE*} to use items, interact with objects, and place some items. Items that have been placed can be picked up again by mining them with the right tool.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "UseItemTask",
+      "allocation_return_pc": "0x9650d5",
+      "description_hash": "e42098c2",
+      "prompt_hash": "ffffffff",
+      "text": "With the crafting table selected, point the crosshair where you want it and use{*CONTROLLER_ACTION_USE*} to place it.",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "crafting_table",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x96521c",
+      "description_hash": "88ac7bfd",
+      "prompt_hash": "03f9463f",
+      "text": "Night time can approach quickly, and it is dangerous to be outside unprepared. You can craft armor and weapons, but it is sensible to have a safe shelter.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x96525e",
+      "description_hash": "79452ef8",
+      "prompt_hash": "03f9463f",
+      "text": "Nearby there is an abandoned Miner's shelter that you can complete to be safe overnight.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "InfoTask",
+      "allocation_return_pc": "0x9652a0",
+      "description_hash": "441c0545",
+      "prompt_hash": "03f9463f",
+      "text": "You will need to collect the resources to complete the shelter. The walls and roof can be made of any tile type, but you will want to add a door, some windows, and lighting.",
+      "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+      "precompletion": false,
+      "minimum_time": true,
+      "actions": [
+        0
+      ]
+    },
+    {
+      "kind": "ChoiceTask",
+      "allocation_return_pc": "0x9652e2",
+      "description_hash": "28c71b69",
+      "prompt_hash": "791088b0",
+      "text": "You have completed the first part of the tutorial.",
+      "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to continue with the tutorial.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you think you are ready to play on your own.",
+      "precompletion": false,
+      "minimum_time": true,
+      "no_action": 3,
+      "yes_action": 0
+    },
+    {
+      "kind": "UseBlockTask",
+      "allocation_return_pc": "0x965328",
+      "description_hash": "7de96d85",
+      "prompt_hash": "ffffffff",
+      "text": "Point the crosshair at the crafting table and press{*CONTROLLER_ACTION_USE*} to open it.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "block": "crafting_table"
+    },
+    {
+      "kind": "ProgressFlagTask",
+      "allocation_return_pc": "0x965472",
+      "description_hash": "ffffffff",
+      "prompt_hash": "ffffffff",
+      "text": "",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "flag": 2,
+      "operation": 0
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x9654d4",
+      "description_hash": "56bee93b",
+      "prompt_hash": "ffffffff",
+      "text": "To make collecting blocks faster you can build tools designed for the job. Some tools have a handle made of sticks. Craft some sticks now.{*SticksIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "stick",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x965688",
+      "description_hash": "f9cc6772",
+      "prompt_hash": "ffffffff",
+      "text": "A shovel helps dig soft blocks, like dirt and sand, faster. As you collect more materials you can craft tools that work faster and last longer. Craft a wooden shovel.{*WoodenShovelIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "wooden_shovel",
+          "aux": -1
+        },
+        {
+          "name": "stone_shovel",
+          "aux": -1
+        },
+        {
+          "name": "iron_shovel",
+          "aux": -1
+        },
+        {
+          "name": "golden_horse_armor",
+          "aux": -1
+        },
+        {
+          "name": "diamond_shovel",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x96588c",
+      "description_hash": "fac53756",
+      "prompt_hash": "ffffffff",
+      "text": "An axe helps chop wood and wooden tiles faster. As you collect more materials you can craft tools that work faster and last longer. Craft a wooden axe.{*WoodenHatchetIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "wooden_axe",
+          "aux": -1
+        },
+        {
+          "name": "stone_axe",
+          "aux": -1
+        },
+        {
+          "name": "iron_axe",
+          "aux": -1
+        },
+        {
+          "name": "golden_axe",
+          "aux": -1
+        },
+        {
+          "name": "diamond_axe",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x965a8c",
+      "description_hash": "19cdd9a4",
+      "prompt_hash": "ffffffff",
+      "text": "A pickaxe helps dig hard blocks, like stone and ore, faster. As you collect more materials you can craft tools that work faster and last longer, and allow you to mine harder materials. Craft a wooden pickaxe.{*WoodenPickaxeIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "wooden_pickaxe",
+          "aux": -1
+        },
+        {
+          "name": "stone_pickaxe",
+          "aux": -1
+        },
+        {
+          "name": "iron_pickaxe",
+          "aux": -1
+        },
+        {
+          "name": "golden_pickaxe",
+          "aux": -1
+        },
+        {
+          "name": "diamond_pickaxe",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "PickupTask",
+      "allocation_return_pc": "0x965c43",
+      "description_hash": "8b96afee",
+      "prompt_hash": "ffffffff",
+      "text": "Use your pickaxe to mine some stone blocks. Stone blocks will produce cobblestone when mined. If you collect 8 cobblestone blocks, you can craft a furnace. You may need to dig through some dirt to reach the stone, so use your shovel for this.{*StoneIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "cobblestone",
+          "aux": -1
+        }
+      ],
+      "required": 8
+    },
+    {
+      "kind": "ProgressFlagTask",
+      "allocation_return_pc": "0x965c98",
+      "description_hash": "ffffffff",
+      "prompt_hash": "ffffffff",
+      "text": "",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "flag": 4,
+      "operation": 0
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x965cfa",
+      "description_hash": "e7cad766",
+      "prompt_hash": "ffffffff",
+      "text": "You have collected enough cobblestone to craft a furnace. Use your crafting table to craft one.",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "furnace",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "UseBlockTask",
+      "allocation_return_pc": "0x965e63",
+      "description_hash": "f1d4d67e",
+      "prompt_hash": "ffffffff",
+      "text": "Use{*CONTROLLER_ACTION_USE*} to place the furnace in the world, and then open it.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "block": "furnace"
+    },
+    {
+      "kind": "ProgressFlagTask",
+      "allocation_return_pc": "0x965f9d",
+      "description_hash": "ffffffff",
+      "prompt_hash": "ffffffff",
+      "text": "",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "flag": 8,
+      "operation": 0
+    },
+    {
+      "kind": "StateChangeTask",
+      "allocation_return_pc": "0x965fff",
+      "description_hash": "ffffffff",
+      "prompt_hash": "ffffffff",
+      "text": "",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "state": 4
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x966052",
+      "description_hash": "f485454f",
+      "prompt_hash": "ffffffff",
+      "text": "Use the furnace to create some charcoal. If you are waiting for it to finish, how about using the time to collect more materials to finish the shelter?",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "coal",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x9661b3",
+      "description_hash": "5f29384c",
+      "prompt_hash": "ffffffff",
+      "text": "Use the furnace to create some glass. If you are waiting for it to finish, how about using the time to collect more materials to finish the shelter?",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "glass",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x9663b6",
+      "description_hash": "74135c27",
+      "prompt_hash": "ffffffff",
+      "text": "A good shelter will have a door so that you can easily go in and out without having to mine and replace the walls. Craft a wooden door now.{*WoodenDoorIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "wooden_door",
+          "aux": -1
+        },
+        {
+          "name": "acacia_door",
+          "aux": -1
+        },
+        {
+          "name": "birch_door",
+          "aux": -1
+        },
+        {
+          "name": "dark_oak_door",
+          "aux": -1
+        },
+        {
+          "name": "jungle_door",
+          "aux": -1
+        },
+        {
+          "name": "spruce_door",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "UseItemTask",
+      "allocation_return_pc": "0x96655d",
+      "description_hash": "f39f40bf",
+      "prompt_hash": "ffffffff",
+      "text": "Use{*CONTROLLER_ACTION_USE*} to place the door. You can use{*CONTROLLER_ACTION_USE*} to open and close a wooden door in the world.",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "wooden_door",
+          "aux": -1
+        },
+        {
+          "name": "acacia_door",
+          "aux": -1
+        },
+        {
+          "name": "birch_door",
+          "aux": -1
+        },
+        {
+          "name": "dark_oak_door",
+          "aux": -1
+        },
+        {
+          "name": "jungle_door",
+          "aux": -1
+        },
+        {
+          "name": "spruce_door",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "CraftTask",
+      "allocation_return_pc": "0x9666d2",
+      "description_hash": "000d15ac",
+      "prompt_hash": "ffffffff",
+      "text": "It can get very dark at night, so you will want some lighting inside your shelter so that you can see. Craft a torch now from sticks and charcoal.{*TorchIcon*}",
+      "prompt": "",
+      "precompletion": true,
+      "minimum_time": false,
+      "items": [
+        {
+          "name": "torch",
+          "aux": -1
+        }
+      ],
+      "required": 1
+    },
+    {
+      "kind": "AreaTask",
+      "allocation_return_pc": "0x966a35",
+      "description_hash": "ffffffff",
+      "prompt_hash": "ffffffff",
+      "text": "",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "constraints": [
+        {
+          "type": "14AreaConstraint",
+          "bytes": "f828de21bb7f0000717f715300000000008b092000000000c08a0920000000000101000000000000"
+        }
+      ]
+    },
+    {
+      "kind": "ProcedureCompoundTask",
+      "allocation_return_pc": "0x966ad0",
+      "description_hash": "ffffffff",
+      "prompt_hash": "ffffffff",
+      "text": "",
+      "prompt": "",
+      "precompletion": false,
+      "minimum_time": false,
+      "children": [
+        {
+          "kind": "InfoTask",
+          "allocation_return_pc": "0x966b2a",
+          "description_hash": "857669aa",
+          "prompt_hash": "03f9463f",
+          "text": "Congratulations, you have completed the tutorial. Time in the game is now passing normally, and you don't have long until night time and the monsters come out! Finish your shelter!",
+          "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+          "precompletion": false,
+          "minimum_time": true,
+          "actions": [
+            0
+          ]
+        },
+        {
+          "kind": "InfoTask",
+          "allocation_return_pc": "0x966bdf",
+          "description_hash": "59983743",
+          "prompt_hash": "03f9463f",
+          "text": "Outside of this area you will find examples of buildings, farming, minecarts and tracks, enchanting, brewing, trading, smithing, and more!",
+          "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+          "precompletion": false,
+          "minimum_time": true,
+          "actions": [
+            0
+          ]
+        },
+        {
+          "kind": "InfoTask",
+          "allocation_return_pc": "0x966c8c",
+          "description_hash": "acd522e4",
+          "prompt_hash": "03f9463f",
+          "text": "{*EXIT_PICTURE*}\t  When you are ready to explore further, there is a path leading out of this area that will take you to more tutorials.",
+          "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+          "precompletion": false,
+          "minimum_time": true,
+          "actions": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "guided_states": {
+    "1": [
+      {
+        "kind": "FullTutorialActiveTask",
+        "allocation_return_pc": "0x966d2e",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "completion_action": 1
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x966e0d",
+        "description_hash": "3f434d73",
+        "prompt_hash": "ffffffff",
+        "text": "Press{*CONTROLLER_VK_B*} now to exit the inventory.",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          1
+        ]
+      }
+    ],
+    "2": [
+      {
+        "kind": "FullTutorialActiveTask",
+        "allocation_return_pc": "0x96708c",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "completion_action": 1
+      },
+      {
+        "kind": "ProgressFlagTask",
+        "allocation_return_pc": "0x96717a",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "flag": 1,
+        "operation": 1
+      },
+      {
+        "kind": "FullTutorialActiveTask",
+        "allocation_return_pc": "0x967260",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "completion_action": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96732c",
+        "description_hash": "61c2f830",
+        "prompt_hash": "ffffffff",
+        "text": "The wood that you have collected can be crafted into planks. Select the planks icon and press{*CONTROLLER_VK_A*} to create them.{*PlanksIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "planks",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x967514",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "UICraftingTask",
+            "allocation_return_pc": "0x96756a",
+            "description_hash": "e4451189",
+            "prompt_hash": "ffffffff",
+            "text": "Press{*CONTROLLER_VK_LB*} and{*CONTROLLER_VK_RB*} to change to the group type of the items you wish to craft. Select the structures group.{*StructuresIcon*}",
+            "prompt": "",
+            "precompletion": false,
+            "minimum_time": false,
+            "selection_type": 0,
+            "group": 0
+          },
+          {
+            "kind": "UICraftingTask",
+            "allocation_return_pc": "0x96773c",
+            "description_hash": "c8a27304",
+            "prompt_hash": "ffffffff",
+            "text": "A lot of crafting can involve multiple steps. Now that you have some planks there are more items that you can craft. Use{*CONTROLLER_MENU_NAVIGATE*} to change to the item you wish to craft. Select the crafting table.{*CraftingTableIcon*}",
+            "prompt": "",
+            "precompletion": false,
+            "minimum_time": false,
+            "selection_type": 1,
+            "group": 0,
+            "selected_item": "crafting_table"
+          },
+          {
+            "kind": "CraftTask",
+            "allocation_return_pc": "0x967918",
+            "description_hash": "2e35e925",
+            "prompt_hash": "ffffffff",
+            "text": "A lot of crafting involves multiple steps. Now that you have some planks, there are more items that you can craft. Craft a crafting table.{*CraftingTableIcon*}",
+            "prompt": "",
+            "precompletion": true,
+            "minimum_time": false,
+            "items": [
+              {
+                "name": "crafting_table",
+                "aux": -1
+              }
+            ],
+            "required": 1
+          }
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x967bb4",
+        "description_hash": "12eeee51",
+        "prompt_hash": "ffffffff",
+        "text": "Now you have built a crafting table you should place it in the world to enable you to build a larger selection of items.{*B*}\r\nPress{*CONTROLLER_VK_B*} now to exit the crafting interface.",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          1
+        ]
+      }
+    ],
+    "3": [
+      {
+        "kind": "FullTutorialActiveTask",
+        "allocation_return_pc": "0x967e39",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "completion_action": 1
+      },
+      {
+        "kind": "ProgressFlagTask",
+        "allocation_return_pc": "0x967f38",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "flag": 2,
+        "operation": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x968015",
+        "description_hash": "56bee93b",
+        "prompt_hash": "ffffffff",
+        "text": "To make collecting blocks faster you can build tools designed for the job. Some tools have a handle made of sticks. Craft some sticks now.{*SticksIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "stick",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x968208",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "UICraftingTask",
+            "allocation_return_pc": "0x96825d",
+            "description_hash": "b2a0ad4c",
+            "prompt_hash": "ffffffff",
+            "text": "Press{*CONTROLLER_VK_LB*} and{*CONTROLLER_VK_RB*} to change to the group type of the items you wish to craft. Select the tools group.{*ToolsIcon*}",
+            "prompt": "",
+            "precompletion": false,
+            "minimum_time": false,
+            "selection_type": 0,
+            "group": 1
+          },
+          {
+            "kind": "UICraftingTask",
+            "allocation_return_pc": "0x96843e",
+            "description_hash": "76c32bbb",
+            "prompt_hash": "ffffffff",
+            "text": "Use{*CONTROLLER_MENU_NAVIGATE*} to change to the item you wish to craft. Some items have multiple versions depending on the materials used. Select the wooden shovel.{*WoodenShovelIcon*}",
+            "prompt": "",
+            "precompletion": false,
+            "minimum_time": false,
+            "selection_type": 1,
+            "group": 0,
+            "selected_item": "wooden_shovel"
+          },
+          {
+            "kind": "CraftTask",
+            "allocation_return_pc": "0x968600",
+            "description_hash": "f9cc6772",
+            "prompt_hash": "ffffffff",
+            "text": "A shovel helps dig soft blocks, like dirt and sand, faster. As you collect more materials you can craft tools that work faster and last longer. Craft a wooden shovel.{*WoodenShovelIcon*}",
+            "prompt": "",
+            "precompletion": true,
+            "minimum_time": false,
+            "items": [
+              {
+                "name": "wooden_shovel",
+                "aux": -1
+              },
+              {
+                "name": "stone_shovel",
+                "aux": -1
+              },
+              {
+                "name": "iron_shovel",
+                "aux": -1
+              },
+              {
+                "name": "golden_horse_armor",
+                "aux": -1
+              },
+              {
+                "name": "diamond_shovel",
+                "aux": -1
+              }
+            ],
+            "required": 1
+          }
+        ]
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x9688be",
+        "description_hash": "fac53756",
+        "prompt_hash": "ffffffff",
+        "text": "An axe helps chop wood and wooden tiles faster. As you collect more materials you can craft tools that work faster and last longer. Craft a wooden axe.{*WoodenHatchetIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "wooden_axe",
+            "aux": -1
+          },
+          {
+            "name": "stone_axe",
+            "aux": -1
+          },
+          {
+            "name": "iron_axe",
+            "aux": -1
+          },
+          {
+            "name": "golden_axe",
+            "aux": -1
+          },
+          {
+            "name": "diamond_axe",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x968af2",
+        "description_hash": "19cdd9a4",
+        "prompt_hash": "ffffffff",
+        "text": "A pickaxe helps dig hard blocks, like stone and ore, faster. As you collect more materials you can craft tools that work faster and last longer, and allow you to mine harder materials. Craft a wooden pickaxe.{*WoodenPickaxeIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "wooden_pickaxe",
+            "aux": -1
+          },
+          {
+            "name": "stone_pickaxe",
+            "aux": -1
+          },
+          {
+            "name": "iron_pickaxe",
+            "aux": -1
+          },
+          {
+            "name": "golden_pickaxe",
+            "aux": -1
+          },
+          {
+            "name": "diamond_pickaxe",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x968d2c",
+        "description_hash": "63c8c01a",
+        "prompt_hash": "ffffffff",
+        "text": "With the tools you have built you are off to a great start, and are able to collect a variety of different materials more efficiently.{*B*}\r\nPress{*CONTROLLER_VK_B*} now to exit the crafting interface.",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          1
+        ]
+      },
+      {
+        "kind": "ProgressFlagTask",
+        "allocation_return_pc": "0x968fb8",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "flag": 4,
+        "operation": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96909f",
+        "description_hash": "7513d4c3",
+        "prompt_hash": "ffffffff",
+        "text": "Some items can not be created using the crafting table, but require a furnace. Craft a furnace now.{*FurnaceIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "furnace",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x9692a6",
+        "description_hash": "5fce503f",
+        "prompt_hash": "ffffffff",
+        "text": "Place the furnace you have crafted in the world. You will want to put this inside your shelter.{*B*}\r\nPress{*CONTROLLER_VK_B*} now to exit the crafting interface.",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          1
+        ]
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96951d",
+        "description_hash": "74135c27",
+        "prompt_hash": "ffffffff",
+        "text": "A good shelter will have a door so that you can easily go in and out without having to mine and replace the walls. Craft a wooden door now.{*WoodenDoorIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "wooden_door",
+            "aux": -1
+          },
+          {
+            "name": "acacia_door",
+            "aux": -1
+          },
+          {
+            "name": "birch_door",
+            "aux": -1
+          },
+          {
+            "name": "dark_oak_door",
+            "aux": -1
+          },
+          {
+            "name": "jungle_door",
+            "aux": -1
+          },
+          {
+            "name": "spruce_door",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x969742",
+        "description_hash": "000d15ac",
+        "prompt_hash": "ffffffff",
+        "text": "It can get very dark at night, so you will want some lighting inside your shelter so that you can see. Craft a torch now from sticks and charcoal.{*TorchIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "torch",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      }
+    ],
+    "4": [
+      {
+        "kind": "FullTutorialActiveTask",
+        "allocation_return_pc": "0x96af4d",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "completion_action": 1
+      },
+      {
+        "kind": "ProgressFlagTask",
+        "allocation_return_pc": "0x96b033",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "flag": 8,
+        "operation": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96b103",
+        "description_hash": "b9ad8818",
+        "prompt_hash": "ffffffff",
+        "text": "If you use wood as the ingredient, then you can make charcoal. Put some fuel in the furnace and wood in the ingredient slot. It can take some time for the furnace to create the charcoal, so feel free to do something else and come back to check the progress.",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "coal",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x96b2e3",
+        "description_hash": "4c729fc4",
+        "prompt_hash": "03f9463f",
+        "text": "Charcoal can be used as a fuel, or combined with a stick to craft a torch.",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96b39e",
+        "description_hash": "a9ca4693",
+        "prompt_hash": "ffffffff",
+        "text": "Placing sand in the ingredient slot allows you to make glass. Create some glass blocks to use as windows in your shelter.",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "glass",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      }
+    ],
+    "37": [
+      {
+        "kind": "FullTutorialActiveTask",
+        "allocation_return_pc": "0x969938",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "completion_action": 1
+      },
+      {
+        "kind": "ProgressFlagTask",
+        "allocation_return_pc": "0x969a29",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "flag": 2,
+        "operation": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x969aff",
+        "description_hash": "56bee93b",
+        "prompt_hash": "ffffffff",
+        "text": "To make collecting blocks faster you can build tools designed for the job. Some tools have a handle made of sticks. Craft some sticks now.{*SticksIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "stick",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x969ce1",
+        "description_hash": "f9cc6772",
+        "prompt_hash": "ffffffff",
+        "text": "A shovel helps dig soft blocks, like dirt and sand, faster. As you collect more materials you can craft tools that work faster and last longer. Craft a wooden shovel.{*WoodenShovelIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "wooden_shovel",
+            "aux": -1
+          },
+          {
+            "name": "stone_shovel",
+            "aux": -1
+          },
+          {
+            "name": "iron_shovel",
+            "aux": -1
+          },
+          {
+            "name": "golden_horse_armor",
+            "aux": -1
+          },
+          {
+            "name": "diamond_shovel",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x969f1e",
+        "description_hash": "fac53756",
+        "prompt_hash": "ffffffff",
+        "text": "An axe helps chop wood and wooden tiles faster. As you collect more materials you can craft tools that work faster and last longer. Craft a wooden axe.{*WoodenHatchetIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "wooden_axe",
+            "aux": -1
+          },
+          {
+            "name": "stone_axe",
+            "aux": -1
+          },
+          {
+            "name": "iron_axe",
+            "aux": -1
+          },
+          {
+            "name": "golden_axe",
+            "aux": -1
+          },
+          {
+            "name": "diamond_axe",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96a14e",
+        "description_hash": "19cdd9a4",
+        "prompt_hash": "ffffffff",
+        "text": "A pickaxe helps dig hard blocks, like stone and ore, faster. As you collect more materials you can craft tools that work faster and last longer, and allow you to mine harder materials. Craft a wooden pickaxe.{*WoodenPickaxeIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "wooden_pickaxe",
+            "aux": -1
+          },
+          {
+            "name": "stone_pickaxe",
+            "aux": -1
+          },
+          {
+            "name": "iron_pickaxe",
+            "aux": -1
+          },
+          {
+            "name": "golden_pickaxe",
+            "aux": -1
+          },
+          {
+            "name": "diamond_pickaxe",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x96a374",
+        "description_hash": "63c8c01a",
+        "prompt_hash": "ffffffff",
+        "text": "With the tools you have built you are off to a great start, and are able to collect a variety of different materials more efficiently.{*B*}\r\nPress{*CONTROLLER_VK_B*} now to exit the crafting interface.",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          1
+        ]
+      },
+      {
+        "kind": "ProgressFlagTask",
+        "allocation_return_pc": "0x96a5ea",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "flag": 4,
+        "operation": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96a6c0",
+        "description_hash": "7513d4c3",
+        "prompt_hash": "ffffffff",
+        "text": "Some items can not be created using the crafting table, but require a furnace. Craft a furnace now.{*FurnaceIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "furnace",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x96a8bd",
+        "description_hash": "5fce503f",
+        "prompt_hash": "ffffffff",
+        "text": "Place the furnace you have crafted in the world. You will want to put this inside your shelter.{*B*}\r\nPress{*CONTROLLER_VK_B*} now to exit the crafting interface.",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          1
+        ]
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96ab2f",
+        "description_hash": "74135c27",
+        "prompt_hash": "ffffffff",
+        "text": "A good shelter will have a door so that you can easily go in and out without having to mine and replace the walls. Craft a wooden door now.{*WoodenDoorIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "wooden_door",
+            "aux": -1
+          },
+          {
+            "name": "acacia_door",
+            "aux": -1
+          },
+          {
+            "name": "birch_door",
+            "aux": -1
+          },
+          {
+            "name": "dark_oak_door",
+            "aux": -1
+          },
+          {
+            "name": "jungle_door",
+            "aux": -1
+          },
+          {
+            "name": "spruce_door",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      },
+      {
+        "kind": "CraftTask",
+        "allocation_return_pc": "0x96ad54",
+        "description_hash": "000d15ac",
+        "prompt_hash": "ffffffff",
+        "text": "It can get very dark at night, so you will want some lighting inside your shelter so that you can see. Craft a torch now from sticks and charcoal.{*TorchIcon*}",
+        "prompt": "",
+        "precompletion": true,
+        "minimum_time": false,
+        "items": [
+          {
+            "name": "torch",
+            "aux": -1
+          }
+        ],
+        "required": 1
+      }
+    ]
+  },
+  "states": {
+    "1": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x9997d0",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x999823",
+            "description_hash": "b77fc340",
+            "prompt_hash": "9e1e8969",
+            "text": "This is your inventory. It shows the items that are available for use in your hand, and all of the other items that you are carrying. Your armor is also shown here.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to continue.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know how to use the inventory.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x9998df",
+            "description_hash": "c18416e0",
+            "prompt_hash": "03f9463f",
+            "text": "Use{*CONTROLLER_MENU_NAVIGATE*} to move the pointer. Use{*CONTROLLER_VK_A*} to pick up the item that is under the pointer. If there is more than one item here this will pick them all up, or you can use{*CONTROLLER_VK_X*} to pick up just half of them.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x999978",
+            "description_hash": "99b85f72",
+            "prompt_hash": "03f9463f",
+            "text": "You can place items down again by using {*CONTROLLER_VK_A*}. With multiple items on the pointer, use {*CONTROLLER_VK_A*} to place them all or {*CONTROLLER_VK_X*} to place just one.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x999a11",
+            "description_hash": "1a28a6ca",
+            "prompt_hash": "03f9463f",
+            "text": "If you move the pointer outside the edge of the interface with an item on the pointer, you can drop the item.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x999aaa",
+            "description_hash": "ec1649d5",
+            "prompt_hash": "03f9463f",
+            "text": "If you want more information about an item, move the pointer over the item and press{*CONTROLLER_ACTION_MENU_PAGEDOWN*} .",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99a06d",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99a0c6",
+            "description_hash": "9a252193",
+            "prompt_hash": "7f0c21ba",
+            "text": "This is the crafting interface. This interface allows you to combine the items you've collected to make new items.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know how to craft.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99a1b3",
+            "description_hash": "27a2b969",
+            "prompt_hash": "03f9463f",
+            "text": "Scroll through the Group Type tabs at the top using{*CONTROLLER_VK_LB*} and{*CONTROLLER_VK_RB*} to select the group type of the item you wish to craft, then use{*CONTROLLER_MENU_NAVIGATE*} to select the item to craft.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99a26a",
+            "description_hash": "a42613b4",
+            "prompt_hash": "03f9463f",
+            "text": "The crafting area shows the items you require in order to craft the new item. Press{*CONTROLLER_VK_A*} to craft the item and place it in your inventory.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99a321",
+            "description_hash": "723936ab",
+            "prompt_hash": "03f9463f",
+            "text": "You can craft a larger selection of items using a crafting table. Crafting on a table works in the same way as basic crafting, but you have a larger crafting area allowing more combinations of ingredients.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99a3d8",
+            "description_hash": "1f10ddc2",
+            "prompt_hash": "a0d0169c",
+            "text": "The bottom right part of the crafting interface shows your inventory. This area can also show a description of the currently selected item, and the ingredients required to craft it.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_X*} to show the item description.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              2
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99a6ee",
+            "description_hash": "0b135e36",
+            "prompt_hash": "fc8730e4",
+            "text": "The description of the currently selected item is now displayed. The description can give you an idea of what the item can be used for.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_X*} to show the ingredients required to make the current item.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              2
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99a9d4",
+            "description_hash": "3af6ef3e",
+            "prompt_hash": "af244f78",
+            "text": "The list of ingredients required to craft the selected item is now displayed.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_X*} to show the inventory again.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99ad3d",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99ad90",
+            "description_hash": "06ce6d19",
+            "prompt_hash": "4c0cf470",
+            "text": "This is the furnace interface. A furnace allows you to change items by firing them. For example, you can turn iron ore into iron ingots in the furnace.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to continue.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know how to use a furnace.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99ae4c",
+            "description_hash": "9bb6558d",
+            "prompt_hash": "03f9463f",
+            "text": "You need to put some fuel into the bottom slot of the furnace, and the item to be changed in the top slot. The furnace will then fire up and start working, putting the result in the right-hand slot.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99aee5",
+            "description_hash": "c6b63d93",
+            "prompt_hash": "03f9463f",
+            "text": "Many wooden items can be used as fuels, but not everything burns for the same time. You may also discover other items in the world that can be used as a fuel.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99af7e",
+            "description_hash": "5466c434",
+            "prompt_hash": "03f9463f",
+            "text": "When your items have been fired, you can move them from the output area into your inventory. You should experiment with different ingredients to see what you can make.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "5": [
+      {
+        "kind": "ChoiceTask",
+        "allocation_return_pc": "0x99d96d",
+        "description_hash": "97628a42",
+        "prompt_hash": "16dfae83",
+        "text": "You are now riding in a minecart. To exit the minecart, press{*CONTROLLER_ACTION_DISMOUNT*} .{*MinecartIcon*}",
+        "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to learn more about minecarts.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know about minecarts.",
+        "precompletion": false,
+        "minimum_time": true,
+        "no_action": 2,
+        "yes_action": 0
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99da32",
+        "description_hash": "6d8d73ac",
+        "prompt_hash": "03f9463f",
+        "text": "A minecart runs on rails. You can also craft a powered minecart with a furnace, and a minecart with a chest in it.{*RailIcon*}",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99dadc",
+        "description_hash": "f965d585",
+        "prompt_hash": "03f9463f",
+        "text": "You can also craft powered rails, which take power from redstone torches and circuits to accelerate the cart. These can be connected to switches, levers, and pressure plates to make complex systems.{*PoweredRailIcon*}",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99db86",
+        "description_hash": "5c8e319f",
+        "prompt_hash": "03f9463f",
+        "text": "\r\n      If necessary you can slowly move your minecart along using {*CONTROLLER_ACTION_MOVE*}. This helps to start the minecart by getting it onto a powered rail.\r\n    ",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      }
+    ],
+    "6": [
+      {
+        "kind": "ChoiceTask",
+        "allocation_return_pc": "0x99dc43",
+        "description_hash": "25c06af9",
+        "prompt_hash": "811a4288",
+        "text": "You are now sailing a boat. To exit the boat, press{*CONTROLLER_ACTION_DISMOUNT*} .{*BoatIcon*}",
+        "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to learn more about boats.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know about boats.",
+        "precompletion": false,
+        "minimum_time": true,
+        "no_action": 2,
+        "yes_action": 0
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99dd08",
+        "description_hash": "e6a88faf",
+        "prompt_hash": "03f9463f",
+        "text": "A boat allows you to travel quickly over water. When in a boat, push {*CONTROLLER_ACTION_MOVE*} forwards to paddle, and left or right to turn.{*BoatIcon*}",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      }
+    ],
+    "7": [
+      {
+        "kind": "ChoiceTask",
+        "allocation_return_pc": "0x99ddc5",
+        "description_hash": "2c532b5d",
+        "prompt_hash": "1b284f34",
+        "text": "You are now using a fishing rod. Press{*CONTROLLER_ACTION_USE*} to use it.{*FishingRodIcon*}",
+        "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to learn more about fishing.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know about fishing.",
+        "precompletion": false,
+        "minimum_time": true,
+        "no_action": 2,
+        "yes_action": 0
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99de8a",
+        "description_hash": "c7681d23",
+        "prompt_hash": "03f9463f",
+        "text": "Press{*CONTROLLER_ACTION_USE*} to cast your line and start fishing. Press{*CONTROLLER_ACTION_USE*} again to reel in the fishing line.{*FishingRodIcon*}",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99df34",
+        "description_hash": "4f274f92",
+        "prompt_hash": "03f9463f",
+        "text": "If you wait until the float sinks below the surface of the water before reeling in you can catch a fish. Fish can be eaten raw, or cooked by a furnace, to restore {*ICON_SHANK_01*}.{*FishIcon*}",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99dfde",
+        "description_hash": "314b8dce",
+        "prompt_hash": "03f9463f",
+        "text": "As with many other tools a fishing rod has a fixed number of uses. Those uses are not limited to catching fish though. You should experiment with it to see what else can be caught or activated...{*FishingRodIcon*}",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      }
+    ],
+    "8": [
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99e09b",
+        "description_hash": "ad017f4c",
+        "prompt_hash": "03f9463f",
+        "text": "You are now holding a Nametag. Once you have given the Nametag a name at the Anvil, you can use it to name things.",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      }
+    ],
+    "9": [
+      {
+        "kind": "ChoiceTask",
+        "allocation_return_pc": "0x99e160",
+        "description_hash": "a76e95ba",
+        "prompt_hash": "2c631d03",
+        "text": "This is a bed. Press{*CONTROLLER_ACTION_USE*} while pointing at it at night to sleep through the night and awake in the morning.{*ICON*}355{*/ICON*}",
+        "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to learn more about beds.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know about beds.",
+        "precompletion": false,
+        "minimum_time": true,
+        "no_action": 2,
+        "yes_action": 0
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99e225",
+        "description_hash": "54d286f0",
+        "prompt_hash": "03f9463f",
+        "text": "A bed should be placed in a safe, well-lit place so that monsters do not wake you in the middle of the night. Once you have used a bed, if you die you will respawn at that bed.\r\n{*ICON*}355{*/ICON*}",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99e2cf",
+        "description_hash": "a62da153",
+        "prompt_hash": "03f9463f",
+        "text": "If there are other players in your game, everyone must be in a bed at the same time to be able to sleep.\r\n{*ICON*}355{*/ICON*}",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      }
+    ],
+    "14": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x999bd2",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x999c25",
+            "description_hash": "025598d4",
+            "prompt_hash": "46859b85",
+            "text": "This is the creative mode inventory. It shows items available for use in your hand, and all the other items that you can choose from.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to continue.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know how to use the creative mode inventory.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x999ce1",
+            "description_hash": "11be3d54",
+            "prompt_hash": "03f9463f",
+            "text": "Use{*CONTROLLER_MENU_NAVIGATE*} to move the pointer.\r\nWhen on the item list, use{*CONTROLLER_VK_A*} to pick up an item under the pointer, and use{*CONTROLLER_VK_Y*} to pick up a full stack of that item.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x999d7a",
+            "description_hash": "5f3fe8a6",
+            "prompt_hash": "03f9463f",
+            "text": "The pointer will automatically move over a space in the use row. You can place it down using{*CONTROLLER_VK_A*}. Once you have placed the item, the pointer will return to the item list where you can select another item.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x999e13",
+            "description_hash": "94985dde",
+            "prompt_hash": "03f9463f",
+            "text": "If you move the pointer outside the edge of the interface with an item on the pointer, you can drop the item into the world. To clear all items in the quick select bar, press{*CONTROLLER_VK_X*}.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x999eac",
+            "description_hash": "03f6be86",
+            "prompt_hash": "03f9463f",
+            "text": "Scroll through the Group Type tabs at the top using{*CONTROLLER_VK_LB*} and{*CONTROLLER_VK_RB*} to select the group type of the item you wish to pick up.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x999f45",
+            "description_hash": "893a28e1",
+            "prompt_hash": "03f9463f",
+            "text": "If you want more information about an item, move the pointer over the item and press{*CONTROLLER_ACTION_MENU_PAGEDOWN*}.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "18": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99b0a6",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99b0f9",
+            "description_hash": "09253a77",
+            "prompt_hash": "9e500506",
+            "text": "This is the brewing interface. You can use this to create potions that have a variety of different effects.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to continue.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know how to use the brewing stand.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b1b5",
+            "description_hash": "96bebcb3",
+            "prompt_hash": "03f9463f",
+            "text": "You brew potions by placing an ingredient in the top slot, some Blaze Powder in the fuel slot, and a potion or water bottle in the bottom slots (up to 3 can be brewed at one time). Once a valid combination is entered the brewing process will start and create the potion after a short time.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b24e",
+            "description_hash": "aed3450f",
+            "prompt_hash": "03f9463f",
+            "text": "All potions start with a Water Bottle. Most potions are created by first using a Nether Wart to make an Awkward Potion, and will require at least one more ingredient to make the final potion.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b2e7",
+            "description_hash": "c02f0030",
+            "prompt_hash": "03f9463f",
+            "text": "Each Blaze Powder will power the Brewing Stand for long enough to distill up to 20 ingredients. Blaze Powder can be crafted from Blaze Rods, which are dropped by the Blazes found near Nether Fortresses.{*BlazePowderIcon*}",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b380",
+            "description_hash": "fb48acea",
+            "prompt_hash": "03f9463f",
+            "text": "Once you have a potion you can modify its effects. Adding Redstone Dust increases the duration of its effect, and adding Glowstone Dust can make its effect more powerful.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b419",
+            "description_hash": "fcfe0427",
+            "prompt_hash": "03f9463f",
+            "text": "Adding Fermented Spider Eye corrupts the potion and can turn it into a potion with the opposite effect, and adding Gunpowder turns the potion into a Splash Potion which can be thrown to apply its affect to a nearby area.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "20": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99b541",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99b594",
+            "description_hash": "18a28d4e",
+            "prompt_hash": "690d3fd7",
+            "text": "This is the enchanting interface which you can use to add enchantments to weapons, armor, and some tools.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to learn more about the enchanting interface.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know about the enchanting interface.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b650",
+            "description_hash": "d1edbf15",
+            "prompt_hash": "03f9463f",
+            "text": "To enchant an item, first place it in the enchanting slot. Weapons, armor, and some tools can be enchanted to add special effects such as improved damage resistance or increasing the number of items produced when mining a block.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b6e9",
+            "description_hash": "ca85fe57",
+            "prompt_hash": "03f9463f",
+            "text": "When an item is placed in the enchanting slot, the buttons on the right will change to show a selection of random enchantments.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b782",
+            "description_hash": "244cf0fe",
+            "prompt_hash": "03f9463f",
+            "text": "The two numbers on the button represent the cost in Lapis Lazuli and experience levels to apply that enchantment to the item. If you do not have a high enough level or have not provided enough Lapis Lazuli the button will be disabled.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b81b",
+            "description_hash": "731167e6",
+            "prompt_hash": "03f9463f",
+            "text": "Select an enchantment and press{*CONTROLLER_VK_A*} to enchant the item. This will decrease your experience level by the cost of the enchantment.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99b8b4",
+            "description_hash": "697ea620",
+            "prompt_hash": "03f9463f",
+            "text": "Although the enchantments are all random, some of the better enchantments are only available when you have a high experience level and have lots of bookcases around the Enchantment Table to increase its power.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "25": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99c023",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99c076",
+            "description_hash": "821611e6",
+            "prompt_hash": "789b40b7",
+            "text": "\r\n\t\t\tThis is the trading interface which displays trades that can be made with a villager.\r\n\t\t",
+            "prompt": "\r\n\t\t\t{*B*}\r\n\t\t\tPress{*CONTROLLER_VK_A*} to learn more about the trading interface.{*B*}\r\n\t\t\tPress{*CONTROLLER_VK_B*} if you already know the trading interface.\r\n\t\t",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99c132",
+            "description_hash": "54091ccd",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tAll trades that the villager is willing to make at the moment are displayed along the top.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99c1cb",
+            "description_hash": "b7242ecf",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tTrades will appear red and be unavailable if you do not have the required items.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99c264",
+            "description_hash": "7c03162f",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tThe amount and type of items you are giving to the villager are shown in the two boxes on the left.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99c2fd",
+            "description_hash": "7b8b7b8f",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tYou can see the total number of the items required for the trade in the two boxes on the left.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99c396",
+            "description_hash": "4896fb7b",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tPress{*CONTROLLER_VK_A*} to trade the items the villager requires for the item on offer.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "27": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99b9dc",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99ba3f",
+            "description_hash": "0d381dd9",
+            "prompt_hash": "0645b6f8",
+            "text": "\r\n\t\t\tThis is the Anvil interface, which you can use to rename, repair and apply enchantments to weapons, armor, or tools, at the cost of Experience Levels.\r\n\t\t",
+            "prompt": "\r\n\t\t\t{*B*}\r\n\t\t\tPress{*CONTROLLER_VK_A*} to learn more about the Anvil interface.{*B*}\r\n\t\t\tPress{*CONTROLLER_VK_B*} if you already know the Anvil interface.\r\n\t\t",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99bb16",
+            "description_hash": "0c9de21a",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tTo begin working on an item, place it in the first input slot. \r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99bbba",
+            "description_hash": "4f577027",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tWhen the correct raw material is placed in the second input slot (e.g. Iron Ingots for a damaged Iron Sword), the proposed repair appears in the output slot.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99bc5e",
+            "description_hash": "5e84b4a1",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tAlternatively, a second identical item can be placed into the second slot to combine the two items.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99bd02",
+            "description_hash": "87dcc839",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tTo enchant items on the Anvil, place an Enchanted Book in the second input slot.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99bda6",
+            "description_hash": "190ae839",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tThe number of Experience Levels that the work will cost is shown beneath the output. If you do not have enough Experience Levels, the repair cannot be completed.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99be4a",
+            "description_hash": "67cd9b1f",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tIt is possible to rename the item by editing the name shown in the textbox.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99beee",
+            "description_hash": "51ed81d1",
+            "prompt_hash": "03f9463f",
+            "text": "\r\n\t\t\tPicking up the repaired item will consume both items used by the Anvil and decrease your Experience Level by the given amount.\r\n\t\t",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "29": [
+      {
+        "kind": "HorseChoiceTask",
+        "allocation_return_pc": "0x99c4be",
+        "description_hash": "ffffffff",
+        "prompt_hash": "7595b01b",
+        "text": "",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to learn more about Horses, Donkeys, Mules, and Llamas.\r\n{*B*}Press{*CONTROLLER_VK_B*} if you already know about Horses, Donkeys, Mules, and Llamas.",
+        "precompletion": false,
+        "minimum_time": true,
+        "no_action": 2,
+        "yes_action": 0,
+        "variants": [
+          "You have found a Horse.",
+          "You have found a Donkey.",
+          "You have found a Mule.",
+          "You have found a Llama."
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99c5a6",
+        "description_hash": "8dfe2c47",
+        "prompt_hash": "03f9463f",
+        "text": "Horses, Donkeys, and Llamas are found mainly in open plains and savannas. Mules can be bred from a Donkey and a Horse, but are infertile themselves.",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99c650",
+        "description_hash": "ce6d12a7",
+        "prompt_hash": "03f9463f",
+        "text": "All adult Horses, Donkeys, Mules, and Llamas can be ridden. However only Horses can be armored, and only Mules, Donkeys, and Llamas can be equipped with saddlebags for transporting items.",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99c6fa",
+        "description_hash": "fb9d6db1",
+        "prompt_hash": "03f9463f",
+        "text": "Horses, Donkeys, Mules, and Llamas must be tamed before they can be used. A horse is tamed by attempting to ride it, and managing to stay on the horse while it attempts to throw the rider off. ",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99c7a4",
+        "description_hash": "86c858bb",
+        "prompt_hash": "03f9463f",
+        "text": "When tamed, Love Hearts will appear around them and they will no longer buck the player off.  ",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99c84e",
+        "description_hash": "032aeb3b",
+        "prompt_hash": "03f9463f",
+        "text": "Try to ride this horse now. Use {*CONTROLLER_ACTION_USE*} with no items or tools in your hand to mount it. To dismount the horse, press{*CONTROLLER_ACTION_DISMOUNT*}.",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99c8f8",
+        "description_hash": "d0b71241",
+        "prompt_hash": "03f9463f",
+        "text": "To steer a horse, they must be equipped with a saddle. Saddles can be bought from villagers or found inside chests hidden in the world.",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99c9a2",
+        "description_hash": "b916b23d",
+        "prompt_hash": "03f9463f",
+        "text": "Tame Donkeys, Mules, and Llamas can be given saddlebags by attaching a chest. These bags can be accessed whilst riding or when sneaking.",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      },
+      {
+        "kind": "InfoTask",
+        "allocation_return_pc": "0x99ca4c",
+        "description_hash": "3ed848dd",
+        "prompt_hash": "03f9463f",
+        "text": "Horses, Donkeys, and Llamas (but not Mules) can be bred like other animals by using Golden Apples or Golden Carrots. Foals will grow into adults over time, although feeding them wheat or hay will speed this up.",
+        "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+        "precompletion": false,
+        "minimum_time": true,
+        "actions": [
+          0
+        ]
+      }
+    ],
+    "30": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99cb09",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99cb5c",
+            "description_hash": "7c8aedb6",
+            "prompt_hash": "eb9a80f7",
+            "text": "This is the horse inventory interface.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.\r\n{*B*}Press{*CONTROLLER_VK_B*} if you already know how to use the horse inventory.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99cc18",
+            "description_hash": "e4582e6f",
+            "prompt_hash": "03f9463f",
+            "text": "The horse inventory allows you to transfer or equip items to your Horse, Donkey, Mule, or Llama.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99ccb1",
+            "description_hash": "ac55bc2f",
+            "prompt_hash": "03f9463f",
+            "text": "Saddle your Horse by placing a Saddle in the saddle slot. Horses can be given armor by placing Horse Armor in the armor slot.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99cd4a",
+            "description_hash": "ad1032a9",
+            "prompt_hash": "03f9463f",
+            "text": "You can also transfer items between your own inventory and the saddlebags strapped to Donkeys, Mules, and Llamas in this menu.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "34": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99d604",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99d657",
+            "description_hash": "6ff43521",
+            "prompt_hash": "0ba245c8",
+            "text": "This is the Beacon interface, which you can use to choose powers for your Beacon to grant.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to continue.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know how to use the Beacon interface.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d713",
+            "description_hash": "934c3015",
+            "prompt_hash": "03f9463f",
+            "text": "In the Beacon menu you can select 1 primary power for your Beacon. The more tiers your pyramid has the more powers you will have to choose from.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d7ac",
+            "description_hash": "f87cf280",
+            "prompt_hash": "03f9463f",
+            "text": "A Beacon on a pyramid with at least 4 tiers grants an additional option of either the Regeneration secondary power or a stronger primary power.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d845",
+            "description_hash": "c6447326",
+            "prompt_hash": "03f9463f",
+            "text": "To set the powers of your Beacon you must sacrifice an Emerald, Diamond, Gold Ingot, or Iron Ingot in the payment slot. Once set, the powers will emanate from the Beacon indefinitely.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "36": [
+      {
+        "kind": "ProcedureCompoundTask",
+        "allocation_return_pc": "0x99ce72",
+        "description_hash": "ffffffff",
+        "prompt_hash": "ffffffff",
+        "text": "",
+        "prompt": "",
+        "precompletion": false,
+        "minimum_time": false,
+        "children": [
+          {
+            "kind": "ChoiceTask",
+            "allocation_return_pc": "0x99cecb",
+            "description_hash": "ecbb7bac",
+            "prompt_hash": "b0ed8a95",
+            "text": "This is the Firework interface, which you can use to craft Fireworks and Firework Stars.",
+            "prompt": "{*B*}\r\nPress{*CONTROLLER_VK_A*} to continue.{*B*}\r\nPress{*CONTROLLER_VK_B*} if you already know how to use the Firework interface.",
+            "precompletion": false,
+            "minimum_time": true,
+            "no_action": 1,
+            "yes_action": 0
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99cf9f",
+            "description_hash": "8c159652",
+            "prompt_hash": "03f9463f",
+            "text": "To craft a Firework, you'll need Gunpowder and Paper.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d045",
+            "description_hash": "fe1d058d",
+            "prompt_hash": "03f9463f",
+            "text": "You can optionally place one or more Firework Stars into the crafting grid to add them to the Firework.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d0eb",
+            "description_hash": "22299e7d",
+            "prompt_hash": "03f9463f",
+            "text": "Filling more slots in the crafting grid with Gunpowder will increase the height at which all of the Firework Stars will explode.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d191",
+            "description_hash": "e44f42d0",
+            "prompt_hash": "03f9463f",
+            "text": "You can then press {*CONTROLLER_VK_A*} to craft your completed Firework.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d237",
+            "description_hash": "13fd0693",
+            "prompt_hash": "03f9463f",
+            "text": "Firework Stars can be crafted by placing Gunpowder and Dye into the crafting grid.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d2dd",
+            "description_hash": "859377b3",
+            "prompt_hash": "03f9463f",
+            "text": "The Dye will set the color of the explosion of the Firework Star.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d383",
+            "description_hash": "d0c84aa4",
+            "prompt_hash": "03f9463f",
+            "text": "The shape of the Firework Star can be set by adding either a Fire Charge, Gold Nugget, Feather, or Mob Head.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d429",
+            "description_hash": "36518124",
+            "prompt_hash": "03f9463f",
+            "text": "A trail or a twinkle can be added using Diamonds or Glowstone Dust.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          },
+          {
+            "kind": "InfoTask",
+            "allocation_return_pc": "0x99d4cf",
+            "description_hash": "306cf96d",
+            "prompt_hash": "03f9463f",
+            "text": "After a Firework Star has been crafted, you can set the fade color of the Firework Star by crafting it with Dye.",
+            "prompt": "{*B*}Press{*CONTROLLER_VK_A*} to continue.",
+            "precompletion": false,
+            "minimum_time": true,
+            "actions": [
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "area_hints": [
+    {
+      "text": "In this area there is a minecart on a track. To enter the minecart, point the cursor at it and press{*CONTROLLER_ACTION_USE*}. Use{*CONTROLLER_ACTION_USE*} on the button to make the minecart move.",
+      "description_hash": "7842d528",
+      "bounds": [
+        -45.0,
+        82.0,
+        -80.0,
+        -39.0,
+        87.0,
+        -63.0
+      ],
+      "display_state": 0,
+      "complete_state": 5
+    },
+    {
+      "text": "There is a boat in the water nearby, and more boats in the chest beside it. To place a boat, point the cursor at water and press{*CONTROLLER_ACTION_USE*}. Use{*CONTROLLER_ACTION_USE*} while pointing at a boat to enter it.",
+      "description_hash": "b11a0f6b",
+      "bounds": [
+        -51.0,
+        73.0,
+        -73.0,
+        -46.0,
+        80.0,
+        -62.0
+      ],
+      "display_state": 0,
+      "complete_state": 6
+    },
+    {
+      "text": "In the chest beside the water there is a fishing rod. Take the fishing rod from the chest and select it as the current item in your hand to use it.",
+      "description_hash": "7f2df94f",
+      "bounds": [
+        -58.0,
+        74.0,
+        -73.0,
+        -52.0,
+        80.0,
+        -63.0
+      ],
+      "display_state": 0,
+      "complete_state": 7
+    },
+    {
+      "text": "Try jumping off from here, then flying with Elytra through all of the rings. Land on the target for maximum style!{*ElytraIcon*}",
+      "description_hash": "6fcb60c3",
+      "bounds": [
+        10.0,
+        117.0,
+        -148.0,
+        13.0,
+        122.0,
+        -138.0
+      ],
+      "display_state": 0,
+      "complete_state": -1
+    },
+    {
+      "text": "Try jumping off from here, then flying with Elytra through all of the rings. Land on the target for maximum style!{*ElytraIcon*}",
+      "description_hash": "6fcb60c3",
+      "bounds": [
+        -44.0,
+        140.0,
+        -120.0,
+        -41.0,
+        145.0,
+        -111.0
+      ],
+      "display_state": 0,
+      "complete_state": -1
+    },
+    {
+      "text": "Try jumping off from here, then flying with Elytra through all of the rings. Land on the target for maximum style!{*ElytraIcon*}",
+      "description_hash": "6fcb60c3",
+      "bounds": [
+        -29.0,
+        154.0,
+        -130.0,
+        -24.0,
+        159.0,
+        -127.0
+      ],
+      "display_state": 0,
+      "complete_state": -1
+    }
+  ]
+}

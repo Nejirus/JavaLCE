@@ -1,0 +1,66 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [],
+  "sources": [
+    {
+      "path": "Minecraft.Client/Input.cpp",
+      "sha256": "59d6e0b555de197b23b85f8f10db629464cd93979440ca5163abbd1b42731691"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIController.cpp",
+      "sha256": "fa2bf58a5edd9f01112909f12bc595a0ee4874c80e76f822b414bb040a419c27"
+    },
+    {
+      "path": "Minecraft.Client/Windows64/Windows64_Minecraft.cpp",
+      "sha256": "c6b6260f4c0bcedb987901d19a32df07673f11da8438ae509c6dce495cd35aa6"
+    },
+    {
+      "path": "Minecraft.Client/Orbis/Orbis_Minecraft.cpp",
+      "sha256": "091c8215bc6da517c9fbb7d5f41bd274107eebdad2d9c3a94f8f61b90e550182"
+    },
+    {
+      "path": "Minecraft.Client/Orbis/4JLibs/inc/4J_Input.h",
+      "sha256": "40cd4f9878b2e52a431d88b5b6d9ce1255b41349b5c16a316a3dc50ebfde0548"
+    },
+    {
+      "path": "Minecraft.Client/Orbis/4JLibs/Libs/4J_Input.a",
+      "sha256": "73741b394d00f2df725ea22140b355502e0d91675c7ff9baed18b57c415b460a"
+    },
+    {
+      "path": "Minecraft.Client/Orbis/4JLibs/Libs/4J_Render.a",
+      "sha256": "950cca4d776ff58eba3ad7e9cc51f40c7506ff444318fb3ea035734bad9d45b9"
+    },
+    {
+      "path": "Minecraft.Client/Common/Consoles_App.cpp",
+      "sha256": "064189e254f7afa9919866494a60e52b578ba8d12e396d64e7224cb7a9ed76c6"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsGraphicsMenu.cpp",
+      "sha256": "0e415ccbe21909218b93c25a16241c45ac555cc792a7c0a77553800ec6beead1"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae"
+    }
+  ],
+  "data": [
+    {
+      "destination": "src/main/resources/assets/legacyconsole/input_display.json",
+      "sha256": "18bcfa3a59d72ddb096739ab75eef29f66f8045f9baca2f5627af2d6f5b5c29c"
+    }
+  ],
+  "compiled_evidence": {
+    "input": "Orbis CInput::GetJoypadStick_LX/LY check the per-pad menu flag at +0x350 and return zero; CInput::GetValue gates game action indices while preserving menu actions.",
+    "gamma": "Orbis Renderer::UpdateGamma uses packed/32768 * 1.5 + 0.5, then reciprocal; source values are unsigned short(percent * 327.68f)."
+  },
+  "ports": [
+    "White field text comes from the original DefineEditText RGBA, not a replacement palette.",
+    "Ten presented-frame countdown follows the complete UIController/platform loop/input-library path; held-confirm protection remains.",
+    "LCE Look 1.1.3 explicitly delegates its world gamma when the mod can apply the same transfer once after all world/HUD/menu rendering. Standalone shaderpacks keep their world final pass."
+  ]
+}

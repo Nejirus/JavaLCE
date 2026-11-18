@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="See LICENSE"
+[[mods]]
+modId="legacyjoincompat"
+version="1.0.0"
+displayName="Legacy Join Compatibility"
+description="Allows Minecraft 1.17.1 clients without Legacy Console to join a Legacy Console server."
+[[dependencies.legacyjoincompat]]
+modId="legacyconsole"
+mandatory=true
+versionRange="[1.0.0]"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.legacyjoincompat]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.17.1]"
+ordering="NONE"
+side="BOTH"

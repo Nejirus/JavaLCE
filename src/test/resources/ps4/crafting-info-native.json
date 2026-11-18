@@ -1,0 +1,127 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "counter_span": [
+    "0x9ac698",
+    "0x9ac6b8"
+  ],
+  "visibility_function": "0x7f8d70",
+  "transitions": [
+    {
+      "before": 0,
+      "after": 1
+    },
+    {
+      "before": 1,
+      "after": 2
+    },
+    {
+      "before": 2,
+      "after": 0
+    },
+    {
+      "before": 0,
+      "after": 1
+    },
+    {
+      "before": 1,
+      "after": 2
+    },
+    {
+      "before": 2,
+      "after": 0
+    },
+    {
+      "before": 0,
+      "after": 1
+    },
+    {
+      "before": 1,
+      "after": 2
+    },
+    {
+      "before": 2,
+      "after": 0
+    },
+    {
+      "before": 0,
+      "after": 1
+    },
+    {
+      "before": 1,
+      "after": 2
+    },
+    {
+      "before": 2,
+      "after": 0
+    }
+  ],
+  "visibility": [
+    {
+      "mode": 0,
+      "controls": {
+        "MainPanel.Ingredient1": false,
+        "MainPanel.Ingredient2": false,
+        "MainPanel.Ingredient3": false,
+        "MainPanel.Ingredient4": false,
+        "MainPanel.Ingredient5": false,
+        "MainPanel.Ingredient1Desc": false,
+        "MainPanel.Ingredient2Desc": false,
+        "MainPanel.Ingredient3Desc": false,
+        "MainPanel.Ingredient4Desc": false,
+        "MainPanel.Ingredient5Desc": false,
+        "MainPanel.Inventory": true,
+        "MainPanel.HotBar": true,
+        "MainPanel.InventoryLabel": true,
+        "MainPanel.DescriptionText": false,
+        "MainPanel.IngredientsLabel": false,
+        "MainPanel.PreviewLabel": false,
+        "MainPanel.PreviewSlot": false
+      }
+    },
+    {
+      "mode": 1,
+      "controls": {
+        "MainPanel.Ingredient1": false,
+        "MainPanel.Ingredient2": false,
+        "MainPanel.Ingredient3": false,
+        "MainPanel.Ingredient4": false,
+        "MainPanel.Ingredient5": false,
+        "MainPanel.Ingredient1Desc": false,
+        "MainPanel.Ingredient2Desc": false,
+        "MainPanel.Ingredient3Desc": false,
+        "MainPanel.Ingredient4Desc": false,
+        "MainPanel.Ingredient5Desc": false,
+        "MainPanel.Inventory": false,
+        "MainPanel.HotBar": false,
+        "MainPanel.InventoryLabel": false,
+        "MainPanel.DescriptionText": true,
+        "MainPanel.IngredientsLabel": false,
+        "MainPanel.PreviewLabel": false,
+        "MainPanel.PreviewSlot": false
+      }
+    },
+    {
+      "mode": 2,
+      "controls": {
+        "MainPanel.Ingredient1": true,
+        "MainPanel.Ingredient2": true,
+        "MainPanel.Ingredient3": true,
+        "MainPanel.Ingredient4": true,
+        "MainPanel.Ingredient5": true,
+        "MainPanel.Ingredient1Desc": true,
+        "MainPanel.Ingredient2Desc": true,
+        "MainPanel.Ingredient3Desc": true,
+        "MainPanel.Ingredient4Desc": true,
+        "MainPanel.Ingredient5Desc": true,
+        "MainPanel.Inventory": false,
+        "MainPanel.HotBar": false,
+        "MainPanel.InventoryLabel": false,
+        "MainPanel.DescriptionText": false,
+        "MainPanel.IngredientsLabel": true,
+        "MainPanel.PreviewLabel": false,
+        "MainPanel.PreviewSlot": false
+      }
+    }
+  ]
+}

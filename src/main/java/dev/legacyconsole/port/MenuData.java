@@ -1,0 +1,3 @@
+package dev.legacyconsole.port;
+import java.lang.reflect.*;import net.minecraft.world.inventory.*;
+public final class MenuData {private final ContainerData data;public MenuData(AbstractContainerMenu menu){ContainerData found=null;for(Class<?> c=menu.getClass();c!=null&&found==null;c=c.getSuperclass())for(Field f:c.getDeclaredFields())if(ContainerData.class.isAssignableFrom(f.getType()))try{f.setAccessible(true);found=(ContainerData)f.get(menu);break;}catch(IllegalAccessException e){throw new IllegalStateException(e);}if(found==null)throw new IllegalArgumentException("Native menu has no data slots: "+menu.getClass());data=found;}public int getField(int id){return data.get(id);}}

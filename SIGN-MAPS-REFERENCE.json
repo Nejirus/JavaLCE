@@ -1,0 +1,55 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "sources": [
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SignEntryMenu.cpp",
+      "sha256": "ff5974acc34e066f021b5c5b839bfe1649a2d85495849b8cba410f4017daf7bc"
+    },
+    {
+      "path": "Minecraft.Client/PS3/Media/xuiscene_signentry.xui",
+      "sha256": "5e631db02d5a9a9b2f0b0336211295ecceee97bce3aa6fcabc419c79c2bf2a5a"
+    },
+    {
+      "path": "Minecraft.Client/Minimap.cpp",
+      "sha256": "7619531e9fe1f6b296884cad22e14fc6277b8823ab5f27dc9a9581b7cf638b18"
+    },
+    {
+      "path": "Minecraft.Client/ItemInHandRenderer.cpp",
+      "sha256": "bf2cbc4e7c3dacfd053a34bb65ab6c445d275d8da01ed6c76fb4344b92a6169a"
+    },
+    {
+      "path": "Minecraft.World/MapItem.cpp",
+      "sha256": "811be66ddb6bbac301a5ab5fba4f2cdc1c6b5aaa28134b928d1808e0b21225be"
+    },
+    {
+      "path": "Minecraft.World/MapItemSavedData.cpp",
+      "sha256": "9277be0506e964b7e95b00c102034100a5ae8985cd995ab53aebf22b2b93f4e2"
+    },
+    {
+      "path": "Minecraft.Client/Common/res/misc/mapbg.png",
+      "sha256": "d12e0d8954f744f1e0413199ec5c2c36e5b0541372ddfb3c74d28ae58924d274"
+    },
+    {
+      "path": "Minecraft.World/SignTile.cpp",
+      "sha256": "2236aac53a45020187934d3a6e5f893952f05e52f301d0ed00ea0ba25c2b9d8d"
+    },
+    {
+      "path": "Minecraft.World/SignTileEntity.cpp",
+      "sha256": "f7e46de9afa9921bc8b2348f0edb5fed466ea6883ccc8ecfc7d70d2dd4845e96"
+    },
+    {
+      "path": "Minecraft.World/SignItem.cpp",
+      "sha256": "67a0c9416df866c787cb65dadc44aa44953c6502590a82fe272591e02932e58f"
+    }
+  ],
+  "legacy4j_revision": "80ca31049dd5ea9f7169810f3cadd0aa38114a51",
+  "legacy4j_sources": [
+    "common/src/main/java/wily/legacy/inventory/RecipeMenu.java",
+    "common/src/main/java/wily/legacy/inventory/LegacyCraftingMenu.java",
+    "common/src/main/java/wily/legacy/mixin/MapItemSavedDataMixin.java",
+    "common/src/main/java/wily/legacy/mixin/MapRendererMixin.java",
+    "common/src/main/java/wily/legacy/mixin/AbstractSignEditScreenMixin.java"
+  ],
+  "sign_reopen_adaptation": "LCE opens text editing on sign placement. Existing-sign reopening is the user-requested Java extension, using an allowed server interaction and native editor/update packets."
+}

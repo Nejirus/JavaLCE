@@ -1,0 +1,141 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "symbol": "FJ_MainMenuButton_Norm",
+      "bitmap_id": 197,
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/menu_button.png",
+      "width": 400,
+      "height": 40,
+      "rgba_sha256": "e2e1148f1b7c12be064347c830e52624e4e8d3027fa2b4f120c0a6be8c97e857",
+      "sha256": "2d32bb0af984ddc68e33144e9b20afb04c2dd52a7652341809a35fe85378d580"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "symbol": "MainMenuButton_Over",
+      "bitmap_id": 195,
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/menu_button_selected.png",
+      "width": 400,
+      "height": 40,
+      "rgba_sha256": "2318bc32a9a88f84e0cb44955fe7c34b2e700dd74f42dbb45c62cb8c7e57cb39",
+      "sha256": "0eb08428eb549b0e861f62ac946891b217d9162da47e3e4321f6ddb01d96943d"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "symbol": "ListButton_Over",
+      "bitmap_id": 189,
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/list_button_selected.png",
+      "width": 400,
+      "height": 60,
+      "rgba_sha256": "36e4dc9df96318464be7699d0dd61837b400789bd3ad336bfc04af0563cfc40c",
+      "sha256": "0ddb9b4c0a8f83fcaeaf2368d8fec75811eb0e73d1ae9f7ff31bb01fb6cef7de"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "symbol": "FJ_MainMenuButton_Norm",
+      "bitmap_id": 191,
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/menu_button.png",
+      "width": 600,
+      "height": 60,
+      "rgba_sha256": "5c554bf6f680ee07794ab7dfd2440109819854d23018f91dff1d39f4a07d26e4",
+      "sha256": "16debc8f27b320f3fa9258e3588d3d815d63acad023cefe5b3a96fa51c243e8c"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "symbol": "MainMenuButton_Over",
+      "bitmap_id": 189,
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/menu_button_selected.png",
+      "width": 600,
+      "height": 60,
+      "rgba_sha256": "adad9001daf27c3f4a57bfb70a082c7f9787cb9afc0e30891c707b9c674c807c",
+      "sha256": "259af5be13d74a1200dea249270d2afe1b37f8df82a5497571e3fa19ed3a914a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "symbol": "ListButton_Over",
+      "bitmap_id": 183,
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/list_button_selected.png",
+      "width": 600,
+      "height": 90,
+      "rgba_sha256": "7829abd59a1e925e87da71c1fd1aa168251f8d30dd9e2eafba26a4b1c8b804ea",
+      "sha256": "99e3907f4a9ac270b2554a3e15e5516b0fd1b931ff8ad64ce1a8f47a460c87c0"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.Client/Common/Media/skin.swf",
+      "sha256": "f2f1fc6c14c98da2507b4f711fa7efdffedc2f955224d8e2191b53fce6d37157"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHD.swf",
+      "sha256": "21d626cfbc06f605f1003fc6606ca33f3b4c42d54d5662214b02ac4aed878390"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/MainMenu720.swf",
+      "sha256": "bce8361ac9018d807793b352eaf3e17e0648d951e6a333415444e2e6b77aa144"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/MainMenu1080.swf",
+      "sha256": "bef89e6cf48d99f5038cde8be97c16b0f6fea42b438adf4457288d3bab721d27"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl.cpp",
+      "sha256": "246c3b5ee854a9c76c40fcd7584eb15a8dbf997363ac47323022519d27004c28"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_MainMenu.cpp",
+      "sha256": "99b07b264fb6d8cd918627989630834345c6bf4896e9231288be5d6bdf4d42ac"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_HelpAndOptionsMenu.cpp",
+      "sha256": "f216066b1376dcb50fa6059831d9f17c790b2292f78c69bdf53dfc16bb8435f1"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIController.cpp",
+      "sha256": "fa2bf58a5edd9f01112909f12bc595a0ee4874c80e76f822b414bb040a419c27"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIBitmapFont.cpp",
+      "sha256": "870b413a76c703196f22989d3308f3cfec6890481c3ac770be90a9af83bce040"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIFontData.cpp",
+      "sha256": "6aedca890ba3cb4849f4fec9f927499e4f02e04ec815e4f2162bda6736782e99"
+    }
+  ],
+  "data": [
+    {
+      "destination": "src/main/resources/assets/legacyconsole/menu_buttons.json",
+      "sha256": "ef6b6622d334af8c40b04d296ed0110da6f7f9604b1262a86f77c9e542d9076a"
+    }
+  ],
+  "ports": [
+    "Original full-size 400x40 SD and 600x60 HD menu textures; source movie scale stretches the whole bitmap, without Java nine-slice borders.",
+    "Original list selection uses 400x60 / 600x90 list artwork.",
+    "Raw LCE RGB is retained: modal face (111,111,111), selection (126,136,191); no replacement brightness or overlay. Display Gamma still applies to the final frame when enabled.",
+    "FJ_MenuButton::Init centers labels; UIController installs the unchanged Mojangles7 bitmap font. Normal/selected/disabled/inactive-selected labels use source white/yellow/204-gray/pale-yellow.",
+    "FJ_Button focus and pressed states use the original 30 Hz timeline: fifteen-frame first-focus pulse, eleven-frame press, then selected.",
+    "The source disabled states keep the normal texture; no invented gray rectangle is drawn."
+  ],
+  "adaptations": [
+    "Java menu sizes and navigation callbacks are retained, including the requested standard 225x20 logical buttons.",
+    "Label ink is centered within the button using the source bitmap bearings and common capital baseline. The zero-blur original black shadow uses source distance 1 at angle 0.785385.",
+    "The optional source yellow Outline is disabled by default in FJ_Button and is not added to ordinary menu buttons."
+  ]
+}

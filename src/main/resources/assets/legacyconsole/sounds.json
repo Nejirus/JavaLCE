@@ -1,0 +1,253 @@
+{
+  "ui.focus": {
+    "sounds": [
+      "legacyconsole:ui/focus"
+    ]
+  },
+  "ui.confirm": {
+    "sounds": [
+      "legacyconsole:ui/press"
+    ]
+  },
+  "ui.back": {
+    "sounds": [
+      "legacyconsole:ui/back"
+    ]
+  },
+  "ui.tab": {
+    "sounds": [
+      "legacyconsole:ui/scroll"
+    ]
+  },
+  "ui.craft": {
+    "sounds": [
+      "legacyconsole:ui/craft"
+    ]
+  },
+  "ui.fail": {
+    "sounds": [
+      "legacyconsole:ui/fail"
+    ]
+  },
+  "ui.open": {
+    "sounds": [
+      "legacyconsole:ui/press"
+    ]
+  },
+  "music.calm1": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      }
+    ]
+  },
+  "music.calm2": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      }
+    ]
+  },
+  "music.calm3": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      }
+    ]
+  },
+  "music.hal1": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      }
+    ]
+  },
+  "music.hal2": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      }
+    ]
+  },
+  "music.hal3": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      }
+    ]
+  },
+  "music.hal4": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      }
+    ]
+  },
+  "music.nuance1": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      }
+    ]
+  },
+  "music.nuance2": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative1": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative2": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative3": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative4": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative5": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative6": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu1": {
+    "sounds": [
+      {
+        "name": "minecraft:music/menu/menu1",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu2": {
+    "sounds": [
+      {
+        "name": "minecraft:music/menu/menu2",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu3": {
+    "sounds": [
+      {
+        "name": "minecraft:music/menu/menu3",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu4": {
+    "sounds": [
+      {
+        "name": "minecraft:music/menu/menu4",
+        "stream": true
+      }
+    ]
+  },
+  "music.piano1": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      }
+    ]
+  },
+  "music.piano2": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      }
+    ]
+  },
+  "music.piano3": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether1": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/nether1",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether2": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/nether2",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether3": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/nether3",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether4": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "music.the_end_dragon_alive": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/end/boss",
+        "stream": true
+      }
+    ]
+  }
+}

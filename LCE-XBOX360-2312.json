@@ -1,0 +1,590 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "source_xui": {
+    "path": "Minecraft.Client/Common/Media/skin_Minecraft.xui",
+    "git_blob": "5d4517d2cfd4a568cb6a4346a0945c81fd11bb7c",
+    "sha256": "af7be795d969c3a7d452bbef36d3b03960fd6aff4761d67bf2e13a4891a9a15d"
+  },
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/Legend_Button_Green_Normal.png",
+      "git_blob": "2b0b6efa1dc220cccd7a846fc9cc5869851b0b65",
+      "sha256": "2bfa14908fed2b14b34c5c7880082ed527a503b1b2f264107173b87220a7e2a8",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/Legend_Button_Green_Normal.png",
+      "size": [
+        45,
+        45
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/a_graphic.png",
+      "git_blob": "126e1b02b7f01dc4c9db343cc1e1b675d8df9954",
+      "sha256": "d9f54192c967fdae26ed76ad3b4bf30fb84f70f3bc583c067aaa0205db5a98d8",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/a_graphic.png",
+      "size": [
+        30,
+        30
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/Legend_Button_Red_Normal.png",
+      "git_blob": "8f2848137b16c55487f803958c282f520e376445",
+      "sha256": "862aa1bfa21f68705597446b9a546710a9a0f8513a8a1ea5cefff8663e431d43",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/Legend_Button_Red_Normal.png",
+      "size": [
+        45,
+        45
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/b_graphic.png",
+      "git_blob": "e7721e48e92b72cb20afbceaf3d836e2fa3685b4",
+      "sha256": "a8a5cdde862bc9ee4fd4c3b9c1658056ceaa850537f7e7695114e6825d00a83e",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/b_graphic.png",
+      "size": [
+        30,
+        30
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/Legend_Button_Blu_Normal.png",
+      "git_blob": "5c983d68e83995159c1b47c9a0f84d1da0b0a13a",
+      "sha256": "459c5168614c77265d03ea6ff5fce954ca30de1b63ab177b69774c7679271980",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/Legend_Button_Blu_Normal.png",
+      "size": [
+        45,
+        45
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/x_graphic.png",
+      "git_blob": "3d1b50cd8748423664f46bd2c7b928bac20ecbda",
+      "sha256": "35d750ba8f38a2b0e0440fc83bf70027067d869baed99ee67e9c8c5609413258",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/x_graphic.png",
+      "size": [
+        30,
+        30
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/Legend_Button_Yello_Normal.png",
+      "git_blob": "dd37a19fe7569a8c294baea036ef9732fff37b7c",
+      "sha256": "6141e470d133dfd28cb8bdcc596a1b6d1aed4a9261a73ec8fc1109060e526baa",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/Legend_Button_Yello_Normal.png",
+      "size": [
+        45,
+        45
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/y_graphic.png",
+      "git_blob": "6213c53c28e4a834fc21bcfdd12db1d013462007",
+      "sha256": "db196bf3a3d196e3433e8fe6ed0ccc47ed454d108aca2263dcf0d6c47ec84f9a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/y_graphic.png",
+      "size": [
+        30,
+        30
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonLeftBumper_TT.png",
+      "git_blob": "45baccfc7b712e774b5b33ca52389155e650c0db",
+      "sha256": "50ee2431e214443bb94c8f88824c1cc4bdd6ed4d0a6fdca1cafa73db9f960b33",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonLeftBumper_TT.png",
+      "size": [
+        49,
+        45
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonRightBumper_TT.png",
+      "git_blob": "154b57dbfaa202d7ec5526a065318229c097ab77",
+      "sha256": "67b56a2ef7686f80324c176c743ea8a6fb4c817667721540011f6755850cfdd4",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonRightBumper_TT.png",
+      "size": [
+        49,
+        45
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonLeftTrigger_TT.png",
+      "git_blob": "067e139c3906bf2eeec4655836f629ac28991101",
+      "sha256": "9d39c4883415db9b9b27f86fc2bb3a2803cf15c28d6c23fdde18527ea8947595",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonLeftTrigger_TT.png",
+      "size": [
+        37,
+        45
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonRightTrigger_TT.png",
+      "git_blob": "4488085426af582538e743726dcd97605b2b4900",
+      "sha256": "af6ea5d2af27c54933c9f607b7c6da160d66acea51ae4d5b5cb226127bac13e1",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonRightTrigger_TT.png",
+      "size": [
+        37,
+        45
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonLeftStick_Navigate.png",
+      "git_blob": "81881801c5bac09c95754de833716b6084789cfe",
+      "sha256": "d912a0485e6cc04298d76a25852569f1718bb1aa19c768dcf5fb03d243725889",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonLeftStick_Navigate.png",
+      "size": [
+        58,
+        48
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonLS.png",
+      "git_blob": "fa97097fa967ea5b3148e2d126f346744bdee2dc",
+      "sha256": "30321167461a5bf34c03667f5bfba93a9e9395b6613ab2d7ca00c3141ae33f48",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonLS.png",
+      "size": [
+        67,
+        64
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonRS.png",
+      "git_blob": "652a03cc3c2de75f3749fa41cd1ef1cba286503d",
+      "sha256": "3ab4fea5e34b3eea7b68bc9a55dc90be43cb34b43a46c42cfb3ec2142bf652e7",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonRS.png",
+      "size": [
+        67,
+        64
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonRightStick.png",
+      "git_blob": "3de652eaa2a9a3072e38da349ffccb15855fb551",
+      "sha256": "4ca7ccef9a266a168326310ede980fc3d6f0e94cb874d5a9cad23589fcf5ec73",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonRightStick.png",
+      "size": [
+        67,
+        64
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonStart.png",
+      "git_blob": "1e8d20205bb44c35541ba5b3369604a771b5a2f9",
+      "sha256": "fb11f935f236a1ee59f70cf054208c16c9662a1e4508284a3168a6c09711a78d",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonStart.png",
+      "size": [
+        69,
+        64
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonBack.png",
+      "git_blob": "d12b7f42d180369b173bde385581121f1487d46c",
+      "sha256": "171ea295432ec7674f3fd57a738540970b93b411ca19fda31acc6e2e1dc4fc19",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonBack.png",
+      "size": [
+        69,
+        64
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonDpadU.png",
+      "git_blob": "21ef0fd26d0ddc91e7aab84413df1580eea4da4e",
+      "sha256": "d44b4272b3fc901071a72e360bea5324d18872b012aeee3059be327e9fe927e3",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonDpadU.png",
+      "size": [
+        64,
+        67
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonDpadD.png",
+      "git_blob": "dcca6773bfbb6fb5cd444b4fd1a56613233aa273",
+      "sha256": "7e8de0b4864e8ef074f76251794f3a14e230aaae8279fb805e046ff216a7ebf2",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonDpadD.png",
+      "size": [
+        64,
+        67
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonDpadL.png",
+      "git_blob": "5497dd8d191965afa1110bfd07369028f1d3a6f6",
+      "sha256": "d90ae153a0cd7b72f2ce807e6e640702d042a4b3927b8a819c21a9928476db4b",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonDpadL.png",
+      "size": [
+        67,
+        64
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonDpadR.png",
+      "git_blob": "12c112369e89ad68aafe60b180b5987efb8331d9",
+      "sha256": "b9e0319c78efa3c65ca27af38ad7dbec99f3c7857958db62bc871a739325739d",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonDpadR.png",
+      "size": [
+        67,
+        64
+      ]
+    }
+  ],
+  "glyphs": {
+    "cross": {
+      "bounds": [
+        0.0,
+        33.0,
+        0.0,
+        33.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/Legend_Button_Green_Normal",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 33.0,
+          "height": 33.0
+        },
+        {
+          "path": "lce/prompts/xbox360/a_graphic",
+          "x": 9.5,
+          "y": 9.5,
+          "width": 15.0,
+          "height": 15.0
+        }
+      ],
+      "frame": "A_Button"
+    },
+    "circle": {
+      "bounds": [
+        0.0,
+        33.0,
+        0.0,
+        33.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/Legend_Button_Red_Normal",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 33.0,
+          "height": 33.0
+        },
+        {
+          "path": "lce/prompts/xbox360/b_graphic",
+          "x": 9.5,
+          "y": 9.5,
+          "width": 15.0,
+          "height": 15.0
+        }
+      ],
+      "frame": "B_Button"
+    },
+    "square": {
+      "bounds": [
+        0.0,
+        33.0,
+        0.0,
+        33.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/Legend_Button_Blu_Normal",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 33.0,
+          "height": 33.0
+        },
+        {
+          "path": "lce/prompts/xbox360/x_graphic",
+          "x": 9.6,
+          "y": 9.5,
+          "width": 15.0,
+          "height": 15.0
+        }
+      ],
+      "frame": "X_Button"
+    },
+    "triangle": {
+      "bounds": [
+        0.0,
+        33.0,
+        0.0,
+        33.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/Legend_Button_Yello_Normal",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 33.0,
+          "height": 33.0
+        },
+        {
+          "path": "lce/prompts/xbox360/y_graphic",
+          "x": 9.46,
+          "y": 9.5,
+          "width": 15.0,
+          "height": 15.0
+        }
+      ],
+      "frame": "Y_Button"
+    },
+    "left_bumper": {
+      "bounds": [
+        0.0,
+        49.0,
+        -3.0,
+        42.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonLeftBumper_TT",
+          "x": 0.0,
+          "y": -3.0,
+          "width": 49.0,
+          "height": 45.0
+        }
+      ],
+      "frame": "LB_Button"
+    },
+    "right_bumper": {
+      "bounds": [
+        0.0,
+        49.0,
+        -3.0,
+        42.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonRightBumper_TT",
+          "x": 0.0,
+          "y": -3.0,
+          "width": 49.0,
+          "height": 45.0
+        }
+      ],
+      "frame": "RB_Button"
+    },
+    "left_trigger": {
+      "bounds": [
+        0.0,
+        37.0,
+        -3.0,
+        42.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonLeftTrigger_TT",
+          "x": 0.0,
+          "y": -3.0,
+          "width": 37.0,
+          "height": 45.0
+        }
+      ],
+      "frame": "LTrigger"
+    },
+    "right_trigger": {
+      "bounds": [
+        0.0,
+        37.0,
+        -3.0,
+        42.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonRightTrigger_TT",
+          "x": 0.0,
+          "y": -3.0,
+          "width": 37.0,
+          "height": 45.0
+        }
+      ],
+      "frame": "RTrigger"
+    },
+    "left_stick": {
+      "bounds": [
+        0.0,
+        58.0,
+        -5.0,
+        43.0
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonLeftStick_Navigate",
+          "x": 0.0,
+          "y": -5.0,
+          "width": 58.0,
+          "height": 48.0
+        }
+      ],
+      "frame": "LStick_Nav"
+    },
+    "left_stick_button": {
+      "bounds": [
+        0,
+        67,
+        0,
+        64
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonLS",
+          "x": 0,
+          "y": 0,
+          "width": 67,
+          "height": 64
+        }
+      ],
+      "symbol": "ButtonLS"
+    },
+    "right_stick_button": {
+      "bounds": [
+        0,
+        67,
+        0,
+        64
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonRS",
+          "x": 0,
+          "y": 0,
+          "width": 67,
+          "height": 64
+        }
+      ],
+      "symbol": "ButtonRS"
+    },
+    "right_stick": {
+      "bounds": [
+        0,
+        67,
+        0,
+        64
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonRightStick",
+          "x": 0,
+          "y": 0,
+          "width": 67,
+          "height": 64
+        }
+      ],
+      "symbol": "ButtonRightStick"
+    },
+    "start_button": {
+      "bounds": [
+        0,
+        69,
+        0,
+        64
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonStart",
+          "x": 0,
+          "y": 0,
+          "width": 69,
+          "height": 64
+        }
+      ],
+      "symbol": "ButtonStart"
+    },
+    "back_button": {
+      "bounds": [
+        0,
+        69,
+        0,
+        64
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonBack",
+          "x": 0,
+          "y": 0,
+          "width": 69,
+          "height": 64
+        }
+      ],
+      "symbol": "ButtonBack"
+    },
+    "dpad_up": {
+      "bounds": [
+        0,
+        64,
+        0,
+        67
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonDpadU",
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 67
+        }
+      ],
+      "symbol": "ButtonDpadU"
+    },
+    "dpad_down": {
+      "bounds": [
+        0,
+        64,
+        0,
+        67
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonDpadD",
+          "x": 0,
+          "y": 0,
+          "width": 64,
+          "height": 67
+        }
+      ],
+      "symbol": "ButtonDpadD"
+    },
+    "dpad_left": {
+      "bounds": [
+        0,
+        67,
+        0,
+        64
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonDpadL",
+          "x": 0,
+          "y": 0,
+          "width": 67,
+          "height": 64
+        }
+      ],
+      "symbol": "ButtonDpadL"
+    },
+    "dpad_right": {
+      "bounds": [
+        0,
+        67,
+        0,
+        64
+      ],
+      "layers": [
+        {
+          "path": "lce/prompts/xbox360/ButtonDpadR",
+          "x": 0,
+          "y": 0,
+          "width": 67,
+          "height": 64
+        }
+      ],
+      "symbol": "ButtonDpadR"
+    }
+  },
+  "adaptations": [
+    "Normal Xbox 360 XUI glyph images and geometry replace Windows SWF glyphs. Existing common prompt text/spacing and bindings remain.",
+    "At 1080p and above the same unchanged PNGs use the existing 3/2 coordinate conversion; no Xbox 360 HD artwork is invented.",
+    "Supplementary glyphs use original Button PNGs at their natural source dimensions."
+  ]
+}

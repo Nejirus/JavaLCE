@@ -1,0 +1,59 @@
+{
+  "release": "2.3.2",
+  "scope": "Legacy Overworld map data and spawn; finite border placement verified and retained",
+  "reference": {
+    "mcps4_repository": "https://github.com/Nejirus/mcps4",
+    "mcps4_commit": "37e258085773f11599cf0ffe29119926769554b7",
+    "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+    "lce_repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+    "lce_commit": "acff48c2c7e18406fd6000b56945746ca9a6eb69"
+  },
+  "documentation": "docs/PS4-MAPS-BOUNDS-SPAWN.md",
+  "native_instruction_fixtures": {
+    "map_centers": 160,
+    "first_map_branches": 2,
+    "finite_bounds": 160,
+    "controlled_spawn_cases": 24,
+    "files": [
+      "src/test/resources/ps4-map-bounds-vectors.json",
+      "src/test/resources/ps4-spawn-vectors.json"
+    ],
+    "scripts": [
+      "docs/reference-tools/ps4/export_maps.py",
+      "docs/reference-tools/ps4/export_spawn.py"
+    ],
+    "method": "Isolated execution of original PS4 instructions with controlled inputs; not captures of complete PS4 worlds"
+  },
+  "world_boundaries": {
+    "seed_dependent": false,
+    "classic": {
+      "min_inclusive": -432,
+      "max_exclusive": 432
+    },
+    "small": {
+      "min_inclusive": -512,
+      "max_exclusive": 512
+    },
+    "medium": {
+      "min_inclusive": -1536,
+      "max_exclusive": 1536
+    },
+    "large": {
+      "min_inclusive": -2560,
+      "max_exclusive": 2560
+    }
+  },
+  "adaptations": [
+    "Native 1.17.1 map IDs, saves, colors, and packets",
+    "World/player UUID zero-versus-nonzero map history instead of PS4 map-ID storage",
+    "Forge initial-world-spawn event and native bonus chest feature",
+    "Java initial-player construction hook with transient entity RNG",
+    "One-handed map viewport scaling below 16:9, separate from unchanged paper inset and coordinates"
+  ],
+  "limitations": [
+    "Full terrain, decoration, cave, and some structure behavior still uses existing target-runtime adapters",
+    "Exact final PS4 world spawn for every seed is not established",
+    "Exact player landing depends on transient entity RNG",
+    "Physical macOS Retina hardware and running PS4 visual comparisons were not tested"
+  ]
+}

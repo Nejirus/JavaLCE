@@ -1,0 +1,322 @@
+{
+  "version": "2.3.15",
+  "scope": "Anvil name and host-menu Settings widgets, spacing, pointer sliders and scrolling",
+  "automated_suites": [
+    {
+      "tests": 408,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite including mixed host-row viewport and navigation regression checks"
+    }
+  ],
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Anvil field is clickable and renames items through the synchronized native result; captures verify centered white text at all three size stops",
+      "Host/player buttons and sliders use Settings artwork and spacing at all stops; pointer slider dragging applies difficulty on the server",
+      "Mouse wheel and controller navigation reach both ends, keep a filled final page, and retain the scroll position across network snapshot polling; pause Square stays unbound"
+    ],
+    "screenshots": [
+      {
+        "file": "view-0-anvil-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "fdd8b3a3cb27d2392c3bb47675fc5f373fc3fc001ffa8ce68947c9dc2f1349d3"
+      },
+      {
+        "file": "view-0-anvil-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "17e03965a1c083e0ba27f52da22e6ee8fc1db90055e5f86caf4340703eaabe86"
+      },
+      {
+        "file": "view-0-anvil-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "c601e4e329d1836c582ef0a6c132ff468fb6e5620225402b25b9c7952c179f9d"
+      },
+      {
+        "file": "view-0-host-info-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "238f5d0e7201b2281ff3fdec4509d26663864021eef39bc7e62a9160d94b52fa"
+      },
+      {
+        "file": "view-0-host-info-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "0705dd67fcdf806210c6ea334a0874508221470616e068089acefe413d9bfe3e"
+      },
+      {
+        "file": "view-0-host-info-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "4ea1130bff78badc7da00c2fc806273ab9781951da771badd588561fce8c1382"
+      },
+      {
+        "file": "view-0-host-top-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "aed72b125898e6e9d865392ef7a8e85735f2851d8599c3d3c7e3d62ff7cbabae"
+      },
+      {
+        "file": "view-0-host-top-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "31e1e72f817983cf3a10900845d8df3edad48211691f3707f75ba541632ac481"
+      },
+      {
+        "file": "view-0-host-top-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "4017093f4725090221800eab4bae2e3cbc87bda9e8c66c5b4418f94d01cb0210"
+      },
+      {
+        "file": "view-0-host-slider-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "0933c5cf5a6b257ae6c7af3e9813706d8551eea7e7b8cb1f2832081a769dc00a"
+      },
+      {
+        "file": "view-0-host-slider-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "78d5446a7290e773d7439e69e9280f1ea4cceeaf92bb8b294a835922404bf7f4"
+      },
+      {
+        "file": "view-0-host-slider-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "95ec1708bd410ac192e92ca01f0b6f4beb5363740841b00ebf336e099ea90c41"
+      },
+      {
+        "file": "view-0-host-bottom-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "6af1829d5be76e917650fb2cd2510df83c03d2bda3cb154c0ae748b805c6b92f"
+      },
+      {
+        "file": "view-0-host-bottom-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "d117faf866b28ae327956b648750152a720d6acabd0ae81ba0be307565ccbc18"
+      },
+      {
+        "file": "view-0-host-bottom-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "9593c99a77c865d19be9b94845b2cf9c1cfeca5cb5fe5e11f2ce7aaa96765f5c"
+      },
+      {
+        "file": "view-0-host-self-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "9ef0e9dfaac0d08c11018dcdb710da2970cf755ef19d404153a78d6a1f71700c"
+      },
+      {
+        "file": "view-0-host-self-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "4a2aa398c8962ee4db64c34039cd9bdb10e9ff0cfda6c5fbcd2bb08a6ef4159d"
+      },
+      {
+        "file": "view-0-host-self-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "c8ff5f4f97809207cfec3855a68462a22f980cadbdfaddad4b7d5367550ea8c6"
+      },
+      {
+        "file": "view-0-host-guest-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "d3b3ddb7e31cc0049f31b719a32a291febf13daf89ff6fad07c3878023615edc"
+      },
+      {
+        "file": "view-0-host-guest-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "70c66e7a281d012beda1be0476cadfa4925f6c243e7f4835984014d8388f3d6f"
+      },
+      {
+        "file": "view-0-host-guest-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "c417d9c565f433c48fd1e5190ac131b35016a23c5e82dce153365d08fbc619c9"
+      },
+      {
+        "file": "view-1-anvil-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ac408f32f0c8ebd294b4b31c5ab5fbb67e0ff1449ba918bb15ed48309cf4bd95"
+      },
+      {
+        "file": "view-1-anvil-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "aa08c9ef859f1f51a2f54400200a1ab192140329aecfaefefd928e7217ceb116"
+      },
+      {
+        "file": "view-1-anvil-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4eab185661ad5c7d2b354a1f1d963cfee2fbbf4f734b2ba748895b62f958f52d"
+      },
+      {
+        "file": "view-1-host-info-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "67b8fa404f50987c98d0ce828c3d28abb4e35e9b83a45d323783b2f6522021be"
+      },
+      {
+        "file": "view-1-host-info-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "d1a47065583cf6e627742b8cffa7c35ae4e87e7e644819fe8bbde1fdfc6a8ebd"
+      },
+      {
+        "file": "view-1-host-info-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "75f2cd45415d2881aa6bd17ee1d52c8eb2eb5df11f247bed2cced13a462ee1e7"
+      },
+      {
+        "file": "view-1-host-top-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0fe25541f853632806a902d6c6965209f1f74148b498f2c3c4c61d61379819e3"
+      },
+      {
+        "file": "view-1-host-top-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "37ac9a2de805caa2139d8822df0d0f694341c78e7bdd46e520b1e8ab417f6bbb"
+      },
+      {
+        "file": "view-1-host-top-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "a823add36389fd63286e00b21bfb407de7f08c8cd47b45c9ca03dd664b967923"
+      },
+      {
+        "file": "view-1-host-slider-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0fe25541f853632806a902d6c6965209f1f74148b498f2c3c4c61d61379819e3"
+      },
+      {
+        "file": "view-1-host-slider-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "37ac9a2de805caa2139d8822df0d0f694341c78e7bdd46e520b1e8ab417f6bbb"
+      },
+      {
+        "file": "view-1-host-slider-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "a823add36389fd63286e00b21bfb407de7f08c8cd47b45c9ca03dd664b967923"
+      },
+      {
+        "file": "view-1-host-bottom-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "6a9d0d1045e900442237235800c7c7106e37526f495ea12b2eb96df15d42559a"
+      },
+      {
+        "file": "view-1-host-bottom-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "99d62c79fc18809dbbd9ca55d5e60a0d5745410efec5971fc97132b517ea4e84"
+      },
+      {
+        "file": "view-1-host-bottom-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4e4a5c9069a63d3f0f5acdfcbc7ea53d4a488d72ee5f2fe3df314759b2f76f88"
+      },
+      {
+        "file": "view-1-host-self-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "5cc6fe3b6ae8aacc65705bdda57f3b50b05309489f6109f0913837d0d8efb487"
+      },
+      {
+        "file": "view-1-host-self-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0ce35d7bdb1e45088b9e3a46c44add7518405f3a52528641e542fee113221010"
+      },
+      {
+        "file": "view-1-host-self-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0575f95f50fc6ce9a74a7df115ad706868882ff923d9e8c1c86b7d2b28b59de1"
+      },
+      {
+        "file": "view-1-host-guest-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "d947dec3378e53b78790be3e9559ce6f648aaf1830d5e283f800c1144b7df2ce"
+      },
+      {
+        "file": "view-1-host-guest-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c102533845fb3dc67cc7aae5f691076bf71ac25137831e020f8f0e3187b60b60"
+      },
+      {
+        "file": "view-1-host-guest-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3b8a321e3cc45830a2ef441057a200c805c4657758cf8f1c32716e3c5ac21ed8"
+      }
+    ]
+  },
+  "desktop_manual_checks": [
+    "Hovered the host player-mode slider in the native desktop client: Settings outline/highlight/handle/tint and centered yellow label render correctly; LCE Look enabled."
+  ]
+}

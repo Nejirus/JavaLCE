@@ -1,0 +1,60 @@
+{
+  "text_input": {
+    "sd": {
+      "FJ_TextInput_Small": {
+        "edit_text_id": 34,
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "FJ_TextInput": {
+        "edit_text_id": 56,
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    },
+    "hd": {
+      "FJ_TextInput_Small": {
+        "edit_text_id": 36,
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      "FJ_TextInput": {
+        "edit_text_id": 58,
+        "rgba": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    }
+  },
+  "menu_countdown": {
+    "unit": "presented_frame",
+    "count": 10,
+    "clear_on_next_check": true,
+    "sticks_gated": true,
+    "gameplay_actions_gated": true
+  },
+  "gamma": {
+    "minimum": 0,
+    "maximum": 100,
+    "default": 50,
+    "pack_multiplier": 327.68,
+    "normalize": 32768,
+    "scale": 1.5,
+    "offset": 0.5
+  }
+}

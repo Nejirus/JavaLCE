@@ -1,0 +1,197 @@
+{
+  "cases": [
+    {
+      "seed": 0,
+      "chunk": [
+        0,
+        0
+      ],
+      "palette": 4,
+      "main": 6,
+      "beached": 18,
+      "rotation": 1,
+      "height": 61,
+      "box": [
+        -2,
+        0,
+        -2,
+        21,
+        8,
+        21
+      ],
+      "queries": [
+        [
+          "chunk",
+          -1,
+          -1
+        ],
+        [
+          "height",
+          7,
+          7
+        ],
+        [
+          "height",
+          7,
+          12
+        ],
+        [
+          "height",
+          12,
+          7
+        ],
+        [
+          "height",
+          12,
+          12
+        ]
+      ],
+      "next32": 69503186
+    },
+    {
+      "seed": 82944867,
+      "chunk": [
+        -10,
+        62
+      ],
+      "palette": 6,
+      "main": 5,
+      "beached": 0,
+      "rotation": 3,
+      "height": 61,
+      "box": [
+        -162,
+        0,
+        990,
+        -135,
+        20,
+        1017
+      ],
+      "queries": [
+        [
+          "chunk",
+          -11,
+          61
+        ],
+        [
+          "height",
+          7,
+          7
+        ],
+        [
+          "height",
+          7,
+          12
+        ],
+        [
+          "height",
+          12,
+          7
+        ],
+        [
+          "height",
+          12,
+          12
+        ]
+      ],
+      "next32": 2055859079
+    },
+    {
+      "seed": 123456789,
+      "chunk": [
+        -23,
+        5
+      ],
+      "palette": 3,
+      "main": 10,
+      "beached": 9,
+      "rotation": 1,
+      "height": 61,
+      "box": [
+        -370,
+        0,
+        78,
+        -343,
+        20,
+        105
+      ],
+      "queries": [
+        [
+          "chunk",
+          -24,
+          4
+        ],
+        [
+          "height",
+          7,
+          7
+        ],
+        [
+          "height",
+          7,
+          12
+        ],
+        [
+          "height",
+          12,
+          7
+        ],
+        [
+          "height",
+          12,
+          12
+        ]
+      ],
+      "next32": -840678490
+    },
+    {
+      "seed": -1,
+      "chunk": [
+        3,
+        -8
+      ],
+      "palette": 8,
+      "main": 6,
+      "beached": 18,
+      "rotation": 0,
+      "height": 61,
+      "box": [
+        46,
+        0,
+        -130,
+        69,
+        8,
+        -107
+      ],
+      "queries": [
+        [
+          "chunk",
+          2,
+          -9
+        ],
+        [
+          "height",
+          7,
+          7
+        ],
+        [
+          "height",
+          7,
+          12
+        ],
+        [
+          "height",
+          12,
+          7
+        ],
+        [
+          "height",
+          12,
+          12
+        ]
+      ],
+      "next32": -827625273
+    }
+  ],
+  "source": "Nejirus/mcps4@37e258085773f11599cf0ffe29119926769554b7; original 0x608ef0 seed expression and 0x609230 constructor. Immutable template-size and synthetic height-query bindings; no application entry point."
+}

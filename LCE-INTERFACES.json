@@ -1,0 +1,415 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Crafting_Panel.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_panel.png",
+      "sha256": "84e0761d77473a364dcc1254e6eced3d29349106ff77cca2f0f3906caf0e4952"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Crafting_Panel2x2.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_panel_personal.png",
+      "sha256": "21fa78b3d93e3c52413611d70c4c3fb8b0213df0ac07710d2ce7c224f87d5138"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Crafting_Panel_Small.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_panel_small.png",
+      "sha256": "570749d57d2872255b32b405eba054f1d8b10e96cc9c9e579f3873659341805c"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Tab_Left.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_tab_left.png",
+      "sha256": "8ce127394f8072be59177faddbab7b7e2389f8f2ccb6b42b4d9912c0ee5a9d2d"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Tab_Middle.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_tab_middle.png",
+      "sha256": "e719f7a2c90d93fd101e5b8c0a5c8dc5807783bea070c3b619c54bd6b9e8ddae"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Tab_Right.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_tab_right.png",
+      "sha256": "333833fa511a9adf28c69580db18b51de2dd15a90b3d1d3329d94bc6f52b78b9"
+    },
+    {
+      "source": "Minecraft.Client/PS3/Media/CraftingPanels/Crafting_3SlotLargeV.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_selector.png",
+      "sha256": "2a57b766f3ff2f9ecf5a9f56addb6e4c7e3c19876b7117d6ec3f4a91d04a2ce6"
+    },
+    {
+      "source": "Minecraft.Client/PS3/Media/CraftingPanels/Crafting_2SlotLargeV.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_selector_two.png",
+      "sha256": "2bd64e016738b41941024dcdc6f570ec762c5e3a3da214246f4764ad8f97eaef"
+    },
+    {
+      "source": "Minecraft.Client/PS3/Media/CraftingPanels/Craft_Highlight_L.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_highlight.png",
+      "sha256": "f71553dc2c61b96a6c37dd49af599db69f6def64a629a74486d6d9932d4bcf3e"
+    },
+    {
+      "source": "Minecraft.Client/PS3/Media/CraftingPanels/Crafting_SlotLarge.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/crafting_slot.png",
+      "sha256": "3f44e2af63bcfbdb5532cdceceece2e20ee0237f5c3aeda21c2dfdcec229a132"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/Arrow_Off.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/arrow_off.png",
+      "sha256": "0447951227efef8f1af73ff9abc6ed70cfac9f4719b00702e7d3928ae803b8a7"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/Arrow_On.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/arrow_on.png",
+      "sha256": "78fd6bc21bcfc58303f23951413ba61502c8f5c6401e6d8c560801e84df06dff"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/Flame_Off.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/flame_off.png",
+      "sha256": "f0469054a106cb9b21f03435183d541ddbbd041d59e4dd3c09e719bc3433a2bd"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/Flame_On.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/flame_on.png",
+      "sha256": "21250611bea23f2a73ea43350359aa3629fffe2e5e1f148f7aaa73900eca2ad1"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/EnchantmentButtonEmpty.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/enchant_empty.png",
+      "sha256": "d36f62887fb4eb580aac3891c6596503f1cb6e944ab3f0e902010b253b7e2650"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/EnchantmentButtonActive.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/enchant_active.png",
+      "sha256": "67537368521560d9d0020a49c01ed1114569947515051a4e95c81f192d2805b7"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/EnchantmentButtonSelected.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/enchant_selected.png",
+      "sha256": "86de662f867424e4479a98041b0e6e91e4ec5c10c9fbb6945fe366b1199f0565"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/AnvilPlus.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/anvil_plus.png",
+      "sha256": "ebfe7cb99390376fcc7fd1e43a75ef234619650ecffc1e22b78a9968debc078a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/AnvilHammer.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/anvil_hammer.png",
+      "sha256": "020a27289c00de24762ebd4f4d0c16449ff648eda11fafc45884add986456149"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/AnvilCross.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/anvil_cross.png",
+      "sha256": "de84f686baf830b3de134130a89366b445cb2380147b945b708f5b67aec54112"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/BrewingStand.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing_stand.png",
+      "sha256": "567d23625fa1195320c1fd6721dd2d9eb89507d02012f3773d3b7f2774ced458"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/BrewingBubbles_Off.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing_bubbles_off.png",
+      "sha256": "0768e8def719c4308c475aa66978a05b3788ca1da5ae429a955042a7178466ab"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/BrewingBubbles_On.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing_bubbles_on.png",
+      "sha256": "9d09ec15a11fba2899c87934e63b26a6dcd2f8e5efd97e529123caace765f332"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/BrewingArrow_Off.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing_arrow_off.png",
+      "sha256": "7a285cb9af5daf0b8a4268ddc1ac61315ffb0bf18d19c7ff97517f4f08f31b6f"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/BrewingArrow_On.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/brewing_arrow_on.png",
+      "sha256": "a8894ca4024f38b6429c89c4d778ae2cdc7034741b31a8c0eb97aa8ed470167e"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Top_L.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_top_l.png",
+      "sha256": "87b8c555877b6e04f1cd16ebaa6d08d2ffde0e596d2f229cb5cd06a594d19a03"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Top_M.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_top_m.png",
+      "sha256": "20ddbb07eb9c8bbeabbfe63d4241d7fcf8165a80998de69707e5d769868afee8"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Top_R.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_top_r.png",
+      "sha256": "40f21722a1a07b1e4605f2a678f79569314a60bac1a2587bcd4e0ec7409e9680"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Mid_L.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_mid_l.png",
+      "sha256": "04d052b0be30f0993c28193ba6dceff76fbd1b6eab6bafa7008456687fe40618"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Mid_M.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_mid_m.png",
+      "sha256": "d150e01e01b2c8aebcf42d9d941dc1c6859ccc346f8b300202dbe225a3a13a1a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Mid_R.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_mid_r.png",
+      "sha256": "4bc176d1c81d74d2cf9e299a20a89925ebbb99d81f9d95fb5d2c4a527c2fdd4c"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Bot_L.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_bot_l.png",
+      "sha256": "d5935bdba619daf5ea189b38d69774363825b404ad36872ac25b421fd5254c50"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Bot_M.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_bot_m.png",
+      "sha256": "7a45c268809a57016b53243d621c0b89b1f48ca87ff989543c548a9fa249201a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Panel_Bot_R.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/panel_bot_r.png",
+      "sha256": "e466b0c041d3d2e21eb677eb89c330f4f9f90cb85fe0ad5fe69d9c2b259d5bdb"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/cross.png",
+      "sha256": "511447de4311d8d22c224c330eb0a0a11d433c4a4b90aa260571ee2187dbba75",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonA",
+      "bitmap_id": 24,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "bf82c3f522f96adab53507a240190ebdeeaa765d5fc3f3ccca044f48544bb57a"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/circle.png",
+      "sha256": "c0da0594eac5da542e47a0a8230a73ec3bce2f20377f5221a1a7d19466825ae5",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonB",
+      "bitmap_id": 25,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "cbd455a974f83552e07415b5619aa847fc3446f89ac7a311ce931bc1ac350785"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/square.png",
+      "sha256": "e7387b42600549d5b1ca835464f3fdbd2b7d3f0123477a91dc00194bc45c1de4",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonX",
+      "bitmap_id": 42,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "7fddaf2f3839e3b47a51f11b47bf2d99d871a154d0c2a1e879d16c01d6f55ae5"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/triangle.png",
+      "sha256": "c176818be4b637b9bc97436df5758f56120bd21472c4fa5bb7f94ffd7520e90d",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonY",
+      "bitmap_id": 43,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "0465d73ebe4d030a91ec624761fdc134d765162c38cc62d155cc73bec06d652f"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/left_bumper.png",
+      "sha256": "8d25a0f951fd5c549dd6eec2d361c84c04acb25bd5d46fd50f836e5edaefa10a",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonLeftBumper",
+      "bitmap_id": 31,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "bc7e96ef3111e3d68b928fe9f1bc2858d81726efd9e2bd767f30e12f507f58f0"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/right_bumper.png",
+      "sha256": "0509ce389a16e5427eebebea110267d7d0fce499df109fcbc4de3318ebe8c42e",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonRightBumper",
+      "bitmap_id": 37,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "992f89caa2b5d34bc946782c1d4b5692a1d05ba8269a48f2e067100cd2ba3125"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/left_trigger.png",
+      "sha256": "b3ea112c336b53f60b5428d46e6fbe31f9f98b845d71a95583e624953ee95ce3",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonLeftTrigger",
+      "bitmap_id": 36,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "69f8a9b458ba793e680c6bc906bb632e2d76c270d7971bafe900893b5cdbb32a"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/right_trigger.png",
+      "sha256": "ec9a013ae3058463d1eb621fc980c670a2ba88f0b0b0aa91c782048e05ecce04",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonRightTrigger",
+      "bitmap_id": 39,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "b29df1c9064c16c0294355b24791c298bafb5038c03cd01f04ce80e4561845de"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/left_stick_button.png",
+      "sha256": "855fa17fc3b38977ee5fb74bf87f773009ef1a303f0e40aee93cc2949d95a020",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonLS",
+      "bitmap_id": 32,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "1af5d799b3dd463b63be0ce8bb8e61e94c88e00e1c528a563b14cf06aa4c54a4"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/right_stick_button.png",
+      "sha256": "c9e51a2de5bc7fb647ff627f63c0e796e1cde6bdebacca4130a2bd0d316f3204",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonRS",
+      "bitmap_id": 40,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "1b468e253119854ff2c5d722f1a9e27e76593f0903e8ec01fc62b3a6c6a921e9"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/left_stick.png",
+      "sha256": "1b11e20bda788fa450106abf9d2acade69995f14ddbb7d8cf03c57bb362756e8",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonLeftStick",
+      "bitmap_id": 33,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "68cffcb7ea06ef8f3d98d23d26dcfcaf6a2711089483e5e70cfff0568e137127"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/right_stick.png",
+      "sha256": "b1df6e6c6d48f0c4ab53956d602dcc5e9977340c59c6f3bf8e53fc2eb3e92e09",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonRightStick",
+      "bitmap_id": 38,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "992202610f90daf031caf2df92bbd2dd313b6dc2fff86830b01531fbfa8d30bc"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/start_button.png",
+      "sha256": "93bba725a91838c9713be73c140143b0c2940f3dbec95c3b8a97f3baec81d2e9",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonStart",
+      "bitmap_id": 41,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "fd5ea5ac42c06b6d0b45a0cb31901fb642b739b5e5699666a30cc4a18757cbb4"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/back_button.png",
+      "sha256": "b0af2141c43163c9d97f121aa271619fdc543c6bc43a5795af92283fc4dafe78",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonBack",
+      "bitmap_id": 26,
+      "width": 33,
+      "height": 30,
+      "rgba_sha256": "418545db2c85343167d7f6b0f7df4aa3cb29b5a1015a51fc44ca7c7f5417d541"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/dpad_up.png",
+      "sha256": "5785433cbe80afc833d5680667ec5a2a62646205c27fd1930530ff6380dc1c9b",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonDpadU",
+      "bitmap_id": 30,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "30dacc5c1bf7f87d512f684c568638d69aaf6a52f8c329fb22a141872ce02686"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/dpad_down.png",
+      "sha256": "4aa7156299833926deaec5a089477e039241890d8507af87831ad163827ef711",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonDpadD",
+      "bitmap_id": 27,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "b86a7912c67a9e1833cc8f9ce53ac5c1643eca15879ae84911c1d6bfb3676f53"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/dpad_left.png",
+      "sha256": "1dbf8b9911caf586b5e83ca5b6e42522a9e3b332db8c2c25f4f7a7e207890e81",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonDpadL",
+      "bitmap_id": 28,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "2bb2c4f575924bb8f6dabebdca14c8caf8e3fd08ecfe945d65a6d173eb879ea1"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4/dpad_right.png",
+      "sha256": "6aef37d6f7b23beaae090222ee96d3fd3d9ade58d25907d4d83a3cf2736863eb",
+      "source_sha256": "a2c67ecce950f55d4db2f9b0de7bef5c0d9d7f7284d2d8fd70cfe3ce53989d77",
+      "symbol": "ButtonDpadR",
+      "bitmap_id": 29,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "f15ddb8fe53854a4676dc482235dffb9ebc138fe585dc4d167766c96811a4d8f"
+    },
+    {
+      "source": "Minecraft.Client/PS3/Media/Graphics/SignEditBackground.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/sign_background.png",
+      "sha256": "0b5654e66630ef3ee430c22767e503b52a2a081b897b966a6ead91521d146034"
+    },
+    {
+      "source": "Minecraft.Client/Common/res/misc/mapbg.png",
+      "destination": "src/main/resources/assets/minecraft/textures/map/map_background.png",
+      "sha256": "d12e0d8954f744f1e0413199ec5c2c36e5b0541372ddfb3c74d28ae58924d274"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.Client/Common/UI/UIController.cpp",
+      "sha256": "fa2bf58a5edd9f01112909f12bc595a0ee4874c80e76f822b414bb040a419c27"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene.cpp",
+      "sha256": "c476b0c7be0b81dd19a463f264d67ee8c1f2f2ae9e19589cbaa3b6880efdda99"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_PauseMenu.cpp",
+      "sha256": "1a3f16b779ea1b4b9c0868c67490abeb2069007a7644f932cca4ae03cf42b9a2"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_BrewingStandMenu.cpp",
+      "sha256": "1896fb3cc2b2a83fc31a836d1d83592f9d779c0046b2f09be30004f7f9816bb2"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_Progress.cpp",
+      "sha256": "0ffb8e4fd483f6be014ca186b50e78a4f4c6b3cce1045a63108cabd8fc2c84f6"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_SlotList.cpp",
+      "sha256": "570c754779287382e2811b15c31405aecad60211c02413b0dd0006c8336f5764"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/BrewingStandMenu720.swf",
+      "sha256": "d460fc4b2dcbdddb81de926f277313cf10e3255f388ba49a0f9ca3f55c2c0981"
+    }
+  ],
+  "adaptation": "1.6.9: UIController ten-count close gate adapted to ten Java ticks plus held-confirm release; UIScene native item viewport scaling; original brewing composite/slot faces and seven C++ bubble states. Java fuel support follows Legacy4J. Enchanting now follows Legacy4J 1.20.1; see REFERENCE-ASSETS.json code_sources and LCE-PORT.md."
+}

@@ -1,0 +1,202 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "sources": [
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_PauseMenu.cpp",
+      "sha256": "1a3f16b779ea1b4b9c0868c67490abeb2069007a7644f932cca4ae03cf42b9a2"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/IUIScene_PauseMenu.cpp",
+      "sha256": "20544ab8b646e519d8186e51ed724cf0cc8c18006cc63def81384ec698f0c1cc"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_HelpAndOptionsMenu.cpp",
+      "sha256": "f216066b1376dcb50fa6059831d9f17c790b2292f78c69bdf53dfc16bb8435f1"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsMenu.cpp",
+      "sha256": "f54165be7646dd2f95bc8f03f673e5188c7c68e7e9f9f8542125c2f908479fc1"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsOptionsMenu.cpp",
+      "sha256": "5be4f8229aeacd1cb3a57e302cf9df2c034f4bf6aa5c5544864d6bedc632be36"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsAudioMenu.cpp",
+      "sha256": "2e50041f18be326b06f0311db9621d7ee87a6f27578bf89c1e14a0cfaf5d1e85"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsControlMenu.cpp",
+      "sha256": "8ccf7d66c4e6c9674fe5da68ac8d3486a600cca8e74363e1c338ad60c81fe1b6"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsGraphicsMenu.cpp",
+      "sha256": "0e415ccbe21909218b93c25a16241c45ac555cc792a7c0a77553800ec6beead1"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsUIMenu.cpp",
+      "sha256": "c9fd227dc4c3317b30bb53a64631de32972174eb98d03de178f31698416262eb"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_ButtonList.cpp",
+      "sha256": "f28d0a48de1d893ea37b5368b5dfb0b4a92958f5e2df420637541ef7d6f09037"
+    },
+    {
+      "path": "Minecraft.Client/PS3/Media/xuiscene_pause.xui",
+      "sha256": "0c108124d8afd4c287016aabc6975bb902bef9425530e1d76722ac14886325af"
+    },
+    {
+      "path": "Minecraft.Client/PS3/Media/xuiscene_helpandoptions.xui",
+      "sha256": "7d83f425cd61cc46e2149c4128fe8fa105593f23b565c4368a52790bf6ba64cb"
+    },
+    {
+      "path": "Minecraft.Client/PS3/Media/xuiscene_settings_All.xui",
+      "sha256": "cdd8313c895db6a11d5537f867c41817a2c689d758ddab86d25806875b929608"
+    },
+    {
+      "path": "Minecraft.Client/PS3/Media/xuiscene_settings_Audio.xui",
+      "sha256": "8c64579411a7e6dae97e9b527b9b4a2465ed328830bdf2723e7edf897c82f624"
+    },
+    {
+      "path": "Minecraft.Client/PS3/Media/xuiscene_settings_Control.xui",
+      "sha256": "e2006be23034403ea2404a21d888177a0fbe2c4b49e5495c6c9d1de5b7017bb3"
+    },
+    {
+      "path": "Minecraft.Client/PS3/Media/xuiscene_settings_Graphics.xui",
+      "sha256": "636cc9436fd0ca5fc175ae0ade5de53cbb4ca1a3bb7d6bf8feceebfc577ac044"
+    },
+    {
+      "path": "Minecraft.Client/PS3/Media/xuiscene_settings_options.xui",
+      "sha256": "8d040124562d6a2a430a866641b224f698a023e43a6fe528b875232f13cd2e2f"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/xuiscene_settings_UI.xui",
+      "sha256": "cc5e4dfcc0f3bc17ccbeaf003b0652922b56e18e6f707275c1fa69925ee9968e"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/xuiscene_settings_All.xui",
+      "sha256": "9f08d7782b4e2a6ea047a6eefdffd292fa1e69c7a87a8bf8dad35b5c592b99b5"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/xuiscene_pause.xui",
+      "sha256": "aaa404118ee5ee4aca424b12ff49b0116478aa5db311804830570bdaeb77858a"
+    },
+    {
+      "path": "Minecraft.Client/Common/XUI/XUI_PauseMenu.cpp",
+      "sha256": "66a8f9743ce610cccae74561992106b72f53341e02b26820cac3a8b803391f35"
+    },
+    {
+      "path": "Minecraft.Client/Common/XUI/XUI_HelpAndOptions.cpp",
+      "sha256": "dacf65e071649afb6924dd6e7296a8a1565806352f6b2002633f29c495f20bd9"
+    },
+    {
+      "path": "Minecraft.Client/PauseScreen.cpp",
+      "sha256": "6e515d1ee025b0ac83f508c85f71c2379e2263b672866d912dbdf361034e0dc9"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIComponent_MenuBackground.cpp",
+      "sha256": "bc7f45061a472354a864df32f7d5298c6ae4b7ae82d10618f67146fa8b881c3c"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsMenu.h",
+      "sha256": "bbe1c8d20936c1ed9f91f4c903813335d2776727b5454082edabecc1c52f91d7"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_PauseMenu.h",
+      "sha256": "b488061293be33192c79972385458f112a953f0013cd51099e41eeb0c581be36"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/MenuBackground720.swf",
+      "sha256": "3d9e70c2aa8b529f67b5e169be99597172e6f638f39f77ac93c6acffccd1b9aa"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/xuiscene_settings_Graphics.xui",
+      "sha256": "1d0f63518b2e0a3a8f826d7ec3de3b07c6057ce0c34f7365f4702cfb06a1a501"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/xuiscene_settings_options.xui",
+      "sha256": "e4a493487ce1e64cb9c4af39fc4557ac887a1375154e9537ac7a5a571b252de2"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/xuiscene_settings_Control.xui",
+      "sha256": "58268c8ee20dd020da18d4ebc1f0e8af61752159ae34e72b7888329759ce44a5"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/xuiscene_settings_Audio.xui",
+      "sha256": "4622e48416e547278c77f64c5dc04e1a6c7bca6787994de63562ba30ac3ead01"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/IUIScene_CraftingMenu.cpp",
+      "sha256": "076b9b13ceb0336fef53dea3a599bbe9d0d40030af8d4eb5bee3f97c420be305"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_CraftingMenu.cpp",
+      "sha256": "a6d802cdf299bb364bb8fcfeccca412e6f930a104bbbd2c14557485259e03c59"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIComponent_Tooltips.cpp",
+      "sha256": "46f7fb4c707382c766471a9e763edd334650d028d6fb40884cbb73461ab72fc4"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_TradingMenu.cpp",
+      "sha256": "800f3f6acdde2f0b1a6fe34f8dfe9a1ca495f609da80b7668804c7121d19e852"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_SlotList.cpp",
+      "sha256": "570c754779287382e2811b15c31405aecad60211c02413b0dd0006c8336f5764"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_ContainerMenu.cpp",
+      "sha256": "3aed8dc89d23145ad0ebb2c8b02bdb7aeed72ef856ed1ed733dd18e1dad1cb3c"
+    }
+  ],
+  "ported_layout": {
+    "pause_button_order": [
+      "Resume Game",
+      "Help & Options",
+      "Leaderboards",
+      "Achievements",
+      "Save Game",
+      "Exit Game"
+    ],
+    "pause_720p": {
+      "x": 440,
+      "y": 250,
+      "width": 400,
+      "height": 40,
+      "pitch": 50
+    },
+    "settings_order": [
+      "Options",
+      "Audio",
+      "Control",
+      "Graphics",
+      "User Interface",
+      "Reset to Defaults"
+    ],
+    "settings_720p": {
+      "x": 415,
+      "y": 250,
+      "width": 450,
+      "height": 40,
+      "pitch": 50
+    },
+    "menu_background_solid_argb": "3f000000",
+    "checkbox_720p": {
+      "height": 32,
+      "pitch": 36
+    }
+  },
+  "java_adaptations": [
+    "Common six-button pause layout retained with Java achievements; Leaderboards opens native local statistics.",
+    "Host Options remains accessible through Square or H in the pause menu.",
+    "Reset to Defaults confirms and resets the console profile; native Java settings retain their existing values.",
+    "At the user's request, settings match Help & Options: 225x20 buttons on a 25-pixel pitch, with scrolling instead of smaller controls (up to eight rows at 4x and five at Auto on 1440p).",
+    "The four implemented Help & Options actions follow their source order; console-only reinstall/debug services are not added.",
+    "Menu prompts use the original 5% HD left safe-zone margin; existing in-game hints retain their separate placement.",
+    "Pause and Host Options now use the same user-requested Help & Options geometry; compact pause viewports scroll instead of reducing button dimensions.",
+    "Player-inventory selection fills the original holder interior behind item sprites; exclusive full-holder hit bounds keep touching slots singly selected.",
+    "Contiguous Load/Create/Join rows share the original single-pixel outer edge; only the following row owns mouse hits on the seam."
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "status": "passed",
+  "forge": "37.1.1",
+  "worlds": [
+    {
+      "world": "small",
+      "seed": 0,
+      "spawn": "-96, 64, 240",
+      "initialPlayerX": -86.5,
+      "initialPlayerY": 66.0,
+      "initialPlayerZ": 247.5,
+      "minBlock": -512,
+      "maxBlock": 511,
+      "edgeColoredPixels": 350,
+      "mapCreationCases": 25,
+      "passed": true
+    },
+    {
+      "world": "medium",
+      "seed": -987654321,
+      "spawn": "-299, 64, 375",
+      "initialPlayerX": -289.5,
+      "initialPlayerY": 64.0,
+      "initialPlayerZ": 381.5,
+      "minBlock": -1536,
+      "maxBlock": 1535,
+      "edgeColoredPixels": 314,
+      "mapCreationCases": 25,
+      "passed": true
+    },
+    {
+      "world": "large",
+      "seed": 82958734,
+      "spawn": "-184, 64, 256",
+      "initialPlayerX": -174.5,
+      "initialPlayerY": 65.0,
+      "initialPlayerZ": 254.5,
+      "minBlock": -2560,
+      "maxBlock": 2559,
+      "edgeColoredPixels": 350,
+      "mapCreationCases": 25,
+      "passed": true
+    },
+    {
+      "world": "default",
+      "seed": 123456789,
+      "spawn": "0, 88, -16",
+      "mapCreationCases": 25,
+      "passed": true
+    },
+    {
+      "world": "flat",
+      "seed": 123456789,
+      "spawn": "-16, 4, -80",
+      "mapCreationCases": 25,
+      "passed": true
+    },
+    {
+      "world": "classic",
+      "seed": 123456789,
+      "spawn": "-36, 64, 252",
+      "initialPlayerX": -44.5,
+      "initialPlayerY": 74.0,
+      "initialPlayerZ": 246.5,
+      "minBlock": -432,
+      "maxBlock": 431,
+      "edgeColoredPixels": 370,
+      "mapCreationCases": 25,
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "off-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "shaders": "OFF"
+    },
+    {
+      "file": "off-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "shaders": "OFF"
+    },
+    {
+      "file": "off-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "shaders": "OFF"
+    },
+    {
+      "file": "off-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "shaders": "OFF"
+    },
+    {
+      "file": "off-1024x768.png",
+      "width": 1024,
+      "height": 768,
+      "shaders": "OFF"
+    },
+    {
+      "file": "off-1600x1000.png",
+      "width": 1600,
+      "height": 1000,
+      "shaders": "OFF"
+    },
+    {
+      "file": "off-1512x982.png",
+      "width": 1512,
+      "height": 982,
+      "shaders": "OFF"
+    },
+    {
+      "file": "off-3024x1964.png",
+      "width": 3024,
+      "height": 1964,
+      "shaders": "OFF"
+    },
+    {
+      "file": "h1-lce-1280x720.png",
+      "width": 1280,
+      "height": 720,
+      "shaders": "LCE Look 2.0.0"
+    },
+    {
+      "file": "h1-lce-1920x1080.png",
+      "width": 1920,
+      "height": 1080,
+      "shaders": "LCE Look 2.0.0"
+    },
+    {
+      "file": "h1-lce-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "shaders": "LCE Look 2.0.0"
+    },
+    {
+      "file": "h1-lce-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "shaders": "LCE Look 2.0.0"
+    },
+    {
+      "file": "h1-lce-1024x768.png",
+      "width": 1024,
+      "height": 768,
+      "shaders": "LCE Look 2.0.0"
+    },
+    {
+      "file": "h1-lce-1600x1000.png",
+      "width": 1600,
+      "height": 1000,
+      "shaders": "LCE Look 2.0.0"
+    },
+    {
+      "file": "h1-lce-1512x982.png",
+      "width": 1512,
+      "height": 982,
+      "shaders": "LCE Look 2.0.0"
+    },
+    {
+      "file": "h1-lce-3024x1964.png",
+      "width": 3024,
+      "height": 1964,
+      "shaders": "LCE Look 2.0.0"
+    }
+  ],
+  "version": "2.3.3-development",
+  "date": "2026-11-16",
+  "timezone": "Etc/UTC",
+  "minecraft": "1.17.1",
+  "jdk": "17.0.21",
+  "optifine": "1.17.1_HD_U_H1",
+  "shaderpack": "LCE Look 1.17.1 2.0.0",
+  "unit_tests": 271,
+  "renderer": "Linux software OpenGL",
+  "scope": "Integration checks and framebuffer captures; not complete PS4 world output or physical Retina hardware verification",
+  "visually_reviewed": [
+    "off-1280x720.png",
+    "off-1920x1080.png",
+    "off-2560x1440.png",
+    "off-3840x2160.png",
+    "off-1024x768.png",
+    "off-1600x1000.png",
+    "off-1512x982.png",
+    "off-3024x1964.png",
+    "h1-lce-1280x720.png",
+    "h1-lce-1920x1080.png",
+    "h1-lce-2560x1440.png",
+    "h1-lce-3840x2160.png",
+    "h1-lce-1024x768.png",
+    "h1-lce-1600x1000.png",
+    "h1-lce-1512x982.png",
+    "h1-lce-3024x1964.png"
+  ],
+  "visual_review_method": "All sixteen frames reviewed in overview sheets; 4:3 LCE Look frame also reviewed at original resolution.",
+  "sha256": {
+    "mod": "0fbe17eb236480d519c258d2511822102b17b4c5f4252ccdc158a8217938f374",
+    "compatibility": "e3fc6e676da095c96a764bb79b55fa08f0d5ea928cbcd5b168a7fe5ada3fe694",
+    "optifine": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+    "shaderpack": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62"
+  },
+  "source_commit": "09b4b32",
+  "subsequent_source_changes": "The unwired lake kernel was added after this client run; hashes identify the exact tested checkpoint."
+}

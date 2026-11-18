@@ -1,0 +1,1125 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/cross.png",
+      "sha256": "511447de4311d8d22c224c330eb0a0a11d433c4a4b90aa260571ee2187dbba75",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonA",
+      "bitmap_id": 61,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "bf82c3f522f96adab53507a240190ebdeeaa765d5fc3f3ccca044f48544bb57a"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/circle.png",
+      "sha256": "c0da0594eac5da542e47a0a8230a73ec3bce2f20377f5221a1a7d19466825ae5",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonB",
+      "bitmap_id": 62,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "cbd455a974f83552e07415b5619aa847fc3446f89ac7a311ce931bc1ac350785"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/square.png",
+      "sha256": "e7387b42600549d5b1ca835464f3fdbd2b7d3f0123477a91dc00194bc45c1de4",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonX",
+      "bitmap_id": 79,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "7fddaf2f3839e3b47a51f11b47bf2d99d871a154d0c2a1e879d16c01d6f55ae5"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/triangle.png",
+      "sha256": "c176818be4b637b9bc97436df5758f56120bd21472c4fa5bb7f94ffd7520e90d",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonY",
+      "bitmap_id": 80,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "0465d73ebe4d030a91ec624761fdc134d765162c38cc62d155cc73bec06d652f"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/left_bumper.png",
+      "sha256": "8d25a0f951fd5c549dd6eec2d361c84c04acb25bd5d46fd50f836e5edaefa10a",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonLeftBumper",
+      "bitmap_id": 68,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "bc7e96ef3111e3d68b928fe9f1bc2858d81726efd9e2bd767f30e12f507f58f0"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/right_bumper.png",
+      "sha256": "0509ce389a16e5427eebebea110267d7d0fce499df109fcbc4de3318ebe8c42e",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonRightBumper",
+      "bitmap_id": 74,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "992f89caa2b5d34bc946782c1d4b5692a1d05ba8269a48f2e067100cd2ba3125"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/left_trigger.png",
+      "sha256": "b3ea112c336b53f60b5428d46e6fbe31f9f98b845d71a95583e624953ee95ce3",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonLeftTrigger",
+      "bitmap_id": 73,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "69f8a9b458ba793e680c6bc906bb632e2d76c270d7971bafe900893b5cdbb32a"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/right_trigger.png",
+      "sha256": "ec9a013ae3058463d1eb621fc980c670a2ba88f0b0b0aa91c782048e05ecce04",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonRightTrigger",
+      "bitmap_id": 76,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "b29df1c9064c16c0294355b24791c298bafb5038c03cd01f04ce80e4561845de"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/left_stick_button.png",
+      "sha256": "855fa17fc3b38977ee5fb74bf87f773009ef1a303f0e40aee93cc2949d95a020",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonLS",
+      "bitmap_id": 69,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "1af5d799b3dd463b63be0ce8bb8e61e94c88e00e1c528a563b14cf06aa4c54a4"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/right_stick_button.png",
+      "sha256": "c9e51a2de5bc7fb647ff627f63c0e796e1cde6bdebacca4130a2bd0d316f3204",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonRS",
+      "bitmap_id": 77,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "1b468e253119854ff2c5d722f1a9e27e76593f0903e8ec01fc62b3a6c6a921e9"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/left_stick.png",
+      "sha256": "1b11e20bda788fa450106abf9d2acade69995f14ddbb7d8cf03c57bb362756e8",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonLeftStick",
+      "bitmap_id": 70,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "68cffcb7ea06ef8f3d98d23d26dcfcaf6a2711089483e5e70cfff0568e137127"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/right_stick.png",
+      "sha256": "b1df6e6c6d48f0c4ab53956d602dcc5e9977340c59c6f3bf8e53fc2eb3e92e09",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonRightStick",
+      "bitmap_id": 75,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "992202610f90daf031caf2df92bbd2dd313b6dc2fff86830b01531fbfa8d30bc"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/start_button.png",
+      "sha256": "93bba725a91838c9713be73c140143b0c2940f3dbec95c3b8a97f3baec81d2e9",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonStart",
+      "bitmap_id": 78,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "fd5ea5ac42c06b6d0b45a0cb31901fb642b739b5e5699666a30cc4a18757cbb4"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/back_button.png",
+      "sha256": "b0af2141c43163c9d97f121aa271619fdc543c6bc43a5795af92283fc4dafe78",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonBack",
+      "bitmap_id": 63,
+      "width": 33,
+      "height": 30,
+      "rgba_sha256": "418545db2c85343167d7f6b0f7df4aa3cb29b5a1015a51fc44ca7c7f5417d541"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/dpad_up.png",
+      "sha256": "5785433cbe80afc833d5680667ec5a2a62646205c27fd1930530ff6380dc1c9b",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonDpadU",
+      "bitmap_id": 67,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "30dacc5c1bf7f87d512f684c568638d69aaf6a52f8c329fb22a141872ce02686"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/dpad_down.png",
+      "sha256": "4aa7156299833926deaec5a089477e039241890d8507af87831ad163827ef711",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonDpadD",
+      "bitmap_id": 64,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "b86a7912c67a9e1833cc8f9ce53ac5c1643eca15879ae84911c1d6bfb3676f53"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/dpad_left.png",
+      "sha256": "1dbf8b9911caf586b5e83ca5b6e42522a9e3b332db8c2c25f4f7a7e207890e81",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonDpadL",
+      "bitmap_id": 65,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "2bb2c4f575924bb8f6dabebdca14c8caf8e3fd08ecfe945d65a6d173eb879ea1"
+    },
+    {
+      "source": "Minecraft.Client/PS3Media/Media/skinPS3.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps3/dpad_right.png",
+      "sha256": "6aef37d6f7b23beaae090222ee96d3fd3d9ade58d25907d4d83a3cf2736863eb",
+      "source_sha256": "33123b4d5d0de1e9c983d0bec2f9a31e6cf82ebb9236d191109e080b2c8f436e",
+      "symbol": "ButtonDpadR",
+      "bitmap_id": 66,
+      "width": 30,
+      "height": 30,
+      "rgba_sha256": "f15ddb8fe53854a4676dc482235dffb9ebc138fe585dc4d167766c96811a4d8f"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/cross.png",
+      "sha256": "a46e1fdb47b148c47af5a97f3efd5532bbe4626a2f267b735b60418bc2a2be43",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonA",
+      "bitmap_id": 209,
+      "width": 40,
+      "height": 40,
+      "rgba_sha256": "b9ae3e177918004c72f5d2d0dedf93a15d2bbeed10ef5a22aac145b94f49665b"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/circle.png",
+      "sha256": "733b4af534589c6d0e10b614181781dda2fe5e442d318d5636b15a52a827b1a2",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonB",
+      "bitmap_id": 208,
+      "width": 40,
+      "height": 40,
+      "rgba_sha256": "5207c64fe63d51d9807622b0a26c91b90479dca76e439bea3553853007c369cf"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/square.png",
+      "sha256": "a78ed4e5aa088ae05dc56a4c12a6351007e19ce652d97df3fe1de1ddf26140cf",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonX",
+      "bitmap_id": 191,
+      "width": 48,
+      "height": 48,
+      "rgba_sha256": "c2193b278598064b7ecad790b12013870419a479958faef4a525839720927e2d"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/triangle.png",
+      "sha256": "0f01ca9fc30b22b034b1d3ed90269755a1bd192735c91b482171c26d37863c82",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonY",
+      "bitmap_id": 190,
+      "width": 48,
+      "height": 48,
+      "rgba_sha256": "b7fd5c50ec959e73108b3d0a0a5c6cb474f5c4fd98e2f6be364440f3ab3cd517"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/left_bumper.png",
+      "sha256": "3e7e1a2b90e6f84d27e4306e73f5f3fd5be79e4fccf8a96d99c54621a3f93a7d",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonLeftBumper",
+      "bitmap_id": 202,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "1b60dcd21cb0a44c8bbf4065d6a23a6e63bea1a874e639c229c756cafbdfdded"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/right_bumper.png",
+      "sha256": "419d0d858aca5b1a303ba846ac314efd30f3ba48afe44d96ee88362c9398f0df",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonRightBumper",
+      "bitmap_id": 196,
+      "width": 70,
+      "height": 70,
+      "rgba_sha256": "281e23be8e7d015d00dc1fd23207ed27467254cf944124d07284b5cb8146e31c"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/left_trigger.png",
+      "sha256": "18f69239824d45dfa09b8f444379b1aa8faaa91140f98b6cbcf2705c86813a60",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonLeftTrigger",
+      "bitmap_id": 198,
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "87e3582df45aea9a6b79e6d0730b43e6efae9327abc51fc8f94759c4c07eae51"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/right_trigger.png",
+      "sha256": "99b7e94708b5a3a2fcd89d1f3d5e38854e4703eb8bda35e1e114cd1414b86f3c",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonRightTrigger",
+      "bitmap_id": 194,
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "5e06fd08e8f97c375121f90059a224ccf0575378e5aee0177c94dd6676d44d5f"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/left_stick_button.png",
+      "sha256": "a37f712ab1941fcca03e4d19145011d4b2a326703508e2950877ca5a0e838c3b",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonLS",
+      "bitmap_id": 197,
+      "width": 67,
+      "height": 67,
+      "rgba_sha256": "5a543f7c932c8af4bcda1100b1c0ba81035c8cba96c06da6d9c758c4051fed1d"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/right_stick_button.png",
+      "sha256": "c5177bf2185e1cf6e53c07b376945ef702dcce10942bf6e21a40db93150b761e",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonRS",
+      "bitmap_id": 193,
+      "width": 67,
+      "height": 67,
+      "rgba_sha256": "c7d04dfd1efefb4f2081786c0bcd595c2856025cd403cc1eea9f5919194735d1"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/left_stick.png",
+      "sha256": "9a76b45c154a17f78102d896128fd49281a7953603e7167c58ec910cb2dac0fc",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonLeftStick",
+      "bitmap_id": 199,
+      "width": 57,
+      "height": 57,
+      "rgba_sha256": "91c3a061bc774cc50d88139e94c60a254e7a63da9ee9e2433b79e3489b9aa752"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/right_stick.png",
+      "sha256": "7a991fd21bade38c66dffd3c708c06ce079e9949a2fb0b0bcc42685997fcc5a4",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonRightStick",
+      "bitmap_id": 195,
+      "width": 67,
+      "height": 67,
+      "rgba_sha256": "2be4c75f5a3edd4c05be77220432a756b901603d4cd6c5147b6903ec02bfeae2"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/start_button.png",
+      "sha256": "efa4f94b01d6f8bf1fdcc994c98c0f66a94399338ee66a1ed465496997cc5d11",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonStart",
+      "bitmap_id": 192,
+      "width": 69,
+      "height": 64,
+      "rgba_sha256": "4eb218be438998c458e211fa3f73aebd06e45af363567666347d37f4c8541df1"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/back_button.png",
+      "sha256": "f590867e15e975054bb3336b5b503a8d47bee7863c00dbb1d64ef889702fdf43",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonBack",
+      "bitmap_id": 207,
+      "width": 69,
+      "height": 64,
+      "rgba_sha256": "fa70afee3ba31e4924a629cd687f2efb04ddecc19195dd618f272dfa04122b65"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/dpad_up.png",
+      "sha256": "8140bd05effece5d56b7356aab3b80596523eeece1b0a01dc5b1835d6f5bfcab",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonDpadU",
+      "bitmap_id": 203,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "4d6046f5c3a6eae60cfb65aa09c5aad9ef2dde4a75e8effefac1ed78c7373675"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/dpad_down.png",
+      "sha256": "a0562ac8ff7ce9d395489291a096b8980940e7c76c51d486a54455ca55ee2657",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonDpadD",
+      "bitmap_id": 206,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "8c0c05c265853c836c45657e3406d4a6f61c6863799a8ab03695058f304d66c7"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/dpad_left.png",
+      "sha256": "028023d471820a4fc5d5239df973b30638b80a3f215c1d6ed37096ab565f7c71",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonDpadL",
+      "bitmap_id": 205,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "5ec50068b17fe1faab111cf3056928738d3ab063c0a9755d50977bc7e987add0"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone/dpad_right.png",
+      "sha256": "ca2e35ce7302541535d14a8b9f563ceab0a2e91c45df7b5d4d2f2ec7c94ebd62",
+      "source_sha256": "b5e6723af7b73684366cd07f8cc3089e0c25788322e271008a0a2e05fe4df09e",
+      "symbol": "ButtonDpadR",
+      "bitmap_id": 204,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "db3e674c2ec10c421b927dcd6a35cd1fc09fd5ba13d316b7e30c732b86be97ae"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/cross.png",
+      "sha256": "c122944291cd3d954b1c74d38dcbe991eee9fb5df8fcbebf6f418ea5d99348bc",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonA",
+      "bitmap_id": 236,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "02ba2fb7d71a78dcaad04d9d5ec07db3243a33ceacab97873ae7cb7f4b6c870f"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/circle.png",
+      "sha256": "8252262b1e7540212330222e6471dd0ede415bf9fbea4dc67b78c96ae66b502a",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonB",
+      "bitmap_id": 237,
+      "width": 68,
+      "height": 68,
+      "rgba_sha256": "1d2e72c58bc4eb0d966744a673fa782cba168ee5baea80f25899ea84006c491d"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/square.png",
+      "sha256": "de42831228f8396bc022350cff144443eb4f34406260fbfcca7a4e2cdfdc2a07",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonX",
+      "bitmap_id": 254,
+      "width": 48,
+      "height": 48,
+      "rgba_sha256": "a38d5782bef84abd6e7483379e1ff4cd45f62eed1354687d72b81370ebe02be1"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/triangle.png",
+      "sha256": "ea43e912250141b6bb2ccc99be3cc98926e2dd6e848e7310563ff47a223fe8b4",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonY",
+      "bitmap_id": 255,
+      "width": 48,
+      "height": 48,
+      "rgba_sha256": "b239b331f0add9e9ce2e449a3feef91cc1f30ba6d0dce1a6932706903ed8e068"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/left_bumper.png",
+      "sha256": "70f8f7d3df9f639b474751fc4aa31ae8d8e2eb78cf9154ada8849fc9be1aba58",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonLeftBumper",
+      "bitmap_id": 243,
+      "width": 49,
+      "height": 45,
+      "rgba_sha256": "16addc9379f01ee00a2c157cd89ee30800ef226f966970f8b627010938d9b2bc"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/right_bumper.png",
+      "sha256": "a24bb06af017bfc9864f5ebbf82a03b36afd6111175dc7cd10c837bcfa192182",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonRightBumper",
+      "bitmap_id": 249,
+      "width": 49,
+      "height": 45,
+      "rgba_sha256": "bc8db0c350fad696c121db7ee3e094028dbd830f876469f275503402f64a3f57"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/left_trigger.png",
+      "sha256": "8d6b9e8d98af8722919befbf3b331be465a406280e023043936c191328505702",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonLeftTrigger",
+      "bitmap_id": 248,
+      "width": 49,
+      "height": 45,
+      "rgba_sha256": "404944b547449fdb5c049168c1c9bc80cf3e8aea2965796f4778a223cbd3e62d"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/right_trigger.png",
+      "sha256": "dee8a9aaa555ad3c6d276199ea504314093d1199905790f2ad71c182908f1f0b",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonRightTrigger",
+      "bitmap_id": 251,
+      "width": 49,
+      "height": 45,
+      "rgba_sha256": "adff769e2076143e0343da585071cc15982ff3340aad1c1c474e1974ac7e5251"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/left_stick_button.png",
+      "sha256": "9cc5475a0bb4f6a7226aac3402b481a6e1402af5d918d3fefab91b3687ea4d91",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonLS",
+      "bitmap_id": 244,
+      "width": 58,
+      "height": 48,
+      "rgba_sha256": "898df18a5e970c6720b2ca7aefd04dc197a0fcf6d2690edca30850ab767afa73"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/right_stick_button.png",
+      "sha256": "30ad892dd1d324cf79f5f3dc3e5ad41cd534beb81a62284fa7cf9eb09dc6c468",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonRS",
+      "bitmap_id": 252,
+      "width": 58,
+      "height": 48,
+      "rgba_sha256": "d0d7ca537b71f61b92dbe8ae16ea6e4d7a8c261a2609dee653473f2989260b25"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/left_stick.png",
+      "sha256": "eb9f34435c20ab61f063b6956971732f0168690e7441c899173526505f99b986",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonLeftStick",
+      "bitmap_id": 245,
+      "width": 58,
+      "height": 48,
+      "rgba_sha256": "1d8ef3ad9ce0788450a184ffff0d85f2ca9a170775e17cf50a7c1b7705925906"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/right_stick.png",
+      "sha256": "f52cb190dd3e58f5b91de6198e6a8507a2534d1a22d279eed2addcce209fea0a",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonRightStick",
+      "bitmap_id": 250,
+      "width": 58,
+      "height": 48,
+      "rgba_sha256": "cb9faa231270e9689803436c9e5cd8c67f46867c2ed45bc53c756eb6fffef625"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/start_button.png",
+      "sha256": "9206368651a7f67ae8e4b4c64dacef4dfc7b7ae447c9fd9f08451c5761d85b8a",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonStart",
+      "bitmap_id": 253,
+      "width": 69,
+      "height": 64,
+      "rgba_sha256": "a24a7201bb843fca209127b67afded27c20fcce32d47440dd519c3ca4ecaa57b"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/back_button.png",
+      "sha256": "4d37d77162e3d7b12ac2cf057fc4a16bd9342962cbaf38bbb9dadf1039cd3e7c",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonBack",
+      "bitmap_id": 238,
+      "width": 69,
+      "height": 64,
+      "rgba_sha256": "d149ed2d042626d1c4625ac72871542a37992b6c205e8aa456dff8cbf42e9f34"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/dpad_up.png",
+      "sha256": "c0cc32bf7040c0a5e9a5ca4f042598c3a2c5cd86e7daf6f2db7fed8e305dc265",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonDpadU",
+      "bitmap_id": 242,
+      "width": 78,
+      "height": 78,
+      "rgba_sha256": "47f80ccab5e7323d37120f915a7f18e634c926ac4cd933ab1eaea354618b8839"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/dpad_down.png",
+      "sha256": "43907aacf0f4fbc9eec5fefc1a8c90c9bf44eac478dd4bacd0068eaf0fae430b",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonDpadD",
+      "bitmap_id": 239,
+      "width": 78,
+      "height": 78,
+      "rgba_sha256": "38a1f6ea7db4ac5d395e90de828546b91f3981bfaa88618469c43a97cd911c80"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/dpad_left.png",
+      "sha256": "b54543ed141229a95b23b9434b653f7cc108cc40caa123c1bd2609533a15cfc6",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonDpadL",
+      "bitmap_id": 240,
+      "width": 78,
+      "height": 78,
+      "rgba_sha256": "95c6e882aa97274873c40023698330854458600419f8e4a9aaeb4752aa398ada"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/ps4_hd/dpad_right.png",
+      "sha256": "a78c211d7f9ecd13c00d829b50adf993716947aa3839b3321674a1c2a30f0069",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "symbol": "ButtonDpadR",
+      "bitmap_id": 241,
+      "width": 78,
+      "height": 78,
+      "rgba_sha256": "dc384f5a329acdf6ac662daf2a7d0f8cd7c817cb3bf2d1d01a03220eda1057ed"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/cross.png",
+      "sha256": "c588bc161bd8009e4c09f069b538f41556a37441b179bd2b5ef95d34a1923911",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonA",
+      "bitmap_id": 253,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "1a4c753606209836fd5d204a0d8a094157bbebdd24d6553ba014c75d754a2736"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/circle.png",
+      "sha256": "2e7a39142580874a80e504a1277696d3deebd3f6c12b8ba42aa3bac3160cafd4",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonB",
+      "bitmap_id": 252,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "69c0e1abd1831aa35d3f99295e44d05282970b83ccb639cc9abd0ad49942ad7b"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/square.png",
+      "sha256": "223392f46432c142ed5dc8e26e900f3e3b3d99602bc4f332337d163ee06a04f6",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonX",
+      "bitmap_id": 235,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "d495e7f4c621fa4792f333843ba6012d2aec596220c64fa3b8761e05348382b4"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/triangle.png",
+      "sha256": "af1e5f378f1fe4b13d4af3eb877b1920d1b7650cb785e2dd3ac0e91e16565357",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonY",
+      "bitmap_id": 234,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "342fe59e9d25de84990d99eb011042715735f9553a2fb256a94f5ad92769c624"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/left_bumper.png",
+      "sha256": "8f50d7974a1061a3d56e43d6f59fddcb7549bbeafa44cfae306eee6a78589a37",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonLeftBumper",
+      "bitmap_id": 246,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "a972466f7fc5561eff6c799a2839e707f7585d21806e140e92dc79842096309c"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/right_bumper.png",
+      "sha256": "31f824a34b38a51f8b0dd39315161b80227121f782bad439e72ac5e2222ac32b",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonRightBumper",
+      "bitmap_id": 240,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "cec378bb8e642a9d97f831acb063919969c7f3cf7954aeb498ae16ebfa5fa799"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/left_trigger.png",
+      "sha256": "0cc85ad11999f0db352caa06b2e6f4985ed26ba8957e8683aa2424c440223a1b",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonLeftTrigger",
+      "bitmap_id": 242,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "2d47cc913195c6510adac20986b9dccc1a7b81d20b482e4af23f142229e2cbb6"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/right_trigger.png",
+      "sha256": "bde3e83b6f77e10845d3599fc915bafaf6c2ff5508cfc0d9c126e2a09e0b6f70",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonRightTrigger",
+      "bitmap_id": 238,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "f0479a07e1e43fd4794a7e8530a300cc6ef6cf560df67c0920754e6f89430a75"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/left_stick_button.png",
+      "sha256": "1ea3d5c80c8c6f82a9673a613b1f3807b105bcabedb316e204f120d8dd957b54",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonLS",
+      "bitmap_id": 241,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "ee3c1432827843061c91c15d84953bfebf298c9ec35de1447cd2a6d9dacda969"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/right_stick_button.png",
+      "sha256": "4394d7ecf22714cb86610db29055f0376390e6e8aab520f461debc46a4e3a536",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonRS",
+      "bitmap_id": 237,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "4e66c71376079f04325d585bcc0a0a102761175ab387df1d37e96f314dbaaf70"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/left_stick.png",
+      "sha256": "820b3e8076c36b1f33f3faa8c41f8db2d675f00ea26c8f2c966057839573d3cc",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonLeftStick",
+      "bitmap_id": 243,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "81b1183bd3e37b4fe1974ceab3625e105e9370f378d796995b1a8682ea70f9bf"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/right_stick.png",
+      "sha256": "6e2883ac98ee9d27d1013290a7e2c2be0af4d0e0fc67913c545e965eb23927a3",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonRightStick",
+      "bitmap_id": 239,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "cf70d0ea05a98b6f3247dd474f177172d2bb622a2add6836c0312cc435322f27"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/start_button.png",
+      "sha256": "1e037f664af490d6063a2ad7c81038ee2dde5d95521859c555815388153ee1cf",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonStart",
+      "bitmap_id": 236,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "3244931d2d5c1c36fe9e507810b2f0ee1acb1c8302f7a0a1557f55d1209f9c8d"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/back_button.png",
+      "sha256": "b47f77d487739a257bb399f567fc2c0570b56d674b955fbc11d47a138093fb81",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonBack",
+      "bitmap_id": 251,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "fd6e28b519af9c1011b0d470f8a40cd98b6e33d95673492a0d8a63b7773fc191"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/dpad_up.png",
+      "sha256": "793a1a69e68b8058dbcb844d8537df47a4bc222ca6bd926696a2d591f9dcfdb2",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonDpadU",
+      "bitmap_id": 247,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "dfc1e53114e35abb83af882aca0b54c72125017c02d9c65062e63e4aa2d7d74e"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/dpad_down.png",
+      "sha256": "0ca880aa121e349d596b96d1a471c88473287325715f36f59304afb949e5aac8",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonDpadD",
+      "bitmap_id": 250,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "e7278404bc381c5a32c0cf7dfbb90b1b62bad2f57b8be97c279486381abaeab9"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/dpad_left.png",
+      "sha256": "95c0a6c972addb7fcdeeebe2fb07aa2ceb51ff98eb951230397cb12c9b3a102b",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonDpadL",
+      "bitmap_id": 249,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "3c43cd6ccca5cc9b412e0962371f923b5eaadf36ec7d2dc8315a8610aa3d4ecf"
+    },
+    {
+      "source": "Minecraft.Client/DurangoMedia/Media/skinHDDurango.swf",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xboxone_hd/dpad_right.png",
+      "sha256": "a50274ee483dd4eba580698b65385f5b80fad3cfb9c08e7a062c5281e750546c",
+      "source_sha256": "fb9181e4c9fe59bf303d969fe4b2dc6fd0a8ff45425b785758aad69022e14a4e",
+      "symbol": "ButtonDpadR",
+      "bitmap_id": 248,
+      "width": 45,
+      "height": 45,
+      "rgba_sha256": "87b92eee2c20f966dd89b6c9606fb5f7164e8c1a406616fb2ed2bfb2621df0d6"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonA.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/cross.png",
+      "sha256": "0a754f17823aeb90235c14eebbed1d536eb82f91f6410dd9de0be591abd29170"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonB.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/circle.png",
+      "sha256": "aa3641e770b4093951e56141f15020c1fc92aefc0cf64b4cf03ab7b77c7d9db0"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonX.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/square.png",
+      "sha256": "4ab9bd561e85cec148a2836e05ef57b17cba362b648526f9b47a2d8afd2aee80"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonY.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/triangle.png",
+      "sha256": "db0dd1db64ccebd32d4106edc84bf0520ab117fa59f8f7e35d05a1172c0e6ad3"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonLeftBumper.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/left_bumper.png",
+      "sha256": "beb55f16fea0a5de9a918a7f74f01d990795b848679461e31507e3742ebeb1b2"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonRightBumper.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/right_bumper.png",
+      "sha256": "a6d3711eb9348576f1f4c3f067144a19ca6acc8804348b043cb3b37edf758d6b"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonLeftTrigger.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/left_trigger.png",
+      "sha256": "a41d343db9be59738a756119f10ce71e43e85c1a0a14387ef4994460cf49a5d3"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonRightTrigger.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/right_trigger.png",
+      "sha256": "3eadab97ca45f95610945432dd8f3538df574ad0be8e3f9b924eaa43a17920d6"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonLS.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/left_stick_button.png",
+      "sha256": "30321167461a5bf34c03667f5bfba93a9e9395b6613ab2d7ca00c3141ae33f48"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonRS.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/right_stick_button.png",
+      "sha256": "3ab4fea5e34b3eea7b68bc9a55dc90be43cb34b43a46c42cfb3ec2142bf652e7"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonLeftStick.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/left_stick.png",
+      "sha256": "92f83a94ce67d8857dfbd82914c3baa6d52c32905396095fdf54f5c980cf6632"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonRightStick.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/right_stick.png",
+      "sha256": "4ca7ccef9a266a168326310ede980fc3d6f0e94cb874d5a9cad23589fcf5ec73"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonStart.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/start_button.png",
+      "sha256": "fb11f935f236a1ee59f70cf054208c16c9662a1e4508284a3168a6c09711a78d"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonBack.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/back_button.png",
+      "sha256": "171ea295432ec7674f3fd57a738540970b93b411ca19fda31acc6e2e1dc4fc19"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonDpadU.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/dpad_up.png",
+      "sha256": "d44b4272b3fc901071a72e360bea5324d18872b012aeee3059be327e9fe927e3"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonDpadD.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/dpad_down.png",
+      "sha256": "7e8de0b4864e8ef074f76251794f3a14e230aaae8279fb805e046ff216a7ebf2"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonDpadL.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/dpad_left.png",
+      "sha256": "d90ae153a0cd7b72f2ce807e6e640702d042a4b3927b8a819c21a9928476db4b"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/X360ControllerIcons/ButtonDpadR.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/xbox360/dpad_right.png",
+      "sha256": "b9e0319c78efa3c65ca27af38ad7dbec99f3c7857958db62bc871a739325739d"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Air_Bubble.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_air_bubble.png",
+      "sha256": "be926cd101c72727d5d0a64b4b2853992cf391b8ff3192b2fbef4d4e678768c0"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Air_Pop.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_air_pop.png",
+      "sha256": "6d2eb99ef7af990c6092f8ad417dacdc6def9e0bd4cdc5871f1f7274f6ed7951"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Armour_Empty.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_armour_empty.png",
+      "sha256": "e81c6687619686fc39bd7f8650ab941bc9279682908dc28e75f983a58fd85923"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Armour_Full.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_armour_full.png",
+      "sha256": "cb9c3f0b1a9519279970b2bf923fc2d947f6e059e9bb8732b9facc0cb252fdd5"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Armour_Half.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_armour_half.png",
+      "sha256": "db074fd28f8d39c9ae76d4810337c4dce5797bd1d6188bd5b407b2ea7b357943"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Crosshair.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_crosshair.png",
+      "sha256": "e2b206a26142fe7fd1e6a529df104885ea01bc1f69e8d4c24cad0bb64d7b03e1"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Background.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_background.png",
+      "sha256": "13357d14115e9b1d433ddd806354089d3bb011acf9c7c76a3e9bec8325528a5a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Background_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_background_flash.png",
+      "sha256": "e03493ce62c6b85d4d8fb3db3252b7f1435f13237a261fa7ad498abcdc6cff80"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Background_Poison.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_background_poison.png",
+      "sha256": "423ebe7eaa19234e2f802bbcbf4cee4783d8ccd9063919f03327fd6c76397941"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Full.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_full.png",
+      "sha256": "95b3565d6dee4a5a9a22684fe978e38ea4ac7ef0cfa310253b4f0e68cbcea278"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Full_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_full_flash.png",
+      "sha256": "8624cb0d559b63cf8190c3393c46d97c3e787a4de641087649791d57441f42b9"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Full_Poison.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_full_poison.png",
+      "sha256": "2e14aaa8fedf2844adfd98a225bd8c69a1be5fc6f4da11e1d98dae3157e047ee"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Full_Poison_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_full_poison_flash.png",
+      "sha256": "1e7a604ca17912cf4e191e62df7b17e030df50aa2154ae69e5924dd0f2453143"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Half.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_half.png",
+      "sha256": "c80838d5fd190d4e10f26be033f2faf09fbc307ec6c9ade9b95b18ff1da637de"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Half_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_half_flash.png",
+      "sha256": "cc672fe862e0f01718bac29cdb171a569d96b2d5bd7b29becbc54172652864dc"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Half_Poison.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_half_poison.png",
+      "sha256": "9fa05896aad8154e98e265809a3c4f033799ce741c59956688a651a5e2aa2b40"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/HUD_Food_Half_Poison_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hud_food_half_poison_flash.png",
+      "sha256": "297cc0e730a811d56cba1e83bb858b1259631601d20e510068db6e0410aafec0"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Background.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_background.png",
+      "sha256": "d213d0fd4077c7a121a541e867cfbfe1a754e3e50f8aa6ad8ead03d939f5602c"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Background_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_background_flash.png",
+      "sha256": "ef7eaacfc4b5e955e6b8e4ce8077e81126aca6275aa24d226f89e30ec3c17c56"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Full.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_full.png",
+      "sha256": "a48037404d5c4b12a6226e9eee42ec469551e51761550db9f28328f4f9c4f3d1"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Full_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_full_flash.png",
+      "sha256": "5305d35d8ca130d59e536c7235ed80280ed1dbd77f3684c25b1676398b6d750c"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Full_Poison.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_full_poison.png",
+      "sha256": "99ec97832cc8dc7b4f2553795a12788225b5bf839262a055b157e49b06e3bb3b"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Full_Poison_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_full_poison_flash.png",
+      "sha256": "c6f7d3df0f3ae4ce4c519036dc97568ab5468a75ec3febfde8d3fe80bd16edb0"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Half.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_half.png",
+      "sha256": "a34e3ed3508069d361890568e224e4d7cd16f8a189bd628f99e9cb033a191c10"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Half_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_half_flash.png",
+      "sha256": "0fef5a10b0700c06182ae3ff3ca869d29a2410fdf098f5d62d5a877ef81d819c"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Half_Poison.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_half_poison.png",
+      "sha256": "db7554261831476ffd1ade17ea8b051f55b1b23aead1162365f6e203ee58f5d3"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/Health_Half_Poison_Flash.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/health_half_poison_flash.png",
+      "sha256": "e29e0594b9db4231eca968de2b44b47f7c4da85f6627b0a1e6f89b353427b30a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/experience_bar_empty.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/experience_bar_empty.png",
+      "sha256": "62ca9b3f8456ea7b4c93cb4a75138789ef33a5ab274b31e3c21e6d804cfe1a34"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/experience_bar_full.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/experience_bar_full.png",
+      "sha256": "3c71c58dbb89f3f76bfe99d2c3ef41e208417bbd72a626d723f68864a76d29a9"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/hotbar_item_back.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hotbar_item_back.png",
+      "sha256": "34c788ac4d6b5a91bbe1478b15fb30db717057379548d8efb5ceb271a77b2785"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/HUD/hotbar_item_selected.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/hud/hotbar_item_selected.png",
+      "sha256": "70b86db734da3a858f59619c447ac8d66f8a91d55b2f1a71ce55d0d19732422c"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.Client/ScreenSizeCalculator.cpp",
+      "sha256": "2092a94e51a629ecdc8665fd21fb3fc9026f967cb335c7b302fd920bbcb7de8a"
+    },
+    {
+      "path": "Minecraft.Client/Gui.cpp",
+      "sha256": "992b489a18036199ae27274a279bb9cc467f6169bef2f7ad9a87c3180e15a517"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_HUD.cpp",
+      "sha256": "aec3167f04054395b61c53f6f16ad7b98bc4fc02bf323f9d3aaccc750f684975"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIController.cpp",
+      "sha256": "fa2bf58a5edd9f01112909f12bc595a0ee4874c80e76f822b414bb040a419c27"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIController.h",
+      "sha256": "294ac4c0e95117b9252a3af555af072b8af90dcd13d28001d9723cfa6ccefcfe"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/HUD720.swf",
+      "sha256": "b61f9bcc83f618a4cb8940249aab6d27e3ec25b28ba617ea780dcf66dcb53d96"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/HUD1080.swf",
+      "sha256": "06912bf2e02800665afa9504e1a9871459b521bdab526484ecfc09dbea020448"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHud.swf",
+      "sha256": "da281c4d5345b84e4a0fd5ac14ea2537224e7eff54f2272d3dc831b83c44d471"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHDHud.swf",
+      "sha256": "76e76ba928b50c17e66c1e5ef82c45964f935d4533e6286475e762511c6221ab"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/MainMenu720.swf",
+      "sha256": "bce8361ac9018d807793b352eaf3e17e0648d951e6a333415444e2e6b77aa144"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/MainMenu1080.swf",
+      "sha256": "bef89e6cf48d99f5038cde8be97c16b0f6fea42b438adf4457288d3bab721d27"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/ToolTips720.swf",
+      "sha256": "43b4bc2f9ce9171b8c5a303a1335b39b4d154a4303a3db5df75aedd2c8774c99"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/ToolTips1080.swf",
+      "sha256": "671d436e54e789d242149d488aef7e851229f8ef07e826a178beeeaf52faddd1"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIComponent_Tooltips.cpp",
+      "sha256": "46f7fb4c707382c766471a9e763edd334650d028d6fb40884cbb73461ab72fc4"
+    }
+  ],
+  "ports": [
+    "UIController menu repeat: first repeat after 300 ms; subsequent repeats every 100 ms.",
+    "Original HUD720/HUD1080 display lists and decompiled fourj.documents.Hud layout, scale, state and safe-zone code.",
+    "640x360 menu canvas: factor 2/3/4/6 at 720/1080/1440/2160 height; manual Java GUI scale remains available."
+  ],
+  "adaptations": [
+    "The SDL2 canonical game-controller API maps physical button positions to LCE actions; glyph choice does not remap actions.",
+    "1080p assets/layout are proportionally scaled for 1440p and 2160p. Later Java features without LCE artwork use native assets.",
+    "The existing user-requested footer position/size and blue menu highlight are preserved; HD glyph bitmap exports are selected at 1080p and above."
+  ],
+  "controller_database": {
+    "repository": "https://github.com/mdqinc/SDL_GameControllerDB",
+    "revision": "c0f11d40b91f57853ce9714c703e119d8243f91c",
+    "files": {
+      "gamecontrollerdb.txt": {
+        "destination": "src/main/resources/assets/legacyconsole/controllerdb/gamecontrollerdb.txt",
+        "sha256": "a2299ef257b68c62b9fcce39fc59b5fb3a5a7068214f766a96c21595b55a11c3"
+      },
+      "LICENSE": {
+        "destination": "licenses/SDL-GameControllerDB.txt",
+        "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+      }
+    }
+  }
+}

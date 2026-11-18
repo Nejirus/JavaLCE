@@ -1,0 +1,295 @@
+{
+  "version": "2.3.3",
+  "date_utc": "2026-11-16",
+  "tested_code_commit": "3287591",
+  "minecraft": "1.17.1",
+  "forge": "37.1.1",
+  "java": "17.0.21",
+  "environment": "Linux / Mesa llvmpipe software OpenGL / offline local QA profile",
+  "automated": {
+    "tests": 342,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "final_population_profile_check": "Three integration tests rerun after the unused Bamboo variant field was removed; original profile export reproduces byte for byte.",
+  "tested_jars": {
+    "legacy-console-1.17.1-2.3.3.jar": "e6658ecae2ed4eb650649cad0b75d5948136b405fb99eb9efce8efef1cd4297c",
+    "legacy-join-compat-1.17.1-2.3.3.jar": "d7c1dc8aa786c072690ba4f646e035cae4b986aabd73857e9e26f2b013be0a17"
+  },
+  "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+  "shaderpack_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "worlds": [
+      {
+        "world": "small",
+        "seed": 0,
+        "spawn": "-153, 64, 229",
+        "initialPlayerX": -147.5,
+        "initialPlayerY": 64.0,
+        "initialPlayerZ": 226.5,
+        "minBlock": -512,
+        "maxBlock": 511,
+        "population": {
+          "resources": {
+            "coal_ore": 767,
+            "copper_ore": 150,
+            "dark_oak_leaves": 214,
+            "dark_oak_log": 98,
+            "deepslate": 3503,
+            "gold_ore": 19,
+            "iron_ore": 494,
+            "lapis_ore": 31,
+            "oak_leaves": 764,
+            "oak_log": 38,
+            "redstone_ore": 122
+          },
+          "survivalLogHarvest": true,
+          "harvestedLog": "-30, 71, 30",
+          "structuresEnabled": false
+        },
+        "edgeColoredPixels": 350,
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "medium",
+        "seed": -987654321,
+        "spawn": "-299, 64, 375",
+        "initialPlayerX": -293.5,
+        "initialPlayerY": 64.0,
+        "initialPlayerZ": 381.5,
+        "minBlock": -1536,
+        "maxBlock": 1535,
+        "population": {
+          "resources": {
+            "coal_ore": 717,
+            "copper_ore": 149,
+            "deepslate": 3957,
+            "deepslate_copper_ore": 1,
+            "diamond_ore": 8,
+            "gold_ore": 43,
+            "iron_ore": 482,
+            "lapis_ore": 29,
+            "redstone_ore": 129
+          },
+          "survivalLogHarvest": true,
+          "harvestedLog": "32, 65, -47",
+          "structuresEnabled": false
+        },
+        "edgeColoredPixels": 314,
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "large",
+        "seed": 82958734,
+        "spawn": "-148, 64, 232",
+        "initialPlayerX": -137.5,
+        "initialPlayerY": 65.0,
+        "initialPlayerZ": 234.5,
+        "minBlock": -2560,
+        "maxBlock": 2559,
+        "population": {
+          "resources": {
+            "coal_ore": 535,
+            "copper_ore": 102,
+            "deepslate": 3000,
+            "deepslate_copper_ore": 7,
+            "diamond_ore": 6,
+            "gold_ore": 24,
+            "iron_ore": 326,
+            "lapis_ore": 11,
+            "oak_leaves": 422,
+            "oak_log": 39,
+            "redstone_ore": 75
+          },
+          "survivalLogHarvest": true,
+          "harvestedLog": "12, 80, 9",
+          "structuresEnabled": false
+        },
+        "edgeColoredPixels": 350,
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "default",
+        "seed": 123456789,
+        "spawn": "0, 88, -16",
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "flat",
+        "seed": 123456789,
+        "spawn": "-16, 4, -80",
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "classic",
+        "seed": 123456789,
+        "spawn": "-36, 64, 252",
+        "initialPlayerX": -25.5,
+        "initialPlayerY": 73.0,
+        "initialPlayerZ": 247.5,
+        "minBlock": -432,
+        "maxBlock": 431,
+        "population": {
+          "resources": {
+            "coal_ore": 634,
+            "copper_ore": 174,
+            "deepslate": 3261,
+            "deepslate_copper_ore": 1,
+            "diamond_ore": 4,
+            "gold_ore": 30,
+            "iron_ore": 421,
+            "lapis_ore": 9,
+            "redstone_ore": 71
+          },
+          "survivalLogHarvest": true,
+          "harvestedLog": "3, 73, 14",
+          "structuresEnabled": true,
+          "structure": "VILLAGE -9,7"
+        },
+        "edgeColoredPixels": 370,
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "classic-reloaded",
+        "passed": true,
+        "blockMapAndGeneratorPersisted": true
+      }
+    ],
+    "screenshots": [
+      {
+        "file": "off-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "sha256": "2f92c36a82f3eacc884461ae5fa2774790b8ddb440bac3a0bfbd8c52d309c416"
+      },
+      {
+        "file": "off-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "sha256": "a067dee1d64a29d7af823ede56af1ee5b44df4922de8bceb6ffe9e24059c6cdc"
+      },
+      {
+        "file": "off-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "sha256": "4c16da23ae468f266aac283de6380449f41e2cd761b464295334f22893776ac9"
+      },
+      {
+        "file": "off-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "sha256": "308a9a3cf4d925db79727d4605d1335eb2e38957ba022d42cd618cf144da2ea4"
+      },
+      {
+        "file": "off-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "sha256": "d34e9b963ec287ef63464cf9b2fe215c03150a8f8267f3e77907a5cd6a42863f"
+      },
+      {
+        "file": "off-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "sha256": "6730e5bd90ed4b8c6b329244766aa350aea38a4c4f44bc765feeccdb73813a94"
+      },
+      {
+        "file": "off-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "sha256": "1a80d9eb7ebde83b490a6e5223a44fc129d5ca176cb92318fd6e345a24d4e15d"
+      },
+      {
+        "file": "off-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "sha256": "233b5d133575c78e1ffa274bc185cf477ad933d4080abd05e8c1ac2d427fe2f7"
+      },
+      {
+        "file": "h1-lce-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "3c5d62fa88017ab79eafbfa1888acce236c9f30352bc1f4bdcf833dec312777f"
+      },
+      {
+        "file": "h1-lce-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "ee73c11738f864595b02e9be249b2a6c9555a7ac923a591af8313a446c5b60f6"
+      },
+      {
+        "file": "h1-lce-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "ea7cd944f0a9e1dac10e1998145c3e2c79c959ec23a7e2f4f4c685b248228355"
+      },
+      {
+        "file": "h1-lce-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "918daa02865fd7282bd7cebd81e73baa36520193a5e46d02aa6d406a85b61724"
+      },
+      {
+        "file": "h1-lce-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "a2c92bea5c838546da4d172b3ec6d47e07db409d5d066f2a5ec78619ec6b9fab"
+      },
+      {
+        "file": "h1-lce-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "a39ac0837f45282ff583aca23dedeffd9db5e15ca5d2cabbec8bb713ec02ae37"
+      },
+      {
+        "file": "h1-lce-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "202a37ac568b9fbb95d9d1f65247436ba44f33e8c0970632c232715167e256e0"
+      },
+      {
+        "file": "h1-lce-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "942fb897eec30ce888d7d0560f2fd1829fef4e08c6ecbbbe85fff7d5effdca3c"
+      }
+    ]
+  },
+  "visual_review": [
+    "1440p shaders OFF and LCE Look",
+    "4:3 shaders OFF and LCE Look",
+    "3024x1964 LCE Look"
+  ],
+  "limits": [
+    "Bounded source comparisons and Java world integration are not full PS4 seed parity.",
+    "Structures, loot, physics, light, cache lifetime and final PS4 spawn equality still need accuracy work.",
+    "Modern additions intentionally change blocks.",
+    "Framebuffer dimensions simulate MacBook-like geometry; physical Apple Retina hardware was not tested.",
+    "No physical controller, hardware GPU or authenticated online multiplayer was tested in this run.",
+    "Hosted-site preview relay was unavailable. Download assembly and static assets are checked independently."
+  ]
+}

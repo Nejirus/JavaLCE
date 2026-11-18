@@ -1,0 +1,1356 @@
+{
+  "environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "renderer": "llvmpipe software renderer"
+  },
+  "automated_suites": [
+    {
+      "tests": 357,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "log": "build-qa-5.log",
+      "scope": "Full suite before final tooltip depth and cost-warning changes"
+    },
+    {
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "log": "build-final.log",
+      "scope": "Trading and tooltip regressions after final render changes"
+    }
+  ],
+  "native_comparisons": {
+    "trading_navigation_cases": 360,
+    "trading_experience_previews": 100
+  },
+  "tested_jars": {
+    "legacy-console-1.17.1-2.3.6.jar": "12579d1b42665dd0cbe1b1f1f467e5fb69550e3997d00fbce972492c8ca1f275",
+    "legacy-join-compat-1.17.1-2.3.6.jar": "16da1f48c7a2bcc6e2abcc46b65550f34bd50a2e0f20814229b54ebe0195d7cb"
+  },
+  "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+  "shaderpack_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "two-cost mouse trade: exact input consumption, output, uses and villager XP",
+      "server rejection: sold out, missing cost, invalid index, wrong NBT and foreign trader",
+      "controller trade, enchanted-book NBT, stock/XP, full-inventory drops and partial insertion",
+      "144 production-client captures: four crafting tabs and five trading states, eight sizes, shaders OFF/LCE Look"
+    ],
+    "screenshots": [
+      {
+        "file": "off-crafting-1280x720.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "a04e49e992f27ad38ef9d4d8daf6418e161b640f63b14ea10729f1e270efa9e4"
+      },
+      {
+        "file": "off-banner-1280x720.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "a8cbd5f7749b1016a10893112706a7b7278d46fddf14afe173da01e2372529fa"
+      },
+      {
+        "file": "off-firework-1280x720.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "55e8545a10da5a9830581b3fe1f7ed0a7b24205766b0b3b7744f65e7ed7b55be"
+      },
+      {
+        "file": "off-dye-1280x720.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "70622e9e8437ae3130c8d03b126a9da30e9040c4abccb7bd696d276318316168"
+      },
+      {
+        "file": "off-trading-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "88d1cde1dead88ec0042822ea66f2db2b631d1ab6caa4b2255dae5225da52aa7"
+      },
+      {
+        "file": "off-sold-out-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "5b82b8ec53c6ce02518e59e3ff453765296acd69d9997331c51c30636d144a8c"
+      },
+      {
+        "file": "off-enchanted-scroll-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "89790a09a4a1e857c5dd504ea3c832ee1a91f1e40aacc7c090edbf7533a6092f"
+      },
+      {
+        "file": "off-wandering-trader-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "a8f2a9a09d8d52a4965851188796a38afd6c100e959c4ff2929dabe07aa920d1"
+      },
+      {
+        "file": "off-empty-trades-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "0437d7aa6a36765f00939b1001b6024ff2cd575aed5541b9a58010dfc02b04ab"
+      },
+      {
+        "file": "off-crafting-1920x1080.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "b777f506eb8174bdbc038f839c5dee52de9192879873a5bc2d26621ff0e51271"
+      },
+      {
+        "file": "off-banner-1920x1080.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "99a3d08277ac3cd45fc0608280686d4d3a1622ccdb067fced97f84844d432e7e"
+      },
+      {
+        "file": "off-firework-1920x1080.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "ade51ecfce6c7be9b13ea945fda59ee2f27f66d97bd8e73665abfba5bfabaa7a"
+      },
+      {
+        "file": "off-dye-1920x1080.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "8c81a6635639e1032e05c29736af81b610b2d1be30365fa0ee2a7c0bb457da55"
+      },
+      {
+        "file": "off-trading-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "491235dccdaf79d18a759fc81f277bb196f7a314a354a416021ec708b4223c06"
+      },
+      {
+        "file": "off-sold-out-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "dea0868a68d696716dea868936fa895ad7cff51c9a092734db4cc1c0f1a43851"
+      },
+      {
+        "file": "off-enchanted-scroll-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "2d6069c7860de26bbedb0f778cee2410b61b6a5eb72d396ffc38f301ccbda9a5"
+      },
+      {
+        "file": "off-wandering-trader-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "0823d7bb2c49930bb982d1b934c60e924bd0e6c3cd59d39d225fa20453995c9c"
+      },
+      {
+        "file": "off-empty-trades-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "85f63c2daa31005ad55b18351bff5430e93d81f5d178df897a1463ad5131a80e"
+      },
+      {
+        "file": "off-crafting-2560x1440.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "944bf33fc15950b52658ac6a662c7026fb6be8ed5b4f274f87f368d39e5ffd66"
+      },
+      {
+        "file": "off-banner-2560x1440.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "e143555d4f74180c417ef9f4484b00a6cc23c5ee0974594294be0568d8c5b706"
+      },
+      {
+        "file": "off-firework-2560x1440.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "2022133f6b161196aabeacd208f75a6e21f45f849c9598f81158924958161ba0"
+      },
+      {
+        "file": "off-dye-2560x1440.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "2cb2af96a38ce087d41b3daa7c7cbf4a697eeb83576a7630e94c2b3ed6be3db2"
+      },
+      {
+        "file": "off-trading-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "56b1ec86323dc3d3da340553d7afd591932e6cdf2fd4f8bfa6788371ace75b4f"
+      },
+      {
+        "file": "off-sold-out-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "358b0ef763d8103b3149d60f1fbad0042896a5a92cfe848588a4ad9a21189571"
+      },
+      {
+        "file": "off-enchanted-scroll-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "ced381fa124688affef7507d37509c7c8b961cd59b796eb26b6dfe7ef3c2b066"
+      },
+      {
+        "file": "off-wandering-trader-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "57bea78a186f64d2c2904a042786557df0322b39bbd9ddc01652cc5a98047835"
+      },
+      {
+        "file": "off-empty-trades-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "4738f975690058b68f34b8bab3700fc303d5f2554fe574a595242999f4ed6882"
+      },
+      {
+        "file": "off-crafting-3840x2160.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "73438ffb82f49f7edc8ba57418134c6988fc3834858f9faa6c49ab7febe25229"
+      },
+      {
+        "file": "off-banner-3840x2160.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "76cc6e9ca973302978d3b4e754195c48084e8e073b0a465eff47b5e4e863a2a4"
+      },
+      {
+        "file": "off-firework-3840x2160.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "d7f39b9a5f4b300aef9f911a46fce7449a05c09e53e78eed0e53f99e0dfc42ed"
+      },
+      {
+        "file": "off-dye-3840x2160.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "8d5eeb1253488ac2526638726559d6eeacc7eca89efb23715838ffe918e4ba59"
+      },
+      {
+        "file": "off-trading-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "01e94a60389dd13734425949c55a56d7437e257b02af48ac5194053ef4a6ae92"
+      },
+      {
+        "file": "off-sold-out-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "f9b401a77a380815060ffe8825932c7dc4f5b9194fb7ac9853fd4fc77a21ef79"
+      },
+      {
+        "file": "off-enchanted-scroll-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "bc9047a126b3953309a4c1c72442ec75cd99850f755f864dde95b6b10dc21434"
+      },
+      {
+        "file": "off-wandering-trader-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "1ed0deea4abc807b729d45cbd199f4fb48f3bfb27b529e40f55754dd4a3cc5e5"
+      },
+      {
+        "file": "off-empty-trades-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "b998bfe9d5efba1bfbd12388dae8528c879f7d790ec10960ddfe745af30cd2d5"
+      },
+      {
+        "file": "off-crafting-1024x768.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "282f4001d501842e08fb4eaad4dcca84c6141e297ff54deb4cbe386b99cf5353"
+      },
+      {
+        "file": "off-banner-1024x768.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "1d35beaca2cab265b0924c371e67de43daa31dd5d4426897b4cb041e6f89feab"
+      },
+      {
+        "file": "off-firework-1024x768.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "1210324f290ca9b74f593f6958dd18db7e054a294d4b7e241365b561c43deff8"
+      },
+      {
+        "file": "off-dye-1024x768.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "d1690be4ef5ea8729eb072292452bf6b1fa0eac68a50a90f87753cb6093618c7"
+      },
+      {
+        "file": "off-trading-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "1b54ae088b319ec2e774cca4274fd5d943106e3227446407232f488b80ee6084"
+      },
+      {
+        "file": "off-sold-out-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "2058f2595efda4bdd38e79f315f3bcebdba00da91481630f0c3ba8368ebd9fbd"
+      },
+      {
+        "file": "off-enchanted-scroll-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "c94269031aaaad3230aeb40641706840100c7fed2fa7576001dc098c2bc54230"
+      },
+      {
+        "file": "off-wandering-trader-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "1b1e8fc19b54e133ca181781587886392b7fb5d6cbf18aa8ac0edc8dc6ba804b"
+      },
+      {
+        "file": "off-empty-trades-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "9afcd68fe62e144d40d18030f4a4d00ba3c6389d01c8f7f2c059a413343ee83d"
+      },
+      {
+        "file": "off-crafting-1600x1000.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "8bf5aa283226107569329a7df3cf70c81dad2532cd93c7a5c749c4e90a77d654"
+      },
+      {
+        "file": "off-banner-1600x1000.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "b5c2b11f3b158afcbeb9234a7335c19aaae7e6250b02306f2602e2fd5aed92fb"
+      },
+      {
+        "file": "off-firework-1600x1000.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "69a96472e7eb17970f8bb47cf3263ecb0054047504e9e12e07b0a10ab51ac20a"
+      },
+      {
+        "file": "off-dye-1600x1000.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "e7c5c8f18ed2666817ca505146ba8af67fe587fac63df812246aa3fb403d1018"
+      },
+      {
+        "file": "off-trading-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "08fdc65ed6fd7dcbc3ae4ab55b864c47dea6fbd0a07623d7ddef23b5191fee52"
+      },
+      {
+        "file": "off-sold-out-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "85a2c6f8a2b7afe694e9fdeeb25d88f2837e2e183872e724c0420b7cba67571b"
+      },
+      {
+        "file": "off-enchanted-scroll-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "04d623afaf410905721f0dc9e930caff0632fd40390161d19824de4a19f81a70"
+      },
+      {
+        "file": "off-wandering-trader-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "aa1f025ad19dea335e8b857a6173fea04f0afb725c9333f0328f1e5081838ffe"
+      },
+      {
+        "file": "off-empty-trades-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "515158172b8eb2b4708a25dadffc629a95ee5c6b7c911bba55d5e31728d455c8"
+      },
+      {
+        "file": "off-crafting-1512x982.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "1514c6967336d32f821adb0cea922bf6ad4488ab62ee1cfb0d3746b1c5443b8c"
+      },
+      {
+        "file": "off-banner-1512x982.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "bbb64903afd5588456898c046109ed3269fb72bf899b22e531b507503f1cc3a2"
+      },
+      {
+        "file": "off-firework-1512x982.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "2dd8387b496c5cae77306764c55a0426ef2269fdf3b567bdb65072b69924aba2"
+      },
+      {
+        "file": "off-dye-1512x982.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "387353b03f480dd6006a83647efb9cddd0bad765389d382e629cfccfa24d431e"
+      },
+      {
+        "file": "off-trading-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "2b94af6180baa477f749be70ad4e7d67cccd673ecd4fa24503fc0efd7de10617"
+      },
+      {
+        "file": "off-sold-out-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "8744e52615cd297cefbdc16006ce24fd9a7ea53b03bb9944e422c8bc38134fe5"
+      },
+      {
+        "file": "off-enchanted-scroll-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "f085b8db0f2356f4b74dac2200f12320dd78c80da399084d1762ec22fd2b58db"
+      },
+      {
+        "file": "off-wandering-trader-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "4306301a828db01fb9d913c738e7cf839217c20498d126d75c5857aef8b956d8"
+      },
+      {
+        "file": "off-empty-trades-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "f8acb9b17c536d82f76b52c27d49883a0db689a2ebe90c3fc098dd2362dc3c4f"
+      },
+      {
+        "file": "off-crafting-3024x1964.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "61fe434d88eee50e140806a4ba840a9aa9d1eea11160412251f3fff031a5a0ea"
+      },
+      {
+        "file": "off-banner-3024x1964.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "441e959f53ecaff3519114993246a4697e5e1bf393eb220a4ae9a08c7bfb2bc8"
+      },
+      {
+        "file": "off-firework-3024x1964.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "3a82b14cf3ee92cce0528af340ad78a50ad0364130c1cf1d1817a1cbd683a34c"
+      },
+      {
+        "file": "off-dye-3024x1964.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "bb179489ebaa11f63cb0a4587c81c811fd7cd7cc670f8967c3e54bf71ec1d3db"
+      },
+      {
+        "file": "off-trading-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "8767d1e8c6d7d789c917edfe2310ef197c1f68a90b1dcb5999e44cba623b0d52"
+      },
+      {
+        "file": "off-sold-out-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "72eff3c6b018a0c594b4a799e59af9b84335ade78f73eac2b8c9620674991b2f"
+      },
+      {
+        "file": "off-enchanted-scroll-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "68f6f3aadde1a0dce94bb416aad59c9c3f8c727c185fce64ad5aaaa1c13eeb59"
+      },
+      {
+        "file": "off-wandering-trader-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "73a74d2d60fac1118955f0f3d4d7d1cf6621690f4129ddb083a9f9d2b3cf9552"
+      },
+      {
+        "file": "off-empty-trades-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "feace077210803db99b2033293fc9bf4e7bd9e108185de5d5b27b1b80ead6844"
+      },
+      {
+        "file": "look-crafting-1280x720.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "4fa26357521717de1b4cafbde353db2634338353f065d5d493134a8abf1641da"
+      },
+      {
+        "file": "look-banner-1280x720.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "93e74d47e12471d405843d9e969db201ac70ae030e1e13bdd4b2a7ffa12d9d67"
+      },
+      {
+        "file": "look-firework-1280x720.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "fec57082437609e4ea169878c25b72b1260f927597c40ccc34b1ed5fe47b3267"
+      },
+      {
+        "file": "look-dye-1280x720.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "40ba1fe4af02fd0aed1d1f59c6e1d0321c61324841fe344ee11c92f0c9b59f16"
+      },
+      {
+        "file": "look-trading-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "588321c6360db2c76bb4dfd45b7542beaf5ed877fa5f2ecc5d2f9faf7022afb2"
+      },
+      {
+        "file": "look-sold-out-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "2171265575fcbde0d5252f64fc6c6c221e2b856c414958ebf738593bcd34172b"
+      },
+      {
+        "file": "look-enchanted-scroll-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "d9dc2393418598e75865c697f6a507e541f0c3c512c36c456d99c34abd0e63eb"
+      },
+      {
+        "file": "look-wandering-trader-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "5c6d5f3946ca8332ff84dab8437f32c744ff5cf922e9091746f92c2ff7d5f1e9"
+      },
+      {
+        "file": "look-empty-trades-1280x720.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "04706c2e2cc6d6c0adecc7b8e4a892470f1067e0692f1df98c1b09131e029f86"
+      },
+      {
+        "file": "look-crafting-1920x1080.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "b080795d89f5a2e588805345a6202b47f646da81b800a6c11c0a3355559506e0"
+      },
+      {
+        "file": "look-banner-1920x1080.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "449c3f8df1621bf5e979fa1f90bf87fc60134ca6844b3b2de313854c4e8294bb"
+      },
+      {
+        "file": "look-firework-1920x1080.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "824a57c1e2c258af21a64d590dc5b38990d5675eec4fd8530a864d053093766b"
+      },
+      {
+        "file": "look-dye-1920x1080.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "68ab8291655f3b0233a6281cc2525619f351509cab397c5178e8cbe49dcfd208"
+      },
+      {
+        "file": "look-trading-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "b180f2829fa5f4c0ae0710d214e8eb98e5c3a15aec9589aaf3f836924330e012"
+      },
+      {
+        "file": "look-sold-out-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "bee091eab6602b7618898f987af0a61218186ae6a13f8f5aff8c1d6c1a7a5c8a"
+      },
+      {
+        "file": "look-enchanted-scroll-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "bae0501f317fe567aade4a85731e23da2f8a08ea6434deba732903d1e287bccb"
+      },
+      {
+        "file": "look-wandering-trader-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "d40a6c282a9d5899a8a313af6a43e59875d972bc38254836423e38bab16c2603"
+      },
+      {
+        "file": "look-empty-trades-1920x1080.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "92215da297067fc2c264215a1ce2510768c29d51e45bc647edfa4c9d8543ac44"
+      },
+      {
+        "file": "look-crafting-2560x1440.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "056f5b45e616dae4c7b05b02ab44cc2a05d9108087e9cd289c6811e6acade7c1"
+      },
+      {
+        "file": "look-banner-2560x1440.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "5335bd8e6025b197d5e244d0607fada5cca80d6a0c06aea0536cedb4994cec8d"
+      },
+      {
+        "file": "look-firework-2560x1440.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "809af38f1cbb3b883ef1bd2b62f63c5b2d75cec13701edfe7c00a9d84b920877"
+      },
+      {
+        "file": "look-dye-2560x1440.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "90b15b02d38b5767eb34092f3041168e4b8afca0ce3cba1bba2c682a169167f0"
+      },
+      {
+        "file": "look-trading-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "89140c030580e80fcaee86d1dcb03305797c532109b4b018858ef2d0f83e69e8"
+      },
+      {
+        "file": "look-sold-out-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "e5a32ca0cf54245f467bf481bfd3dbd3324fce927620b7c630c43be603c77d0d"
+      },
+      {
+        "file": "look-enchanted-scroll-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "41e5d43caec975df51b80b2096435e9f7cd1a46bdfa5a77dc4ef6a88d29733d1"
+      },
+      {
+        "file": "look-wandering-trader-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "de17662c504f2defd5899e3313a8accb9204dcc6eb533532ab15791f09b39930"
+      },
+      {
+        "file": "look-empty-trades-2560x1440.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "daabe673de2a752fb2e78b826d68c51df5f8bf53d4a02d5625d128d367062bcf"
+      },
+      {
+        "file": "look-crafting-3840x2160.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "6dbd10328ac80dd4a896226e09d0d4e34f1914e5e4fc5856890822779f923eee"
+      },
+      {
+        "file": "look-banner-3840x2160.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "357db2c8d5f313042dae6a33949928cf8f81435bff524197c1043b909cf19227"
+      },
+      {
+        "file": "look-firework-3840x2160.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "7188324e2fd7e225226ef441d908fc0839a68e583c4efd3af3a08f6e388fd749"
+      },
+      {
+        "file": "look-dye-3840x2160.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "2dfa02ee66d24eab640e916fccd3a6ddbc31742a0135209ee3d4e81b3d5b582d"
+      },
+      {
+        "file": "look-trading-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "a7b20b3854a92ba2bf8d26afc3ce4ea4cf0440e05ce3b8a9ce6ccdadb9a13183"
+      },
+      {
+        "file": "look-sold-out-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "6a08486dbbe6754823764b3f9a024096ed5af4f241909eff5905cc82e51122a2"
+      },
+      {
+        "file": "look-enchanted-scroll-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "7715f01b1f1f24d8fae57b2d86edb232c2021380dfbdaff13660ad20e916f2af"
+      },
+      {
+        "file": "look-wandering-trader-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "20f4d001ad3058ee221b9d8d1ca7755eb9a72bd737d481ed54aadb45a9574742"
+      },
+      {
+        "file": "look-empty-trades-3840x2160.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "edd45015533170b070c11452bf128a366a75248b7fb1708a21985d793a63b22a"
+      },
+      {
+        "file": "look-crafting-1024x768.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "247bf021f4221aaf2631e10421a10c9780ce229be97617b8ead875392e877d17"
+      },
+      {
+        "file": "look-banner-1024x768.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "fa05d5c2a8f8d3531b380da1499816df039447322fd0ff27a6fc0a746194947e"
+      },
+      {
+        "file": "look-firework-1024x768.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "5a2c9fb88757a50fde3b90bc59f0e58e867b84402c7f9306781f6b05fbf243c2"
+      },
+      {
+        "file": "look-dye-1024x768.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "0741bd31deb55ad8c676986fad74e9bd8ac367fd8d06454e7eebe6e76c79c948"
+      },
+      {
+        "file": "look-trading-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "af249c89d5753ca4bd4e534ec7bb06b81e9b2e9c3cd1f2e2bef47b294ab2e02b"
+      },
+      {
+        "file": "look-sold-out-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "c9bfed77ee2c766c9049cc0af817390dc20b1bb378cc6516fefb471837cfadfa"
+      },
+      {
+        "file": "look-enchanted-scroll-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "a5b843cfadc61e2beb5a3d76237ce1d8a75948af29d90f9a888c212521e295b4"
+      },
+      {
+        "file": "look-wandering-trader-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "9f6b51ce2dbbc4d4f3b68ddd810f4b548ba5417a12c2eb108e4153486bd993e6"
+      },
+      {
+        "file": "look-empty-trades-1024x768.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "39f7bb90e4778fd533383eb5308cd0dd7386c80cbf3a389b51bc609a1d8f9558"
+      },
+      {
+        "file": "look-crafting-1600x1000.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "f866105c1f826e86c580af97f7195546b3bff6a7f2c645949e22745eaa8bfef8"
+      },
+      {
+        "file": "look-banner-1600x1000.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "0a0ac8319f8a498bf44f1e1694344c69e2ae0d64ef7c25613c3e4d504e18613f"
+      },
+      {
+        "file": "look-firework-1600x1000.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "cb1fe9fc72daeba80bfb418ee95ba8ba70f3e22028123ef3a76076c6e94ea4d8"
+      },
+      {
+        "file": "look-dye-1600x1000.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "7f200c846eeb0ad4afe147547825de6fe501c0f9f6f93258b9f38ef047a1d3a3"
+      },
+      {
+        "file": "look-trading-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "1d6a4fefd62ce6bb074c6ea003644f71e608e58015379b6f0a57ad4d613938d6"
+      },
+      {
+        "file": "look-sold-out-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "a00531f54b52cb42cd039ceebdf5f3d83c7fa2cbf87118f6ece5bfe2cf11bdf6"
+      },
+      {
+        "file": "look-enchanted-scroll-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "c4cac43fb8bc8df5860085300ea753aed3d25a49cd5b257ae5e2d1b97c5de52a"
+      },
+      {
+        "file": "look-wandering-trader-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "9d79af713c4585435234734569bf4340ded11baa5def73dfda38a010451618ad"
+      },
+      {
+        "file": "look-empty-trades-1600x1000.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "3080eadea4e278f9a4f4fe08fa2575f1080713334ab9e89775575d0a48496752"
+      },
+      {
+        "file": "look-crafting-1512x982.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "48c38bf141db43957d7a627be50d39d4c1685bf33af8d45f986494dd93d6ac65"
+      },
+      {
+        "file": "look-banner-1512x982.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "cb5e11d7ec71e1e23f9add2eaabe71f08edfb32231708c67dbc0e3d39b05251f"
+      },
+      {
+        "file": "look-firework-1512x982.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "be8b35aab06f41d4b68c68f7cd6585c589d476f9a7eb77bdca805a9df68fe727"
+      },
+      {
+        "file": "look-dye-1512x982.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "d8ba73b18f1d56b35b41eee3ef975ab679198c11b0fe10b368794c2d262f4889"
+      },
+      {
+        "file": "look-trading-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "b57164d98f65e7e905b493161ace7ea79914715e012d49df325d98a29a4fe220"
+      },
+      {
+        "file": "look-sold-out-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "607c63f510ff51d06738f08e3ec3c823874d264fbd3eecfe6c7d82ac2138a974"
+      },
+      {
+        "file": "look-enchanted-scroll-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "c842b36e5fda116cb270e8c3d693775a8db9686b7d3ae6e4a53470656dfbbcfc"
+      },
+      {
+        "file": "look-wandering-trader-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "00e1c0830b2d3b29eccb3e797f504f01a40189272f781d486f15a1d874e000f3"
+      },
+      {
+        "file": "look-empty-trades-1512x982.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "7817a2298eb1557cac17c2329ae590d5da7f0306e46035801b1c4990a8f17682"
+      },
+      {
+        "file": "look-crafting-3024x1964.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "39f0b010184ca4f2a1bb59b99ebf6524b86c935422a87f3c5ac62a89082e8281"
+      },
+      {
+        "file": "look-banner-3024x1964.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "989f225fe11cd252eadbe776575a982a34c04bb0077e2205eea2552dd199fc4a"
+      },
+      {
+        "file": "look-firework-3024x1964.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "a777b4d2f3529331d8d56f1438f5509d82b66d6744f4e6fd74cbdb26ff60746f"
+      },
+      {
+        "file": "look-dye-3024x1964.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "e1f36f70e4a2b82e17435d8b63c28ae4286daef8a2546459ba5bafe2682f5254"
+      },
+      {
+        "file": "look-trading-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "f3c18797bb4c65ae9f4a53d8c699c747953c84a935dd299f3d3e80c6fe313233"
+      },
+      {
+        "file": "look-sold-out-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "7d1fc6c25f96f91ddd234e30f5a12c542827c2f09ed1e1aa47776d3701fec92e"
+      },
+      {
+        "file": "look-enchanted-scroll-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "0bc72772965225d47b79c6c3577ed443344d864d98f0e4147f6e4b51fccfa6fe"
+      },
+      {
+        "file": "look-wandering-trader-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "83dd8591bebb5ec0a831e826d407a6b5596070b907210e67bd5d88d43e730b1c"
+      },
+      {
+        "file": "look-empty-trades-3024x1964.png",
+        "screen": "ConsoleMerchantScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "7b775c57f676f7f6ef8a90e38297103f35cd0d4b68ff7dbe5dbb5c3591d05da2"
+      }
+    ]
+  },
+  "visual_review": [
+    "PS4 crafting tabs and trading states at 1440p",
+    "4:3 and 16:10 fitting",
+    "MacBook-like framebuffer geometry",
+    "LCE Look and shaders OFF"
+  ],
+  "limits": [
+    "Host item models, fonts, recipes and synchronized menus adapt the PS4 code to Java 1.17.1. See PS4-TRADING-236.md.",
+    "Physical Retina display, controller hardware and authenticated remote multiplayer were not tested.",
+    "No claim of full PS4 gameplay or world-generation parity. Worldgen is unchanged from 2.3.3."
+  ]
+}

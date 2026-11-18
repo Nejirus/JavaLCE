@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""Capture concrete scalar class definitions and original metadata encoders."""
+import argparse,gzip,hashlib,json,platform
+from pathlib import Path
+from native_scalar_block_states import ScalarBlockStatesOracle
+from read_scalar_properties import recover
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--eboot',type=Path,required=True);parser.add_argument('--libc',type=Path,required=True);parser.add_argument('--output-dir',type=Path,required=True);a=parser.parse_args()
+if platform.system()!='Linux' or platform.machine() not in ['x86_64','AMD64']:parser.error('Linux x86-64 is required')
+expected={a.eboot:'c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8',a.libc:'1936f5700cc590877d9bf493c6a6bb7714e84003dfd6d74a7d77b1869f71d816'}
+for path,digest in expected.items():
+    if hashlib.sha256(path.read_bytes()).hexdigest()!=digest:parser.error(f'Unexpected mcps4 input: {path}')
+inputs=json.loads(Path(__file__).with_name('scalar-block-vtables.json').read_text());recovered=recover(a.eboot);n=ScalarBlockStatesOracle(a.eboot,a.libc,recovered);properties=n.property_summaries();definitions=[n.definition(int(pc,16)) for pc in inputs['vtables']]
+data={'repository':'https://github.com/Nejirus/mcps4','commit':'37e258085773f11599cf0ffe29119926769554b7','eboot_sha256':expected[a.eboot],'libc_sha256':expected[a.libc],'input_kind':'Literal initializer argument extraction reads pinned code/UTF16 constants without executing startup. Original boolean/integer factories/constructors and typed boxes populate actual global aliases; copied aliases share original factory result identity. Explicit concrete class vtable inputs, zeroed auxiliary owner fields, original create-definition methods (including inline empty definition), complete canonical construction/getters and actual getData virtuals execute with no property/count/box/definition/metadata callbacks. Class definitions/default field are linked explicitly with initial canonical state zero; post-constructor defaults, fromData and geometry are outside scope. One-thread cxa_guard acquire/release protocol callbacks and pure imports/readonly RTTI are supplied. Shared property pointer aliases normalize to the lowest original global alias. No complete registry-ID/vtable association, final index, world integration, physics, platform heap layout or address-dependent hash equality is established.','vtables_input':inputs,'initializers':recovered,'properties':properties,'definitions':definitions}
+a.output_dir.mkdir(parents=True,exist_ok=True);p=a.output_dir/'ps4-scalar-block-states.json.gz';p.write_bytes(gzip.compress(json.dumps(data,separators=(',',':')).encode(),mtime=0));print(p.name,'properties',len(properties),'classes',len(definitions),'states',sum(len(d['values']) for d in definitions),'encoders',len({d['get_data'] for d in definitions}),'sha256',hashlib.sha256(p.read_bytes()).hexdigest(),flush=True)

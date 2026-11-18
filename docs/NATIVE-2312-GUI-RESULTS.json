@@ -1,0 +1,482 @@
+{
+  "version": "2.3.12",
+  "ps4_reference": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8e3"
+  },
+  "lce_reference": {
+    "repository": "chrisGrando/MinecraftLCE-7thGen",
+    "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+    "manifest": "LCE-XBOX360-2312.json"
+  },
+  "menu_scale_reference": "PS4-UI-SCALE-2312.json",
+  "network_protocol": 6,
+  "tutorial_save_version": 2,
+  "runtime_environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "optifine": "1.17.1_HD_U_H1",
+    "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+    "lce_look": "2.0.0",
+    "lce_look_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+    "graphics": "Linux / llvmpipe / Mesa 25.0.7"
+  },
+  "limits": [
+    "Native PS4 size stops and HUD ratios are adapted to the separately requested menu control.",
+    "Physical controllers and Apple Retina hardware were not tested.",
+    "Old menu history is recovered only when saved gameplay completion proves it.",
+    "Save/reload uses a private flat world marked as a tutorial and advanced to the original inventory gate; this is not a full tutorial playthrough."
+  ],
+  "automated_suites": [
+    {
+      "tests": 393,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite after Xbox 360, console UI size and tutorial persistence changes"
+    }
+  ],
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Original Xbox 360 XUI/PNG glyphs and Xbox One comparison render at 720p/1440p, shaders OFF/LCE Look",
+      "Console UI Size slider reaches all three stops without changing HUD Size; PS4 crafting, stonecutting, loom and trading retain working mouse actions; cartography, enchanting, brewing and beacon retain real slot pickup/replacement at every stop",
+      "Tutorial/description panels scale independently with original Xbox 360 glyphs at all three stops",
+      "An unfinished inventory guide resumes at its saved task after quitting and loading the same world",
+      "After completing the inventory guide and quitting/reloading again, opening inventory does not restart it"
+    ],
+    "screenshots": [
+      {
+        "file": "view-0-glyphs.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "5e7f624859e9339136d88d9d85ed0934b73d738316b7d0fc7f065758057999d4"
+      },
+      {
+        "file": "view-0-settings.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "455c9cfe1e00667cf3d3a174b9e3f06efe315a7e8f7f68946a075db589a01398"
+      },
+      {
+        "file": "view-0-crafting-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "a1caa707b0c87b9554123725cbd7c77b12d9e101e8f1289da97993308b3678e9"
+      },
+      {
+        "file": "view-0-crafting-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "2eca5bc4e35ffecb5afbd46be10071cd57379766fe9c73863bc3cfbceca55429"
+      },
+      {
+        "file": "view-0-crafting-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "140e219a4df07a0d20750a347e7f05c6343d852e4bc791aa9e0c3ae612846989"
+      },
+      {
+        "file": "view-0-stonecutting-size-1.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "325e8c9e2dc8d6a6359368991fec58d459a2a602c3f6ad8d49ad4da44caed2e7"
+      },
+      {
+        "file": "view-0-stonecutting-size-2.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "6aeadf64e72a8b88b82ebcab7b3f63d5b78fda32036c0334074a361bc2fdd19e"
+      },
+      {
+        "file": "view-0-stonecutting-size-3.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "a18f37d78b1eb34ebf370bdeb4e8a2a56e17eae490763d96e51a2565ac9e2af7"
+      },
+      {
+        "file": "view-0-loom-size-1.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "e6f37477d9641f5d84744d1b1e2727869f6c7c729db366fb168c50d8ecef2b77"
+      },
+      {
+        "file": "view-0-loom-size-2.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "84c43e84614d448549167a1e78298209aba28200c988788ad7a516ae57431c28"
+      },
+      {
+        "file": "view-0-loom-size-3.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "91f2f298a48f496dda2c79455fcf1a3bf6511fc5e776cc842d6099bca909af45"
+      },
+      {
+        "file": "view-0-cartography-size-1.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "7e4a375e0b443ec996997ef04fdde8f146485198b185b0c39f7b4efd56310659"
+      },
+      {
+        "file": "view-0-cartography-size-2.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "b2805a041e3cc1b642f0f8e35718c7d4e71e4ecb2777c169e4634649d9fa6fcc"
+      },
+      {
+        "file": "view-0-cartography-size-3.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "775cb88862eafd3c9d89733025af504a7987f20e2d46c9a36ce6dc1729012b8b"
+      },
+      {
+        "file": "view-0-enchanting-size-1.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "1079d428fdf2351b40abcdcc401cefae003c171dd02a226801de7282a428aa32"
+      },
+      {
+        "file": "view-0-enchanting-size-2.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "9e5f92e0f3d9cc89d053e477a7f3064e4143fb9917e4efd5072e3edd5854a7a6"
+      },
+      {
+        "file": "view-0-enchanting-size-3.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "34e828a921f3c95e2072c6bae47c59d61bd51fd20bedf76f73d9db85975e683f"
+      },
+      {
+        "file": "view-0-brewing-size-1.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "b7d187a806021725d9c853be04db86a7d0f679bfd56182e09afa041b424637d0"
+      },
+      {
+        "file": "view-0-brewing-size-2.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "dad2a5c06df0ac2fd164904ea9295e12c714765c03861c8a2a26b31fec0ec1f6"
+      },
+      {
+        "file": "view-0-brewing-size-3.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "91f883e974a7d089b05637309abed99c85609a7b118597c2d20ec8b976510d4b"
+      },
+      {
+        "file": "view-0-beacon-size-1.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "1d6c0c3a2d43082d17025b6d3cf36790c1e7a092d82603e0ac00b3a85243fae7"
+      },
+      {
+        "file": "view-0-beacon-size-2.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "9c0a1de0e57ca6141c972ccdd37bd6889304f2ef0519583da496dddb5e802c03"
+      },
+      {
+        "file": "view-0-beacon-size-3.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "5b2e079982dd51ffc55ada88c4f2416796a1696d13617e03f84714a36bf7ab94"
+      },
+      {
+        "file": "view-0-trading-size-1.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "a8343327a4704d231ac3cdc54ac895011128bd80262cd6456cc5f96343404efb"
+      },
+      {
+        "file": "view-0-trading-size-2.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "6fdbb7f9a1e8306ff7889f543b46ce92888098cbf21849c164d768d0147df77e"
+      },
+      {
+        "file": "view-0-trading-size-3.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "11b970d50c3f80c794c1e99d6e30dff161cf0b446d64501d59ff0ee0000c9da3"
+      },
+      {
+        "file": "view-0-popup-size-1.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "f1a50c841dbad0dd083a3e0000d291bc0bfbddee7c30fc3e3b5dfef54ab6a085"
+      },
+      {
+        "file": "view-0-popup-size-2.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "657994175f059c49d9a44ab35d8c48984df4ad0e143ab2381879cd01fc9a488b"
+      },
+      {
+        "file": "view-0-popup-size-3.png",
+        "width": 1364,
+        "height": 1024,
+        "shaders": false,
+        "sha256": "119013ec7a576e9174424e915a3fde1c7bf409674f4effbf77b3307dd496f515"
+      },
+      {
+        "file": "view-1-glyphs.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "d109811f7b748903a210845673f7c6d47c6761c56d83e5308df2740bb4ec7b47"
+      },
+      {
+        "file": "view-1-settings.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "fca3889555df71d9e2565397ae3563521a0b36af9a277c5f36f947c479d2dc48"
+      },
+      {
+        "file": "view-1-crafting-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3c8f6d06c46d43d47075cec9c9f87b047b626976783e38a6ca0fa5271c88ce27"
+      },
+      {
+        "file": "view-1-crafting-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c63209aa6874e44d178aa81c29ab5b657dcfeaf50700cd950b35ce35a35b0958"
+      },
+      {
+        "file": "view-1-crafting-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "d5a46c1930134a65d12c7077de9f2b09dd0029f2e24e1c80463472e2aeb496a2"
+      },
+      {
+        "file": "view-1-stonecutting-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "48bba1ca1d57691692519a2f966376a2f194731ac014bc2461c0d67cbd707295"
+      },
+      {
+        "file": "view-1-stonecutting-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ab1d059365235fed3e01a58cd9ce8a4efe15cd5c0d305682d43a1e3bd9b81ded"
+      },
+      {
+        "file": "view-1-stonecutting-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "f14b4b3f0cc60650a568087fbf63f8ea3ce6db09071bca9dc8c7b3dfcda831f2"
+      },
+      {
+        "file": "view-1-loom-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "1fa3c2963c61435c1e6177eb762edfae9849021126aebcac9949f23f97183734"
+      },
+      {
+        "file": "view-1-loom-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "55e6b3c4961012096d2c4d27104e57a77bd66b6eed0f914ab68401868a275742"
+      },
+      {
+        "file": "view-1-loom-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "b1e80526dc2dddf9445a22192b969e45c2bb1e0bc3bd39c64128dea2835473fc"
+      },
+      {
+        "file": "view-1-cartography-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8da9f2aca3963bb02cb5703b30714b612e1bb95e831e1e455b31167acbb7b9a5"
+      },
+      {
+        "file": "view-1-cartography-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "bd5311c4a76374607efbf75b91ebd84d3a5d9f393d30ba8f7861a5967b5f1f8e"
+      },
+      {
+        "file": "view-1-cartography-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "e94dcfb661f3425d50b64144b53ff995cb4fe2f898cc003ea199b307bee87059"
+      },
+      {
+        "file": "view-1-enchanting-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8c03ed77146b348a2b922b6c9525877d0b50f2cab047bf6faf481251154f1387"
+      },
+      {
+        "file": "view-1-enchanting-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "10a6b6c7593402581e90f155616aa4435ee931255034a788f1ddc6ee07e942db"
+      },
+      {
+        "file": "view-1-enchanting-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "85cdce73205803285922c7ccf8329dcdee00caf484e1c06ddd0937fd4dd578df"
+      },
+      {
+        "file": "view-1-brewing-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "151ab28d726c48ddee55fda2b0c3e7d7829c92f75305f13931822f15d4da771c"
+      },
+      {
+        "file": "view-1-brewing-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "d457e24cd014de9c078468416818dde79eab02ee0285e5f17c7bdca0d51ecd6d"
+      },
+      {
+        "file": "view-1-brewing-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "d2728d3fc3203d7102d6b99db2bdad481f10ba0201f2d02415a4364f809de7f6"
+      },
+      {
+        "file": "view-1-beacon-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "205829bf16b492fbd92f59573a0ce120ec43742004c1eb00241d3b922919a5c7"
+      },
+      {
+        "file": "view-1-beacon-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "f40b9a73509c954433d40b7820e8e3f717f88c8475cf8c8eb8f76e260ebfa5fb"
+      },
+      {
+        "file": "view-1-beacon-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "46c3ff34f83d2a03d7490a03369a3f06a46ec4e8668da1e0dc293e2e3b51238e"
+      },
+      {
+        "file": "view-1-trading-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c0d648fa9585e851f963f75d39857bfa1273b88de3f1dc104cc245d06e7b9d89"
+      },
+      {
+        "file": "view-1-trading-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ff1359024d132d0917a141a047be975f2b9399d2aadbe7c68a806b06263a3ee5"
+      },
+      {
+        "file": "view-1-trading-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "01a2ba0b55e3331e7a56d34e496767ddeda0670ef5f0d72e6ffa4aef8c50389a"
+      },
+      {
+        "file": "view-1-popup-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "e17c46eff3b3ac137c1e41648d870751e731eb3951c7d364a8ed35618cb1619f"
+      },
+      {
+        "file": "view-1-popup-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "a8b76030d4f8461081d3957c47d472ba625fa1f1f67c1d9bb0dcbd06070127cc"
+      },
+      {
+        "file": "view-1-popup-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ebb15e6eac2e3836b49a57551eef9e4c35984d3da0f17b031e162fc0207715c0"
+      },
+      {
+        "file": "inventory-before-partial-reload.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "40d1e8064dcbf23631a5ac784ccf3ac17d5bc8188593afe796dc5c60bb199281"
+      },
+      {
+        "file": "inventory-resumed-partial.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "2777215db88ea03ab8249652e78dbababe74169f657ba3787ae6c4027a7968a2"
+      },
+      {
+        "file": "inventory-completed-after-reload.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "817d1e6c8399bc6eccd64215e8ea332f04be322e971afdaf54a349023a5e9589"
+      }
+    ]
+  }
+}

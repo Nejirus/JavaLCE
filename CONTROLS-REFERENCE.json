@@ -1,0 +1,79 @@
+{
+  "lce": {
+    "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+    "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+    "sources": [
+      {
+        "path": "Minecraft.Client/Minecraft.cpp",
+        "sha256": "73da12dd2730e1995e0c46a7aaa37a43d97a1158826868f4cb1611b0405ded34"
+      },
+      {
+        "path": "Minecraft.Client/Orbis/Orbis_Minecraft.cpp",
+        "sha256": "091c8215bc6da517c9fbb7d5f41bd274107eebdad2d9c3a94f8f61b90e550182"
+      },
+      {
+        "path": "Minecraft.Client/PS3/PS3_Minecraft.cpp",
+        "sha256": "07ee906d5b6a45629049ead090770d46ea02c952353c650e48440ca00f47eca8"
+      },
+      {
+        "path": "Minecraft.Client/Windows64/Windows64_Minecraft.cpp",
+        "sha256": "c6b6260f4c0bcedb987901d19a32df07673f11da8438ae509c6dce495cd35aa6"
+      },
+      {
+        "path": "Minecraft.Client/Orbis/4JLibs/inc/4J_Input.h",
+        "sha256": "40cd4f9878b2e52a431d88b5b6d9ce1255b41349b5c16a316a3dc50ebfde0548"
+      },
+      {
+        "path": "Minecraft.World/Inventory.cpp",
+        "sha256": "8453b852b7747725b75a15ae02d9889ab212b75ba35c2ce3fba305d6f3e5f508"
+      }
+    ]
+  },
+  "legacy4j": {
+    "repository": "https://github.com/Wilyicaro/Legacy-Minecraft",
+    "revision": "f49505dab97480f687025f8a54208d2caa3ff86c",
+    "sources": [
+      {
+        "path": "src/main/java/wily/legacy/client/LegacyShieldControls.java",
+        "sha256": "572344b39cfa2981f0d1603af802fbe32cc007bec69f800878d606001e701d3c"
+      },
+      {
+        "path": "src/main/java/wily/legacy/mixin/base/client/MinecraftMixin.java",
+        "sha256": "c5765d343ae5c6f99041978e484d35158466bba016743c649710f861b99f4432"
+      },
+      {
+        "path": "src/main/java/wily/legacy/client/LegacyOptions.java",
+        "sha256": "8cb69486f5a752beb6f03ed5d3843440bc41cd23d10c9c20bd48d52b2b1dedc4"
+      },
+      {
+        "path": "src/main/java/wily/legacy/util/LegacyItemUtil.java",
+        "sha256": "09e675b68f69dde5869a227f81c793d0b5809518a2e0c9482f06a8bc734d9b03"
+      }
+    ],
+    "license": {
+      "source": "LICENSE.md",
+      "destination": "licenses/Legacy4J-controls-LICENSE.txt",
+      "sha256": "34d186fb42921073b7ca7ec12b36955bae1453687bf099da046ae5a4f310b970"
+    }
+  },
+  "hotbar": {
+    "delay_ms": 300,
+    "repeat_ms": 200,
+    "immediate_press": true,
+    "priority": "left when both repeat",
+    "wrap_slots": 9,
+    "source_calls": "GetValue(LEFT_SCROLL,true), else GetValue(RIGHT_SCROLL,true); Inventory::swapPaint"
+  },
+  "shield": {
+    "setting": "Settings > Control > Crouch to Shield",
+    "default": false,
+    "source_behavior": "offhand-first automatic shield use on crouch; release before attack/use/pick; native item use and cooldown; skip manual shield use; only suppress native release for the owned automatic shield",
+    "java_adaptations": [
+      "Local client preference instead of the newer gamerule.",
+      "Strict crouching: mounted players and creative flight descent do not automatically block.",
+      "Wake, resume and boat-exit input guards take priority.",
+      "Native Java 1.11.2 blocking delay, durability, axe cooldown and server transactions remain."
+    ]
+  },
+  "assets": []
+}

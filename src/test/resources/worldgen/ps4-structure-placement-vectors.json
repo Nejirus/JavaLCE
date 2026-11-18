@@ -1,0 +1,613 @@
+{
+  "cases": [
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 0,
+      "origin": [
+        -32,
+        0
+      ],
+      "matches": [
+        [
+          -19,
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 0,
+      "origin": [
+        0,
+        -32
+      ],
+      "matches": [
+        [
+          7,
+          -20
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": [
+        [
+          21,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 1,
+      "origin": [
+        -32,
+        0
+      ],
+      "matches": [
+        [
+          -9,
+          22
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 1,
+      "origin": [
+        0,
+        -32
+      ],
+      "matches": [
+        [
+          18,
+          -17
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 1,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": [
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 2,
+      "origin": [
+        -32,
+        0
+      ],
+      "matches": [
+        [
+          -19,
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 2,
+      "origin": [
+        0,
+        -32
+      ],
+      "matches": []
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": []
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 3,
+      "origin": [
+        -32,
+        0
+      ],
+      "matches": []
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 3,
+      "origin": [
+        0,
+        -32
+      ],
+      "matches": []
+    },
+    {
+      "seed": 0,
+      "worldChunks": 54,
+      "spacing": 32,
+      "separation": 7,
+      "attempts": 60,
+      "salt": 10387312,
+      "filter": 3,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": []
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 0,
+      "origin": [
+        -80,
+        0
+      ],
+      "matches": [
+        [
+          -23,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 0,
+      "origin": [
+        0,
+        -80
+      ],
+      "matches": [
+        [
+          41,
+          -31
+        ]
+      ]
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": [
+        [
+          36,
+          1
+        ]
+      ]
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 1,
+      "origin": [
+        -80,
+        0
+      ],
+      "matches": [
+        [
+          -16,
+          43
+        ]
+      ]
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 1,
+      "origin": [
+        0,
+        -80
+      ],
+      "matches": [
+        [
+          63,
+          -56
+        ]
+      ]
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 1,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": [
+        [
+          22,
+          2
+        ]
+      ]
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 2,
+      "origin": [
+        -80,
+        0
+      ],
+      "matches": [
+        [
+          -23,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 2,
+      "origin": [
+        0,
+        -80
+      ],
+      "matches": []
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": []
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 3,
+      "origin": [
+        -80,
+        0
+      ],
+      "matches": []
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 3,
+      "origin": [
+        0,
+        -80
+      ],
+      "matches": []
+    },
+    {
+      "seed": 123456789,
+      "worldChunks": 192,
+      "spacing": 80,
+      "separation": 6,
+      "attempts": 40,
+      "salt": 10387319,
+      "filter": 3,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": []
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 0,
+      "origin": [
+        -10,
+        0
+      ],
+      "matches": [
+        [
+          -7,
+          1
+        ]
+      ]
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 0,
+      "origin": [
+        0,
+        -10
+      ],
+      "matches": [
+        [
+          2,
+          -7
+        ]
+      ]
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": [
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 1,
+      "origin": [
+        -10,
+        0
+      ],
+      "matches": [
+        [
+          -10,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 1,
+      "origin": [
+        0,
+        -10
+      ],
+      "matches": [
+        [
+          4,
+          -10
+        ]
+      ]
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 1,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": [
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 2,
+      "origin": [
+        -10,
+        0
+      ],
+      "matches": [
+        [
+          -7,
+          1
+        ]
+      ]
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 2,
+      "origin": [
+        0,
+        -10
+      ],
+      "matches": []
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 2,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": []
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 3,
+      "origin": [
+        -10,
+        0
+      ],
+      "matches": []
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 3,
+      "origin": [
+        0,
+        -10
+      ],
+      "matches": []
+    },
+    {
+      "seed": -1,
+      "worldChunks": 320,
+      "spacing": 10,
+      "separation": 5,
+      "attempts": 20,
+      "salt": 14357617,
+      "filter": 3,
+      "origin": [
+        0,
+        0
+      ],
+      "matches": []
+    }
+  ]
+}

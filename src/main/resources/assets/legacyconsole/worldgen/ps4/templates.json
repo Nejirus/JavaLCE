@@ -1,0 +1,3152 @@
+[
+  {
+    "index": 0,
+    "path": "igloo/igloo_top",
+    "source_address": "0xeb9afc",
+    "source_sha256": "c94d246787019bc7ea951831903b7e6161350068e159628754b30ac89287fbb8",
+    "gzip_sha256": "7fdf30585c01adc541b1620c87fe45b2bce45d088e5714561c5e56c9084c80e6"
+  },
+  {
+    "index": 1,
+    "path": "igloo/igloo_middle",
+    "source_address": "0xeb9b1c",
+    "source_sha256": "acf16313470620866f2b75bb9bac4747b73fdeae4fd88e4395c0aa8b57023f9a",
+    "gzip_sha256": "9c2d3e07a61769ec14a189aa15c7790d1f0a400f764d1d8bd9847fdbe4559a5d"
+  },
+  {
+    "index": 2,
+    "path": "igloo/igloo_bottom",
+    "source_address": "0xeb9b42",
+    "source_sha256": "55fe5d88463539c3765ca12ec5c5abae5717311c38e8993d5f55709314d4c5ac",
+    "gzip_sha256": "472c059b3c88defc5751ad2eed516ddfc5f519f5cb9fb54a5bf14041348b7c99"
+  },
+  {
+    "index": 3,
+    "path": "fossils/fossil_spine_01",
+    "source_address": "0xeb9b68",
+    "source_sha256": "3396070cb2de3cc76303d985f86338ecdc36b1524997b64919ac138d97005838",
+    "gzip_sha256": "673eb91d464ce7881940bbae2411e5ccb16f7e284bff7417957b65bbaec54768"
+  },
+  {
+    "index": 4,
+    "path": "fossils/fossil_spine_02",
+    "source_address": "0xeb9b98",
+    "source_sha256": "a29f4487dc78de0ccad87e0cab2898d9ca70dc1823e7d52098c98b36db709f3b",
+    "gzip_sha256": "efd99eed1cb660f027abbb9b82568064c0963e0de500c96bcf4ce82977b8cbee"
+  },
+  {
+    "index": 5,
+    "path": "fossils/fossil_spine_03",
+    "source_address": "0xeb9bc8",
+    "source_sha256": "6e1f495cf3f57566363aed00bbc82e235489175c6899b562d75a0c40323d8731",
+    "gzip_sha256": "3b50828db7fdd94babce5b94b34917ed277b74be27c75f57cff2fea9866ee39f"
+  },
+  {
+    "index": 6,
+    "path": "fossils/fossil_spine_04",
+    "source_address": "0xeb9bf8",
+    "source_sha256": "db528b01ac46c43391a8cfc3f017f6bf17d67f5a6bf891c9de86779476c8c99b",
+    "gzip_sha256": "c5bd72015e88b3d068eca6bfbf5709f59a965be009f32847cde80f4110c9ca58"
+  },
+  {
+    "index": 7,
+    "path": "fossils/fossil_spine_01_coal",
+    "source_address": "0xeb9c28",
+    "source_sha256": "be24de5a9387fc511e006c490e7313881af7fb0ea316bac0e0669ae9e6b55441",
+    "gzip_sha256": "b267a6d0574f44337c907e8062d07429ffbd922a536eadec64cdad504cca4479"
+  },
+  {
+    "index": 8,
+    "path": "fossils/fossil_spine_02_coal",
+    "source_address": "0xeb9c62",
+    "source_sha256": "8fa8d82ddf1a0e89b631acd3fa5094144e57f0c1eb92fa3deb5ab483e8b008ee",
+    "gzip_sha256": "cf3f2f57a2e9f7d9a3f981b34fb200d45cfb0bd40351dfe5febe2cf8ced129b6"
+  },
+  {
+    "index": 9,
+    "path": "fossils/fossil_spine_03_coal",
+    "source_address": "0xeb9c9c",
+    "source_sha256": "8050df6ff0d5946c3b14bd1bb1cb951eff173027de0b1fbe097eb99cf0309081",
+    "gzip_sha256": "8b52477527b4bfad66699d7b4a729da2f7aa35d87690a2b82127070458e03e9b"
+  },
+  {
+    "index": 10,
+    "path": "fossils/fossil_spine_04_coal",
+    "source_address": "0xeb9cd6",
+    "source_sha256": "89f69577e2d94223a737255798e2ed48c2e23e820f62c608b89057aae086f899",
+    "gzip_sha256": "cf16b88574da440e4ac5d307cc0be7fc48543c53ed8619794d7ea5717083d31d"
+  },
+  {
+    "index": 11,
+    "path": "fossils/fossil_skull_01",
+    "source_address": "0xeb9d10",
+    "source_sha256": "249d733c8ec12485ea9e6064a8e33a38f8ec4f9521f4b7bbf903c56fcd1ef262",
+    "gzip_sha256": "8c3ecda6deb84ee7d22b4097ef72e2460651de36a2c318eb17cde0aaa974448a"
+  },
+  {
+    "index": 12,
+    "path": "fossils/fossil_skull_02",
+    "source_address": "0xeb9d40",
+    "source_sha256": "4d56ed57ef64faa9c41e75807b950134c9ecefa795e4ddb25f8d67864fde9e4c",
+    "gzip_sha256": "f7ecb93a9f216564863aba2282acae30cf0af6ab99e8ad7a718a1877be7b7155"
+  },
+  {
+    "index": 13,
+    "path": "fossils/fossil_skull_03",
+    "source_address": "0xeb9d70",
+    "source_sha256": "bd422e1fc337014a586d1a7bebbff3614837439a6ae742d1f528d78c177d4a34",
+    "gzip_sha256": "5783c08ef2364f29cc5c318af7d32551a35eb5a7f11057832652b7d867023064"
+  },
+  {
+    "index": 14,
+    "path": "fossils/fossil_skull_04",
+    "source_address": "0xeb9da0",
+    "source_sha256": "80f0414dec6e6d5fe957023e329ee6acef7386b8b66f384bdf723b9d9d6ac7ed",
+    "gzip_sha256": "782e80de907383a59093f57e54a75b85a0b74f942736c43d59a8f809db8da859"
+  },
+  {
+    "index": 15,
+    "path": "fossils/fossil_skull_01_coal",
+    "source_address": "0xeb9dd0",
+    "source_sha256": "78be327a4248b97b18a126b9e03612e8d06ef46c6e073707ac60fd5fe4a2b6b3",
+    "gzip_sha256": "c8c359dc6e4fcf5cd7683f11940a7fbd5bd5dafd967a7a9b50ac7620cd80a204"
+  },
+  {
+    "index": 16,
+    "path": "fossils/fossil_skull_02_coal",
+    "source_address": "0xeb9e0a",
+    "source_sha256": "5df00deb63dc702256840e96d025a0774b71b7dbb4fc3688400a774f656344f4",
+    "gzip_sha256": "5faf1d7aff14bcea84ee5573a7235a6f4820403e2e7b170bf3c97103d542f06a"
+  },
+  {
+    "index": 17,
+    "path": "fossils/fossil_skull_03_coal",
+    "source_address": "0xeb9e44",
+    "source_sha256": "4cb05938c6105d831c2756ca30c4add9e046f8f1b7b2d21d187536bd33d73fd5",
+    "gzip_sha256": "adf09db79e41b56a78ab8eecf707d4db0396f3b28216a10adca32f2e3c3a426b"
+  },
+  {
+    "index": 18,
+    "path": "fossils/fossil_skull_04_coal",
+    "source_address": "0xeb9e7e",
+    "source_sha256": "1617757f45074c56e417a3cf9dae9288f613c0823256c01489834bef9edefe82",
+    "gzip_sha256": "344750fcd68c29b2fb0144b13f03ee2146e9a32b51805bb1c0d615455c48482e"
+  },
+  {
+    "index": 40,
+    "path": "mansion/carpet_south",
+    "source_address": "0xeba22a",
+    "source_sha256": "a299412a409058b28f3a728aec15995aa4ba672a9b70cc047a600cdfa95aa3a5",
+    "gzip_sha256": "f43af9a847322a80b8d08e1af2582b774d7b4e44d9ee5691e1866011e3980995"
+  },
+  {
+    "index": 41,
+    "path": "mansion/carpet_south_2",
+    "source_address": "0xeba254",
+    "source_sha256": "4a02a7a5c480d0931ac60f2afd042a7796d6bb7cdc724191fb4f2f094ad63a22",
+    "gzip_sha256": "4b59163752124d99bee5683f26445837a6bb7507f2907a1bc579df323a0e0864"
+  },
+  {
+    "index": 42,
+    "path": "mansion/carpet_west",
+    "source_address": "0xeba282",
+    "source_sha256": "29bd6d391703b0eb2c774a1a4ffe608fb3cc92ef7b7f19323edba5ee9cb8637f",
+    "gzip_sha256": "d45d2aa78bcd637722d4bf971463910f0df795f28427a5e46a916c6b7942c213"
+  },
+  {
+    "index": 43,
+    "path": "mansion/carpet_west_2",
+    "source_address": "0xeba2aa",
+    "source_sha256": "855740fd855ad284c68a7a2315764ae3f74b111021b5976565148d255582c6cf",
+    "gzip_sha256": "2d19f89d7824ad06b3333b9f2dd0c4f0e3499cc7486d69d9971469aa2fd321d8"
+  },
+  {
+    "index": 44,
+    "path": "mansion/carpet_north",
+    "source_address": "0xeba2d6",
+    "source_sha256": "343601f2cdb22fb6bdb7e76dd4f762c715a366555eb362c991c786a37b820303",
+    "gzip_sha256": "a89c1eeaad2144c7d5791c5dca10f1948adcea7123c67bdcba8a879d212ff2a5"
+  },
+  {
+    "index": 45,
+    "path": "mansion/carpet_east",
+    "source_address": "0xeba300",
+    "source_sha256": "5d9d148b4b07663698bcdd7e7d03e6f05b7b6426951986e6a57d73c485996c16",
+    "gzip_sha256": "71c0c695b6b24ab9f203a8bb7a810d8a0e3b49bff76e0873437681048297a402"
+  },
+  {
+    "index": 46,
+    "path": "mansion/corridor_floor",
+    "source_address": "0xeba328",
+    "source_sha256": "00f597447bea1468717a3f62b2c3382b81e8be0ceebd8d13dcd18c94ea90998a",
+    "gzip_sha256": "7c45746352c1e328b7aec1a29b5811b034dbb63b0f11942e8ee6f6fd537f85f4"
+  },
+  {
+    "index": 47,
+    "path": "mansion/corridor_floor_2",
+    "source_address": "0xeba356",
+    "source_sha256": "5054d27e4d7f08c95a743098ef1d9b9864013b9f874cdb45b412e555a62b6ad1",
+    "gzip_sha256": "a5fbc3d9311e58a4daf8121d74784fe5eef2ae7fca96a49b18283d081c3c5666"
+  },
+  {
+    "index": 48,
+    "path": "mansion/indoors_wall",
+    "source_address": "0xeba388",
+    "source_sha256": "f714347bfde1fda62cc2e6a57d7c91a8a1f5767346c23ba14f4b11bcd0745299",
+    "gzip_sha256": "c109c1752c4c6c17ab48cf5f8fe08d183ba000f3199d49dca88ea18164d5d442"
+  },
+  {
+    "index": 49,
+    "path": "mansion/indoors_wall_2",
+    "source_address": "0xeba3b2",
+    "source_sha256": "d30b51ed3c922a5b1bc946d8ad1ea14158820583aa320cd4b0a49209432dcd96",
+    "gzip_sha256": "56667802189cd66c5b0ba6311f5e379912a9959325412f6ee37f88333975558c"
+  },
+  {
+    "index": 50,
+    "path": "mansion/indoors_door",
+    "source_address": "0xeba3e0",
+    "source_sha256": "4cce0e87ce3d09496efe15f34583e1503db88910032234b11f26e788fba73be5",
+    "gzip_sha256": "e6aa6596255097b76be4cce0c4667f22b339a5204607718563bdfae78b4b1fef"
+  },
+  {
+    "index": 51,
+    "path": "mansion/indoors_door_2",
+    "source_address": "0xeba40a",
+    "source_sha256": "c6da99597fedcf7c578c5e2a310f2019c48ddd0cd06020395d2ab707585d9c1c",
+    "gzip_sha256": "f84de8162cdb8b82acf3490ebc17ce42373f4e342716fb45b349c6429808bed2"
+  },
+  {
+    "index": 52,
+    "path": "mansion/roof",
+    "source_address": "0xeba438",
+    "source_sha256": "8a0fdf233b6c3690f015e987fa95f7f0875ba9b0fc56952e2b0b3cbf6d9f6c63",
+    "gzip_sha256": "c7f0a2303f70402d109fc38b5f62b3a833e9ae9836518fc55edd900599b4146d"
+  },
+  {
+    "index": 53,
+    "path": "mansion/roof_front",
+    "source_address": "0xeba452",
+    "source_sha256": "a09cb3458fbaae8df6a331c86c49961078df39e0a650f4e4891ed64a43577ec5",
+    "gzip_sha256": "d9f78792baf6d4fcdc6c5be109f8d7f9b4f6d41b116430df362cbd305ddb34d8"
+  },
+  {
+    "index": 54,
+    "path": "mansion/small_wall",
+    "source_address": "0xeba478",
+    "source_sha256": "4d02a540397ab230307fb98d20bf6bc432dd08c9c2a6cc8519ae6b17e496ec65",
+    "gzip_sha256": "f48994d59aca06e431bbfd5ed0ec759f71e7db002484947c580ab2375153262f"
+  },
+  {
+    "index": 55,
+    "path": "mansion/small_wall_corner",
+    "source_address": "0xeba49e",
+    "source_sha256": "1b68592e2ab5b17d05301558154fe7463b13cfb2cfcad81fa2bf1af4755d488d",
+    "gzip_sha256": "fd2f0759cddd2adefe9e197b276464747014c166e5f409f6be953b6060c77332"
+  },
+  {
+    "index": 56,
+    "path": "mansion/roof_corner",
+    "source_address": "0xeba4d2",
+    "source_sha256": "ede2d11b13092660542300c4773a356a4de1a8b505e12f947a0ee082d48f4d10",
+    "gzip_sha256": "67d433dffe3cf0fa63dc1214107749aa2e38bc50149138a28dc267578f8dd078"
+  },
+  {
+    "index": 57,
+    "path": "mansion/roof_inner_corner",
+    "source_address": "0xeba4fa",
+    "source_sha256": "893bae559dda49e6c0e8e875c4d3b50d1823294d3a2b42868bfe26db664b8b91",
+    "gzip_sha256": "88ee8b2b164a8a60e8d76459a26b998bff8f2f832d870f039d76e91ebb0e9ec6"
+  },
+  {
+    "index": 58,
+    "path": "mansion/entrance",
+    "source_address": "0xeba52e",
+    "source_sha256": "5c3e695e318f50ee19cd316abb2249acd7262d54c68c2ea0943db8c4597144be",
+    "gzip_sha256": "33eca139c0fd511a8c7125a5c5bf906de5e93a7ccf48748a3dec06f5e3aecb62"
+  },
+  {
+    "index": 59,
+    "path": "mansion/wall_corner",
+    "source_address": "0xeba550",
+    "source_sha256": "9e5f3495c4d0cd9ab58b25bc9ae421ff17c792888b21bf77f12cbe62406bbb87",
+    "gzip_sha256": "881fc9756b27a86d6d443e03e0627f368637f4a6c796e053ef0e12c2d0f5e8a6"
+  },
+  {
+    "index": 60,
+    "path": "mansion/wall_flat",
+    "source_address": "0xeba578",
+    "source_sha256": "485cc88c55ead7a7abe4b6e82747bf6a8e798bfbf6b4a3ada28c1780be027668",
+    "gzip_sha256": "0f7f7e23d0f97d349f7ce2603496cf7f8dcaa9ff88dbba13dace5eafa0760805"
+  },
+  {
+    "index": 61,
+    "path": "mansion/wall_window",
+    "source_address": "0xeba59c",
+    "source_sha256": "fd311e3db866493f7bf3a243f12393d10fe1ff4e7d58c4d9935a73df1dcea262",
+    "gzip_sha256": "d9e8746eca7de6cfd828d878128479d91b7ec0f88c5abb1a50612e52bed9ae41"
+  },
+  {
+    "index": 62,
+    "path": "mansion/1x1_a1",
+    "source_address": "0xeba5c4",
+    "source_sha256": "bb3dec0edff9dd106edc9922fe76ff30fd258a3e5b3a6c091cec2b01d0073d2c",
+    "gzip_sha256": "f95c252caf887a337a091b73e60df1862c6f13480e4d45c65d4fd831a278c80f"
+  },
+  {
+    "index": 63,
+    "path": "mansion/1x1_a2",
+    "source_address": "0xeba5e2",
+    "source_sha256": "45fb34d839a7bae44ffee23535ed37327dd3f588315977c5cf9df571d6fb3f19",
+    "gzip_sha256": "321232b8488e32b5d81377d8a8d181dc7b8d3ae25b4db51f5af5e4da0a110a83"
+  },
+  {
+    "index": 64,
+    "path": "mansion/1x1_a3",
+    "source_address": "0xeba600",
+    "source_sha256": "54bf4d84588406921cdf912ca053edd1bbf33b04aa2ea0916eeb460b79e55c47",
+    "gzip_sha256": "594aae1e789211b5858696d6aa7573032f824b1f5eb304a9244b381d719305ab"
+  },
+  {
+    "index": 65,
+    "path": "mansion/1x1_a4",
+    "source_address": "0xeba61e",
+    "source_sha256": "c16102cb1d56903879df4edfeb86eff57979404ae51dd72e15835c262b98db0e",
+    "gzip_sha256": "ae408873ee0ef78df854fa038d750cf3583f58c6e6c3e5f171ab23f53a7b1829"
+  },
+  {
+    "index": 66,
+    "path": "mansion/1x1_a5",
+    "source_address": "0xeba63c",
+    "source_sha256": "e2c701cc8be3dcd6cc6840d38ca5c0070813303bb30ea0e3166f76aeb07632c3",
+    "gzip_sha256": "12722f9259caaf986ae7aae73e7619d01548d1ff88bbd4e1e2578c710d83b2df"
+  },
+  {
+    "index": 67,
+    "path": "mansion/1x1_as1",
+    "source_address": "0xeba65a",
+    "source_sha256": "5039cc64f1c6c033954bc46a48aeabd1cbd897caee23b1ab660cde5a8f3816a9",
+    "gzip_sha256": "881d0a51dbdf761f6cc7f01cd8c4d58c32806599423e48e8f1293abe812eec6e"
+  },
+  {
+    "index": 68,
+    "path": "mansion/1x1_as2",
+    "source_address": "0xeba67a",
+    "source_sha256": "498875119adf9d985407e84750cd64a649e300c638927c41043f881fd90e5f1a",
+    "gzip_sha256": "23c6e1c977e9d09f521655ddd420d14a0af2a164ff81190753ff00091a55ec84"
+  },
+  {
+    "index": 69,
+    "path": "mansion/1x1_as3",
+    "source_address": "0xeba69a",
+    "source_sha256": "bf067ce4ed2ed3277891de15f30073218f9ed5b041e7b8d0ff94cae9fd9621f7",
+    "gzip_sha256": "0996ddd169b11e552ecc05ab1c73b47f71e43a862b6aad35b2eb8a449b310212"
+  },
+  {
+    "index": 70,
+    "path": "mansion/1x1_as4",
+    "source_address": "0xeba6ba",
+    "source_sha256": "2010f872fece0b5ff1e54e5ca89a97ac672391660a77708d5211ec1c8c4d1e80",
+    "gzip_sha256": "7f76da5e1e033c878c87ae9a8afce0fa4d49460e5a9184b6b10e87adc8a96e54"
+  },
+  {
+    "index": 71,
+    "path": "mansion/1x1_b1",
+    "source_address": "0xeba6da",
+    "source_sha256": "49d46c8e71d86bc307c9017461bcf1d0e6d15165092a9d039966553aa16c5ef6",
+    "gzip_sha256": "3e1486a0aa23bb196ddb04fc5d0918ab45bda9ee0f90527c7aa2e54f5b65cbed"
+  },
+  {
+    "index": 72,
+    "path": "mansion/1x1_b2",
+    "source_address": "0xeba6f8",
+    "source_sha256": "94ec077d9e4a8663e59378ea148322cb4c214ec6797c83123c578a9d60c2d603",
+    "gzip_sha256": "552d5f696e6775bd01ff14c832efaec700d320351d3b862116925f53a85b4d65"
+  },
+  {
+    "index": 73,
+    "path": "mansion/1x1_b3",
+    "source_address": "0xeba716",
+    "source_sha256": "fd0817b6f3d5abf3d59db3b316c713bb6bca887a918ee743cec21054f3bb2250",
+    "gzip_sha256": "d8f955a598c3eb54ee78be47527c5538f12e5febd3782abeca6eccbcdb4f7ec3"
+  },
+  {
+    "index": 74,
+    "path": "mansion/1x1_b4",
+    "source_address": "0xeba734",
+    "source_sha256": "37c6a79c6c2ad9cec2101c591c6ad2a0bf35a7d87e2711de303aebfb0abaebc6",
+    "gzip_sha256": "89bf64e042b96d3a69fb56685b4b1a8c8af48df8ef35f59432755406e6905006"
+  },
+  {
+    "index": 75,
+    "path": "mansion/1x1_b5",
+    "source_address": "0xeba752",
+    "source_sha256": "28586206e3ae30809b4d8645a0d856844bd6c093d3f35fd3f2c47919295e6ab2",
+    "gzip_sha256": "723f3489d793c0cf2608203898e6b963b57d6425a7d07b7c7ddd6a426251a872"
+  },
+  {
+    "index": 76,
+    "path": "mansion/1x2_a1",
+    "source_address": "0xeba770",
+    "source_sha256": "eb77aa128e5f2c5e3b851b74a3fa357b07b3332779069ccdfcf9a3a324dce4e2",
+    "gzip_sha256": "64408f9a6eba60886c8e989be6821dc8b0ee216815ddef0f1c07bbe6b860acb8"
+  },
+  {
+    "index": 77,
+    "path": "mansion/1x2_a2",
+    "source_address": "0xeba78e",
+    "source_sha256": "0c160961660391d009122be9c2768e74e7edda8ad4f302a65f581202276fe50f",
+    "gzip_sha256": "22e1e879268cbf3e9eb3df13bc4b36ba86dace87c2ddaf75c23af6dae81db1bc"
+  },
+  {
+    "index": 78,
+    "path": "mansion/1x2_a3",
+    "source_address": "0xeba7ac",
+    "source_sha256": "b72ba054571c77753912f43083f515228e6480626c3e05eb8244f92b7cce143f",
+    "gzip_sha256": "959c8f8351886ba2a925a827178311e59c54e455d89fd042b9a913293d980534"
+  },
+  {
+    "index": 79,
+    "path": "mansion/1x2_a4",
+    "source_address": "0xeba7ca",
+    "source_sha256": "8e897ed66ef37683c8aefb5ef58ec2ce5cc87935f2764afaf2041e05aa3927ad",
+    "gzip_sha256": "c8708437d381eaa07f0deb11734b53f06b548a1bab7dd85dd06c6256de2e047e"
+  },
+  {
+    "index": 80,
+    "path": "mansion/1x2_a5",
+    "source_address": "0xeba7e8",
+    "source_sha256": "a22b0e9416d3d6c6882ee88d174399ab09ef529abaafb7e3683be58fba225960",
+    "gzip_sha256": "a69263315512944e8ec65d6cfc72cdf675b66843b3ebacc34f0cf2be9d9d69ca"
+  },
+  {
+    "index": 81,
+    "path": "mansion/1x2_a6",
+    "source_address": "0xeba806",
+    "source_sha256": "55e30c27a06b64524d791acbcaef136c1c784205db50d3fd9eac0b937292b071",
+    "gzip_sha256": "c9efd26b0019338755a50f5d2426bef9fb79b13e073beb0ad44d79d143bb8931"
+  },
+  {
+    "index": 82,
+    "path": "mansion/1x2_a7",
+    "source_address": "0xeba824",
+    "source_sha256": "02ccb98949f85b143cb5ad877f66d5e886e71f3209533c69bb24b33cccfcb0ef",
+    "gzip_sha256": "3def59455adb4dc0479493ca849b1a4de9e42fbc56a186494098647a8ee75d6a"
+  },
+  {
+    "index": 83,
+    "path": "mansion/1x2_a8",
+    "source_address": "0xeba842",
+    "source_sha256": "6cb68fb3599d95ba833fcaf1c685729d0d7c4f5bc5a058c2ee598c7d66dedbef",
+    "gzip_sha256": "44a9de63aa31534844e6b729e8f75162b06f6fe492db8705aec34fa03705ddba"
+  },
+  {
+    "index": 84,
+    "path": "mansion/1x2_a9",
+    "source_address": "0xeba860",
+    "source_sha256": "a66fb587965b97b52cae7073ee0911b39a6e34522d67c2930e4414128779c4b8",
+    "gzip_sha256": "dfb2edb377762e3780dccd22f2704c5e9db9503f00d45c4dd190bedb5d95fb14"
+  },
+  {
+    "index": 85,
+    "path": "mansion/1x2_b1",
+    "source_address": "0xeba87e",
+    "source_sha256": "8e7e3f3bb85de685859d28bdb266cfa65c838602f4451c08a988566d61732fea",
+    "gzip_sha256": "068d4f86af1ec3712e42c39fa8e187b069c56b6eb11411346a195bd846dff276"
+  },
+  {
+    "index": 86,
+    "path": "mansion/1x2_b2",
+    "source_address": "0xeba89c",
+    "source_sha256": "e7dddd87ab28df82e21911290af2e14f83e18ee4b5f71e90ffa326331c524198",
+    "gzip_sha256": "66cc336204f9e203549a21ef6f38cb7f1360a28249e0d997060fc47f0d579e8b"
+  },
+  {
+    "index": 87,
+    "path": "mansion/1x2_b3",
+    "source_address": "0xeba8ba",
+    "source_sha256": "5ef6f31292cd0b3dd16844be1a0628d729a02acfd958ff163be401a401d841b8",
+    "gzip_sha256": "cbd3e62e1e97ba3b0fb6994a99e029950913d6b4c8c9e0311145445ddc952a47"
+  },
+  {
+    "index": 88,
+    "path": "mansion/1x2_b4",
+    "source_address": "0xeba8d8",
+    "source_sha256": "3f0508d2dddc04b3feb3134b47a01a5fc863db71b0c0caea9faaa103cfb16578",
+    "gzip_sha256": "fc0916e3b846d0a3234bc99ce3fe4e7d52cd9030a0fa68e35a5f03fd32c69353"
+  },
+  {
+    "index": 89,
+    "path": "mansion/1x2_b5",
+    "source_address": "0xeba8f6",
+    "source_sha256": "0eec4fc75ee2abb05b5ceba7f8d99d6f56b589bb80e96f88edfcacc8dfcb10bb",
+    "gzip_sha256": "8c2b7a661312b27b2cb1cbbfc0e11b095a0355ed5c3ba4f38e362eeb5dd0ad0a"
+  },
+  {
+    "index": 90,
+    "path": "mansion/1x2_c_stairs",
+    "source_address": "0xeba914",
+    "source_sha256": "d0a976718e1d346d28c145078a6127618341f6a1efd041ae7f264d6dc73f8231",
+    "gzip_sha256": "856c1848b8ef35c91d1796152cbe0353aa67bf7fb6bf2b00e34de1998b2d2117"
+  },
+  {
+    "index": 91,
+    "path": "mansion/1x2_c1",
+    "source_address": "0xeba93e",
+    "source_sha256": "031bd9f7141fb31521fcc3b82a46dc841f47fccd9a381adf2acfb1c3ebe5eb8a",
+    "gzip_sha256": "45e417ac5900a9c67d72846ab4b495a15917e28c02a83fbece6b46398daa358c"
+  },
+  {
+    "index": 92,
+    "path": "mansion/1x2_c2",
+    "source_address": "0xeba95c",
+    "source_sha256": "e7056c717700707208f2a5929a86c1c7b91f59713c4bc9eaffa8e1623016e198",
+    "gzip_sha256": "52a5b4eecd295e159dd4eab13a577dfe100d79f75d7bd05bc48b47cdf7779182"
+  },
+  {
+    "index": 93,
+    "path": "mansion/1x2_c3",
+    "source_address": "0xeba97a",
+    "source_sha256": "0a04f22fe499294f637ce639586dc1e80f27fe9a5673c88e85167d088a1e2176",
+    "gzip_sha256": "855748d8cc6a186c35fb535961c7bde4ebf5f4e98dfe5f423f4112cc9b9ebc16"
+  },
+  {
+    "index": 94,
+    "path": "mansion/1x2_c4",
+    "source_address": "0xeba998",
+    "source_sha256": "77761ec435d9708fbe6a63c3a80dbb8a508bf0ce030f14b5a9c8c1c963e96854",
+    "gzip_sha256": "a7312dbdfa25674e9cd970f4df1ed50ca44242e9077da4abaecc4a732bceaa20"
+  },
+  {
+    "index": 95,
+    "path": "mansion/1x2_d_stairs",
+    "source_address": "0xeba9b6",
+    "source_sha256": "83afbfb5b9d9ecb1395285ef04ec64615bdd66156e3618e2e9d6bd55e77ff913",
+    "gzip_sha256": "1c26f1c656b084457849ac5c2ad3c8110cffca2f26e809becf916228c7b0e6d5"
+  },
+  {
+    "index": 96,
+    "path": "mansion/1x2_d1",
+    "source_address": "0xeba9e0",
+    "source_sha256": "33dfdfde40140866867211947f44c2fdab2962eacae8bb437cb441ccb13001df",
+    "gzip_sha256": "65a27913c31c64f2efce7aa744fb3c28524d85036ee435c39c8a67bc9c41088c"
+  },
+  {
+    "index": 97,
+    "path": "mansion/1x2_d2",
+    "source_address": "0xeba9fe",
+    "source_sha256": "97586ebc17ac4beaace44086d7863669cffce5b2078f37235bc78cb068019076",
+    "gzip_sha256": "eb0296c693e4a77aa167f978ff45537677818f11f0c2f35b53f2410491d9b1a1"
+  },
+  {
+    "index": 98,
+    "path": "mansion/1x2_d3",
+    "source_address": "0xebaa1c",
+    "source_sha256": "31904a716e027c984e872d61e1cb1f7aef52b97a1b8b2e07f2fa3a25d02a9859",
+    "gzip_sha256": "f4fae8bb3e898f701b9a53338033d6b2c80e6bcd5b0e458991bf4e45d233e98e"
+  },
+  {
+    "index": 99,
+    "path": "mansion/1x2_d4",
+    "source_address": "0xebaa3a",
+    "source_sha256": "3b6358e36e884443f286dee418deb485be8fbdefbc22c49dc31d79ad0f449471",
+    "gzip_sha256": "cbeabc4b2eff2c2591cf653f9db325094a5ed00bf20742cc76b1f340404dc98a"
+  },
+  {
+    "index": 100,
+    "path": "mansion/1x2_d5",
+    "source_address": "0xebaa58",
+    "source_sha256": "650523fd4a8bc145d58c471d952ce8cc06e219db496588f74c5a08217ead1bb6",
+    "gzip_sha256": "6d0eadc21f76ce130ba2edf62aa402799d4bd5ac3bc3585d7a2de42d95408e33"
+  },
+  {
+    "index": 101,
+    "path": "mansion/1x2_s1",
+    "source_address": "0xebaa76",
+    "source_sha256": "a01ee1c7199478c8c484f93c3fcc5cd9eeadeecc99ddd6ba34b589a1f0a6f1f2",
+    "gzip_sha256": "6b4b6ab5eadf0a485627863d739b5a34c99c2b791d4b7576fc31d555a3deb8e0"
+  },
+  {
+    "index": 102,
+    "path": "mansion/1x2_s2",
+    "source_address": "0xebaa94",
+    "source_sha256": "9f5dc0afc8712d4d897f0fc333c50b6bafee6a37999675d5a9bc21ae9f429348",
+    "gzip_sha256": "ed0b5137773cba03fdfd1631882c1f8ab9dd0a548493e1ba2b80122d358a86b5"
+  },
+  {
+    "index": 103,
+    "path": "mansion/1x2_se1",
+    "source_address": "0xebaab2",
+    "source_sha256": "aea3764a4fefefea51da047448a9472f5fa3ba33d1f219d88c3054694cf40550",
+    "gzip_sha256": "37d8d1aec0fdec78dbb16e77b193a048dc1de3dc891b12241a2da20b5ede26aa"
+  },
+  {
+    "index": 104,
+    "path": "mansion/2x2_a1",
+    "source_address": "0xebaad2",
+    "source_sha256": "000d2f37ff8ed918220fff2e165d10a0a5be5249f0debf43ee5cdb9529df9ce4",
+    "gzip_sha256": "47eb3395272760af3cecf433cd2b0a6e2d1cb2c58f064d7f5d2afb890c778bab"
+  },
+  {
+    "index": 105,
+    "path": "mansion/2x2_a2",
+    "source_address": "0xebaaf0",
+    "source_sha256": "be9725fda3a3f14b90053ddcecacc96e368b63248a7076a3be1b8537badc9bf6",
+    "gzip_sha256": "e13ad57ca0f959f78f22f370e9b22973a0f723d7ccec4db627a8b67523b6cf62"
+  },
+  {
+    "index": 106,
+    "path": "mansion/2x2_a3",
+    "source_address": "0xebab0e",
+    "source_sha256": "2b5057ed9ac0c7486a0d9545fdcd0eea32b4b212542ec821dfc1854023759be7",
+    "gzip_sha256": "1864d621ca8380c4b70a57b05f023bbc6d3d42de872b6567a14bbf81a6e02dfb"
+  },
+  {
+    "index": 107,
+    "path": "mansion/2x2_a4",
+    "source_address": "0xebab2c",
+    "source_sha256": "2c6c35d75a6a69546ce600bc92c4f012b54886f29ab9a7f815e6b383dea10bef",
+    "gzip_sha256": "377be78f388e13f807212a3cdc382137f65419b1240ea926859e5b0da0abb867"
+  },
+  {
+    "index": 108,
+    "path": "mansion/2x2_b1",
+    "source_address": "0xebab4a",
+    "source_sha256": "1b480d19e3786a93feefba58dacffa3d5c977cb6bbdcbfcb4ab5e13809b4633e",
+    "gzip_sha256": "9db97caaccd2a4a87a49dae2da8e4dea6da2d8590ffdae500da9ab3ff494030e"
+  },
+  {
+    "index": 109,
+    "path": "mansion/2x2_b2",
+    "source_address": "0xebab68",
+    "source_sha256": "8bd4a1938fd183cd730e69a37b666138bff133129407ab9efac8f1ad9e451006",
+    "gzip_sha256": "18fc66b1599c66b91dbcf90d0fcffcaad6987a6376218cc5350356bdb01c9ab7"
+  },
+  {
+    "index": 110,
+    "path": "mansion/2x2_b3",
+    "source_address": "0xebab86",
+    "source_sha256": "78e899a0d58a560da62303635b2f95aa68e397cdcd14e66f473105e0b52109e9",
+    "gzip_sha256": "eb184c31eb0a5f0949e97b216fc40f82adb7fbddedd100a2427c77e3b4977dd3"
+  },
+  {
+    "index": 111,
+    "path": "mansion/2x2_b4",
+    "source_address": "0xebaba4",
+    "source_sha256": "5f4d0e7f04409e2be99535fef20f16ba078dbd69b0ace1ee85b6d9a178f4438c",
+    "gzip_sha256": "b84f6a2c190dcb46549785416cff34ee29120558a6674f38910dcc2b6bbfa85e"
+  },
+  {
+    "index": 112,
+    "path": "mansion/2x2_b5",
+    "source_address": "0xebabc2",
+    "source_sha256": "acd612872c75cb925d51645b37f25e243802b772506e04606fd33dc8a0555176",
+    "gzip_sha256": "9d227396eab613200b905201903ba1c683b50aaa3bd389c09df83a07435d05a6"
+  },
+  {
+    "index": 113,
+    "path": "mansion/2x2_s1",
+    "source_address": "0xebabe0",
+    "source_sha256": "8d1d831faa62b6616d24657f7a30a644dfc381c952280394caeb7267549896aa",
+    "gzip_sha256": "3850ee0a3b83d9c2fc63207124a32ed79fd338b283eadb92d1b9374b27fe7889"
+  },
+  {
+    "index": 114,
+    "path": "shipwreck/swwithmast",
+    "source_address": "0xebabfe",
+    "source_sha256": "13b5e4cf7cb3e332673ede47d23e7b9b49d8213337484d6fd8835b0e23cb6f41",
+    "gzip_sha256": "9c8d78a6ba6a69baf1c3b336d30041700fab461102fa1cbadcf6d75147786067"
+  },
+  {
+    "index": 115,
+    "path": "shipwreck/swupsidedownfull",
+    "source_address": "0xebac28",
+    "source_sha256": "2270495441712013ad6b2b7195fdbdac5c5a17c25582a84dc5540ae26746766e",
+    "gzip_sha256": "a068f13caf7af9850e5fdb101834da28f9c0a7242c2d001f6eddad1a0ae3130b"
+  },
+  {
+    "index": 116,
+    "path": "shipwreck/swupsidedownfronthalf",
+    "source_address": "0xebac5e",
+    "source_sha256": "8c0abbf3f4c7e933312025194f31100f93268edf1fc508795ba6c502e3ce55bf",
+    "gzip_sha256": "adda02ae94c645b4f07a05cd7edcc12a6e75712b5f8553e54f02ab27d58aa75b"
+  },
+  {
+    "index": 117,
+    "path": "shipwreck/swupsidedownbackhalf",
+    "source_address": "0xebac9e",
+    "source_sha256": "c84264e347bae8a4f0e11f645237d80fdee4ff880d6e5a98aade3ad009fe2404",
+    "gzip_sha256": "71a471b6d13b6dc3b2d9b612e25cad4c7df541cc09f3adc301f4ce7e75877182"
+  },
+  {
+    "index": 118,
+    "path": "shipwreck/swsidewaysfull",
+    "source_address": "0xebacdc",
+    "source_sha256": "db2b049dd9838bfaccf9b936096df3226af09e13e831fc4618f206541c2e012b",
+    "gzip_sha256": "38b186f20f6166c013694696fbe4b644db61ffe1a60a9006ecf09b9cf1c52413"
+  },
+  {
+    "index": 119,
+    "path": "shipwreck/swsidewaysfronthalf",
+    "source_address": "0xebad0e",
+    "source_sha256": "7af2d587832e9e6dde7ca0e4a696c2be113716dbd2c617c7bff84b28e5e5ca29",
+    "gzip_sha256": "728b67236540fabd574d31a7158f7aad6429bc919b5ae3446ce6cc8e56a71fbb"
+  },
+  {
+    "index": 120,
+    "path": "shipwreck/swsidewaysbackhalf",
+    "source_address": "0xebad4a",
+    "source_sha256": "a2814035814879036b62dccd9072d96549e1c8de0bdd6734729bd25086e8f774",
+    "gzip_sha256": "b921617c28976ed6aec32789dd841bf758c5d257993578191190b0d9e2cbad00"
+  },
+  {
+    "index": 121,
+    "path": "shipwreck/swrightsideupfull",
+    "source_address": "0xebad84",
+    "source_sha256": "dbda9eb2d080ad73c9332d9e83d153bfc0f755e511db6b4432bb4c482d4b0265",
+    "gzip_sha256": "d329b76c28bac4d81de45b781c916a17e8b29205f0eaff06de20d980217550d0"
+  },
+  {
+    "index": 122,
+    "path": "shipwreck/swrightsideupfronthalf",
+    "source_address": "0xebadbc",
+    "source_sha256": "8cfc87c1daa96fcfb6aeb2c6e1dd1a80b539d45dff981ec28dfffa34b7f77376",
+    "gzip_sha256": "81ecdad06f158d1644baefaf1e9f9afa8f36605af89546da5fff6efd77bd6c8c"
+  },
+  {
+    "index": 123,
+    "path": "shipwreck/swrightsideupbackhalf",
+    "source_address": "0xebadfe",
+    "source_sha256": "bccba60618bc13bb538b7dacf15fbc3070b0dd7274e5240e3250224f67f4d35b",
+    "gzip_sha256": "db2cf44103058a08c9d4d40474b8e259f546e7989a5e38941579cfd4bea6155f"
+  },
+  {
+    "index": 124,
+    "path": "shipwreck/swwithmastdegraded",
+    "source_address": "0xebae3e",
+    "source_sha256": "8456a0e884c0217ca694c34e4ff84674c0c5b4a321fee453cfede62815a1ba5d",
+    "gzip_sha256": "3f4f25abf15160243aca7dd79ec7ef827fd379e160c870b96c00b3dc95af053b"
+  },
+  {
+    "index": 125,
+    "path": "shipwreck/swupsidedownfulldegraded",
+    "source_address": "0xebae78",
+    "source_sha256": "99f96435f53869fcbee48e17c8fdbf3da44f6e7ba4cc1303a02329110fe772b3",
+    "gzip_sha256": "ce822d55ffb14fa47f6f0b7d97d5f65dae3ed8ffa4565906a493e7ff10cee547"
+  },
+  {
+    "index": 126,
+    "path": "shipwreck/swupsidedownfronthalfdegraded",
+    "source_address": "0xebaebe",
+    "source_sha256": "1c9c2f4f22aa721ec9a95ccec56d36183c62c5f674c6a834788148a2a4b7482a",
+    "gzip_sha256": "529721eeee09d616f25bd8cea91e7a659a8b13c59b194d769b5a1940fe13f1d5"
+  },
+  {
+    "index": 127,
+    "path": "shipwreck/swupsidedownbackhalfdegraded",
+    "source_address": "0xebaf0e",
+    "source_sha256": "a5a862b7c3f7ffa12c105533309bf25ae206d0e5aa15706fd76ecc14c1b7d3c5",
+    "gzip_sha256": "040a358e324de636259f7cf1873c6a8a793ba2f68e973578d784cedec391b725"
+  },
+  {
+    "index": 128,
+    "path": "shipwreck/swsidewaysfulldegraded",
+    "source_address": "0xebaf5c",
+    "source_sha256": "1ebbb32ad6db3ea5f36726b0767cbd1d54cef86ee8bd9fdfee089552dc2cf910",
+    "gzip_sha256": "420a10cee7875d90cb0158d147844f0d8e354d8e81742ba889fea7dac022a8e9"
+  },
+  {
+    "index": 129,
+    "path": "shipwreck/swsidewaysfronthalfdegraded",
+    "source_address": "0xebaf9e",
+    "source_sha256": "4bf152ede69e93dda54f204204b0240411a1b29056ab4624e3942d9cb1a196c0",
+    "gzip_sha256": "8ffc0608d3607ec1b017c069c310d5a30e82e8d3eb4f528baa6ec4e470a80f43"
+  },
+  {
+    "index": 130,
+    "path": "shipwreck/swsidewaysbackhalfdegraded",
+    "source_address": "0xebafea",
+    "source_sha256": "2b97c6dbed3cc67abf7ab5695bb907ce5bb0fcb285a9df321e0cc4232bd4dbfb",
+    "gzip_sha256": "63af0e871d054568876e7a8182162d35c53bcca840842183311634537e0a1bd8"
+  },
+  {
+    "index": 131,
+    "path": "shipwreck/swrightsideupfulldegraded",
+    "source_address": "0xebb034",
+    "source_sha256": "c96c5df80637bf1407232c5fcf5200c66bbf09d7bf4aa87712f1cea6b2981606",
+    "gzip_sha256": "6ca3f28319f417944a7fbe40d2f920bdbdcbf28aaac889a5ac070aea3ebd74a6"
+  },
+  {
+    "index": 132,
+    "path": "shipwreck/swrightsideupfronthalfdegraded",
+    "source_address": "0xebb07c",
+    "source_sha256": "9be1dec923036e2656a5208bae5f79c4e010fa693fb271d139136bfc498566d1",
+    "gzip_sha256": "9cf286427fd6c35798da0aaf7f8803f6a53402ae68f5f53564ba6b05b2e631b0"
+  },
+  {
+    "index": 133,
+    "path": "shipwreck/swrightsideupbackhalfdegraded",
+    "source_address": "0xebb0ce",
+    "source_sha256": "97d295b1c6d4655adbb4e6161a654e3e8674838351c7f4fcd3576a795444e305",
+    "gzip_sha256": "e4fd268ac5272f9ef7539b118fa29c5c9e9bb499a8b6374f6483b00adc4bed30"
+  },
+  {
+    "index": 134,
+    "path": "ruin/big_ruin1_brick",
+    "source_address": "0xebb11e",
+    "source_sha256": "c97a55d89c68795cc6f79fd8b839cf8ff5bfd4471147a67f7f920ae4f4bbb240",
+    "gzip_sha256": "21c7ba33073b7241f792e8d0434048433a4462ca31254781320e4642e3618eea"
+  },
+  {
+    "index": 135,
+    "path": "ruin/big_ruin2_brick",
+    "source_address": "0xebb148",
+    "source_sha256": "a3f3734110f88bb51a39b8b7f288a0004905e923f3e051120a9f62e25eddc8bd",
+    "gzip_sha256": "c3c76ed33dedbbb7bdf5670080b7152eaaa4cc2a3a8d2784c49847734dcbee36"
+  },
+  {
+    "index": 136,
+    "path": "ruin/big_ruin3_brick",
+    "source_address": "0xebb172",
+    "source_sha256": "25beb4a3b5c9729f532e5d1eb8db9ad2a578c311e88baf127abdc6dacecfb906",
+    "gzip_sha256": "2a5b80ba0387cb26d3d311a581113c8b1ae042b7431dbe96b8bb4daba41c7555"
+  },
+  {
+    "index": 137,
+    "path": "ruin/big_ruin8_brick",
+    "source_address": "0xebb19c",
+    "source_sha256": "9030f17b2931eb5d963eac227d477eb7c86e24ccf4d15bbec7171ebdc62c4408",
+    "gzip_sha256": "43be2618a0c70cddfdb8468214728b0b719e3a52a185332ae70c9efae8be940e"
+  },
+  {
+    "index": 138,
+    "path": "ruin/big_ruin1_mossy",
+    "source_address": "0xebb1c6",
+    "source_sha256": "ffce69f0852e3067fc1e7215f58a8e0a94baf712e79690bfe72298cac0ef0d6c",
+    "gzip_sha256": "9783f270005a49aa54f74b32e2a42784c126d1e638cb01030dc58a4859e39f38"
+  },
+  {
+    "index": 139,
+    "path": "ruin/big_ruin2_mossy",
+    "source_address": "0xebb1f0",
+    "source_sha256": "89523545d63b9b739a3ff79c0fbcd20836a9459fc6527309b212d5e74175e7a5",
+    "gzip_sha256": "f12cd38a62a0a7b19db17a0a1c3936dec2dae585495893d1bb0ae070f29fc032"
+  },
+  {
+    "index": 140,
+    "path": "ruin/big_ruin3_mossy",
+    "source_address": "0xebb21a",
+    "source_sha256": "97941154a32c550751e3c0687e3e9195234af83157b8986c883063cf6d907b49",
+    "gzip_sha256": "6794ca2dce6e2ec20d0a059a7f32269b407dd92c71e2cb3edf8a294bba9f37ba"
+  },
+  {
+    "index": 141,
+    "path": "ruin/big_ruin8_mossy",
+    "source_address": "0xebb244",
+    "source_sha256": "8c28f419837832b0bb272836c4839d18757f95b979418730c07c703b592fc755",
+    "gzip_sha256": "f293ffd156515dac6786781beebd8c7975a8824ab861eff2e6b75766240a9dc6"
+  },
+  {
+    "index": 142,
+    "path": "ruin/big_ruin1_cracked",
+    "source_address": "0xebb26e",
+    "source_sha256": "e3586a1b224651e3da57b4422abae1bdef40a6154b5f97ea950c9bf8ee39a84e",
+    "gzip_sha256": "f9124c34b5cf773374b0826ba1ad227291bc1c4d1ec05747587f2e034611c607"
+  },
+  {
+    "index": 143,
+    "path": "ruin/big_ruin2_cracked",
+    "source_address": "0xebb29c",
+    "source_sha256": "a66fcccceb3c275a94bdc38e8c9fb5b98552ff991acef3fc4d7aa78ed9642d98",
+    "gzip_sha256": "6e6e23ee16598d13c65f323690b575ba5a9d3859f9b643f6a9da1d9b5575721e"
+  },
+  {
+    "index": 144,
+    "path": "ruin/big_ruin3_cracked",
+    "source_address": "0xebb2ca",
+    "source_sha256": "e0081d6cd88584530665d96ce5be6ec3dc45f7a7ccdadab8114387fb7e8c8a92",
+    "gzip_sha256": "6fc948c55d5606191655b44dabe42da5421e929062b9c002f27e7cb0d08646d6"
+  },
+  {
+    "index": 145,
+    "path": "ruin/big_ruin8_cracked",
+    "source_address": "0xebb2f8",
+    "source_sha256": "d8891d34b16e6a6b804b1d3d289345808caeec1ba41c733c8dfc4c197f8e6977",
+    "gzip_sha256": "1916964bf9d0c63e1cb46ea3abdd59640a46d8b8daac17927d2ff0b21ca0f9bd"
+  },
+  {
+    "index": 146,
+    "path": "ruin/big_ruin_warm4",
+    "source_address": "0xebb326",
+    "source_sha256": "04f6919857fb867f0155beff68fbe77b8833437e7621dfe0955efea085476a41",
+    "gzip_sha256": "97bd97bff91299c93a9ea24831a5cc1dde975e956103e0e2d2c8a230b15d18f5"
+  },
+  {
+    "index": 147,
+    "path": "ruin/big_ruin_warm5",
+    "source_address": "0xebb34e",
+    "source_sha256": "c6d979e53c54d3866eee5cd4c27a15daf14cfbf69ccb3d80eed4d7d7fe6cbef5",
+    "gzip_sha256": "7f5f6007b4176e02662b008d8a7277b6550311b35a83f93e9e0351252faa9a6a"
+  },
+  {
+    "index": 148,
+    "path": "ruin/big_ruin_warm6",
+    "source_address": "0xebb376",
+    "source_sha256": "be9f8a0cb63122f4951e730c38022520352a0a1133fa4c99570f5a5ebf2f94cf",
+    "gzip_sha256": "6877df6c2b2d66b5b3e8d34938bbaf8edf8d6b6f6e98c8e50828e7b5f2ac773d"
+  },
+  {
+    "index": 149,
+    "path": "ruin/big_ruin_warm7",
+    "source_address": "0xebb39e",
+    "source_sha256": "1a6d85919c3011d12bb901775d8f537284ee7b4a0cf137984743b7bbdb26c240",
+    "gzip_sha256": "6e54f4451b6b3134ccc34de4c1f0fa0a90a81774d437a19ac21a401b9748634d"
+  },
+  {
+    "index": 150,
+    "path": "ruin/ruin_warm1",
+    "source_address": "0xebb3c6",
+    "source_sha256": "056b2ed81dfbbe47cd02b839fe93c768b12c7d4c56081195549f5ef3ca801ef0",
+    "gzip_sha256": "8d745ff2f77ab8d50d18285df7bf92cd428e18d1123210be1cb0a8372e210d26"
+  },
+  {
+    "index": 151,
+    "path": "ruin/ruin_warm2",
+    "source_address": "0xebb3e6",
+    "source_sha256": "a9825a1f5c6cb5f924e6faaaf16daf7540e6a982da7351e424aa28bb6d7cdc28",
+    "gzip_sha256": "836afd69816bf1786163931958b6ce6850a47749af238b23162f0f2838319729"
+  },
+  {
+    "index": 152,
+    "path": "ruin/ruin_warm3",
+    "source_address": "0xebb406",
+    "source_sha256": "0194dd633850a686aeae32e5efdd9becbafb215f1d6430f30db1413fcde3ea72",
+    "gzip_sha256": "3112cd2e1dbcaa88fb1cc6005a9580d932e37747ddfd7b0f25b52c25b6dc1a3b"
+  },
+  {
+    "index": 153,
+    "path": "ruin/ruin1_brick",
+    "source_address": "0xebb426",
+    "source_sha256": "90368d8c3b4f01dc5564cd5dc63ddb62250920091b29db783fc088789c924e56",
+    "gzip_sha256": "608d7783a96adc3fb2fc68dc9301738e1cc5fb414e4fb9a157820efd7ed02e13"
+  },
+  {
+    "index": 154,
+    "path": "ruin/ruin1_cracked",
+    "source_address": "0xebb448",
+    "source_sha256": "d3bd092b152e4d61498056c6732ae7d3ab32863c0fa2bd544867bf4f87f91966",
+    "gzip_sha256": "a6faf68f47aa008b0e1de271e890bdfd32bbf55145c505471afdc789f461e23d"
+  },
+  {
+    "index": 155,
+    "path": "ruin/ruin1_mossy",
+    "source_address": "0xebb46e",
+    "source_sha256": "d64916da37a441681cf4b5d126032ddafc7aa59dfd8483938c4b1222eb31facd",
+    "gzip_sha256": "ead98d1c7031954a5780eabe839ae3a9b6367b0ead987f28d4ecba7ba5fd037b"
+  },
+  {
+    "index": 156,
+    "path": "ruin/ruin2_brick",
+    "source_address": "0xebb490",
+    "source_sha256": "4c492314eeaf9c8fef29a54c58f2f2cbe6c2d526fdd9dbce3bbea3838920518d",
+    "gzip_sha256": "8306a3d2d8ca538d4a90bb4116f663227a9429444a21e6196b03f316c2961094"
+  },
+  {
+    "index": 157,
+    "path": "ruin/ruin2_cracked",
+    "source_address": "0xebb4b2",
+    "source_sha256": "cb5277f164648b5c73f7e4ceeb64fcb035ebbd726e67219f7a65c6b7a5cf9d50",
+    "gzip_sha256": "a0eca3c0116c20a7e3ad8d0a7fa83fb1d088587b21eae6f600387ffa86c54bd0"
+  },
+  {
+    "index": 158,
+    "path": "ruin/ruin2_mossy",
+    "source_address": "0xebb4d8",
+    "source_sha256": "0ad57fb5997879a428ba70b89747c0587789990f7595611ebdc0bfa5c65a991a",
+    "gzip_sha256": "f4f69212f27e9689e4b0d0d05c140f5a4c2f0f8266592e95900d31854f231b34"
+  },
+  {
+    "index": 159,
+    "path": "ruin/ruin3_brick",
+    "source_address": "0xebb4fa",
+    "source_sha256": "a783d898ebb963b99c26895d8ff736f7a8628dfd9d285b2cd4ea2ed6c2643d43",
+    "gzip_sha256": "d3c552fdb0e5ea61dc9f57d2ccdc521979d039b36fce83ed0bf293fc21aeb4d2"
+  },
+  {
+    "index": 160,
+    "path": "ruin/ruin3_cracked",
+    "source_address": "0xebb51c",
+    "source_sha256": "73604159fba62a06eafac434f2560e4a1b3b1505fb91f09bf637125738ec67b1",
+    "gzip_sha256": "0b9deefe34c26c6e066e63fb5ba2902c2e8c3f15ddcf8ab7aa5effaba94752f4"
+  },
+  {
+    "index": 161,
+    "path": "ruin/ruin3_mossy",
+    "source_address": "0xebb542",
+    "source_sha256": "0160e7aa5a17378792d82495e905e2ec97815d1771c77b07b4d13200e8f7ff1a",
+    "gzip_sha256": "8d33f810e540e5cd8cecb49aeef1c1572b25c6c6b59f0f2f458bd05eebde74be"
+  },
+  {
+    "index": 162,
+    "path": "ruin/ruin4_brick",
+    "source_address": "0xebb564",
+    "source_sha256": "e257248fd522239039c9093075ee16246e6a860343f278685c02d886f18b6ca9",
+    "gzip_sha256": "a842368a6fcfe0a10f2fb5a6a26b3cef37586954b51dff8e40f8594b613366bc"
+  },
+  {
+    "index": 163,
+    "path": "ruin/ruin4_cracked",
+    "source_address": "0xebb586",
+    "source_sha256": "879125f90f374fda6459180744b5cd3c1c380533b7f15ebbfb2b951df224da67",
+    "gzip_sha256": "f23528987c46b3b1a39580f04dd7477f6a2a71338be531777422e53627c082cf"
+  },
+  {
+    "index": 164,
+    "path": "ruin/ruin4_mossy",
+    "source_address": "0xebb5ac",
+    "source_sha256": "2e1873228904be7544dc57b7ea8cc24c5ac50c74a6fd01e11f1171fb5fe94117",
+    "gzip_sha256": "ea300a829bd7da35da1112cb0753c2c305131005ad3d9f3d0f050131e961b81a"
+  },
+  {
+    "index": 165,
+    "path": "ruin/ruin5_brick",
+    "source_address": "0xebb5ce",
+    "source_sha256": "bc0166ad78fb93b39b58d3a61470c3eef5dcf280060fef6565045700abbc432f",
+    "gzip_sha256": "5cbf0840697997c2ee84babf121a72ab25e40df6dbbb371726eb70e9ccb8d054"
+  },
+  {
+    "index": 166,
+    "path": "ruin/ruin5_cracked",
+    "source_address": "0xebb5f0",
+    "source_sha256": "0c9ba0cb8a97396733bffe76518402f2556fed11ab4c6ac349a53e19045b3c3a",
+    "gzip_sha256": "280337f8a2a9a6d10d17f9ebf9d8964be91dbea8a5dad21f256d85adc5358591"
+  },
+  {
+    "index": 167,
+    "path": "ruin/ruin5_mossy",
+    "source_address": "0xebb616",
+    "source_sha256": "fa413d4e3fc2461a38d1b90c2f4ab3f877be40ea15fad7230f0b4d5afee46ac4",
+    "gzip_sha256": "0ba8a4d7add33fa4f98cbe139f1a434285ef9c78924842797da0496a378ab105"
+  },
+  {
+    "index": 168,
+    "path": "ruin/ruin6_brick",
+    "source_address": "0xebb638",
+    "source_sha256": "a968d91e8a163913706e0b3d274fcbb68d9709cbd59c29323211f65555970a0e",
+    "gzip_sha256": "349bcf5abd1974d7c6bd0fe1c082fa3b90ad0da9722d4ca55663b1b1c3dc213b"
+  },
+  {
+    "index": 169,
+    "path": "ruin/ruin6_cracked",
+    "source_address": "0xebb65a",
+    "source_sha256": "e9a1cec6805d2b89ded275c4b12d76fdfd2c20e1af34a2471db6aacd151baa08",
+    "gzip_sha256": "e408743fb612b6fd2dc294ab94f99a7e4f13d556b09c078bc4425a1d973f7bdd"
+  },
+  {
+    "index": 170,
+    "path": "ruin/ruin6_mossy",
+    "source_address": "0xebb680",
+    "source_sha256": "891124113bf7934af017ac4028f46b4d7eceefec9bcba5bd66220ae9852e6a31",
+    "gzip_sha256": "4a62dcbf77a8fb439e05df8c8a2c0da877d69fdca53e10237708276314142535"
+  },
+  {
+    "index": 171,
+    "path": "ruin/ruin7_brick",
+    "source_address": "0xebb6a2",
+    "source_sha256": "9e367ead736307cf1f31133eb9a8871f1e7ac7e541425bbd9472b428e0469e11",
+    "gzip_sha256": "de8197382a5441744d289a33bb954b8ba038c53acbd0b10a7048a811b0960f24"
+  },
+  {
+    "index": 172,
+    "path": "ruin/ruin7_cracked",
+    "source_address": "0xebb6c4",
+    "source_sha256": "32ed3ccf219ad2a21839f62821e57ca1e3c9f38aa5407b78265e78c9b434da77",
+    "gzip_sha256": "620c806af06b4b7aaa66ec4638ee95fdca55f0939356094bdf5f75fe62f29fa4"
+  },
+  {
+    "index": 173,
+    "path": "ruin/ruin7_mossy",
+    "source_address": "0xebb6ea",
+    "source_sha256": "2c19747ef314edc5b8841e74c90c815b546270f2c1e574c1568a8dabc624483f",
+    "gzip_sha256": "b50e3c68b50aa66be33c30a6747128cd5d67dfebc5ec2d781d248428148b7201"
+  },
+  {
+    "index": 174,
+    "path": "ruin/ruin8_brick",
+    "source_address": "0xebb70c",
+    "source_sha256": "5580a700c8b52588d9cb2d2215654a0725c7b74ded099740332fd64c21bdc476",
+    "gzip_sha256": "383a15334206ce0884d3e3a64f029642ecf156d0ae1a4e656fe251c5564ca6ea"
+  },
+  {
+    "index": 175,
+    "path": "ruin/ruin8_cracked",
+    "source_address": "0xebb72e",
+    "source_sha256": "6cb175089b501e0d98b8e5e0b54ea5256c5ab83cb9930c0cf580b99d3478c83a",
+    "gzip_sha256": "7ea4ab727dabb3002d84f1e7d7cd45bc79966953f12843929218504827d0501e"
+  },
+  {
+    "index": 176,
+    "path": "ruin/ruin8_mossy",
+    "source_address": "0xebb754",
+    "source_sha256": "a89edc63295c58b0b3a6d49c3d8eb80fdafd736cded4c5f452ed2bed29ee0485",
+    "gzip_sha256": "fa61bd2665e71e795e7a946379286bdb917f0433ae62643f8758a40d1d6b5eeb"
+  },
+  {
+    "index": 177,
+    "path": "coralcrust/crust1",
+    "source_address": "0xebb776",
+    "source_sha256": "f938353307f33855fb80b5b7f2a233a925944df412fc01423ed13b52517ffed3",
+    "gzip_sha256": "0cb3db9706bf08b8b211cc2b18bc31ef3504a443dc3e9f0d4ec902e2dce0b314"
+  },
+  {
+    "index": 178,
+    "path": "coralcrust/crust2",
+    "source_address": "0xebb79a",
+    "source_sha256": "ff1c50239c4f92b2fb460d311eb33097481a5202ae5aed6960cfaed43015ad6f",
+    "gzip_sha256": "4c85b9129528c365e95c3facf435c3aaf5d9492192fd34c38d6c4a46933c17c2"
+  },
+  {
+    "index": 179,
+    "path": "coralcrust/crust3",
+    "source_address": "0xebb7be",
+    "source_sha256": "66fd4a424c42b3683d17668c39799a13828261172592b689f91f196d4f6c14d2",
+    "gzip_sha256": "39380549a232553217a24132e4b08abe05b61229852dab9f80c3280a90f665af"
+  },
+  {
+    "index": 180,
+    "path": "coralcrust/crust4",
+    "source_address": "0xebb7e2",
+    "source_sha256": "750589a800f74d86ee7c6db2c9165cb0e2de1667721fc1de33f3f3b3fa17f7d2",
+    "gzip_sha256": "2c8443e0de231577ce0df38d6e696a2960baa5194403a54ef9446f0315490d22"
+  },
+  {
+    "index": 181,
+    "path": "coralcrust/crust5",
+    "source_address": "0xebb806",
+    "source_sha256": "b96cedb4eba394a7d73aec8e1575e3353182e500dd92cad5409b95c476ae3797",
+    "gzip_sha256": "a3b2ded2e6d77117953d8083ed47c201d79a20b06100b1bb850a28f70b12c76f"
+  },
+  {
+    "index": 182,
+    "path": "coralcrust/outcropping1",
+    "source_address": "0xebb82a",
+    "source_sha256": "b4c23fc26fd686e3b174d2bec03a07c7c463113b6169eea3abcdf51632a4bd02",
+    "gzip_sha256": "a4efa5b3d9c44161bb8f996cb5a99c4e738877d54140cedd396cb3c801c452e6"
+  },
+  {
+    "index": 183,
+    "path": "coralcrust/outcropping2",
+    "source_address": "0xebb85a",
+    "source_sha256": "d5f0dc17abb771578f60998573f87e88c9c0f4ad5cf0ca2fa4e4bbbab9640571",
+    "gzip_sha256": "584d056904068f07ab305afa8a5360c9a16e819f308ae6d0e0da52187eeaeb0c"
+  },
+  {
+    "index": 184,
+    "path": "coralcrust/outcropping3",
+    "source_address": "0xebb88a",
+    "source_sha256": "10184c294c27b58f545d31b44c4975c5a1412f71773392b77f2af5a7ed685d42",
+    "gzip_sha256": "889eedf37590a74e65010beb66e2bdcdac962f8241fb1c188e48605a2d753855"
+  },
+  {
+    "index": 185,
+    "path": "coralcrust/outcropping4",
+    "source_address": "0xebb8ba",
+    "source_sha256": "51a3704bc29111abdafc7a15ebbd859631c7966c8cb60deb21b273ac84024703",
+    "gzip_sha256": "102fbea643e046877e593ff0efe8b0b7675ae674547474616109706e4e06b8b1"
+  },
+  {
+    "index": 186,
+    "path": "coralcrust/outcropping5",
+    "source_address": "0xebb8ea",
+    "source_sha256": "8a0241f76fe66e77d624f7da5b55e585441999b77412cda0d41d4273782125e9",
+    "gzip_sha256": "478f645c227636854cb6dd70be93f5dcb7ffa7daea392b48150e9692e0844325"
+  },
+  {
+    "index": 187,
+    "path": "coralcrust/outcropping6",
+    "source_address": "0xebb91a",
+    "source_sha256": "0c1454a08e202bb497e248344c7ae84ce828d2a3349a661ffc5ea12a92f57c09",
+    "gzip_sha256": "eb70e7ad1e143a169b2ce7e7bea29f1a2862c3d01719ecbac90b712a3f500d16"
+  },
+  {
+    "index": 188,
+    "path": "pillageroutpost/feature_cage1",
+    "source_address": "0xebb94a",
+    "source_sha256": "41524b9f00fd432b176a86344546315f0f5f4f7057e132db3827ae96d952bfd8",
+    "gzip_sha256": "c7487b6b75feeb3387ce100c96ca95307f2d5edc6c1339615f34f8eb06d85091"
+  },
+  {
+    "index": 189,
+    "path": "pillageroutpost/feature_cage2",
+    "source_address": "0xebb986",
+    "source_sha256": "c080dc8bba99d54691fed4f8dcd786ddb7a573cbe3c1d3176aa914cfd4f698f7",
+    "gzip_sha256": "ab6367f677df14d2a19c91a07ce60ae926adccb58226c0bfc04fe663587bad85"
+  },
+  {
+    "index": 190,
+    "path": "pillageroutpost/feature_logs",
+    "source_address": "0xebb9c2",
+    "source_sha256": "67c3f32cee7d9f93a99953bbb502138af6466152df4681b64f1e4f2c70406f6e",
+    "gzip_sha256": "9ce49e8bc4a4ba3d8d7ee6273ea01e7dfdf3a89104252e3b03f5da386f2e9856"
+  },
+  {
+    "index": 191,
+    "path": "pillageroutpost/feature_targets",
+    "source_address": "0xebb9fc",
+    "source_sha256": "39b42f04cc8ca345e8f0b03e8a350a3172b4f3e5b974b043a2b8ed75daaa4970",
+    "gzip_sha256": "2b971153a0c7f72ce929515a47401a9726734307f22383d383824fa2b551168a"
+  },
+  {
+    "index": 192,
+    "path": "pillageroutpost/feature_tent1",
+    "source_address": "0xebba3c",
+    "source_sha256": "927862fcec188a6a0e42949a0b5a848ac90b89a6239faffdacef6eda3dab42c4",
+    "gzip_sha256": "23607f8da07f82ff66dabff37a0985612a9419675ee961bf5f9bb01f8ebab76d"
+  },
+  {
+    "index": 193,
+    "path": "pillageroutpost/feature_tent2",
+    "source_address": "0xebba78",
+    "source_sha256": "e52e7b8d27502472cb6c47620774b9c18712dba69105c1313c8aa334b70ea54d",
+    "gzip_sha256": "c59f9df17e93e00dcfcb68d6ad398ae13b449c32323ae2d532cfc0de432621f8"
+  },
+  {
+    "index": 194,
+    "path": "pillageroutpost/watchtower",
+    "source_address": "0xebbab4",
+    "source_sha256": "6836a58cd954eb3fd8db1f25b78de2f8396e639b501eae71098fa5e2e8ee5fe7",
+    "gzip_sha256": "440e10ac44b2d26b83f199748d62a1258ddc9e94ba582d9441c49e76853b1f91"
+  },
+  {
+    "index": 195,
+    "path": "pillageroutpost/watchtower_overgrown",
+    "source_address": "0xebbaea",
+    "source_sha256": "84818c9880474ae9d0ea856cab0cb852c8de8861d18f253a31333dc7c291bbaa",
+    "gzip_sha256": "f14683675a8a7e46713a5de0f9068a2ad07fc2b824faff3b8355366c687cbc4f"
+  },
+  {
+    "index": 196,
+    "path": "village/plains/town_centers/plains_fountain_01",
+    "source_address": "0xebbb34",
+    "source_sha256": "fb31950ea756910f45a6aa1fe4d272f67f426d71958c89bd02cff1d47fc656ca",
+    "gzip_sha256": "a896fc8fd99d9ec1396c7ddf635fe198420806ce55e0c3094315ae57554b734b"
+  },
+  {
+    "index": 197,
+    "path": "village/plains/town_centers/plains_meeting_point_1",
+    "source_address": "0xebbb92",
+    "source_sha256": "2330ab5e3545dcdf8b3cb33d53bf5a1c2cdd7ff586102b7f0a16fce7fbad7bf1",
+    "gzip_sha256": "9af7e9146f6aede974a2c9a876a901cd98ab09e49d0e303314954f61d1a445b0"
+  },
+  {
+    "index": 198,
+    "path": "village/plains/town_centers/plains_meeting_point_2",
+    "source_address": "0xebbbf8",
+    "source_sha256": "faa8f1bdcacea4a6e3a839d56e1fd1a1d67c425e8bc3562e617be406c12201b3",
+    "gzip_sha256": "20e82363d75e6c2fd8f0f89569d876c01038dc431612bc5ac80f29b1a703e7db"
+  },
+  {
+    "index": 199,
+    "path": "village/plains/town_centers/plains_meeting_point_3",
+    "source_address": "0xebbc5e",
+    "source_sha256": "45052f098fe26ac08e0e90f181e2b88979777c2d4fe5b07e062307099a3b8e9d",
+    "gzip_sha256": "cc99276ec4c2060fe6106dc04d8b1bee82f28cd0dc90b274c34aa6ccea3bf05f"
+  },
+  {
+    "index": 200,
+    "path": "village/savanna/town_centers/savanna_meeting_point_1",
+    "source_address": "0xebbcc4",
+    "source_sha256": "c3b77670801d9141a0515dfb3fb4bec3713c592a5fb0ab5e3745fb8058ce5866",
+    "gzip_sha256": "b7595289f9a95c084b0fa6f891642995d8102008f63c60f8ba7146cddcd930fe"
+  },
+  {
+    "index": 201,
+    "path": "village/savanna/town_centers/savanna_meeting_point_2",
+    "source_address": "0xebbd2e",
+    "source_sha256": "0171db8d8e839ce85ac3af24aa5a844e07e989a1a662b023cbee5f4bcb84e967",
+    "gzip_sha256": "c0926547734b056770002b537e7c07514586714fe3a200e965abcb7f9f3d5cc3"
+  },
+  {
+    "index": 202,
+    "path": "village/savanna/town_centers/savanna_meeting_point_3",
+    "source_address": "0xebbd98",
+    "source_sha256": "e182e5a7b56b43000ec388432af80faf14f273799631747b34ff109e4e12d048",
+    "gzip_sha256": "1837d6a0e775453b504a1ccdc3e22e573fc92db646b1e7f679bfe8c964e13b7d"
+  },
+  {
+    "index": 203,
+    "path": "village/savanna/town_centers/savanna_meeting_point_4",
+    "source_address": "0xebbe02",
+    "source_sha256": "7918bafbe4d1848f6409f2b655dcbdd7a3c683aab14f16baf63e10865c9b7eba",
+    "gzip_sha256": "de53095dabb1e338972f275af52a65eda0e1486635371c005ad3f3b94a68cf7d"
+  },
+  {
+    "index": 204,
+    "path": "village/snowy/town_centers/snowy_meeting_point_1",
+    "source_address": "0xebbe6c",
+    "source_sha256": "7fd9181a1ebbf538afd4e14496159f3c8f1062f00daf55d3d44842b0af3c6466",
+    "gzip_sha256": "ce86c5db04ae5017bcf11688f72ef9e6da0cdf0ebc3ad8a1c07fbc9415a24c04"
+  },
+  {
+    "index": 205,
+    "path": "village/snowy/town_centers/snowy_meeting_point_2",
+    "source_address": "0xebbece",
+    "source_sha256": "cbd9e3778a334a9d081be850d596a314746f0036b65f5729240f21c310edb9b5",
+    "gzip_sha256": "02485778716ce69abeafd6358c5f7543a440889f676d79f5088b907c6d3d5533"
+  },
+  {
+    "index": 206,
+    "path": "village/snowy/town_centers/snowy_meeting_point_3",
+    "source_address": "0xebbf30",
+    "source_sha256": "7e5020a1dac638a0900cd2f061b66555f54af5f3ad90f5e7e46986d82697cc19",
+    "gzip_sha256": "8095269f7faba7101807c2cc82c24a4863c3f778ecd74c2a4eae0065efd13082"
+  },
+  {
+    "index": 207,
+    "path": "village/taiga/town_centers/taiga_meeting_point_1",
+    "source_address": "0xebbf92",
+    "source_sha256": "610f4720f257c5fe98ad5299601b01272c7a2ece022d1610b03c0b380b2d3c1e",
+    "gzip_sha256": "cd318fe61732b6ab9fad26f0aae25736b957830b0ef230d8877f7f12161cf4e4"
+  },
+  {
+    "index": 208,
+    "path": "village/taiga/town_centers/taiga_meeting_point_2",
+    "source_address": "0xebbff4",
+    "source_sha256": "2d9d1fa1ebfde13e476a1f61f2aadfa45f66e793635ddeb41893b7d998d3fe2a",
+    "gzip_sha256": "7e3383d867ae1b8463194008beb6f0ea5650211cc7b0f8e5bb76a22cc45ea979"
+  },
+  {
+    "index": 209,
+    "path": "village/desert/town_centers/desert_meeting_point_1",
+    "source_address": "0xebc056",
+    "source_sha256": "8cd54770ce8e67bb07345ad634e1791fe47811fbcf3553d56987c9a1c761d827",
+    "gzip_sha256": "44fed7223bd4e18aa5ee1d6c1833faec91669d8cb9aaf1d8713ece5d9aa20e15"
+  },
+  {
+    "index": 210,
+    "path": "village/desert/town_centers/desert_meeting_point_2",
+    "source_address": "0xebc0bc",
+    "source_sha256": "c044bd98c15a6d028e77d65b6c96313c000e7181a2b8b9bec9f35faca0f36674",
+    "gzip_sha256": "86268800224320a3bf31b0b3377f6726745de37aeaea5db4cfadd5af5a99344f"
+  },
+  {
+    "index": 211,
+    "path": "village/desert/town_centers/desert_meeting_point_3",
+    "source_address": "0xebc122",
+    "source_sha256": "b04951ad68760cc633ee96bde8f00321440823c5a2f892feedb11cc553d2c4f6",
+    "gzip_sha256": "6cbda2962fa91b814a959a02780b046654095561d6cf74820dfd2b2fe1bcaecb"
+  },
+  {
+    "index": 212,
+    "path": "village/plains/streets/corner_01",
+    "source_address": "0xebc188",
+    "source_sha256": "73c852e947551eef75afb1bdf8b0cb84c28230b83c99c698bf5d79c10b6e20ea",
+    "gzip_sha256": "0457a396305f99f2f9b0c1c4e2264c2ea33cc02f2b63e0b0f16ff394fb9f1e3d"
+  },
+  {
+    "index": 213,
+    "path": "village/plains/streets/corner_02",
+    "source_address": "0xebc1ca",
+    "source_sha256": "ad9f13aaae2939d941cdbaa2d384c8d7c2fb24c78c53b72ff3ab544a9aa5be15",
+    "gzip_sha256": "c28c020a1f032bd102787cb5ddc7350097bec22f07deced45312792c0fa69e74"
+  },
+  {
+    "index": 214,
+    "path": "village/plains/streets/corner_03",
+    "source_address": "0xebc20c",
+    "source_sha256": "1b26db2b7bfad4c7af75a37e093ebca9d8ae8d495c958b0b522bd0344f771238",
+    "gzip_sha256": "45d312fdf82b59f2ead15b66b7e93ca3890683ff6454a95506b78d4e9915a084"
+  },
+  {
+    "index": 215,
+    "path": "village/plains/streets/straight_01",
+    "source_address": "0xebc24e",
+    "source_sha256": "a73870450ffbb897736d7559ff23a279ad79f035cfb9a25a65e5c297d8445cf7",
+    "gzip_sha256": "5bd75191e1efdcff812c1b3342252ba72ebea6b4268707751145478980d21bfd"
+  },
+  {
+    "index": 216,
+    "path": "village/plains/streets/straight_02",
+    "source_address": "0xebc294",
+    "source_sha256": "64b2abf0c9569416d1b09ab0af3c6953001d378fed79f981e3693df997299200",
+    "gzip_sha256": "2933e351c2e533825f676f2bc567af20c74ab6a21d1b971ffb9170c4510b832a"
+  },
+  {
+    "index": 217,
+    "path": "village/plains/streets/straight_03",
+    "source_address": "0xebc2da",
+    "source_sha256": "8fa7586839f31493447be51ed2b121b9b24407ce461223e4d02b1aee086ec079",
+    "gzip_sha256": "adb0962a71298de3f9aadcb2493dd01111c3fb0a12b8c7dc7791d271b908ebe1"
+  },
+  {
+    "index": 218,
+    "path": "village/plains/streets/straight_04",
+    "source_address": "0xebc320",
+    "source_sha256": "32cc7d17d712bc329e421a486451f010613650969be3f771e2861fd12f46b5d7",
+    "gzip_sha256": "7587dee57b2f70f2b50b2657cce7e5ab9c5bb16f9340ab99926d50718938ef08"
+  },
+  {
+    "index": 219,
+    "path": "village/plains/streets/straight_05",
+    "source_address": "0xebc366",
+    "source_sha256": "8a829527399e38dcfcd08772fd93fe8671bbe7f44000a94d133827b76a23b1cd",
+    "gzip_sha256": "3d48fc7cbe79132524d512fc42f8642a58537632f114313ebc11064d917006c8"
+  },
+  {
+    "index": 220,
+    "path": "village/plains/streets/straight_06",
+    "source_address": "0xebc3ac",
+    "source_sha256": "efcc222337226bf4903654dfa0e275101991b825c8bd8149a5f20377293702fc",
+    "gzip_sha256": "e8197f18e39a16710f006b2847af0792d67ba9f49a9a778fd1843d28fd9f7aaf"
+  },
+  {
+    "index": 221,
+    "path": "village/plains/streets/crossroad_01",
+    "source_address": "0xebc3f2",
+    "source_sha256": "1931b9b524cc160dbfa2a84ac94c092915ab10345bd28e7e7f6fcf8fff90b9a9",
+    "gzip_sha256": "364b64bc5ae1f7b821f3f78b7165cc5c5b31c17a7eb2ed3f2624484ad1be501c"
+  },
+  {
+    "index": 222,
+    "path": "village/plains/streets/crossroad_02",
+    "source_address": "0xebc43a",
+    "source_sha256": "9f78a5c3bc8fd9cbbcbdc3edaf8d91df2f217ad52b79bb276fb4f767bdaa1a12",
+    "gzip_sha256": "93a6d573e4c0de36af42cfe06980738d2a1400769047e4a85da2d13550deee22"
+  },
+  {
+    "index": 223,
+    "path": "village/plains/streets/crossroad_03",
+    "source_address": "0xebc482",
+    "source_sha256": "782cffb0ca8e18c85d54a47c4b3e3752afca895b58e0488c520462562cab1eef",
+    "gzip_sha256": "38fe4f3ef4a7c9a3df58e93c7b9adb329078f567c6fe164d4f0713a40ee36061"
+  },
+  {
+    "index": 224,
+    "path": "village/plains/streets/crossroad_04",
+    "source_address": "0xebc4ca",
+    "source_sha256": "338e4efb1c256c65c7f100063aee51d91933b752300603d0ed5efc3c3caf0146",
+    "gzip_sha256": "7b6fc9693a6a74461de22894c1440e6a8eb050ee5e1a3ce352eeb254e3caf746"
+  },
+  {
+    "index": 225,
+    "path": "village/plains/streets/crossroad_05",
+    "source_address": "0xebc512",
+    "source_sha256": "9b0f483717b8edb081a92f24aa99379b683a656ca6c48cf62811193f36898ccb",
+    "gzip_sha256": "bcd219da1ce33f63969eb03f9d9360f623abe367966993e8a38a4be0ce429432"
+  },
+  {
+    "index": 226,
+    "path": "village/plains/streets/crossroad_06",
+    "source_address": "0xebc55a",
+    "source_sha256": "67ee8921f4357b96d18295c75cdd9b1d631eec86e5f627975f6938e509d590a9",
+    "gzip_sha256": "c8ced0b21340c109c4ac8dbeafd9bd46d2a08adcfcee80eac57ef613c1ee2e77"
+  },
+  {
+    "index": 227,
+    "path": "village/plains/streets/turn_01",
+    "source_address": "0xebc5a2",
+    "source_sha256": "4e18caf1586d31d61bd05480ba7ea529db745f709334fda8492ff588b8087285",
+    "gzip_sha256": "d03e7f5f3a691803eaeb64fe1e066bef6cf2e64341c7b1ac1cdef9c1052c8dbd"
+  },
+  {
+    "index": 228,
+    "path": "village/savanna/streets/corner_01",
+    "source_address": "0xebc5e0",
+    "source_sha256": "f9cfd9cd2c35b6613d479681b55a415613d2c5b2169c11e3378984a2bf9453e3",
+    "gzip_sha256": "e9b5df934669f6bc8018a3f865b4ca121824613704bacca1a834d53dcf74a591"
+  },
+  {
+    "index": 229,
+    "path": "village/savanna/streets/corner_03",
+    "source_address": "0xebc624",
+    "source_sha256": "e937a7dac3251438d72fd11f78f9c9059f0f87bf7c7dde25b04f4c223300568a",
+    "gzip_sha256": "28ff1f314aa669548a354b996bdf21b8a16da872ecec2fa6fb52694fff40708d"
+  },
+  {
+    "index": 230,
+    "path": "village/savanna/streets/straight_02",
+    "source_address": "0xebc668",
+    "source_sha256": "860fa535c0dc6460b8c7bddb89af28efa310787c000629cfe190c875ef1e14cd",
+    "gzip_sha256": "d4963d080b6ce2b6af6ec7a48b26766b09f427f895426a1f43af5445e60754d7"
+  },
+  {
+    "index": 231,
+    "path": "village/savanna/streets/straight_04",
+    "source_address": "0xebc6b0",
+    "source_sha256": "c55258a56ed1f4993fd5b809a901397dd27082d05ff513171eb047f88dad5fbf",
+    "gzip_sha256": "38292bb6384e62c1b02c5c1a9daca656df60cfb0c25b3bf764be5abac3c72de6"
+  },
+  {
+    "index": 232,
+    "path": "village/savanna/streets/straight_05",
+    "source_address": "0xebc6f8",
+    "source_sha256": "aee0d59b3f45dda260770a265f8097018de298070da532938498c48122ee24a7",
+    "gzip_sha256": "ed2d168dad92736053d9dd7b90620acd0545f901d3547229d9e9171d930ff56c"
+  },
+  {
+    "index": 233,
+    "path": "village/savanna/streets/straight_06",
+    "source_address": "0xebc740",
+    "source_sha256": "49d7345e9c2330c16d062735fad10edcfeae68d2ab335810d43814095411e3c0",
+    "gzip_sha256": "75fc708468715cfce7171307f776a7b4584e1956d2b05c887b7d0cb26dd161ca"
+  },
+  {
+    "index": 234,
+    "path": "village/savanna/streets/straight_08",
+    "source_address": "0xebc788",
+    "source_sha256": "ab7e171ec317ab2627ad438eff35ecec3e64626c0fd84b9b656fc6f0b09be172",
+    "gzip_sha256": "c76e032e03649c9117e00ab0dee00c6204ea2761ee62cac2d302ee5ed9e7b1d8"
+  },
+  {
+    "index": 235,
+    "path": "village/savanna/streets/straight_09",
+    "source_address": "0xebc7d0",
+    "source_sha256": "0f7824c8e479c228e9be6fa0df06e3ad9158c3208e732a7bcf3d4d3a6e2838ab",
+    "gzip_sha256": "ace96be3769e1a35991a4147c86a8ab1ccbdb612df227ba3425bef7743c867dc"
+  },
+  {
+    "index": 236,
+    "path": "village/savanna/streets/straight_10",
+    "source_address": "0xebc818",
+    "source_sha256": "7b850c0b630800a6895f1abcc875a5b0b83d381ca54e5139d140ed1e514ddb66",
+    "gzip_sha256": "d3a715af85ce427aba0f4ac8bcd01cffecc227f097fadd866acd6637e71f7ef2"
+  },
+  {
+    "index": 237,
+    "path": "village/savanna/streets/straight_11",
+    "source_address": "0xebc860",
+    "source_sha256": "ceddbcfdecee3348dfc6a46653fb58b27a9ef4d73eb0cef8782c7075d75518cc",
+    "gzip_sha256": "6f589c19d98809e120e6c7a97f9c1f8759f5561ca19c87a1d10da0874b57421b"
+  },
+  {
+    "index": 238,
+    "path": "village/savanna/streets/crossroad_02",
+    "source_address": "0xebc8a8",
+    "source_sha256": "37e73604036f47bcc962adada3df68545d32a1a67e974d4db4058f2332355659",
+    "gzip_sha256": "01aee6f4ab354fbb641fd51fccad01ef13355e008984ea0ff8c53a5bab8cbd02"
+  },
+  {
+    "index": 239,
+    "path": "village/savanna/streets/crossroad_03",
+    "source_address": "0xebc8f2",
+    "source_sha256": "89b192ed9b5b7c68fb12391a6677629971407075906c220c4d39639ef3de4389",
+    "gzip_sha256": "37310d3e71ddd3bd8188e3eccf30949e55df51a8d3203bf81f29ef8fba7dab0e"
+  },
+  {
+    "index": 240,
+    "path": "village/savanna/streets/crossroad_04",
+    "source_address": "0xebc93c",
+    "source_sha256": "9611758ebb2b58af5fa29f49badef48b6805d54258a0f5f0b74c7fddc1a5b229",
+    "gzip_sha256": "a2a15773c808039a922794cbbd7ccbac06f40140aac894734652cf419da042b2"
+  },
+  {
+    "index": 241,
+    "path": "village/savanna/streets/crossroad_05",
+    "source_address": "0xebc986",
+    "source_sha256": "69705eafce95e27265915c64dda0f9db42633a269a9ecd345f8ff0fb1e186cfd",
+    "gzip_sha256": "68a8668ff526e865ec5333e8a0e9263853bfce14978db271c5ba6541fd4800da"
+  },
+  {
+    "index": 242,
+    "path": "village/savanna/streets/crossroad_06",
+    "source_address": "0xebc9d0",
+    "source_sha256": "deea20e4f5aca8351cac932bc6a9322ad4028c881b951384746a85a4c4cb9bb6",
+    "gzip_sha256": "1c037c4e976be0824341422a50b09a566c0b0d0a3dfff94a541184d8523c95ab"
+  },
+  {
+    "index": 243,
+    "path": "village/savanna/streets/crossroad_07",
+    "source_address": "0xebca1a",
+    "source_sha256": "57c58a59711327235f9614ddaa55b67149ced7348443f29074b9db5c4e6f5040",
+    "gzip_sha256": "fe4b6ae5b96bba9c5e9359e9831dafef8cd8a86a5fa753817a8fb8d40f432b50"
+  },
+  {
+    "index": 244,
+    "path": "village/savanna/streets/split_01",
+    "source_address": "0xebca64",
+    "source_sha256": "b69aebf2b6a2a0237bed9fcbfc4f29909d4f449ffb4adab80537bf1ae66653e2",
+    "gzip_sha256": "9059a3f6b5b0bc9982acea1a99ce05800b893454db2e845f62b034c4eadef063"
+  },
+  {
+    "index": 245,
+    "path": "village/savanna/streets/split_02",
+    "source_address": "0xebcaa6",
+    "source_sha256": "b93f56a685fa5347d18257dfacc1963a8ea47e3abfb0f42a5ea618a635bd9e13",
+    "gzip_sha256": "d159b2b36773d99f7aaf11fce0b1eb7687d72fe59a359da45a742920c19a97f9"
+  },
+  {
+    "index": 246,
+    "path": "village/savanna/streets/turn_01",
+    "source_address": "0xebcae8",
+    "source_sha256": "775f3b272e892d5e831f8e25acc029d706cf103b06782311d6e39aed1254ecd3",
+    "gzip_sha256": "8df8f655b4f2daca159369cd9ad691118eed371fc0ac8c3113072db6a6c40c4a"
+  },
+  {
+    "index": 247,
+    "path": "village/snowy/streets/corner_01",
+    "source_address": "0xebcb28",
+    "source_sha256": "bf644479dfd9ab57fe89fe763b3c833197f2140a50aac181a800edb3041b729e",
+    "gzip_sha256": "280c4fbf89b3893e3db0f0328d70d5baef4e1aaefbb2071b44d29c807bd65d62"
+  },
+  {
+    "index": 248,
+    "path": "village/snowy/streets/corner_02",
+    "source_address": "0xebcb68",
+    "source_sha256": "8b1efdcd37ac53267ce57943d9f553dd9f22b7d09f898054fedf93839c53f406",
+    "gzip_sha256": "3d97cf8ce55b78b880ec53f392b1707c86162e154cf5bb33a45eea37ceccb4bb"
+  },
+  {
+    "index": 249,
+    "path": "village/snowy/streets/corner_03",
+    "source_address": "0xebcba8",
+    "source_sha256": "6176430d5d7090ff02f137543bfb620c54227a7ee3b3486b91d119c3a972df12",
+    "gzip_sha256": "bcf2acdc1bd89a8203d0206dc417fc487c496c5cd93d8aa39829a84f61f83dcc"
+  },
+  {
+    "index": 250,
+    "path": "village/snowy/streets/square_01",
+    "source_address": "0xebcbe8",
+    "source_sha256": "90b991d2dcdf5199edaa7508598f37072149c5bb185d67228d10a7ece3cd3c92",
+    "gzip_sha256": "63b74f0a9ad8482b489a7a992eec92f162a2b021175c003785de9d6d524a0ef1"
+  },
+  {
+    "index": 251,
+    "path": "village/snowy/streets/straight_01",
+    "source_address": "0xebcc28",
+    "source_sha256": "25b8001a565097eb08d085761e170f521fddaa539189c1167d9561e4ee9c6583",
+    "gzip_sha256": "00003b5f6a77099b60f7aee4777282e4800f07bad176523fb57190b10ffa9b33"
+  },
+  {
+    "index": 252,
+    "path": "village/snowy/streets/straight_02",
+    "source_address": "0xebcc6c",
+    "source_sha256": "1e0dcff529259580d1f4f8754131776b3357913db03493f6f51dbfd3fcb9ba93",
+    "gzip_sha256": "fae921f78aff9d5ae54025f9a396fa88355e5c7e08f33683b4494b8b70334582"
+  },
+  {
+    "index": 253,
+    "path": "village/snowy/streets/straight_03",
+    "source_address": "0xebccb0",
+    "source_sha256": "fa83fad4e5aa67515da4010230f91e1142392df48f72291213b802b344a48330",
+    "gzip_sha256": "dbae0f4f04bae5fa0e017b72f2d4eb9f4502fcc9bf2742d150e8c0d3a33e32cb"
+  },
+  {
+    "index": 254,
+    "path": "village/snowy/streets/straight_04",
+    "source_address": "0xebccf4",
+    "source_sha256": "5b94c30012e97f03fa08dae8a1d17719e84c6137ee4b305d631d8b425bb8e3a6",
+    "gzip_sha256": "03afb6c8d66f9a42ffa52357fcde4c2a682e17281199137f5b3dca5899619175"
+  },
+  {
+    "index": 255,
+    "path": "village/snowy/streets/straight_06",
+    "source_address": "0xebcd38",
+    "source_sha256": "fb0dff0a8b73059d42c911a844f05cff63dd8e79371447970518dbbc05d870a3",
+    "gzip_sha256": "89c8c82b77ae12b82d798ffbdd430492553b59132d2eb9e907da16762bdc7e0f"
+  },
+  {
+    "index": 256,
+    "path": "village/snowy/streets/straight_08",
+    "source_address": "0xebcd7c",
+    "source_sha256": "8a12cbfece5535959b1bd70436837538c87a356535e0e5884005862448245194",
+    "gzip_sha256": "1987f3ce65119f7ffe881a6f4d672ffb60d553421de50deb185a16cad63ad950"
+  },
+  {
+    "index": 257,
+    "path": "village/snowy/streets/crossroad_01",
+    "source_address": "0xebcdc0",
+    "source_sha256": "e016ad220131e4dba77a9f1989836411d61e435dfcd4721f037e6b984ce8a05d",
+    "gzip_sha256": "d5a8e668fa28fade4a26c928e8319e5744c33db5e45750ee35508d1dd82439f2"
+  },
+  {
+    "index": 258,
+    "path": "village/snowy/streets/crossroad_02",
+    "source_address": "0xebce06",
+    "source_sha256": "c92232c39a785b5b5c91afd4816591bf2466596755b45ffcd8cfbd68a205c398",
+    "gzip_sha256": "1563af7109684d46cc10d3d81193b9d76bc817bf30ad159724fb74390ce497c2"
+  },
+  {
+    "index": 259,
+    "path": "village/snowy/streets/crossroad_03",
+    "source_address": "0xebce4c",
+    "source_sha256": "712242c0a01ca23dbe6823b2bfcae677a783e41cb4d1e79e0566e5ebe8876aa2",
+    "gzip_sha256": "2c46d4e7aabd87b16507812779d93c67a02125a012628a0c7915cd63ab09b497"
+  },
+  {
+    "index": 260,
+    "path": "village/snowy/streets/crossroad_04",
+    "source_address": "0xebce92",
+    "source_sha256": "7607391d1d89b246252d8fc8c63e776416738f4d63ee3df7821f9ef0db4991e1",
+    "gzip_sha256": "fb8bee42eceb4d97579baeec492264e07060a37db331904ca0ffc3dbf12fc881"
+  },
+  {
+    "index": 261,
+    "path": "village/snowy/streets/crossroad_05",
+    "source_address": "0xebced8",
+    "source_sha256": "522d4a110a8b7b217548b43d5cf19ba4be8c4796fa81769c35a29e4f2bb80be7",
+    "gzip_sha256": "f12042d97666ae4ef833ae7029e4e2fe2022e0eba281d1a0c69208e7f230682d"
+  },
+  {
+    "index": 262,
+    "path": "village/snowy/streets/crossroad_06",
+    "source_address": "0xebcf1e",
+    "source_sha256": "7752c08b371452612a979d6fb0fc0bc29dfcd078e7f65c06e0d145290f0fb648",
+    "gzip_sha256": "6e68fa20ab90f109140ef411026a9b8fd941c4757fa001a674f8adc7859118a9"
+  },
+  {
+    "index": 263,
+    "path": "village/snowy/streets/turn_01",
+    "source_address": "0xebcf64",
+    "source_sha256": "ea481024c2670147e999e6763c43d9ca45494470ce0f5cf6baa30433cef29a5a",
+    "gzip_sha256": "1d6521ed52c6976c201f474baadfe38ca5aceb5f3498a1eecb6bc6c18153ca97"
+  },
+  {
+    "index": 264,
+    "path": "village/taiga/streets/corner_01",
+    "source_address": "0xebcfa0",
+    "source_sha256": "8bdf7c2d3649166a2d9669f1b8d9dc71d58778be514a8c6d3f85fbe875022d6c",
+    "gzip_sha256": "7b7a7a56930c53d3d71002a3e29d14bf4db26a8ef1e602efc9e32729220292e5"
+  },
+  {
+    "index": 265,
+    "path": "village/taiga/streets/corner_02",
+    "source_address": "0xebcfe0",
+    "source_sha256": "d697801399513229c89cc06953091ea766a3a44b9c669aa9e36a0f258ed4480e",
+    "gzip_sha256": "fd6552d9e6964e6f65dbb046dff40e7b145becd487c00344bb5af1ff10343e70"
+  },
+  {
+    "index": 266,
+    "path": "village/taiga/streets/corner_03",
+    "source_address": "0xebd020",
+    "source_sha256": "2b2ee41507aa170c0d58f3d6c48f7ea7f85ac3f6a11e08f88696518ac7d303f5",
+    "gzip_sha256": "f245a5785cb684e5196224035acdaf7986082fca075e62cf2fabb25cb8094bd0"
+  },
+  {
+    "index": 267,
+    "path": "village/taiga/streets/straight_01",
+    "source_address": "0xebd060",
+    "source_sha256": "238ec6639c7de8fa53997b3f6493f8ee0acccc2a53712b033ae7598915f16648",
+    "gzip_sha256": "83b192e9735a0c0c4ccba8c78b9a39fd83d5f8e8e5e0b73497ac1ac9b5a7f91d"
+  },
+  {
+    "index": 268,
+    "path": "village/taiga/streets/straight_02",
+    "source_address": "0xebd0a4",
+    "source_sha256": "ba2da2d493976250c5746027c27bbe56875af626246553dda9f9054721b697a6",
+    "gzip_sha256": "de470e8ab8d7f2a394c457e999092587ea14cd96ccbf6bf5ae96d548738e5b1d"
+  },
+  {
+    "index": 269,
+    "path": "village/taiga/streets/straight_03",
+    "source_address": "0xebd0e8",
+    "source_sha256": "f86c8baae17c1c2aea8759462abda0a0485755413aa62da6d2da0beae7a22ff9",
+    "gzip_sha256": "32d8a3dce46fd271a3723ff06a4c760b3f182adbff5592c2a34b66a10b53343e"
+  },
+  {
+    "index": 270,
+    "path": "village/taiga/streets/straight_04",
+    "source_address": "0xebd12c",
+    "source_sha256": "354673c257fbba04c9c336cff7a1d13ea07c9037f36e3e2276e80a77b6f6cf8e",
+    "gzip_sha256": "f88d89a9d77078630b24d6446ffb0bd08a0263dce16f5360f9b34a4a1651235f"
+  },
+  {
+    "index": 271,
+    "path": "village/taiga/streets/straight_05",
+    "source_address": "0xebd170",
+    "source_sha256": "9dd483f723cff79c7fff24301af5b6e2701244d8285bd860b8a8f01f27b63aa4",
+    "gzip_sha256": "4cb7be1f3f94b268d60edee5bdf5f7ba879126f8db9d2acb261773d188c74578"
+  },
+  {
+    "index": 272,
+    "path": "village/taiga/streets/straight_06",
+    "source_address": "0xebd1b4",
+    "source_sha256": "eeca4a01bf6f4165cd68ec85d46798caccd3be87585941db3e57c8140fea0363",
+    "gzip_sha256": "cc70b7580cfb689a3376f90e921d273a157a456a79bc96d108024d788411f6f0"
+  },
+  {
+    "index": 273,
+    "path": "village/taiga/streets/crossroad_01",
+    "source_address": "0xebd1f8",
+    "source_sha256": "f4a2949713ba513b81de477b7e99d4a917740ebe96fe7476e1b50d3ce4aad103",
+    "gzip_sha256": "fb093996e8632afe7c2fc445ec0936e23dfbeb7ee83235344d395d87c6ed593d"
+  },
+  {
+    "index": 274,
+    "path": "village/taiga/streets/crossroad_02",
+    "source_address": "0xebd23e",
+    "source_sha256": "9e7544d7d19fda973c12e418034abfbb56b64b57537b9718fba08cd0fb0052fd",
+    "gzip_sha256": "82c37f10cbb4b6f87d27d6356a342faa5418c7c47740f8bce50f52a9e8136abc"
+  },
+  {
+    "index": 275,
+    "path": "village/taiga/streets/crossroad_04",
+    "source_address": "0xebd284",
+    "source_sha256": "eefc387a8c94aa794915bca2b7a7f4517b15c2d3517ea613b06acee186c7972a",
+    "gzip_sha256": "34f676456d121a457e7911345be1d01937b6c6008b3514240e4e4bfe81d38057"
+  },
+  {
+    "index": 276,
+    "path": "village/taiga/streets/crossroad_05",
+    "source_address": "0xebd2ca",
+    "source_sha256": "dddca3516734f2bc1d6b2f19363cc9c29717af45eadfee357ba1b8920e40c227",
+    "gzip_sha256": "05a56171eb457f7d9966e359fc4c59affd335e24800d3503591578069e1c8b99"
+  },
+  {
+    "index": 277,
+    "path": "village/taiga/streets/crossroad_06",
+    "source_address": "0xebd310",
+    "source_sha256": "dddca3516734f2bc1d6b2f19363cc9c29717af45eadfee357ba1b8920e40c227",
+    "gzip_sha256": "05a56171eb457f7d9966e359fc4c59affd335e24800d3503591578069e1c8b99"
+  },
+  {
+    "index": 278,
+    "path": "village/taiga/streets/turn_01",
+    "source_address": "0xebd356",
+    "source_sha256": "7df1ed1b1b01238093f8d9287b7a6deff24c777bf5a9c2216830a4c347bb786b",
+    "gzip_sha256": "eefccfaad08bd1fd06cf14580fdf8833615f25a29781eec89541743215c4836c"
+  },
+  {
+    "index": 279,
+    "path": "village/desert/streets/corner_01",
+    "source_address": "0xebd392",
+    "source_sha256": "41d3c20e4748d9142a765320ba612facd95e940621776a1e88872e2bf3cb165c",
+    "gzip_sha256": "7363dd7147797025e397bd4252342dfbe22ffeb0830d69c6348cc26bc7ed38ca"
+  },
+  {
+    "index": 280,
+    "path": "village/desert/streets/corner_02",
+    "source_address": "0xebd3d4",
+    "source_sha256": "851d66ce13988b84d79cb99281992d5ed8224f19fe9e314ee84b5fc5f69381ee",
+    "gzip_sha256": "dd1d8c5ba581e64cb8c7cb6383d29c0f1c9d16f0a270b25a10126ffaeaaff42c"
+  },
+  {
+    "index": 281,
+    "path": "village/desert/streets/straight_01",
+    "source_address": "0xebd416",
+    "source_sha256": "d7cd3e0124f940c8265e32c0241e81e530c6809345633ec2784a682e22d0a586",
+    "gzip_sha256": "7eabda70081d2677eed4ad9a7f6396449a622d5a61cef8fcbcf1a8f863038882"
+  },
+  {
+    "index": 282,
+    "path": "village/desert/streets/straight_02",
+    "source_address": "0xebd45c",
+    "source_sha256": "c1fbccd4de81a11fda29dcc75eca2c57cbfa5c21c93cc6f272b6cd553fc6cdd8",
+    "gzip_sha256": "9ed722b8ca67d917dd7ad3677dff91666fc1854e9bf5ba94d81dc6a725c20842"
+  },
+  {
+    "index": 283,
+    "path": "village/desert/streets/straight_03",
+    "source_address": "0xebd4a2",
+    "source_sha256": "5f400da5a4fecd7ea71698a24048fa0841fcff78d15199299f57ee91eb07b8ff",
+    "gzip_sha256": "eb3df33b98d35c5180fed0b3cd71eac801fc661a18658a1590f4b8a720b3d0af"
+  },
+  {
+    "index": 284,
+    "path": "village/desert/streets/crossroad_01",
+    "source_address": "0xebd4e8",
+    "source_sha256": "ab64a53c0c3d091f31c3b3f72e6d983a097b94d24596b9f26c99cc3c4d1dc833",
+    "gzip_sha256": "d3905d4c2829965fbabb111dff244c4495b46956192d48e5e47655d24f7bfd52"
+  },
+  {
+    "index": 285,
+    "path": "village/desert/streets/crossroad_02",
+    "source_address": "0xebd530",
+    "source_sha256": "671be5192bbd31ef1727ced5c2729ceb70fc0ba2c27e1931ef1f858c83a065ec",
+    "gzip_sha256": "63f0f656230b24f29a512643b6b4e37ff3d4a2178d5d0427570a2ab6080d5547"
+  },
+  {
+    "index": 286,
+    "path": "village/desert/streets/crossroad_03",
+    "source_address": "0xebd578",
+    "source_sha256": "d2cc29b0a29f3a723c37f8372eef4db015e0db2405342fb68aaab7c44a4e5d3e",
+    "gzip_sha256": "0a5e811affee614e06b630ac13b7e506911dc8faf772a997a35f24553519e27e"
+  },
+  {
+    "index": 287,
+    "path": "village/desert/streets/square_01",
+    "source_address": "0xebd5c0",
+    "source_sha256": "8c7397929dd848a4254806c12996be74ef70c639594c6574233fdddd695be7d2",
+    "gzip_sha256": "fb8f737b67874f462f99b0255ecc216733316edb720bc05d0deaee12dbe9b7fb"
+  },
+  {
+    "index": 288,
+    "path": "village/desert/streets/square_02",
+    "source_address": "0xebd602",
+    "source_sha256": "c9b7e7aaf03160412d20e8f857b34ad7061c3284fc1cadc3e516f4dfcb72e815",
+    "gzip_sha256": "e1922e448cc01e6e9155b3ea066fcd4a11406caf606f25302a9573c497e9f2ba"
+  },
+  {
+    "index": 289,
+    "path": "village/desert/streets/turn_01",
+    "source_address": "0xebd644",
+    "source_sha256": "c6e05f7263b513257cb8c61335f984dada00b9683222073111bb1b17cbb91147",
+    "gzip_sha256": "62fa5cc7d844cce4dbac1ba9320586d3dd030af0d7016886192a962e24d9bec0"
+  },
+  {
+    "index": 290,
+    "path": "village/plains/houses/plains_small_house_1",
+    "source_address": "0xebd682",
+    "source_sha256": "3b76636ee2b46a84aa103848bec97e188d59216f62b06b78e0d2caa4f582bfa4",
+    "gzip_sha256": "cb66cb2bbdb2c19b01d717d6507a2df4c22b1ad1ac9345af3bbb79ab96b714ba"
+  },
+  {
+    "index": 291,
+    "path": "village/plains/houses/plains_small_house_2",
+    "source_address": "0xebd6d8",
+    "source_sha256": "0165a04d90c53c226b5e1956a0f8ab926d068c6df859bb2b98319eb04b7b60ff",
+    "gzip_sha256": "c1a0f2dcc826799a62505f0de55e0e59280f1c80b5dc1ef47df117ac65468665"
+  },
+  {
+    "index": 292,
+    "path": "village/plains/houses/plains_small_house_3",
+    "source_address": "0xebd72e",
+    "source_sha256": "9c9fd35b07771ba06f790679339dd5def6b17fad957f2b85518243f57a266189",
+    "gzip_sha256": "a1ea91d659f831ef2103c1b3aaa5913cbf084a90730f6a6d882395078f148a72"
+  },
+  {
+    "index": 293,
+    "path": "village/plains/houses/plains_small_house_4",
+    "source_address": "0xebd784",
+    "source_sha256": "5ea87671346e1ef2a9c1d7b70bf2a74480eac7e7c13c48190242137092d95376",
+    "gzip_sha256": "bc1ee2a0da0253f715d326378e04dd4eafc443e457f3c23d99e621f4b534f3ec"
+  },
+  {
+    "index": 294,
+    "path": "village/plains/houses/plains_small_house_5",
+    "source_address": "0xebd7da",
+    "source_sha256": "ee93f9cb3dbe6d83243f8c5967163543941482da67ebabe048bebc86b6442e7a",
+    "gzip_sha256": "5e205a67b2deaf357f4eb6b5ee07b7f6f6d366966f9d7d920ea140464a1be985"
+  },
+  {
+    "index": 295,
+    "path": "village/plains/houses/plains_small_house_6",
+    "source_address": "0xebd830",
+    "source_sha256": "519c08cd6a74e8dc92b7bbefe260cafff94451ecde273297a729d2533eba901d",
+    "gzip_sha256": "539cc17f85ac097a48a244c7c4efbddd1697677f666208d70634371a2ee768cb"
+  },
+  {
+    "index": 296,
+    "path": "village/plains/houses/plains_small_house_7",
+    "source_address": "0xebd886",
+    "source_sha256": "b0028a035e2e7842322172f86cdc820ae6ad69ea3d56f73d20a5b37efb7d346d",
+    "gzip_sha256": "c5ddb89d9520cdbd1723d1d7970187236bca540b545a8b9813b2e3830f2a8a37"
+  },
+  {
+    "index": 297,
+    "path": "village/plains/houses/plains_small_house_8",
+    "source_address": "0xebd8dc",
+    "source_sha256": "5e8dbf29a3bec5a43af7240df6f0bc0dbccf554867930748a4a9ff3433458d11",
+    "gzip_sha256": "419ae1b6f556266050d378d49fb2d7f77d935b3d501e812df6d07237432113eb"
+  },
+  {
+    "index": 298,
+    "path": "village/plains/houses/plains_medium_house_1",
+    "source_address": "0xebd932",
+    "source_sha256": "d72e3cecfed9db3394198e2b7f5ec692adfe7b2b892b7be03a05759497802b60",
+    "gzip_sha256": "1f6a074bc59873c84f3de5d870671d4aafd6c19258de43913e27429573d026b3"
+  },
+  {
+    "index": 299,
+    "path": "village/plains/houses/plains_medium_house_2",
+    "source_address": "0xebd98a",
+    "source_sha256": "755743a7fd68996c1feb5b80f3c854f7f4ab9d1f03b0ebaf03c293f9a39aafd4",
+    "gzip_sha256": "f6608e4de9d112f730b89689d54517730018f93df9c0ee00ac3a1737301c2a71"
+  },
+  {
+    "index": 300,
+    "path": "village/plains/houses/plains_big_house_1",
+    "source_address": "0xebd9e2",
+    "source_sha256": "cfe2a42ca979282336f117c896e047691c0c120fb67022f8d758ec87cc9dc3ae",
+    "gzip_sha256": "6f54d913483fdba2450ecc0744cdabe7fefc432c9cae8b097584cd179f25b448"
+  },
+  {
+    "index": 301,
+    "path": "village/plains/houses/plains_butcher_shop_1",
+    "source_address": "0xebda34",
+    "source_sha256": "52b549b4a1f380899603761f07b47c5de2686da0b9ab863e170f402847622131",
+    "gzip_sha256": "c7cd90a12fe9dd38887769528b646ff307ff146f7028a4aca17dc43a47193e91"
+  },
+  {
+    "index": 302,
+    "path": "village/plains/houses/plains_butcher_shop_2",
+    "source_address": "0xebda8c",
+    "source_sha256": "d2ae2e94e6a1a002d3b2752fca227177cabfe8669ced550c326ea70e8680a361",
+    "gzip_sha256": "e2c74e1214b161f357326e35d23136db2452792d893c873a5425342fd75f02e0"
+  },
+  {
+    "index": 303,
+    "path": "village/plains/houses/plains_tool_smith_1",
+    "source_address": "0xebdae4",
+    "source_sha256": "d72a9cb7e395d25ecf04192d05baad089dc0f6704a7a40b76aa177b4cad8c383",
+    "gzip_sha256": "6d396188800faacc190c0260161bfda5da8ee4e8ea85dc11e1da09215a646caf"
+  },
+  {
+    "index": 304,
+    "path": "village/plains/houses/plains_fletcher_house_1",
+    "source_address": "0xebdb38",
+    "source_sha256": "f493d4adf06405b464483641018aaeb293a074b340e01b26cd06e85c02c2a1d3",
+    "gzip_sha256": "065dcd7f3ddc2496f7602d5df17405833b459fddaea1790ddf8f40734d6ac677"
+  },
+  {
+    "index": 305,
+    "path": "village/plains/houses/plains_shepherds_house_1",
+    "source_address": "0xebdb94",
+    "source_sha256": "3d1a4e1c9aadbf4eb225dd60f6159497de91d9fd2167d2ce5e3355f43c23c64b",
+    "gzip_sha256": "cc4f4c48f44221b6ad1c69472264558fb71d867ffeba00d154b0d825f8b5e4a7"
+  },
+  {
+    "index": 306,
+    "path": "village/plains/houses/plains_armorer_house_1",
+    "source_address": "0xebdbf2",
+    "source_sha256": "053a4d3cba29f0bf5d6f16c7d47259bb703da29488a937ec2c50adccb43b6356",
+    "gzip_sha256": "078384f301a8041f44a2d5b10c08fb33e93d242dfb951e1a3fed481c6332661e"
+  },
+  {
+    "index": 307,
+    "path": "village/plains/houses/plains_fisher_cottage_1",
+    "source_address": "0xebdc4c",
+    "source_sha256": "719f624bf7cab6f38013dbd3a7d3a252a6174237037d9253afaf46b5cab08a0e",
+    "gzip_sha256": "4b2509c7e8b3ccfdc18755ab931e745424fdca0513316885054174296024f5d9"
+  },
+  {
+    "index": 308,
+    "path": "village/plains/houses/plains_tannery_1",
+    "source_address": "0xebdca8",
+    "source_sha256": "7967d16df134929b741b8726b62d5d9310744c8db8bca368128cc6e6d5a0b3d5",
+    "gzip_sha256": "36d168aa0769a47ec85a036a3e9aeedb419adb2fc2dde407135cea8c0a0bb7e0"
+  },
+  {
+    "index": 309,
+    "path": "village/plains/houses/plains_cartographer_1",
+    "source_address": "0xebdcf6",
+    "source_sha256": "b055c7a033ad81a64d6f8982a1a15cdeca8864e3d174901d9c19d985e3df4ff2",
+    "gzip_sha256": "b3cc1088e91267b2d1e8fee060bc5a00ddaea0ee94b8649bd34351f2738eca1b"
+  },
+  {
+    "index": 310,
+    "path": "village/plains/houses/plains_library_1",
+    "source_address": "0xebdd4e",
+    "source_sha256": "aae9c80ca758fabeedb933ac6b8f21f6c34aa9a7495ce6588451a78d92044063",
+    "gzip_sha256": "11cf122f3dfba279f42e9239eea2148e12e1b1566766df6185b66af9d21c08df"
+  },
+  {
+    "index": 311,
+    "path": "village/plains/houses/plains_library_2",
+    "source_address": "0xebdd9c",
+    "source_sha256": "777127911d3f8fe35a08cbbf08f45903942cdcfd13bb369520231edc51c62b94",
+    "gzip_sha256": "b166134f2c99f226a92fb76fba3f259b47bd6d0cb27e66c259770aefe3b8d328"
+  },
+  {
+    "index": 312,
+    "path": "village/plains/houses/plains_masons_house_1",
+    "source_address": "0xebddea",
+    "source_sha256": "a0a1a0aa501c6969962c43a821e1dd92e2e55b949b6279a19ca22b6914f36794",
+    "gzip_sha256": "551f76978de540b5d4d176916e9036aeef9b66c438854e1724c5b12b1bf44fd9"
+  },
+  {
+    "index": 313,
+    "path": "village/plains/houses/plains_weaponsmith_1",
+    "source_address": "0xebde42",
+    "source_sha256": "f82d90fb02b319f36e036182ae965d973eedd0a1dda11c7e9233157ed391cc11",
+    "gzip_sha256": "1b0f2f59b1ba543ea1ce3867ccb8500c4cebb871f2b2d5a3cbf9c9bf25403705"
+  },
+  {
+    "index": 314,
+    "path": "village/plains/houses/plains_temple_3",
+    "source_address": "0xebde98",
+    "source_sha256": "a2f962ec3b28ab79b5069a64b945b9fbc8f0dddcd29127d8ecfc3178bf95a7c8",
+    "gzip_sha256": "f9c52ee74295a07e3df6ecefc6adcf354f83116e17fd5620d62a6b0c940ef828"
+  },
+  {
+    "index": 315,
+    "path": "village/plains/houses/plains_temple_4",
+    "source_address": "0xebdee4",
+    "source_sha256": "22a4bc72970f8e4c199924359cfe3f6f709811bbdb1c7b49d1d38da9ef196ccc",
+    "gzip_sha256": "3b094ae893d9819ebeca6a2cabfafba1cef5c8ca1938e4ca365167869aef6da5"
+  },
+  {
+    "index": 316,
+    "path": "village/plains/houses/plains_stable_1",
+    "source_address": "0xebdf30",
+    "source_sha256": "5d1ec23fa3bcc1771f914480418d11d97458d81ca0a38d1cbec9b0a6deb58108",
+    "gzip_sha256": "a11f1c80bfdc3d351a50e24783fd82a3cf41bdf66a4ac265b1d24617c74b6220"
+  },
+  {
+    "index": 317,
+    "path": "village/plains/houses/plains_stable_2",
+    "source_address": "0xebdf7c",
+    "source_sha256": "075f214c89c7d69c5e67cb34736164faff94ea6a9b73c7ba43eace5f12c124f7",
+    "gzip_sha256": "b822039b07371611d4c4f00ba55cd1f30d23ca273444eccb28fbb8d144522332"
+  },
+  {
+    "index": 318,
+    "path": "village/plains/houses/plains_large_farm_1",
+    "source_address": "0xebdfc8",
+    "source_sha256": "1851ae4ddcacc72ef92abf8cfb26a1c3336034ca2380f55eff4dd8151ef14caa",
+    "gzip_sha256": "ec10b6be9020f0b77a9f8acda2053572b1fe095badec907eee510e797302677b"
+  },
+  {
+    "index": 319,
+    "path": "village/plains/houses/plains_small_farm_1",
+    "source_address": "0xebe01c",
+    "source_sha256": "563d5f773eef5f0e2a98f45999c62968f29d8df15e7c7ef8ee4c5566e2290220",
+    "gzip_sha256": "92a161b5bae9cb5879601d7b7b4da3303d828fd43f9f276e1b1456c50ffb328a"
+  },
+  {
+    "index": 320,
+    "path": "village/plains/houses/plains_animal_pen_1",
+    "source_address": "0xebe070",
+    "source_sha256": "1d12b952935322cb24eaa1c290b1d807904b2cbeddd57c331c915305ee59528c",
+    "gzip_sha256": "7f4d7301779103b270e87c5d267e9312a93f4882621e1db1e701f6655c58466d"
+  },
+  {
+    "index": 321,
+    "path": "village/plains/houses/plains_animal_pen_2",
+    "source_address": "0xebe0c4",
+    "source_sha256": "4cc8c13f6841681f2a3f3306740541491450c5cafaea3e9249dab8db942feb9c",
+    "gzip_sha256": "322b8f86f137ffddd416312796e0f59c298352890d8316dedd14d665bab803fd"
+  },
+  {
+    "index": 322,
+    "path": "village/plains/houses/plains_animal_pen_3",
+    "source_address": "0xebe118",
+    "source_sha256": "e238c73a7df09d8e8806a659996755791505d62f1c81ac799f6ce0f6494863b4",
+    "gzip_sha256": "5ba7b636d910e2771355d3dedbaf020438d06cf2f8a579e66feea2c323735f34"
+  },
+  {
+    "index": 323,
+    "path": "village/plains/houses/plains_accessory_1",
+    "source_address": "0xebe16c",
+    "source_sha256": "e19e5e667f47afe8e1ae80a922768fde86b45d0333dbca513428a87429423d16",
+    "gzip_sha256": "689521a858c2ac77ee80cdbf87c3371d185e6125425f7a15b410fce41dbff2a7"
+  },
+  {
+    "index": 324,
+    "path": "village/plains/houses/plains_meeting_point_4",
+    "source_address": "0xebe1be",
+    "source_sha256": "7f97a3b9ea0e936c3f084d03fe715e36aa274c31160ab1eeb195041c132dd59a",
+    "gzip_sha256": "3d45fc53e06441279a258c9119f06a8a4764267ef884c4b71e22985d8c66d3e6"
+  },
+  {
+    "index": 325,
+    "path": "village/plains/houses/plains_meeting_point_5",
+    "source_address": "0xebe218",
+    "source_sha256": "14e09fa2365b59d240190372832f856a9f354efd09621c82793c3518b6459ad1",
+    "gzip_sha256": "78fafcccdf7162cc21cb85c6f3b895eaaf665b35d21829ded82197639a4169f6"
+  },
+  {
+    "index": 326,
+    "path": "village/savanna/houses/savanna_small_house_1",
+    "source_address": "0xebe272",
+    "source_sha256": "f5a86a5fb30d488629096edb871cbfedea112ed2b7dbdf5172ab13c97bea314f",
+    "gzip_sha256": "ec4e03c02081ce8a77c1e8d4145290e0cc3fca670cba9578dc244506b7960b2d"
+  },
+  {
+    "index": 327,
+    "path": "village/savanna/houses/savanna_small_house_2",
+    "source_address": "0xebe2cc",
+    "source_sha256": "1ba2a287ba7e3fe236dc0ed44d0d36535573367b59e503514bc25df0f48b68b7",
+    "gzip_sha256": "7cf234ecdac9ea07a06f53d191b0f48f488bac5055105d68e19414566dc1c5e7"
+  },
+  {
+    "index": 328,
+    "path": "village/savanna/houses/savanna_small_house_3",
+    "source_address": "0xebe326",
+    "source_sha256": "fc3e027f8fb99fe40d61be5fba4f365761b585884a1861147ba8b3b674ee8c14",
+    "gzip_sha256": "d26d3c2291fed523967bb0a618e6f09187f7a2734e80b8e4752d7da501b0d3f5"
+  },
+  {
+    "index": 329,
+    "path": "village/savanna/houses/savanna_small_house_4",
+    "source_address": "0xebe380",
+    "source_sha256": "0eb3f184d79d044a17d8da969469b3873649ac33cb5d47b85eb15ee9ca48d0d1",
+    "gzip_sha256": "f1e60665edbaddb77c7217134f41a83f8e30366545c3a27c2772e9d89f2eb4db"
+  },
+  {
+    "index": 330,
+    "path": "village/savanna/houses/savanna_small_house_5",
+    "source_address": "0xebe3da",
+    "source_sha256": "15d2b548ed3e5083adaba3748f77ef993497eb35a6db58d771bfeb489dfebc8c",
+    "gzip_sha256": "35fec808858ccd6489c2d58905fdf434fb852dcca6c5c070bbf32c485e3ee464"
+  },
+  {
+    "index": 331,
+    "path": "village/savanna/houses/savanna_small_house_6",
+    "source_address": "0xebe434",
+    "source_sha256": "0cd10281dfa9aab91393edda393aed84ae5f0fadcac754c0793c501c4ddba839",
+    "gzip_sha256": "625648ebd97b7e788da1a2b613e6b1941efce7936f68ca1d1880250bc956bbc2"
+  },
+  {
+    "index": 332,
+    "path": "village/savanna/houses/savanna_small_house_7",
+    "source_address": "0xebe48e",
+    "source_sha256": "8c5d9d057438ae4dec22565500444c3d3a9ee781e806f013b47d783b286fcd5b",
+    "gzip_sha256": "67c6c402215deb5d5a93d66c8e625f5327482a540d3ccf0113b4fd7ffbd620df"
+  },
+  {
+    "index": 333,
+    "path": "village/savanna/houses/savanna_small_house_8",
+    "source_address": "0xebe4e8",
+    "source_sha256": "629c1880938f35f7ed594d4607cab27da918de1c785a945302b40c94f52e570b",
+    "gzip_sha256": "ee040fb9d02590ca5921e1f268882cab1e494c4e5ecf0ae910381a3d3246d5fd"
+  },
+  {
+    "index": 334,
+    "path": "village/savanna/houses/savanna_medium_house_1",
+    "source_address": "0xebe542",
+    "source_sha256": "e3c1bbe19ec6d2e5f82ad951a43a91fec33d5b7c5ea9426eaf5e70baefee334e",
+    "gzip_sha256": "ab5d9d1af349fd70e567e3d93f29c8e957886b1ae3789217f1d2256c86444c83"
+  },
+  {
+    "index": 335,
+    "path": "village/savanna/houses/savanna_medium_house_2",
+    "source_address": "0xebe59e",
+    "source_sha256": "a98c04522967d35f19cbee74dd270ee56122878aa92c550258a26b32816b3ac6",
+    "gzip_sha256": "e1921f336f19eda97aa1a62d062b405c25aa64be0a105323cf933dc8427b96ba"
+  },
+  {
+    "index": 336,
+    "path": "village/savanna/houses/savanna_butchers_shop_1",
+    "source_address": "0xebe5fa",
+    "source_sha256": "e8644062de28cddfbbb9accdf02b8a8dfadd78e1023b1c5fafc0d5f052e26e4c",
+    "gzip_sha256": "97c2d7224bd963c867c9b7f43477614a45f208a1bb66092ad328a200991d7709"
+  },
+  {
+    "index": 337,
+    "path": "village/savanna/houses/savanna_butchers_shop_2",
+    "source_address": "0xebe658",
+    "source_sha256": "3700bf748c05f17be6c0e5bd4f9872f5c9d2b72f6b22e0da16f5ccc7344cc7b3",
+    "gzip_sha256": "d9cfe9769b34e4892799f3ae3d7fa253fe43b8fe863ca3b91e53d1cf0c0b6462"
+  },
+  {
+    "index": 338,
+    "path": "village/savanna/houses/savanna_tool_smith_1",
+    "source_address": "0xebe6b6",
+    "source_sha256": "05daba1572781816083322ed3e18994a1b9155139e9cb777b5424f866c7dccd9",
+    "gzip_sha256": "a9c510696c644bc7cbcfd49b8081f4ea1efee768cdff88bbd70e089a2b44e244"
+  },
+  {
+    "index": 339,
+    "path": "village/savanna/houses/savanna_fletcher_house_1",
+    "source_address": "0xebe70e",
+    "source_sha256": "27eb16b8485f826673f36a0c16afbcd1e45a0643fa412e534d525f1041dae3c1",
+    "gzip_sha256": "10947dfd107a0bc67e2819cd1e028ff4786878392f77bfbe62339ca74f51420a"
+  },
+  {
+    "index": 340,
+    "path": "village/savanna/houses/savanna_shepherd_1",
+    "source_address": "0xebe76e",
+    "source_sha256": "aac808dda2c30768cc4254f778b80e35096ddef83a6ff05aa26297a9c98a8698",
+    "gzip_sha256": "3ce4818d010a0449daa8ab346895f647944aad12464e80885fd71a5936cf636e"
+  },
+  {
+    "index": 341,
+    "path": "village/savanna/houses/savanna_armorer_1",
+    "source_address": "0xebe7c2",
+    "source_sha256": "2be317ea5299ae2bba45eaf57adf9c762ddcda069915a563b85dddc5d20f1005",
+    "gzip_sha256": "6c80870f091f8aae2451aa9270fbaa56689617c78b229f1e5d16a373d3ac38b0"
+  },
+  {
+    "index": 342,
+    "path": "village/savanna/houses/savanna_fisher_cottage_1",
+    "source_address": "0xebe814",
+    "source_sha256": "977fb58d6f008920c85c9002c9aefe876eb08f0d9ee1cbf0fcc640a9fdf53dc6",
+    "gzip_sha256": "a0377180409f140b09955c4956fdad0d03d85d8fd0443c47c405f85fe1d1dfd5"
+  },
+  {
+    "index": 343,
+    "path": "village/savanna/houses/savanna_tannery_1",
+    "source_address": "0xebe874",
+    "source_sha256": "16356262e11fad98bb8d990de0fc74ba40fb87c4a9c120dd0bdda08b96cdb75c",
+    "gzip_sha256": "dc6d630501faae85e776b65fb0d92092039e96a1263ce64459e4368fc3606478"
+  },
+  {
+    "index": 344,
+    "path": "village/savanna/houses/savanna_cartographer_1",
+    "source_address": "0xebe8c6",
+    "source_sha256": "bc46f3b7fa5a51640acd4fbf0d8067688bea8899908b2467b775aa80747cebb1",
+    "gzip_sha256": "e102f6e8119bf547b5e377da85a7c664e3231468bbf1db1cbf32f1a6df7fb1c3"
+  },
+  {
+    "index": 345,
+    "path": "village/savanna/houses/savanna_library_1",
+    "source_address": "0xebe922",
+    "source_sha256": "8da49b691195b40dfb4227fa59321b043b29f41e710e9a8add2a498cf0ee71d3",
+    "gzip_sha256": "f09d40344b7e36eac242b076fe429293f9804c19e71460242db8710cd28b857f"
+  },
+  {
+    "index": 346,
+    "path": "village/savanna/houses/savanna_mason_1",
+    "source_address": "0xebe974",
+    "source_sha256": "fa7bec02dafd14b94c8cc6af230e09ac14c611958db04cfc23a47b38ab1b6fed",
+    "gzip_sha256": "334c1c6776672adf22667e05c051fe1b4ef577165def18b207580f7993abf91f"
+  },
+  {
+    "index": 347,
+    "path": "village/savanna/houses/savanna_weaponsmith_1",
+    "source_address": "0xebe9c2",
+    "source_sha256": "41c894f1ee73afaabf2099ee3198042b0318200e4aebfa3830f42b34ff136403",
+    "gzip_sha256": "6592e7bb2a59cb5184b64759bfb0fcfb6fad3ed1814eb4423dcdc4f7fd44040b"
+  },
+  {
+    "index": 348,
+    "path": "village/savanna/houses/savanna_weaponsmith_2",
+    "source_address": "0xebea1c",
+    "source_sha256": "0abcb4a91bdbe628d9ea0ca1b37544fa17c0454243c7eaa83252aad5eb8b8692",
+    "gzip_sha256": "4e60006f3c0c34e0c0a951bcd4477b81e5fb52ba2506ff729833cde3df559ca4"
+  },
+  {
+    "index": 349,
+    "path": "village/savanna/houses/savanna_temple_1",
+    "source_address": "0xebea76",
+    "source_sha256": "f730b554b80994d144edac0164be0500e11c4f0ae02f3fc9402ec986f807545a",
+    "gzip_sha256": "be4e6cc2d3abb204f566b790b78a75412157479c21fb66a76dcea0fd332ccc58"
+  },
+  {
+    "index": 350,
+    "path": "village/savanna/houses/savanna_temple_2",
+    "source_address": "0xebeac6",
+    "source_sha256": "9cdd023c19aacd77c87d90d1f6c8ad525b0ebcd1341a36aa53ae3020cd95c951",
+    "gzip_sha256": "c27fdeb6bc3578b8d3c444bb24dd007095f81cc7c83a53223aaa19b3e05c6af7"
+  },
+  {
+    "index": 351,
+    "path": "village/savanna/houses/savanna_large_farm_1",
+    "source_address": "0xebeb16",
+    "source_sha256": "2af3726c1b24de86a993a0e98dd3fc4922426b75660e25b0dde8d188b474dee6",
+    "gzip_sha256": "8dc7c00d95c32924136c0a6303ee38e961092d3b538c2e645474e06a153fb5d2"
+  },
+  {
+    "index": 352,
+    "path": "village/savanna/houses/savanna_large_farm_2",
+    "source_address": "0xebeb6e",
+    "source_sha256": "2eb6a0ed2a51bf1cb3edb46475644b9b36f9bc8dfb39b0dcb13b701cc03cb2c6",
+    "gzip_sha256": "bd0fdb7476c2b760578009100cf51ddaaadd4322d37c67927591a54d63ac99c2"
+  },
+  {
+    "index": 353,
+    "path": "village/savanna/houses/savanna_small_farm",
+    "source_address": "0xebebc6",
+    "source_sha256": "09dbc7b13ecfd6ef074de533aa704d4c69783dad0fbd27e482e3f8c0c75b0732",
+    "gzip_sha256": "9540b9b9836e6be769cc3cce87e38253a943a2d565b10632be3c9a4ee7de747b"
+  },
+  {
+    "index": 354,
+    "path": "village/savanna/houses/savanna_animal_pen_1",
+    "source_address": "0xebec1a",
+    "source_sha256": "7a60a8bac12eab200601c285b958ce8ca4e75f806f72d87c9bb1cbaf16f87550",
+    "gzip_sha256": "1978c97078aacd50c4a32950cdc03af0352131d3ccac6693b953dbe6a3ef1b13"
+  },
+  {
+    "index": 355,
+    "path": "village/savanna/houses/savanna_animal_pen_2",
+    "source_address": "0xebec72",
+    "source_sha256": "5f2967ec1dab4d90a84911ca51973abd44208dabd98c55b962661141485b8ac2",
+    "gzip_sha256": "5f891262fb2439af1566a6c7bc5c15c3933df00384ad8be631f75aad196f825b"
+  },
+  {
+    "index": 356,
+    "path": "village/savanna/houses/savanna_animal_pen_3",
+    "source_address": "0xebecca",
+    "source_sha256": "e1cd574f5c65d166020a93c22cfe8bea619cd91d49aa0614417eb5604378a7d2",
+    "gzip_sha256": "231be24a9ed1d6e77608b07c37bf6e6028e8def59a13931975fb927ab71d560d"
+  },
+  {
+    "index": 357,
+    "path": "village/snowy/houses/snowy_small_house_1",
+    "source_address": "0xebed22",
+    "source_sha256": "9eab4b39f492519014c20af8fcd0ca59f8f23ef287b7c54410a078fd0278302e",
+    "gzip_sha256": "4a328595d4bb603d77f9847290c31f78772140e40eb73a5aaf907c838399989c"
+  },
+  {
+    "index": 358,
+    "path": "village/snowy/houses/snowy_small_house_2",
+    "source_address": "0xebed74",
+    "source_sha256": "1f79e0276b8d74c0c58daef8e1a8d449ae420ef17ae9b2f384acac1c1dc7e695",
+    "gzip_sha256": "43ed44dfa0e42cccb5791d73db4d9bebbb34220ef77af51ba969305df33d5385"
+  },
+  {
+    "index": 359,
+    "path": "village/snowy/houses/snowy_small_house_3",
+    "source_address": "0xebedc6",
+    "source_sha256": "3ba65a325608c3218eff12424ec150102710ef6b0ac2ba5282e29de47993c23d",
+    "gzip_sha256": "4df93a7961029fff3e180069fe8f8585446aaa70833ed745f71538a68ce83c06"
+  },
+  {
+    "index": 360,
+    "path": "village/snowy/houses/snowy_small_house_4",
+    "source_address": "0xebee18",
+    "source_sha256": "40f00c1701eee3e99c4636acf36d84fc06859567014a8de9280f39026e927790",
+    "gzip_sha256": "0d7b67c282811a5954cc8bafe6024ee1076232f5847479c3bcbeb8bca859dbf8"
+  },
+  {
+    "index": 361,
+    "path": "village/snowy/houses/snowy_small_house_5",
+    "source_address": "0xebee6a",
+    "source_sha256": "fae2b3afe7b1a053b6379c38b15292036bf401ef23370ad4d7877ed8cd272ee3",
+    "gzip_sha256": "82702185c9ab7997d76698f02223f25fd0cb33256ed5171961b9e347eb47443d"
+  },
+  {
+    "index": 362,
+    "path": "village/snowy/houses/snowy_small_house_6",
+    "source_address": "0xebeebc",
+    "source_sha256": "f2b0c5a2fb14c00030d98ade6ae66f2926cd91d68567acb7ba437e6d8f5a22b4",
+    "gzip_sha256": "441666245ea51eb246e0772663681fadbc885a9fa8a0c273ebd0a05a60112373"
+  },
+  {
+    "index": 363,
+    "path": "village/snowy/houses/snowy_small_house_7",
+    "source_address": "0xebef0e",
+    "source_sha256": "dd379a68c81fde215edb2c6337fca02825edbfb24b3ff05ad468f3154988af17",
+    "gzip_sha256": "042351b6c4e86d4f674ce9b70b6c1ffe7b420f3a0665c9da81cfa94fb11347c7"
+  },
+  {
+    "index": 364,
+    "path": "village/snowy/houses/snowy_small_house_8",
+    "source_address": "0xebef60",
+    "source_sha256": "d7dab181e60b27dc675b54751e743b650434747ee296be936aff8faa1a9cf4d0",
+    "gzip_sha256": "648ff559131f97d501e206aa0da42295ba5070e4fecf97d4388f3be06921f020"
+  },
+  {
+    "index": 365,
+    "path": "village/snowy/houses/snowy_medium_house_1",
+    "source_address": "0xebefb2",
+    "source_sha256": "759a234f3d3868621f36c754456aeedb546b0587a509cc428c3a0c13dc7e34cc",
+    "gzip_sha256": "40e1dc86b917bc6b57807aae629f7bfa677e58e2c8727394eae0f6ddfe72b149"
+  },
+  {
+    "index": 366,
+    "path": "village/snowy/houses/snowy_medium_house_2",
+    "source_address": "0xebf006",
+    "source_sha256": "8a6f4cc19a48c6b33fbf8a4d20d555f330136da2162401a1f47520784db63b52",
+    "gzip_sha256": "49fdf08d3f543b280f86057331260fd7aad16d704a815d58cbe0b2a331a4a36e"
+  },
+  {
+    "index": 367,
+    "path": "village/snowy/houses/snowy_medium_house_3",
+    "source_address": "0xebf05a",
+    "source_sha256": "4f717ef0274456d44b9dbc6d2a5645002a8366fb1ff972afdcadec98760118e2",
+    "gzip_sha256": "e96eb2b9a41d27e2ca6719a5bfc63456d6e257e9167800f01fdbbf60b073688d"
+  },
+  {
+    "index": 368,
+    "path": "village/snowy/houses/snowy_butchers_shop_1",
+    "source_address": "0xebf0ae",
+    "source_sha256": "31d224a47842c13c2377237422f5223a7628d99a8da81fdf53d405ff4e871d0f",
+    "gzip_sha256": "5a13754f0c250029389855f72c1065406646d8f27029a26eb920e1ab91bc46ce"
+  },
+  {
+    "index": 369,
+    "path": "village/snowy/houses/snowy_butchers_shop_2",
+    "source_address": "0xebf104",
+    "source_sha256": "1ba44dfc3753c31594a44bd73486a504bcab9c26703fc5099414f60f4f20a6a1",
+    "gzip_sha256": "37f1c8b26d1980470b08cbba7df0581d94d7988aec77590a6e6908237491066c"
+  },
+  {
+    "index": 370,
+    "path": "village/snowy/houses/snowy_tool_smith_1",
+    "source_address": "0xebf15a",
+    "source_sha256": "47ef4e3f9935bac3797884fe32bbe39935330a3a24cf1dbe0a17415ca8fb43d9",
+    "gzip_sha256": "912cfd9d8156ee40b87965f974a1474de4f1713544e212a5bcf5c4e7a44abd7a"
+  },
+  {
+    "index": 371,
+    "path": "village/snowy/houses/snowy_fletcher_house_1",
+    "source_address": "0xebf1aa",
+    "source_sha256": "19581016c8e553be9f9d1223aebf77bc0f31f76948f890430a2097bcecef03dc",
+    "gzip_sha256": "0233925df1917b7ef8c64a25ae683499a5a50119514e09a8786abf8517272735"
+  },
+  {
+    "index": 372,
+    "path": "village/snowy/houses/snowy_shepherds_house_1",
+    "source_address": "0xebf202",
+    "source_sha256": "2da66c8c842a50fabc5705450381e6ceb0bb888c9ced68838ac189104eddc5c5",
+    "gzip_sha256": "d3cde437715dc05a78c054db232181a2039e8addd23f94821be04d65061abfa6"
+  },
+  {
+    "index": 373,
+    "path": "village/snowy/houses/snowy_armorer_house_1",
+    "source_address": "0xebf25c",
+    "source_sha256": "1822c7f610f53c47dd28638f3873ced89329f95f7026898bd77cddb72c99ce7c",
+    "gzip_sha256": "767ab00e83953f891e0f96a263f4ba996bf6569c6e930b86ba9c9276d7e542f3"
+  },
+  {
+    "index": 374,
+    "path": "village/snowy/houses/snowy_armorer_house_2",
+    "source_address": "0xebf2b2",
+    "source_sha256": "5effcef68b4f4de2ab0c16c9e8981af25f254c2f2b0248b21d501149382aaccb",
+    "gzip_sha256": "d1067dbb6d49719399b1146b7aa7f8a16342b682262e94e8aebaafe08703816a"
+  },
+  {
+    "index": 375,
+    "path": "village/snowy/houses/snowy_fisher_cottage",
+    "source_address": "0xebf308",
+    "source_sha256": "780a56ad39fec2aa6edcf0bafda787bdfa1fb692b66663b6b8ad294381eb2e58",
+    "gzip_sha256": "c38cc0047f4e337de7ff219fd096fec90829ba760adad9a575355d4796cda85b"
+  },
+  {
+    "index": 376,
+    "path": "village/snowy/houses/snowy_tannery_1",
+    "source_address": "0xebf35c",
+    "source_sha256": "ccdb6bcca27ff432ec8b985838799c3a93b30a0e88dbd32dea4f3d903bb3355f",
+    "gzip_sha256": "709b26f57c3d4b254d5db4ee538b35bc10c1a0742e393fc4638e6ddd11c1caa3"
+  },
+  {
+    "index": 377,
+    "path": "village/snowy/houses/snowy_cartographer_house_1",
+    "source_address": "0xebf3a6",
+    "source_sha256": "93cb4cc94cd696673affe284edfd326db5d7b01431f884b0053f0b8c7118e73b",
+    "gzip_sha256": "a8ae88c6f0a9a6b5970602820dffa5d8c242f5915f952bcaa2f3f3e13e2c945f"
+  },
+  {
+    "index": 378,
+    "path": "village/snowy/houses/snowy_library_1",
+    "source_address": "0xebf406",
+    "source_sha256": "d60a2c2babd47596294029ccfe426b5823f3dc8ae08102c1ab5fadfeafb425d1",
+    "gzip_sha256": "a058640a8cea00ebf93f91580bfd933c87aa5db8f8876ff3a0c0c459cf5ac68c"
+  },
+  {
+    "index": 379,
+    "path": "village/snowy/houses/snowy_masons_house_1",
+    "source_address": "0xebf450",
+    "source_sha256": "86540204974bbcd5275fd4ad6cbea427ce91642b9621e8106f9755b58a0549b0",
+    "gzip_sha256": "cbe36ee6761c69db32c413b8763fe4b6e5879ba1f03432858f109d57ea898db3"
+  },
+  {
+    "index": 380,
+    "path": "village/snowy/houses/snowy_masons_house_2",
+    "source_address": "0xebf4a4",
+    "source_sha256": "95cda838208721182221a8462304263d9fe2fae8839bcf14c9f03da3876f9525",
+    "gzip_sha256": "abb3f2b6b31fdf3095b04c47ef4610e101cab2d78f239bd136807a095daaa4bf"
+  },
+  {
+    "index": 381,
+    "path": "village/snowy/houses/snowy_weapon_smith_1",
+    "source_address": "0xebf4f8",
+    "source_sha256": "b35b79f129d7143a041ad610e5ff64e78ef9afb2548a9a90fd700ac92a5ce55b",
+    "gzip_sha256": "67fdb4233932b02c2936a15a148a3ee3ed40db2dcc1c60236ea1b428179e05d6"
+  },
+  {
+    "index": 382,
+    "path": "village/snowy/houses/snowy_temple_1",
+    "source_address": "0xebf54c",
+    "source_sha256": "e541861e2f9ebc1be926d7f735dc688362987a93076cd6443a2727ee49c3ea1b",
+    "gzip_sha256": "a45bf6bf2b807a493379274ae9e555b5659690b45bb047a23424e14ded1af018"
+  },
+  {
+    "index": 383,
+    "path": "village/snowy/houses/snowy_farm_1",
+    "source_address": "0xebf594",
+    "source_sha256": "7ae7d5537807137cdcdd31a121682aa51c3098a5801747a667bf2234ca14de69",
+    "gzip_sha256": "5a41d4ddd74b26d72144c54abcaf81a48e8e74dce01495fa2a4573e610bb3b09"
+  },
+  {
+    "index": 384,
+    "path": "village/snowy/houses/snowy_farm_2",
+    "source_address": "0xebf5d8",
+    "source_sha256": "ec57776d9d306003fd06a93eb3b9d8ba1704742decd0d856e52b45c8f8958138",
+    "gzip_sha256": "c8cf8a50b0988686eaf52cb8f75fcf02efb3829832869dadb7830de651fa6db9"
+  },
+  {
+    "index": 385,
+    "path": "village/snowy/houses/snowy_animal_pen_1",
+    "source_address": "0xebf61c",
+    "source_sha256": "0ac0444f705cdd8bd01a9bd34a7b82e19286610e7e2f51345149789fca2c545f",
+    "gzip_sha256": "0144f53852f75bc3054eb32541d522378ad7c1888c45017db2ddbe0365daad0b"
+  },
+  {
+    "index": 386,
+    "path": "village/snowy/houses/snowy_animal_pen_2",
+    "source_address": "0xebf66c",
+    "source_sha256": "8b4d5fbee14249ef56930e307e34a6b72828908d284d975431a5187362b4b756",
+    "gzip_sha256": "56f8b61ed47d59dad0a8f6d185f5a309936554400f24353f66a94166383e8de6"
+  },
+  {
+    "index": 387,
+    "path": "village/taiga/houses/taiga_small_house_1",
+    "source_address": "0xebf6bc",
+    "source_sha256": "f7c2f3427a5786f596db1c3f509ebff6264a0e7b18cced23a5bc4bb058e8d8de",
+    "gzip_sha256": "d3e06702cb64c9ce740cc3f22ce947018696755cdce4ce2bf5d3e69fb0745ead"
+  },
+  {
+    "index": 388,
+    "path": "village/taiga/houses/taiga_small_house_2",
+    "source_address": "0xebf70e",
+    "source_sha256": "f590b304fbd95019b5da1a8e751c63bd50697b8a994c06adbcf1b3aa3e0f7f09",
+    "gzip_sha256": "cae5f38ef945d9874f842c136bbdb019b4d17fed930cf832a214471bcd4c4645"
+  },
+  {
+    "index": 389,
+    "path": "village/taiga/houses/taiga_small_house_3",
+    "source_address": "0xebf760",
+    "source_sha256": "fe9a738dd6ccf03ca01c84aeac2d5aee2c93119cfd5aa5cea356054a2af6820a",
+    "gzip_sha256": "d70ff17e17f63c1b1c3e8a03cd34ad93938c2d9ca224b97ee9b8ca3f8d0fb584"
+  },
+  {
+    "index": 390,
+    "path": "village/taiga/houses/taiga_small_house_4",
+    "source_address": "0xebf7b2",
+    "source_sha256": "25baac9b550ea521c3479414eb3c00bd98394858b3fd796fa5f4b23d5f24b2e9",
+    "gzip_sha256": "faf172a306c99f633239a74a303ba6831cccabfbdd73a2939c8585d89c0d298e"
+  },
+  {
+    "index": 391,
+    "path": "village/taiga/houses/taiga_small_house_5",
+    "source_address": "0xebf804",
+    "source_sha256": "2d3d776d81e5729d6431d033a5243f5284db1af66c61aa8df596ea0b8e22284c",
+    "gzip_sha256": "d976aa06b4d3ee34e2ce705dee5d8d7b3f6c0a9cb0f45e2e992398628e260fbd"
+  },
+  {
+    "index": 392,
+    "path": "village/taiga/houses/taiga_medium_house_1",
+    "source_address": "0xebf856",
+    "source_sha256": "f878da5c623f77eeb3646b610efe28176ac8521bbb27c8ab29a91143f5e961bd",
+    "gzip_sha256": "ebcc2fbcbb72907ad3bb620ec081a7a35f2a92b4371be3ef4f2d61adda8d8937"
+  },
+  {
+    "index": 393,
+    "path": "village/taiga/houses/taiga_medium_house_2",
+    "source_address": "0xebf8aa",
+    "source_sha256": "25ebb881916eb1037b517336c7786971ee824a9b31bdc2df679d12d985364a4f",
+    "gzip_sha256": "252f12272a9199f2e64d7eee18504f891c7d7a9eb2e0b70b9a2ab3807b299f37"
+  },
+  {
+    "index": 394,
+    "path": "village/taiga/houses/taiga_medium_house_3",
+    "source_address": "0xebf8fe",
+    "source_sha256": "9ce0cb8ef3af0c7fde3b68d18beeb96ea44446058f5b95a986a6440a8dc8be2c",
+    "gzip_sha256": "c101e506672199045138bd796d8ed2ab4926da99a63639a7b41f130f01a17bb8"
+  },
+  {
+    "index": 395,
+    "path": "village/taiga/houses/taiga_medium_house_4",
+    "source_address": "0xebf952",
+    "source_sha256": "6e9a12dccdd75df88330d3010508ef8a9ea800d08bc27e844899884330b58d25",
+    "gzip_sha256": "1aec6db025f19caf16752eb7d6293aec6683f4c2853eb7b2d4e2bae5902e4255"
+  },
+  {
+    "index": 396,
+    "path": "village/taiga/houses/taiga_butcher_shop_1",
+    "source_address": "0xebf9a6",
+    "source_sha256": "61cbf4d1dc67c5b1cdb4082c410699b6cf8fc01efd69bd2646cced5c1e7ed4fd",
+    "gzip_sha256": "211f127269cce94f7f2438dd853c36399f0b29eecc4b92f60b9c8b1e4a4b9135"
+  },
+  {
+    "index": 397,
+    "path": "village/taiga/houses/taiga_tool_smith_1",
+    "source_address": "0xebf9fa",
+    "source_sha256": "d36ff34af6ff36a622343d0879f647c59af4f718522ed9d5be972212d488afc9",
+    "gzip_sha256": "fa7bb4e86382cf5c26307b0ed1ff194f539d2e949cb1ca1c275c0a10187a80d9"
+  },
+  {
+    "index": 398,
+    "path": "village/taiga/houses/taiga_fletcher_house_1",
+    "source_address": "0xebfa4a",
+    "source_sha256": "4807a1de528da5d13bb2311869eadf89204f08d7021aefa6cb1173befa6d513f",
+    "gzip_sha256": "c30bd28cf54e574c47f9474590ee18f58b1410649a376501a417c014fcc8b9f8"
+  },
+  {
+    "index": 399,
+    "path": "village/taiga/houses/taiga_shepherds_house_1",
+    "source_address": "0xebfaa2",
+    "source_sha256": "309284adfdee95b2ee469bc561248bf35f4baadd46ee0eb9560dbc85a666f71b",
+    "gzip_sha256": "4c8b75d484e744ad8dacec9673b05f8c0ac47e51f939e26b847c9fb92db4aca8"
+  },
+  {
+    "index": 400,
+    "path": "village/taiga/houses/taiga_armorer_house_1",
+    "source_address": "0xebfafc",
+    "source_sha256": "9fdb75da1986d58d46f6a6b9ba1f3e2431ead7e3ffc30e771edc4a0bd7903859",
+    "gzip_sha256": "e372a513b00dc615380d5782c6ddfc874eae18d98a6ecaf751177ad404c3e22d"
+  },
+  {
+    "index": 401,
+    "path": "village/taiga/houses/taiga_armorer_house_2",
+    "source_address": "0xebfb52",
+    "source_sha256": "3af4b1eacf8ae939da1ba8f9216e0d62f9b69950a8f400536cb18b375db74d79",
+    "gzip_sha256": "a481e7fd3390cc19be4d869495674e12b7ef7ee82dafef13daa2ad94801f5847"
+  },
+  {
+    "index": 402,
+    "path": "village/taiga/houses/taiga_fisher_cottage_1",
+    "source_address": "0xebfba8",
+    "source_sha256": "812f0e51be0119e0ca96908dcc9a91b6c43f8f064c931cdf5c25077bc98c555f",
+    "gzip_sha256": "755696c687f2c86fb826197207ba368aaf1cf51eec8160ce692b5c8d96efca87"
+  },
+  {
+    "index": 403,
+    "path": "village/taiga/houses/taiga_tannery_1",
+    "source_address": "0xebfc00",
+    "source_sha256": "549d17dc1a2352bdfc58badd916557f72ff76db2e2a8194989ced955b5306264",
+    "gzip_sha256": "8c94c05ac9a2f36af9d2763e2ec3bc0336c43d087dd1a7884afb741c9491323f"
+  },
+  {
+    "index": 404,
+    "path": "village/taiga/houses/taiga_cartographer_house_1",
+    "source_address": "0xebfc4a",
+    "source_sha256": "e4786bf5bee48e536beda7aa7c5eb89ebc5be2737921d9504db59d201669a00e",
+    "gzip_sha256": "56b701224269d499db96190fe771bbed41c795912756750ce937fd4082dd1ee8"
+  },
+  {
+    "index": 405,
+    "path": "village/taiga/houses/taiga_library_1",
+    "source_address": "0xebfcaa",
+    "source_sha256": "4f593d69d467f7cc9b0fb6da63660336bf3e98a9c64e81934d838b2460b9d312",
+    "gzip_sha256": "f81bd20bd632a83354f6b747cdfa2ed7c24e59d43575b10da688c419a24c3fc8"
+  },
+  {
+    "index": 406,
+    "path": "village/taiga/houses/taiga_masons_house_1",
+    "source_address": "0xebfcf4",
+    "source_sha256": "ee983880122174df8ade852a645213664afe8256369e9c306db3d0d572d79acc",
+    "gzip_sha256": "dd94cc981acaa42e011aa7d606ad7e5348adc657c7e2203873b7dda10cd9fbaa"
+  },
+  {
+    "index": 407,
+    "path": "village/taiga/houses/taiga_weaponsmith_1",
+    "source_address": "0xebfd48",
+    "source_sha256": "fd5aa8682536f5910a1812e0e37bcfd5659139f01d9a0823c6f7bd39d20d5270",
+    "gzip_sha256": "d5dfb78bf2f562976d6c240a0c8fedbf91178012796a5ae80de4b199a1a98b3d"
+  },
+  {
+    "index": 408,
+    "path": "village/taiga/houses/taiga_weaponsmith_2",
+    "source_address": "0xebfd9a",
+    "source_sha256": "fcf183f95d1e1386db008abec186f4b4d69f03e231eecfe1d8fea2fe907b0fb6",
+    "gzip_sha256": "3b04ab7bc09a035c6f4bc5022ae39b22ab70ab0244c21905cc21f4c04eb6a7a2"
+  },
+  {
+    "index": 409,
+    "path": "village/taiga/houses/taiga_temple_1",
+    "source_address": "0xebfdec",
+    "source_sha256": "ba5d19098ef04c6b6852a3c32d62c788bade31fa9ef2a977698216df8b098127",
+    "gzip_sha256": "333fe638c27ae77993c3ffe236ef2b2f5e7dd8ee761e645dc2ab3322e2332a6a"
+  },
+  {
+    "index": 410,
+    "path": "village/taiga/houses/taiga_large_farm_1",
+    "source_address": "0xebfe34",
+    "source_sha256": "0c9c1bedc3caafba93cc9181b0b1d4d3b281073f3f44ab60b34ddb5a1183a669",
+    "gzip_sha256": "91f7ed5c4b1d7a06e46c5b8cd1338d3ac73e3766d5f6eeea8175415bfa5dadfe"
+  },
+  {
+    "index": 411,
+    "path": "village/taiga/houses/taiga_large_farm_2",
+    "source_address": "0xebfe84",
+    "source_sha256": "e781155ce40ccebd35bde4302144ff2399498de9bc1bcff2afb6fd3849fea1d0",
+    "gzip_sha256": "107b42ded1a76a5c7369b452106856305c455f259c984b856664eefc6729db2b"
+  },
+  {
+    "index": 412,
+    "path": "village/taiga/houses/taiga_small_farm_1",
+    "source_address": "0xebfed4",
+    "source_sha256": "1c6f912a29bf8f7c7332c7f36c231b50b08fc3de8f976802f6b10fffb1787f7b",
+    "gzip_sha256": "10a4f3e8a208a4106304897848a7f43ffa8ec0c8802f630cef56515df45d1df3"
+  },
+  {
+    "index": 413,
+    "path": "village/taiga/houses/taiga_animal_pen_1",
+    "source_address": "0xebff24",
+    "source_sha256": "17c4660ef942088da2a4ed11785b49932cc635fc9ae8438352ff7fffc6993155",
+    "gzip_sha256": "2521bb6892f17096bd64b377be36805ec6606658321bd8c2671fe534375ec93f"
+  },
+  {
+    "index": 414,
+    "path": "village/taiga/houses/taiga_lamp_post_1",
+    "source_address": "0xebff74",
+    "source_sha256": "5a63d9f37388637664ec6342c0099a086c3418d938ba644e7aead04ac0c1a749",
+    "gzip_sha256": "4aaf8ebf1a61e17a101350c4ea513829e68b4bc975b48847284055b6fa598a8f"
+  },
+  {
+    "index": 415,
+    "path": "village/taiga/houses/taiga_decoration_1",
+    "source_address": "0xebffc2",
+    "source_sha256": "0d843738ffd81be1ca1cbc71c584b2a64320264c4de76a679414514241c5dc35",
+    "gzip_sha256": "ee842895662af6aeea623b6af96beb570ef96381396a202f793c566b26eab580"
+  },
+  {
+    "index": 416,
+    "path": "village/desert/houses/desert_small_house_1",
+    "source_address": "0xec0012",
+    "source_sha256": "df41ff4f5326d02ca40df7a7d221dca7a621892e2c8960f3825efa5d9e602dbe",
+    "gzip_sha256": "c0220a4d7d544dcaa06e0219aa4ba3ace10105ca907cff5c2b732058c33cc64e"
+  },
+  {
+    "index": 417,
+    "path": "village/desert/houses/desert_small_house_2",
+    "source_address": "0xec0068",
+    "source_sha256": "c22956d8b4c7f60dff722ea74e2e75d62a1aedf5a67370c69ea5da945859cb1d",
+    "gzip_sha256": "70cf79aaefe45a0105dc0b304b33341caf576889765ab17ac692b58dc525499b"
+  },
+  {
+    "index": 418,
+    "path": "village/desert/houses/desert_small_house_3",
+    "source_address": "0xec00be",
+    "source_sha256": "6a9d9e316b8b6607a18075082fc254c4a3acfd5f4543a4db8686d4164b43fe71",
+    "gzip_sha256": "7d638108ac8fc50e31765f2553c4300032edb66222b6c714980c051b2ab62c86"
+  },
+  {
+    "index": 419,
+    "path": "village/desert/houses/desert_small_house_4",
+    "source_address": "0xec0114",
+    "source_sha256": "bd5d2a47dc5b6e69fb47b6472b23a09d6b646e84f619b7a8983bb13304615478",
+    "gzip_sha256": "46fa8132ce5b68569a1e3db8084ff911586c65a2d7571bc3a136fd0f02b2ac48"
+  },
+  {
+    "index": 420,
+    "path": "village/desert/houses/desert_small_house_5",
+    "source_address": "0xec016a",
+    "source_sha256": "ae8ed590bb60cf705effdfcde9653f3c23f2b3e18d1e1e00c70c15029fea3317",
+    "gzip_sha256": "b5e15be77f6e2d1040edf7bc0a8a11c563d0892e5d9534687e1775f693b69748"
+  },
+  {
+    "index": 421,
+    "path": "village/desert/houses/desert_small_house_6",
+    "source_address": "0xec01c0",
+    "source_sha256": "acc43d3ee6e945f7a8c6c0d8b930912f1de31545681014d91853fae589b82066",
+    "gzip_sha256": "fa6e08805a2a57a7e5eaef6c1e8663889a5024530613dcc1801324c0c3dc4303"
+  },
+  {
+    "index": 422,
+    "path": "village/desert/houses/desert_small_house_7",
+    "source_address": "0xec0216",
+    "source_sha256": "38a1bfb0e60a79eaa23346bf982b980efe42134044d6f1d32106e16d46c47fc9",
+    "gzip_sha256": "5f97cb03f5a1f0fbceff8d9f7bf5d89fd19981b017a94ad1bd03785375104e44"
+  },
+  {
+    "index": 423,
+    "path": "village/desert/houses/desert_small_house_8",
+    "source_address": "0xec026c",
+    "source_sha256": "807ff563050a735f84af9619959a538b3a606206301c7926082770fc9df6dda3",
+    "gzip_sha256": "723c7a7d82b90c7d144308fcef033c105ce2a71e583c7cd6f69d99724d1c4fe5"
+  },
+  {
+    "index": 424,
+    "path": "village/desert/houses/desert_medium_house_1",
+    "source_address": "0xec02c2",
+    "source_sha256": "2b6ee7e76a543b4f220e2f4da6018a29abdf6657bba3901125c5350865c2adb5",
+    "gzip_sha256": "7380333209c367239b5bc8640b8181a0f1c8bcefaca6ef20e78e368611d8093c"
+  },
+  {
+    "index": 425,
+    "path": "village/desert/houses/desert_medium_house_2",
+    "source_address": "0xec031a",
+    "source_sha256": "73503a57354f9c8f2feb5aac3d86d6b04e257f46582ead21ba1e56a13144169f",
+    "gzip_sha256": "a3453f11db2b61b796bb1983ffec24e4a47c52052271e6e319bda056fb3704ce"
+  },
+  {
+    "index": 426,
+    "path": "village/desert/houses/desert_butcher_shop_1",
+    "source_address": "0xec0372",
+    "source_sha256": "3be2f82a1a787559cabd12e8e1f2140ab570517e9634b0fb58acf30f9b394057",
+    "gzip_sha256": "06adacab90a714f9bbc4ffaba5fb1496832456698897370cea86cdf2e0d6c941"
+  },
+  {
+    "index": 427,
+    "path": "village/desert/houses/desert_tool_smith_1",
+    "source_address": "0xec03ca",
+    "source_sha256": "bd9b0b906685710a3604d1650946ebea40a715535fcbc69dc4deda4e5e7e90a5",
+    "gzip_sha256": "085908455320b89f49dde3e30953a4b9391a5693a800db13e52d2e2fa98bef75"
+  },
+  {
+    "index": 428,
+    "path": "village/desert/houses/desert_fletcher_house_1",
+    "source_address": "0xec041e",
+    "source_sha256": "5caa80b1682694c16b8523670c0807fc27f8ba353d094053ac69e5b7599e0276",
+    "gzip_sha256": "173ba28d26c8ed4ebd2b5fccf503b8ad67dc03e73711bbfe92479f999c91cf3a"
+  },
+  {
+    "index": 429,
+    "path": "village/desert/houses/desert_shepherd_house_1",
+    "source_address": "0xec047a",
+    "source_sha256": "8e6133339516079ae171c737bf363f6305b10617159759e3ad5e01ada1fcabf4",
+    "gzip_sha256": "d42b5425a09eae49a1035638d19dadd83bc450c6fa0d93ede3c2acf39c3fdb22"
+  },
+  {
+    "index": 430,
+    "path": "village/desert/houses/desert_armorer_1",
+    "source_address": "0xec04d6",
+    "source_sha256": "ad383587fa5484958eb0c351a5ce1bb4acaf82a0ac6755fc6d4063ae0875ab5d",
+    "gzip_sha256": "ad9f0384ea7c2362a230963e9cae6ca9c5b31e5f3bd01b8b3f5731546c6addde"
+  },
+  {
+    "index": 431,
+    "path": "village/desert/houses/desert_fisher_1",
+    "source_address": "0xec0524",
+    "source_sha256": "cc2503873456ed114fae19e25f7372f6a79a4c39a8a9427344ca41acd5b8d7e8",
+    "gzip_sha256": "661e0b73d88b3d5595b784161a686f532bb933c8aba793472d1b2c6369d20cfb"
+  },
+  {
+    "index": 432,
+    "path": "village/desert/houses/desert_tannery_1",
+    "source_address": "0xec0570",
+    "source_sha256": "ffa128864e6b60898592fb748d7e7e8ec11f3ef1ec2874d6b5d8c408f81b7bd7",
+    "gzip_sha256": "dbb447e627c33213bd5300a0d651e9419543872c443311846680b77649b389be"
+  },
+  {
+    "index": 433,
+    "path": "village/desert/houses/desert_cartographer_house_1",
+    "source_address": "0xec05be",
+    "source_sha256": "df13f8883468f9e9a67b2112aab1a2c5252bbf322f84016e809bd04a04aa3ecf",
+    "gzip_sha256": "e926c05a72503ffccb38daf1e9f8e93a16419baef3817939762b140dca1e124e"
+  },
+  {
+    "index": 434,
+    "path": "village/desert/houses/desert_library_1",
+    "source_address": "0xec0622",
+    "source_sha256": "2f14bc4deac1c7f15700afa22184e75e9b30afdb0412f4ee6ea88e7ee59922f6",
+    "gzip_sha256": "e03ebe71188d602639a3556218bf76400c6301f050e4a922c075f9ca34714093"
+  },
+  {
+    "index": 435,
+    "path": "village/desert/houses/desert_mason_1",
+    "source_address": "0xec0670",
+    "source_sha256": "86e8f0740e4e586ac6837bf220a7dff5272fae99ae0f4ec56c302224d616ccb2",
+    "gzip_sha256": "ccd75d88fd63cb75d72c183f92576289bbd60eeec21ed62341b2f72dc407e005"
+  },
+  {
+    "index": 436,
+    "path": "village/desert/houses/desert_weaponsmith_1",
+    "source_address": "0xec06ba",
+    "source_sha256": "b3d6e03755cb166c6ac3f9a899ebe4b42d0c4bab1e66c8d6c722e3cf44bd8502",
+    "gzip_sha256": "534de1fdfee3b6dfa72694e29c4b662a49dec160b75f9c487e1c058e7a9bbdae"
+  },
+  {
+    "index": 437,
+    "path": "village/desert/houses/desert_temple_1",
+    "source_address": "0xec0710",
+    "source_sha256": "398a51fe04fec8104db32b3ffe8132aa237ff47553ba99ce61a0e8aa600a21b6",
+    "gzip_sha256": "cfeb0629a008b118a199f0590bdda527fef8440a467a6e136d1d6684754fbe36"
+  },
+  {
+    "index": 438,
+    "path": "village/desert/houses/desert_temple_2",
+    "source_address": "0xec075c",
+    "source_sha256": "b28d4db717d4c8a4e34f84ab18dbfce77b8a45ce4dcdff16d62d6687f91d7138",
+    "gzip_sha256": "639a025a26cb1b44aa7d1d89fe6d4d6a47455bda0c191e82e9f02e34e14e5658"
+  },
+  {
+    "index": 439,
+    "path": "village/desert/houses/desert_farm_1",
+    "source_address": "0xec07a8",
+    "source_sha256": "e36c5829405ce4556d10a516b28af5f49c4e97b59a255f72bb4f49c0098fbcd7",
+    "gzip_sha256": "22deca29ae5fd7558331391ed4d685238c548e5de0477098a1154410bd23bfe4"
+  },
+  {
+    "index": 440,
+    "path": "village/desert/houses/desert_farm_2",
+    "source_address": "0xec07f0",
+    "source_sha256": "7c91eeff9ced973a01d436f2c167e8e6b61f4fcd1c61ea3c1205932ad1e657c7",
+    "gzip_sha256": "31e28fc999d06c0afb424192e4944eea4d3fbd38450d0f7ba26888b29b348d4d"
+  },
+  {
+    "index": 441,
+    "path": "village/desert/houses/desert_large_farm_1",
+    "source_address": "0xec0838",
+    "source_sha256": "48ee3e86f3cbbfb2f78ca1e02baa1a29cc8e47d568bfb64f945dfbcf15c83234",
+    "gzip_sha256": "d84edb8c268e38c35cc8a372ff23b65eb953afe50adb5ff662b6314245634a7a"
+  },
+  {
+    "index": 442,
+    "path": "village/desert/houses/desert_animal_pen_1",
+    "source_address": "0xec088c",
+    "source_sha256": "1da19594a959fc5ef35ddcc3d4b1d04414e08fbf21b449bc8d965840b3cc930e",
+    "gzip_sha256": "ff77f44fc96c785c23dc8ac25e923cda263cfd510ffecaf288fc0b4393bed5ca"
+  },
+  {
+    "index": 443,
+    "path": "village/desert/houses/desert_animal_pen_2",
+    "source_address": "0xec08e0",
+    "source_sha256": "c7743e576c87e3e5eeae7e2ba4243ac304ff8d5e2e8701415a1997c18fa22792",
+    "gzip_sha256": "7c2351a7175d2cf45474ac143c9879df77c50de2c2295a93cc952272788a6f65"
+  },
+  {
+    "index": 444,
+    "path": "village/plains/terminators/terminator_01",
+    "source_address": "0xec0934",
+    "source_sha256": "f2bf02209e0a60d01e69314de3fb4272bd01cff8d2ef9cfcc8b3cd5e260ac3df",
+    "gzip_sha256": "180f5b6010ee9966c50be553e79575c5362fc1a6a94065a49617c9c1be09a913"
+  },
+  {
+    "index": 445,
+    "path": "village/plains/terminators/terminator_02",
+    "source_address": "0xec0986",
+    "source_sha256": "4ec6eddcf5dd6db8d97cb0dc1cf8ceea458f1cda1e9945d10560127ec78166c8",
+    "gzip_sha256": "6251d2bea1644b8bcde21649fa831890a32ba43dea4ba0ebd0f1f07ea790a5e2"
+  },
+  {
+    "index": 446,
+    "path": "village/plains/terminators/terminator_03",
+    "source_address": "0xec09d8",
+    "source_sha256": "02a2c3cc1e9fbc6205bd98035313dda698a1b8d5af1956644c8dc283d145967f",
+    "gzip_sha256": "3eeacd4e9346d103e4c12c0fc5825c912218d6d47a980891de7ac2836be50fb2"
+  },
+  {
+    "index": 447,
+    "path": "village/plains/terminators/terminator_04",
+    "source_address": "0xec0a2a",
+    "source_sha256": "bbb96c0b97cd5aa64e486e96dc5090a5e1914a9cee9258457d198029f309448a",
+    "gzip_sha256": "e49ef161cabddc1503dcbd7031b7a468d4a090fa74e98def539574ad7302d673"
+  },
+  {
+    "index": 448,
+    "path": "village/savanna/terminators/terminator_05",
+    "source_address": "0xec0a7c",
+    "source_sha256": "731a38aa16a7068e52b85355263bb826c124346bec3783eaa718592df5cb4a4d",
+    "gzip_sha256": "8b98d8ccdaedd5448c702e01d2b14cad9458e6fd1af50def71a8c6adae4d90fe"
+  },
+  {
+    "index": 449,
+    "path": "village/desert/terminators/terminator_01",
+    "source_address": "0xec0ad0",
+    "source_sha256": "4cbddf0296147d7d3d8e422ca0a735c0d310ec8a83bc9d3db73b5f1c1e2ce2ed",
+    "gzip_sha256": "2af9c2a20f09c75391ec26f9fa565ca34c733d046240559cadbf88db5787f9ac"
+  },
+  {
+    "index": 450,
+    "path": "village/desert/terminators/terminator_02",
+    "source_address": "0xec0b22",
+    "source_sha256": "7217255dfca8a751da4a0034250fd41754472bb242a81fd24127d1b4f09c594f",
+    "gzip_sha256": "1f64aba6af440b990c13220963f11cf0b4393c52bbb423998d73596f6a8075ab"
+  },
+  {
+    "index": 451,
+    "path": "village/plains/plains_lamp_1",
+    "source_address": "0xec0b74",
+    "source_sha256": "e57d8d94d758f0bac9cc957656a108fb57cc0c8d8fc0113e5fbe7bc8221cd399",
+    "gzip_sha256": "578e965ec236da4cbfbf593657958767193ddf6cb05ef9af0ef6444c0b79c073"
+  },
+  {
+    "index": 452,
+    "path": "village/savanna/savanna_lamp_post_01",
+    "source_address": "0xec0bae",
+    "source_sha256": "2505342f3b1cb193901b458359209276626ddc21880e1a012bd1faa05aa38b14",
+    "gzip_sha256": "ae81cc7f5881cad52e4013be92228a7f170ea89e5cde53fc6c974fff38500e47"
+  },
+  {
+    "index": 453,
+    "path": "village/snowy/snowy_lamp_post_01",
+    "source_address": "0xec0bf8",
+    "source_sha256": "cdf6c419feedf635f5bd8866eacc8a70244d4bee4bac9d5bda93f3d856d3da22",
+    "gzip_sha256": "13e3688475681f0b2769cd7616ab3f4ce80d1176b8e3e7da92882315dd4ec75c"
+  },
+  {
+    "index": 454,
+    "path": "village/snowy/snowy_lamp_post_02",
+    "source_address": "0xec0c3a",
+    "source_sha256": "8dc321add1f689db628298a100a836275317619abe3a697c9b43a920a16aa944",
+    "gzip_sha256": "a83e958410e68eefd0009d76fdba5ae76576fc6c955cadfdd08817e761f4f7bb"
+  },
+  {
+    "index": 455,
+    "path": "village/snowy/snowy_lamp_post_03",
+    "source_address": "0xec0c7c",
+    "source_sha256": "422bda97003a40b2e3bb62c70dad3950bfbc4b5a2efe42fad4cfc45eb09ce1e6",
+    "gzip_sha256": "5088d004c2502b49ebd022ed9e3f0b13ead493738a7aa26ddb00aac489d304c1"
+  },
+  {
+    "index": 456,
+    "path": "village/desert/desert_lamp_1",
+    "source_address": "0xec0cbe",
+    "source_sha256": "32dad6e0f1e74bc3ce0c5a9ca26a34054f4b7b0ad36c494ded1fba318d963792",
+    "gzip_sha256": "869871962234cb521429917bb5d68b9a9c6b00f8012aef82e839596e4b7846da"
+  },
+  {
+    "index": 457,
+    "path": "village/taiga/taiga_lamp_post_1",
+    "source_address": "0xec0cf8",
+    "source_sha256": "75abca6e3584f9d557b67e31ef9e6f91a275481fd5a5cb4e01349b1baf14c436",
+    "gzip_sha256": "03ef0f9dc28c64bdb63fd9ca720eccc75def24b5d933888258d95ace330a1ac9"
+  },
+  {
+    "index": 458,
+    "path": "village/taiga/taiga_decoration_1",
+    "source_address": "0xec0d38",
+    "source_sha256": "33bb47ed8e0c93fc309880c16e8b16d2d0dd139773769ac62404cd1fbfd80c12",
+    "gzip_sha256": "9d9c3a7ee6048c4c7d5a9dbc749a4f41aea88e3f076ae791749edcf044c5f849"
+  },
+  {
+    "index": 459,
+    "path": "village/taiga/taiga_decoration_2",
+    "source_address": "0xec0d7a",
+    "source_sha256": "88b105f33489f24f0c9271c4d766adbf70876b647131577530a9aad063563435",
+    "gzip_sha256": "f250e53f1d056de90f1890576293bb979cb6e7290ae72963143a8005e44d2ed8"
+  },
+  {
+    "index": 460,
+    "path": "village/taiga/taiga_decoration_3",
+    "source_address": "0xec0dbc",
+    "source_sha256": "72244cd52ea0c8b4bdac67c3b31666fcc4c685a58837c0272fb0104d341c4a5f",
+    "gzip_sha256": "1e4a7e643f0eaf3c718f5d03f35b40939b9801212a8f49db9849743d9ad4ebe5"
+  },
+  {
+    "index": 461,
+    "path": "village/taiga/taiga_decoration_4",
+    "source_address": "0xec0dfe",
+    "source_sha256": "429fddf422e2e995fbcc9c81645e61b0dc92efc9c2b3e0ad378f77cc5d1a4b49",
+    "gzip_sha256": "e26598f0bf2174cb6d85f62a8652f34b90f73d1368e4cbf6479d9973c32821a2"
+  },
+  {
+    "index": 462,
+    "path": "village/taiga/taiga_decoration_5",
+    "source_address": "0xec0e40",
+    "source_sha256": "1c65c955b6f0d9b2654fd53835db03742625a78e236ef4db5b90e91212c5f97e",
+    "gzip_sha256": "9139d11868a4da4624548101753f087912cdc584ad695c3380e062af90352af1"
+  },
+  {
+    "index": 463,
+    "path": "village/common/animals/cows_1",
+    "source_address": "0xec0e82",
+    "source_sha256": "8dc91622ca4dee1a726cabc19d5c0fa9a1d830aae00231c2fe26a0bd7df742ab",
+    "gzip_sha256": "b8db3a6e09bd7d8003949d1ce8a7a69ad26f25031ce54f3a45fb10312af2bc15"
+  },
+  {
+    "index": 464,
+    "path": "village/common/animals/pigs_1",
+    "source_address": "0xec0ebe",
+    "source_sha256": "5dea40b55c0da3c6533bef0f6a4b517e2b48787d82bc1d586c85f69ee8c4849d",
+    "gzip_sha256": "c3adec77adf1816cc44cfcd0533c05c8d0c762a9fc0496636e4981c5fc71905b"
+  },
+  {
+    "index": 465,
+    "path": "village/common/animals/horses_1",
+    "source_address": "0xec0efa",
+    "source_sha256": "ee85e234978b9e231aaf2396a73ed844e0e23b86cee66c84f8f95a574a9a04a7",
+    "gzip_sha256": "02b302f8bd5b0823778c221b3d5f1e6665be4581d5d2675a38b76a93cc7dc492"
+  },
+  {
+    "index": 466,
+    "path": "village/common/animals/horses_2",
+    "source_address": "0xec0f3a",
+    "source_sha256": "5245f12cd67f9d88e57aaec36d8553e4388138d085e30be5d345b83349080ca9",
+    "gzip_sha256": "a905bf5d5b9e5819ce196a5801c6a998e0173d18621550af43a0115544a43bd7"
+  },
+  {
+    "index": 467,
+    "path": "village/common/animals/sheep_1",
+    "source_address": "0xec0f7a",
+    "source_sha256": "1ba06f185029d1ad135ae15b129f4adb6f31d5543f3167464ef572cc154cde56",
+    "gzip_sha256": "160d57d8686f100a3b1d8678395d1724604b80923d3ae7882091158d36f4f3d6"
+  },
+  {
+    "index": 468,
+    "path": "village/common/animals/cat",
+    "source_address": "0xec0fb8",
+    "source_sha256": "aba538db1a25a998070e14f5d49a6837736b55cf59623e53ed2fca26c16dfb12",
+    "gzip_sha256": "263d58b49ca9d09421a995d5b2045f0a5b9fa8aa8caa39b58692765944c3b717"
+  },
+  {
+    "index": 469,
+    "path": "village/common/well_bottom",
+    "source_address": "0xec0fee",
+    "source_sha256": "39dea5990d527f4cafcc8efa82af9d4acb13d0aacd51a7ecc11b13b739967f68",
+    "gzip_sha256": "addb69f8e2665a45a40e6e03581cc83353831b38663cb36f9a2999064760db7b"
+  },
+  {
+    "index": 470,
+    "path": "village/common/villager",
+    "source_address": "0xec1024",
+    "source_sha256": "0ad296f8af456f85744c718b336aabd942bb3638ee2bfd939875749e0465927d",
+    "gzip_sha256": "2efe3836e7a54a72b8b1c1a8e0580eb35d4cf0605b7c400ca2ed27a1a61866e9"
+  }
+]

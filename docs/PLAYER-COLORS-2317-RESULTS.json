@@ -1,0 +1,1363 @@
+{
+  "version": "2.3.17",
+  "scope": "PS4 multiplayer slots and name-tag borders, server-list frame containment, host wrap and regular hint persistence",
+  "protocol": 8,
+  "automated_suites": [
+    {
+      "tests": 420,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite after multiplayer UI and hint persistence changes"
+    }
+  ],
+  "native_reference": {
+    "commit": "37e258085773f11599cf0ffe29119926769554b7",
+    "executable_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+    "allocation_cases": 1029,
+    "palette_cases": 25,
+    "border_streams": 24,
+    "total_comparisons": 1078,
+    "vectors_sha256": "33d67092ee147114fc938f5a922bdbab7fd14e38d68c5a507af4ff0362a4428b",
+    "reproduced_byte_identically": true
+  },
+  "input_caveat": "Controller actions use the production dispatcher; physical controllers were not tested. Retina profile verifies viewport geometry rather than Apple hardware.",
+  "multiplayer_caveat": "Actual server/client packet handlers and name render passes are exercised with simulated remote ServerPlayers; a second independently connected client was not launched.",
+  "host_ui_tested_jar_sha256": "852dd3a7e5bb6137a71fcd62441c2fd38709590aab0f8ce87a72b73cc3d2721d",
+  "final_client_tested_jar_sha256": "dc81fd27f63b3fa0b4d0278528f0703fd18cece1217285fcdab0310826c488dc",
+  "retained_ui_validation": "The host actions, wrapping and server-list captures preceded the isolated name-tag shader bridge correction. Their production classes are byte-identical in the final JAR.",
+  "changed_classes_after_ui_checks": [
+    "dev/legacyconsole/client/Ps4NameTagBorder$OptifineLines.class",
+    "dev/legacyconsole/client/Ps4NameTagBorder.class"
+  ],
+  "name_tag_image_checks": [
+    {
+      "file": "extra-name-tags-720-initial.png",
+      "red_border_pixels": 256,
+      "green_border_pixels": 332,
+      "passed": true
+    },
+    {
+      "file": "extra-name-tags-1440-initial.png",
+      "red_border_pixels": 510,
+      "green_border_pixels": 664,
+      "passed": true
+    }
+  ],
+  "visual_review": {
+    "server_frame": true,
+    "host_wrap": true,
+    "partial_and_completed_hints": true,
+    "name_tags_shader_off_and_lce_look": true
+  },
+  "runtime": {
+    "status": "passed",
+    "mod": "2.3.17",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "controller at 720p OFF: Set Day/Night, world/player spawn, all global/self/guest checkboxes verified through the actual UI and server state",
+      "mouse at 720p OFF: Set Day/Night, world/player spawn, all global/self/guest checkboxes verified through the actual UI and server state",
+      "Real login events deliver the original server-assigned color slots to the viewer through protocol 8",
+      "controller at 1440p LCE Look: Set Day/Night, world/player spawn, all global/self/guest checkboxes verified through the actual UI and server state",
+      "mouse at 1440p LCE Look: Set Day/Night, world/player spawn, all global/self/guest checkboxes verified through the actual UI and server state",
+      "Host rules/player lists wrap both ways through wheel and controller navigation, while the focused row remains visible",
+      "Server-detail player rows fit the original recessed frame at 720p, 1080p, 1440p, 4K, 4:3, 16:10 and Retina-shaped profiles; all 32 sample rows remain reachable",
+      "Regular inventory hints resume partial progress across a real world reload and do not repeat after completion and hint-profile reload; generic/block history remains in the same profile",
+      "Login/logout/respawn synchronize first-unused PS4 slots to clients; freed slots are reused without renumbering others, and host icons share the same slots",
+      "Original PS4 name-tag border colors and geometry render around visible remote players at 720p OFF and 1440p with supplied LCE Look"
+    ],
+    "screenshots": [
+      {
+        "file": "profile-0-group-0-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "104cd538289da4354afce39df774f619a97be780c04c1c158c618044889dbda9"
+      },
+      {
+        "file": "profile-0-group-0-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "4f3d2d24b70aac7cf0958266b887192c23c3813d7859d9ef7312a7ba4c39e58d"
+      },
+      {
+        "file": "profile-0-group-1-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "14cb779dfc8a52af7eb450c9aaa2e9e786eccb1abd5db2bdd68ea4c84201b1e9"
+      },
+      {
+        "file": "profile-0-group-1-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "ed6aa69927f660a50f5e654f23bc034ed40ea5e187bee03a8d0d11bbc0f3e9c9"
+      },
+      {
+        "file": "profile-0-group-2-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "8d6fcb703d85fdd22f4025aac96b5d280f63f9caa97a3f17fb8d5dc03b4466bf"
+      },
+      {
+        "file": "profile-0-group-2-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "f92b9c9ab853cf2bb828b7344ce3d9332638c99c767c4f3dabeb86536f739c22"
+      },
+      {
+        "file": "profile-1-group-0-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "22ceeddf27db951d9738e9cab7dff9cbd3bd29bb7ec81a8a623a1b511d8980aa"
+      },
+      {
+        "file": "profile-1-group-0-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "9068a6e6538336400ff6fb08829fe59ea064ccc85ed88f68dfe19ca6846a49c0"
+      },
+      {
+        "file": "profile-1-group-1-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "ad7f4f6e9b13f27f992f34ed29c1d0e389f45f7b8e679e6d364b53014c54d515"
+      },
+      {
+        "file": "profile-1-group-1-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "1171a68c9e9af439901774a42b95c0577170defa079800933e9ffc19a73b4683"
+      },
+      {
+        "file": "profile-1-group-2-before.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "06ce5693284f6a28f8a8b0fdc3b64399df930eff03794001f4377f43f3759c39"
+      },
+      {
+        "file": "profile-1-group-2-after.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "24514458c32313fd372170797b83856aa23b2501768a7c7a93bdebc1bdc527f5"
+      },
+      {
+        "file": "profile-2-group-0-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ebf6bb8f6ed0b07f56897e26e1cd6c377113eed4344f180b62df61be4300ca05"
+      },
+      {
+        "file": "profile-2-group-0-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "26ea18e0be687dc43ab55eb547e7fe2fa1860a2d32d6d6c880de8cfefe81c7b7"
+      },
+      {
+        "file": "profile-2-group-1-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c8a004b7c2c4ef98abb13fb792bc143fc521707e264001a898d712d1d2165688"
+      },
+      {
+        "file": "profile-2-group-1-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "10622457af36d11798e47d2d2b3840acfc202b1777e6784ce5f22b486065fcd7"
+      },
+      {
+        "file": "profile-2-group-2-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4a3429c3970bf4103c811ddcaa74495dde7ecb40e5e190b090a0f2e579157634"
+      },
+      {
+        "file": "profile-2-group-2-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ead53281d7316b5a33011d65b053c19f8761e98c473967227d03f7b4a6726c47"
+      },
+      {
+        "file": "profile-3-group-0-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "db7c3333da5738427bb7094b26d5a1b5d4e224bf14feb9083d97d0ebc91b6117"
+      },
+      {
+        "file": "profile-3-group-0-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "e1ca2a318dbd19bac35ebd8061ef11468f457ca1aa067ded97a29137585ec5bf"
+      },
+      {
+        "file": "profile-3-group-1-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3b3f6f5cc7352688c55b3c456f7bf61fa7dc7d88ac3ab3b25f28d0d6af2195d9"
+      },
+      {
+        "file": "profile-3-group-1-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "fcbac10bc224af55b0b467ca5563a275efffa9373c24af10e9eb5e4bc3cf0f80"
+      },
+      {
+        "file": "profile-3-group-2-before.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8b9a705d87cd2c2c358d915535e5be2b080d436312570ee0265fd4f9438b8bb9"
+      },
+      {
+        "file": "profile-3-group-2-after.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "cfb4083d1f52259a0e8c64556e365005fccff2b237d09c1269bbc4cc03b9530c"
+      },
+      {
+        "file": "extra-wrap-global.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "182e7c21ab776e0ece643c7a8e00e07124be30bc0d407e2fe9ca43817cc13ac6"
+      },
+      {
+        "file": "extra-wrap-info.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8091e0fb762869e5fd0909c8bebe5487d1e0a7d07c2c37ea05749575ded22c90"
+      },
+      {
+        "file": "extra-server-list-0.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "ab826f1539e33e7318fd2a2f073a5100c3db8d57b00a5cce8f30fd9ff97eb2af"
+      },
+      {
+        "file": "extra-server-list-1.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "e6914fcb3c776e201d3e408bd11a55139a200b0aacd8a5a4a734223835d08bf1"
+      },
+      {
+        "file": "extra-server-list-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "e047b15ef2f491f1e2772060dc3ba86c948525db0d83c83acef93789120990d2"
+      },
+      {
+        "file": "extra-server-list-3.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "69bbc8d950162c927c433eed0faea3fb2cb4b8a41f38e2398003df5307118ee1"
+      },
+      {
+        "file": "extra-server-list-4.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "b951a0668c0dda78df9d645437a47821738ad8a320c486c7fe7d3d933715ff4f"
+      },
+      {
+        "file": "extra-server-list-5.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "64f7379d2f1c3f56bfedd594a5794ff2e8a1a09d158d2b04dee942ac2e21ad99"
+      },
+      {
+        "file": "extra-server-list-6.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "2a68b1dd7a9b73f3d940d91e94a9c048e7a83b1374928fe26b6e6d7f633a7644"
+      },
+      {
+        "file": "extra-hint-partial.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "536033e504e41804e57e4998721b87728bc81ca7a79896019579a27cd4bcc9b6"
+      },
+      {
+        "file": "extra-hint-completed.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "d05eb690d9ec5d11719f3ed5503eb241bc1e1c886ec062fe180d7a044ea37a06"
+      },
+      {
+        "file": "extra-name-tags-720-initial.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "e741fb44df22b347f13ec740b75eae2fd6202c5bafac6ca6b9da00bc1abf25a0"
+      },
+      {
+        "file": "extra-name-tags-1440-initial.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8adb9e58757552eff055069fbe19c5b2daddf6aeca9b0460ffe70e1399a9b7f7"
+      },
+      {
+        "file": "extra-color-host-slots.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3b43d93f691029738ec65ffcf4bdeacb519e93f0a9f4442f6780eef153a5710b"
+      },
+      {
+        "file": "extra-name-tags-1440-rejoined.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "aaaf1fe8dd3c921e8eb109b63f837a5dec2f2d8212b95eba5c3c9ad8fd27e3dc"
+      },
+      {
+        "file": "extra-name-tags-720-rejoined.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "afaf1596a210b781cb5d2056d0d27b6351263fb4bc7b9958646d84292d0a1133"
+      }
+    ],
+    "actions": [
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 12,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 13,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 14,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 0,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 1,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 2,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 3,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 4,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 5,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 9,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 6,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 7,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 8,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 0,
+        "action": 18,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 1,
+        "action": 109,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 1,
+        "action": 107,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 1,
+        "action": 108,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 1,
+        "action": 112,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 100,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 101,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 102,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 103,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 104,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 105,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 109,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 107,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 108,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 0,
+        "input": "controller",
+        "group": 2,
+        "action": 106,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 12,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 13,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 14,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 0,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 1,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 2,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 3,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 4,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 5,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 9,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 6,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 7,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 8,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 0,
+        "action": 18,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 1,
+        "action": 109,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 1,
+        "action": 107,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 1,
+        "action": 108,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 1,
+        "action": 112,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 100,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 101,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 102,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 103,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 104,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 105,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 109,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 107,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 108,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 1,
+        "input": "mouse",
+        "group": 2,
+        "action": 106,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 12,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 13,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 14,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 0,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 1,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 2,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 3,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 4,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 5,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 9,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 6,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 7,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 8,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 0,
+        "action": 18,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 1,
+        "action": 109,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 1,
+        "action": 107,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 1,
+        "action": 108,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 1,
+        "action": 112,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 100,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 101,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 102,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 103,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 104,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 105,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 109,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 107,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 108,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 2,
+        "input": "controller",
+        "group": 2,
+        "action": 106,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 12,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 13,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 14,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 0,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 1,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 2,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 3,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 4,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 5,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 9,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 6,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 7,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 8,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 0,
+        "action": 18,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 1,
+        "action": 109,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 1,
+        "action": 107,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 1,
+        "action": 108,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 1,
+        "action": 112,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 100,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 101,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 102,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 103,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 104,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 105,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 109,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 107,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 108,
+        "value": 0,
+        "server_verified": true,
+        "client_verified": true
+      },
+      {
+        "profile": 3,
+        "input": "mouse",
+        "group": 2,
+        "action": 106,
+        "value": 1,
+        "server_verified": true,
+        "client_verified": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,2032 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "root": "0x386070",
+  "field": "Item+0x6c",
+  "items": [
+    {
+      "name": "iron_shovel",
+      "native_id": 256,
+      "registration_pc": "0x3934b2",
+      "description_hash": "a6873129",
+      "store_pc": "0x393483",
+      "text": "Used to dig dirt, grass, sand, gravel and snow faster than by hand. Shovels are required to dig snowballs."
+    },
+    {
+      "name": "iron_pickaxe",
+      "native_id": 257,
+      "registration_pc": "0x3935ea",
+      "name_hash": "36997a0e",
+      "description_hash": "8161b947",
+      "store_pc": "0x3935bd",
+      "text": "Required to mine stone-related blocks and ore."
+    },
+    {
+      "name": "iron_axe",
+      "native_id": 258,
+      "registration_pc": "0x393722",
+      "name_hash": "c55d95ac",
+      "description_hash": "4d38ca25",
+      "store_pc": "0x3936f5",
+      "text": "Used to chop wood-related blocks faster than by hand."
+    },
+    {
+      "name": "flint_and_steel",
+      "native_id": 259,
+      "registration_pc": "0x393856",
+      "name_hash": "2c3e9157",
+      "description_hash": "46397603",
+      "store_pc": "0x393829",
+      "text": "Used to create fire, ignite TNT and creepers, and open a Nether portal once it has been built."
+    },
+    {
+      "name": "apple",
+      "native_id": 260,
+      "registration_pc": "0x393995",
+      "name_hash": "ad094656",
+      "description_hash": "451710ba",
+      "store_pc": "0x393968",
+      "text": "Restores 2{*ICON_SHANK_01*}, and can be crafted into a golden apple."
+    },
+    {
+      "name": "bow",
+      "native_id": 261,
+      "registration_pc": "0x393ac8",
+      "name_hash": "c4ed317c",
+      "description_hash": "07341480",
+      "store_pc": "0x393a9b",
+      "text": "Allows for ranged attacks by using arrows."
+    },
+    {
+      "name": "arrow",
+      "native_id": 262,
+      "registration_pc": "0x393c06",
+      "name_hash": "a8328907",
+      "description_hash": "57c4ce0b",
+      "store_pc": "0x393bce",
+      "text": "Used as ammunition for bows."
+    },
+    {
+      "name": "coal",
+      "native_id": 263,
+      "registration_pc": "0x393d39",
+      "name_hash": "1ec60cb7",
+      "description_hash": "e13da78b",
+      "store_pc": "0x393d0c",
+      "text": "Used as a fuel in a furnace, or crafted to make a torch."
+    },
+    {
+      "name": "diamond",
+      "native_id": 264,
+      "registration_pc": "0x393e6c",
+      "name_hash": "bdd7b85a",
+      "description_hash": "1fcfafcd",
+      "store_pc": "0x393e3f",
+      "text": "Use these to create very strong tools, weapons or armor."
+    },
+    {
+      "name": "iron_ingot",
+      "native_id": 265,
+      "registration_pc": "0x393fa7",
+      "name_hash": "dc2934d0",
+      "description_hash": "73d55dd9",
+      "store_pc": "0x393f7a",
+      "text": "A shiny ingot which can be used to craft tools made from this material. Created by smelting ore in a furnace."
+    },
+    {
+      "name": "gold_ingot",
+      "native_id": 266,
+      "registration_pc": "0x3940db",
+      "name_hash": "9fe09b52",
+      "description_hash": "73d55dd9",
+      "store_pc": "0x3940ae",
+      "text": "A shiny ingot which can be used to craft tools made from this material. Created by smelting ore in a furnace."
+    },
+    {
+      "name": "iron_sword",
+      "native_id": 267,
+      "registration_pc": "0x394213",
+      "name_hash": "c9109296",
+      "description_hash": "5de5cbcf",
+      "store_pc": "0x3941e6",
+      "text": "Deals more damage than by hand."
+    },
+    {
+      "name": "wooden_sword",
+      "native_id": 268,
+      "registration_pc": "0x394352",
+      "name_hash": "a8ad4777",
+      "description_hash": "5de5cbcf",
+      "store_pc": "0x394325",
+      "text": "Deals more damage than by hand."
+    },
+    {
+      "name": "wooden_shovel",
+      "native_id": 269,
+      "registration_pc": "0x39448a",
+      "name_hash": "0c9b0da1",
+      "description_hash": "a6873129",
+      "store_pc": "0x39445d",
+      "text": "Used to dig dirt, grass, sand, gravel and snow faster than by hand. Shovels are required to dig snowballs."
+    },
+    {
+      "name": "wooden_pickaxe",
+      "native_id": 270,
+      "registration_pc": "0x3945c2",
+      "name_hash": "c9d273ff",
+      "description_hash": "8161b947",
+      "store_pc": "0x394595",
+      "text": "Required to mine stone-related blocks and ore."
+    },
+    {
+      "name": "wooden_axe",
+      "native_id": 271,
+      "registration_pc": "0x3946fa",
+      "name_hash": "27eafcdd",
+      "description_hash": "4d38ca25",
+      "store_pc": "0x3946cd",
+      "text": "Used to chop wood-related blocks faster than by hand."
+    },
+    {
+      "name": "stone_sword",
+      "native_id": 272,
+      "registration_pc": "0x394839",
+      "name_hash": "4cc45537",
+      "description_hash": "5de5cbcf",
+      "store_pc": "0x39480c",
+      "text": "Deals more damage than by hand."
+    },
+    {
+      "name": "stone_shovel",
+      "native_id": 273,
+      "registration_pc": "0x394971",
+      "name_hash": "98ce2f71",
+      "description_hash": "a6873129",
+      "store_pc": "0x394944",
+      "text": "Used to dig dirt, grass, sand, gravel and snow faster than by hand. Shovels are required to dig snowballs."
+    },
+    {
+      "name": "stone_pickaxe",
+      "native_id": 274,
+      "registration_pc": "0x394aa9",
+      "name_hash": "f89e69ff",
+      "description_hash": "8161b947",
+      "store_pc": "0x394a7c",
+      "text": "Required to mine stone-related blocks and ore."
+    },
+    {
+      "name": "stone_axe",
+      "native_id": 275,
+      "registration_pc": "0x394be1",
+      "name_hash": "38c2fbed",
+      "description_hash": "4d38ca25",
+      "store_pc": "0x394bb4",
+      "text": "Used to chop wood-related blocks faster than by hand."
+    },
+    {
+      "name": "diamond_sword",
+      "native_id": 276,
+      "registration_pc": "0x394d20",
+      "name_hash": "9bb209e8",
+      "description_hash": "5de5cbcf",
+      "store_pc": "0x394cf3",
+      "text": "Deals more damage than by hand."
+    },
+    {
+      "name": "diamond_shovel",
+      "native_id": 277,
+      "registration_pc": "0x394e58",
+      "name_hash": "da4b428e",
+      "description_hash": "a6873129",
+      "store_pc": "0x394e2b",
+      "text": "Used to dig dirt, grass, sand, gravel and snow faster than by hand. Shovels are required to dig snowballs."
+    },
+    {
+      "name": "diamond_pickaxe",
+      "native_id": 278,
+      "registration_pc": "0x394f90",
+      "name_hash": "ac444b30",
+      "description_hash": "8161b947",
+      "store_pc": "0x394f63",
+      "text": "Required to mine stone-related blocks and ore."
+    },
+    {
+      "name": "diamond_axe",
+      "native_id": 279,
+      "registration_pc": "0x3950c8",
+      "name_hash": "962a37c2",
+      "description_hash": "4d38ca25",
+      "store_pc": "0x39509b",
+      "text": "Used to chop wood-related blocks faster than by hand."
+    },
+    {
+      "name": "stick",
+      "native_id": 280,
+      "registration_pc": "0x3951ff",
+      "name_hash": "69e992b0",
+      "description_hash": "3f88e88c",
+      "store_pc": "0x3951ce",
+      "text": "Used to craft torches, arrows, signs, ladders, fences and as handles for tools and weapons."
+    },
+    {
+      "name": "bowl",
+      "native_id": 281,
+      "registration_pc": "0x395339",
+      "name_hash": "511a0cb0",
+      "description_hash": "37ddbfac",
+      "store_pc": "0x395305",
+      "text": "Used to hold mushroom stew and beetroot soup. You keep the bowl when the contents have been eaten."
+    },
+    {
+      "name": "mushroom_stew",
+      "native_id": 282,
+      "registration_pc": "0x39546c",
+      "name_hash": "b78038c0",
+      "description_hash": "f87fb06b",
+      "store_pc": "0x39543f",
+      "text": "Restores 3{*ICON_SHANK_01*}."
+    },
+    {
+      "name": "golden_sword",
+      "native_id": 283,
+      "registration_pc": "0x3955ab",
+      "name_hash": "8d0147d4",
+      "description_hash": "5de5cbcf",
+      "store_pc": "0x39557e",
+      "text": "Deals more damage than by hand."
+    },
+    {
+      "name": "golden_shovel",
+      "native_id": 284,
+      "registration_pc": "0x3956e3",
+      "name_hash": "86b15aa2",
+      "description_hash": "a6873129",
+      "store_pc": "0x3956b6",
+      "text": "Used to dig dirt, grass, sand, gravel and snow faster than by hand. Shovels are required to dig snowballs."
+    },
+    {
+      "name": "golden_pickaxe",
+      "native_id": 285,
+      "registration_pc": "0x39581b",
+      "name_hash": "2f70f5bc",
+      "description_hash": "8161b947",
+      "store_pc": "0x3957ee",
+      "text": "Required to mine stone-related blocks and ore."
+    },
+    {
+      "name": "golden_axe",
+      "native_id": 286,
+      "registration_pc": "0x395953",
+      "name_hash": "a0c4155e",
+      "description_hash": "4d38ca25",
+      "store_pc": "0x395926",
+      "text": "Used to chop wood-related blocks faster than by hand."
+    },
+    {
+      "name": "string",
+      "native_id": 287,
+      "registration_pc": "0x395a82",
+      "name_hash": "baee193b",
+      "description_hash": "c6844e97",
+      "store_pc": "0x395a55",
+      "text": "Collected by killing a spider. Can be crafted into a Bow or Fishing Rod, or placed on the ground to create Tripwire."
+    },
+    {
+      "name": "feather",
+      "native_id": 288,
+      "registration_pc": "0x395ba7",
+      "name_hash": "292c6e2f",
+      "description_hash": "f3341313",
+      "store_pc": "0x395b7a",
+      "text": "Collected by killing a chicken. Can be crafted into an arrow."
+    },
+    {
+      "name": "gunpowder",
+      "native_id": 289,
+      "registration_pc": "0x395cd4",
+      "name_hash": "4bf44373",
+      "description_hash": "f7e6c72f",
+      "store_pc": "0x395ca7",
+      "text": "Collected by killing a creeper. Can be crafted into TNT or used as an ingredient for brewing potions."
+    },
+    {
+      "name": "wooden_hoe",
+      "native_id": 290,
+      "registration_pc": "0x395e4a",
+      "name_hash": "f5faaab8",
+      "description_hash": "6166fac8",
+      "store_pc": "0x395e1d",
+      "text": "Used to till dirt and grass blocks to prepare for crops."
+    },
+    {
+      "name": "stone_hoe",
+      "native_id": 291,
+      "registration_pc": "0x395fbb",
+      "name_hash": "73e73890",
+      "description_hash": "6166fac8",
+      "store_pc": "0x395f8e",
+      "text": "Used to till dirt and grass blocks to prepare for crops."
+    },
+    {
+      "name": "iron_hoe",
+      "native_id": 292,
+      "registration_pc": "0x39612c",
+      "name_hash": "38f079d9",
+      "description_hash": "6166fac8",
+      "store_pc": "0x3960ff",
+      "text": "Used to till dirt and grass blocks to prepare for crops."
+    },
+    {
+      "name": "diamond_hoe",
+      "native_id": 293,
+      "registration_pc": "0x39629d",
+      "name_hash": "582861af",
+      "description_hash": "6166fac8",
+      "store_pc": "0x396270",
+      "text": "Used to till dirt and grass blocks to prepare for crops."
+    },
+    {
+      "name": "golden_hoe",
+      "native_id": 294,
+      "registration_pc": "0x396408",
+      "name_hash": "0f2c415b",
+      "description_hash": "6166fac8",
+      "store_pc": "0x3963db",
+      "text": "Used to till dirt and grass blocks to prepare for crops."
+    },
+    {
+      "name": "wheat_seeds",
+      "native_id": 295,
+      "registration_pc": "0x39654c",
+      "name_hash": "95c975b2",
+      "description_hash": "999d8b6e",
+      "store_pc": "0x39651f",
+      "text": "Can be planted in farmland to grow crops. Make sure there's enough light for the seeds to grow!"
+    },
+    {
+      "name": "wheat",
+      "native_id": 296,
+      "registration_pc": "0x39667f",
+      "name_hash": "f272c9a1",
+      "description_hash": "9cb06d4d",
+      "store_pc": "0x396652",
+      "text": "Harvested from crops. Can be used to craft food items."
+    },
+    {
+      "name": "bread",
+      "native_id": 297,
+      "registration_pc": "0x3967be",
+      "name_hash": "13080f36",
+      "description_hash": "791b364a",
+      "store_pc": "0x396791",
+      "text": "Restores 2.5{*ICON_SHANK_01*}."
+    },
+    {
+      "name": "leather_helmet",
+      "native_id": 298,
+      "registration_pc": "0x396909",
+      "name_hash": "f761ebf0",
+      "description_hash": "b114599b",
+      "store_pc": "0x3968dc",
+      "text": "Gives the user 0.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "leather_chestplate",
+      "native_id": 299,
+      "registration_pc": "0x396a4d",
+      "name_hash": "eabfa580",
+      "description_hash": "05e7b53b",
+      "store_pc": "0x396a20",
+      "text": "Gives the user 1.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "leather_leggings",
+      "native_id": 300,
+      "registration_pc": "0x396b92",
+      "name_hash": "25cd26df",
+      "description_hash": "0f1b63f4",
+      "store_pc": "0x396b65",
+      "text": "Gives the user 1{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "leather_boots",
+      "native_id": 301,
+      "registration_pc": "0x396cd6",
+      "name_hash": "92747ed8",
+      "description_hash": "cf27e723",
+      "store_pc": "0x396ca9",
+      "text": "Gives the user 0.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "chainmail_helmet",
+      "native_id": 302,
+      "registration_pc": "0x396e24",
+      "name_hash": "07003b21",
+      "description_hash": "ceb3986d",
+      "store_pc": "0x396df7",
+      "text": "Gives the user 1{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "chainmail_chestplate",
+      "native_id": 303,
+      "registration_pc": "0x396f6b",
+      "name_hash": "0128eb51",
+      "description_hash": "4028fb8d",
+      "store_pc": "0x396f3e",
+      "text": "Gives the user 2.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "chainmail_leggings",
+      "native_id": 304,
+      "registration_pc": "0x3970ac",
+      "name_hash": "e094e69e",
+      "description_hash": "36108302",
+      "store_pc": "0x39707f",
+      "text": "Gives the user 2{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "chainmail_boots",
+      "native_id": 305,
+      "registration_pc": "0x3971f3",
+      "name_hash": "8f829b69",
+      "description_hash": "8f8739a5",
+      "store_pc": "0x3971c6",
+      "text": "Gives the user 0.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "iron_helmet",
+      "native_id": 306,
+      "registration_pc": "0x397341",
+      "name_hash": "0d8ed8c6",
+      "description_hash": "acde6d0a",
+      "store_pc": "0x397314",
+      "text": "Gives the user 1{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "iron_chestplate",
+      "native_id": 307,
+      "registration_pc": "0x397488",
+      "name_hash": "9ba57a56",
+      "description_hash": "09958b2a",
+      "store_pc": "0x39745b",
+      "text": "Gives the user 3{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "iron_leggings",
+      "native_id": 308,
+      "registration_pc": "0x3975c9",
+      "name_hash": "af113111",
+      "description_hash": "0fa8857d",
+      "store_pc": "0x39759c",
+      "text": "Gives the user 2.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "iron_boots",
+      "native_id": 309,
+      "registration_pc": "0x397710",
+      "name_hash": "a5e04fee",
+      "description_hash": "d0506ae2",
+      "store_pc": "0x3976e3",
+      "text": "Gives the user 1{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "diamond_helmet",
+      "native_id": 310,
+      "registration_pc": "0x39785e",
+      "name_hash": "01a29bf8",
+      "description_hash": "1348b454",
+      "store_pc": "0x397831",
+      "text": "Gives the user 1.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "diamond_chestplate",
+      "native_id": 311,
+      "registration_pc": "0x3979a5",
+      "name_hash": "85b2a528",
+      "description_hash": "4fc26274",
+      "store_pc": "0x397978",
+      "text": "Gives the user 4{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "diamond_leggings",
+      "native_id": 312,
+      "registration_pc": "0x397ae6",
+      "name_hash": "5eb32717",
+      "description_hash": "475471ab",
+      "store_pc": "0x397ab9",
+      "text": "Gives the user 3{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "diamond_boots",
+      "native_id": 313,
+      "registration_pc": "0x397c2d",
+      "name_hash": "b9220110",
+      "description_hash": "b58229bc",
+      "store_pc": "0x397c00",
+      "text": "Gives the user 1.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "golden_helmet",
+      "native_id": 314,
+      "registration_pc": "0x397d7b",
+      "name_hash": "1a817de4",
+      "description_hash": "96b464f8",
+      "store_pc": "0x397d4e",
+      "text": "Gives the user 1{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "golden_chestplate",
+      "native_id": 315,
+      "registration_pc": "0x397ec2",
+      "name_hash": "33571e94",
+      "description_hash": "cae9ef98",
+      "store_pc": "0x397e95",
+      "text": "Gives the user 2.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "golden_leggings",
+      "native_id": 316,
+      "registration_pc": "0x398003",
+      "name_hash": "72ac9be3",
+      "description_hash": "09c244bf",
+      "store_pc": "0x397fd6",
+      "text": "Gives the user 1.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "golden_boots",
+      "native_id": 317,
+      "registration_pc": "0x39814a",
+      "name_hash": "477cbe1c",
+      "description_hash": "27f702c0",
+      "store_pc": "0x39811d",
+      "text": "Gives the user 0.5{*ICON_ARMOR_01*} when worn."
+    },
+    {
+      "name": "flint",
+      "native_id": 318,
+      "registration_pc": "0x39826f",
+      "name_hash": "81adb08f",
+      "description_hash": "83b23593",
+      "store_pc": "0x398242",
+      "text": "Collected by digging gravel. Can be used to craft a flint and steel."
+    },
+    {
+      "name": "porkchop",
+      "native_id": 319,
+      "registration_pc": "0x3983a7",
+      "name_hash": "c673f9bf",
+      "description_hash": "3a857ae3",
+      "store_pc": "0x39837a",
+      "text": "Restores 1.5{*ICON_SHANK_01*}, or can be cooked in a furnace."
+    },
+    {
+      "name": "cooked_porkchop",
+      "native_id": 320,
+      "registration_pc": "0x3984ea",
+      "name_hash": "fb217762",
+      "description_hash": "3351245e",
+      "store_pc": "0x3984bd",
+      "text": "Restores 4{*ICON_SHANK_01*}. Created by cooking a raw porkchop in a furnace."
+    },
+    {
+      "name": "painting",
+      "native_id": 321,
+      "registration_pc": "0x39863d",
+      "name_hash": "e458b944",
+      "description_hash": "e2bb6816",
+      "store_pc": "0x398610",
+      "text": "Can be used as decoration."
+    },
+    {
+      "name": "golden_apple",
+      "native_id": 322,
+      "registration_pc": "0x398799"
+    },
+    {
+      "name": "sign",
+      "native_id": 323,
+      "registration_pc": "0x3988ce",
+      "name_hash": "6b184025",
+      "description_hash": "b6286b39",
+      "store_pc": "0x3988a1",
+      "text": "Shows text entered by you or other players."
+    },
+    {
+      "name": "wooden_door",
+      "native_id": 324,
+      "registration_pc": "0x398a0c",
+      "name_hash": "3c9f77b1",
+      "description_hash": "2aaf6f70",
+      "store_pc": "0x3989df",
+      "text": "Wooden doors are activated by using, hitting them or with Redstone."
+    },
+    {
+      "name": "bucket",
+      "native_id": 325,
+      "registration_pc": "0x398b5c",
+      "name_hash": "9dc947c0",
+      "description_hash": "d5c581ec",
+      "store_pc": "0x398ad9",
+      "text": "Used to hold and transport water, lava and milk."
+    },
+    {
+      "name": "water_bucket",
+      "native_id": 326,
+      "registration_pc": "0x398c75",
+      "name_hash": "1f8d4802",
+      "description_hash": "79769a5e",
+      "store_pc": "0x398c44",
+      "text": "Used to hold and transport water."
+    },
+    {
+      "name": "lava_bucket",
+      "native_id": 327,
+      "registration_pc": "0x398da4",
+      "name_hash": "5051b83d",
+      "description_hash": "c6b79a61",
+      "store_pc": "0x398d73",
+      "text": "Used to hold and transport lava."
+    },
+    {
+      "name": "minecart",
+      "native_id": 328,
+      "registration_pc": "0x398ed3",
+      "name_hash": "152f5a1d",
+      "description_hash": "df071b81",
+      "store_pc": "0x398ea6",
+      "text": "Used to transport you, an animal, or a monster along rails."
+    },
+    {
+      "name": "saddle",
+      "native_id": 329,
+      "registration_pc": "0x398ff8",
+      "name_hash": "f47acec5",
+      "description_hash": "b6415569",
+      "store_pc": "0x398fcb",
+      "text": "When used on a pig, it allows you to ride the pig. The pig can then be steered using a Carrot on a Stick."
+    },
+    {
+      "name": "iron_door",
+      "native_id": 330,
+      "registration_pc": "0x399136",
+      "name_hash": "672f3acd",
+      "description_hash": "e4acc401",
+      "store_pc": "0x399109",
+      "text": "Iron doors can only be opened by Redstone, buttons or switches."
+    },
+    {
+      "name": "redstone",
+      "native_id": 331,
+      "registration_pc": "0x399269",
+      "name_hash": "f1b7b73e",
+      "description_hash": "83b8379b",
+      "store_pc": "0x39923c",
+      "text": "Can be placed on the ground to carry an electrical charge. When brewed with a potion it will increase the duration of the effect."
+    },
+    {
+      "name": "snowball",
+      "native_id": 332,
+      "registration_pc": "0x39938e",
+      "name_hash": "4866fd48",
+      "description_hash": "6d300964",
+      "store_pc": "0x399361",
+      "text": "Collected by digging snow. Can be thrown."
+    },
+    {
+      "name": "boat",
+      "native_id": 333,
+      "registration_pc": "0x3994c3",
+      "name_hash": "ae5f01a4",
+      "description_hash": "1bab2b22",
+      "store_pc": "0x399492",
+      "text": "Used to travel in water more quickly than swimming."
+    },
+    {
+      "name": "leather",
+      "native_id": 334,
+      "registration_pc": "0x3995f0",
+      "name_hash": "820577e5",
+      "description_hash": "cb787d79",
+      "store_pc": "0x3995bb",
+      "text": "Collected by killing a cow. Can be crafted into armor or used to make books."
+    },
+    {
+      "name": "milk_bucket",
+      "native_id": 335,
+      "registration_pc": "0x39971f",
+      "name_hash": "731b0964",
+      "description_hash": "27eb8b38",
+      "store_pc": "0x3996ee",
+      "text": "Used to hold and transport milk."
+    },
+    {
+      "name": "brick",
+      "native_id": 336,
+      "registration_pc": "0x399844",
+      "name_hash": "2a042eff",
+      "description_hash": "043fc433",
+      "store_pc": "0x399817",
+      "text": "Baked from clay in a furnace."
+    },
+    {
+      "name": "clay_ball",
+      "native_id": 337,
+      "registration_pc": "0x39996a",
+      "name_hash": "afe880d1",
+      "description_hash": "a273eeed",
+      "store_pc": "0x39993d",
+      "text": "Can be baked into bricks in a furnace."
+    },
+    {
+      "name": "reeds",
+      "native_id": 338,
+      "registration_pc": "0x399a99",
+      "name_hash": "15f282bb",
+      "description_hash": "298fe4b7",
+      "store_pc": "0x399a6c",
+      "text": "Can be crafted to create sugar."
+    },
+    {
+      "name": "paper",
+      "native_id": 339,
+      "registration_pc": "0x399bcc",
+      "name_hash": "a3d0ca58",
+      "description_hash": "a5bbd614",
+      "store_pc": "0x399b9f",
+      "text": "Used to create books, maps, and fireworks."
+    },
+    {
+      "name": "book",
+      "native_id": 340,
+      "registration_pc": "0x399cff",
+      "name_hash": "386a5707",
+      "description_hash": "349c53cb",
+      "store_pc": "0x399cd2",
+      "text": "Can be used to create bookshelves or enchanted to make Enchanted Books."
+    },
+    {
+      "name": "slime_ball",
+      "native_id": 341,
+      "registration_pc": "0x399e33",
+      "name_hash": "e3459f13",
+      "description_hash": "05db70ff",
+      "store_pc": "0x399e06",
+      "text": "Collected by killing a slime. Can be used as an ingredient for brewing potions or crafted to make Sticky Pistons."
+    },
+    {
+      "name": "chest_minecart",
+      "native_id": 342,
+      "registration_pc": "0x399f63",
+      "name_hash": "c80dedcb",
+      "description_hash": "3ed319ba",
+      "store_pc": "0x399f36",
+      "text": "Used to transport goods along rails."
+    },
+    {
+      "name": "furnace_minecart",
+      "native_id": 343,
+      "registration_pc": "0x39a093",
+      "name_hash": "5f6e4caa",
+      "description_hash": "bb5d88cb",
+      "store_pc": "0x39a066",
+      "text": "Will move along rails and can push other minecarts when coal is put in it."
+    },
+    {
+      "name": "egg",
+      "native_id": 344,
+      "registration_pc": "0x39a1b8",
+      "name_hash": "3e2514cb",
+      "description_hash": "7e0ac927",
+      "store_pc": "0x39a18b",
+      "text": "Dropped randomly by chickens. Can be crafted into food items."
+    },
+    {
+      "name": "compass",
+      "native_id": 345,
+      "registration_pc": "0x39a2eb",
+      "name_hash": "2ce963fe",
+      "description_hash": "da63bbf2",
+      "store_pc": "0x39a2be",
+      "text": "Points to your start point."
+    },
+    {
+      "name": "fishing_rod",
+      "native_id": 346,
+      "registration_pc": "0x39a41f",
+      "name_hash": "b70d1ce4",
+      "description_hash": "667a4e57",
+      "store_pc": "0x39a3f2",
+      "text": "Used to catch fish."
+    },
+    {
+      "name": "clock",
+      "native_id": 347,
+      "registration_pc": "0x39a552",
+      "name_hash": "95f3ea2e",
+      "description_hash": "6b05b9d2",
+      "store_pc": "0x39a525",
+      "text": "Displays positions of the Sun and Moon."
+    },
+    {
+      "name": "glowstone_dust",
+      "native_id": 348,
+      "registration_pc": "0x39a678",
+      "name_hash": "d8d0e583",
+      "description_hash": "2c633def",
+      "store_pc": "0x39a64b",
+      "text": "Collected by mining Glowstone. Can be crafted to make Glowstone blocks again or brewed with a potion to increase the potency of the effect."
+    },
+    {
+      "name": "fish",
+      "native_id": 349,
+      "registration_pc": "0x39a7a4",
+      "name_hash": "fb51769e",
+      "description_hash": "224b0b42",
+      "store_pc": "0x39a773",
+      "text": "Restores 1{*ICON_SHANK_01*}, or can be cooked in a furnace. Can be fed to an Ocelot to tame it."
+    },
+    {
+      "name": "cooked_fish",
+      "native_id": 350,
+      "registration_pc": "0x39a8d3",
+      "name_hash": "692511ab",
+      "description_hash": "51994487",
+      "store_pc": "0x39a8a2",
+      "text": "Restores 2.5{*ICON_SHANK_01*}. Created by cooking a raw Cod in a furnace."
+    },
+    {
+      "name": "dye",
+      "native_id": 351,
+      "registration_pc": "0x39aa01",
+      "name_hash": "86f48c5a",
+      "description_hash": "ffffffff",
+      "store_pc": "0x39a9d0"
+    },
+    {
+      "name": "bone",
+      "native_id": 352,
+      "registration_pc": "0x39ab2a",
+      "name_hash": "286eef88",
+      "description_hash": "b4dc6624",
+      "store_pc": "0x39aaf9",
+      "text": "Collected by killing a skeleton. Can be crafted into bone meal, or fed to a wolf to tame it."
+    },
+    {
+      "name": "sugar",
+      "native_id": 353,
+      "registration_pc": "0x39ac4f",
+      "name_hash": "3155229c",
+      "description_hash": "14dd1b10",
+      "store_pc": "0x39ac22",
+      "text": "Used in the cake recipe, and as an ingredient for brewing potions."
+    },
+    {
+      "name": "cake",
+      "native_id": 354,
+      "registration_pc": "0x39ad7e",
+      "name_hash": "d18fc712",
+      "description_hash": "1ba88c3e",
+      "store_pc": "0x39ad51",
+      "text": "Restores 1{*ICON_SHANK_01*}. Can be used 7 times."
+    },
+    {
+      "name": "bed",
+      "native_id": 355,
+      "registration_pc": "0x39aeb8",
+      "name_hash": "b7d6748d",
+      "description_hash": "b8e5e821",
+      "store_pc": "0x39ae8b",
+      "text": "Used to forward time from any time at night to morning if all the players in the world are in bed, and changes the spawn point of the player. \r\nBeds can be crafted in various colors by using dyed wool."
+    },
+    {
+      "name": "repeater",
+      "native_id": 356,
+      "registration_pc": "0x39aff0",
+      "name_hash": "b97b9d5d",
+      "description_hash": "f8568a02",
+      "store_pc": "0x39afbb",
+      "text": "Used in Redstone circuits as a repeater, a delayer, and/or a diode."
+    },
+    {
+      "name": "cookie",
+      "native_id": 357,
+      "registration_pc": "0x39b12f",
+      "name_hash": "db053c72",
+      "description_hash": "566bfa2e",
+      "store_pc": "0x39b102",
+      "text": "Restores 1{*ICON_SHANK_01*}."
+    },
+    {
+      "name": "filled_map",
+      "native_id": 358,
+      "registration_pc": "0x39b267",
+      "name_hash": "9717333a",
+      "description_hash": "adf9d986",
+      "store_pc": "0x39b236",
+      "text": "Will create an image of an area explored while held. This can be used for path-finding."
+    },
+    {
+      "name": "shears",
+      "native_id": 359,
+      "registration_pc": "0x39b39a",
+      "name_hash": "0a1c6b20",
+      "description_hash": "9b4e34ac",
+      "store_pc": "0x39b36d",
+      "text": "Used to obtain wool from sheep and to harvest Cobwebs, Leaves, and Seagrass blocks."
+    },
+    {
+      "name": "melon",
+      "native_id": 360,
+      "registration_pc": "0x39b4ce",
+      "name_hash": "4ea15b54",
+      "description_hash": "2f0a0a78",
+      "store_pc": "0x39b4a1",
+      "text": "Restores 1{*ICON_SHANK_01*}."
+    },
+    {
+      "name": "pumpkin_seeds",
+      "native_id": 361,
+      "registration_pc": "0x39b620",
+      "name_hash": "2cb8fa49",
+      "description_hash": "f2923bf5",
+      "store_pc": "0x39b5f3",
+      "text": "Can be planted to grow pumpkins."
+    },
+    {
+      "name": "melon_seeds",
+      "native_id": 362,
+      "registration_pc": "0x39b772",
+      "name_hash": "d8cdd100",
+      "description_hash": "f9b335cc",
+      "store_pc": "0x39b745",
+      "text": "Can be planted to grow melons."
+    },
+    {
+      "name": "beef",
+      "native_id": 363,
+      "registration_pc": "0x39b8aa",
+      "name_hash": "c3cc77a1",
+      "description_hash": "93f6a0cd",
+      "store_pc": "0x39b87d",
+      "text": "Restores 1.5{*ICON_SHANK_01*}, or can be cooked in a furnace."
+    },
+    {
+      "name": "cooked_beef",
+      "native_id": 364,
+      "registration_pc": "0x39b9e2",
+      "name_hash": "19a67fac",
+      "description_hash": "baf03780",
+      "store_pc": "0x39b9b5",
+      "text": "Restores 4{*ICON_SHANK_01*}. Created by cooking raw beef in a furnace."
+    },
+    {
+      "name": "chicken",
+      "native_id": 365,
+      "registration_pc": "0x39bb6c"
+    },
+    {
+      "name": "cooked_chicken",
+      "native_id": 366,
+      "registration_pc": "0x39bca4",
+      "name_hash": "351cc791",
+      "description_hash": "7ab879ed",
+      "store_pc": "0x39bc77",
+      "text": "Restores 3{*ICON_SHANK_01*}. Created by cooking raw chicken in a furnace."
+    },
+    {
+      "name": "rotten_flesh",
+      "native_id": 367,
+      "registration_pc": "0x39be20"
+    },
+    {
+      "name": "ender_pearl",
+      "native_id": 368,
+      "registration_pc": "0x39bf46",
+      "name_hash": "871e9983",
+      "description_hash": "82aad14f",
+      "store_pc": "0x39bf19",
+      "text": "Dropped by Endermen when they die. Throwing an Ender Pearl will teleport the player to wherever it lands, at the cost of some health."
+    },
+    {
+      "name": "blaze_rod",
+      "native_id": 369,
+      "registration_pc": "0x39c070",
+      "name_hash": "192e1b08",
+      "description_hash": "c330ef04",
+      "store_pc": "0x39c03f",
+      "text": "Used in potion brewing, and for locating Strongholds. Dropped by Blazes who tend to be found near or in Nether Fortresses."
+    },
+    {
+      "name": "ghast_tear",
+      "native_id": 370,
+      "registration_pc": "0x39c196",
+      "name_hash": "8645f2d2",
+      "description_hash": "ade9982e",
+      "store_pc": "0x39c169",
+      "text": "Used in potion brewing. Dropped by Ghasts when they die."
+    },
+    {
+      "name": "gold_nugget",
+      "native_id": 371,
+      "registration_pc": "0x39c2ca",
+      "name_hash": "1159b28b",
+      "description_hash": "d366d7e7",
+      "store_pc": "0x39c29d",
+      "text": "Dropped by Zombie Pigmen when they die. Zombie Pigmen can be found in the Nether. Used as an ingredient for brewing potions."
+    },
+    {
+      "name": "nether_wart",
+      "native_id": 372,
+      "registration_pc": "0x39c40e",
+      "name_hash": "fb353413",
+      "description_hash": "5b73f84f",
+      "store_pc": "0x39c3e1",
+      "text": "Used in potion brewing. This can be found naturally growing in Nether Fortresses. It can also be planted on Soul Sand."
+    },
+    {
+      "name": "potion",
+      "native_id": 373,
+      "registration_pc": "0x39c533",
+      "name_hash": "0ae6088d",
+      "description_hash": "ba18e901",
+      "store_pc": "0x39c506",
+      "text": "When used, can have various effects depending on what it is used on."
+    },
+    {
+      "name": "glass_bottle",
+      "native_id": 374,
+      "registration_pc": "0x39c680",
+      "name_hash": "f3dda58f",
+      "description_hash": "5b174183",
+      "store_pc": "0x39c5f6",
+      "text": "Can be filled with water, and used as the starting ingredient for a potion in the Brewing Stand."
+    },
+    {
+      "name": "spider_eye",
+      "native_id": 375,
+      "registration_pc": "0x39c7e9"
+    },
+    {
+      "name": "fermented_spider_eye",
+      "native_id": 376,
+      "registration_pc": "0x39c90f",
+      "name_hash": "d22fcfcc",
+      "description_hash": "83378ec0",
+      "store_pc": "0x39c8e2",
+      "text": "Used in potion brewing; mainly to create potions with a negative effect."
+    },
+    {
+      "name": "blaze_powder",
+      "native_id": 377,
+      "registration_pc": "0x39ca35",
+      "name_hash": "e1a5d3aa",
+      "description_hash": "df506406",
+      "store_pc": "0x39ca08",
+      "text": "Used in potion brewing, or crafted with other items to make Eye of Ender or Magma Cream."
+    },
+    {
+      "name": "magma_cream",
+      "native_id": 378,
+      "registration_pc": "0x39cb5b",
+      "name_hash": "fde0b80e",
+      "description_hash": "5bb12fe2",
+      "store_pc": "0x39cb2e",
+      "text": "Used in potion brewing."
+    },
+    {
+      "name": "brewing_stand",
+      "native_id": 379,
+      "registration_pc": "0x39cc99",
+      "name_hash": "d39ff6d7",
+      "description_hash": "8dad714b",
+      "store_pc": "0x39cc6c",
+      "text": "Used for making Potions and Splash Potions."
+    },
+    {
+      "name": "cauldron",
+      "native_id": 380,
+      "registration_pc": "0x39cdd6",
+      "name_hash": "05a1ba3a",
+      "description_hash": "92b04126",
+      "store_pc": "0x39cda9",
+      "text": "Used to mix dyes and dye armor, or store Potions and make Tipped Arrows. Filled with water by rain or with a bucket of water."
+    },
+    {
+      "name": "ender_eye",
+      "native_id": 381,
+      "registration_pc": "0x39cf0a",
+      "name_hash": "78fc32fe",
+      "description_hash": "f3ce4102",
+      "store_pc": "0x39cedd",
+      "text": "When thrown, will show the direction to an End Portal. When twelve of these are placed in the End Portal Frames, the End Portal will be activated."
+    },
+    {
+      "name": "speckled_melon",
+      "native_id": 382,
+      "registration_pc": "0x39d03e",
+      "name_hash": "83df6357",
+      "description_hash": "e080a7fb",
+      "store_pc": "0x39d011",
+      "text": "Used in potion brewing."
+    },
+    {
+      "name": "spawn_egg",
+      "native_id": 383,
+      "registration_pc": "0x39d164",
+      "name_hash": "9fa6f429",
+      "description_hash": "16b8b295",
+      "store_pc": "0x39d137",
+      "text": "When thrown can spawn a creature of the type indicated."
+    },
+    {
+      "name": "experience_bottle",
+      "native_id": 384,
+      "registration_pc": "0x39d28a",
+      "name_hash": "8eaa3e30",
+      "description_hash": "c511bb2c",
+      "store_pc": "0x39d25d",
+      "text": "When thrown, it drops Experience Orbs which increase your experience points when collected."
+    },
+    {
+      "name": "fire_charge",
+      "native_id": 385,
+      "registration_pc": "0x39d3be",
+      "name_hash": "96584e3d",
+      "description_hash": "aa52cc01",
+      "store_pc": "0x39d391",
+      "text": "Useful for setting things on fire, or for indiscriminately starting fires when fired from a Dispenser."
+    },
+    {
+      "name": "writable_book",
+      "native_id": 386,
+      "registration_pc": "0x39d4f2",
+      "name_hash": "b8cc5a69",
+      "description_hash": "b8ad8833",
+      "store_pc": "0x39d4c5",
+      "text": "A Book that can be written in."
+    },
+    {
+      "name": "written_book",
+      "native_id": 387,
+      "registration_pc": "0x39d61f",
+      "name_hash": "512d288f",
+      "description_hash": "eac3004c",
+      "store_pc": "0x39d5eb",
+      "text": "A book signed by the author (cannot be written in)."
+    },
+    {
+      "name": "emerald",
+      "native_id": 388,
+      "registration_pc": "0x39d752",
+      "name_hash": "f681ddf0",
+      "description_hash": "25a6420c",
+      "store_pc": "0x39d725",
+      "text": "Can be traded with villagers."
+    },
+    {
+      "name": "item_frame",
+      "native_id": 389,
+      "registration_pc": "0x39d89b",
+      "name_hash": "84e900d6",
+      "description_hash": "4493ef7a",
+      "store_pc": "0x39d86e",
+      "text": "Similar to a display case, this will display the item or block placed in it."
+    },
+    {
+      "name": "flower_pot",
+      "native_id": 390,
+      "registration_pc": "0x39d9d3",
+      "name_hash": "37864cc2",
+      "description_hash": "b636176c",
+      "store_pc": "0x39d99e",
+      "text": "Used as a decoration. Flowers, Saplings, Cacti and Mushrooms can be planted in it."
+    },
+    {
+      "name": "carrot",
+      "native_id": 391,
+      "registration_pc": "0x39de05",
+      "name_hash": "288a8c0e",
+      "description_hash": "5807c490",
+      "store_pc": "0x39ddd8",
+      "text": "Restores 1.5{*ICON_SHANK_01*}, and can be crafted into a golden carrot. Can be planted in farmland."
+    },
+    {
+      "name": "potato",
+      "native_id": 392,
+      "registration_pc": "0x39df52",
+      "name_hash": "e4c1c635",
+      "description_hash": "6fe336fb",
+      "store_pc": "0x39df25",
+      "text": "Restores 0.5{*ICON_SHANK_01*}, or can be cooked in a furnace. This can be planted in farmland."
+    },
+    {
+      "name": "baked_potato",
+      "native_id": 393,
+      "registration_pc": "0x39e09f",
+      "name_hash": "09bbf079",
+      "description_hash": "cf1f0015",
+      "store_pc": "0x39e072",
+      "text": "Restores 2.5{*ICON_SHANK_01*}. Created by cooking a potato in a furnace."
+    },
+    {
+      "name": "poisonous_potato",
+      "native_id": 394,
+      "registration_pc": "0x39e21e"
+    },
+    {
+      "name": "map",
+      "native_id": 395,
+      "registration_pc": "0x39e352",
+      "name_hash": "7a1ae5a0",
+      "description_hash": "8842d8bc",
+      "store_pc": "0x39e325",
+      "text": "When used becomes a map of the part of the world that you are in, and gets filled in as you explore."
+    },
+    {
+      "name": "golden_carrot",
+      "native_id": 396,
+      "registration_pc": "0x39e495",
+      "name_hash": "1d3aa083",
+      "description_hash": "a2a3a5af",
+      "store_pc": "0x39e468",
+      "text": "Restores 3{*ICON_SHANK_01*}. Crafted from a carrot and gold nuggets."
+    },
+    {
+      "name": "skull",
+      "native_id": 397,
+      "registration_pc": "0x39e5b8",
+      "name_hash": "cde48093",
+      "description_hash": "896ae85f",
+      "store_pc": "0x39e58b",
+      "text": "Mob Heads can be placed as a decoration, or worn as a mask in the helmet slot."
+    },
+    {
+      "name": "carrot_on_a_stick",
+      "native_id": 398,
+      "registration_pc": "0x39e6ec",
+      "name_hash": "bc506e36",
+      "description_hash": "95744b8a",
+      "store_pc": "0x39e6bf",
+      "text": "Used to control a saddled pig when riding on it."
+    },
+    {
+      "name": "nether_star",
+      "native_id": 399,
+      "registration_pc": "0x39e811",
+      "name_hash": "cd3f5c97",
+      "description_hash": "c21dee99",
+      "store_pc": "0x39e7e4",
+      "text": "Dropped by the Wither, used in crafting Beacons."
+    },
+    {
+      "name": "pumpkin_pie",
+      "native_id": 400,
+      "registration_pc": "0x39e946",
+      "name_hash": "8405ac61",
+      "description_hash": "857de8bd",
+      "store_pc": "0x39e919",
+      "text": "Restores 4{*ICON_SHANK_01*}."
+    },
+    {
+      "name": "fireworks",
+      "native_id": 401,
+      "registration_pc": "0x39ea77",
+      "name_hash": "71979e36",
+      "description_hash": "0a644378",
+      "store_pc": "0x39ea46",
+      "text": "When activated, creates colorful explosions. The color, effect, shape and fade are determined by the Firework Star used when the Firework is created."
+    },
+    {
+      "name": "firework_charge",
+      "native_id": 402,
+      "registration_pc": "0x39eba5",
+      "name_hash": "12dae0f3",
+      "description_hash": "4c040c0d",
+      "store_pc": "0x39eb78",
+      "text": "Used to determine the color, effect and shape of a Firework."
+    },
+    {
+      "name": "enchanted_book",
+      "native_id": 403,
+      "registration_pc": "0x39ecd2",
+      "name_hash": "46bdf852",
+      "description_hash": "7be6d91e",
+      "store_pc": "0x39eca5",
+      "text": "Used with an Anvil to enchant weapons, tools or armor."
+    },
+    {
+      "name": "comparator",
+      "native_id": 404,
+      "registration_pc": "0x39ee09",
+      "name_hash": "65deb0fc",
+      "description_hash": "f7057fe0",
+      "store_pc": "0x39edd4",
+      "text": "Used in Redstone circuits to maintain, compare, or subtract signal strength, or to measure certain block states."
+    },
+    {
+      "name": "netherbrick",
+      "native_id": 405,
+      "registration_pc": "0x39ef2e",
+      "name_hash": "9b878367",
+      "description_hash": "c4d5e6d9",
+      "store_pc": "0x39ef01",
+      "text": "Created by smelting Netherrack in a furnace. Can be crafted into Nether Brick blocks."
+    },
+    {
+      "name": "quartz",
+      "native_id": 406,
+      "registration_pc": "0x39f054",
+      "name_hash": "6111ca70",
+      "description_hash": "281cbc4c",
+      "store_pc": "0x39f027",
+      "text": "Created by mining Nether Quartz Ore. Can be crafted into a Block of Quartz."
+    },
+    {
+      "name": "tnt_minecart",
+      "native_id": 407,
+      "registration_pc": "0x39f184",
+      "name_hash": "1ffa9ecc",
+      "description_hash": "dd4b7b90",
+      "store_pc": "0x39f157",
+      "text": "A type of Minecart that acts as a moving TNT block."
+    },
+    {
+      "name": "hopper_minecart",
+      "native_id": 408,
+      "registration_pc": "0x39f2c2",
+      "name_hash": "1850ec5a",
+      "description_hash": "66874bb6",
+      "store_pc": "0x39f291",
+      "text": "A special type of Minecart that functions similarly to a Hopper. It will collect items lying on tracks and from containers above it."
+    },
+    {
+      "name": "prismarine_shard",
+      "native_id": 409,
+      "registration_pc": "0x39f3ef",
+      "name_hash": "989dd9e9",
+      "description_hash": "f7b20305",
+      "store_pc": "0x39f3ba",
+      "text": "Dropped by Guardians and Elder Guardians. Can be used in crafting Prismarine and Sea Lanterns."
+    },
+    {
+      "name": "prismarine_crystals",
+      "native_id": 410,
+      "registration_pc": "0x39f51c",
+      "name_hash": "c57d6644",
+      "description_hash": "47db5008",
+      "store_pc": "0x39f4e7",
+      "text": "Obtained from Sea Lanterns or by defeating Guardians and Elder Guardians. Can be used in crafting Sea Lanterns."
+    },
+    {
+      "name": "rabbit",
+      "native_id": 411,
+      "registration_pc": "0x39f65c",
+      "name_hash": "db0f972b",
+      "description_hash": "2e4841c7",
+      "store_pc": "0x39f627",
+      "text": "Restores 1.5{*ICON_SHANK_01*}, or can be cooked in a furnace."
+    },
+    {
+      "name": "cooked_rabbit",
+      "native_id": 412,
+      "registration_pc": "0x39f794",
+      "name_hash": "35471bb6",
+      "description_hash": "a6480b9a",
+      "store_pc": "0x39f767",
+      "text": "Restores 2.5{*ICON_SHANK_01*}. Used to cook up some rabbit stew."
+    },
+    {
+      "name": "rabbit_stew",
+      "native_id": 413,
+      "registration_pc": "0x39f8c6",
+      "name_hash": "355b08d2",
+      "description_hash": "ee4ee58e",
+      "store_pc": "0x39f899",
+      "text": "Restores 5{*ICON_SHANK_01*}. Cooked up with some cooked rabbit, carrot, mushroom and potato."
+    },
+    {
+      "name": "rabbit_foot",
+      "native_id": 414,
+      "registration_pc": "0x39f9eb",
+      "name_hash": "37d2e0c5",
+      "description_hash": "09ea74d9",
+      "store_pc": "0x39f9be",
+      "text": "Used as an ingredient for brewing potions."
+    },
+    {
+      "name": "rabbit_hide",
+      "native_id": 415,
+      "registration_pc": "0x39fb10",
+      "name_hash": "4db9218f",
+      "description_hash": "75867c83",
+      "store_pc": "0x39fae3",
+      "text": "Used in crafting leather."
+    },
+    {
+      "name": "armor_stand",
+      "native_id": 416,
+      "registration_pc": "0x39fc4b",
+      "name_hash": "78dd7f8e",
+      "description_hash": "80617875",
+      "store_pc": "0x39fbdf",
+      "text": "Can be equipped to display armor and other decorative items such as mob heads."
+    },
+    {
+      "name": "iron_horse_armor",
+      "native_id": 417,
+      "registration_pc": "0x39fe20",
+      "name_hash": "8548cb0c",
+      "description_hash": "37af95d0",
+      "store_pc": "0x39fdf3",
+      "text": "A special type of Armor that can be equipped to a horse. Provides 2.5{*ICON_ARMOR_01*}."
+    },
+    {
+      "name": "golden_horse_armor",
+      "native_id": 418,
+      "registration_pc": "0x39ffeb",
+      "name_hash": "f08ef44e",
+      "description_hash": "3e6173e2",
+      "store_pc": "0x39ffbe",
+      "text": "A special type of Armor that can be equipped to a horse. Provides 3.5{*ICON_ARMOR_01*}."
+    },
+    {
+      "name": "diamond_horse_armor",
+      "native_id": 419,
+      "registration_pc": "0x3a01b5",
+      "name_hash": "a25cc4b2",
+      "description_hash": "d59e460e",
+      "store_pc": "0x3a0188",
+      "text": "A special type of Armor that can be equipped to a horse. Provides 5.5{*ICON_ARMOR_01*}."
+    },
+    {
+      "name": "lead",
+      "native_id": 420,
+      "registration_pc": "0x3a02e9",
+      "name_hash": "04f7491a",
+      "description_hash": "729de426",
+      "store_pc": "0x3a02bc",
+      "text": "Used to leash mobs to the player or Fence posts."
+    },
+    {
+      "name": "name_tag",
+      "native_id": 421,
+      "registration_pc": "0x3a040e",
+      "name_hash": "5da61b4c",
+      "description_hash": "bb06f9b0",
+      "store_pc": "0x3a03e1",
+      "text": "Used to name mobs in the world."
+    },
+    {
+      "name": "command_block_minecart",
+      "native_id": 422,
+      "registration_pc": "0x3a0537"
+    },
+    {
+      "name": "mutton",
+      "native_id": 423,
+      "registration_pc": "0x3a066f",
+      "name_hash": "1179020c",
+      "description_hash": "432b18a0",
+      "store_pc": "0x3a0642",
+      "text": "Restores 1{*ICON_SHANK_01*}, or can be cooked in a furnace."
+    },
+    {
+      "name": "cooked_mutton",
+      "native_id": 424,
+      "registration_pc": "0x3a07a7",
+      "name_hash": "cdf084a9",
+      "description_hash": "cb2e65b5",
+      "store_pc": "0x3a077a",
+      "text": "Restores 3{*ICON_SHANK_01*}. Created by cooking raw mutton in a furnace."
+    },
+    {
+      "name": "banner",
+      "native_id": 425,
+      "registration_pc": "0x3a08ce"
+    },
+    {
+      "name": "end_crystal",
+      "native_id": 426,
+      "registration_pc": "0x3a09a3",
+      "name_hash": "2d0d34e4",
+      "description_hash": "d396a19a",
+      "store_pc": "0x3a0976",
+      "text": "Heals the Ender Dragon, and can be used to respawn it. Explodes when attacked."
+    },
+    {
+      "name": "spruce_door",
+      "native_id": 427,
+      "registration_pc": "0x3a0acb",
+      "name_hash": "b9f7283e",
+      "description_hash": "2aaf6f70",
+      "store_pc": "0x3a0a9e",
+      "text": "Wooden doors are activated by using, hitting them or with Redstone."
+    },
+    {
+      "name": "birch_door",
+      "native_id": 428,
+      "registration_pc": "0x3a0c09",
+      "name_hash": "915b72f6",
+      "description_hash": "2aaf6f70",
+      "store_pc": "0x3a0bdc",
+      "text": "Wooden doors are activated by using, hitting them or with Redstone."
+    },
+    {
+      "name": "jungle_door",
+      "native_id": 429,
+      "registration_pc": "0x3a0d47",
+      "name_hash": "52af79bb",
+      "description_hash": "2aaf6f70",
+      "store_pc": "0x3a0d1a",
+      "text": "Wooden doors are activated by using, hitting them or with Redstone."
+    },
+    {
+      "name": "acacia_door",
+      "native_id": 430,
+      "registration_pc": "0x3a0e85",
+      "name_hash": "f59508ec",
+      "description_hash": "2aaf6f70",
+      "store_pc": "0x3a0e58",
+      "text": "Wooden doors are activated by using, hitting them or with Redstone."
+    },
+    {
+      "name": "dark_oak_door",
+      "native_id": 431,
+      "registration_pc": "0x3a0fc3",
+      "name_hash": "7bf6657d",
+      "description_hash": "2aaf6f70",
+      "store_pc": "0x3a0f96",
+      "text": "Wooden doors are activated by using, hitting them or with Redstone."
+    },
+    {
+      "name": "chorus_fruit",
+      "native_id": 432,
+      "registration_pc": "0x3a110a"
+    },
+    {
+      "name": "chorus_fruit_popped",
+      "native_id": 433,
+      "registration_pc": "0x3a122f",
+      "name_hash": "9a7db1f4",
+      "description_hash": "fd12a3ea",
+      "store_pc": "0x3a1202",
+      "text": "Created by cooking Chorus Fruit in a Furnace. Used to craft End Rods and Purpur blocks."
+    },
+    {
+      "name": "beetroot",
+      "native_id": 434,
+      "registration_pc": "0x3a1363",
+      "name_hash": "91197bbe",
+      "description_hash": "557c5ee0",
+      "store_pc": "0x3a1336",
+      "text": "Restores 0.5{*ICON_SHANK_01*} when eaten. Can also be crafted into Rose Red dye, or Beetroot Soup."
+    },
+    {
+      "name": "beetroot_seeds",
+      "native_id": 435,
+      "registration_pc": "0x3a14ae",
+      "name_hash": "3589479d",
+      "description_hash": "753a3bb3",
+      "store_pc": "0x3a1481",
+      "text": "Can be planted in farmland to grow beetroot."
+    },
+    {
+      "name": "beetroot_soup",
+      "native_id": 436,
+      "registration_pc": "0x3a15e0",
+      "name_hash": "c53ba968",
+      "description_hash": "2ade8f66",
+      "store_pc": "0x3a15b3",
+      "text": "Restores 3{*ICON_SHANK_01*} when eaten."
+    },
+    {
+      "name": "dragon_breath",
+      "native_id": 437,
+      "registration_pc": "0x3a1710",
+      "name_hash": "b0fb4038",
+      "description_hash": "f744e236",
+      "store_pc": "0x3a16e3",
+      "text": "Used in potion brewing. Obtained by capturing the Ender Dragon's acid breath in a Glass Bottle."
+    },
+    {
+      "name": "splash_potion",
+      "native_id": 438,
+      "registration_pc": "0x3a186a",
+      "name_hash": "3dad6fdf",
+      "description_hash": "a22445c1",
+      "store_pc": "0x3a183d",
+      "text": "A potion that can be thrown."
+    },
+    {
+      "name": "spectral_arrow",
+      "native_id": 439,
+      "registration_pc": "0x3a19a1",
+      "name_hash": "0558958e",
+      "description_hash": "ff7b7200",
+      "store_pc": "0x3a1970",
+      "text": "Gives the victim a glowing outline that can be seen through blocks."
+    },
+    {
+      "name": "tipped_arrow",
+      "native_id": 440,
+      "registration_pc": "0x3a1b07",
+      "name_hash": "20746e7c",
+      "description_hash": "2453270c",
+      "store_pc": "0x3a1ad6",
+      "text": "An arrow that applies a potion effect based on what it is tipped with."
+    },
+    {
+      "name": "lingering_potion",
+      "native_id": 441,
+      "registration_pc": "0x3a1c61",
+      "name_hash": "23a08711",
+      "description_hash": "c459779f",
+      "store_pc": "0x3a1c34",
+      "text": "A potion that can be thrown, and applies an effect to the ground where it lands. Can be used to craft Tipped Arrows."
+    },
+    {
+      "name": "shield",
+      "native_id": 442,
+      "registration_pc": "0x3a1d8b",
+      "name_hash": "91552d89",
+      "description_hash": "e96c8be7",
+      "store_pc": "0x3a1d5a",
+      "text": "Allows the player to block, reducing damage taken from attacks."
+    },
+    {
+      "name": "elytra",
+      "native_id": 443,
+      "registration_pc": "0x3a1eb0",
+      "name_hash": "2d5098d1",
+      "description_hash": "b80b655f",
+      "store_pc": "0x3a1e83",
+      "text": "Allows the player to glide when worn."
+    },
+    {
+      "name": "spruce_boat",
+      "native_id": 444,
+      "registration_pc": "0x3a1fe8",
+      "name_hash": "3885c7fb",
+      "description_hash": "5061f0b5",
+      "store_pc": "0x3a1fbb",
+      "text": "Used to travel in water more quickly than swimming."
+    },
+    {
+      "name": "birch_boat",
+      "native_id": 445,
+      "registration_pc": "0x3a2120",
+      "name_hash": "a7d1ca03",
+      "description_hash": "c2d7d60d",
+      "store_pc": "0x3a20f3",
+      "text": "Used to travel in water more quickly than swimming."
+    },
+    {
+      "name": "jungle_boat",
+      "native_id": 446,
+      "registration_pc": "0x3a2258",
+      "name_hash": "c9d7558e",
+      "description_hash": "8d796b10",
+      "store_pc": "0x3a222b",
+      "text": "Used to travel in water more quickly than swimming."
+    },
+    {
+      "name": "acacia_boat",
+      "native_id": 447,
+      "registration_pc": "0x3a2390",
+      "name_hash": "f6970bd9",
+      "description_hash": "1b9311e7",
+      "store_pc": "0x3a2363",
+      "text": "Used to travel in water more quickly than swimming."
+    },
+    {
+      "name": "dark_oak_boat",
+      "native_id": 448,
+      "registration_pc": "0x3a24c8",
+      "name_hash": "7163ae7f",
+      "description_hash": "8c104a11",
+      "store_pc": "0x3a249b",
+      "text": "Used to travel in water more quickly than swimming."
+    },
+    {
+      "name": "totem_of_undying",
+      "native_id": 449,
+      "registration_pc": "0x3a25f9",
+      "name_hash": "b4da2886",
+      "description_hash": "03b5e68a",
+      "store_pc": "0x3a25c1",
+      "text": "Prevents the holder from dying, but breaks in the process. Dropped by Evokers."
+    },
+    {
+      "name": "shulker_shell",
+      "native_id": 450,
+      "registration_pc": "0x3a271e",
+      "name_hash": "1b250339",
+      "description_hash": "541139c5",
+      "store_pc": "0x3a26f1",
+      "text": "Sometimes dropped by Shulkers. Can be used to craft a Shulker Box."
+    },
+    {
+      "name": "iron_nugget",
+      "native_id": 452,
+      "registration_pc": "0x3a2851",
+      "name_hash": "50584559",
+      "description_hash": "75da2f45",
+      "store_pc": "0x3a2824",
+      "text": "Created by smelting Iron armour and tools in a Furnace. Can be crafted into an Iron Ingot."
+    },
+    {
+      "name": "leather_horse_armor",
+      "native_id": 453,
+      "registration_pc": "0x3a297f",
+      "name_hash": "dcd90e2d",
+      "description_hash": "41a31661",
+      "store_pc": "0x3a2952",
+      "text": "A special type of Armor that can be dyed and equipped to a horse. Provides 1.5{*ICON_ARMOR_01*}."
+    },
+    {
+      "name": "trident",
+      "native_id": 454,
+      "registration_pc": "0x3a2a8e",
+      "name_hash": "d3ae352a",
+      "description_hash": "18914e64",
+      "store_pc": "0x3a2a61",
+      "text": "A hybrid weapon that can be thrown, or used to stab. Can receive a variety of useful enchantments to make it particularly effective in water or rain."
+    },
+    {
+      "name": "turtle_shell_piece",
+      "native_id": 455,
+      "registration_pc": "0x3a2bb3",
+      "name_hash": "999ce804",
+      "description_hash": "ba1d8b28",
+      "store_pc": "0x3a2b86",
+      "text": "Dropped by baby Sea Turtles when they grow up. Used to craft Turtle Shell helmets."
+    },
+    {
+      "name": "turtle_helmet",
+      "native_id": 456,
+      "registration_pc": "0x3a2cff",
+      "name_hash": "1552f892",
+      "description_hash": "7340a73c",
+      "store_pc": "0x3a2cd2",
+      "text": "Gives the user 1{*ICON_ARMOR_01*} when worn, and lets them breathe underwater for longer."
+    },
+    {
+      "name": "kelp",
+      "native_id": 457,
+      "registration_pc": "0x3a2e2e",
+      "name_hash": "891d3ca4",
+      "description_hash": "ebbd31aa",
+      "store_pc": "0x3a2e01",
+      "text": "Can be planted in water, or dried in a Furnace and eaten."
+    },
+    {
+      "name": "dried_kelp",
+      "native_id": 458,
+      "registration_pc": "0x3a2f81"
+    },
+    {
+      "name": "fish_bucket",
+      "native_id": 459,
+      "registration_pc": "0x3a30b0",
+      "name_hash": "62f21fef",
+      "description_hash": "8705b7b3",
+      "store_pc": "0x3a307f",
+      "text": "Used to hold and transport cod."
+    },
+    {
+      "name": "salmon_bucket",
+      "native_id": 460,
+      "registration_pc": "0x3a31df",
+      "name_hash": "b651bd95",
+      "description_hash": "bbeca329",
+      "store_pc": "0x3a31ae",
+      "text": "Used to hold and transport salmon."
+    },
+    {
+      "name": "puffer_bucket",
+      "native_id": 461,
+      "registration_pc": "0x3a330e",
+      "name_hash": "c711fd9d",
+      "description_hash": "f9c79911",
+      "store_pc": "0x3a32dd",
+      "text": "Used to hold and transport pufferfish."
+    },
+    {
+      "name": "tropical_bucket",
+      "native_id": 462,
+      "registration_pc": "0x3a343d",
+      "name_hash": "62d71911",
+      "description_hash": "ad444bfd",
+      "store_pc": "0x3a340c",
+      "text": "Used to hold and transport tropical fish."
+    },
+    {
+      "name": "nautilus_core",
+      "native_id": 463,
+      "registration_pc": "0x3a3562",
+      "name_hash": "3982db07",
+      "description_hash": "5988048b",
+      "store_pc": "0x3a3535",
+      "text": "Found in buried treasure chests. Used to craft a Conduit."
+    },
+    {
+      "name": "nautilus",
+      "native_id": 464,
+      "registration_pc": "0x3a368b",
+      "name_hash": "f86930d3",
+      "description_hash": "3afe27ff",
+      "store_pc": "0x3a365a",
+      "text": "Can be found by fishing, or killing Drowned. Used to craft a Conduit."
+    },
+    {
+      "name": "phantom_membrane",
+      "native_id": 465,
+      "registration_pc": "0x3a37b0",
+      "name_hash": "31e6cf07",
+      "description_hash": "82c2ecdb",
+      "store_pc": "0x3a3783",
+      "text": "Used in potion brewing, or to repair Elytra."
+    },
+    {
+      "name": "sign_spruce",
+      "native_id": 466,
+      "registration_pc": "0x3a38e9",
+      "name_hash": "39caa431",
+      "description_hash": "b6286b39",
+      "store_pc": "0x3a38bc",
+      "text": "Shows text entered by you or other players."
+    },
+    {
+      "name": "sign_birch",
+      "native_id": 467,
+      "registration_pc": "0x3a3a22",
+      "name_hash": "abc1eaa9",
+      "description_hash": "b6286b39",
+      "store_pc": "0x3a39f5",
+      "text": "Shows text entered by you or other players."
+    },
+    {
+      "name": "sign_acacia",
+      "native_id": 468,
+      "registration_pc": "0x3a3b5b",
+      "name_hash": "3d7d84e3",
+      "description_hash": "b6286b39",
+      "store_pc": "0x3a3b2e",
+      "text": "Shows text entered by you or other players."
+    },
+    {
+      "name": "sign_jungle",
+      "native_id": 469,
+      "registration_pc": "0x3a3c94",
+      "name_hash": "b307d0d4",
+      "description_hash": "b6286b39",
+      "store_pc": "0x3a3c67",
+      "text": "Shows text entered by you or other players."
+    },
+    {
+      "name": "sign_dark_oak",
+      "native_id": 470,
+      "registration_pc": "0x3a3dcd",
+      "name_hash": "f22e9a15",
+      "description_hash": "b6286b39",
+      "store_pc": "0x3a3da0",
+      "text": "Shows text entered by you or other players."
+    },
+    {
+      "name": "crossbow",
+      "native_id": 471,
+      "registration_pc": "0x3a3f00",
+      "name_hash": "7d3063aa",
+      "description_hash": "d45b87c6",
+      "store_pc": "0x3a3ed3",
+      "text": "A powerful alternative to the bow that can use arrows or fireworks."
+    },
+    {
+      "name": "banner_pattern",
+      "native_id": 472,
+      "registration_pc": "0x3a403a",
+      "name_hash": "be93917d",
+      "description_hash": "86393951",
+      "store_pc": "0x3a400d",
+      "text": "Can be used to customise Banners."
+    },
+    {
+      "name": "sweet_berries",
+      "native_id": 473,
+      "registration_pc": "0x3a4305"
+    },
+    {
+      "name": "debug_fourj_item",
+      "native_id": 2255,
+      "registration_pc": "0x3a4445"
+    },
+    {
+      "name": "record_13",
+      "native_id": 2256,
+      "registration_pc": "0x3a4568",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a453b",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_cat",
+      "native_id": 2257,
+      "registration_pc": "0x3a4681",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a4651",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_blocks",
+      "native_id": 2258,
+      "registration_pc": "0x3a479a",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a476a",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_chirp",
+      "native_id": 2259,
+      "registration_pc": "0x3a48b3",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a4883",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_far",
+      "native_id": 2260,
+      "registration_pc": "0x3a49cc",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a499c",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_mall",
+      "native_id": 2261,
+      "registration_pc": "0x3a4ae5",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a4ab5",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_mellohi",
+      "native_id": 2262,
+      "registration_pc": "0x3a4bfe",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a4bce",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_stal",
+      "native_id": 2263,
+      "registration_pc": "0x3a4d17",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a4ce7",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_strad",
+      "native_id": 2264,
+      "registration_pc": "0x3a4e30",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a4e00",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_ward",
+      "native_id": 2265,
+      "registration_pc": "0x3a4f49",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a4f19",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_11",
+      "native_id": 2266,
+      "registration_pc": "0x3a5062",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a5032",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    },
+    {
+      "name": "record_wait",
+      "native_id": 2267,
+      "registration_pc": "0x3a517b",
+      "name_hash": "d4b0c693",
+      "description_hash": "d8db7eff",
+      "store_pc": "0x3a514b",
+      "text": "Collected by getting a skeleton to kill a creeper. Can be played in a jukebox."
+    }
+  ]
+}

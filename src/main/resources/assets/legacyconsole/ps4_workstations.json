@@ -1,0 +1,5826 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "channel_conversion": "BGRA to RGBA; no other pixel changes",
+  "graphics_sha256": "4fd014d618f881b18231f1b5eadf2044f033ea0358edac2fd1b16fac2985b695",
+  "widgets_sha256": "7f23ceea63283bb054ee2f21e2d559d90783da80cf04a2e6e839c0ee92e6fc7f",
+  "sprites": {
+    "Creative_Panel_8": {
+      "texture": "creative_panel_8",
+      "size": [
+        965,
+        735
+      ],
+      "source_sha256": "52885bb3cbaa7882c0a88cf9b055e116929ef7cc3f9ba61b5972f5e5149874ac",
+      "sha256": "52885bb3cbaa7882c0a88cf9b055e116929ef7cc3f9ba61b5972f5e5149874ac"
+    },
+    "Creative_Panel_8_Small": {
+      "texture": "creative_panel_8_small",
+      "size": [
+        627,
+        441
+      ],
+      "source_sha256": "f49ba7ed238dc0a913d34ac3cdb898dd8be3fa36ee2644bd796e604409b44afe",
+      "sha256": "f49ba7ed238dc0a913d34ac3cdb898dd8be3fa36ee2644bd796e604409b44afe"
+    },
+    "Pointer": {
+      "texture": "pointer",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "c9aacada70770625a17d1f61c8be767784c13737223d51328df3a15b1dad48f7",
+      "sha256": "f27bb05ad5c62605b574f11bf37e5431b9dbb5bf7d7f375ef508aed8243d4e46"
+    },
+    "Crafting_2SlotLargeV": {
+      "texture": "crafting_2slotlargev",
+      "size": [
+        120,
+        306
+      ],
+      "source_sha256": "fdcc3c2e4796503f09ece29d1bc56012d458460da030e8217eaa352e428a1d2b",
+      "sha256": "fdcc3c2e4796503f09ece29d1bc56012d458460da030e8217eaa352e428a1d2b"
+    },
+    "Crafting_3SlotLargeV": {
+      "texture": "crafting_3slotlargev",
+      "size": [
+        120,
+        388
+      ],
+      "source_sha256": "77283acd15632d51887e49d365c03357571224435a7124465556b0fa18624f6b",
+      "sha256": "77283acd15632d51887e49d365c03357571224435a7124465556b0fa18624f6b"
+    },
+    "Craft_Highlight_L_Small": {
+      "texture": "craft_highlight_l_small",
+      "size": [
+        108,
+        108
+      ],
+      "source_sha256": "c94c8408806669c539a83518dc362426b29add238a494e947ccd8ad2697e2580",
+      "sha256": "b832f9f578797d32cd6eda0a16647922074b60196401be8ad4094d49a0f61959"
+    },
+    "Craft_Highlight_L_ExtraSmall": {
+      "texture": "craft_highlight_l_extrasmall",
+      "size": [
+        62,
+        62
+      ],
+      "source_sha256": "7d2b6bf3ca87018c0dd862d28584e9f59f9ff2e65e9fc39577c0fdea30bb8202",
+      "sha256": "0c3a100a874396236e6b789a38368542e51c6600c6c1e4370fc5048291ac1165"
+    },
+    "sign": {
+      "texture": "sign",
+      "size": [
+        24,
+        12
+      ],
+      "source_sha256": "e984d4e9964f36c787418fdd43da95a2bb45c80dfe5db845634fd95beb0a64fb",
+      "sha256": "6e85745ca7d51d0a8501d246c265fef01888bb46ee0ca5ac4d344f5c022f4885"
+    },
+    "sign_spruce": {
+      "texture": "sign_spruce",
+      "size": [
+        24,
+        12
+      ],
+      "source_sha256": "e730fcf6b6fc0072368b2c992fda99d405cb4b7f7c6b9c3e8452fd1a8e31102d",
+      "sha256": "ef6940e4ed24694db13428c1b473faca7cb8e0e6d1c300afb5143ea0c073dfcc"
+    },
+    "sign_jungle": {
+      "texture": "sign_jungle",
+      "size": [
+        24,
+        12
+      ],
+      "source_sha256": "3a1565dedccfb646667e397f4e35ccaa7e07f848084067ba99572904d111ba1c",
+      "sha256": "b0f90d30b2e0a21777c2ac20f7656eecb9d2d4be7955a9a4639912e87b70e5ef"
+    },
+    "sign_darkoak": {
+      "texture": "sign_darkoak",
+      "size": [
+        24,
+        12
+      ],
+      "source_sha256": "0573396dcb097cadc77a2f07fd0ecacde945a6fef81aa4cad69a768e673a5e83",
+      "sha256": "cbdbd73eafabc99a73879331d62bdd60747e6d528357d765df0b1a4bc2a0d2b7"
+    },
+    "sign_acacia": {
+      "texture": "sign_acacia",
+      "size": [
+        24,
+        12
+      ],
+      "source_sha256": "57c5e62f8a3dbb9144e67c1b0adcbd4f69bfeec84136591d591fcda49809b8be",
+      "sha256": "a11de6379fc80132b4ce06abdad7530755ce4c8d8e6abb259fd617b1b54e0696"
+    },
+    "sign_birch": {
+      "texture": "sign_birch",
+      "size": [
+        24,
+        12
+      ],
+      "source_sha256": "4f361a99aa14073073b53948a4fd163132a1b563d96ae7859446f397847c51b1",
+      "sha256": "c125c9b39343bbfb5df00d2aa756f78e97ea27d867f77135259225034d4709ab"
+    },
+    "cartography_table_zoom": {
+      "texture": "cartography_table_zoom",
+      "size": [
+        66,
+        66
+      ],
+      "source_sha256": "4d32002490f2050579b6897550a66542e6c28f5c6431c4dd66e91810538ee638",
+      "sha256": "c210d79196604bf4ca9400c48e2a5a75d8b1374f47a2df4264b55f2e9079667c"
+    },
+    "cartography_table_copy": {
+      "texture": "cartography_table_copy",
+      "size": [
+        66,
+        66
+      ],
+      "source_sha256": "810fccc9518eb7d59edf61fd9fdb1e31bac210e9ca8c4cad39daaa74d17cac1e",
+      "sha256": "8727ce333e877070a41ae987e884f9f5cd2dbdf644f67e9e05b550bb3771b6ae"
+    },
+    "cartography_table_empty": {
+      "texture": "cartography_table_empty",
+      "size": [
+        66,
+        66
+      ],
+      "source_sha256": "fd179d823f240f614b30079f3e5e79e1c235f8e25c17e7fa268520bbb84e49ca",
+      "sha256": "eb980765dda68e58fe7cbb9eb977271b3c50287c4df454de5905393681c395af"
+    },
+    "cartography_table_glass": {
+      "texture": "cartography_table_glass",
+      "size": [
+        66,
+        66
+      ],
+      "source_sha256": "6e9813ee369aa9f5e9e1930cf80ae05e2c576282db63ec1966c98271011e33af",
+      "sha256": "948b08b1af34e22ba6c51fa92d8a0ace13d7f380ca7061811b36eb329390b6d0"
+    },
+    "cartography_table_map": {
+      "texture": "cartography_table_map",
+      "size": [
+        66,
+        66
+      ],
+      "source_sha256": "80719f86b3cfcfe9649bf1b6f832b5bb862f1d1758be27e07c8a80e2b912fa9f",
+      "sha256": "205d9b8856a0936f1dc9ff223094028c43a1fc3d6748fdda5f33afba50803183"
+    },
+    "Tab_Left": {
+      "texture": "tab_left",
+      "size": [
+        160,
+        128
+      ],
+      "source_sha256": "2264cb7aad572fdab6bd26a1b20b4efd8be1b962d97c2c8aca734989332141ad",
+      "sha256": "2264cb7aad572fdab6bd26a1b20b4efd8be1b962d97c2c8aca734989332141ad"
+    },
+    "Tab_Middle": {
+      "texture": "tab_middle",
+      "size": [
+        161,
+        128
+      ],
+      "source_sha256": "65c3960c46a64f34bcb8a056379e7c6f0ac96a1e14b4f839b74fbb33ea1128ab",
+      "sha256": "65c3960c46a64f34bcb8a056379e7c6f0ac96a1e14b4f839b74fbb33ea1128ab"
+    },
+    "Tab_Right": {
+      "texture": "tab_right",
+      "size": [
+        160,
+        128
+      ],
+      "source_sha256": "382a42fd331c1caf38bb0bdbd63689b98b1bbbc58743ed349fc8f12f804d8434",
+      "sha256": "382a42fd331c1caf38bb0bdbd63689b98b1bbbc58743ed349fc8f12f804d8434"
+    },
+    "Tab_Small_Left": {
+      "texture": "tab_small_left",
+      "size": [
+        108,
+        84
+      ],
+      "source_sha256": "239d33133280de31854470a57b429a0fb81483ef97dc169e9b89bb2d9e8ca69c",
+      "sha256": "239d33133280de31854470a57b429a0fb81483ef97dc169e9b89bb2d9e8ca69c"
+    },
+    "Tab_Small_Middle": {
+      "texture": "tab_small_middle",
+      "size": [
+        108,
+        84
+      ],
+      "source_sha256": "385f92948d84b219ffc96f622fa41f2ae15555188dea4ba2a0a319490813d9d1",
+      "sha256": "385f92948d84b219ffc96f622fa41f2ae15555188dea4ba2a0a319490813d9d1"
+    },
+    "Tab_Small_Right": {
+      "texture": "tab_small_right",
+      "size": [
+        108,
+        84
+      ],
+      "source_sha256": "aaaab6f2ce1987e2e24d902c198db6cb3acb43ad00809a5e06b13af7997ad682",
+      "sha256": "aaaab6f2ce1987e2e24d902c198db6cb3acb43ad00809a5e06b13af7997ad682"
+    },
+    "Tab_Creative8_L": {
+      "texture": "tab_creative8_l",
+      "size": [
+        125,
+        117
+      ],
+      "source_sha256": "4766215d10899e4bf8862668d597202166fae8e4375279f4b42abec72d42ff27",
+      "sha256": "4766215d10899e4bf8862668d597202166fae8e4375279f4b42abec72d42ff27"
+    },
+    "Tab_Creative8_M": {
+      "texture": "tab_creative8_m",
+      "size": [
+        125,
+        117
+      ],
+      "source_sha256": "79d14ec90af9a225db7b0bb921a8c6f93ed240c5edfe40f709a5c89de5fa7718",
+      "sha256": "79d14ec90af9a225db7b0bb921a8c6f93ed240c5edfe40f709a5c89de5fa7718"
+    },
+    "Tab_Creative8_R": {
+      "texture": "tab_creative8_r",
+      "size": [
+        125,
+        117
+      ],
+      "source_sha256": "c334aa505ffb46b11e624b50f64a97486e26fd76b71588a2d3b909b217ec4970",
+      "sha256": "c334aa505ffb46b11e624b50f64a97486e26fd76b71588a2d3b909b217ec4970"
+    },
+    "Tab_Creative8_Small_L": {
+      "texture": "tab_creative8_small_l",
+      "size": [
+        81,
+        84
+      ],
+      "source_sha256": "79fb6de3d310034b8221974ee7cc633eef0a3647228f3e836edd3b78661ffeef",
+      "sha256": "79fb6de3d310034b8221974ee7cc633eef0a3647228f3e836edd3b78661ffeef"
+    },
+    "Tab_Creative8_Small_M": {
+      "texture": "tab_creative8_small_m",
+      "size": [
+        81,
+        84
+      ],
+      "source_sha256": "5b655e119e8e1f4df1aaefd3861a4dd98d75d3f39298406bffee8c2af2752247",
+      "sha256": "5b655e119e8e1f4df1aaefd3861a4dd98d75d3f39298406bffee8c2af2752247"
+    },
+    "Tab_Creative8_Small_R": {
+      "texture": "tab_creative8_small_r",
+      "size": [
+        81,
+        84
+      ],
+      "source_sha256": "820ab63bc40ea7028e1d2aa112ca4fb74beec4c9404846345af7db223b5e0bbd",
+      "sha256": "820ab63bc40ea7028e1d2aa112ca4fb74beec4c9404846345af7db223b5e0bbd"
+    },
+    "BrewingArrow_Small_Off": {
+      "texture": "brewingarrow_small_off",
+      "size": [
+        27,
+        84
+      ],
+      "source_sha256": "d5a851694c7da7427640011c27977a9441bd5ece2de332c889af7fbc95706054",
+      "sha256": "715423548c0f2d727e86e63c9ebb9777a5b47f3c73602f2fe7efa6a0d85d3c89"
+    },
+    "BrewingArrow_Small_On": {
+      "texture": "brewingarrow_small_on",
+      "size": [
+        27,
+        84
+      ],
+      "source_sha256": "85119fc6418b36171d1466670f42d42a7212f438423f6c87045cfc1b35c21c57",
+      "sha256": "383557ff8d65051c6e678ba000d261c6e4e1b99cc2c33fbc333b252357006560"
+    },
+    "BrewingBubbles_Small_Off": {
+      "texture": "brewingbubbles_small_off",
+      "size": [
+        36,
+        84
+      ],
+      "source_sha256": "1b615af15eef006c473a34e021ef975c23e9511a2ba8f13a214c3da4f785a6ea",
+      "sha256": "ff5fa95b389053d0446bf0e02265a2aa8ca3524713463e0adecbeec9d5315898"
+    },
+    "BrewingBubbles_Small_On": {
+      "texture": "brewingbubbles_small_on",
+      "size": [
+        36,
+        84
+      ],
+      "source_sha256": "92ef9f97167299614073a40b3dd3f1d275af05ef967082c2e6afc497e28b0c5f",
+      "sha256": "8c923e2654f6be3d653f0ca492972ef43471376067b770d9e3112b9730b2f882"
+    },
+    "BrewingStand_small": {
+      "texture": "brewingstand_small",
+      "size": [
+        192,
+        192
+      ],
+      "source_sha256": "22db0e2ded63555444943101a53e3b00679547efca176c864acf5b9e4307e95b",
+      "sha256": "22db0e2ded63555444943101a53e3b00679547efca176c864acf5b9e4307e95b"
+    },
+    "BrewingArrow_Off": {
+      "texture": "brewingarrow_off",
+      "size": [
+        41,
+        126
+      ],
+      "source_sha256": "3fcc3e493d341e90203091e0cc168f76dd628d9b0c7fbc14237be82db2bfa3df",
+      "sha256": "3fcc3e493d341e90203091e0cc168f76dd628d9b0c7fbc14237be82db2bfa3df"
+    },
+    "BrewingArrow_On": {
+      "texture": "brewingarrow_on",
+      "size": [
+        41,
+        126
+      ],
+      "source_sha256": "8106d74eda1121e99327f651be9cacb1a379ca0a2500b976bd85697739270160",
+      "sha256": "8106d74eda1121e99327f651be9cacb1a379ca0a2500b976bd85697739270160"
+    },
+    "BrewingBubbles_Off": {
+      "texture": "brewingbubbles_off",
+      "size": [
+        54,
+        126
+      ],
+      "source_sha256": "f320ca6f4efb82e6bc23e4c87881944f5d49d1341e4deab3765c71c73088ffac",
+      "sha256": "f320ca6f4efb82e6bc23e4c87881944f5d49d1341e4deab3765c71c73088ffac"
+    },
+    "BrewingBubbles_On": {
+      "texture": "brewingbubbles_on",
+      "size": [
+        54,
+        126
+      ],
+      "source_sha256": "9275d92f56a5c02bd22354b068d969abdea52cde6f9e27306ccd750e22083d89",
+      "sha256": "9275d92f56a5c02bd22354b068d969abdea52cde6f9e27306ccd750e22083d89"
+    },
+    "BrewingStand": {
+      "texture": "brewingstand",
+      "size": [
+        288,
+        288
+      ],
+      "source_sha256": "b2f33571324a24f98853086430f700188cc5ea0220fe25bfc8abf81a1eb45e86",
+      "sha256": "b2f33571324a24f98853086430f700188cc5ea0220fe25bfc8abf81a1eb45e86"
+    },
+    "Arrow_Off": {
+      "texture": "arrow_off",
+      "size": [
+        108,
+        72
+      ],
+      "source_sha256": "4b11c7e49cbae92fced73a410f45d1cdc6e35c000b5909f0d7dc61bf47236ae8",
+      "sha256": "4b11c7e49cbae92fced73a410f45d1cdc6e35c000b5909f0d7dc61bf47236ae8"
+    },
+    "Arrow_On": {
+      "texture": "arrow_on",
+      "size": [
+        108,
+        72
+      ],
+      "source_sha256": "023088809ced2188f7b68415dcc7be24176002dfaf8e2cafea5a802f8b23f67a",
+      "sha256": "023088809ced2188f7b68415dcc7be24176002dfaf8e2cafea5a802f8b23f67a"
+    },
+    "Flame_Off": {
+      "texture": "flame_off",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "aae10b2da31a8f9fa788ad9e798cb4ccd14800d09be07a068272c85b64f6e205",
+      "sha256": "aae10b2da31a8f9fa788ad9e798cb4ccd14800d09be07a068272c85b64f6e205"
+    },
+    "Flame_On": {
+      "texture": "flame_on",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "0661c8b4604abe1a2cffd565b3e00ae9093a7085132c52f082e6ce72ee2ad5af",
+      "sha256": "fd587264eea18175d942deb9eda168150bc2e1011927dc799f26f2b506baf187"
+    },
+    "Arrow_Small_Off": {
+      "texture": "arrow_small_off",
+      "size": [
+        72,
+        48
+      ],
+      "source_sha256": "f5982b7ff8f9b9db702692db237c2663d053e1394ce5e2c521d720dddde32021",
+      "sha256": "299d2dbc354c00aa1706bae9e498478be835caeaa3e284bf7d2d9acfa68eb350"
+    },
+    "Flame_Off_Small": {
+      "texture": "flame_off_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "3a3c01556e3d89cfcd635e545a3911643b9404a024cb9d8cc0b96e8c74995fa2",
+      "sha256": "5a3257647bff01c7041720d388ad27622dc028a2ab968e5ec45d268db671c29d"
+    },
+    "Flame_On_Small": {
+      "texture": "flame_on_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "8821e065e408223cf401f4100f956bcb7f747d5250d40e6fcd1ba34525f69f73",
+      "sha256": "7d1a037209a6b0e23f7f80d3b7d9a6b3c30970e2ce88dcba61279806221fedce"
+    },
+    "Arrow_Small_On": {
+      "texture": "arrow_small_on",
+      "size": [
+        72,
+        48
+      ],
+      "source_sha256": "ea56474b6b23ef4788bdcdc20f23afead52fcb1bbb1794693335af87b659e179",
+      "sha256": "53f9d642ca6a36bdf69ba7f003e279019b809896a2a9595365bb366a7e8a023e"
+    },
+    "Armour_Slot_Body": {
+      "texture": "armour_slot_body",
+      "size": [
+        24,
+        24
+      ],
+      "source_sha256": "e97e3d19f6170df52959e81098905a8514f0472d6be814e05ec7d725712e48b8",
+      "sha256": "653969474e29f031db0192a6bcd2e5f96f7b0982a903021666556fea0f67e4b6"
+    },
+    "Armour_Slot_Feet": {
+      "texture": "armour_slot_feet",
+      "size": [
+        24,
+        24
+      ],
+      "source_sha256": "8e44fec71687cc5226d42b67b082fd01ac3a0fcbb4a0f62a74b4bfd5b30a8c68",
+      "sha256": "6f58449f4ac89adc6511228c9ed3816101e1d81ae9bb3c27ebeaa364c5c16964"
+    },
+    "Armour_Slot_Head": {
+      "texture": "armour_slot_head",
+      "size": [
+        24,
+        24
+      ],
+      "source_sha256": "fa56edb7af3db1f021b1a8dabc68f3ebb0d46832d0173f831f38b3b2e693c4e2",
+      "sha256": "691e89d08e9d46eec9093ba223dd7debf3474819cf45231a005882204e08a83c"
+    },
+    "Armour_Slot_Legs": {
+      "texture": "armour_slot_legs",
+      "size": [
+        24,
+        24
+      ],
+      "source_sha256": "13d79a1bf06fc0e2bf58d28f599e2347b209f73f37cf0dd51853b141c26e44ea",
+      "sha256": "95a6a9a942e9a950eb97ae4d166fe1e5a2e24f9feb9ac486e3a5f94f63feb650"
+    },
+    "TutorialExitScreenshot": {
+      "texture": "tutorialexitscreenshot",
+      "size": [
+        480,
+        270
+      ],
+      "source_sha256": "de3da915f152f1f3366f80f041c4f61fc4d36fa91f6475155a99ae13950db173",
+      "sha256": "dacf9766cb7c281e1ee3dcf39d6667c3559e0620a8fc6d823350bd911637792e"
+    },
+    "Craft_Scroll_Down": {
+      "texture": "craft_scroll_down",
+      "size": [
+        32,
+        18
+      ],
+      "source_sha256": "64ae134f73c1c495e3b1e6118a66ed7f7e96396edaa1822b7aa23b2ce6220b86",
+      "sha256": "a065b4e00e56e49c389b4a03fbfbec9801214b0668317ece2331984937d35143"
+    },
+    "Craft_Scroll_up": {
+      "texture": "craft_scroll_up",
+      "size": [
+        32,
+        18
+      ],
+      "source_sha256": "ead9a91c6d70d3508c1c00b95ebd1a3e8600bf8c203c2d429a30f2ec7d71d03e",
+      "sha256": "7da6170591f609585f0fcfcccf4f144f0b7051a2087c00b37d055c88be53ee4f"
+    },
+    "scrollDown": {
+      "texture": "scrolldown",
+      "size": [
+        48,
+        33
+      ],
+      "source_sha256": "13a19a8ff0874055523e4409325de7ceb1e6385891f430bbc6caf818727251ed",
+      "sha256": "a9c5e0b411e8682d7de889c4d05054d0398de64bc2f56116a7f3f7f7aab0dbb8"
+    },
+    "scrollUp": {
+      "texture": "scrollup",
+      "size": [
+        48,
+        33
+      ],
+      "source_sha256": "56b9b16af63cfa14f6436b45ff70d53f31901168badd92fb16b5a579ead99b56",
+      "sha256": "34d363a6d1de0bd66c2488a6a15213bfe60dfd7a4e910e76259a8afd65b84f14"
+    },
+    "Craft_Scroll_up_VerySmall": {
+      "texture": "craft_scroll_up_verysmall",
+      "size": [
+        14,
+        8
+      ],
+      "source_sha256": "104eaa43a75c775c69e50e22c846f42f58f91fed8379c180cc411d3830b88e63",
+      "sha256": "848bb5fccf95f7997097de74c16e1a5e2e296f0819040b4b863a3b38365d62b1"
+    },
+    "Craft_Scroll_Down_VerySmall": {
+      "texture": "craft_scroll_down_verysmall",
+      "size": [
+        14,
+        8
+      ],
+      "source_sha256": "0dab240333787fec81175d51e3a6f5521c177acabb2cf1bd50612e42da677ca5",
+      "sha256": "9069fcab2d1af7c0a2fadfd92335677460678544116b0d04dcf523ab461df40c"
+    },
+    "Craft_Scroll_Down_Small": {
+      "texture": "craft_scroll_down_small",
+      "size": [
+        21,
+        12
+      ],
+      "source_sha256": "c4c86aeea2dee005c3fd956d6a2b0a52b2b5558854d2ec59124f9841e59a80ec",
+      "sha256": "6c0a06a05599356b49d1679b6ff09d31063eb873984e59203335eb82977d4913"
+    },
+    "Craft_Scroll_up_Small": {
+      "texture": "craft_scroll_up_small",
+      "size": [
+        21,
+        12
+      ],
+      "source_sha256": "0d36dd57a419facf31c55bbd74cce364657f167c5e6a9f2dc902c7cdc36ff360",
+      "sha256": "a4030797b8b1db4d868501677609369917ee227e8992ea50ea197a76d4f0e1bc"
+    },
+    "Arrow_480_Off": {
+      "texture": "arrow_480_off",
+      "size": [
+        32,
+        32
+      ],
+      "source_sha256": "c9d9ced761235dc62d81280d89024d8c34bcdbe5811b01f637e7914202c512f9",
+      "sha256": "bc19377ba8db7a1d7a3cce6e8150a20128230686c13c8ae53f7f355b4206c13a"
+    },
+    "TextInputBG": {
+      "texture": "textinputbg",
+      "size": [
+        450,
+        42
+      ],
+      "source_sha256": "6518ed1d679e40ed2fccda699c4500f38da47ee2b1e01d33ff6271f8cb080361",
+      "sha256": "6518ed1d679e40ed2fccda699c4500f38da47ee2b1e01d33ff6271f8cb080361"
+    },
+    "Caret": {
+      "texture": "caret",
+      "size": [
+        16,
+        4
+      ],
+      "source_sha256": "0e5fe48d4934a3b9bbbd24a878ab72af8dafb2d1bb40d5b4b2b6e2286baa1979",
+      "sha256": "097d80e884d652933d74e7f756b440ae0b203ac69177a5f10b01e2dc24c32f9d"
+    },
+    "TextInputBGBorder": {
+      "texture": "textinputbgborder",
+      "size": [
+        456,
+        48
+      ],
+      "source_sha256": "5c542c4c7855fd70c26772770261433f6dbee9ae04e91eea8155a62d87c26fb6",
+      "sha256": "5c542c4c7855fd70c26772770261433f6dbee9ae04e91eea8155a62d87c26fb6"
+    },
+    "TextInputSelectedBorder": {
+      "texture": "textinputselectedborder",
+      "size": [
+        462,
+        54
+      ],
+      "source_sha256": "3946f4ab9c28e1a34ef926513c418fea6b4b8f31053da2568f68c8fe12f8f5b7",
+      "sha256": "4e30c206af5beb8d74ccf1f67a6ba2fa6bcc4a5a66008be8f0d4d9354f57d5b6"
+    },
+    "AnvilCross": {
+      "texture": "anvilcross",
+      "size": [
+        15,
+        15
+      ],
+      "source_sha256": "f0e9d2c20128bb0eafefaed5f049d60d6f4a561d5699cc54a50509d6b46f83b3",
+      "sha256": "acc897e99c1981c0545de8ebc1ad3199c9673417c43cb3c69a81e08e971e005d"
+    },
+    "AnvilHammer": {
+      "texture": "anvilhammer",
+      "size": [
+        15,
+        15
+      ],
+      "source_sha256": "4e5267c0e81f0e94792c80700b1c1a9a2befa44c5b306c14889e0353d64bd92a",
+      "sha256": "dd766ad863e5d9d77e456a32ec4c6064e5910de90ce972a0c0a2f7c1215efc3f"
+    },
+    "AnvilPlus": {
+      "texture": "anvilplus",
+      "size": [
+        5,
+        5
+      ],
+      "source_sha256": "b4e3bc2d994fc65c08086f8308b6a6d5b9f670ac6935225fa4df1ad93a256fec",
+      "sha256": "3a3ba245b03bb10cffb6e3d1d31363a0b7a91ad26a9f153409876d70a6f1f48b"
+    },
+    "scrollLeft": {
+      "texture": "scrollleft",
+      "size": [
+        18,
+        33
+      ],
+      "source_sha256": "942f1e58f2342313dda6766b9ca804e728061943c3cb418323cd767cf1664499",
+      "sha256": "1c78794398c5d9da6b27c8c0f559333abe70064811a68de765e6695e7c6a28ad"
+    },
+    "scrollRight": {
+      "texture": "scrollright",
+      "size": [
+        18,
+        33
+      ],
+      "source_sha256": "f673ab3c3739d83fd25390f57ba495b1d384d8163baf5def60bf8976bd8d0e80",
+      "sha256": "3a54e0ddd5bf80695081b06834f538658855c64d14157de9017cc9b0bfda849b"
+    },
+    "Warning": {
+      "texture": "warning",
+      "size": [
+        24,
+        24
+      ],
+      "source_sha256": "b1c696ef3c15798d572accbad1f373f60a9f3ebc7059fc27dedad80f7115ab02",
+      "sha256": "f16c635c2cf46073d2fd17d6d7236b9bf26c800bab92c78e0c4068e72a358c86"
+    },
+    "SlotHighlight": {
+      "texture": "slothighlight",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "8415d24fa4c0f2edb82d08007845bb572cdbfa781e5569f279fd47ba20fa7e0c",
+      "sha256": "8e01f9e721f8f23f29def9e19001c345ac119ae34f6b1cb2c8065e1700ddbbdd"
+    },
+    "IconHolder_1x1border": {
+      "texture": "iconholder_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "e0c816362663472e46bf5cf6253957df2c916505ec9355563fae99a3c5d3df5c",
+      "sha256": "9d93bfee75f3eb5c694680d9271d91187cf161f9cf3d0979006ccfa411166fae"
+    },
+    "IconHolderRed_1x1border": {
+      "texture": "iconholderred_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "71b26185051610ceca795defeb554951832f1997583da599b62c22df4bf4fb6f",
+      "sha256": "e0a9b32c0d629aa17c44a70ff4ec0b81543dd4bfad5678f1595d2957a273db50"
+    },
+    "IconHolderInactive_1x1border": {
+      "texture": "iconholderinactive_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "efcb5df24e300746a1016ec67cc281e572a5cae43fede472721c6c7133e20a70",
+      "sha256": "f00f2e1f89ab6eba4f417780b0afc6d63d2d5a3e4ec797a9fbd3d2d8baff8b08"
+    },
+    "Beacon_1": {
+      "texture": "beacon_1",
+      "size": [
+        19,
+        20
+      ],
+      "source_sha256": "ed1b194597f471b288142101a57b0d8f3e5194e40c9d1140d27ed95f71e37e4d",
+      "sha256": "58cb94f3fad7d433ca1412939b3b09053b0ff31f2cae55c56c9672d7ff96add4"
+    },
+    "Beacon_2": {
+      "texture": "beacon_2",
+      "size": [
+        19,
+        20
+      ],
+      "source_sha256": "305647396cc840b473655739dcf0209e7272d9dcdd3a178f1d29317a301eb256",
+      "sha256": "5808e43c6a52f4216b56ec06b3aa824f7932a0ded3b082c535a4ef4ab17c8863"
+    },
+    "Beacon_3": {
+      "texture": "beacon_3",
+      "size": [
+        19,
+        20
+      ],
+      "source_sha256": "f607c2b2dbf37cc09bc74547d2c0340b017cf5e982ebe0f4e74143b283912037",
+      "sha256": "30435e82e4c282a064fbeb87ee0ef02efda0f5cbd69fcf88a2640a9c10626879"
+    },
+    "Beacon_4": {
+      "texture": "beacon_4",
+      "size": [
+        19,
+        20
+      ],
+      "source_sha256": "b8678638b158f7287a53e18f4bf23282aaa0e338bc249420cebe5f828d234ca4",
+      "sha256": "b2c5c338ccaa881e63b79e566288e37757fcab5bf3fcbadf2e38452c05b802c4"
+    },
+    "HorseArmor_Slot_Small": {
+      "texture": "horsearmor_slot_small",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "7f8c3db42900963d4cb4868d2e778dccdd648765ee192272d4a77775ce9cd83c",
+      "sha256": "1ebca54d31285043946ae696cff126dcddd08084e0f22e43f2f89580c01a6b28"
+    },
+    "Saddle_Slot_Small": {
+      "texture": "saddle_slot_small",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "cabcdd8f134ee4ffd2e3a204ab76d0b62675abaaa887947fe3cf4de500e265ba",
+      "sha256": "59a1d1929f1a2aa2dba05078bb543e37118a71ab93eb90c09c0cb98ad5d4c414"
+    },
+    "IconHolderHighlight_1x1border": {
+      "texture": "iconholderhighlight_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "76333e9981a54a8d358d7021c9674b8903745f181f46868a2a12b338bf0f41e3",
+      "sha256": "af0497d77f5fa4760fd037e760c714926905dd4ed96e44b6a8e9a975f6bfc8a4"
+    },
+    "Beacon_Button_Tick.png": {
+      "texture": "beacon_button_tick.png",
+      "size": [
+        28,
+        28
+      ],
+      "source_sha256": "770385da761e8975d5f0b1119b62b63807571c8072829ce7219874decce03840",
+      "sha256": "5ff4abf477c906ed85c3443a08864f53e97558c2771b0555623494f86f28d129"
+    },
+    "IconHolder_1x1border_Off": {
+      "texture": "iconholder_1x1border_off",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "ec94941cab2f25ec685678f34a0209c6bb7fc827dc5866db40984edbb93b664a",
+      "sha256": "3ca7e11d9ed55d026752046ed2e25b02d842ca213e0249c7cee25e3b2486b291"
+    },
+    "book": {
+      "texture": "book",
+      "size": [
+        146,
+        180
+      ],
+      "source_sha256": "f44b6700801a5bf4bb8258c872035c7cae11e59b17422c8e2f1f55b9cd785c29",
+      "sha256": "78b58856a48ef4c2513bef7bf3c30c9a096046187b684ed9885aa80d2b1f46e4"
+    },
+    "book_arrow_inactive": {
+      "texture": "book_arrow_inactive",
+      "size": [
+        18,
+        10
+      ],
+      "source_sha256": "201ba4ad32ae11259147baee7dc50e93a67914ea2ec5bf840eecc45cc380d3ef",
+      "sha256": "f5d67f434b01f234d5eb388a56e50b971426fdd90f84dea5d5f6aca335257aa0"
+    },
+    "book_arrow_active": {
+      "texture": "book_arrow_active",
+      "size": [
+        18,
+        10
+      ],
+      "source_sha256": "b4a13c74cc9ce12cec0e408a8e7f50ecce128b5451aad9ce0de84281d89b9b30",
+      "sha256": "556bea0cae73260edd8b18ec3e638061e7894e4b4d0a77eff017a1853acbaf19"
+    },
+    "CharacterBackground_Small": {
+      "texture": "characterbackground_small",
+      "size": [
+        118,
+        161
+      ],
+      "source_sha256": "1828394cba2bbd3f6a08ed66327eec9e08f0f6eb47fca9e5657cb56e4ade83b5",
+      "sha256": "1828394cba2bbd3f6a08ed66327eec9e08f0f6eb47fca9e5657cb56e4ade83b5"
+    },
+    "CharacterBackground": {
+      "texture": "characterbackground",
+      "size": [
+        177,
+        242
+      ],
+      "source_sha256": "4f82c0ad13637f167cc509bf0ccea4674a7816f090e1e5bd4ae41d700bb4bb95",
+      "sha256": "4f82c0ad13637f167cc509bf0ccea4674a7816f090e1e5bd4ae41d700bb4bb95"
+    },
+    "BrewingCoil": {
+      "texture": "brewingcoil",
+      "size": [
+        80,
+        80
+      ],
+      "source_sha256": "62076f20c007e3552b7c4241e23afe044678b5bdc84632de8a2f02b93a55ddf3",
+      "sha256": "62076f20c007e3552b7c4241e23afe044678b5bdc84632de8a2f02b93a55ddf3"
+    },
+    "BrewingPlateEmpty": {
+      "texture": "brewingplateempty",
+      "size": [
+        80,
+        24
+      ],
+      "source_sha256": "1946642d59d042fc395225a808609a7fba65243b678b58e73a5c7a36ecbe452e",
+      "sha256": "57625c1f5369d480c101b591cfc0ea3d6e9bd6e21bc93a33c6ca5f31da0a4e7f"
+    },
+    "BrewingPlateFull": {
+      "texture": "brewingplatefull",
+      "size": [
+        80,
+        24
+      ],
+      "source_sha256": "fab103013fd9ed052622ab5efc94975ac05d1894fa32e22d1a12a1ef8c5246bb",
+      "sha256": "585c3588a5e2c5ef6c88a51c93f6f3f747b235c281601574b04923fe3e5c1fac"
+    },
+    "BrewingBlazePowderIcon": {
+      "texture": "brewingblazepowdericon",
+      "size": [
+        16,
+        16
+      ],
+      "source_sha256": "079604fe3ff9f4e65ef926ce194bf9220bb31cc4830acf4b61576d6e6320c11b",
+      "sha256": "09bdb993e3127e6d3450a3816247a205d852cb388813948d14aa7d779802f30d"
+    },
+    "BrewingPlateEmptySmall": {
+      "texture": "brewingplateemptysmall",
+      "size": [
+        60,
+        18
+      ],
+      "source_sha256": "24fa1517a28d2d8fed83ec7479c7d92feb0d23784bb1046641b53cbdb4004faa",
+      "sha256": "38e54160c9b2e0bd344d4fb93be69629a3ee8237380d76369c2c57eaec5513ff"
+    },
+    "BrewingPlateFullSmall": {
+      "texture": "brewingplatefullsmall",
+      "size": [
+        60,
+        18
+      ],
+      "source_sha256": "82ab690972bb15fcce73b46250b89c3216a338cc80b0fd36bbae976ff9ad73e8",
+      "sha256": "ed7201a6af917f7d3eab8fe4a59e327e0e5947eaa4c23fa15a43d8d8cd90f187"
+    },
+    "BrewingCoilSmall": {
+      "texture": "brewingcoilsmall",
+      "size": [
+        44,
+        60
+      ],
+      "source_sha256": "bdbf57885ad447b82ecdcabcade1a7a254d7b37205ea346682297204e29ad2c1",
+      "sha256": "821598727de48a4ea4c046edc8b10f4a22e136f1e235f594a6fd57f5e201ef9e"
+    },
+    "Icon_Armor": {
+      "texture": "icon_armor",
+      "size": [
+        33,
+        33
+      ],
+      "source_sha256": "29a665b0b9471cf7aa76bde7cf41a97a740c4e8638c2afdef85aaef6ac508c55",
+      "sha256": "37fbe857bdaee962ab3d4eabded89fdfd6601e4dc6cb65a2ecc3bb86883e4c97"
+    },
+    "Armour_Slot_Shield": {
+      "texture": "armour_slot_shield",
+      "size": [
+        24,
+        24
+      ],
+      "source_sha256": "2a7d2d50f7ba8c6cc646f6737c15aaeb86bb3a34a756ecd6ca70e7ddf8be1a08",
+      "sha256": "eea770dccf517efcfb4a346ded18bc5250362a1efc6c6926923440182dd2188a"
+    },
+    "Carpet_Slot": {
+      "texture": "carpet_slot",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "ef9b234b46ca868164434bb9c104a4cbc6634cd0820e01526d90e177a8f3dc30",
+      "sha256": "177f7585d8ffee781d6a5eab83ed90a22f0a459425fb7138da5fbf0a1440f82b"
+    },
+    "IconHolderLocked_1x1border": {
+      "texture": "iconholderlocked_1x1border",
+      "size": [
+        20,
+        20
+      ],
+      "source_sha256": "97eb18ebade85c6b3e2300665e0af0a2d21a0c806c36af5165db730667a159bd",
+      "sha256": "b6ce77c727555a7226788656e31cf59f7601d415f838ea8514868844aa8ce52a"
+    },
+    "Padlock_Small": {
+      "texture": "padlock_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "c1c110c2f52f76a860a3081ad57e4e086782ef89076dd1798ece292a924c3e1d",
+      "sha256": "a2edd1d79391b10bfe45c5c6cf01e30ee1a9271c5278c9db281f0677d1e51b15"
+    },
+    "SmallOffTab": {
+      "texture": "smallofftab",
+      "size": [
+        108,
+        84
+      ],
+      "source_sha256": "cc45af22d4c01971856f11d2657f677d3116f868dde42170bdfc38814e84fd81",
+      "sha256": "cc45af22d4c01971856f11d2657f677d3116f868dde42170bdfc38814e84fd81"
+    },
+    "SmallOffTab_Disabled": {
+      "texture": "smallofftab_disabled",
+      "size": [
+        108,
+        84
+      ],
+      "source_sha256": "3f14eb4b9e77733dd3e32f330fa4ca5578eb5c16d8484b5ba3a2a746bdd83eb9",
+      "sha256": "3f14eb4b9e77733dd3e32f330fa4ca5578eb5c16d8484b5ba3a2a746bdd83eb9"
+    },
+    "VertTabOff": {
+      "texture": "verttaboff",
+      "size": [
+        81,
+        71
+      ],
+      "source_sha256": "b2121a0311cb673bf3f8b592c1bca952db0ea0496a8ce25c37812d2a28daa773",
+      "sha256": "b2121a0311cb673bf3f8b592c1bca952db0ea0496a8ce25c37812d2a28daa773"
+    },
+    "VertTabon": {
+      "texture": "verttabon",
+      "size": [
+        73,
+        71
+      ],
+      "source_sha256": "0e06387da410664b035505aad19a623afbfaace43f7fc64a1eede88fca452161",
+      "sha256": "0e06387da410664b035505aad19a623afbfaace43f7fc64a1eede88fca452161"
+    },
+    "SmallTabOnLeft": {
+      "texture": "smalltabonleft",
+      "size": [
+        108,
+        86
+      ],
+      "source_sha256": "8938fa67d89e2af302c8f6a77f7caf73f0c5908415db114742589365940cc0f5",
+      "sha256": "8938fa67d89e2af302c8f6a77f7caf73f0c5908415db114742589365940cc0f5"
+    },
+    "SmallTabOnRight": {
+      "texture": "smalltabonright",
+      "size": [
+        108,
+        86
+      ],
+      "source_sha256": "c4081d2ff6d02866628fb0ecef64f9236b07328eaab2b24cca1b7a8244d47e8d",
+      "sha256": "c4081d2ff6d02866628fb0ecef64f9236b07328eaab2b24cca1b7a8244d47e8d"
+    },
+    "SmallTabOnMid": {
+      "texture": "smalltabonmid",
+      "size": [
+        108,
+        86
+      ],
+      "source_sha256": "bed992ba5ec8178d128d749ab27c449f757339a85c24bd68b0a3dce256f752a3",
+      "sha256": "bed992ba5ec8178d128d749ab27c449f757339a85c24bd68b0a3dce256f752a3"
+    },
+    "LargeVertTabOff": {
+      "texture": "largeverttaboff",
+      "size": [
+        144,
+        125
+      ],
+      "source_sha256": "2b6eb58bf97a6053dad98cae7bf892988a947a889706183cd1b831e246dae013",
+      "sha256": "2b6eb58bf97a6053dad98cae7bf892988a947a889706183cd1b831e246dae013"
+    },
+    "LargeOffTab": {
+      "texture": "largeofftab",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "f6eb6f32a39f714bcec4ceccb0945b9b3cb702b1a85056f8d8b577264ef4b363",
+      "sha256": "f6eb6f32a39f714bcec4ceccb0945b9b3cb702b1a85056f8d8b577264ef4b363"
+    },
+    "LargeTabRight": {
+      "texture": "largetabright",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "8c27dc4c53fab4f1076daa906cfc1c210bbe8afc17807f14f8fc852fede50b12",
+      "sha256": "8c27dc4c53fab4f1076daa906cfc1c210bbe8afc17807f14f8fc852fede50b12"
+    },
+    "LargeTabLeft": {
+      "texture": "largetableft",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "f92c5d897530b1078ed9fda7437ef62bd4a529a813bbf388e4cf9c69e66df92e",
+      "sha256": "f92c5d897530b1078ed9fda7437ef62bd4a529a813bbf388e4cf9c69e66df92e"
+    },
+    "LargeTabMiddle": {
+      "texture": "largetabmiddle",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "fb78b39ff040a8e234f4791700a87a0d86e04525931a077137570af74beb9501",
+      "sha256": "fb78b39ff040a8e234f4791700a87a0d86e04525931a077137570af74beb9501"
+    },
+    "LargeVertTabOn": {
+      "texture": "largeverttabon",
+      "size": [
+        144,
+        125
+      ],
+      "source_sha256": "906246a355bad409c4af5f3e4d0c8d0ab81d48a358ba15303992317dcd81a467",
+      "sha256": "906246a355bad409c4af5f3e4d0c8d0ab81d48a358ba15303992317dcd81a467"
+    },
+    "LargeTabOffDisabled": {
+      "texture": "largetaboffdisabled",
+      "size": [
+        152,
+        144
+      ],
+      "source_sha256": "75832bd7fa8d399f27c3748428639d01abe5a9589973bcb11981f95759ea04f9",
+      "sha256": "75832bd7fa8d399f27c3748428639d01abe5a9589973bcb11981f95759ea04f9"
+    },
+    "Enchant_Slot": {
+      "texture": "enchant_slot",
+      "size": [
+        57,
+        57
+      ],
+      "source_sha256": "ea5f839afc8fa7ca46ea82b500dee0139c5f3dbf824c0bfbcfbaf0b2b151bbcc",
+      "sha256": "bf25b438956116796b334588a131277936fb07d290223e84e18c0c7c6c376f20"
+    },
+    "EnchantmentButtonActive": {
+      "texture": "enchantmentbuttonactive",
+      "size": [
+        360,
+        63
+      ],
+      "source_sha256": "aa9491affdbb24aa28c641216ccc304282857c0e601078b4c18b21c18feb888e",
+      "sha256": "4911f3ce2c1d0e6bda9d78ddfa03d19cb0513443d495afb4b5fc1393b63a94ed"
+    },
+    "EnchantmentButtonEmpty": {
+      "texture": "enchantmentbuttonempty",
+      "size": [
+        360,
+        63
+      ],
+      "source_sha256": "8caeb93e3209c10f8abab995bf147eed3916676446926eac01733faf95abd1e2",
+      "sha256": "182a158b5d690c7911a71d4fe4772451d4622fd280445adb743264fd3cfc4151"
+    },
+    "EnchantmentButtonSelected": {
+      "texture": "enchantmentbuttonselected",
+      "size": [
+        360,
+        63
+      ],
+      "source_sha256": "a1828e99da686f952dc89853db9a69a2759dc16dbdc5076e4cf784555cbd8a6f",
+      "sha256": "00f0e17ff1875cd810a9b9f5f86bbc727442d24a7e4de47e802102fe76d6e785"
+    },
+    "Enchant_Slot_Small": {
+      "texture": "enchant_slot_small",
+      "size": [
+        38,
+        38
+      ],
+      "source_sha256": "c00c30e9eb0029d605a79278f16f66b814b3f707438b6425dc2791ed9a30aa30",
+      "sha256": "fad346924a711e8754ae4eff736b228c7ba4849bb9b5f372de291db5ede19cdc"
+    },
+    "EnchantmentButtonActive_small": {
+      "texture": "enchantmentbuttonactive_small",
+      "size": [
+        210,
+        45
+      ],
+      "source_sha256": "6c4f56cfe8b56bd6bf6e9722d4d53d206e747775704e990fdeabe3ace464910f",
+      "sha256": "cdf5fd3e0e4e3e5801cc44ffade14c613394e5826dd7dcc8c4429c491424e185"
+    },
+    "EnchantmentButtonEmpty_small": {
+      "texture": "enchantmentbuttonempty_small",
+      "size": [
+        210,
+        45
+      ],
+      "source_sha256": "0793ab3e425356f984e15a51a96b9fe17c58ab9791a2d2f16922a383c4609ef9",
+      "sha256": "f37ad74b350fb27fd116325f423320bb47349fefa9274a13bb27d5cad99749e2"
+    },
+    "EnchantmentButtonSelected_small": {
+      "texture": "enchantmentbuttonselected_small",
+      "size": [
+        210,
+        45
+      ],
+      "source_sha256": "d9cd9ffbacc8f6d416ce0b39ab5178e4e597e259c2834dfb4cedeeb91abb56ee",
+      "sha256": "c231ff98524f92b7874a3a6dc4ef76949dbfae9b5132d5632d589a8533235d25"
+    },
+    "Level3_On": {
+      "texture": "level3_on",
+      "size": [
+        13,
+        11
+      ],
+      "source_sha256": "ebad8ef3dff0b9d3b32ba2cd2db3c334992917412b86d8e29365d6a5eb2b4fa3",
+      "sha256": "884f3c9e7fb57d44db5d04c7a4c3af9185dd0d15efb59c361b39aae7ff41589c"
+    },
+    "Level1_Off": {
+      "texture": "level1_off",
+      "size": [
+        13,
+        11
+      ],
+      "source_sha256": "601c680dbed4dbc0086e752c82b486f77c22374738a4f9cecf9903d073ced00c",
+      "sha256": "4fb62fbecf6c63dd4a11866a1620185f3e40a9814fc829270a623d512065a3c3"
+    },
+    "Level1_On": {
+      "texture": "level1_on",
+      "size": [
+        13,
+        11
+      ],
+      "source_sha256": "8ca83d30d4d32c8a4898f4aba6ec51fd8464c1c4c5c45b13e7793cdbc43e4243",
+      "sha256": "e94219c7c6ce1b2de8e7ad826a80c711148eb34874a050aecd35c3f6e3223922"
+    },
+    "Level2_Off": {
+      "texture": "level2_off",
+      "size": [
+        13,
+        11
+      ],
+      "source_sha256": "7f87d1b491d126a8d850eb8864b24fa1b6266cb30405f121028ef35bb337907a",
+      "sha256": "e504c5ac444d87fb38e0393cc19d85b3815c22efa7e48eac108e38cd50523eaa"
+    },
+    "Level2_On": {
+      "texture": "level2_on",
+      "size": [
+        13,
+        11
+      ],
+      "source_sha256": "12b56da09c9076e9598593a20afbc631687dc4efa2531b285265082463da8a1e",
+      "sha256": "4cfaad62a21e7dbcf505f5f81bb5ff59eef4719fd7bc2e551a30907ded571b40"
+    },
+    "Level3_Off": {
+      "texture": "level3_off",
+      "size": [
+        13,
+        11
+      ],
+      "source_sha256": "fbd1147f16194ba46a8d7812a70e4629b59ffb261f5a4d834973e84d2560f018",
+      "sha256": "d76dd609960ab8460cd380bb079ec4b86fad7d2323f516800b9a5026682981ca"
+    },
+    "LapisIcon": {
+      "texture": "lapisicon",
+      "size": [
+        12,
+        12
+      ],
+      "source_sha256": "47396deecccbecfaec4d51b284010bf4c65666c1e397ade445eaa04caac2c723",
+      "sha256": "05ff8e9850d03afd414ea322fa15e5e998e907ac3b4ba27b41853ae4214c21ec"
+    },
+    "icon_armour_Small": {
+      "texture": "icon_armour_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "2216acdde6cca5b5ba171c5bf7ee54eeb110f534974a392844f2b522bb1f73a6",
+      "sha256": "969f3bf40365b5af62fe26e9499bcdbe3a42dc322209b0b8cc879cac2500ffd8"
+    },
+    "icon_brewing_Small": {
+      "texture": "icon_brewing_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "a5c15bd0c7a4fadc6b940cc0b807ea7c09a663a54d6d902c08d172680dc4ab34",
+      "sha256": "ec3934b1c3b7b601e86b041716ad4aa2906c1425017e596f296dfc3bf0e4cd64"
+    },
+    "icon_decoration_Small": {
+      "texture": "icon_decoration_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "8429da4044909df18318ebc821e2db641be94d47156c11fa0310513708b37d47",
+      "sha256": "e1c45886f7166f7c24f3d32540f778fc556028376fd5b548b677e6329245d7e8"
+    },
+    "icon_food_Small": {
+      "texture": "icon_food_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "798d138a34cb04087b00fded55805bfc005b4ee5481c4c1ec1cafd4009d0c7b0",
+      "sha256": "0ba3d271538cf91f9d7e9df39c54839d71b5ab8636e54732733f5a56c0eb6bd2"
+    },
+    "icon_Materials_Small": {
+      "texture": "icon_materials_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "9b93e957c7040984ee41c68b11cdeec773a57b96767125c4e6fa4b6d36bc8584",
+      "sha256": "c965bd68bd8ef50c0e9059571f7eec78d1e0150ff43f9c520406cb74e2e39e68"
+    },
+    "icon_mechanisms_Small": {
+      "texture": "icon_mechanisms_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "d0887b83612c4ed7813860914aa2618ebb7e8266c9d9c412e43f75b62347961f",
+      "sha256": "cef6c2874bc8d15465edb0921cd1a80b95607138b4eb3af7c26e7bd14906489d"
+    },
+    "icon_misc_Small": {
+      "texture": "icon_misc_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "095d50e1fb19ac98f015853cb5bb90eac85628708e432e246b37c365fc300862",
+      "sha256": "d369bce17312429e6db6779ca2959e1f0aae44ce5e70fceace8943ccb8854609"
+    },
+    "icon_Redstone_and_Transport_Small": {
+      "texture": "icon_redstone_and_transport_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "d90a2f9631f21af7edde620068f2a79f6b9714f4f867a268c4ad41125ac254a8",
+      "sha256": "7959cc598c9402b54c1c6218b51bd925defef550ce371babfe968fa0386f149c"
+    },
+    "icon_structures_Small": {
+      "texture": "icon_structures_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "6821e559bd59d18c75e0d5849c1749341858121653e9b2cb7126c405ad98e70f",
+      "sha256": "ac2ce86b2280777f88effdfb613b46bb32d46eb25135a074ddd2875f127437b8"
+    },
+    "icon_tools_Small": {
+      "texture": "icon_tools_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "fb55055dfb5b0c446be0ca7dd86b61cedb19443ed700df28097a12188c649929",
+      "sha256": "b006e979ef51e11e8fcb07255aa889cb247e6f5170bbe57d9735c71647552ff5"
+    },
+    "icon_transport_Small": {
+      "texture": "icon_transport_small",
+      "size": [
+        48,
+        48
+      ],
+      "source_sha256": "87d7a1541adb7f44fc86d0586a2614bdb6ac837274866b500e39ba48fd14f61c",
+      "sha256": "df47396b258d0c0b22d98fbd5675a229b0f625d4d0dada2c866f0461967a5c8c"
+    },
+    "icon_transport": {
+      "texture": "icon_transport",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "777a98cba372e66fe70f86d8c59f3415547585bb144b209bcf9490b68579b4c5",
+      "sha256": "891a4c0943905685432be272efaeb6760c81bb6b411c5d275e038c40540b7a7f"
+    },
+    "icon_tools": {
+      "texture": "icon_tools",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "e651b256157af06c0787ab5195c4b50d4f552889e7256a261622292d939b9ac7",
+      "sha256": "5be9e0833f42fe2f70af7c09d112369928f326c3ae594d55494a28260d11b43c"
+    },
+    "icon_structures": {
+      "texture": "icon_structures",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "95a97bfa9ec264ef0729b96a50ed474af10ba10936912e71d344924e354fd4f4",
+      "sha256": "02ab98f2764f4577ce80bab3f38ed6d7b2565b3fb0b164a2b6de56a14714151a"
+    },
+    "icon_Redstone_and_Transport": {
+      "texture": "icon_redstone_and_transport",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "89439157162e2ccb996327b6c2988508fb6a9fd2de01e31421699ef1143c957b",
+      "sha256": "b4a50915065805250c65a654d6536b2a38453d0d9e0636c932c8c09b518da59f"
+    },
+    "icon_misc": {
+      "texture": "icon_misc",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "6998e78103589b1f752b6ca23b76fd7e11be4bcaa33c71f8ff1766cc3a89c638",
+      "sha256": "49a3b2832e9959508babf2227a0b9ec3864671b7bde5f1e5fc6adb2f9b34a7a5"
+    },
+    "icon_mechanisms": {
+      "texture": "icon_mechanisms",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "8c1d84abbecfd02d797eb7868c3860b775ba2c7e27c62eb7c756106817b42ede",
+      "sha256": "e9bf509b2a8f556054090aac1b101577f18d362ce8168b4beb3fb9f893c400a4"
+    },
+    "icon_Materials": {
+      "texture": "icon_materials",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "28182f375f9b516d9c559b9660e4348289c21bb494e4ff9bf8f35dc0e872115b",
+      "sha256": "1ea809bcea12565649c90144b3f853b959e32a422eca41c2f4f4144296ae0e0c"
+    },
+    "icon_food": {
+      "texture": "icon_food",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "97a7a3bee38c81d32930809d021103c7882ebcded6dbebd39a091ad424763467",
+      "sha256": "23127107376c4875a9cca03da242f9379adb29d1e56489c4409d86fa9e6a9380"
+    },
+    "icon_decoration": {
+      "texture": "icon_decoration",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "cedac9395205f31debbc5e13de6306a9466cde478aa971fb6a7394b9d3b1664a",
+      "sha256": "d030319147641165a3b8b663d39a037de46c06cd766bea25017d0dfde4c6919a"
+    },
+    "icon_brewing": {
+      "texture": "icon_brewing",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "ae1d67fc988bfb3018f955a6decfca24eb270fcf610261c1e8847d5dcdcc792f",
+      "sha256": "1bf5d2034080ffd58468ff6c64983a8a19e904d5bd1afee843d5db3bdfaf096d"
+    },
+    "icon_armour": {
+      "texture": "icon_armour",
+      "size": [
+        72,
+        72
+      ],
+      "source_sha256": "9ceb609732ea0329c5b09b3071a22e5c10418fc81ce590a87a8dbd4f5fbc4e94",
+      "sha256": "0093d56ad1ffc2e862579c6a64267695d94855b76eb3f54a37666f87806ff098"
+    },
+    "Icon_Shank": {
+      "texture": "icon_shank",
+      "size": [
+        33,
+        33
+      ],
+      "source_sha256": "2d44451ef8df079dc3bf26fcc07f60d47864305918b7c88a375310ad43cedb5a",
+      "sha256": "d593e8a06b74371f8fc5877075485e53eae44889144ab94cc14645f417ecbf14"
+    },
+    "Potion_Effect_Icon_Wither_Small": {
+      "texture": "potion_effect_icon_wither_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "50ce7ae99e11af31dedcfb1c8578cb016456033575b9cd36e8866d785bdc2ea5",
+      "sha256": "ba3b5ed8a1782f7c5669abdfa268d255fd688e65459328e7104d707fb1a91e6f"
+    },
+    "Potion_Effect_Icon_Absorption_Small": {
+      "texture": "potion_effect_icon_absorption_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "634b2e6a44bdff41ffc99fed3ef58758efe5a29de42a65f6e34b2ff159a8ff9e",
+      "sha256": "9237fcf118dd85bfc1d61f65e4aa1d2bca23d5899b001fa4f38bdbfcce7f26b6"
+    },
+    "Potion_Effect_Icon_Blindness_Small": {
+      "texture": "potion_effect_icon_blindness_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "28816e6c609b3413bb2c878d3127cfbe4c91c17e082669e1a85ede48d33a9cd2",
+      "sha256": "9ba0099dd46cf7339d4c5b9d25de6dffd925f57e1609cd881c38df7544565587"
+    },
+    "Potion_Effect_Icon_Fire_Resistance_Small": {
+      "texture": "potion_effect_icon_fire_resistance_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "ba199890337d76fa1aed8c2c05e5e3b4d1d3f5162c5eb1e4e53bd75653ad31c4",
+      "sha256": "188d26562d8809dd32008c5aabc25c698c42d4ed7c389ee3a83d55631fc4a9d2"
+    },
+    "Potion_Effect_Icon_Haste_Small": {
+      "texture": "potion_effect_icon_haste_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "b4d09a6ec9567ef1d8f869957f77a161360cf1ae88ef2e10e55b66c46d504c1c",
+      "sha256": "0392ca48aab6cff9b7d944a5414b03091fcc889b327c3b6effe4daec3d5a2e3b"
+    },
+    "Potion_Effect_Icon_Hunger_Small": {
+      "texture": "potion_effect_icon_hunger_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "b2c6c135af62c98766d45d12f2d2078ffb642d0eb986736f5e59db67d6f89e66",
+      "sha256": "cef1ffe56818cf368f4cedeaa7ea4382c3396ae9b4011fbe676b6c08e1876c88"
+    },
+    "Potion_Effect_Icon_Invisibility_Small": {
+      "texture": "potion_effect_icon_invisibility_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "5ac6d1da4649944be015d35aaab94d94a5e99019363aa23264c25964d599abcf",
+      "sha256": "7e5fb900e6ce6fdbf437e38faa0ab2c9b09f2c3a9382f78083203a3d0c86b7ad"
+    },
+    "Potion_Effect_Icon_Jump_Boost_Small": {
+      "texture": "potion_effect_icon_jump_boost_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "3f959501560b68729f24480a7c2394e44cf8386f553b415c67e437140f39a7ee",
+      "sha256": "5c6ad29e9d3ce7e587da73480dcae4d93c72f9bda462cdc42c72971e25c82fd5"
+    },
+    "Potion_Effect_Icon_Mining_Fatigue_Small": {
+      "texture": "potion_effect_icon_mining_fatigue_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "f29a6c097c23eeb0e68c757bb593f6e2d81be9e88fe9064d95f8e460d4b0fc72",
+      "sha256": "ff37ccc34b48cd8d6ad0fb4981576907cb6f247843e831f93e442f9df57207eb"
+    },
+    "Potion_Effect_Icon_Nausea_Small": {
+      "texture": "potion_effect_icon_nausea_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "326da7879ccba24f30c574aaf9790a8755652de49613f0630b67f183ad39427b",
+      "sha256": "fcaf8499e120c8683db9f8cc04cc793a6bac359918ee23d1a171409b082eeaf6"
+    },
+    "Potion_Effect_Icon_Night_Vision_Small": {
+      "texture": "potion_effect_icon_night_vision_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "f58a56502fd78ce5038ad8c2062e9a0994c30527630ce348d3c93a774cd52fb0",
+      "sha256": "24e7c22455f6dcb0ace3ba5c1418c988ced134f9511b58188fb0738dfabea895"
+    },
+    "Potion_Effect_Icon_Poison_Small": {
+      "texture": "potion_effect_icon_poison_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "f69bb6745e12734ac35cb17f491d7bf4d92a1b1f4e1c3f0bc47636d288352245",
+      "sha256": "61f2eb17c5ff87b394ecba5dc3c674996a3ffc20c2c307836138a19664b6936b"
+    },
+    "Potion_Effect_Icon_Regeneration_Small": {
+      "texture": "potion_effect_icon_regeneration_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "9af4461e8ac88ddbe126f4949943de4431526e56b61a9693b14126fb1ef6b184",
+      "sha256": "d506914e50288c242b893d77734a93f90c9d72e55cb95ff9f2b4be6f4c893e06"
+    },
+    "Potion_Effect_Icon_Resistance_Small": {
+      "texture": "potion_effect_icon_resistance_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "150b765d01f1fb715143c9740085f71da41666062bdabb02d4968d9b1b8c25ba",
+      "sha256": "fa2ee38b6690677f44b71f9734735e1232fb0971aa82c439f6c28408540786f0"
+    },
+    "Potion_Effect_Icon_Slowness_Small": {
+      "texture": "potion_effect_icon_slowness_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "2ef6b084ddedda96dee52f52f8e182498337fd5a2801be6750c3c9889db2a8cd",
+      "sha256": "af903870b671d7b5e3a194234d0d138abe128920d1d3503850693ccb6b4c9c8d"
+    },
+    "Potion_Effect_Icon_Speed_Small": {
+      "texture": "potion_effect_icon_speed_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "92b0cd7593b7ec28d696d23791322c3b68cf221f34744cc1880d40598d5aedcd",
+      "sha256": "4f8cd46e0d3261f685fcfe1629df3308585e6e3dbf378482d9266eae19d2a6a3"
+    },
+    "Potion_Effect_Icon_Strength_Small": {
+      "texture": "potion_effect_icon_strength_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "1640ebec2eb56646a2deb1d61ba00ccb94b189aca9e28be530bcd340e46f9bb7",
+      "sha256": "71224786a9247c1c5b6c6d556863c72555be350fa860395700a2ca697e624a0b"
+    },
+    "Potion_Effect_Icon_Water_Breathing_Small": {
+      "texture": "potion_effect_icon_water_breathing_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "290754c5f61063eddded750297d053bbd872ce05aeb5a7fd075df4cd58b25097",
+      "sha256": "621392752841b032ed425a05a6668f73eac943761ccf5fcf905b367cb09c823f"
+    },
+    "Potion_Effect_Icon_Weakness_Small": {
+      "texture": "potion_effect_icon_weakness_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "8c569519840aa60f959a4f875e5059022e9d187cc69fa7bd8dc129f3aa060d0d",
+      "sha256": "1bc7cc9ff7a47b29a9f95e3c91d47ab18a18a0adadcecd6f83e27661bf29164f"
+    },
+    "Potion_Effect_Icon_Levitation": {
+      "texture": "potion_effect_icon_levitation",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "0e49b5608bbf1ff7b2d899fc07527e8fc38d94950ebaea82013b7690ab9b76ed",
+      "sha256": "284f1733a105a9657ba4a7c1e11992248eeaa78e263512b6ea99b472338beb0d"
+    },
+    "Potion_Effect_Icon_Luck": {
+      "texture": "potion_effect_icon_luck",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "bace94f51a393b56a6c1572f506fc371d36a35e7491ad14101721e98da7f9052",
+      "sha256": "d13408405442b1325b52558dbd1db8a10fe461fd880a853705943638fbff0028"
+    },
+    "Potion_Effect_Icon_Badluck": {
+      "texture": "potion_effect_icon_badluck",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "d6131654b749c46f7481292262581446adb4f9202577e681b8957a8fb91f0de8",
+      "sha256": "b0941bcc82a8c1f8311605dc87e7a63dc7cd04e8299dfc9faa2756afceec28c9"
+    },
+    "Potion_Effect_Icon_Glowing": {
+      "texture": "potion_effect_icon_glowing",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "759b12db724f929bdf52627e1f40633e9bda32e4854a50f3e5ef505dbe62d120",
+      "sha256": "c3701de18746cd1d31fd1a32aea5c5de9527725cc9cef77b0888ab225110abe3"
+    },
+    "Potion_Effect_Icon_Health_Boost": {
+      "texture": "potion_effect_icon_health_boost",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "ca036e0d41901e84b10d8fa3163dc30ed23b587fe62c10093ca8df4be7277b0b",
+      "sha256": "6a5441777400bc78147390d5c0c1baa04c65202a492ef8d88a067bc7ff9d7496"
+    },
+    "Potion_Effect_Icon_Conduit_Small": {
+      "texture": "potion_effect_icon_conduit_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "0b35b148e8958e733a47f521f14ad91b5d09f57d912fd11fbc286f1630a86f22",
+      "sha256": "b6f446286646bdd77ee49b84d750191191e07435418ff67411c47aaaeea7fde0"
+    },
+    "Potion_Effect_Icon_Slow_Fall_Small": {
+      "texture": "potion_effect_icon_slow_fall_small",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "7b8d1ae26eef7da9b63ea1829c1b2f4dbc2ac48ee267eb91e358d489ea27f990",
+      "sha256": "c690568c43046deded2087db0f67cd95cc153cde63508d8b2026db01db02997d"
+    },
+    "Potion_Effect_Icon_bad_omen_effect": {
+      "texture": "potion_effect_icon_bad_omen_effect",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "573b35df9ea5ea480ba0859e2046aaf45654353418db1c29c3cf8ece5cc2c946",
+      "sha256": "240e2fda7a7310a8d22ee3032c608e6857ad854e84497946422e69c555184131"
+    },
+    "Potion_Effect_Icon_village_hero_effect": {
+      "texture": "potion_effect_icon_village_hero_effect",
+      "size": [
+        18,
+        18
+      ],
+      "source_sha256": "e2a931d0fdd3bacbae0f7fab703072ff007596189eccdadfca95ff4126568e48",
+      "sha256": "14b3672a6cfadf6bab166118b01f0e140e0e291c0e24331c39e5a3c1175293b7"
+    },
+    "experience_bar_empty": {
+      "texture": "experience_bar_empty",
+      "size": [
+        182,
+        5
+      ],
+      "source_sha256": "30fcf2446befdb89485bc8329f0f4ac5ea33bed219892a63f96149f4acc9ba88",
+      "sha256": "7546f1d88c3b33338a190bab66a00e7b731bbc4992928d3aaef96772395b6345"
+    },
+    "experience_bar_full_white": {
+      "texture": "experience_bar_full_white",
+      "size": [
+        182,
+        5
+      ],
+      "source_sha256": "003c159f8bc05c0c91156d10b9c834b23abcb8a5a332f57b9d38a65749361f99",
+      "sha256": "731b91576c852b6b7f16e4aeaa778fcf2ada958320e1556cfe07e8499966a7dc"
+    },
+    "experience_bar_full": {
+      "texture": "experience_bar_full",
+      "size": [
+        182,
+        5
+      ],
+      "source_sha256": "615b9633fa13e8117cc41c9cfbc8d2a1fbbcfbb377a07905a84d5865a44dc490",
+      "sha256": "fedb08d09871a72ea61181152fd77e956a9e95e4a92e66cc3811b69125265a2e"
+    },
+    "FJ_MainMenuButton_Norm": {
+      "texture": "fj_mainmenubutton_norm",
+      "size": [
+        600,
+        60
+      ],
+      "source_sha256": "16debc8f27b320f3fa9258e3588d3d815d63acad023cefe5b3a96fa51c243e8c",
+      "sha256": "16debc8f27b320f3fa9258e3588d3d815d63acad023cefe5b3a96fa51c243e8c"
+    },
+    "MainMenuButton_Outline": {
+      "texture": "mainmenubutton_outline",
+      "size": [
+        606,
+        66
+      ],
+      "source_sha256": "bac76030cb631ade704b7722c470324171994a1cfd47f2dcf16daa3ec9affe9c",
+      "sha256": "eef12eed2e9f51e7286247a093816cd836e84bb0fd79bc52b6ba6bd3c2a11fa5"
+    },
+    "MainMenuButton_Over": {
+      "texture": "mainmenubutton_over",
+      "size": [
+        600,
+        60
+      ],
+      "source_sha256": "687ebbd07793f2a15dc27bc0d51b0ce69accaf53f5eb5d9a4edf7e8b08598476",
+      "sha256": "259af5be13d74a1200dea249270d2afe1b37f8df82a5497571e3fa19ed3a914a"
+    },
+    "ListButton_Norm": {
+      "texture": "listbutton_norm",
+      "size": [
+        600,
+        90
+      ],
+      "source_sha256": "3587438f6791773191a6458f510c79c6742cf79f00af9f27a1ef1d1337f3a493",
+      "sha256": "3587438f6791773191a6458f510c79c6742cf79f00af9f27a1ef1d1337f3a493"
+    },
+    "ListButton_Outline": {
+      "texture": "listbutton_outline",
+      "size": [
+        606,
+        96
+      ],
+      "source_sha256": "e9e71409736fb044b8db4ee437e2f3803d1744ad9568e88ba488f6ca84c83620",
+      "sha256": "6dd99555f2901bd9eb27d41f45a5c8c6c1deb639638b357c082ac13bf4ef6eba"
+    },
+    "ListButton_Over": {
+      "texture": "listbutton_over",
+      "size": [
+        600,
+        90
+      ],
+      "source_sha256": "d95bbce5f9fdaad924d3463f2d0410602ef0e78478683d0005b198d6fa015d1d",
+      "sha256": "99e3907f4a9ac270b2554a3e15e5516b0fd1b931ff8ad64ce1a8f47a460c87c0"
+    },
+    "FJ_Slider_Background": {
+      "texture": "fj_slider_background",
+      "size": [
+        900,
+        48
+      ],
+      "source_sha256": "c4279d6736d007116cb25dec65e885b58ba141cad8216821740fabd9d50c51f7",
+      "sha256": "c4279d6736d007116cb25dec65e885b58ba141cad8216821740fabd9d50c51f7"
+    },
+    "Slider_Graphic": {
+      "texture": "slider_graphic",
+      "size": [
+        24,
+        48
+      ],
+      "source_sha256": "f9e24b2c935f6d809e11c567890ee3521c5d87a2a8fb502dc09b6371bd13da80",
+      "sha256": "e258169d94271a1fb2e7210d0ba5c4fc1b8a341d721d70bb48a4df2b99c9ce2d"
+    },
+    "SliderBackgroundHighlight": {
+      "texture": "sliderbackgroundhighlight",
+      "size": [
+        894,
+        42
+      ],
+      "source_sha256": "30230a657c8b18e19d1320a33781bce550a04561ac5dc3ddc3ac1e74df4a03b2",
+      "sha256": "33c95c4ad86b4da679adfc58804fee9e2199c00c536c92ded9229ea63d491cb1"
+    },
+    "FJ_Tickbox_Background": {
+      "texture": "fj_tickbox_background",
+      "size": [
+        36,
+        36
+      ],
+      "source_sha256": "9f184744cc917f8f7684c1d024e8f0cfd4d0fb838545c20a286855b3c4fd680e",
+      "sha256": "f67c702eccf97848e6cd192734321cccfeb7f091226660a4e015695d43927ef6"
+    },
+    "Tickbox_Over": {
+      "texture": "tickbox_over",
+      "size": [
+        36,
+        36
+      ],
+      "source_sha256": "baafe29ee320e7151a4fb392f43d3e7f2bef88c2023be0cb3a0fd3302405c21d",
+      "sha256": "64d2cf5950f49b24fa2f0e29b55ac9613c6fefa52ba4a74c53b7c80fd25afd9e"
+    },
+    "Tick": {
+      "texture": "tick",
+      "size": [
+        42,
+        36
+      ],
+      "source_sha256": "2eb219a43515800eeb9656935baaab25dd1897dec13ee8cbb5d03d84af2b358a",
+      "sha256": "452915b9c88a023d663ce6d90724893b4dce82775009b552134550e0ce81dc87"
+    },
+    "MapIcon0": {
+      "texture": "mapicon0",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "d74edab33b9d0ae047aec228044d4aad633147abca097926e085530dd39ef36f",
+      "sha256": "dc273dce3083dff7eb284684085176aef74a47fd2ad2f1ccffb5f6e31c696cd1"
+    },
+    "MapIcon1": {
+      "texture": "mapicon1",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "c625db9bd368d847ae70891941855218116e6a95fcec278f81ea39413143cbba",
+      "sha256": "50d5f2287fdcaaa1a6448798607c1352b57ced016b9cf00b46deb93222019084"
+    },
+    "MapIcon2": {
+      "texture": "mapicon2",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "204107ac8bf15ef50b15e125df1b875974cfdffc577ae5290284859dc5490ed5",
+      "sha256": "9a93f07b75ae72277945317a4a163307b9a29d27cd8f7e584dbda04164eb0605"
+    },
+    "MapIcon3": {
+      "texture": "mapicon3",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "5ff0f169fd3633fe3d0793ca58220b00a242d75c8f921206b651e777eebd3899",
+      "sha256": "84037b29ee133eb93c48449e720eba1ae170e7ebef0cd8cf988be0d1e9db3ee3"
+    },
+    "MapIcon4": {
+      "texture": "mapicon4",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "929ca87a3f42c68beca793132381350f6c6f7c3dd4dffe7f18ca706ebaed9ee5",
+      "sha256": "f7f9903953d07ccbe4185dc2af520e90075ff3b065ba11a1923fed359343197c"
+    },
+    "MapIcon5": {
+      "texture": "mapicon5",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "ac41bbe7e649a80c7863282f034fcca46217ea3c4a4d614a96797dc16588df87",
+      "sha256": "3e6cc8e0de5efd5e0f51e63feb70a95274f2a95553e892fe8321a9e463331018"
+    },
+    "MapIcon6": {
+      "texture": "mapicon6",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "2c8e1a7f3fe1625a69f8ee3ee71d7ed11ca5b3d406d8dbdad02268b8383d3f10",
+      "sha256": "8be0e3c7cfe1d61e0877b30cf95b0cb8c3f4f98b4c888cdfa836904eeb07a792"
+    },
+    "MapIcon7": {
+      "texture": "mapicon7",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "1816895d892c2f1ee4f0f0eebd3d0d995cb6c967bca1bf12a61e2c12b54f7b1d",
+      "sha256": "669f4a34910096135a9a34cb9f6af6b2592345f0d2e462ab2e3eff03c2c156fa"
+    },
+    "MapIcon8": {
+      "texture": "mapicon8",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "d5ff4a473cf30c9af79c47115a2c73b07bd85e905c8ecc16df9d978d1acdc179",
+      "sha256": "868bb1dd020d0922ba4c9c99a6e4646fde8575d584989c63941bf8355e4627f1"
+    },
+    "MapIcon9": {
+      "texture": "mapicon9",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "ed0b07945881592798f4c54b3bcc6d68fbadb36be2a39bd561159d5d0888b785",
+      "sha256": "2585db454705e615f3d8a993387a14755cc34187263174f6a7127601d56493ed"
+    },
+    "MapIcon10": {
+      "texture": "mapicon10",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "7c682101d55717c95741daddd54988247e48290101d4cc8813c79adc29158ea3",
+      "sha256": "20c8e50a525ad0f8cfd8d4ba9c5706946e8d67de7b165e277823b3a667747c5f"
+    },
+    "MapIcon11": {
+      "texture": "mapicon11",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "283dd5c4c1f7b25f7d380edc1e6a5555590e9e051bf9479ce9acc800c2c150af",
+      "sha256": "d8322db77122ca325e7807f922fd82a9085314600306ec6abe9ff0a8d7d91e5e"
+    },
+    "MapIcon12": {
+      "texture": "mapicon12",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "28470aaa0adf7ef3c640e84c1a33f19cfacee1282caea5fe91d728ff51b1216c",
+      "sha256": "da9fd9021fcafa7e25ac30cbd649a0786fded777ba96efcd17584a63a3e0fc39"
+    },
+    "MapIcon13": {
+      "texture": "mapicon13",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "89154a9546895e79fd93cc6412ec4fba6ffe57a227e507e4cc6b89728edb9fb9",
+      "sha256": "0e29887c72d0eda57d8eb760417e74c83f64803a7fada463fc6e9853ac3c7cc8"
+    },
+    "MapIcon14": {
+      "texture": "mapicon14",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "299d49c4287252cf5c408b9b3e37f4a32f115960c92698a0159857bd2c250e37",
+      "sha256": "f1cf9b432a42276baf7ba66e3a692cb5daa480a5bb88261dfa76de77756cf1b3"
+    },
+    "MapIcon15": {
+      "texture": "mapicon15",
+      "size": [
+        60,
+        60
+      ],
+      "source_sha256": "1ae9471f615c41aca73e660609d7d66e980e868ff7a94f66f1c3f268669316b5",
+      "sha256": "788844c7d8babe8d187e2c5b4fa3d70204afb4546dba5f6bb62563a8cf2f8196"
+    }
+  },
+  "panels": {
+    "FJ_Panel9Grid": {
+      "grid": [
+        53.0,
+        106.0,
+        53.0,
+        106.0
+      ],
+      "pieces": [
+        {
+          "texture": "fj_panel9grid_0",
+          "rect": [
+            0.0,
+            0.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_sha256": "f2907aac39e0741720a662ab0ff8a53d664e580672ee6fc26114201154f166ba",
+          "sha256": "76fe4c456d27d534085f5b4f4b3715581bc386dea96b3718331204caea7222e6"
+        },
+        {
+          "texture": "fj_panel9grid_1",
+          "rect": [
+            53.0,
+            0.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            53.0,
+            0.0
+          ],
+          "source_sha256": "ae041bbb54de3a50fc674b74e9f5354e46d1b45924698f3d618abcad5b0bd27c",
+          "sha256": "7607a4d79b8852c9e5d2726ec79339779ed67bbbd1ecd104769e9a4f13a280ff"
+        },
+        {
+          "texture": "fj_panel9grid_2",
+          "rect": [
+            106.0,
+            0.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            106.0,
+            0.0
+          ],
+          "source_sha256": "9e2d8de2af7248234ab4bca995d6a944e9630bfacddc828f8fdffbe63ab0249d",
+          "sha256": "00b713c0f789e66943f1b387a77340789df3fe49c17de47d1160b05afeed2160"
+        },
+        {
+          "texture": "fj_panel9grid_3",
+          "rect": [
+            0.0,
+            53.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            53.0
+          ],
+          "source_sha256": "3d34664a1067f8c93cd1d2b52e2d260d2d9725cd72ef74af0d315fb365ae8392",
+          "sha256": "583aa5378714c80be9a8a66b6ba2cabf2f37960f953f1569539c6aed04a994de"
+        },
+        {
+          "texture": "fj_panel9grid_4",
+          "rect": [
+            53.0,
+            53.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            53.0,
+            53.0
+          ],
+          "source_sha256": "fcbe8f60c2ac9517b7e76d383553aed3eedff17e04bd9bb1d187cc77d5109da6",
+          "sha256": "33f02ebb9fabd497ab2a817213bd86292e8cb3c82d57f4f91f173161a390efba"
+        },
+        {
+          "texture": "fj_panel9grid_5",
+          "rect": [
+            106.0,
+            53.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            106.0,
+            53.0
+          ],
+          "source_sha256": "9b42b8a9a118738bfd00c4c1b7c02eb087e8547435b59a44f5820bfeac09bce3",
+          "sha256": "0495a80fd85fea7942405bdfcd042224d8c14483a8cbffa17988914e196d59d6"
+        },
+        {
+          "texture": "fj_panel9grid_6",
+          "rect": [
+            0.0,
+            106.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            106.0
+          ],
+          "source_sha256": "218a7900a80d918973de9f8783ed710d18c3131ed9b3ae75ac73ab48c742493d",
+          "sha256": "9920b155dbb300b70c762465a147abb95817048aa368edfba5d600879536dbe3"
+        },
+        {
+          "texture": "fj_panel9grid_7",
+          "rect": [
+            53.0,
+            106.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            53.0,
+            106.0
+          ],
+          "source_sha256": "5ab9b16b639bb31f2901fd9c1bcbdbe6ced8bfbd15d92d70249f1b466afdb440",
+          "sha256": "5d58099d251a929ed4e4b193439e89cc509877ad63d6278af7826735fb8beb40"
+        },
+        {
+          "texture": "fj_panel9grid_8",
+          "rect": [
+            106.0,
+            106.0,
+            53.0,
+            53.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            106.0,
+            106.0
+          ],
+          "source_sha256": "e0c269219293287097481f3e0ace7afafcd8d296b5977d49f5576a3245ae7937",
+          "sha256": "def6c46321b78d55874fee01e50b36e87763ea290fd6068755ef445318461b95"
+        }
+      ]
+    },
+    "FJ_SquareRecessedPanel": {
+      "grid": [
+        22.0,
+        44.0,
+        22.0,
+        44.0
+      ],
+      "pieces": [
+        {
+          "texture": "fj_squarerecessedpanel_0",
+          "rect": [
+            0.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_sha256": "9915bfbe82edadc4f769d0132d8da8400a20ac71baa96c47c590c000ce73967d",
+          "sha256": "47293f9fdb2d3f8d97ee3c8cdc1ce353c01475ea137ae991691a5a36366bf944"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_1",
+          "rect": [
+            22.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            0.0
+          ],
+          "source_sha256": "3e86a765c771a92a3a3f4d0a9c38a7a11d64a3aa2dd64ab57d87f7072ff1381f",
+          "sha256": "de5c0ce8ced81b219bb47bdeeb4813a475d5e52d55518a5b115a5fdafbb69145"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_2",
+          "rect": [
+            44.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            0.0
+          ],
+          "source_sha256": "3854f2d352f22189ae34a54387611712d70be805c3874ecfd7e2ddc6a18868b3",
+          "sha256": "18ea8e13d3ffa694f1f86c395a79acfe9e89118754805269effdb35bde2118e5"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_3",
+          "rect": [
+            0.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            22.0
+          ],
+          "source_sha256": "8ad22a464956af91eb6f0de3180e35030f1ad90bcc54867621af97b5a2080694",
+          "sha256": "20fcd597749ae9770673beff1c5bd2f62e573f330621d5cc7e72af29fec51230"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_4",
+          "rect": [
+            22.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            22.0
+          ],
+          "source_sha256": "b6d668cbe9e1aa006f6a114eaa59eb764c49407f124a8eafab2ae55a6568d2a2",
+          "sha256": "8cb06401985a80622290202d365325cfc06ff49b63f22be1673fc6755fc6b979"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_5",
+          "rect": [
+            44.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            22.0
+          ],
+          "source_sha256": "efea1d8e7b474a7d298dabb7b19db851ddb1fe04d35eba85026cf38853645c85",
+          "sha256": "bd2d790f40ebeae6cc0b94a5ebaf12ee72fb5cb947cd9fd8d56077a996113579"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_6",
+          "rect": [
+            0.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            44.0
+          ],
+          "source_sha256": "269c1343a7fc8e06c559b9cd88c32efad05bf9b1767f545a9d2395243d45d850",
+          "sha256": "a93d50e64af8de60d3fa8d9ea0356f18eb0bc7171bf348efc93954230e0b9875"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_7",
+          "rect": [
+            22.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            44.0
+          ],
+          "source_sha256": "11aa8952f1ec734a2542b9938896bad296301b6af5f02b012200ee56a1c05083",
+          "sha256": "78bde1baba75229ad19ad93c62d0bd266411973d014feef8e7985e1a4e2433e1"
+        },
+        {
+          "texture": "fj_squarerecessedpanel_8",
+          "rect": [
+            44.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            44.0
+          ],
+          "source_sha256": "82ef98283afc3ff6e8f5a6ea95e85502e6aeac27934da05ae0525bf21c8b12ef",
+          "sha256": "095001b900adf8541ceaba37df49c7e58e4b2127b3a629b0ec8bf0be9d26acdb"
+        }
+      ]
+    },
+    "FJ_SquareRecessedPanelEnchant": {
+      "grid": [
+        22.0,
+        44.0,
+        22.0,
+        44.0
+      ],
+      "pieces": [
+        {
+          "texture": "fj_squarerecessedpanelenchant_0",
+          "rect": [
+            0.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_sha256": "9915bfbe82edadc4f769d0132d8da8400a20ac71baa96c47c590c000ce73967d",
+          "sha256": "47293f9fdb2d3f8d97ee3c8cdc1ce353c01475ea137ae991691a5a36366bf944"
+        },
+        {
+          "texture": "fj_squarerecessedpanelenchant_1",
+          "rect": [
+            22.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            0.0
+          ],
+          "source_sha256": "3e86a765c771a92a3a3f4d0a9c38a7a11d64a3aa2dd64ab57d87f7072ff1381f",
+          "sha256": "de5c0ce8ced81b219bb47bdeeb4813a475d5e52d55518a5b115a5fdafbb69145"
+        },
+        {
+          "texture": "fj_squarerecessedpanelenchant_2",
+          "rect": [
+            44.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            0.0
+          ],
+          "source_sha256": "3854f2d352f22189ae34a54387611712d70be805c3874ecfd7e2ddc6a18868b3",
+          "sha256": "18ea8e13d3ffa694f1f86c395a79acfe9e89118754805269effdb35bde2118e5"
+        },
+        {
+          "texture": "fj_squarerecessedpanelenchant_3",
+          "rect": [
+            0.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            22.0
+          ],
+          "source_sha256": "8ad22a464956af91eb6f0de3180e35030f1ad90bcc54867621af97b5a2080694",
+          "sha256": "20fcd597749ae9770673beff1c5bd2f62e573f330621d5cc7e72af29fec51230"
+        },
+        {
+          "texture": "fj_squarerecessedpanelenchant_4",
+          "rect": [
+            22.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            22.0
+          ],
+          "source_sha256": "b6d668cbe9e1aa006f6a114eaa59eb764c49407f124a8eafab2ae55a6568d2a2",
+          "sha256": "8cb06401985a80622290202d365325cfc06ff49b63f22be1673fc6755fc6b979"
+        },
+        {
+          "texture": "fj_squarerecessedpanelenchant_5",
+          "rect": [
+            44.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            22.0
+          ],
+          "source_sha256": "efea1d8e7b474a7d298dabb7b19db851ddb1fe04d35eba85026cf38853645c85",
+          "sha256": "bd2d790f40ebeae6cc0b94a5ebaf12ee72fb5cb947cd9fd8d56077a996113579"
+        },
+        {
+          "texture": "fj_squarerecessedpanelenchant_6",
+          "rect": [
+            0.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            44.0
+          ],
+          "source_sha256": "269c1343a7fc8e06c559b9cd88c32efad05bf9b1767f545a9d2395243d45d850",
+          "sha256": "a93d50e64af8de60d3fa8d9ea0356f18eb0bc7171bf348efc93954230e0b9875"
+        },
+        {
+          "texture": "fj_squarerecessedpanelenchant_7",
+          "rect": [
+            22.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            44.0
+          ],
+          "source_sha256": "11aa8952f1ec734a2542b9938896bad296301b6af5f02b012200ee56a1c05083",
+          "sha256": "78bde1baba75229ad19ad93c62d0bd266411973d014feef8e7985e1a4e2433e1"
+        },
+        {
+          "texture": "fj_squarerecessedpanelenchant_8",
+          "rect": [
+            44.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            44.0
+          ],
+          "source_sha256": "82ef98283afc3ff6e8f5a6ea95e85502e6aeac27934da05ae0525bf21c8b12ef",
+          "sha256": "095001b900adf8541ceaba37df49c7e58e4b2127b3a629b0ec8bf0be9d26acdb"
+        }
+      ]
+    },
+    "FJ_PointerTextPanel": {
+      "grid": [
+        12.0,
+        24.0,
+        12.0,
+        24.0
+      ],
+      "pieces": [
+        {
+          "texture": "fj_pointertextpanel_0",
+          "rect": [
+            0.0,
+            0.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_sha256": "eabeee370e065e77bab658246d9d507b36b445cbf82d7bced58158f03fb836f5",
+          "sha256": "d5a7659509758b5aa870d9b4331573d7971c075f64e953801a36275f984fb639"
+        },
+        {
+          "texture": "fj_pointertextpanel_1",
+          "rect": [
+            12.0,
+            0.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            12.0,
+            0.0
+          ],
+          "source_sha256": "ee79977ab8edd22288c4f3a1320fe41b64ea1f12ea0f9476aee0da4fc94f0254",
+          "sha256": "04f3ad80e8277dc3ca00fd67ed6f53831d44fbd5a44a817d72a2f54e8532d189"
+        },
+        {
+          "texture": "fj_pointertextpanel_2",
+          "rect": [
+            24.0,
+            0.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            0.0
+          ],
+          "source_sha256": "1a94506caa3c3819de3591950a8395d3519e11628b174ff91386ba761c84f42e",
+          "sha256": "b2bfedd997b502d7fee0bd8aa25f3610f82d23822b195676edb2d76ba7eb827a"
+        },
+        {
+          "texture": "fj_pointertextpanel_3",
+          "rect": [
+            0.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            12.0
+          ],
+          "source_sha256": "4e3d901074ee43f653455f3a2d63f36b320fbe45dbf41b394e67580fb9be229c",
+          "sha256": "28949bf9beec716e47040336439c7ecf3059208be069d45e9b15e720c99f0137"
+        },
+        {
+          "texture": "fj_pointertextpanel_4",
+          "rect": [
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            12.0,
+            12.0
+          ],
+          "source_sha256": "08904bd0210ba795d5937a621ac2747d965348566008e2575cf4cd7a22d606cc",
+          "sha256": "6a3924ab8799083118fd62581f9fc11671d674fde016880836b7d749f91d7401"
+        },
+        {
+          "texture": "fj_pointertextpanel_5",
+          "rect": [
+            24.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            12.0
+          ],
+          "source_sha256": "3e5d18f543666f8e4a4d75cec41d3f576b2203875ed4f2be02a8bb3b6af87d65",
+          "sha256": "a1f929d0a9c6976e48ae2c3ee40e99609b3f7a5154cea381d032c62da5019bf9"
+        },
+        {
+          "texture": "fj_pointertextpanel_6",
+          "rect": [
+            0.0,
+            24.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            24.0
+          ],
+          "source_sha256": "a01e31eaa1fc1b015cf437176405a4e8140db233e111308838e6713bed8f604a",
+          "sha256": "0914f0a5cf0695a4c9ac9b9e7495ad0746664ffcf0e179e2b534850376cbb819"
+        },
+        {
+          "texture": "fj_pointertextpanel_7",
+          "rect": [
+            12.0,
+            24.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            12.0,
+            24.0
+          ],
+          "source_sha256": "c49a7afa1bd5867de8ff93cdd56b813d2568f9a2bc2220d482aa927107e3bb84",
+          "sha256": "6828ca38474e5bf2f70d24666f1a573f31ddd55f2fd6a5c7707d5a8463934c49"
+        },
+        {
+          "texture": "fj_pointertextpanel_8",
+          "rect": [
+            24.0,
+            24.0,
+            12.0,
+            12.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            24.0
+          ],
+          "source_sha256": "155cb1352150f11a0b617d9a9611ac1122101f90c5859490044558de49a43a97",
+          "sha256": "7935c3c57997e860fc0dac2ac21d251a55e6be86c306e958073a937014a48340"
+        }
+      ]
+    },
+    "FJ_panel9Grid_16": {
+      "grid": [
+        24.0,
+        48.0,
+        24.0,
+        48.0
+      ],
+      "pieces": [
+        {
+          "texture": "fj_panel9grid_16_0",
+          "rect": [
+            0.0,
+            0.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_sha256": "ce73ce0f90a934949aecbd6035b79c2e9a79c381c38c08491e52b4c1b39db0f2",
+          "sha256": "e05aa8993079bac9d81644380293e8a3d61c00c81c8bb562e0b33061299b1ddb"
+        },
+        {
+          "texture": "fj_panel9grid_16_1",
+          "rect": [
+            24.0,
+            0.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            0.0
+          ],
+          "source_sha256": "f7fd685dec54ca6b3f2ea437505ded48d460cbba416ebae35df5e974af20ef9f",
+          "sha256": "4d1b01446951d86cd7f5c9b53944eecdabcd5ea1afb5e4b7e48c11ea06830755"
+        },
+        {
+          "texture": "fj_panel9grid_16_2",
+          "rect": [
+            48.0,
+            0.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            48.0,
+            0.0
+          ],
+          "source_sha256": "b62baf81029756049a706a375d3c5958f98fa72a5a3d67eeb9977d3da79ad0c6",
+          "sha256": "aee14b16d4b6a7f762c2efcca969b37ca3c0030b238a3bf1f039c828074f3d25"
+        },
+        {
+          "texture": "fj_panel9grid_16_3",
+          "rect": [
+            0.0,
+            24.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            24.0
+          ],
+          "source_sha256": "b5648f6b9004a0f4b4bf2019941af029c4aa6b2abe2731117504bccd4b48bfe9",
+          "sha256": "cc9dc677332ef2fd07427c46a5cac62c9460198a10eb973b4918b66dfa198a70"
+        },
+        {
+          "texture": "fj_panel9grid_16_4",
+          "rect": [
+            24.0,
+            24.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            24.0
+          ],
+          "source_sha256": "2831aac25606af4cb9d7f41d069f558fd7389c1aded5c3468bedb9c722b7146b",
+          "sha256": "04e2c100b7e5583b2db199d7c7f32ea7c2754cd36aede7c15da872204d78edc1"
+        },
+        {
+          "texture": "fj_panel9grid_16_5",
+          "rect": [
+            48.0,
+            24.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            48.0,
+            24.0
+          ],
+          "source_sha256": "f3cf93a91ad90d73b6301ec1c0053f63f549e8cfa42cf41cb49d6de36dccd570",
+          "sha256": "1904b6f6109f7b844683a5c503d319077336857f73cad1ed19fe4c7764ec4981"
+        },
+        {
+          "texture": "fj_panel9grid_16_6",
+          "rect": [
+            0.0,
+            48.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            48.0
+          ],
+          "source_sha256": "680412b3b22f7bcaf1041412514a2aecec34f2a24d46750321e3e61b948ac903",
+          "sha256": "fafe5932681939d4711f41fda50e78abad067b43e59c677bd943a9b7dbb03c8b"
+        },
+        {
+          "texture": "fj_panel9grid_16_7",
+          "rect": [
+            24.0,
+            48.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            48.0
+          ],
+          "source_sha256": "be6ae529c5f7c2525f8fd9befc8f499b9095a8916276b02972f98537674499fb",
+          "sha256": "8b0ea2b348babda8859385285a1022d795166b56d5c7180bd2c85ece3fa9896e"
+        },
+        {
+          "texture": "fj_panel9grid_16_8",
+          "rect": [
+            48.0,
+            48.0,
+            24.0,
+            24.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            48.0,
+            48.0
+          ],
+          "source_sha256": "c3f63caadc12f7677908afc87ed16305262f6be184af99fca1962b1f9d721e75",
+          "sha256": "4948051a0ea4b528c9887498b09ee4d5fc21d4f023787e8c3f46b03830735d0a"
+        }
+      ]
+    }
+  },
+  "scenes": {
+    "BrewingStandMenu": {
+      "sha256": "03d3d233fe4c594387ff3f58032fc9155536fc4c0c42e8a8622ff3096e44b167",
+      "root": [
+        639.0,
+        141.0
+      ],
+      "controls": {
+        "BrewingStandText": {
+          "matrix": [
+            2.510009765625,
+            0.0,
+            0.0,
+            1.0,
+            40.0,
+            27.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "inventoryLabel": {
+          "matrix": [
+            2.510009765625,
+            0.0,
+            0.0,
+            1.0,
+            40.0,
+            335.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "BrewingArrow": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            368.0,
+            68.0
+          ],
+          "symbol": "fourj.ProgressBars.FJ_BrewingArrow"
+        },
+        "BrewingBubbles": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            223.0,
+            66.0
+          ],
+          "symbol": "fourj.ProgressBars.FJ_BrewingBubbles"
+        },
+        "Ingredient": {
+          "matrix": [
+            1.6199951171875,
+            0.0,
+            0.0,
+            1.6199951171875,
+            282.0,
+            73.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Bottle1": {
+          "matrix": [
+            1.6199951171875,
+            0.0,
+            0.0,
+            1.6199951171875,
+            179.0,
+            220.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Bottle2": {
+          "matrix": [
+            1.6199951171875,
+            0.0,
+            0.0,
+            1.6199951171875,
+            282.0,
+            252.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Bottle3": {
+          "matrix": [
+            1.6199951171875,
+            0.0,
+            0.0,
+            1.6199951171875,
+            386.0,
+            220.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.339981079101562,
+            0.0,
+            0.0,
+            3.779937744140625,
+            40.0,
+            374.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.339935302734375,
+            0.0,
+            0.0,
+            1.259979248046875,
+            40.0,
+            582.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "BrewingPlateBar": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            210.0,
+            192.0
+          ],
+          "symbol": "fourj.ProgressBars.FJ_BrewingPlate"
+        },
+        "BrewingPlate": {
+          "matrix": [
+            1.6199951171875,
+            0.0,
+            0.0,
+            1.6199951171875,
+            53.0,
+            72.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            41.79999923706055,
+            44.0
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            4.0125732421875,
+            0.0,
+            0.0,
+            4.24530029296875,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "symbol": "BrewingStand",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            179.0,
+            70.0
+          ]
+        },
+        {
+          "symbol": "IconHolder_1x1border",
+          "matrix": [
+            4.04998779296875,
+            0.0,
+            0.0,
+            4.04998779296875,
+            53.0,
+            72.0
+          ]
+        },
+        {
+          "symbol": "BrewingBlazePowderIcon",
+          "matrix": [
+            4.56256103515625,
+            0.0,
+            0.0,
+            4.56256103515625,
+            57.0,
+            75.0
+          ]
+        },
+        {
+          "symbol": "BrewingCoil",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            130.0,
+            132.0
+          ]
+        }
+      ]
+    },
+    "CartographyMenu": {
+      "sha256": "7154f5431c4014ae673a8c3aa8c0e3b04c8ab0bb189720f6d453325dc6a66248",
+      "root": [
+        648.0,
+        158.0
+      ],
+      "controls": {
+        "Map_Map": {
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            212.0,
+            185.0
+          ],
+          "symbol": "local:2"
+        },
+        "Map_Zoom": {
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            212.0,
+            185.0
+          ],
+          "symbol": "local:3"
+        },
+        "TitleText": {
+          "matrix": [
+            2.5012054443359375,
+            0.0,
+            0.0,
+            1.0,
+            27.0,
+            22.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "inventoryLabel": {
+          "matrix": [
+            2.501007080078125,
+            0.0,
+            0.0,
+            1.0,
+            27.0,
+            426.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "Ingredient": {
+          "matrix": [
+            1.399993896484375,
+            0.0,
+            0.0,
+            1.399993896484375,
+            27.0,
+            185.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.340057373046875,
+            0.0,
+            0.0,
+            3.779937744140625,
+            27.0,
+            465.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.34002685546875,
+            0.0,
+            0.0,
+            1.259979248046875,
+            27.0,
+            672.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Ingredient2": {
+          "matrix": [
+            1.399993896484375,
+            0.0,
+            0.0,
+            1.399993896484375,
+            27.0,
+            313.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Result": {
+          "matrix": [
+            1.600006103515625,
+            0.0,
+            0.0,
+            1.600006103515625,
+            495.8500061035156,
+            244.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "MapTextInput": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            30.0,
+            116.0
+          ],
+          "symbol": "fourj.TextInput.FJ_TextInput_Normal"
+        },
+        "Map_Locked": {
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            212.0,
+            185.0
+          ],
+          "symbol": "local:4"
+        },
+        "Map_Copy": {
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            212.0,
+            185.0
+          ],
+          "symbol": "local:5"
+        },
+        "Map_Empty": {
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            212.0,
+            185.0
+          ],
+          "symbol": "local:6"
+        },
+        "MapStatusText": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            196.0,
+            383.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "MapNameText": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            27.0,
+            75.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            40.0,
+            40.0
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            3.9119110107421875,
+            0.0,
+            0.0,
+            4.8048858642578125,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "symbol": "Arrow_Small_Off",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            107.0,
+            260.0
+          ]
+        },
+        {
+          "symbol": "AnvilPlus",
+          "matrix": [
+            7.79998779296875,
+            0.0,
+            0.0,
+            7.79998779296875,
+            42.0,
+            265.0
+          ]
+        },
+        {
+          "symbol": "Arrow_Small_Off",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            415.0,
+            261.0
+          ]
+        }
+      ]
+    },
+    "EnchantingMenu": {
+      "sha256": "a004261f02553cedc65ea0f27772492ed2b1088f8dfaca20c1dece38cf4f4daf",
+      "root": [
+        637.0,
+        218.0
+      ],
+      "controls": {
+        "inventoryLabel": {
+          "matrix": [
+            2.46246337890625,
+            0.0,
+            0.0,
+            1.0,
+            39.0,
+            301.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "enchantLabel": {
+          "matrix": [
+            2.46246337890625,
+            0.0,
+            0.0,
+            1.0,
+            39.0,
+            21.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "ingredient": {
+          "matrix": [
+            1.2602996826171875,
+            0.0,
+            0.0,
+            1.259521484375,
+            57.0,
+            196.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.339935302734375,
+            0.0,
+            0.0,
+            3.77996826171875,
+            40.0,
+            343.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.339981079101562,
+            0.0,
+            0.0,
+            1.2599945068359375,
+            40.0,
+            552.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Button1": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            241.0,
+            70.0
+          ],
+          "symbol": "fourj.Buttons.FJ_EnchantingButton_Normal"
+        },
+        "Button2": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            241.0,
+            133.0
+          ],
+          "symbol": "fourj.Buttons.FJ_EnchantingButton_Normal"
+        },
+        "Button3": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            241.0,
+            196.0
+          ],
+          "symbol": "fourj.Buttons.FJ_EnchantingButton_Normal"
+        },
+        "iggy_EnchantmentBook": {
+          "matrix": [
+            2.815338134765625,
+            0.0,
+            0.0,
+            1.9828338623046875,
+            39.0,
+            70.0
+          ],
+          "symbol": "local:2"
+        },
+        "lapis": {
+          "matrix": [
+            1.2602996826171875,
+            0.0,
+            0.0,
+            1.259521484375,
+            141.14999389648438,
+            196.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            46.0,
+            43.0
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            4.0628509521484375,
+            0.0,
+            0.0,
+            4.1007080078125,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "symbol": "FJ_SquareRecessedPanelEnchant",
+          "matrix": [
+            5.575439453125,
+            0.0,
+            0.0,
+            2.984619140625,
+            237.0,
+            66.0
+          ]
+        },
+        {
+          "symbol": "IconHolder_1x1border",
+          "matrix": [
+            3.14996337890625,
+            0.0,
+            0.0,
+            3.14996337890625,
+            57.0,
+            196.0
+          ]
+        },
+        {
+          "symbol": "IconHolder_1x1border",
+          "matrix": [
+            3.14996337890625,
+            0.0,
+            0.0,
+            3.14996337890625,
+            141.0,
+            196.0
+          ]
+        },
+        {
+          "symbol": "LapisIcon",
+          "matrix": [
+            3.600006103515625,
+            0.0,
+            0.0,
+            3.6000213623046875,
+            150.89999389648438,
+            205.89999389648438
+          ]
+        }
+      ]
+    },
+    "BeaconMenu": {
+      "sha256": "3c69aacbcb8b04a6869712c242d08577ece4e4f44a90083292b285f52959aa30",
+      "root": [
+        580.0,
+        173.0
+      ],
+      "controls": {
+        "ActivatorList": {
+          "matrix": [
+            5.03997802734375,
+            0.0,
+            0.0,
+            1.2601165771484375,
+            96.0,
+            343.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.340057373046875,
+            0.0,
+            0.0,
+            3.779937744140625,
+            96.0,
+            423.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.34002685546875,
+            0.0,
+            0.0,
+            1.259979248046875,
+            96.0,
+            630.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "ActivatorSlot": {
+          "matrix": [
+            1.2599945068359375,
+            0.0,
+            0.0,
+            1.2601165771484375,
+            411.0,
+            343.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "ConfirmButton": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            597.0,
+            340.0
+          ],
+          "symbol": "fourj.Buttons.FJ_BeaconEffectButton_Normal"
+        },
+        "PrimaryPowerLabel": {
+          "matrix": [
+            1.55712890625,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            35.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "SecondaryPowerLabel": {
+          "matrix": [
+            1.55712890625,
+            0.0,
+            0.0,
+            1.0,
+            383.0,
+            35.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "Primary_Slot_01": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            163.0,
+            90.0
+          ],
+          "symbol": "fourj.Buttons.FJ_BeaconEffectButton_Normal"
+        },
+        "Primary_Slot_03": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            163.0,
+            160.0
+          ],
+          "symbol": "fourj.Buttons.FJ_BeaconEffectButton_Normal"
+        },
+        "Primary_Slot_05": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            200.0,
+            230.0
+          ],
+          "symbol": "fourj.Buttons.FJ_BeaconEffectButton_Normal"
+        },
+        "Primary_Slot_02": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            239.0,
+            90.0
+          ],
+          "symbol": "fourj.Buttons.FJ_BeaconEffectButton_Normal"
+        },
+        "Primary_Slot_04": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            239.0,
+            160.0
+          ],
+          "symbol": "fourj.Buttons.FJ_BeaconEffectButton_Normal"
+        },
+        "Secondary_Slot_01": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            485.0,
+            160.0
+          ],
+          "symbol": "fourj.Buttons.FJ_BeaconEffectButton_Normal"
+        },
+        "Secondary_Slot_02": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            561.0,
+            160.0
+          ],
+          "symbol": "fourj.Buttons.FJ_BeaconEffectButton_Normal"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            127.0,
+            454.0
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            4.7798919677734375,
+            0.0,
+            0.0,
+            4.616485595703125,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "symbol": "FJ_SquareRecessedPanel",
+          "matrix": [
+            5.34893798828125,
+            0.0,
+            0.0,
+            4.530181884765625,
+            24.0,
+            26.0
+          ]
+        },
+        {
+          "symbol": "FJ_SquareRecessedPanel",
+          "matrix": [
+            5.34893798828125,
+            0.0,
+            0.0,
+            4.530181884765625,
+            382.95001220703125,
+            26.0
+          ]
+        },
+        {
+          "symbol": "Beacon_1",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            88.0,
+            96.0
+          ]
+        },
+        {
+          "symbol": "Beacon_2",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            88.0,
+            166.0
+          ]
+        },
+        {
+          "symbol": "Beacon_3",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            88.0,
+            236.0
+          ]
+        },
+        {
+          "symbol": "Beacon_4",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            526.0,
+            96.0
+          ]
+        }
+      ]
+    },
+    "TradingMenu": {
+      "sha256": "fde4ea3eaf7b4177f6fe42dcfeced12cb11845bd7442866b5dba5fab6b0538c1",
+      "root": [
+        531.0,
+        240.0
+      ],
+      "controls": {
+        "TradingLevelLabel": {
+          "matrix": [
+            0.8211212158203125,
+            0.0,
+            0.0,
+            1.0,
+            37.0,
+            253.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black_Centered"
+        },
+        "VillagerText": {
+          "matrix": [
+            2.2411956787109375,
+            0.0,
+            0.0,
+            1.0,
+            15.0,
+            27.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black_Centered"
+        },
+        "Inventory": {
+          "matrix": [
+            8.639999389648438,
+            0.0,
+            0.0,
+            2.879974365234375,
+            380.0,
+            291.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "InventoryLabel": {
+          "matrix": [
+            2.055694580078125,
+            0.0,
+            0.0,
+            1.0,
+            363.0,
+            254.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "HotBar": {
+          "matrix": [
+            8.639999389648438,
+            0.0,
+            0.0,
+            0.9600067138671875,
+            380.0,
+            459.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "TradingBar": {
+          "matrix": [
+            16.00006103515625,
+            0.0,
+            0.0,
+            1.600006103515625,
+            26.0,
+            127.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "ScrollRight": {
+          "matrix": [
+            2.0,
+            0.0,
+            0.0,
+            2.0,
+            782.0,
+            171.0
+          ],
+          "symbol": "fourj.FJ_ScrollArrowH"
+        },
+        "ScrollLeft": {
+          "matrix": [
+            2.0,
+            0.0,
+            0.0,
+            2.0,
+            76.0,
+            171.0
+          ],
+          "symbol": "fourj.FJ_ScrollArrowH"
+        },
+        "OfferDescription": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            241.0,
+            140.0
+          ],
+          "symbol": "fourj.FJ_HtmlTextPanel"
+        },
+        "TradingSelector": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            93.0,
+            120.0
+          ],
+          "symbol": "local:2"
+        },
+        "RightArrow1": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            127.0,
+            388.0
+          ],
+          "symbol": "local:3"
+        },
+        "Request1": {
+          "matrix": [
+            1.5999603271484375,
+            0.0,
+            0.0,
+            1.5999603271484375,
+            37.0,
+            339.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Request2": {
+          "matrix": [
+            1.5999603271484375,
+            0.0,
+            0.0,
+            1.5999603271484375,
+            37.0,
+            429.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Result": {
+          "matrix": [
+            1.5999603271484375,
+            0.0,
+            0.0,
+            1.5999603271484375,
+            244.0,
+            384.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "ExperienceBar": {
+          "matrix": [
+            1.33331298828125,
+            0.0,
+            0.0,
+            1.33331298828125,
+            65.0,
+            85.0
+          ],
+          "symbol": "fourj.ProgressBars.FJ_ExperienceBar"
+        },
+        "RedCross": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            147.0,
+            390.0
+          ],
+          "symbol": "local:4"
+        },
+        "PadLock": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            157.0,
+            400.0
+          ],
+          "symbol": "local:5"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            5.4906005859375,
+            0.0,
+            0.0,
+            3.4276123046875,
+            -9.0,
+            0.0
+          ]
+        },
+        {
+          "symbol": "FJ_SquareRecessedPanel",
+          "matrix": [
+            4.90875244140625,
+            0.0,
+            0.0,
+            4.227508544921875,
+            26.0,
+            238.0
+          ]
+        },
+        {
+          "symbol": "FJ_SquareRecessedPanel",
+          "matrix": [
+            7.0906219482421875,
+            0.0,
+            0.0,
+            4.227508544921875,
+            362.0,
+            237.0
+          ]
+        }
+      ],
+      "objects": {
+        "TradingSelector": [
+          {
+            "symbol": "Craft_Highlight_L_Small",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              93.0,
+              120.0
+            ]
+          }
+        ],
+        "RightArrow1": [
+          {
+            "symbol": "Arrow_Off",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              127.0,
+              388.0
+            ]
+          }
+        ],
+        "RedCross": [
+          {
+            "symbol": "AnvilCross",
+            "matrix": [
+              4.4666748046875,
+              0.0,
+              0.0,
+              4.4666748046875,
+              147.0,
+              390.0
+            ]
+          }
+        ],
+        "PadLock": [
+          {
+            "symbol": "Padlock_Small",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              157.0,
+              400.0
+            ]
+          }
+        ]
+      },
+      "experience": [
+        {
+          "name": "ProgressBarBackground",
+          "symbol": "experience_bar_empty",
+          "matrix": [
+            3.9998779306188226,
+            0.0,
+            0.0,
+            3.9998779306188226,
+            65.0,
+            85.0
+          ]
+        },
+        {
+          "name": "PrevBarFiller",
+          "symbol": "experience_bar_full_white",
+          "matrix": [
+            3.99993896484375,
+            0.0,
+            0.0,
+            3.99993896484375,
+            65.0,
+            85.0
+          ]
+        },
+        {
+          "name": "ExpBarFiller",
+          "symbol": "experience_bar_full",
+          "matrix": [
+            3.99993896484375,
+            0.0,
+            0.0,
+            3.99993896484375,
+            65.0,
+            85.0
+          ]
+        }
+      ],
+      "hud_sha256": "5bd610720f8702d6ce21c61db6882b8cc1c862dcbc8a888d0e9d5f8740296487",
+      "hud_graphics_sha256": "4d85cda36e7cb84079209df3e2d03c5d56c7b0a553282e3e753c0e33b143843a"
+    },
+    "TutorialPopup": {
+      "root": [
+        0,
+        0
+      ],
+      "controls": {},
+      "static": []
+    },
+    "AnvilMenu": {
+      "root": [
+        648.0,
+        218.0
+      ],
+      "controls": {
+        "AnvilText": {
+          "matrix": [
+            1.66290283203125,
+            0.0,
+            0.0,
+            1.0,
+            217.0,
+            22.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "inventoryLabel": {
+          "matrix": [
+            2.46923828125,
+            0.0,
+            0.0,
+            1.0,
+            27.0,
+            306.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "Ingredient": {
+          "matrix": [
+            1.760009765625,
+            0.0,
+            0.0,
+            1.760009765625,
+            40.0,
+            166.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.340057373046875,
+            0.0,
+            0.0,
+            3.779937744140625,
+            27.0,
+            345.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.34002685546875,
+            0.0,
+            0.0,
+            1.259979248046875,
+            27.0,
+            552.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Ingredient2": {
+          "matrix": [
+            1.760009765625,
+            0.0,
+            0.0,
+            1.760009765625,
+            247.0,
+            166.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Result": {
+          "matrix": [
+            1.760009765625,
+            0.0,
+            0.0,
+            1.760009765625,
+            496.0,
+            166.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "costLabelGreen": {
+          "matrix": [
+            1.885589599609375,
+            0.0,
+            0.0,
+            1.0,
+            145.0,
+            262.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Green"
+        },
+        "AnvilTextInput": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            217.0,
+            78.0
+          ],
+          "symbol": "fourj.TextInput.FJ_TextInput_Normal"
+        },
+        "costLabelRed": {
+          "matrix": [
+            1.885589599609375,
+            0.0,
+            0.0,
+            1.0,
+            145.0,
+            262.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Red"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            40.0,
+            40.0
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            3.9119110107421875,
+            0.0,
+            0.0,
+            4.0501708984375,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "symbol": "Arrow_Off",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            361.0,
+            174.0
+          ]
+        },
+        {
+          "symbol": "AnvilHammer",
+          "matrix": [
+            9.0,
+            0.0,
+            0.0,
+            9.0,
+            45.0,
+            22.0
+          ]
+        },
+        {
+          "symbol": "AnvilPlus",
+          "matrix": [
+            11.599990844726562,
+            0.0,
+            0.0,
+            11.599990844726562,
+            159.0,
+            181.0
+          ]
+        }
+      ],
+      "objects": {
+        "AnvilCross": [
+          {
+            "symbol": "AnvilCross",
+            "matrix": [
+              4.4666748046875,
+              0.0,
+              0.0,
+              4.4666748046875,
+              390.0,
+              176.0
+            ]
+          }
+        ]
+      },
+      "sha256": "e7bafdbc98d71ba7b5335502d324502f8fa023e4b409522f4faf05530763497b"
+    },
+    "FurnaceMenu": {
+      "root": [
+        639.0,
+        217.0
+      ],
+      "controls": {
+        "inventoryLabel": {
+          "matrix": [
+            2.4614715576171875,
+            0.0,
+            0.0,
+            1.0,
+            37.0,
+            285.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "Fuel_Label": {
+          "matrix": [
+            0.7100830078125,
+            0.0,
+            0.0,
+            1.0,
+            58.0,
+            228.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "Ingredient_Label": {
+          "matrix": [
+            0.7100830078125,
+            0.0,
+            0.0,
+            1.0,
+            58.0,
+            87.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "Furnace_text": {
+          "matrix": [
+            2.4614715576171875,
+            0.0,
+            0.0,
+            1.0,
+            37.0,
+            28.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "FurnaceFire": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            222.0,
+            135.0
+          ],
+          "symbol": "fourj.ProgressBars.FJ_FurnaceFlame"
+        },
+        "FurnaceArrow": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            325.0,
+            138.0
+          ],
+          "symbol": "fourj.ProgressBars.FJ_FurnaceArrow"
+        },
+        "Ingredient": {
+          "matrix": [
+            1.2599945068359375,
+            0.0,
+            0.0,
+            1.2599945068359375,
+            229.0,
+            72.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.33990478515625,
+            0.0,
+            0.0,
+            3.77996826171875,
+            37.0,
+            330.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.33990478515625,
+            0.0,
+            0.0,
+            1.2599945068359375,
+            37.0,
+            538.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Fuel": {
+          "matrix": [
+            1.2599945068359375,
+            0.0,
+            0.0,
+            1.2599945068359375,
+            229.0,
+            213.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Result": {
+          "matrix": [
+            1.91998291015625,
+            0.0,
+            0.0,
+            1.91998291015625,
+            462.0,
+            129.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            56.0,
+            60.0
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            4.0378265380859375,
+            0.0,
+            0.0,
+            4.0565185546875,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "objects": {},
+      "sha256": "b04f6af2e7d08d06b6397cb451e40f8c1caa289a8378660008051a51240f4372"
+    },
+    "InGameHostOptions": {
+      "root": [
+        0,
+        0
+      ],
+      "controls": {
+        "BackgroundPanel": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            590.0,
+            215.0
+          ],
+          "symbol": "local:1"
+        },
+        "HostOptionsList": {
+          "matrix": [
+            14.000137329101562,
+            0.0,
+            0.0,
+            12.199966430664062,
+            610.0,
+            235.0
+          ],
+          "symbol": "fourj.listClasses.FJ_List_MultiList"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_panel9Grid_16",
+          "matrix": [
+            10.277969360351562,
+            0.0,
+            0.0,
+            9.027923583984375,
+            590.0,
+            215.0
+          ]
+        }
+      ],
+      "objects": {},
+      "sha256": "28994411b41419b87b42460a1571b8930916aeeda8555f1354c5ee1d8d580802"
+    },
+    "InGameInfoMenu": {
+      "root": [
+        0,
+        0
+      ],
+      "controls": {
+        "InGameInfoMenuPanel": {
+          "matrix": [
+            10.41668701171875,
+            0.0,
+            0.0,
+            7.91650390625,
+            585.0,
+            252.0
+          ],
+          "symbol": "fourj.Panels.FJ_panel9Grid_16Fade"
+        },
+        "GameOptions": {
+          "matrix": [
+            1.25,
+            0.0,
+            0.0,
+            1.0,
+            585.0,
+            180.0
+          ],
+          "symbol": "fourj.Buttons.FJ_MenuButton_Normal"
+        },
+        "GamePlayers": {
+          "matrix": [
+            13.800094604492188,
+            0.0,
+            0.0,
+            9.7999267578125,
+            615.0,
+            310.0
+          ],
+          "symbol": "fourj.listClasses.FJ_List_ListButtonPlayerList"
+        },
+        "Title": {
+          "matrix": [
+            3.043609619140625,
+            0.0,
+            0.0,
+            1.0,
+            615.0,
+            262.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_panel9Grid_16",
+          "matrix": [
+            10.41668701171875,
+            0.0,
+            0.0,
+            7.91650390625,
+            585.0,
+            252.0
+          ]
+        }
+      ],
+      "objects": {},
+      "sha256": "8726ab384cc2f6edd2fbf4a45f34201bf0fd6d0d44eec398df7d39e3f657267a"
+    },
+    "InGamePlayerOptions": {
+      "root": [
+        0,
+        0
+      ],
+      "controls": {
+        "BackgroundPanel": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            590.0,
+            220.0
+          ],
+          "symbol": "local:1"
+        },
+        "Gamertag": {
+          "matrix": [
+            2.8362884521484375,
+            0.0,
+            0.0,
+            1.0,
+            665.0,
+            240.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "PlayerIcon": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            610.0,
+            233.0
+          ],
+          "symbol": "local:2"
+        },
+        "PlayerOptionsList": {
+          "matrix": [
+            14.000137329101562,
+            0.0,
+            0.0,
+            11.09979248046875,
+            610.0,
+            295.0
+          ],
+          "symbol": "fourj.listClasses.FJ_List_MultiList"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_panel9Grid_16",
+          "matrix": [
+            10.277969360351562,
+            0.0,
+            0.0,
+            9.027923583984375,
+            590.0,
+            220.0
+          ]
+        }
+      ],
+      "objects": {
+        "PlayerIcon0": [
+          {
+            "symbol": "MapIcon0",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon1": [
+          {
+            "symbol": "MapIcon1",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon2": [
+          {
+            "symbol": "MapIcon2",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon3": [
+          {
+            "symbol": "MapIcon3",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon4": [
+          {
+            "symbol": "MapIcon4",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon5": [
+          {
+            "symbol": "MapIcon5",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon6": [
+          {
+            "symbol": "MapIcon6",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon7": [
+          {
+            "symbol": "MapIcon7",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon8": [
+          {
+            "symbol": "MapIcon8",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon9": [
+          {
+            "symbol": "MapIcon9",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon10": [
+          {
+            "symbol": "MapIcon10",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon11": [
+          {
+            "symbol": "MapIcon11",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon12": [
+          {
+            "symbol": "MapIcon12",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon13": [
+          {
+            "symbol": "MapIcon13",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon14": [
+          {
+            "symbol": "MapIcon14",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ],
+        "PlayerIcon15": [
+          {
+            "symbol": "MapIcon15",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              610.0,
+              233.0
+            ]
+          }
+        ]
+      },
+      "sha256": "1763b3955d5711e90896e6c61dad7da7fe1c6cd8d28537fab89f29de2d61eb25"
+    },
+    "InGameTeleportMenu": {
+      "root": [
+        0,
+        0
+      ],
+      "controls": {
+        "InGameTeleportMenuPanel": {
+          "matrix": [
+            10.416152954101562,
+            0.0,
+            0.0,
+            7.916534423828125,
+            585.0,
+            252.0
+          ],
+          "symbol": "fourj.Panels.FJ_panel9Grid_16Fade"
+        },
+        "GamePlayers": {
+          "matrix": [
+            13.800094604492188,
+            0.0,
+            0.0,
+            9.800048828125,
+            615.0,
+            310.0
+          ],
+          "symbol": "fourj.listClasses.FJ_List_ListButtonPlayerList"
+        },
+        "Title": {
+          "matrix": [
+            3.043609619140625,
+            0.0,
+            0.0,
+            1.0,
+            615.0,
+            262.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        }
+      },
+      "static": [
+        {
+          "symbol": "FJ_panel9Grid_16",
+          "matrix": [
+            10.416152954101562,
+            0.0,
+            0.0,
+            7.916534423828125,
+            585.0,
+            252.0
+          ]
+        }
+      ],
+      "objects": {},
+      "sha256": "d909253c4392888fde97a90aa1a40a66482353bb1a993efdcf73c79c6d15577d"
+    }
+  },
+  "widgets": {
+    "FJ_BrewingArrow": [
+      {
+        "label": "",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              99,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "BrewingArrow_Off"
+          },
+          {
+            "name": "ProgressBarFiller",
+            "header": [
+              5,
+              2,
+              2,
+              73,
+              0,
+              55
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "local:73"
+          }
+        ]
+      }
+    ],
+    "FJ_BrewingBubbles": [
+      {
+        "label": "",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              101,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "BrewingBubbles_Off"
+          },
+          {
+            "name": "ProgressBarFiller",
+            "header": [
+              5,
+              2,
+              2,
+              75,
+              0,
+              56
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "local:75"
+          }
+        ]
+      }
+    ],
+    "FJ_BrewingPlate": [
+      {
+        "label": "",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              31,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "BrewingPlateEmpty"
+          },
+          {
+            "name": "ProgressBarFiller",
+            "header": [
+              5,
+              2,
+              2,
+              7,
+              0,
+              4
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "local:7"
+          }
+        ]
+      }
+    ],
+    "FJ_EnchantingButton_Normal": [
+      {
+        "label": "Inactive",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              87,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "EnchantmentButtonEmpty"
+          },
+          {
+            "name": "IconPlaceholder",
+            "header": [
+              5,
+              2,
+              2,
+              57,
+              0,
+              47
+            ],
+            "matrix": [
+              7.425262451171875,
+              0.0,
+              0.0,
+              1.20001220703125,
+              59.0,
+              8.0
+            ],
+            "symbol": "local:57"
+          },
+          {
+            "name": "FJ_TextContainer",
+            "header": [
+              5,
+              2,
+              4,
+              62,
+              0,
+              48
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              280.0,
+              26.0
+            ],
+            "symbol": "local:62"
+          },
+          {
+            "name": "EnchantmentLevel",
+            "header": [
+              5,
+              2,
+              6,
+              59,
+              0,
+              49
+            ],
+            "matrix": [
+              4.0001220703125,
+              0.0,
+              0.0,
+              3.9998779296875,
+              5.0,
+              9.5
+            ],
+            "symbol": "local:59"
+          }
+        ]
+      },
+      {
+        "label": "Active",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              2,
+              4,
+              1,
+              87,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "EnchantmentButtonEmpty"
+          },
+          {
+            "name": "FJ_TextContainer",
+            "header": [
+              2,
+              2,
+              4,
+              62,
+              0,
+              48
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "local:62"
+          },
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              88,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "EnchantmentButtonActive"
+          },
+          {
+            "name": "FJ_TextContainer",
+            "header": [
+              5,
+              2,
+              4,
+              63,
+              0,
+              50
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              280.0,
+              26.0
+            ],
+            "symbol": "local:63"
+          }
+        ]
+      },
+      {
+        "label": "Selected",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              2,
+              4,
+              1,
+              88,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "EnchantmentButtonActive"
+          },
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              89,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "EnchantmentButtonSelected"
+          }
+        ]
+      }
+    ],
+    "FJ_BeaconEffectButton_Normal": [
+      {
+        "label": "Button_Disabled",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              49,
+              0,
+              65535
+            ],
+            "matrix": [
+              3.29998779296875,
+              0.0,
+              0.0,
+              3.29998779296875,
+              0.0,
+              0.0
+            ],
+            "symbol": "IconHolderInactive_1x1border"
+          },
+          {
+            "name": "BeaconEffectTick",
+            "header": [
+              5,
+              2,
+              2,
+              13,
+              0,
+              8
+            ],
+            "matrix": [
+              2.0,
+              0.0,
+              0.0,
+              2.0,
+              5.0,
+              5.0
+            ],
+            "symbol": "local:13"
+          },
+          {
+            "name": "Icon",
+            "header": [
+              5,
+              2,
+              4,
+              4,
+              0,
+              9
+            ],
+            "matrix": [
+              3.0,
+              0.0,
+              0.0,
+              3.0,
+              6.0,
+              6.0
+            ],
+            "symbol": "local:4"
+          }
+        ]
+      },
+      {
+        "label": "Button_Enabled_Unselected",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              2,
+              4,
+              1,
+              49,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "IconHolderInactive_1x1border"
+          },
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              50,
+              0,
+              65535
+            ],
+            "matrix": [
+              3.29998779296875,
+              0.0,
+              0.0,
+              3.29998779296875,
+              0.0,
+              0.0
+            ],
+            "symbol": "IconHolder_1x1border_Off"
+          }
+        ]
+      },
+      {
+        "label": "Button_Enabled_Selected",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              2,
+              4,
+              1,
+              50,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "IconHolder_1x1border_Off"
+          },
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              51,
+              0,
+              65535
+            ],
+            "matrix": [
+              3.29986572265625,
+              0.0,
+              0.0,
+              3.29986572265625,
+              0.0,
+              0.0
+            ],
+            "symbol": "IconHolderHighlight_1x1border"
+          }
+        ]
+      },
+      {
+        "label": "Button_Pressed",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              2,
+              4,
+              1,
+              51,
+              0,
+              65535
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            "symbol": "IconHolderHighlight_1x1border"
+          },
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              1,
+              52,
+              0,
+              65535
+            ],
+            "matrix": [
+              3.29998779296875,
+              0.0,
+              0.0,
+              3.29998779296875,
+              0.0,
+              0.0
+            ],
+            "symbol": "IconHolder_1x1border"
+          }
+        ]
+      }
+    ],
+    "FJ_TextInput_Normal": [
+      {
+        "label": "",
+        "children": [
+          {
+            "name": "",
+            "header": [
+              5,
+              2,
+              1,
+              31,
+              0,
+              65535
+            ],
+            "matrix": [
+              0.792205810546875,
+              0.0,
+              0.0,
+              1.111114501953125,
+              -3.0,
+              -3.0
+            ],
+            "symbol": "local:31"
+          },
+          {
+            "name": "Outline",
+            "header": [
+              5,
+              2,
+              3,
+              32,
+              0,
+              20
+            ],
+            "matrix": [
+              0.792205810546875,
+              0.0,
+              0.0,
+              1.111114501953125,
+              -3.0,
+              -3.0
+            ],
+            "symbol": "local:32"
+          },
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              5,
+              59,
+              0,
+              65535
+            ],
+            "matrix": [
+              0.7895050048828125,
+              0.0,
+              0.0,
+              1.125,
+              0.0,
+              0.0
+            ],
+            "symbol": "TextInputBGBorder"
+          },
+          {
+            "name": "",
+            "header": [
+              5,
+              4,
+              6,
+              60,
+              0,
+              65535
+            ],
+            "matrix": [
+              0.786651611328125,
+              0.0,
+              0.0,
+              1.142852783203125,
+              3.0,
+              3.0
+            ],
+            "symbol": "TextInputBG"
+          },
+          {
+            "name": "Caret",
+            "header": [
+              5,
+              2,
+              7,
+              27,
+              0,
+              21
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              3.0,
+              40.0
+            ],
+            "symbol": "local:27"
+          },
+          {
+            "name": "FJ_TextContainer",
+            "header": [
+              5,
+              2,
+              10,
+              33,
+              0,
+              22
+            ],
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              3.0,
+              3.0
+            ],
+            "symbol": "local:33"
+          }
+        ]
+      }
+    ]
+  },
+  "label": {
+    "bounds": [
+      -2.0,
+      224.6999969482422,
+      -2.0,
+      35.0
+    ],
+    "font_size": 30.0,
+    "color": 858993663,
+    "alignment": 0,
+    "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"30\" color=\"#333333\" letterSpacing=\"0.00\" kerning=\"1\">FJ_LabelBlack</font></p>",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      2.0,
+      2.0
+    ]
+  },
+  "centered_label": {
+    "bounds": [
+      -2.0,
+      367.0,
+      -2.0,
+      35.0
+    ],
+    "font_size": 30.0,
+    "color": 858993663,
+    "alignment": 2,
+    "markup": "<p align=\"center\"><font face=\"Mojangles7\" size=\"30\" color=\"#333333\" letterSpacing=\"0.00\" kerning=\"1\">FJ_LabelBlackCentered</font></p>",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      2.0,
+      2.0
+    ]
+  },
+  "labels_sha256": "7ae77ad6df090546a50be3cb8b61f500c361d4e93a7c20f59eedab9ee7309351",
+  "typography": {
+    "FJ_Label_Enchanting": {
+      "bounds": [
+        13.100000381469727,
+        89.0999984741211,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 2162893055,
+      "alignment": 1,
+      "markup": "999",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        -13.100000381469727,
+        2.0
+      ]
+    },
+    "FJ_Label_Enchanting_Inactive": {
+      "bounds": [
+        13.100000381469727,
+        89.0999984741211,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 3323006975,
+      "alignment": 1,
+      "markup": "999",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        -13.100000381469727,
+        2.0
+      ]
+    },
+    "FJ_Label_Green": {
+      "bounds": [
+        -2.0,
+        235.0500030517578,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 2162893055,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"30\" color=\"#80eb20\" letterSpacing=\"0.00\" kerning=\"1\">FJ_LabelGreen</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label_Red": {
+      "bounds": [
+        -2.0,
+        235.0500030517578,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 4284506367,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"30\" color=\"#ff6060\" letterSpacing=\"0.00\" kerning=\"1\">FJ_LabelRed</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label_CheckBoxBlack": {
+      "bounds": [
+        -2.0,
+        213.5,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 858993663,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"30\" color=\"#333333\" letterSpacing=\"0.00\" kerning=\"1\">FJ_cbx_Black</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label_CheckBoxGrey": {
+      "bounds": [
+        -2.0,
+        204.4499969482422,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 1145324799,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"30\" color=\"#444444\" letterSpacing=\"0.00\" kerning=\"1\">FJ_cbx_Grey</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label_CheckBoxSelected": {
+      "bounds": [
+        -2.0,
+        263.6000061035156,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 4294902015,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"30\" color=\"#ffff00\" letterSpacing=\"0.00\" kerning=\"1\">FJ_cbx_Selected</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label": {
+      "bounds": [
+        -2.0,
+        140.5500030517578,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 4294967295,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"30\" color=\"#ffffff\" letterSpacing=\"0.00\" kerning=\"1\">FJ_Label</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label_Selected": {
+      "bounds": [
+        -2.0,
+        272.75,
+        -2.0,
+        35.0
+      ],
+      "font_size": 30.0,
+      "color": 4294902015,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"30\" color=\"#ffff00\" letterSpacing=\"0.00\" kerning=\"1\">FJ_LabelSelected</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    }
+  },
+  "small_label": {
+    "bounds": [
+      -2.0,
+      177.64999389648438,
+      -2.0,
+      24.0
+    ],
+    "font_size": 20.0,
+    "color": 858993663,
+    "alignment": 0,
+    "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"20\" color=\"#333333\" letterSpacing=\"0.00\" kerning=\"1\">FJ_HtmlTextSmall</font></p>",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      2.0,
+      2.0
+    ]
+  },
+  "labels": {
+    "a77592e8": "Basic Map",
+    "a89a0b2f": "Copy Map",
+    "2d955f51": "Lock Map",
+    "7a2ef634": "Zoom Out & Clear ",
+    "cc04e002": "Rename Map",
+    "dcd3c648": "Map Name",
+    "b3c82373": "Primary Power",
+    "7b8c1d5d": "Secondary Power",
+    "ec992395": "Stonecutter",
+    "2fddc05c": "Show All Recipes",
+    "21ae8965": "Show Craftable Recipes",
+    "07960f18": "Novice",
+    "1536049b": "Apprentice",
+    "d279b4e2": "Journeyman",
+    "e293078e": "Expert",
+    "5a64e9bc": "Master",
+    "f77d295e": "Level %s",
+    "14630b9e": "Inventory",
+    "80cf40eb": "Trade",
+    "01de3701": "Fire Spreads",
+    "ef311201": "TNT Explodes",
+    "5e940e19": "Daylight Cycle",
+    "07a2d3b2": "Keep Inventory",
+    "3decac90": "Mob Spawning",
+    "2a7c56c4": "Mob Griefing",
+    "d554d957": "Set Day",
+    "c0d12a27": "Set Night",
+    "d324428d": "Difficulty",
+    "4c920637": "Set World Spawn Point",
+    "38c1c044": "Weather",
+    "faaaeb73": "Weather Cycle",
+    "4aac0bc3": "Mob Loot",
+    "78e0a40d": "Tile Drops",
+    "6f7d8591": "Natural Regeneration",
+    "65eef68e": "Immediate Respawn",
+    "dd235a1d": "Teleport To Player",
+    "4296e646": "Teleport To Me",
+    "9e0a027d": "Invisible",
+    "65c86b6c": "Can Fly",
+    "8be63389": "Disable Exhaustion",
+    "88f67c3e": "Set Player Spawn Point",
+    "0c1f0645": "Can Build and Mine",
+    "f7e7f9a1": "Can Use Doors and Switches",
+    "da9c2af0": "Can Open Containers",
+    "2a3b2570": "Can Attack Players",
+    "2e30f7dd": "Can Attack Animals",
+    "ee5328fd": "Moderator",
+    "bf2df1b6": "Can Become Invisible",
+    "6d72db6a": "Can Disable Exhaustion",
+    "77569663": "Can Teleport",
+    "4c8183da": "Kick Player",
+    "db7b95e9": "Too Expensive!",
+    "f3a668fd": "Enchantment Cost: %d"
+  },
+  "language_sha256": "b9469c038f1ce678d948e3611bff7f3a607e23415679af572998c2ed28e3fe77"
+}

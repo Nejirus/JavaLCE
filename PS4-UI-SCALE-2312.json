@@ -1,0 +1,95 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+  "constructor": "0xaba940",
+  "minimum_instruction": "0xabc438",
+  "maximum_instruction": "0xabc43d",
+  "slider_init": "0x9f7980",
+  "stops": [
+    1,
+    2,
+    3
+  ],
+  "hud_source_scales": [
+    1.0,
+    1.5,
+    2.0
+  ],
+  "factors": [
+    0.6666666666666666,
+    1.0,
+    1.3333333333333333
+  ],
+  "hud_sha256": "e124b5473be9cfa27d612286a9616296f7bfb33c43e07db3e0ab64848e059cf9",
+  "graphics_sha256": "b6f0cf187e24d7751690bdfe3b4a98f37c10b73334b1f9f3bd689719039b50c8",
+  "assets": [
+    {
+      "symbol": "FJ_Slider_Background",
+      "bitmap": 193,
+      "source_sha256": "c4279d6736d007116cb25dec65e885b58ba141cad8216821740fabd9d50c51f7",
+      "sha256": "c4279d6736d007116cb25dec65e885b58ba141cad8216821740fabd9d50c51f7",
+      "destination": "src/main/resources/assets/legacyconsole/textures/ps4/ui/slider.png",
+      "size": [
+        900,
+        48
+      ]
+    },
+    {
+      "symbol": "Slider_Graphic",
+      "bitmap": 192,
+      "source_sha256": "f9e24b2c935f6d809e11c567890ee3521c5d87a2a8fb502dc09b6371bd13da80",
+      "sha256": "e258169d94271a1fb2e7210d0ba5c4fc1b8a341d721d70bb48a4df2b99c9ce2d",
+      "destination": "src/main/resources/assets/legacyconsole/textures/ps4/ui/slider_handle.png",
+      "size": [
+        24,
+        48
+      ]
+    },
+    {
+      "symbol": "MainMenuButton_Outline",
+      "bitmap": 201,
+      "source_sha256": "bac76030cb631ade704b7722c470324171994a1cfd47f2dcf16daa3ec9affe9c",
+      "sha256": "eef12eed2e9f51e7286247a093816cd836e84bb0fd79bc52b6ba6bd3c2a11fa5",
+      "destination": "src/main/resources/assets/legacyconsole/textures/ps4/ui/slider_outline.png",
+      "size": [
+        606,
+        66
+      ]
+    },
+    {
+      "symbol": "SliderBackgroundHighlight",
+      "bitmap": 191,
+      "source_sha256": "30230a657c8b18e19d1320a33781bce550a04561ac5dc3ddc3ac1e74df4a03b2",
+      "sha256": "33c95c4ad86b4da679adfc58804fee9e2199c00c536c92ded9229ea63d491cb1",
+      "destination": "src/main/resources/assets/legacyconsole/textures/ps4/ui/slider_highlight.png",
+      "size": [
+        894,
+        42
+      ]
+    },
+    {
+      "symbol": "Slider_Track_TintActive",
+      "bitmap": 111,
+      "source_sha256": "58455ab66836f452e9925205da08391666b86112ce638b03e2b58b02abe2e42a",
+      "sha256": "58455ab66836f452e9925205da08391666b86112ce638b03e2b58b02abe2e42a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/ps4/ui/slider_tint_active.png",
+      "size": [
+        600,
+        32
+      ]
+    },
+    {
+      "symbol": "Slider_Track_TintInactive",
+      "bitmap": 112,
+      "source_sha256": "58455ab66836f452e9925205da08391666b86112ce638b03e2b58b02abe2e42a",
+      "sha256": "58455ab66836f452e9925205da08391666b86112ce638b03e2b58b02abe2e42a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/ps4/ui/slider_tint_inactive.png",
+      "size": [
+        600,
+        32
+      ]
+    }
+  ],
+  "adaptation": "The separate Console UI Size option applies the original HUD frame ratios to PS4 workstation/crafting/trading menus and tutorial/description panels. Screen-fit limits avoid clipping; HUD Size is independent. The PS4 setting is not claimed to be a native global menu zoom."
+}

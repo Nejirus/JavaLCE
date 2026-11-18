@@ -1,0 +1,15 @@
+package dev.legacyconsole.network;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraftforge.fmllegacy.network.NetworkEvent;
+import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.api.distmarker.Dist;
+import java.util.function.Supplier;
+public final class TutorialState {
+ public final int stage,discs,flags;public final boolean[] done;
+ public final java.util.Map<String,Integer> crafted;
+ public final java.util.Map<Integer,Integer> menus;public final java.util.Set<Integer> completedMenus;
+ public TutorialState(dev.legacyconsole.tutorial.Ps4TutorialProgress progress){stage=progress.stage;discs=progress.discs.cardinality();flags=progress.flags;done=progress.done.clone();crafted=java.util.Map.copyOf(progress.crafted);menus=java.util.Map.copyOf(progress.menus);completedMenus=java.util.Set.copyOf(progress.completedMenus);}
+ public TutorialState(FriendlyByteBuf b){stage=b.readVarInt();discs=b.readUnsignedByte();flags=b.readVarInt();done=new boolean[dev.legacyconsole.tutorial.Ps4TutorialScript.GAMEPLAY.size()];for(int i=0;i<done.length;i++)done[i]=b.readBoolean();int size=b.readVarInt();if(size<0||size>8192)throw new IllegalArgumentException("Invalid tutorial crafting history");var made=new java.util.HashMap<String,Integer>();for(int i=0;i<size;i++)made.put(b.readUtf(256),b.readVarInt());crafted=java.util.Map.copyOf(made);int menuCount=b.readVarInt();if(menuCount<0||menuCount>64)throw new IllegalArgumentException("Invalid tutorial menu history");var history=new java.util.HashMap<Integer,Integer>();for(int i=0;i<menuCount;i++){int context=b.readVarInt(),index=b.readVarInt();int length=dev.legacyconsole.tutorial.Ps4TutorialProgress.menuLength(context);if(length<0||index<0||index>length)throw new IllegalArgumentException("Invalid tutorial menu task");history.put(context,index);}menus=java.util.Map.copyOf(history);int completedCount=b.readVarInt();if(completedCount<0||completedCount>64)throw new IllegalArgumentException("Invalid completed tutorial menus");var seen=new java.util.HashSet<Integer>();for(int i=0;i<completedCount;i++){int context=b.readVarInt();if(dev.legacyconsole.tutorial.Ps4TutorialProgress.menuLength(context)<0)throw new IllegalArgumentException("Invalid tutorial menu context");seen.add(context);}completedMenus=java.util.Set.copyOf(seen);}
+ public void encode(FriendlyByteBuf b){b.writeVarInt(stage);b.writeByte(discs);b.writeVarInt(flags);for(boolean value:done)b.writeBoolean(value);b.writeVarInt(crafted.size());crafted.forEach((name,count)->{b.writeUtf(name,256);b.writeVarInt(count);});b.writeVarInt(menus.size());menus.forEach((context,index)->{b.writeVarInt(context);b.writeVarInt(index);});b.writeVarInt(completedMenus.size());completedMenus.stream().sorted().forEach(b::writeVarInt);}
+ public static void handle(TutorialState packet,Supplier<NetworkEvent.Context> context){var c=context.get();c.enqueueWork(()->DistExecutor.unsafeRunWhenOn(Dist.CLIENT,()->()->dev.legacyconsole.client.Ps4Hints.tutorial(packet)));c.setPacketHandled(true);}
+}

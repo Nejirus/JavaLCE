@@ -1,0 +1,3949 @@
+{
+  "HUD720.swf": {
+    "root": [
+      {
+        "depth": 1,
+        "id": 1,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          617.0,
+          337.0
+        ],
+        "name": "CrosshairNormal"
+      },
+      {
+        "depth": 3,
+        "class": "fourj.FJ_Hud",
+        "matrix": [
+          1.5,
+          0.0,
+          0.0,
+          1.5,
+          366.0,
+          516.0
+        ],
+        "name": "HudNormal"
+      },
+      {
+        "depth": 4,
+        "class": "fourj.ProgressBars.FJ_DragonHealth_04",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          303.0,
+          0.0
+        ],
+        "name": "DragonHealthNormal"
+      },
+      {
+        "depth": 5,
+        "id": 2,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          584.0,
+          487.0
+        ],
+        "name": "SelectedLabel"
+      },
+      {
+        "depth": 7,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          437.0
+        ],
+        "name": "Label2Background"
+      },
+      {
+        "depth": 9,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          472.0
+        ],
+        "name": "Label1Background"
+      },
+      {
+        "depth": 11,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          402.0
+        ],
+        "name": "Label3Background"
+      },
+      {
+        "depth": 13,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          367.0
+        ],
+        "name": "Label4Background"
+      },
+      {
+        "depth": 15,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          332.0
+        ],
+        "name": "Label5Background"
+      },
+      {
+        "depth": 17,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          192.0
+        ],
+        "name": "Label9Background"
+      },
+      {
+        "depth": 19,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          157.0
+        ],
+        "name": "Label10Background"
+      },
+      {
+        "depth": 21,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          297.0
+        ],
+        "name": "Label6Background"
+      },
+      {
+        "depth": 23,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          262.0
+        ],
+        "name": "Label7Background"
+      },
+      {
+        "depth": 25,
+        "id": 4,
+        "matrix": [
+          0.9288787841796875,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          227.0
+        ],
+        "name": "Label8Background"
+      },
+      {
+        "depth": 27,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          472.0
+        ],
+        "name": "Label1"
+      },
+      {
+        "depth": 28,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          437.0
+        ],
+        "name": "Label2"
+      },
+      {
+        "depth": 29,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          402.0
+        ],
+        "name": "Label3"
+      },
+      {
+        "depth": 30,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          367.0
+        ],
+        "name": "Label4"
+      },
+      {
+        "depth": 31,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          332.0
+        ],
+        "name": "Label5"
+      },
+      {
+        "depth": 32,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          297.0
+        ],
+        "name": "Label6"
+      },
+      {
+        "depth": 33,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          262.0
+        ],
+        "name": "Label7"
+      },
+      {
+        "depth": 34,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          227.0
+        ],
+        "name": "Label8"
+      },
+      {
+        "depth": 35,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          192.0
+        ],
+        "name": "Label9"
+      },
+      {
+        "depth": 36,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          11.428436279296875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          157.0
+        ],
+        "name": "Label10"
+      },
+      {
+        "depth": 37,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          5.7141571044921875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          320.0,
+          472.0
+        ],
+        "name": "Jukebox"
+      },
+      {
+        "depth": 1,
+        "id": 1,
+        "matrix": [
+          0.6666717529296875,
+          0.0,
+          0.0,
+          0.6666717529296875,
+          625.0,
+          345.0
+        ],
+        "name": "CrosshairSmall"
+      },
+      {
+        "depth": 3,
+        "class": "fourj.FJ_Hud",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          457.0,
+          567.0
+        ],
+        "name": "HudSmall"
+      },
+      {
+        "depth": 4,
+        "class": "fourj.ProgressBars.FJ_DragonHealth_03",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          437.0,
+          0.0
+        ],
+        "name": "DragonHealthSmall"
+      },
+      {
+        "depth": 1,
+        "id": 1,
+        "matrix": [
+          1.5111083984375,
+          0.0,
+          0.0,
+          1.5111083984375,
+          606.0,
+          326.0
+        ],
+        "name": "CrosshairLarge"
+      },
+      {
+        "depth": 3,
+        "class": "fourj.FJ_Hud",
+        "matrix": [
+          2.0,
+          0.0,
+          0.0,
+          2.0,
+          275.4,
+          476.3
+        ],
+        "name": "HudLarge"
+      },
+      {
+        "depth": 4,
+        "class": "fourj.ProgressBars.FJ_DragonHealth_05",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          164.0,
+          0.0
+        ],
+        "name": "DragonHealthLarge"
+      }
+    ],
+    "sprites": {
+      "HUD720_fla.Selected_Label_2": [
+        {
+          "label": "On",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label"
+            }
+          ]
+        },
+        {
+          "label": "Fade",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.96875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.94140625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.921875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.890625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.859375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.83984375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.80859375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.78125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.76171875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.73046875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.7109375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.6796875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.6484375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.62890625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.6015625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.5703125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.55078125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.51953125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.5
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.46875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.44140625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.421875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.390625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.359375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.33984375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.30859375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.28125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.26171875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.23046875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.2109375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.1796875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.1484375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.12890625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.1015625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.0703125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.05078125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.01953125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "HUD1080.swf": {
+    "root": [
+      {
+        "depth": 1,
+        "id": 1,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          926.0,
+          506.0
+        ],
+        "name": "CrosshairNormal"
+      },
+      {
+        "depth": 3,
+        "class": "fourj.FJ_Hud",
+        "matrix": [
+          1.5,
+          0.0,
+          0.0,
+          1.5,
+          553.0,
+          775.0
+        ],
+        "name": "HudNormal"
+      },
+      {
+        "depth": 4,
+        "class": "fourj.ProgressBars.FJ_DragonHealth_04",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          484.0,
+          0.0
+        ],
+        "name": "DragonHealthNormal"
+      },
+      {
+        "depth": 5,
+        "id": 2,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          876.0,
+          731.0
+        ],
+        "name": "SelectedLabel"
+      },
+      {
+        "depth": 7,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          650.0
+        ],
+        "name": "Label2Background"
+      },
+      {
+        "depth": 9,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          700.0
+        ],
+        "name": "Label1Background"
+      },
+      {
+        "depth": 11,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          600.0
+        ],
+        "name": "Label3Background"
+      },
+      {
+        "depth": 13,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          550.0
+        ],
+        "name": "Label4Background"
+      },
+      {
+        "depth": 15,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          500.0
+        ],
+        "name": "Label5Background"
+      },
+      {
+        "depth": 17,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          300.0
+        ],
+        "name": "Label9Background"
+      },
+      {
+        "depth": 19,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          250.0
+        ],
+        "name": "Label10Background"
+      },
+      {
+        "depth": 21,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          450.0
+        ],
+        "name": "Label6Background"
+      },
+      {
+        "depth": 23,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          400.0
+        ],
+        "name": "Label7Background"
+      },
+      {
+        "depth": 25,
+        "id": 4,
+        "matrix": [
+          1.393310546875,
+          0.0,
+          0.0,
+          1.428558349609375,
+          0.0,
+          350.0
+        ],
+        "name": "Label8Background"
+      },
+      {
+        "depth": 27,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          700.0
+        ],
+        "name": "Label1"
+      },
+      {
+        "depth": 28,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          650.0
+        ],
+        "name": "Label2"
+      },
+      {
+        "depth": 29,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          600.0
+        ],
+        "name": "Label3"
+      },
+      {
+        "depth": 30,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          550.0
+        ],
+        "name": "Label4"
+      },
+      {
+        "depth": 31,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          500.0
+        ],
+        "name": "Label5"
+      },
+      {
+        "depth": 32,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          450.0
+        ],
+        "name": "Label6"
+      },
+      {
+        "depth": 33,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          400.0
+        ],
+        "name": "Label7"
+      },
+      {
+        "depth": 34,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          350.0
+        ],
+        "name": "Label8"
+      },
+      {
+        "depth": 35,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          300.0
+        ],
+        "name": "Label9"
+      },
+      {
+        "depth": 36,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          13.384490966796875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          0.0,
+          250.0
+        ],
+        "name": "Label10"
+      },
+      {
+        "depth": 37,
+        "class": "fourj.Labels.FJ_Label_HUD_White",
+        "matrix": [
+          6.6921844482421875,
+          0.0,
+          0.0,
+          1.346160888671875,
+          480.0,
+          700.0
+        ],
+        "name": "Jukebox"
+      },
+      {
+        "depth": 1,
+        "id": 1,
+        "matrix": [
+          0.647064208984375,
+          0.0,
+          0.0,
+          0.647064208984375,
+          938.0,
+          518.0
+        ],
+        "name": "CrosshairSmall"
+      },
+      {
+        "depth": 3,
+        "class": "fourj.FJ_Hud",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          689.0,
+          851.0
+        ],
+        "name": "HudSmall"
+      },
+      {
+        "depth": 4,
+        "class": "fourj.ProgressBars.FJ_DragonHealth_03",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          623.0,
+          0.0
+        ],
+        "name": "DragonHealthSmall"
+      },
+      {
+        "depth": 1,
+        "id": 1,
+        "matrix": [
+          1.5,
+          0.0,
+          0.0,
+          1.5,
+          909.0,
+          489.0
+        ],
+        "name": "CrosshairLarge"
+      },
+      {
+        "depth": 3,
+        "class": "fourj.FJ_Hud",
+        "matrix": [
+          2.0,
+          0.0,
+          0.0,
+          2.0,
+          417.0,
+          698.0
+        ],
+        "name": "HudLarge"
+      },
+      {
+        "depth": 4,
+        "class": "fourj.ProgressBars.FJ_DragonHealth_05",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          246.0,
+          0.0
+        ],
+        "name": "DragonHealthLarge"
+      }
+    ],
+    "sprites": {
+      "HUD1080_fla.Selected_Label_2": [
+        {
+          "label": "On",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label"
+            }
+          ]
+        },
+        {
+          "label": "Fade",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.96875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.94140625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.921875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.890625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.859375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.83984375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.80859375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.78125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.76171875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.73046875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.7109375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.6796875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.6484375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.62890625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.6015625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.5703125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.55078125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.51953125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.5
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.46875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.44140625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.421875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.390625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.359375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.33984375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.30859375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.28125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.26171875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.23046875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.2109375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.1796875
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.1484375
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.12890625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.1015625
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.0703125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.05078125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.01953125
+              ]
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Labels.FJ_Label_HUD_White",
+              "matrix": [
+                1.1711273193359375,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ],
+              "name": "Label",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "CreateWorldMenu1080.swf": {
+    "root": [
+      {
+        "depth": 1,
+        "id": 4,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          815.0,
+          237.0
+        ],
+        "name": "TexturePackPanel"
+      },
+      {
+        "depth": 9,
+        "id": 5,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          592.0,
+          225.0
+        ],
+        "name": "MainPanel"
+      }
+    ],
+    "sprites": {
+      "CreateWorldMenu1080_fla.Panel_3": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "FJ_Panel9Grid",
+              "matrix": [
+                4.6226806640625,
+                0.0,
+                0.0,
+                4.245361328125,
+                0,
+                0
+              ]
+            },
+            {
+              "depth": 2,
+              "class": "FJ_PanelRecess",
+              "matrix": [
+                9.99993896484375,
+                0.0,
+                0.0,
+                1.605499267578125,
+                36.0,
+                323.05
+              ]
+            },
+            {
+              "depth": 3,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.1000213623046875,
+                0.0,
+                0.0,
+                1.0,
+                36.0,
+                143.0
+              ],
+              "name": "GameModeToggle"
+            },
+            {
+              "depth": 4,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.1000213623046875,
+                0.0,
+                0.0,
+                1.0,
+                36.0,
+                501.0
+              ],
+              "name": "MoreOptions"
+            },
+            {
+              "depth": 5,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.1000213623046875,
+                0.0,
+                0.0,
+                1.0,
+                36.0,
+                578.0
+              ],
+              "name": "NewWorld"
+            },
+            {
+              "depth": 6,
+              "class": "fourj.FJ_Slider",
+              "matrix": [
+                0.72845458984375,
+                0.0,
+                0.0,
+                1.0,
+                38.0,
+                221.0
+              ],
+              "name": "Difficulty"
+            },
+            {
+              "depth": 7,
+              "class": "fourj.listClasses.FJ_TexturePackList",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.9996185302734375,
+                36.0,
+                324.0
+              ],
+              "name": "TexturePackSelector"
+            },
+            {
+              "depth": 8,
+              "class": "fourj.TextInput.FJ_TextInput_Normal",
+              "matrix": [
+                0.990997314453125,
+                0.0,
+                0.0,
+                1.0,
+                38.0,
+                69.0
+              ],
+              "name": "EditWorldName"
+            },
+            {
+              "depth": 9,
+              "class": "fourj.Labels.FJ_Label_Black",
+              "matrix": [
+                2.91461181640625,
+                0.0,
+                0.0,
+                1.0,
+                35.05,
+                31.0
+              ],
+              "name": "WorldName"
+            },
+            {
+              "depth": 10,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                41.0,
+                447.0
+              ],
+              "name": "CheckboxOnline"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "FJ_Panel9Grid",
+              "matrix": [
+                4.6226806640625,
+                0.0,
+                0.0,
+                4.245361328125,
+                0,
+                0
+              ]
+            },
+            {
+              "depth": 2,
+              "class": "FJ_PanelRecess",
+              "matrix": [
+                9.99993896484375,
+                0.0,
+                0.0,
+                1.605499267578125,
+                36.0,
+                323.05
+              ]
+            },
+            {
+              "depth": 3,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.1000213623046875,
+                0.0,
+                0.0,
+                1.0,
+                36.0,
+                143.0
+              ],
+              "name": "GameModeToggle"
+            },
+            {
+              "depth": 4,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.1000213623046875,
+                0.0,
+                0.0,
+                1.0,
+                36.0,
+                501.0
+              ],
+              "name": "MoreOptions"
+            },
+            {
+              "depth": 5,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.1000213623046875,
+                0.0,
+                0.0,
+                1.0,
+                36.0,
+                578.0
+              ],
+              "name": "NewWorld"
+            },
+            {
+              "depth": 6,
+              "class": "fourj.FJ_Slider",
+              "matrix": [
+                0.72845458984375,
+                0.0,
+                0.0,
+                1.0,
+                38.0,
+                221.0
+              ],
+              "name": "Difficulty"
+            },
+            {
+              "depth": 7,
+              "class": "fourj.listClasses.FJ_TexturePackList",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.9996185302734375,
+                36.0,
+                324.0
+              ],
+              "name": "TexturePackSelector"
+            },
+            {
+              "depth": 8,
+              "class": "fourj.TextInput.FJ_TextInput_Normal",
+              "matrix": [
+                0.990997314453125,
+                0.0,
+                0.0,
+                1.0,
+                38.0,
+                69.0
+              ],
+              "name": "EditWorldName"
+            },
+            {
+              "depth": 9,
+              "class": "fourj.Labels.FJ_Label_Black",
+              "matrix": [
+                2.91461181640625,
+                0.0,
+                0.0,
+                1.0,
+                35.05,
+                31.0
+              ],
+              "name": "WorldName"
+            },
+            {
+              "depth": 10,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                41.0,
+                447.0
+              ],
+              "name": "CheckboxOnline"
+            }
+          ]
+        }
+      ],
+      "TexturePackDetails": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "FJ_PointerTextPanel",
+              "matrix": [
+                13.916763305664062,
+                0.0,
+                0.0,
+                18.000289916992188,
+                0,
+                0
+              ]
+            },
+            {
+              "depth": 2,
+              "class": "fourj.FJ_BitmapIcon",
+              "matrix": [
+                1.92022705078125,
+                0.0,
+                0.0,
+                1.9200286865234375,
+                39.0,
+                21.0
+              ],
+              "name": "Icon"
+            },
+            {
+              "depth": 3,
+              "class": "fourj.Labels.FJ_Label_White",
+              "matrix": [
+                1.4925537109375,
+                0.0,
+                0.0,
+                1.0,
+                144.0,
+                21.0
+              ],
+              "name": "TexturePackName"
+            },
+            {
+              "depth": 4,
+              "id": 3,
+              "matrix": [
+                1.5,
+                0.0,
+                0.0,
+                1.5,
+                39.0,
+                402.0
+              ]
+            },
+            {
+              "depth": 6,
+              "class": "fourj.FJ_BitmapIcon",
+              "matrix": [
+                8.699981689453125,
+                0.0,
+                0.0,
+                4.3199462890625,
+                39.0,
+                402.0
+              ],
+              "name": "ComparisonPic"
+            },
+            {
+              "depth": 7,
+              "class": "fourj.Labels.FJ_Label_White",
+              "matrix": [
+                1.99896240234375,
+                0.0,
+                0.0,
+                1.0,
+                39.0,
+                129.0
+              ],
+              "name": "TexturePackDescription"
+            }
+          ]
+        }
+      ],
+      "ComparisonPic": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "DefaultPack_Comparison",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "TickBoxInaciveSelected": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "Tickbox_Over",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LoadMenu1080.swf": {
+    "root": [
+      {
+        "depth": 1,
+        "id": 5,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          748.6,
+          270.0
+        ],
+        "name": "TexturePackPanel"
+      },
+      {
+        "depth": 9,
+        "id": 3,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          592.0,
+          255.0
+        ],
+        "name": "MainPanel"
+      }
+    ],
+    "sprites": {
+      "TexturePackInfo": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "FJ_PointerTextPanel",
+              "matrix": [
+                13.916671752929688,
+                0.0,
+                0.0,
+                18.0,
+                0,
+                0
+              ]
+            },
+            {
+              "depth": 2,
+              "class": "fourj.FJ_BitmapIcon",
+              "matrix": [
+                1.91998291015625,
+                0.0,
+                0.0,
+                1.91998291015625,
+                39.0,
+                21.0
+              ],
+              "name": "Icon"
+            },
+            {
+              "depth": 3,
+              "class": "fourj.Labels.FJ_Label_White",
+              "matrix": [
+                1.51995849609375,
+                0.0,
+                0.0,
+                1.0,
+                144.0,
+                21.0
+              ],
+              "name": "TexturePackName"
+            },
+            {
+              "depth": 4,
+              "id": 4,
+              "matrix": [
+                1.5,
+                0.0,
+                0.0,
+                1.5,
+                39.0,
+                384.0
+              ]
+            },
+            {
+              "depth": 6,
+              "class": "fourj.FJ_BitmapIcon",
+              "matrix": [
+                8.699981689453125,
+                0.0,
+                0.0,
+                4.3199462890625,
+                39.0,
+                384.0
+              ],
+              "name": "ComparisonPic"
+            },
+            {
+              "depth": 7,
+              "class": "fourj.Labels.FJ_Label_White",
+              "matrix": [
+                1.99920654296875,
+                0.0,
+                0.0,
+                1.0,
+                39.0,
+                129.0
+              ],
+              "name": "TexturePackDescription"
+            }
+          ]
+        }
+      ],
+      "ComparisonPic": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "DefaultPack_Comparison",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "Panel": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "FJ_Panel9Grid",
+              "matrix": [
+                4.6227264404296875,
+                0.0,
+                0.0,
+                4.2892913818359375,
+                0,
+                0
+              ]
+            },
+            {
+              "depth": 2,
+              "class": "FJ_SquareRecessedPanel",
+              "matrix": [
+                1.49969482421875,
+                0.0,
+                0.0,
+                1.49969482421875,
+                38.0,
+                27.0
+              ]
+            },
+            {
+              "depth": 3,
+              "class": "fourj.Labels.FJ_Label_Black",
+              "matrix": [
+                2.464202880859375,
+                0.0,
+                0.0,
+                1.18182373046875,
+                139.0,
+                26.0
+              ],
+              "name": "GameName"
+            },
+            {
+              "depth": 4,
+              "class": "fourj.Labels.FJ_Label_Black",
+              "matrix": [
+                2.4686279296875,
+                0.0,
+                0.0,
+                1.18182373046875,
+                139.0,
+                77.0
+              ],
+              "name": "CreatedMode"
+            },
+            {
+              "depth": 5,
+              "class": "fourj.Labels.FJ_Label_Black",
+              "matrix": [
+                2.914642333984375,
+                0.0,
+                0.0,
+                1.18182373046875,
+                37.0,
+                130.0
+              ],
+              "name": "Seed"
+            },
+            {
+              "depth": 6,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.0999755859375,
+                0.0,
+                0.0,
+                1.0002288818359375,
+                37.0,
+                185.0
+              ],
+              "name": "GameModeToggle"
+            },
+            {
+              "depth": 7,
+              "class": "fourj.FJ_Slider",
+              "matrix": [
+                0.728485107421875,
+                0.0,
+                0.0,
+                0.9999542236328125,
+                39.0,
+                258.0
+              ],
+              "name": "Difficulty"
+            },
+            {
+              "depth": 8,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.0999755859375,
+                0.0,
+                0.0,
+                1.0002288818359375,
+                37.0,
+                519.0
+              ],
+              "name": "MoreOptions"
+            },
+            {
+              "depth": 9,
+              "class": "fourj.Buttons.FJ_MenuButton_Normal",
+              "matrix": [
+                1.0999755859375,
+                0.0,
+                0.0,
+                1.0002288818359375,
+                37.0,
+                589.0
+              ],
+              "name": "LoadSettings"
+            },
+            {
+              "depth": 10,
+              "class": "FJ_PanelRecess",
+              "matrix": [
+                10.00006103515625,
+                0.0,
+                0.0,
+                1.6060638427734375,
+                37.0,
+                355.0
+              ]
+            },
+            {
+              "depth": 11,
+              "class": "fourj.FJ_BitmapIcon",
+              "matrix": [
+                1.7599945068359375,
+                0.0,
+                0.0,
+                1.7599945068359375,
+                42.0,
+                31.0
+              ],
+              "name": "LevelIcon"
+            },
+            {
+              "depth": 12,
+              "class": "fourj.listClasses.FJ_TexturePackList",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                37.0,
+                356.0
+              ],
+              "name": "TexturePackSelector"
+            },
+            {
+              "depth": 13,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                42.0,
+                472.0
+              ],
+              "name": "CheckboxOnline"
+            }
+          ]
+        }
+      ],
+      "TickBoxInaciveSelected": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "Tickbox_Over",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "SettingsUIMenu1080.swf": {
+    "root": [
+      {
+        "depth": 1,
+        "id": 2,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          673.0,
+          322.0
+        ],
+        "name": "BackgroundPanel"
+      },
+      {
+        "depth": 3,
+        "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.9993896484375,
+          692.0,
+          345.0
+        ],
+        "name": "DisplayHUD"
+      },
+      {
+        "depth": 4,
+        "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.9993896484375,
+          692.0,
+          399.0
+        ],
+        "name": "DisplayHand"
+      },
+      {
+        "depth": 5,
+        "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.9993896484375,
+          692.0,
+          453.0
+        ],
+        "name": "DisplayDeathMessages"
+      },
+      {
+        "depth": 6,
+        "class": "fourj.FJ_Slider",
+        "matrix": [
+          0.5943145751953125,
+          0.0,
+          0.0,
+          0.9999847412109375,
+          692.0,
+          670.0
+        ],
+        "name": "UISize"
+      },
+      {
+        "depth": 7,
+        "class": "fourj.FJ_Slider",
+        "matrix": [
+          0.5959930419921875,
+          0.0,
+          0.0,
+          0.9999847412109375,
+          692.0,
+          735.0
+        ],
+        "name": "UISizeSplitscreen"
+      },
+      {
+        "depth": 8,
+        "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.9993896484375,
+          692.0,
+          504.0
+        ],
+        "name": "DisplayAnimatedCharacter"
+      },
+      {
+        "depth": 9,
+        "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.9993896484375,
+          692.0,
+          561.0
+        ],
+        "name": "Splitscreen"
+      },
+      {
+        "depth": 10,
+        "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.9993896484375,
+          692.0,
+          615.0
+        ],
+        "name": "ShowSplitscreenGamertags"
+      }
+    ],
+    "sprites": {
+      "TickBoxInaciveSelected": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "Tickbox_Over",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LaunchMoreOptionsMenu1080.swf": {
+    "root": [
+      {
+        "depth": 1,
+        "id": 3,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          333.0,
+          350.0
+        ],
+        "name": "BackTabs"
+      },
+      {
+        "depth": 5,
+        "class": "fourj.HtmlText.FJ_HtmlText_WhiteNormal",
+        "matrix": [
+          2.066650390625,
+          0.0,
+          0.0,
+          3.820159912109375,
+          1088.0,
+          445.0
+        ],
+        "name": "Description"
+      },
+      {
+        "depth": 7,
+        "id": 5,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          372.0,
+          339.0
+        ],
+        "name": "GameOptions"
+      },
+      {
+        "depth": 20,
+        "id": 6,
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          333.0,
+          339.0
+        ],
+        "name": "WorldOptions"
+      },
+      {
+        "depth": 30,
+        "class": "fourj.Labels.FJ_Label_Black",
+        "matrix": [
+          1.567657470703125,
+          0.0,
+          0.0,
+          1.0,
+          342.0,
+          365.0
+        ],
+        "name": "LabelWorld"
+      },
+      {
+        "depth": 31,
+        "class": "fourj.Labels.FJ_Label_Black",
+        "matrix": [
+          1.567657470703125,
+          0.0,
+          0.0,
+          1.0,
+          715.0,
+          373.0
+        ],
+        "name": "LabelGame"
+      }
+    ],
+    "sprites": {
+      "LaunchMoreOptionsMenu1080_fla.WorldOptions_4": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.FJ_Slider",
+              "matrix": [
+                0.728515625,
+                0.0,
+                0.0,
+                1.0,
+                40.0,
+                302.0
+              ],
+              "name": "WorldSizeSlider"
+            },
+            {
+              "depth": 2,
+              "class": "fourj.TextInput.FJ_TextInput_Normal",
+              "matrix": [
+                0.990997314453125,
+                0.0,
+                0.0,
+                1.0,
+                41.0,
+                152.0
+              ],
+              "name": "EditSeed"
+            },
+            {
+              "depth": 3,
+              "class": "fourj.Labels.FJ_Label_Black",
+              "matrix": [
+                2.91461181640625,
+                0.0,
+                0.0,
+                1.0,
+                38.0,
+                112.0
+              ],
+              "name": "Seed"
+            },
+            {
+              "depth": 4,
+              "class": "fourj.Labels.FJ_Label_Black",
+              "matrix": [
+                2.91461181640625,
+                0.0,
+                0.0,
+                1.0,
+                39.0,
+                209.0
+              ],
+              "name": "RandomSeed"
+            },
+            {
+              "depth": 5,
+              "class": "fourj.Labels.FJ_Label_Black",
+              "matrix": [
+                2.914764404296875,
+                0.0,
+                0.0,
+                1.0,
+                38.0,
+                262.0
+              ],
+              "name": "WorldSize"
+            },
+            {
+              "depth": 6,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                39.0,
+                372.0
+              ],
+              "name": "CheckboxStructures"
+            },
+            {
+              "depth": 7,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                39.0,
+                418.0
+              ],
+              "name": "CheckboxBonusChest"
+            },
+            {
+              "depth": 8,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                39.0,
+                464.0
+              ],
+              "name": "CheckboxFlatWorld"
+            },
+            {
+              "depth": 9,
+              "class": "MoreOptionsTabGame",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "LaunchMoreOptionsMenu1080_fla.GameOptions_2": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                102.0
+              ],
+              "name": "CheckboxOnline"
+            },
+            {
+              "depth": 2,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                147.0
+              ],
+              "name": "CheckboxInviteOnly"
+            },
+            {
+              "depth": 3,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                192.0
+              ],
+              "name": "CheckboxAllowFoF"
+            },
+            {
+              "depth": 4,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                238.0
+              ],
+              "name": "CheckboxPVP"
+            },
+            {
+              "depth": 5,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                281.0
+              ],
+              "name": "CheckboxTrustSystem"
+            },
+            {
+              "depth": 6,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                418.0
+              ],
+              "name": "CheckboxHostPrivileges"
+            },
+            {
+              "depth": 7,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                327.0
+              ],
+              "name": "CheckboxFireSpreads"
+            },
+            {
+              "depth": 8,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                372.0
+              ],
+              "name": "CheckboxTNT"
+            },
+            {
+              "depth": 9,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                464.0
+              ],
+              "name": "CheckboxResetNether"
+            },
+            {
+              "depth": 10,
+              "id": 4,
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                334.0,
+                0.0
+              ],
+              "name": "Tab"
+            },
+            {
+              "depth": 12,
+              "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                510.0
+              ],
+              "name": "CheckboxDisableSaving"
+            }
+          ]
+        }
+      ],
+      "TickBoxInaciveSelected": [
+        {
+          "label": "",
+          "nodes": [
+            {
+              "depth": 1,
+              "class": "Tickbox_Over",
+              "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                1.0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

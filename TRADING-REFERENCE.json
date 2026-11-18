@@ -1,0 +1,36 @@
+{
+  "release": "2.0.11",
+  "lce_revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "code": [
+    "Minecraft.Client/Common/UI/IUIScene_TradingMenu.cpp:175-313",
+    "Minecraft.Client/Common/UI/UIControl_SlotList.cpp:73-84",
+    "Minecraft.Client/Common/Media/strings.resx:6202"
+  ],
+  "actionscript": "TradingMenu720.swf: fourj.listClasses.FJ_SlotList_Slot::SetRedBoxActive; warning at slot origin + round(scale), authored size 16 against 50px cells",
+  "requested_difference": "Eight minimum cells, rather than the seven in this pinned older C++ snapshot; additional active trades scroll horizontally.",
+  "assets": [
+    {
+      "source_swf": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "character_id": 1,
+      "symbol": "IconHolderRed",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/trade_slot_red.png",
+      "sha256": "efb3a82557a83f3682e86b054e5cde6f02ff23699c66de34bad31b4e0bdc86e6"
+    },
+    {
+      "source_swf": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "character_id": 2,
+      "symbol": "IconHolder",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/trade_slot.png",
+      "sha256": "3926cdf1dbab6d6646593ad45b90dd76da82457ab1a81bc00804368a76b74ac4"
+    },
+    {
+      "source_swf": "Minecraft.Client/Common/Media/skinGraphicsInGame.swf",
+      "character_id": 158,
+      "symbol": "Warning",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/trade_warning.png",
+      "sha256": "d3efb0d8b7ff69c7cddd84dbb524bbb8d48f70879843d1c33ee4b8d1048d97f3"
+    }
+  ],
+  "source_swf_sha256": "b012cb5e9c4fa721baae8265f4ddce806013d8acc77f0b300b6bd261667d5bcc",
+  "selection": "Keep the selector column during filtering and restock, as m_selectedSlot does in the C++ scene; empty cells may receive the selector but never initiate a trade."
+}

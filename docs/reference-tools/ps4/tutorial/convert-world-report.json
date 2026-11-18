@@ -1,0 +1,54 @@
+{
+  "regions": [
+    {
+      "path": "DIM-1/region/r.-1.-1.mca",
+      "chunks": 81
+    },
+    {
+      "path": "DIM-1/region/r.-1.0.mca",
+      "chunks": 81
+    },
+    {
+      "path": "DIM-1/region/r.0.-1.mca",
+      "chunks": 81
+    },
+    {
+      "path": "DIM-1/region/r.0.0.mca",
+      "chunks": 81
+    },
+    {
+      "path": "DIM1/region/r.-1.-1.mca",
+      "chunks": 36
+    },
+    {
+      "path": "DIM1/region/r.-1.0.mca",
+      "chunks": 36
+    },
+    {
+      "path": "DIM1/region/r.0.-1.mca",
+      "chunks": 36
+    },
+    {
+      "path": "DIM1/region/r.0.0.mca",
+      "chunks": 36
+    },
+    {
+      "path": "region/r.-1.-1.mca",
+      "chunks": 729
+    },
+    {
+      "path": "region/r.-1.0.mca",
+      "chunks": 729
+    },
+    {
+      "path": "region/r.0.-1.mca",
+      "chunks": 729
+    },
+    {
+      "path": "region/r.0.0.mca",
+      "chunks": 729
+    }
+  ],
+  "chunks": 3384,
+  "source_mcs_sha256": "9e5133519c7229ceac89eeeaab50068f768d1ae1fdfc3af59e473132685578ae"
+}

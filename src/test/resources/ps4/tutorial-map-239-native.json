@@ -1,0 +1,4705 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "info_input": "0x979160",
+  "info_completion": "0x978ed0",
+  "map_projection": "0x44a610",
+  "inline_glyphs": [
+    {
+      "pc": "0xaf2e90",
+      "register": "r15d",
+      "size": 45,
+      "bytes": "41bf2d000000"
+    },
+    {
+      "pc": "0xaf34a2",
+      "register": "r10d",
+      "size": 45,
+      "bytes": "41ba2d000000"
+    }
+  ],
+  "input_cases": [
+    {
+      "active": false,
+      "required": 0,
+      "pressed": 0,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 0,
+      "pressed": 1,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 0,
+      "pressed": 2,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 0,
+      "pressed": 3,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 0,
+      "pressed": 9,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 1,
+      "pressed": 0,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 1,
+      "pressed": 1,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 1,
+      "pressed": 2,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 1,
+      "pressed": 3,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 1,
+      "pressed": 9,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 2,
+      "pressed": 0,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 2,
+      "pressed": 1,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 2,
+      "pressed": 2,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 2,
+      "pressed": 3,
+      "completed": false
+    },
+    {
+      "active": false,
+      "required": 2,
+      "pressed": 9,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 0,
+      "pressed": 0,
+      "completed": true
+    },
+    {
+      "active": true,
+      "required": 0,
+      "pressed": 1,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 0,
+      "pressed": 2,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 0,
+      "pressed": 3,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 0,
+      "pressed": 9,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 1,
+      "pressed": 0,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 1,
+      "pressed": 1,
+      "completed": true
+    },
+    {
+      "active": true,
+      "required": 1,
+      "pressed": 2,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 1,
+      "pressed": 3,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 1,
+      "pressed": 9,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 2,
+      "pressed": 0,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 2,
+      "pressed": 1,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 2,
+      "pressed": 2,
+      "completed": true
+    },
+    {
+      "active": true,
+      "required": 2,
+      "pressed": 3,
+      "completed": false
+    },
+    {
+      "active": true,
+      "required": 2,
+      "pressed": 9,
+      "completed": false
+    }
+  ],
+  "map_cases": [
+    {
+      "scale": 0,
+      "x": -577,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -577,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -577,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -576,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -576,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -576,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -575.99,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -575.99,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -575.99,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -575.25,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -575.25,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -575.25,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -575,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -575,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -575,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -574.99,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -574.99,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -574.99,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -513,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -513,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -513,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -511,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -511,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -511,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -449.01,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -449.01,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -449.01,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -449,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -449,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -449,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -448.75,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -448.75,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -448.75,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -448.01,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -448.01,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -448.01,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -448,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -448,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -448,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -447,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -447,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -447,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 447,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 447,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 447,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448.01,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448.01,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448.01,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448.75,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448.75,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 448.75,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 449,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 449,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 449,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 449.01,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 449.01,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 449.01,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 511,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 511,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 511,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 513,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 513,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 513,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 574.99,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 574.99,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 574.99,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575.25,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575.25,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575.25,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575.99,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575.99,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 575.99,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 576,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 576,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 576,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 577,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 577,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 0,
+      "x": -512,
+      "z": 577,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -642,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -642,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -642,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -640,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -640,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -640,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -639.98,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -639.98,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -639.98,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -638.5,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -638.5,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -638.5,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -638,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -638,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -638,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -637.98,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -637.98,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -637.98,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -514,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -514,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -514,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -510,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -510,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -510,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -386.02,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -386.02,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -386.02,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -386,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -386,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -386,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -385.5,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -385.5,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -385.5,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -384.02,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -384.02,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -384.02,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -384,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -384,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -384,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -382,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -382,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -382,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 382,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 382,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 382,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 384,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 384,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 384,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 384.02,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 384.02,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 384.02,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 385.5,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 385.5,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 385.5,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 386,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 386,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 386,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 386.02,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 386.02,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 386.02,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 510,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 510,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 510,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 514,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 514,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 514,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 637.98,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 637.98,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 637.98,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 638,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 638,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 638,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 638.5,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 638.5,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 638.5,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 639.98,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 639.98,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 639.98,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 640,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 640,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 640,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 642,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 642,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 1,
+      "x": -512,
+      "z": 642,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -772,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -772,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -772,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -768,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -768,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -768,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -767.96,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -767.96,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -767.96,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -765.0,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -765.0,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -765.0,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -764,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -764,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -764,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -763.96,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -763.96,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -763.96,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -516,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -516,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -516,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -508,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -508,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -508,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -260.03999999999996,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -260.03999999999996,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -260.03999999999996,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -260,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -260,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -260,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -259.0,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -259.0,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -259.0,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -256.03999999999996,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -256.03999999999996,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -256.03999999999996,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -256,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -256,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -256,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -252,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -252,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -252,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 252,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 252,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 252,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 256,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 256,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 256,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 256.03999999999996,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 256.03999999999996,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 256.03999999999996,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 259.0,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 259.0,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 259.0,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 260,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 260,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 260,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 260.03999999999996,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 260.03999999999996,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 260.03999999999996,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 508,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 508,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 508,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 516,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 516,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 516,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 763.96,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 763.96,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 763.96,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 764,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 764,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 764,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 765.0,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 765.0,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 765.0,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 767.96,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 767.96,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 767.96,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 768,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 768,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 768,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 772,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 772,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 2,
+      "x": -512,
+      "z": 772,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1032,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1032,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1032,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1024,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1024,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1024,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1023.9200000000001,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1023.9200000000001,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1023.9200000000001,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1018.0,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1018.0,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1018.0,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1016,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -1016,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1016,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -1015.9200000000001,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -1015.9200000000001,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -1015.9200000000001,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -520,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -520,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -520,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -504,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -504,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -504,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -8.079999999999984,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -8.079999999999984,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -8.079999999999984,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -8,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -8,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -8,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -6.0,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -6.0,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -6.0,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -0.07999999999998408,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -0.07999999999998408,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -0.07999999999998408,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": 0,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": 0,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": 0,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": 8,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": 8,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": 8,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": -8,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": -8,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": -8,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 0,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 0,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 0,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 0.07999999999998408,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 0.07999999999998408,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 0.07999999999998408,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 6.0,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 6.0,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 6.0,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 8,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 8,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 8,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 8.079999999999984,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 8.079999999999984,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 8.079999999999984,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 504,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 504,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 504,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 520,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 520,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 520,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1015.9200000000001,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1015.9200000000001,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1015.9200000000001,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1016,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1016,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1016,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1018.0,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1018.0,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1018.0,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1023.9200000000001,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1023.9200000000001,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1023.9200000000001,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1024,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1024,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1024,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1032,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1032,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 3,
+      "x": -512,
+      "z": 1032,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1552,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1552,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1552,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1536,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1536,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1536,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1535.8400000000001,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1535.8400000000001,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1535.8400000000001,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1524.0,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1524.0,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1524.0,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": -128,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1520,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -1520,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1520,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -1519.8400000000001,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -1519.8400000000001,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -1519.8400000000001,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -125,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -528,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -528,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -528,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": -1,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -496,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -496,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -496,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 2,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": 495.84000000000003,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": 495.84000000000003,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 495.84000000000003,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": 496,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": 496,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 496,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 126,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": 500.0,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 500.0,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 500.0,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 511.84000000000003,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 511.84000000000003,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 511.84000000000003,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 528,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 528,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": 528,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 127,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -528,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -528,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -528,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -512,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -512,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -512,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -511.84000000000003,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -511.84000000000003,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -511.84000000000003,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -500.0,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -500.0,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -500.0,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": -128,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -496,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -496,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -496,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -495.84000000000003,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -495.84000000000003,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": -495.84000000000003,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -125,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 496,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 496,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 496,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": -1,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 512,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 512,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 512,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 0,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 528,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 528,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 528,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 2,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1519.8400000000001,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1519.8400000000001,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1519.8400000000001,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1520,
+      "yaw": -181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1520,
+      "yaw": 0,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1520,
+      "yaw": 181,
+      "type": "PLAYER",
+      "iconX": 0,
+      "iconZ": 126,
+      "rotation": 8
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1524.0,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1524.0,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1524.0,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1535.8400000000001,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1535.8400000000001,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1535.8400000000001,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1536,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1536,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1536,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1552,
+      "yaw": -181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1552,
+      "yaw": 0,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    },
+    {
+      "scale": 4,
+      "x": -512,
+      "z": 1552,
+      "yaw": 181,
+      "type": "PLAYER_OFF_MAP",
+      "iconX": 0,
+      "iconZ": 127,
+      "rotation": 0
+    }
+  ]
+}

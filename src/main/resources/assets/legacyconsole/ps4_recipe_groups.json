@@ -1,0 +1,6605 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+  "input_kind": "Literal recipe result/category calls, block registration field 0x14c, and item registration field 0x28. Unknown dynamic outputs/constructor-inherited metadata omitted.",
+  "recipes": [
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a114b",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a11d8",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1272",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a130c",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a13a7",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1448",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a14ba",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a154a",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a15c9",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1648",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a16c7",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1746",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wood",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a17c2",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "wood",
+      "count": 3,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1848",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "wood",
+      "count": 3,
+      "aux": 2,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a18d0",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "wood",
+      "count": 3,
+      "aux": 3,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a195d",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "wood",
+      "count": 3,
+      "aux": 4,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a19e5",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "wood",
+      "count": 3,
+      "aux": 5,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1a73",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1aed",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1b71",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1bff",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1c86",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1d11",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "planks",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1d98",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stick",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1dee",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "stick",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1e37",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "shears",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x6f0583",
+      "function": "0x6f0120",
+      "format": "sscig"
+    },
+    {
+      "name": "golden_apple",
+      "count": 1,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x2f60d7",
+      "function": "0x2f6060",
+      "format": "ssscicig"
+    },
+    {
+      "name": "golden_apple",
+      "count": 1,
+      "aux": 1,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x2f613e",
+      "function": "0x2f6060",
+      "format": "sssctcig"
+    },
+    {
+      "name": "speckled_melon",
+      "count": 1,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x2f61aa",
+      "function": "0x2f6060",
+      "format": "ssscicig"
+    },
+    {
+      "name": "cookie",
+      "count": 8,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x2f628f",
+      "function": "0x2f6060",
+      "format": "sczcig"
+    },
+    {
+      "name": "melon_block",
+      "count": 1,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x2f6418",
+      "function": "0x2f6060",
+      "format": "ssscig"
+    },
+    {
+      "name": "melon_seeds",
+      "count": 1,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x2f64c7",
+      "function": "0x2f6060",
+      "format": "scig"
+    },
+    {
+      "name": "pumpkin_seeds",
+      "count": 4,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x2f651c",
+      "function": "0x2f6060",
+      "format": "sctg"
+    },
+    {
+      "name": "golden_carrot",
+      "count": 1,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x2f65d7",
+      "function": "0x2f6060",
+      "format": "ssscicig"
+    },
+    {
+      "name": "quartz_block",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1eb3",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "sandstone",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c61ce",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "red_sandstone",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c624c",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "sandstone",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c62e6",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "red_sandstone",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c637a",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "sandstone",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6418",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "red_sandstone",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c64af",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "quartz_block",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6546",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "quartz_block",
+      "count": 2,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c65db",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "crafting_table",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6634",
+      "function": "0x6c6140",
+      "format": "ssctg"
+    },
+    {
+      "name": "furnace",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c668e",
+      "function": "0x6c6140",
+      "format": "sssctg"
+    },
+    {
+      "name": "fletching_table",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c66f6",
+      "function": "0x6c6140",
+      "format": "ssscictg"
+    },
+    {
+      "name": "smithing_table",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6754",
+      "function": "0x6c6140",
+      "format": "ssscictg"
+    },
+    {
+      "name": "cartography_table",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c67b2",
+      "function": "0x6c6140",
+      "format": "ssscictg"
+    },
+    {
+      "name": "chest",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6808",
+      "function": "0x6c6140",
+      "format": "sssctg"
+    },
+    {
+      "name": "ender_chest",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c68b3",
+      "function": "0x6c6140",
+      "format": "sssctcig"
+    },
+    {
+      "name": "barrel",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c691c",
+      "function": "0x6c6140",
+      "format": "ssscictg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c69b6",
+      "function": "0x6c6140",
+      "format": "ssscictczg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6a53",
+      "function": "0x6c6140",
+      "format": "ssscictczg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6af0",
+      "function": "0x6c6140",
+      "format": "ssscictczg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6bb0",
+      "function": "0x6c6140",
+      "format": "sssciczczg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6c67",
+      "function": "0x6c6140",
+      "format": "sssciczczg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6d27",
+      "function": "0x6c6140",
+      "format": "sssciczczg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6de1",
+      "function": "0x6c6140",
+      "format": "sssciczczg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6e98",
+      "function": "0x6c6140",
+      "format": "sssciczczg"
+    },
+    {
+      "name": "campfire",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6f4f",
+      "function": "0x6c6140",
+      "format": "sssciczczg"
+    },
+    {
+      "name": "stonebrick",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c6fd9",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "stonebrick",
+      "count": 1,
+      "aux": [
+        "global",
+        20976476
+      ],
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c7065",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "glass_pane",
+      "count": 16,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x6c7183",
+      "function": "0x6c6140",
+      "format": "ssctg"
+    },
+    {
+      "name": "nether_brick",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c71db",
+      "function": "0x6c6140",
+      "format": "sscig"
+    },
+    {
+      "name": "red_nether_brick",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c723f",
+      "function": "0x6c6140",
+      "format": "sscicig"
+    },
+    {
+      "name": "redstone_lamp",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x6c72ad",
+      "function": "0x6c6140",
+      "format": "ssscictg"
+    },
+    {
+      "name": "beacon",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x6c7326",
+      "function": "0x6c6140",
+      "format": "sssctcictg"
+    },
+    {
+      "name": "stone",
+      "count": 2,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c73a0",
+      "function": "0x6c6140",
+      "format": "ssctcig"
+    },
+    {
+      "name": "dirt",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c756c",
+      "function": "0x6c6140",
+      "format": "ssczctg"
+    },
+    {
+      "name": "stone",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c7609",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "stone",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c769f",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "stone",
+      "count": 4,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c7738",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "prismarine",
+      "count": 1,
+      "aux": [
+        "global",
+        20976264
+      ],
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c779e",
+      "function": "0x6c6140",
+      "format": "sscig"
+    },
+    {
+      "name": "prismarine",
+      "count": 1,
+      "aux": [
+        "global",
+        20976268
+      ],
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c77fa",
+      "function": "0x6c6140",
+      "format": "ssscig"
+    },
+    {
+      "name": "prismarine",
+      "count": 1,
+      "aux": [
+        "global",
+        20976272
+      ],
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c7882",
+      "function": "0x6c6140",
+      "format": "sssciczg"
+    },
+    {
+      "name": "prismarine",
+      "count": 1,
+      "aux": [
+        "global",
+        20976272
+      ],
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c7914",
+      "function": "0x6c6140",
+      "format": "sssciczg"
+    },
+    {
+      "name": "purpur_block",
+      "count": 4,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x6c796e",
+      "function": "0x6c6140",
+      "format": "sscig"
+    },
+    {
+      "name": "purpur_pillar",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c79f8",
+      "function": "0x6c6140",
+      "format": "ssczg"
+    },
+    {
+      "name": "end_bricks",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6c7a55",
+      "function": "0x6c6140",
+      "format": "ssctg"
+    },
+    {
+      "name": "magma",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x6c7aab",
+      "function": "0x6c6140",
+      "format": "sscig"
+    },
+    {
+      "name": "nether_wart_block",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x6c7b07",
+      "function": "0x6c6140",
+      "format": "ssscig"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6818b2",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "andesite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68192e",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6819c1",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681a27",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "brick_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681a72",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681adb",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681b3d",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "cobblestone_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681b8b",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681bf1",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 2,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681c89",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "dark_prismarine_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681d12",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681da2",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "diorite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681e1e",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681eae",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "end_bricks",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681f0c",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681f65",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "end_brick_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x681fb4",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682021",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68208b",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "end_brick_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6820da",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682140",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6821db",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "granite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682257",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6822eb",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682375",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "mossy_cobblestone_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6823c8",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68242e",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6824be",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "mossy_stone_brick_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68253a",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6825cd",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682633",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "nether_brick_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682688",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6826ee",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone",
+      "count": 1,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682780",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68280a",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_andesite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682884",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682912",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_andesite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68298c",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone",
+      "count": 1,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682a14",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682aa1",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_diorite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682b1d",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682bb7",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_diorite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682c34",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone",
+      "count": 1,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682cba",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682d4b",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_granite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682dc7",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682e68",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_granite_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682ee2",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 2,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x682f83",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "prismarine_bricks_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68300c",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 2,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6830aa",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "prismarine_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683133",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6831d8",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "purpur_pillar",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683233",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68329a",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "purpur_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6832eb",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "quartz_block",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683389",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "quartz_block",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683423",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6834bb",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "quartz_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68354c",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6835ca",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683641",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "red_nether_brick_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68368f",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "red_sandstone",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68372c",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "red_sandstone",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6837c2",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68385d",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6838f4",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683988",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683a2a",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "red_sandstone_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683aaf",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "sandstone",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683b4e",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "sandstone",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683be4",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683c85",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683d19",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683db8",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683e56",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "sandstone_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683edd",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x683f7c",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_quartz_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x684003",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6840a3",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_red_sandstone_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68412a",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6841be",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "smooth_sandstone_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68424f",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6842b5",
+      "function": "0x681810",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68434d",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6843c9",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stonebrick",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68444d",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stonebrick",
+      "count": 1,
+      "aux": [
+        "global",
+        20976476
+      ],
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6844c6",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x684546",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6845d1",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_brick_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x684640",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 2,
+      "aux": 1,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6846ca",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 1,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x68474d",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_brick_stairs",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x6847bc",
+      "function": "0x681810",
+      "format": "sczg"
+    },
+    {
+      "name": "undyed_shulker_box",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x61eafa",
+      "function": "0x61ea90",
+      "format": "ssscictg"
+    },
+    {
+      "name": "bed",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a1f86",
+      "function": "0x5a0740",
+      "format": "ssczctg"
+    },
+    {
+      "name": "enchanting_table",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2010",
+      "function": "0x5a0740",
+      "format": "sssctcicig"
+    },
+    {
+      "name": "anvil",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2085",
+      "function": "0x5a0740",
+      "format": "sssctcig"
+    },
+    {
+      "name": "grindstone",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a212d",
+      "function": "0x5a0740",
+      "format": "ssciczctg"
+    },
+    {
+      "name": "ladder",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a218f",
+      "function": "0x5a0740",
+      "format": "ssscig"
+    },
+    {
+      "name": "scaffolding",
+      "count": 6,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a21fb",
+      "function": "0x5a0740",
+      "format": "sssctcig"
+    },
+    {
+      "name": "fence",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a228c",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "birch_fence",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2324",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "spruce_fence",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a23bc",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "jungle_fence",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2454",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "acacia_fence",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a24ec",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "dark_oak_fence",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a258c",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2601",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2663",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a26f9",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2792",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2802",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a289d",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2934",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a29d5",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2a65",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2af9",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2b5e",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2bc9",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2c37",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "cobblestone_wall",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2cce",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "nether_brick_fence",
+      "count": 6,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2d37",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "iron_bars",
+      "count": 16,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2d8a",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "fence_gate",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2e2d",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "birch_fence_gate",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2ebf",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "spruce_fence_gate",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2f65",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "jungle_fence_gate",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a2ffd",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "acacia_fence_gate",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a309c",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "dark_oak_fence_gate",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3134",
+      "function": "0x5a0740",
+      "format": "ssciczg"
+    },
+    {
+      "name": "wooden_door",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a31c8",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "birch_door",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a324e",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "spruce_door",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a32d4",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "jungle_door",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a335a",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "acacia_door",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a33e0",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "dark_oak_door",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a346e",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "iron_door",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a34c4",
+      "function": "0x5a0740",
+      "format": "ssscig"
+    },
+    {
+      "name": "trapdoor",
+      "count": 2,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3555",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "spruce_trapdoor",
+      "count": 2,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a35d8",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "birch_trapdoor",
+      "count": 2,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a365f",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "jungle_trapdoor",
+      "count": 2,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a36df",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "acacia_trapdoor",
+      "count": 2,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a375f",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "dark_oak_trapdoor",
+      "count": 2,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a37e7",
+      "function": "0x5a0740",
+      "format": "ssczg"
+    },
+    {
+      "name": "iron_trapdoor",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3841",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "oak_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a38c9",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "birch_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a395c",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "spruce_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a39eb",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "jungle_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3a79",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "acacia_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3b0e",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "dark_oak_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3baa",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "cobblestone_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3c0a",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "mossy_cobblestone_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3c6a",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "brick_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3cc0",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "stone_brick_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3d5d",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "mossy_stone_brick_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3df5",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "nether_brick_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3e4b",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "sandstone_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3ece",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "red_sandstone_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3f51",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "quartz_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a3fd7",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "purpur_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a403a",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "purpur_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4093",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "prismarine_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4123",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "prismarine_bricks_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a41ab",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "dark_prismarine_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4230",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "stone_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a42d0",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "mossy_cobblestone_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a432a",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "andesite_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a43c7",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "diorite_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4453",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "granite_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a44e8",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "smooth_andesite_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4576",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "smooth_diorite_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4608",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "smooth_granite_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a46a7",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "smooth_quartz_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4734",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "smooth_sandstone_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a47b7",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "smooth_red_sandstone_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4845",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "red_nether_brick_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a48a5",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "end_brick_stairs",
+      "count": 4,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4902",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "leather_horse_armor",
+      "count": 1,
+      "aux": 0,
+      "tab": 3,
+      "group": "A",
+      "pc": "0x35231",
+      "function": "0x34df0",
+      "format": "ssscig"
+    },
+    {
+      "name": "stained_hardened_clay",
+      "count": 8,
+      "aux": [
+        "global",
+        15227744
+      ],
+      "tab": 6,
+      "group": "D",
+      "pc": "0x1a5dfe",
+      "function": "0x1a5ca0",
+      "format": "sssczczg"
+    },
+    {
+      "name": "stained_glass",
+      "count": 8,
+      "aux": [
+        "global",
+        15227744
+      ],
+      "tab": 6,
+      "group": "D",
+      "pc": "0x1a600e",
+      "function": "0x1a5ca0",
+      "format": "sssczczg"
+    },
+    {
+      "name": "stained_glass_pane",
+      "count": 16,
+      "aux": 15,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x1a60a8",
+      "function": "0x1a5ca0",
+      "format": "ssczg"
+    },
+    {
+      "name": "stained_glass_pane",
+      "count": 8,
+      "aux": [
+        "global",
+        15227744
+      ],
+      "tab": 6,
+      "group": "D",
+      "pc": "0x1a614f",
+      "function": "0x1a5ca0",
+      "format": "sssctczg"
+    },
+    {
+      "name": "carpet",
+      "count": 3,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x1a7ed7",
+      "function": "0x1a5ca0",
+      "format": "sczg"
+    },
+    {
+      "name": "carpet",
+      "count": 8,
+      "aux": [
+        "global",
+        15227744
+      ],
+      "tab": 6,
+      "group": "D",
+      "pc": "0x1a7fa9",
+      "function": "0x1a5ca0",
+      "format": "sssczczg"
+    },
+    {
+      "name": "snow",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4981",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "snow_layer",
+      "count": 6,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a49cf",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "clay",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4a26",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "brick_block",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4a80",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "wool",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a4acf",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "tnt",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a4b40",
+      "function": "0x5a0740",
+      "format": "ssscictg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4bb3",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4c18",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4c84",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4d21",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4d8d",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4e21",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4eba",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4f50",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a4fe4",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5078",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5117",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a51b1",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5252",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a52f3",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a538e",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_3",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a542e",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a54c4",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5538",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a559d",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5641",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a56d3",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5770",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5804",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a589b",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_4",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a58fe",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 6,
+      "aux": 48,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5990",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 6,
+      "aux": 48,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5a15",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 6,
+      "aux": 48,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5a9d",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5b26",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5bab",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_slab_2",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5c3a",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wooden_slab",
+      "count": 6,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5cca",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wooden_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5d63",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wooden_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5dfc",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wooden_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5e95",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wooden_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5f2e",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wooden_slab",
+      "count": 6,
+      "aux": null,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a5fce",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "cake",
+      "count": 1,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x5a6059",
+      "function": "0x5a0740",
+      "format": "ssscicicicig"
+    },
+    {
+      "name": "sugar",
+      "count": 1,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x5a60ab",
+      "function": "0x5a0740",
+      "format": "scig"
+    },
+    {
+      "name": "rail",
+      "count": 16,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a611e",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "golden_rail",
+      "count": 6,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a6195",
+      "function": "0x5a0740",
+      "format": "ssscicicig"
+    },
+    {
+      "name": "activator_rail",
+      "count": 6,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a620a",
+      "function": "0x5a0740",
+      "format": "ssscictcig"
+    },
+    {
+      "name": "detector_rail",
+      "count": 6,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a6284",
+      "function": "0x5a0740",
+      "format": "ssscicictg"
+    },
+    {
+      "name": "minecart",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a62da",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "chest_minecart",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a634c",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "furnace_minecart",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a63ac",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "tnt_minecart",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a6412",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "hopper_minecart",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a646f",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "boat",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a6510",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "spruce_boat",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a65ad",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "birch_boat",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a6648",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "jungle_boat",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a66dc",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "acacia_boat",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a6770",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "dark_oak_boat",
+      "count": 1,
+      "aux": 0,
+      "tab": 5,
+      "group": "V",
+      "pc": "0x5a680a",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "fishing_rod",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a687b",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "carrot_on_a_stick",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a68df",
+      "function": "0x5a0740",
+      "format": "sscicig"
+    },
+    {
+      "name": "bread",
+      "count": 1,
+      "aux": 0,
+      "tab": 2,
+      "group": "F",
+      "pc": "0x5a69c7",
+      "function": "0x5a0740",
+      "format": "scig"
+    },
+    {
+      "name": "bow",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6a36",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "crossbow",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6aac",
+      "function": "0x5a0740",
+      "format": "ssscicicictg"
+    },
+    {
+      "name": "arrow",
+      "count": 4,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6b23",
+      "function": "0x5a0740",
+      "format": "ssscicicig"
+    },
+    {
+      "name": "shield",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6bb1",
+      "function": "0x5a0740",
+      "format": "sssctcig"
+    },
+    {
+      "name": "bucket",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6c12",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "bowl",
+      "count": 4,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6c68",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "glass_bottle",
+      "count": 3,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6cbf",
+      "function": "0x5a0740",
+      "format": "ssctg"
+    },
+    {
+      "name": "flower_pot",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a6d12",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "torch",
+      "count": 4,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6da6",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "torch",
+      "count": 4,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6e2d",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "lantern",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6e9a",
+      "function": "0x5a0740",
+      "format": "ssscictg"
+    },
+    {
+      "name": "glowstone",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6ef2",
+      "function": "0x5a0740",
+      "format": "sscig"
+    },
+    {
+      "name": "sea_lantern",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a6f62",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "lever",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a6fc4",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "tripwire_hook",
+      "count": 2,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7038",
+      "function": "0x5a0740",
+      "format": "sssctcicig"
+    },
+    {
+      "name": "redstone_torch",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7098",
+      "function": "0x5a0740",
+      "format": "sscicig"
+    },
+    {
+      "name": "repeater",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a710f",
+      "function": "0x5a0740",
+      "format": "ssctcictg"
+    },
+    {
+      "name": "comparator",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7187",
+      "function": "0x5a0740",
+      "format": "sssctcictg"
+    },
+    {
+      "name": "daylight_detector",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a71fd",
+      "function": "0x5a0740",
+      "format": "sssctcictg"
+    },
+    {
+      "name": "end_crystal",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7272",
+      "function": "0x5a0740",
+      "format": "sssctcicig"
+    },
+    {
+      "name": "hopper",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a72e0",
+      "function": "0x5a0740",
+      "format": "ssscictg"
+    },
+    {
+      "name": "clock",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a734f",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "armor_stand",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a751e",
+      "function": "0x5a0740",
+      "format": "sssciczg"
+    },
+    {
+      "name": "end_rod",
+      "count": 4,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a758c",
+      "function": "0x5a0740",
+      "format": "sscicig"
+    },
+    {
+      "name": "bone_block",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a7607",
+      "function": "0x5a0740",
+      "format": "sssczg"
+    },
+    {
+      "name": "lead",
+      "count": 2,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a767b",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "compass",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a76e9",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "map",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a7748",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "stone_button",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a77c4",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wooden_button",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7859",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "acacia_button",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a78df",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "birch_button",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a796a",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "dark_oak_button",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a79f1",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "jungle_button",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7a7c",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "spruce_button",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7b01",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "wooden_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7b8e",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "acacia_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7c1b",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "birch_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7ca8",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "dark_oak_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7d2e",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "jungle_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7dbb",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "spruce_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7e3f",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "stone_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7ecc",
+      "function": "0x5a0740",
+      "format": "sczg"
+    },
+    {
+      "name": "heavy_weighted_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7f24",
+      "function": "0x5a0740",
+      "format": "scig"
+    },
+    {
+      "name": "light_weighted_pressure_plate",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7f75",
+      "function": "0x5a0740",
+      "format": "scig"
+    },
+    {
+      "name": "dispenser",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a7ffc",
+      "function": "0x5a0740",
+      "format": "sssctcicig"
+    },
+    {
+      "name": "dropper",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a8063",
+      "function": "0x5a0740",
+      "format": "sssctcig"
+    },
+    {
+      "name": "observer",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a80cf",
+      "function": "0x5a0740",
+      "format": "sssctcicig"
+    },
+    {
+      "name": "cauldron",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a812f",
+      "function": "0x5a0740",
+      "format": "ssscig"
+    },
+    {
+      "name": "composter",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a8186",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "brewing_stand",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a81fb",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "lectern",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a825e",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "loom",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a82ca",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "stonecutter2",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a832c",
+      "function": "0x5a0740",
+      "format": "ssctcig"
+    },
+    {
+      "name": "blastfurnace",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a839f",
+      "function": "0x5a0740",
+      "format": "sssctctcig"
+    },
+    {
+      "name": "smoker",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a840c",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "smoker",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a846b",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "smoker",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a84ca",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "smoker",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a8529",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "smoker",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a8588",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "smoker",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a85e7",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "smoker",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a864e",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "smoker",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a86ae",
+      "function": "0x5a0740",
+      "format": "sssctctg"
+    },
+    {
+      "name": "lit_pumpkin",
+      "count": 1,
+      "aux": 0,
+      "tab": 1,
+      "group": "T",
+      "pc": "0x5a8718",
+      "function": "0x5a0740",
+      "format": "ssctctg"
+    },
+    {
+      "name": "jukebox",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a878a",
+      "function": "0x5a0740",
+      "format": "sssctcig"
+    },
+    {
+      "name": "paper",
+      "count": 3,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a87e2",
+      "function": "0x5a0740",
+      "format": "scig"
+    },
+    {
+      "name": "noteblock",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a8975",
+      "function": "0x5a0740",
+      "format": "sssctcig"
+    },
+    {
+      "name": "bookshelf",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a89d3",
+      "function": "0x5a0740",
+      "format": "sssctcig"
+    },
+    {
+      "name": "painting",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a8cdb",
+      "function": "0x5a0740",
+      "format": "ssscictg"
+    },
+    {
+      "name": "item_frame",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a8d39",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "dried_kelp_block",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a8d90",
+      "function": "0x5a0740",
+      "format": "ssscig"
+    },
+    {
+      "name": "dried_kelp",
+      "count": 9,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a8dde",
+      "function": "0x5a0740",
+      "format": "sctg"
+    },
+    {
+      "name": "packed_ice",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a8e38",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "blue_ice",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a8e8a",
+      "function": "0x5a0740",
+      "format": "sssctg"
+    },
+    {
+      "name": "conduit",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a8ef4",
+      "function": "0x5a0740",
+      "format": "ssscicig"
+    },
+    {
+      "name": "string",
+      "count": 9,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x50576b",
+      "function": "0x505630",
+      "format": "sctbg"
+    },
+    {
+      "name": "gold_ingot",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5057c6",
+      "function": "0x505630",
+      "format": "ssscig"
+    },
+    {
+      "name": "gold_nugget",
+      "count": 9,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x505813",
+      "function": "0x505630",
+      "format": "scig"
+    },
+    {
+      "name": "iron_ingot",
+      "count": 1,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x505867",
+      "function": "0x505630",
+      "format": "ssscig"
+    },
+    {
+      "name": "iron_nugget",
+      "count": 9,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5058b4",
+      "function": "0x505630",
+      "format": "scig"
+    },
+    {
+      "name": "sign",
+      "count": 3,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a8f98",
+      "function": "0x5a0740",
+      "format": "sssczcig"
+    },
+    {
+      "name": "sign_spruce",
+      "count": 3,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a901b",
+      "function": "0x5a0740",
+      "format": "sssczcig"
+    },
+    {
+      "name": "sign_birch",
+      "count": 3,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a90ac",
+      "function": "0x5a0740",
+      "format": "sssczcig"
+    },
+    {
+      "name": "sign_acacia",
+      "count": 3,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a9130",
+      "function": "0x5a0740",
+      "format": "sssczcig"
+    },
+    {
+      "name": "sign_jungle",
+      "count": 3,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a91ba",
+      "function": "0x5a0740",
+      "format": "sssczcig"
+    },
+    {
+      "name": "sign_dark_oak",
+      "count": 3,
+      "aux": 0,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x5a9244",
+      "function": "0x5a0740",
+      "format": "sssczcig"
+    },
+    {
+      "name": "piston",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a92ce",
+      "function": "0x5a0740",
+      "format": "sssctcicictg"
+    },
+    {
+      "name": "sticky_piston",
+      "count": 1,
+      "aux": 0,
+      "tab": 4,
+      "group": "M",
+      "pc": "0x5a9332",
+      "function": "0x5a0740",
+      "format": "sscictg"
+    },
+    {
+      "name": "firework_charge",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a93c8",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "firework_charge",
+      "count": 1,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a945b",
+      "function": "0x5a0740",
+      "format": "ssczcig"
+    },
+    {
+      "name": "fireworks",
+      "count": 3,
+      "aux": 0,
+      "tab": 0,
+      "group": "S",
+      "pc": "0x5a94cf",
+      "function": "0x5a0740",
+      "format": "sscicig"
+    },
+    {
+      "name": "banner",
+      "count": 1,
+      "aux": null,
+      "tab": 6,
+      "group": "D",
+      "pc": "0x4dacb",
+      "function": "0x4d9d0",
+      "format": "sssczcig"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "stone",
+      "id": 1,
+      "base_type": 14,
+      "material": 2,
+      "registration_pc": "0x95bed"
+    },
+    {
+      "name": "grass",
+      "id": 2,
+      "base_type": 13,
+      "material": 58,
+      "registration_pc": "0x95d4f"
+    },
+    {
+      "name": "dirt",
+      "id": 3,
+      "base_type": 13,
+      "material": 58,
+      "registration_pc": "0x95ec7"
+    },
+    {
+      "name": "cobblestone",
+      "id": 4,
+      "base_type": 14,
+      "material": 2,
+      "registration_pc": "0x96177"
+    },
+    {
+      "name": "smoothstone",
+      "id": 322,
+      "base_type": 14,
+      "material": 2,
+      "registration_pc": "0x963de"
+    },
+    {
+      "name": "planks",
+      "id": 5,
+      "base_type": 50,
+      "material": 1,
+      "registration_pc": "0x9657c"
+    },
+    {
+      "name": "sand",
+      "id": 12,
+      "base_type": 13,
+      "material": 13,
+      "registration_pc": "0x97103"
+    },
+    {
+      "name": "glass",
+      "id": 20,
+      "base_type": 42,
+      "material": 34,
+      "registration_pc": "0x97c54"
+    },
+    {
+      "name": "lapis_block",
+      "id": 22,
+      "base_type": 32,
+      "material": 10,
+      "registration_pc": "0x98035"
+    },
+    {
+      "name": "dispenser",
+      "id": 23,
+      "base_type": 51,
+      "material": 2,
+      "registration_pc": "0x981bd"
+    },
+    {
+      "name": "sandstone",
+      "id": 24,
+      "base_type": 13,
+      "material": 13,
+      "registration_pc": "0x98371"
+    },
+    {
+      "name": "noteblock",
+      "id": 25,
+      "base_type": 56,
+      "material": 0,
+      "registration_pc": "0x984e3"
+    },
+    {
+      "name": "golden_rail",
+      "id": 27,
+      "base_type": 12,
+      "material": 9,
+      "registration_pc": "0x987fb"
+    },
+    {
+      "name": "detector_rail",
+      "id": 28,
+      "base_type": 12,
+      "material": 8,
+      "registration_pc": "0x98990"
+    },
+    {
+      "name": "sticky_piston",
+      "id": 29,
+      "base_type": 27,
+      "material": 28,
+      "registration_pc": "0x98af4"
+    },
+    {
+      "name": "piston",
+      "id": 33,
+      "base_type": 27,
+      "material": 28,
+      "registration_pc": "0x9909e"
+    },
+    {
+      "name": "wool",
+      "id": 35,
+      "base_type": 49,
+      "material": 55,
+      "registration_pc": "0x99317"
+    },
+    {
+      "name": "gold_block",
+      "id": 41,
+      "base_type": 32,
+      "material": 4,
+      "registration_pc": "0x99c98"
+    },
+    {
+      "name": "iron_block",
+      "id": 42,
+      "base_type": 32,
+      "material": 3,
+      "registration_pc": "0x99f09"
+    },
+    {
+      "name": "double_stone_slab",
+      "id": 43,
+      "base_type": 21,
+      "material": 2,
+      "registration_pc": "0x9a095"
+    },
+    {
+      "name": "stone_slab",
+      "id": 44,
+      "base_type": 22,
+      "material": 2,
+      "registration_pc": "0x9a221"
+    },
+    {
+      "name": "brick_block",
+      "id": 45,
+      "base_type": 13,
+      "material": 14,
+      "registration_pc": "0x9a4ab"
+    },
+    {
+      "name": "tnt",
+      "id": 46,
+      "base_type": 28,
+      "material": 0,
+      "registration_pc": "0x9a608"
+    },
+    {
+      "name": "bookshelf",
+      "id": 47,
+      "base_type": 46,
+      "material": 52,
+      "registration_pc": "0x9a8b3"
+    },
+    {
+      "name": "mossy_cobblestone",
+      "id": 48,
+      "base_type": 14,
+      "material": 2,
+      "registration_pc": "0x9ab2d"
+    },
+    {
+      "name": "obsidian",
+      "id": 49,
+      "base_type": 13,
+      "material": 2,
+      "registration_pc": "0x9acb3"
+    },
+    {
+      "name": "torch",
+      "id": 50,
+      "base_type": 23,
+      "material": 1,
+      "registration_pc": "0x9ae47"
+    },
+    {
+      "name": "oak_stairs",
+      "id": 53,
+      "base_type": 16,
+      "material": 1,
+      "registration_pc": "0x9b31c"
+    },
+    {
+      "name": "chest",
+      "id": 54,
+      "base_type": 36,
+      "material": 1,
+      "registration_pc": "0x9b4a7"
+    },
+    {
+      "name": "diamond_block",
+      "id": 57,
+      "base_type": 32,
+      "material": 5,
+      "registration_pc": "0x9ba22"
+    },
+    {
+      "name": "crafting_table",
+      "id": 58,
+      "base_type": 30,
+      "material": 1,
+      "registration_pc": "0x9bb9a"
+    },
+    {
+      "name": "furnace",
+      "id": 61,
+      "base_type": 30,
+      "material": 2,
+      "registration_pc": "0x9c005"
+    },
+    {
+      "name": "ladder",
+      "id": 65,
+      "base_type": 48,
+      "material": 1,
+      "registration_pc": "0x9c63f"
+    },
+    {
+      "name": "rail",
+      "id": 66,
+      "base_type": 12,
+      "material": 9,
+      "registration_pc": "0x9c7d4"
+    },
+    {
+      "name": "stone_stairs",
+      "id": 323,
+      "base_type": 16,
+      "material": 2,
+      "registration_pc": "0x9c93f"
+    },
+    {
+      "name": "lever",
+      "id": 69,
+      "base_type": 45,
+      "material": 1,
+      "registration_pc": "0x9cc4e"
+    },
+    {
+      "name": "stone_pressure_plate",
+      "id": 70,
+      "base_type": 15,
+      "material": 2,
+      "registration_pc": "0x9cdd4"
+    },
+    {
+      "name": "wooden_pressure_plate",
+      "id": 72,
+      "base_type": 15,
+      "material": 1,
+      "registration_pc": "0x9d0e2"
+    },
+    {
+      "name": "stone_button",
+      "id": 77,
+      "base_type": 35,
+      "material": 2,
+      "registration_pc": "0x9d8aa"
+    },
+    {
+      "name": "snow_layer",
+      "id": 78,
+      "base_type": 13,
+      "material": 16,
+      "registration_pc": "0x9da3f"
+    },
+    {
+      "name": "snow",
+      "id": 80,
+      "base_type": 13,
+      "material": 16,
+      "registration_pc": "0x9dd36"
+    },
+    {
+      "name": "clay",
+      "id": 82,
+      "base_type": 13,
+      "material": 15,
+      "registration_pc": "0x9e01a"
+    },
+    {
+      "name": "jukebox",
+      "id": 84,
+      "base_type": 53,
+      "material": 0,
+      "registration_pc": "0x9e32b"
+    },
+    {
+      "name": "fence",
+      "id": 85,
+      "base_type": 29,
+      "material": 1,
+      "registration_pc": "0x9e4c4"
+    },
+    {
+      "name": "glowstone",
+      "id": 89,
+      "base_type": 23,
+      "material": 23,
+      "registration_pc": "0x9ec09"
+    },
+    {
+      "name": "lit_pumpkin",
+      "id": 91,
+      "base_type": 23,
+      "material": 22,
+      "registration_pc": "0x9ef1d"
+    },
+    {
+      "name": "unpowered_repeater",
+      "id": 93,
+      "base_type": 59,
+      "material": 0,
+      "registration_pc": "0x9f239"
+    },
+    {
+      "name": "powered_repeater",
+      "id": 94,
+      "base_type": 59,
+      "material": 0,
+      "registration_pc": "0x9f3d8"
+    },
+    {
+      "name": "stained_glass",
+      "id": 95,
+      "base_type": 42,
+      "material": 34,
+      "registration_pc": "0x9f563"
+    },
+    {
+      "name": "trapdoor",
+      "id": 96,
+      "base_type": 6,
+      "material": 25,
+      "registration_pc": "0x9f708"
+    },
+    {
+      "name": "stonebrick",
+      "id": 98,
+      "base_type": 14,
+      "material": 31,
+      "registration_pc": "0x9fa00"
+    },
+    {
+      "name": "iron_bars",
+      "id": 101,
+      "base_type": 29,
+      "material": 3,
+      "registration_pc": "0x9fec5"
+    },
+    {
+      "name": "glass_pane",
+      "id": 102,
+      "base_type": 42,
+      "material": 34,
+      "registration_pc": "0xa0074"
+    },
+    {
+      "name": "fence_gate",
+      "id": 107,
+      "base_type": 47,
+      "material": 1,
+      "registration_pc": "0xa0847"
+    },
+    {
+      "name": "brick_stairs",
+      "id": 108,
+      "base_type": 16,
+      "material": 14,
+      "registration_pc": "0xa09b8"
+    },
+    {
+      "name": "stone_brick_stairs",
+      "id": 109,
+      "base_type": 16,
+      "material": 31,
+      "registration_pc": "0xa0b8d"
+    },
+    {
+      "name": "nether_brick",
+      "id": 112,
+      "base_type": 13,
+      "material": 32,
+      "registration_pc": "0xa0ffe"
+    },
+    {
+      "name": "nether_brick_fence",
+      "id": 113,
+      "base_type": 29,
+      "material": 32,
+      "registration_pc": "0xa1175"
+    },
+    {
+      "name": "nether_brick_stairs",
+      "id": 114,
+      "base_type": 16,
+      "material": 32,
+      "registration_pc": "0xa12e0"
+    },
+    {
+      "name": "enchanting_table",
+      "id": 116,
+      "base_type": 30,
+      "material": 36,
+      "registration_pc": "0xa15a9"
+    },
+    {
+      "name": "brewing_stand",
+      "id": 117,
+      "base_type": 30,
+      "material": 35,
+      "registration_pc": "0xa172d"
+    },
+    {
+      "name": "redstone_lamp",
+      "id": 123,
+      "base_type": 56,
+      "material": 0,
+      "registration_pc": "0xa208f"
+    },
+    {
+      "name": "lit_redstone_lamp",
+      "id": 124,
+      "base_type": 56,
+      "material": 0,
+      "registration_pc": "0xa2209"
+    },
+    {
+      "name": "double_wooden_slab",
+      "id": 125,
+      "base_type": 21,
+      "material": 1,
+      "registration_pc": "0xa2393"
+    },
+    {
+      "name": "wooden_slab",
+      "id": 126,
+      "base_type": 22,
+      "material": 1,
+      "registration_pc": "0xa251d"
+    },
+    {
+      "name": "sandstone_stairs",
+      "id": 128,
+      "base_type": 16,
+      "material": 13,
+      "registration_pc": "0xa287a"
+    },
+    {
+      "name": "ender_chest",
+      "id": 130,
+      "base_type": 36,
+      "material": 33,
+      "registration_pc": "0xa2ba3"
+    },
+    {
+      "name": "tripwire_hook",
+      "id": 131,
+      "base_type": 45,
+      "material": 0,
+      "registration_pc": "0xa2d00"
+    },
+    {
+      "name": "emerald_block",
+      "id": 133,
+      "base_type": 32,
+      "material": 44,
+      "registration_pc": "0xa30bd"
+    },
+    {
+      "name": "spruce_stairs",
+      "id": 134,
+      "base_type": 16,
+      "material": 39,
+      "registration_pc": "0xa3287"
+    },
+    {
+      "name": "birch_stairs",
+      "id": 135,
+      "base_type": 16,
+      "material": 40,
+      "registration_pc": "0xa3451"
+    },
+    {
+      "name": "jungle_stairs",
+      "id": 136,
+      "base_type": 16,
+      "material": 41,
+      "registration_pc": "0xa361b"
+    },
+    {
+      "name": "beacon",
+      "id": 138,
+      "base_type": 61,
+      "material": 34,
+      "registration_pc": "0xa38f5"
+    },
+    {
+      "name": "cobblestone_wall",
+      "id": 139,
+      "base_type": 29,
+      "material": 2,
+      "registration_pc": "0xa3a48"
+    },
+    {
+      "name": "wooden_button",
+      "id": 143,
+      "base_type": 35,
+      "material": 1,
+      "registration_pc": "0xa3fe1"
+    },
+    {
+      "name": "anvil",
+      "id": 145,
+      "base_type": 30,
+      "material": 3,
+      "registration_pc": "0xa42db"
+    },
+    {
+      "name": "trapped_chest",
+      "id": 146,
+      "base_type": 36,
+      "material": 25,
+      "registration_pc": "0xa4406"
+    },
+    {
+      "name": "light_weighted_pressure_plate",
+      "id": 147,
+      "base_type": 15,
+      "material": 4,
+      "registration_pc": "0xa4579"
+    },
+    {
+      "name": "heavy_weighted_pressure_plate",
+      "id": 148,
+      "base_type": 15,
+      "material": 3,
+      "registration_pc": "0xa46f7"
+    },
+    {
+      "name": "unpowered_comparator",
+      "id": 149,
+      "base_type": 59,
+      "material": 0,
+      "registration_pc": "0xa4877"
+    },
+    {
+      "name": "powered_comparator",
+      "id": 150,
+      "base_type": 59,
+      "material": 0,
+      "registration_pc": "0xa4a0e"
+    },
+    {
+      "name": "redstone_block",
+      "id": 152,
+      "base_type": 32,
+      "material": 48,
+      "registration_pc": "0xa4ce6"
+    },
+    {
+      "name": "hopper",
+      "id": 154,
+      "base_type": 51,
+      "material": 0,
+      "registration_pc": "0xa4ff0"
+    },
+    {
+      "name": "quartz_block",
+      "id": 155,
+      "base_type": 14,
+      "material": 45,
+      "registration_pc": "0xa5177"
+    },
+    {
+      "name": "quartz_stairs",
+      "id": 156,
+      "base_type": 16,
+      "material": 45,
+      "registration_pc": "0xa5325"
+    },
+    {
+      "name": "activator_rail",
+      "id": 157,
+      "base_type": 12,
+      "material": 9,
+      "registration_pc": "0xa549b"
+    },
+    {
+      "name": "dropper",
+      "id": 158,
+      "base_type": 51,
+      "material": 0,
+      "registration_pc": "0xa5610"
+    },
+    {
+      "name": "stained_hardened_clay",
+      "id": 159,
+      "base_type": 41,
+      "material": 15,
+      "registration_pc": "0xa579a"
+    },
+    {
+      "name": "stained_glass_pane",
+      "id": 160,
+      "base_type": 42,
+      "material": 34,
+      "registration_pc": "0xa591c"
+    },
+    {
+      "name": "acacia_stairs",
+      "id": 163,
+      "base_type": 16,
+      "material": 42,
+      "registration_pc": "0xa5d7c"
+    },
+    {
+      "name": "dark_oak_stairs",
+      "id": 164,
+      "base_type": 16,
+      "material": 43,
+      "registration_pc": "0xa5f46"
+    },
+    {
+      "name": "slime",
+      "id": 165,
+      "base_type": 32,
+      "material": 57,
+      "registration_pc": "0xa6064"
+    },
+    {
+      "name": "iron_trapdoor",
+      "id": 167,
+      "base_type": 6,
+      "material": 25,
+      "registration_pc": "0xa6323"
+    },
+    {
+      "name": "prismarine",
+      "id": 168,
+      "base_type": 13,
+      "material": 13,
+      "registration_pc": "0xa64c9"
+    },
+    {
+      "name": "sea_lantern",
+      "id": 169,
+      "base_type": 23,
+      "material": 54,
+      "registration_pc": "0xa6645"
+    },
+    {
+      "name": "hay_block",
+      "id": 170,
+      "base_type": 32,
+      "material": 53,
+      "registration_pc": "0xa67bc"
+    },
+    {
+      "name": "carpet",
+      "id": 171,
+      "base_type": 40,
+      "material": 6,
+      "registration_pc": "0xa693f"
+    },
+    {
+      "name": "hardened_clay",
+      "id": 172,
+      "base_type": 41,
+      "material": 15,
+      "registration_pc": "0xa6ac7"
+    },
+    {
+      "name": "coal_block",
+      "id": 173,
+      "base_type": 32,
+      "material": 49,
+      "registration_pc": "0xa6d2d"
+    },
+    {
+      "name": "packed_ice",
+      "id": 174,
+      "base_type": 32,
+      "material": 74,
+      "registration_pc": "0xa6ea3"
+    },
+    {
+      "name": "red_sandstone",
+      "id": 179,
+      "base_type": 13,
+      "material": 48,
+      "registration_pc": "0xa752a"
+    },
+    {
+      "name": "red_sandstone_stairs",
+      "id": 180,
+      "base_type": 16,
+      "material": 48,
+      "registration_pc": "0xa76d8"
+    },
+    {
+      "name": "double_stone_slab_3",
+      "id": 181,
+      "base_type": 21,
+      "material": 48,
+      "registration_pc": "0xa7861"
+    },
+    {
+      "name": "stone_slab_3",
+      "id": 182,
+      "base_type": 22,
+      "material": 48,
+      "registration_pc": "0xa79ea"
+    },
+    {
+      "name": "spruce_fence_gate",
+      "id": 183,
+      "base_type": 47,
+      "material": 39,
+      "registration_pc": "0xa7bc6"
+    },
+    {
+      "name": "birch_fence_gate",
+      "id": 184,
+      "base_type": 47,
+      "material": 40,
+      "registration_pc": "0xa7da8"
+    },
+    {
+      "name": "jungle_fence_gate",
+      "id": 185,
+      "base_type": 47,
+      "material": 41,
+      "registration_pc": "0xa7f8a"
+    },
+    {
+      "name": "dark_oak_fence_gate",
+      "id": 186,
+      "base_type": 47,
+      "material": 42,
+      "registration_pc": "0xa816c"
+    },
+    {
+      "name": "acacia_fence_gate",
+      "id": 187,
+      "base_type": 47,
+      "material": 43,
+      "registration_pc": "0xa834e"
+    },
+    {
+      "name": "spruce_fence",
+      "id": 188,
+      "base_type": 29,
+      "material": 39,
+      "registration_pc": "0xa84ed"
+    },
+    {
+      "name": "birch_fence",
+      "id": 189,
+      "base_type": 29,
+      "material": 40,
+      "registration_pc": "0xa8686"
+    },
+    {
+      "name": "jungle_fence",
+      "id": 190,
+      "base_type": 29,
+      "material": 41,
+      "registration_pc": "0xa881f"
+    },
+    {
+      "name": "dark_oak_fence",
+      "id": 191,
+      "base_type": 29,
+      "material": 42,
+      "registration_pc": "0xa89b8"
+    },
+    {
+      "name": "acacia_fence",
+      "id": 192,
+      "base_type": 29,
+      "material": 43,
+      "registration_pc": "0xa8b51"
+    },
+    {
+      "name": "purpur_block",
+      "id": 201,
+      "base_type": 32,
+      "material": 62,
+      "registration_pc": "0xa99c7"
+    },
+    {
+      "name": "purpur_pillar",
+      "id": 202,
+      "base_type": 14,
+      "material": 62,
+      "registration_pc": "0xa9b8f"
+    },
+    {
+      "name": "purpur_stairs",
+      "id": 203,
+      "base_type": 16,
+      "material": 62,
+      "registration_pc": "0xa9ca0"
+    },
+    {
+      "name": "double_stone_slab_4",
+      "id": 204,
+      "base_type": 21,
+      "material": 62,
+      "registration_pc": "0xa9e17"
+    },
+    {
+      "name": "stone_slab_4",
+      "id": 205,
+      "base_type": 22,
+      "material": 62,
+      "registration_pc": "0xa9fa4"
+    },
+    {
+      "name": "end_bricks",
+      "id": 206,
+      "base_type": 14,
+      "material": 33,
+      "registration_pc": "0xaa227"
+    },
+    {
+      "name": "magma",
+      "id": 213,
+      "base_type": 32,
+      "material": 61,
+      "registration_pc": "0xaab94"
+    },
+    {
+      "name": "nether_wart_block",
+      "id": 214,
+      "base_type": 32,
+      "material": 60,
+      "registration_pc": "0xaadfe"
+    },
+    {
+      "name": "red_nether_brick",
+      "id": 215,
+      "base_type": 14,
+      "material": 32,
+      "registration_pc": "0xaafa3"
+    },
+    {
+      "name": "bone_block",
+      "id": 216,
+      "base_type": 13,
+      "material": 59,
+      "registration_pc": "0xab1ec"
+    },
+    {
+      "name": "white_shulker_box",
+      "id": 219,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xab58f"
+    },
+    {
+      "name": "orange_shulker_box",
+      "id": 220,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xab70f"
+    },
+    {
+      "name": "magenta_shulker_box",
+      "id": 221,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xab88f"
+    },
+    {
+      "name": "light_blue_shulker_box",
+      "id": 222,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xaba0f"
+    },
+    {
+      "name": "yellow_shulker_box",
+      "id": 223,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xabb8f"
+    },
+    {
+      "name": "lime_shulker_box",
+      "id": 224,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xabd0f"
+    },
+    {
+      "name": "pink_shulker_box",
+      "id": 225,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xabe8f"
+    },
+    {
+      "name": "gray_shulker_box",
+      "id": 226,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xac00f"
+    },
+    {
+      "name": "silver_shulker_box",
+      "id": 227,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xac18f"
+    },
+    {
+      "name": "cyan_shulker_box",
+      "id": 228,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xac30f"
+    },
+    {
+      "name": "purple_shulker_box",
+      "id": 260,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xac48f"
+    },
+    {
+      "name": "blue_shulker_box",
+      "id": 230,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xac60f"
+    },
+    {
+      "name": "undyed_shulker_box",
+      "id": 229,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xac787"
+    },
+    {
+      "name": "brown_shulker_box",
+      "id": 231,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xac907"
+    },
+    {
+      "name": "green_shulker_box",
+      "id": 232,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xaca87"
+    },
+    {
+      "name": "red_shulker_box",
+      "id": 233,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xacc07"
+    },
+    {
+      "name": "black_shulker_box",
+      "id": 234,
+      "base_type": 36,
+      "material": 70,
+      "registration_pc": "0xacd87"
+    },
+    {
+      "name": "concrete_powder",
+      "id": 252,
+      "base_type": 57,
+      "material": 69,
+      "registration_pc": "0xae4ae"
+    },
+    {
+      "name": "conduit",
+      "id": 256,
+      "base_type": 61,
+      "material": 2,
+      "registration_pc": "0xae72c"
+    },
+    {
+      "name": "dried_kelp_block",
+      "id": 269,
+      "base_type": 32,
+      "material": 73,
+      "registration_pc": "0xaf3a7"
+    },
+    {
+      "name": "blue_ice",
+      "id": 273,
+      "base_type": 32,
+      "material": 74,
+      "registration_pc": "0xaf9d9"
+    },
+    {
+      "name": "spruce_trapdoor",
+      "id": 274,
+      "base_type": 6,
+      "material": 25,
+      "registration_pc": "0xafb7f"
+    },
+    {
+      "name": "birch_trapdoor",
+      "id": 275,
+      "base_type": 6,
+      "material": 25,
+      "registration_pc": "0xafd25"
+    },
+    {
+      "name": "jungle_trapdoor",
+      "id": 276,
+      "base_type": 6,
+      "material": 25,
+      "registration_pc": "0xafecb"
+    },
+    {
+      "name": "acacia_trapdoor",
+      "id": 277,
+      "base_type": 6,
+      "material": 25,
+      "registration_pc": "0xb0071"
+    },
+    {
+      "name": "dark_oak_trapdoor",
+      "id": 278,
+      "base_type": 6,
+      "material": 25,
+      "registration_pc": "0xb0217"
+    },
+    {
+      "name": "prismarine_stairs",
+      "id": 291,
+      "base_type": 16,
+      "material": 54,
+      "registration_pc": "0xb0541"
+    },
+    {
+      "name": "prismarine_bricks_stairs",
+      "id": 292,
+      "base_type": 16,
+      "material": 54,
+      "registration_pc": "0xb06f9"
+    },
+    {
+      "name": "dark_prismarine_stairs",
+      "id": 293,
+      "base_type": 16,
+      "material": 54,
+      "registration_pc": "0xb08b1"
+    },
+    {
+      "name": "acacia_pressure_plate",
+      "id": 301,
+      "base_type": 15,
+      "material": 42,
+      "registration_pc": "0xb1436"
+    },
+    {
+      "name": "birch_pressure_plate",
+      "id": 302,
+      "base_type": 15,
+      "material": 40,
+      "registration_pc": "0xb15b9"
+    },
+    {
+      "name": "dark_oak_pressure_plate",
+      "id": 303,
+      "base_type": 15,
+      "material": 43,
+      "registration_pc": "0xb173c"
+    },
+    {
+      "name": "jungle_pressure_plate",
+      "id": 304,
+      "base_type": 15,
+      "material": 41,
+      "registration_pc": "0xb18bf"
+    },
+    {
+      "name": "spruce_pressure_plate",
+      "id": 305,
+      "base_type": 15,
+      "material": 39,
+      "registration_pc": "0xb1a42"
+    },
+    {
+      "name": "acacia_button",
+      "id": 306,
+      "base_type": 35,
+      "material": 42,
+      "registration_pc": "0xb1bc8"
+    },
+    {
+      "name": "birch_button",
+      "id": 307,
+      "base_type": 35,
+      "material": 40,
+      "registration_pc": "0xb1d4e"
+    },
+    {
+      "name": "dark_oak_button",
+      "id": 308,
+      "base_type": 35,
+      "material": 43,
+      "registration_pc": "0xb1ed4"
+    },
+    {
+      "name": "jungle_button",
+      "id": 309,
+      "base_type": 35,
+      "material": 41,
+      "registration_pc": "0xb205a"
+    },
+    {
+      "name": "spruce_button",
+      "id": 310,
+      "base_type": 35,
+      "material": 39,
+      "registration_pc": "0xb21e0"
+    },
+    {
+      "name": "double_stone_slab_2",
+      "id": 311,
+      "base_type": 21,
+      "material": 54,
+      "registration_pc": "0xb236d"
+    },
+    {
+      "name": "stone_slab_2",
+      "id": 312,
+      "base_type": 22,
+      "material": 54,
+      "registration_pc": "0xb24fa"
+    },
+    {
+      "name": "wood",
+      "id": 313,
+      "base_type": 50,
+      "material": 1,
+      "registration_pc": "0xb2632"
+    },
+    {
+      "name": "scaffolding",
+      "id": 320,
+      "base_type": 48,
+      "material": 1,
+      "registration_pc": "0xb2919"
+    },
+    {
+      "name": "cobblestone_stairs",
+      "id": 67,
+      "base_type": 16,
+      "material": 2,
+      "registration_pc": "0xb2c00"
+    },
+    {
+      "name": "mossy_cobblestone_stairs",
+      "id": 324,
+      "base_type": 16,
+      "material": 2,
+      "registration_pc": "0xb2d6b"
+    },
+    {
+      "name": "andesite_stairs",
+      "id": 325,
+      "base_type": 16,
+      "material": 2,
+      "registration_pc": "0xb2f40"
+    },
+    {
+      "name": "diorite_stairs",
+      "id": 326,
+      "base_type": 16,
+      "material": 2,
+      "registration_pc": "0xb310a"
+    },
+    {
+      "name": "granite_stairs",
+      "id": 327,
+      "base_type": 16,
+      "material": 2,
+      "registration_pc": "0xb32d4"
+    },
+    {
+      "name": "smooth_andesite_stairs",
+      "id": 328,
+      "base_type": 16,
+      "material": 31,
+      "registration_pc": "0xb349e"
+    },
+    {
+      "name": "smooth_diorite_stairs",
+      "id": 329,
+      "base_type": 16,
+      "material": 31,
+      "registration_pc": "0xb3668"
+    },
+    {
+      "name": "smooth_granite_stairs",
+      "id": 330,
+      "base_type": 16,
+      "material": 31,
+      "registration_pc": "0xb3832"
+    },
+    {
+      "name": "smooth_quartz_stairs",
+      "id": 331,
+      "base_type": 16,
+      "material": 45,
+      "registration_pc": "0xb39fc"
+    },
+    {
+      "name": "mossy_stone_brick_stairs",
+      "id": 332,
+      "base_type": 16,
+      "material": 2,
+      "registration_pc": "0xb3bc6"
+    },
+    {
+      "name": "smooth_sandstone_stairs",
+      "id": 333,
+      "base_type": 16,
+      "material": 2,
+      "registration_pc": "0xb3d90"
+    },
+    {
+      "name": "smooth_red_sandstone_stairs",
+      "id": 334,
+      "base_type": 16,
+      "material": 48,
+      "registration_pc": "0xb3f5a"
+    },
+    {
+      "name": "red_nether_brick_stairs",
+      "id": 335,
+      "base_type": 16,
+      "material": 32,
+      "registration_pc": "0xb40c5"
+    },
+    {
+      "name": "end_brick_stairs",
+      "id": 336,
+      "base_type": 16,
+      "material": 54,
+      "registration_pc": "0xb4230"
+    },
+    {
+      "name": "lectern",
+      "id": 348,
+      "base_type": 30,
+      "material": 1,
+      "registration_pc": "0xb5484"
+    },
+    {
+      "name": "lantern",
+      "id": 349,
+      "base_type": 23,
+      "material": 3,
+      "registration_pc": "0xb561d"
+    },
+    {
+      "name": "loom",
+      "id": 350,
+      "base_type": 30,
+      "material": 1,
+      "registration_pc": "0xb5792"
+    },
+    {
+      "name": "blastfurnace",
+      "id": 352,
+      "base_type": 30,
+      "material": 2,
+      "registration_pc": "0xb597b"
+    },
+    {
+      "name": "composter",
+      "id": 351,
+      "base_type": 26,
+      "material": 1,
+      "registration_pc": "0xb5cc9"
+    },
+    {
+      "name": "smoker",
+      "id": 355,
+      "base_type": 30,
+      "material": 2,
+      "registration_pc": "0xb5fcc"
+    },
+    {
+      "name": "fletching_table",
+      "id": 357,
+      "base_type": 30,
+      "material": 1,
+      "registration_pc": "0xb64c7"
+    },
+    {
+      "name": "smithing_table",
+      "id": 358,
+      "base_type": 30,
+      "material": 1,
+      "registration_pc": "0xb686f"
+    },
+    {
+      "name": "grindstone",
+      "id": 359,
+      "base_type": 30,
+      "material": 2,
+      "registration_pc": "0xb6a39"
+    },
+    {
+      "name": "stonecutter2",
+      "id": 360,
+      "base_type": 30,
+      "material": 2,
+      "registration_pc": "0xb6bc6"
+    },
+    {
+      "name": "cartography_table",
+      "id": 364,
+      "base_type": 30,
+      "material": 1,
+      "registration_pc": "0xb6d3f"
+    },
+    {
+      "name": "campfire",
+      "id": 361,
+      "base_type": 30,
+      "material": 1,
+      "registration_pc": "0xb6ec9"
+    },
+    {
+      "name": "barrel",
+      "id": 362,
+      "base_type": 36,
+      "material": 1,
+      "registration_pc": "0xb71ae"
+    },
+    {
+      "name": "sweet_berry_bush",
+      "id": 363,
+      "base_type": 30,
+      "material": 1,
+      "registration_pc": "0xb737e"
+    }
+  ],
+  "items": [
+    {
+      "name": "iron_shovel",
+      "id": 256,
+      "base_type": 2,
+      "material": null,
+      "store_pc": "0x39346e",
+      "registration_pc": "0x3934b2"
+    },
+    {
+      "name": "iron_pickaxe",
+      "id": 257,
+      "base_type": 3,
+      "material": 3,
+      "store_pc": "0x3935b9",
+      "registration_pc": "0x3935ea"
+    },
+    {
+      "name": "iron_axe",
+      "id": 258,
+      "base_type": 4,
+      "material": 3,
+      "store_pc": "0x3936f1",
+      "registration_pc": "0x393722"
+    },
+    {
+      "name": "flint_and_steel",
+      "id": 259,
+      "base_type": 28,
+      "material": 26,
+      "store_pc": "0x393825",
+      "registration_pc": "0x393856"
+    },
+    {
+      "name": "bow",
+      "id": 261,
+      "base_type": 24,
+      "material": 17,
+      "store_pc": "0x393a97",
+      "registration_pc": "0x393ac8"
+    },
+    {
+      "name": "arrow",
+      "id": 262,
+      "base_type": 24,
+      "material": 18,
+      "store_pc": "0x393bca",
+      "registration_pc": "0x393c06"
+    },
+    {
+      "name": "coal",
+      "id": 263,
+      "base_type": 31,
+      "material": 49,
+      "store_pc": "0x393d08",
+      "registration_pc": "0x393d39"
+    },
+    {
+      "name": "diamond",
+      "id": 264,
+      "base_type": 31,
+      "material": 5,
+      "store_pc": "0x393e3b",
+      "registration_pc": "0x393e6c"
+    },
+    {
+      "name": "iron_ingot",
+      "id": 265,
+      "base_type": 31,
+      "material": 3,
+      "store_pc": "0x393f76",
+      "registration_pc": "0x393fa7"
+    },
+    {
+      "name": "gold_ingot",
+      "id": 266,
+      "base_type": 31,
+      "material": 4,
+      "store_pc": "0x3940aa",
+      "registration_pc": "0x3940db"
+    },
+    {
+      "name": "iron_sword",
+      "id": 267,
+      "base_type": 1,
+      "material": 3,
+      "store_pc": "0x3941e2",
+      "registration_pc": "0x394213"
+    },
+    {
+      "name": "wooden_sword",
+      "id": 268,
+      "base_type": 1,
+      "material": 1,
+      "store_pc": "0x394321",
+      "registration_pc": "0x394352"
+    },
+    {
+      "name": "wooden_shovel",
+      "id": 269,
+      "base_type": 2,
+      "material": 1,
+      "store_pc": "0x394459",
+      "registration_pc": "0x39448a"
+    },
+    {
+      "name": "wooden_pickaxe",
+      "id": 270,
+      "base_type": 3,
+      "material": 1,
+      "store_pc": "0x394591",
+      "registration_pc": "0x3945c2"
+    },
+    {
+      "name": "wooden_axe",
+      "id": 271,
+      "base_type": 4,
+      "material": 1,
+      "store_pc": "0x3946c9",
+      "registration_pc": "0x3946fa"
+    },
+    {
+      "name": "stone_sword",
+      "id": 272,
+      "base_type": 1,
+      "material": 2,
+      "store_pc": "0x394808",
+      "registration_pc": "0x394839"
+    },
+    {
+      "name": "stone_shovel",
+      "id": 273,
+      "base_type": 2,
+      "material": 2,
+      "store_pc": "0x394940",
+      "registration_pc": "0x394971"
+    },
+    {
+      "name": "stone_pickaxe",
+      "id": 274,
+      "base_type": 3,
+      "material": 2,
+      "store_pc": "0x394a78",
+      "registration_pc": "0x394aa9"
+    },
+    {
+      "name": "stone_axe",
+      "id": 275,
+      "base_type": 4,
+      "material": 2,
+      "store_pc": "0x394bb0",
+      "registration_pc": "0x394be1"
+    },
+    {
+      "name": "diamond_sword",
+      "id": 276,
+      "base_type": 1,
+      "material": 5,
+      "store_pc": "0x394cef",
+      "registration_pc": "0x394d20"
+    },
+    {
+      "name": "diamond_shovel",
+      "id": 277,
+      "base_type": 2,
+      "material": 5,
+      "store_pc": "0x394e27",
+      "registration_pc": "0x394e58"
+    },
+    {
+      "name": "diamond_pickaxe",
+      "id": 278,
+      "base_type": 3,
+      "material": 5,
+      "store_pc": "0x394f5f",
+      "registration_pc": "0x394f90"
+    },
+    {
+      "name": "diamond_axe",
+      "id": 279,
+      "base_type": 4,
+      "material": 5,
+      "store_pc": "0x395097",
+      "registration_pc": "0x3950c8"
+    },
+    {
+      "name": "stick",
+      "id": 280,
+      "base_type": 48,
+      "material": 1,
+      "store_pc": "0x3951d2",
+      "registration_pc": "0x3951ff"
+    },
+    {
+      "name": "bowl",
+      "id": 281,
+      "base_type": 26,
+      "material": 1,
+      "store_pc": "0x395301",
+      "registration_pc": "0x395339"
+    },
+    {
+      "name": "mushroom_stew",
+      "id": 282,
+      "base_type": 39,
+      "material": 0,
+      "store_pc": "0x395434",
+      "registration_pc": "0x39546c"
+    },
+    {
+      "name": "golden_sword",
+      "id": 283,
+      "base_type": 1,
+      "material": 4,
+      "store_pc": "0x39557a",
+      "registration_pc": "0x3955ab"
+    },
+    {
+      "name": "golden_shovel",
+      "id": 284,
+      "base_type": 2,
+      "material": 4,
+      "store_pc": "0x3956b2",
+      "registration_pc": "0x3956e3"
+    },
+    {
+      "name": "golden_pickaxe",
+      "id": 285,
+      "base_type": 3,
+      "material": 4,
+      "store_pc": "0x3957ea",
+      "registration_pc": "0x39581b"
+    },
+    {
+      "name": "golden_axe",
+      "id": 286,
+      "base_type": 4,
+      "material": 4,
+      "store_pc": "0x395922",
+      "registration_pc": "0x395953"
+    },
+    {
+      "name": "wooden_hoe",
+      "id": 290,
+      "base_type": 5,
+      "material": 1,
+      "store_pc": "0x395e19",
+      "registration_pc": "0x395e4a"
+    },
+    {
+      "name": "stone_hoe",
+      "id": 291,
+      "base_type": 5,
+      "material": 2,
+      "store_pc": "0x395f8a",
+      "registration_pc": "0x395fbb"
+    },
+    {
+      "name": "iron_hoe",
+      "id": 292,
+      "base_type": 5,
+      "material": 3,
+      "store_pc": "0x3960fb",
+      "registration_pc": "0x39612c"
+    },
+    {
+      "name": "diamond_hoe",
+      "id": 293,
+      "base_type": 5,
+      "material": 5,
+      "store_pc": "0x39626c",
+      "registration_pc": "0x39629d"
+    },
+    {
+      "name": "golden_hoe",
+      "id": 294,
+      "base_type": 5,
+      "material": 4,
+      "store_pc": "0x3963d7",
+      "registration_pc": "0x396408"
+    },
+    {
+      "name": "wheat",
+      "id": 296,
+      "base_type": 31,
+      "material": 53,
+      "store_pc": "0x39664e",
+      "registration_pc": "0x39667f"
+    },
+    {
+      "name": "leather_helmet",
+      "id": 298,
+      "base_type": 7,
+      "material": 6,
+      "store_pc": "0x3968d8",
+      "registration_pc": "0x396909"
+    },
+    {
+      "name": "leather_chestplate",
+      "id": 299,
+      "base_type": 8,
+      "material": 6,
+      "store_pc": "0x396a1c",
+      "registration_pc": "0x396a4d"
+    },
+    {
+      "name": "leather_leggings",
+      "id": 300,
+      "base_type": 9,
+      "material": 6,
+      "store_pc": "0x396b61",
+      "registration_pc": "0x396b92"
+    },
+    {
+      "name": "leather_boots",
+      "id": 301,
+      "base_type": 10,
+      "material": 6,
+      "store_pc": "0x396ca5",
+      "registration_pc": "0x396cd6"
+    },
+    {
+      "name": "chainmail_helmet",
+      "id": 302,
+      "base_type": 7,
+      "material": 7,
+      "store_pc": "0x396df3",
+      "registration_pc": "0x396e24"
+    },
+    {
+      "name": "chainmail_chestplate",
+      "id": 303,
+      "base_type": 8,
+      "material": 7,
+      "store_pc": "0x396f3a",
+      "registration_pc": "0x396f6b"
+    },
+    {
+      "name": "chainmail_leggings",
+      "id": 304,
+      "base_type": 9,
+      "material": 7,
+      "store_pc": "0x39707b",
+      "registration_pc": "0x3970ac"
+    },
+    {
+      "name": "chainmail_boots",
+      "id": 305,
+      "base_type": 10,
+      "material": 7,
+      "store_pc": "0x3971c2",
+      "registration_pc": "0x3971f3"
+    },
+    {
+      "name": "iron_helmet",
+      "id": 306,
+      "base_type": 7,
+      "material": 3,
+      "store_pc": "0x397310",
+      "registration_pc": "0x397341"
+    },
+    {
+      "name": "iron_chestplate",
+      "id": 307,
+      "base_type": 8,
+      "material": 3,
+      "store_pc": "0x397457",
+      "registration_pc": "0x397488"
+    },
+    {
+      "name": "iron_leggings",
+      "id": 308,
+      "base_type": 9,
+      "material": 3,
+      "store_pc": "0x397598",
+      "registration_pc": "0x3975c9"
+    },
+    {
+      "name": "iron_boots",
+      "id": 309,
+      "base_type": 10,
+      "material": 3,
+      "store_pc": "0x3976df",
+      "registration_pc": "0x397710"
+    },
+    {
+      "name": "diamond_helmet",
+      "id": 310,
+      "base_type": 7,
+      "material": 5,
+      "store_pc": "0x39782d",
+      "registration_pc": "0x39785e"
+    },
+    {
+      "name": "diamond_chestplate",
+      "id": 311,
+      "base_type": 8,
+      "material": 5,
+      "store_pc": "0x397974",
+      "registration_pc": "0x3979a5"
+    },
+    {
+      "name": "diamond_leggings",
+      "id": 312,
+      "base_type": 9,
+      "material": 5,
+      "store_pc": "0x397ab5",
+      "registration_pc": "0x397ae6"
+    },
+    {
+      "name": "diamond_boots",
+      "id": 313,
+      "base_type": 10,
+      "material": 5,
+      "store_pc": "0x397bfc",
+      "registration_pc": "0x397c2d"
+    },
+    {
+      "name": "golden_helmet",
+      "id": 314,
+      "base_type": 7,
+      "material": 4,
+      "store_pc": "0x397d4a",
+      "registration_pc": "0x397d7b"
+    },
+    {
+      "name": "golden_chestplate",
+      "id": 315,
+      "base_type": 8,
+      "material": 4,
+      "store_pc": "0x397e91",
+      "registration_pc": "0x397ec2"
+    },
+    {
+      "name": "golden_leggings",
+      "id": 316,
+      "base_type": 9,
+      "material": 4,
+      "store_pc": "0x397fd2",
+      "registration_pc": "0x398003"
+    },
+    {
+      "name": "golden_boots",
+      "id": 317,
+      "base_type": 10,
+      "material": 4,
+      "store_pc": "0x398119",
+      "registration_pc": "0x39814a"
+    },
+    {
+      "name": "painting",
+      "id": 321,
+      "base_type": 34,
+      "material": 6,
+      "store_pc": "0x39860c",
+      "registration_pc": "0x39863d"
+    },
+    {
+      "name": "sign",
+      "id": 323,
+      "base_type": 34,
+      "material": 1,
+      "store_pc": "0x39889d",
+      "registration_pc": "0x3988ce"
+    },
+    {
+      "name": "wooden_door",
+      "id": 324,
+      "base_type": 6,
+      "material": 1,
+      "store_pc": "0x3989db",
+      "registration_pc": "0x398a0c"
+    },
+    {
+      "name": "bucket",
+      "id": 325,
+      "base_type": 26,
+      "material": 24,
+      "store_pc": "0x398acb",
+      "registration_pc": "0x398b5c"
+    },
+    {
+      "name": "iron_door",
+      "id": 330,
+      "base_type": 6,
+      "material": 3,
+      "store_pc": "0x399105",
+      "registration_pc": "0x399136"
+    },
+    {
+      "name": "redstone",
+      "id": 331,
+      "base_type": 31,
+      "material": 48,
+      "store_pc": "0x399238",
+      "registration_pc": "0x399269"
+    },
+    {
+      "name": "boat",
+      "id": 333,
+      "base_type": 55,
+      "material": 63,
+      "store_pc": "0x399496",
+      "registration_pc": "0x3994c3"
+    },
+    {
+      "name": "leather",
+      "id": 334,
+      "base_type": 53,
+      "material": 0,
+      "store_pc": "0x3995bf",
+      "registration_pc": "0x3995f0"
+    },
+    {
+      "name": "paper",
+      "id": 339,
+      "base_type": 46,
+      "material": 50,
+      "store_pc": "0x399b9b",
+      "registration_pc": "0x399bcc"
+    },
+    {
+      "name": "book",
+      "id": 340,
+      "base_type": 46,
+      "material": 51,
+      "store_pc": "0x399cce",
+      "registration_pc": "0x399cff"
+    },
+    {
+      "name": "slime_ball",
+      "id": 341,
+      "base_type": 31,
+      "material": 57,
+      "store_pc": "0x399dc0",
+      "registration_pc": "0x399e33"
+    },
+    {
+      "name": "compass",
+      "id": 345,
+      "base_type": 25,
+      "material": 19,
+      "store_pc": "0x39a2ba",
+      "registration_pc": "0x39a2eb"
+    },
+    {
+      "name": "fishing_rod",
+      "id": 346,
+      "base_type": 37,
+      "material": 1,
+      "store_pc": "0x39a3ee",
+      "registration_pc": "0x39a41f"
+    },
+    {
+      "name": "clock",
+      "id": 347,
+      "base_type": 25,
+      "material": 20,
+      "store_pc": "0x39a521",
+      "registration_pc": "0x39a552"
+    },
+    {
+      "name": "dye",
+      "id": 351,
+      "base_type": 18,
+      "material": 12,
+      "store_pc": "0x39a9cc",
+      "registration_pc": "0x39aa01"
+    },
+    {
+      "name": "bed",
+      "id": 355,
+      "base_type": 58,
+      "material": 71,
+      "store_pc": "0x39ae87",
+      "registration_pc": "0x39aeb8"
+    },
+    {
+      "name": "repeater",
+      "id": 356,
+      "base_type": 59,
+      "material": 0,
+      "store_pc": "0x39afbf",
+      "registration_pc": "0x39aff0"
+    },
+    {
+      "name": "filled_map",
+      "id": 358,
+      "base_type": 25,
+      "material": 21,
+      "store_pc": "0x39b232",
+      "registration_pc": "0x39b267"
+    },
+    {
+      "name": "shears",
+      "id": 359,
+      "base_type": 28,
+      "material": 27,
+      "store_pc": "0x39b369",
+      "registration_pc": "0x39b39a"
+    },
+    {
+      "name": "pumpkin_seeds",
+      "id": 361,
+      "base_type": 33,
+      "material": 22,
+      "store_pc": "0x39b5ef",
+      "registration_pc": "0x39b620"
+    },
+    {
+      "name": "melon_seeds",
+      "id": 362,
+      "base_type": 33,
+      "material": 37,
+      "store_pc": "0x39b741",
+      "registration_pc": "0x39b772"
+    },
+    {
+      "name": "gold_nugget",
+      "id": 371,
+      "base_type": 31,
+      "material": 4,
+      "store_pc": "0x39c299",
+      "registration_pc": "0x39c2ca"
+    },
+    {
+      "name": "glass_bottle",
+      "id": 374,
+      "base_type": 26,
+      "material": 34,
+      "store_pc": "0x39c5e8",
+      "registration_pc": "0x39c680"
+    },
+    {
+      "name": "brewing_stand",
+      "id": 379,
+      "base_type": 30,
+      "material": 35,
+      "store_pc": "0x39cc68",
+      "registration_pc": "0x39cc99"
+    },
+    {
+      "name": "cauldron",
+      "id": 380,
+      "base_type": 26,
+      "material": 3,
+      "store_pc": "0x39cda5",
+      "registration_pc": "0x39cdd6"
+    },
+    {
+      "name": "ender_eye",
+      "id": 381,
+      "base_type": 25,
+      "material": 33,
+      "store_pc": "0x39ced9",
+      "registration_pc": "0x39cf0a"
+    },
+    {
+      "name": "speckled_melon",
+      "id": 382,
+      "base_type": 38,
+      "material": 37,
+      "store_pc": "0x39d00d",
+      "registration_pc": "0x39d03e"
+    },
+    {
+      "name": "fire_charge",
+      "id": 385,
+      "base_type": 23,
+      "material": 38,
+      "store_pc": "0x39d38d",
+      "registration_pc": "0x39d3be"
+    },
+    {
+      "name": "writable_book",
+      "id": 386,
+      "base_type": 46,
+      "material": 51,
+      "store_pc": "0x39d4c1",
+      "registration_pc": "0x39d4f2"
+    },
+    {
+      "name": "emerald",
+      "id": 388,
+      "base_type": 31,
+      "material": 44,
+      "store_pc": "0x39d721",
+      "registration_pc": "0x39d752"
+    },
+    {
+      "name": "item_frame",
+      "id": 389,
+      "base_type": 34,
+      "material": 34,
+      "store_pc": "0x39d86a",
+      "registration_pc": "0x39d89b"
+    },
+    {
+      "name": "flower_pot",
+      "id": 390,
+      "base_type": 53,
+      "material": 0,
+      "store_pc": "0x39d9a2",
+      "registration_pc": "0x39d9d3"
+    },
+    {
+      "name": "map",
+      "id": 395,
+      "base_type": 25,
+      "material": 21,
+      "store_pc": "0x39e321",
+      "registration_pc": "0x39e352"
+    },
+    {
+      "name": "golden_carrot",
+      "id": 396,
+      "base_type": 38,
+      "material": 47,
+      "store_pc": "0x39e464",
+      "registration_pc": "0x39e495"
+    },
+    {
+      "name": "carrot_on_a_stick",
+      "id": 398,
+      "base_type": 37,
+      "material": 47,
+      "store_pc": "0x39e6bb",
+      "registration_pc": "0x39e6ec"
+    },
+    {
+      "name": "fireworks",
+      "id": 401,
+      "base_type": 44,
+      "material": 0,
+      "store_pc": "0x39ea3b",
+      "registration_pc": "0x39ea77"
+    },
+    {
+      "name": "firework_charge",
+      "id": 402,
+      "base_type": 44,
+      "material": 0,
+      "store_pc": "0x39eb6d",
+      "registration_pc": "0x39eba5"
+    },
+    {
+      "name": "comparator",
+      "id": 404,
+      "base_type": 59,
+      "material": 0,
+      "store_pc": "0x39edd8",
+      "registration_pc": "0x39ee09"
+    },
+    {
+      "name": "hopper_minecart",
+      "id": 408,
+      "base_type": 51,
+      "material": 2,
+      "store_pc": "0x39f295",
+      "registration_pc": "0x39f2c2"
+    },
+    {
+      "name": "prismarine_shard",
+      "id": 409,
+      "base_type": 13,
+      "material": 0,
+      "store_pc": "0x39f3be",
+      "registration_pc": "0x39f3ef"
+    },
+    {
+      "name": "prismarine_crystals",
+      "id": 410,
+      "base_type": 13,
+      "material": 0,
+      "store_pc": "0x39f4eb",
+      "registration_pc": "0x39f51c"
+    },
+    {
+      "name": "rabbit",
+      "id": 411,
+      "base_type": 53,
+      "material": 0,
+      "store_pc": "0x39f62b",
+      "registration_pc": "0x39f65c"
+    },
+    {
+      "name": "rabbit_stew",
+      "id": 413,
+      "base_type": 39,
+      "material": 0,
+      "store_pc": "0x39f84c",
+      "registration_pc": "0x39f8c6"
+    },
+    {
+      "name": "armor_stand",
+      "id": 416,
+      "base_type": 34,
+      "material": 1,
+      "store_pc": "0x39fbce",
+      "registration_pc": "0x39fc4b"
+    },
+    {
+      "name": "lead",
+      "id": 420,
+      "base_type": 25,
+      "material": 0,
+      "store_pc": "0x3a02b1",
+      "registration_pc": "0x3a02e9"
+    },
+    {
+      "name": "banner",
+      "id": 425,
+      "base_type": 54,
+      "material": 0,
+      "store_pc": "0x3a0893",
+      "registration_pc": "0x3a08ce"
+    },
+    {
+      "name": "spruce_door",
+      "id": 427,
+      "base_type": 6,
+      "material": 39,
+      "store_pc": "0x3a0a9a",
+      "registration_pc": "0x3a0acb"
+    },
+    {
+      "name": "birch_door",
+      "id": 428,
+      "base_type": 6,
+      "material": 40,
+      "store_pc": "0x3a0bd8",
+      "registration_pc": "0x3a0c09"
+    },
+    {
+      "name": "jungle_door",
+      "id": 429,
+      "base_type": 6,
+      "material": 41,
+      "store_pc": "0x3a0d16",
+      "registration_pc": "0x3a0d47"
+    },
+    {
+      "name": "acacia_door",
+      "id": 430,
+      "base_type": 6,
+      "material": 42,
+      "store_pc": "0x3a0e54",
+      "registration_pc": "0x3a0e85"
+    },
+    {
+      "name": "dark_oak_door",
+      "id": 431,
+      "base_type": 6,
+      "material": 43,
+      "store_pc": "0x3a0f92",
+      "registration_pc": "0x3a0fc3"
+    },
+    {
+      "name": "beetroot_seeds",
+      "id": 435,
+      "base_type": 33,
+      "material": 0,
+      "store_pc": "0x3a1476",
+      "registration_pc": "0x3a14ae"
+    },
+    {
+      "name": "beetroot_soup",
+      "id": 436,
+      "base_type": 39,
+      "material": 0,
+      "store_pc": "0x3a15a8",
+      "registration_pc": "0x3a15e0"
+    },
+    {
+      "name": "spectral_arrow",
+      "id": 439,
+      "base_type": 24,
+      "material": 18,
+      "store_pc": "0x3a196c",
+      "registration_pc": "0x3a19a1"
+    },
+    {
+      "name": "tipped_arrow",
+      "id": 440,
+      "base_type": 24,
+      "material": 18,
+      "store_pc": "0x3a1acf",
+      "registration_pc": "0x3a1b07"
+    },
+    {
+      "name": "spruce_boat",
+      "id": 444,
+      "base_type": 55,
+      "material": 64,
+      "store_pc": "0x3a1fb7",
+      "registration_pc": "0x3a1fe8"
+    },
+    {
+      "name": "birch_boat",
+      "id": 445,
+      "base_type": 55,
+      "material": 65,
+      "store_pc": "0x3a20ef",
+      "registration_pc": "0x3a2120"
+    },
+    {
+      "name": "jungle_boat",
+      "id": 446,
+      "base_type": 55,
+      "material": 66,
+      "store_pc": "0x3a2227",
+      "registration_pc": "0x3a2258"
+    },
+    {
+      "name": "acacia_boat",
+      "id": 447,
+      "base_type": 55,
+      "material": 67,
+      "store_pc": "0x3a235f",
+      "registration_pc": "0x3a2390"
+    },
+    {
+      "name": "dark_oak_boat",
+      "id": 448,
+      "base_type": 55,
+      "material": 68,
+      "store_pc": "0x3a2497",
+      "registration_pc": "0x3a24c8"
+    },
+    {
+      "name": "iron_nugget",
+      "id": 452,
+      "base_type": 31,
+      "material": 3,
+      "store_pc": "0x3a2820",
+      "registration_pc": "0x3a2851"
+    },
+    {
+      "name": "leather_horse_armor",
+      "id": 453,
+      "base_type": 60,
+      "material": 6,
+      "store_pc": "0x3a294e",
+      "registration_pc": "0x3a297f"
+    },
+    {
+      "name": "turtle_helmet",
+      "id": 456,
+      "base_type": 7,
+      "material": 72,
+      "store_pc": "0x3a2cce",
+      "registration_pc": "0x3a2cff"
+    },
+    {
+      "name": "sign_spruce",
+      "id": 466,
+      "base_type": 34,
+      "material": 39,
+      "store_pc": "0x3a38b8",
+      "registration_pc": "0x3a38e9"
+    },
+    {
+      "name": "sign_birch",
+      "id": 467,
+      "base_type": 34,
+      "material": 40,
+      "store_pc": "0x3a39f1",
+      "registration_pc": "0x3a3a22"
+    },
+    {
+      "name": "sign_acacia",
+      "id": 468,
+      "base_type": 34,
+      "material": 42,
+      "store_pc": "0x3a3b2a",
+      "registration_pc": "0x3a3b5b"
+    },
+    {
+      "name": "sign_jungle",
+      "id": 469,
+      "base_type": 34,
+      "material": 41,
+      "store_pc": "0x3a3c63",
+      "registration_pc": "0x3a3c94"
+    },
+    {
+      "name": "sign_dark_oak",
+      "id": 470,
+      "base_type": 34,
+      "material": 43,
+      "store_pc": "0x3a3d9c",
+      "registration_pc": "0x3a3dcd"
+    },
+    {
+      "name": "crossbow",
+      "id": 471,
+      "base_type": 24,
+      "material": 75,
+      "store_pc": "0x3a3ecf",
+      "registration_pc": "0x3a3f00"
+    },
+    {
+      "name": "banner_pattern",
+      "id": 472,
+      "base_type": 46,
+      "material": 50,
+      "store_pc": "0x3a4009",
+      "registration_pc": "0x3a403a"
+    }
+  ]
+}

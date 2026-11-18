@@ -1,0 +1,104 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/key_outline.png",
+      "symbol": "LayoutButton_Outline",
+      "bitmap_id": 193,
+      "width": 144,
+      "height": 44,
+      "sha256": "1194c40c89d8a9e2df2ca9788481948f4c92fc7f11cb58f70c6838b22913c9da",
+      "rgba_sha256": "78f912cb3136ff58ca6bc2766ed83961bbcae7c7ee2f830138cfce4ed573ab33"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/key_outline.png",
+      "symbol": "LayoutButton_Outline",
+      "bitmap_id": 187,
+      "width": 216,
+      "height": 66,
+      "sha256": "b1ed3742ff54c7c51d1058a01e5f989997c1720f18bad43d11e8ed9ba62435a0",
+      "rgba_sha256": "fe64a7d8ba5f389bafd91703ec751321861f5ab505290a6d748ee857e17e575f"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.Client/Common/Media/skin.swf",
+      "sha256": "f2f1fc6c14c98da2507b4f711fa7efdffedc2f955224d8e2191b53fce6d37157"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHD.swf",
+      "sha256": "21d626cfbc06f605f1003fc6606ca33f3b4c42d54d5662214b02ac4aed878390"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/LaunchMoreOptionsMenu720.swf",
+      "sha256": "27fff62cef0c2efe08842bab25dab1d115e4984a5f3e211bdff3fe0df8318626"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/LaunchMoreOptionsMenu1080.swf",
+      "sha256": "11275701c7ad1e965014ddb90908bedf377cf548df5e12278d5fa7d687733c78"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_LaunchMoreOptionsMenu.cpp",
+      "sha256": "c846d3680ed96ec872ac70b9bc74e0428a2b260abeeea86f0326e6023a0991d3"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_CreateWorldMenu.cpp",
+      "sha256": "571d5f565d6a7864029356755bf918ad5e4dfd4242b5cd716996c3dc140f0e8b"
+    }
+  ],
+  "legacy4j_repository": "https://github.com/Wilyicaro/Legacy-Minecraft/tree/1.20.1",
+  "legacy4j_sources": [
+    {
+      "path": "common/src/main/java/wily/legacy/client/screen/LegacyFlatWorldScreen.java",
+      "sha256": "ee7e4d6c2076ad3acb8a9ef057d4f2e9eccf46177c26811dc525b70d5a4e75fd"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/client/screen/FlatWorldLayerSelector.java",
+      "sha256": "477b716b8d36462e31c06c03edb8803c220829e488ecbd150d7c592d6a45a6ef"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/client/screen/LegacyFlatPresetsScreen.java",
+      "sha256": "aa59c4a274e8847e18927e6581f06dec2776019b77fb96f54c2094442f3471bd"
+    },
+    {
+      "path": "common/src/main/resources/assets/legacy/lang/en_us.json",
+      "sha256": "cc21693d3243f5722846765ab93c015fe36163a8edfd8f0742f7fbdc2c6c0050"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "eeb64b744b94f49e5f3aa0fd143ae6ef30721573cd7e4d722259633d6da4f3e4"
+    }
+  ],
+  "data": [
+    {
+      "destination": "src/main/resources/assets/legacyconsole/world_customize_layout.json",
+      "sha256": "b36540ef9cbc42c2dd8d52b577c6d8040b284ba22508a2eb920f892a61a0d033"
+    }
+  ],
+  "ports": [
+    "FJ_KeyboardButtons uses TextInputBG/TextInputBGBorder and LayoutButton_Outline, not scaled main-menu bevels. Existing text images are reused.",
+    "LaunchMoreOptionsMenuExtended centers tab labels and keeps each tab focus independent. Unsupported online/trust/PVP controls collapse before the retained game-option rows.",
+    "One original Superflat World checkbox owns flat mode. Java terrain variants use a separate non-flat cycle; customizer replaces that cycle while flat mode is active.",
+    "LegacyFlatWorldScreen supplies Layers/Biomes/Properties, top-to-bottom visual order over bottom-to-top storage, add/edit/delete/move, preset application and apply-on-close.",
+    "FlatWorldLayerSelector supplies the 10-column block grid, native item variants, height slider and OK application. Existing original panels, slots and fonts are reused."
+  ],
+  "adaptations": [
+    "The supplied LCE source includes only a Superflat toggle, without a layer customizer. No missing C++ implementation or assets are claimed; the editor is a Legacy4J Java API port.",
+    "Hardcore is a requested Java-only fifth difficulty choice. It uses native 1.11 hardcore and fixes Hard difficulty; permanent Survival/no-privilege and Hardcore provenance locks are user-requested rules.",
+    "Java 1.11 has height 256 and native flat-generator feature names. Unsupported 1.20 structures/biomes are omitted. One layer is retained to avoid empty-preset fallback.",
+    "World types, layer selectors and live control callbacks retain native Minecraft generation and persistence. No image artwork is invented."
+  ]
+}

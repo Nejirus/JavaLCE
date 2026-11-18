@@ -1,0 +1,241 @@
+{
+  "release": "2.3.2",
+  "date_utc": "2026-11-16",
+  "environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "os": "Linux",
+    "renderer": "Mesa llvmpipe software OpenGL",
+    "authentication": "Local offline QA profile",
+    "optifine": {
+      "version": "1.17.1 HD U H1",
+      "sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793"
+    },
+    "shaderpack": {
+      "version": "LCE Look 2.0.0",
+      "sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62"
+    }
+  },
+  "tested_artifacts": {
+    "mod": {
+      "filename": "legacy-console-1.17.1-2.3.2.jar",
+      "sha256": "91739e93e2ba158e0aeb370bc22f0402803eddc206c67c8b7382bad1885aa117"
+    },
+    "compat": {
+      "filename": "legacy-join-compat-1.17.1-2.3.2.jar",
+      "sha256": "357e2689105013d307674cccb1bfad772c9914ca953d5ff09b90b39ed23f4980"
+    }
+  },
+  "automated": {
+    "tests": 259,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "native": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "worlds": [
+      {
+        "world": "small",
+        "seed": 0,
+        "spawn": "-96, 64, 240",
+        "initialPlayerX": -97.5,
+        "initialPlayerY": 69.0,
+        "initialPlayerZ": 231.5,
+        "minBlock": -512,
+        "maxBlock": 511,
+        "edgeColoredPixels": 350,
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "medium",
+        "seed": -987654321,
+        "spawn": "-299, 64, 375",
+        "initialPlayerX": -289.5,
+        "initialPlayerY": 64.0,
+        "initialPlayerZ": 381.5,
+        "minBlock": -1536,
+        "maxBlock": 1535,
+        "edgeColoredPixels": 314,
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "large",
+        "seed": 82958734,
+        "spawn": "-184, 64, 256",
+        "initialPlayerX": -181.5,
+        "initialPlayerY": 66.0,
+        "initialPlayerZ": 249.5,
+        "minBlock": -2560,
+        "maxBlock": 2559,
+        "edgeColoredPixels": 350,
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "default",
+        "seed": 123456789,
+        "spawn": "0, 88, -16",
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "flat",
+        "seed": 123456789,
+        "spawn": "-16, 4, -80",
+        "mapCreationCases": 25,
+        "passed": true
+      },
+      {
+        "world": "classic",
+        "seed": 123456789,
+        "spawn": "-36, 64, 252",
+        "initialPlayerX": -39.5,
+        "initialPlayerY": 74.0,
+        "initialPlayerZ": 262.5,
+        "minBlock": -432,
+        "maxBlock": 431,
+        "edgeColoredPixels": 370,
+        "mapCreationCases": 25,
+        "passed": true
+      }
+    ],
+    "screenshots": [
+      {
+        "file": "off-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "sha256": "0f9933f8cc7237d14f1be429a1075f384a4cdf9ae8b8dfa6919a21459b6de9b1"
+      },
+      {
+        "file": "off-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "sha256": "c209e674d598397d0b39ada6ef7ee65c8bc458b1eaa139d1e8d497f742ea0912"
+      },
+      {
+        "file": "off-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "sha256": "457641d37584ed3c60d92a5bd4a032ca25af5983e31db92f9f0fff9a3e0331a2"
+      },
+      {
+        "file": "off-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "sha256": "ed9c8458634e8f1ddde9fa13b8489fd4bf7045bce4be7b714847f04f61b35e0b"
+      },
+      {
+        "file": "off-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "sha256": "2dac62ca9a6c2aac2ebb44f36bfe58547c9c43ab7493aa62113129ac3b1507c6"
+      },
+      {
+        "file": "off-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "sha256": "0787a53b2cb8f29cfb027f3d183ea7af2a9faaeb4fecc06b84696134772bc876"
+      },
+      {
+        "file": "off-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "sha256": "8a232b483ea19c0d7108706540196981828fb3d0d1ebd6051962e1d059c4279c"
+      },
+      {
+        "file": "off-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "sha256": "689f8844ef9183ec1e71941490fe3ebaea2903e7f92b897ee1955ace0ec21253"
+      },
+      {
+        "file": "h1-lce-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "10cb204c9fd885844a762f349694b1fd11fd5784d8ec9ba5e7d17892551fc211"
+      },
+      {
+        "file": "h1-lce-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "6f6c73d2846bbb512352fc8fa3c5b05a3353aa6b2c43c7116e13db9795cb4617"
+      },
+      {
+        "file": "h1-lce-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "240a87afef142b349fa56f59744e45d963d49574988ad67c786d74b8514b8494"
+      },
+      {
+        "file": "h1-lce-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "8ec5c16c10630a33ce24aebbcc4665e24dcf9884f035ead850d5ab22ce82fd31"
+      },
+      {
+        "file": "h1-lce-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "2033b80365903579525182046658f0e9b66b3bbca635de18a95d99b012356615"
+      },
+      {
+        "file": "h1-lce-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "928a8b2e7f2e97b152280c93294f039f5d1934ebd1ba7d84cfde081e9fe14a62"
+      },
+      {
+        "file": "h1-lce-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "113eab2894f6648b36d1abfc1b739160ae3c9e7c64f2ebe804a0d7cff9508233"
+      },
+      {
+        "file": "h1-lce-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "sha256": "c240855630bec99df84df8cabf9ebd0c5e47c4b97f1784bc36aa4cc1cc41619d"
+      }
+    ]
+  },
+  "checks": [
+    "25 scale/coordinate map creations per world",
+    "First/later blank maps and negative fractional position",
+    "Enlargement from original source center; source preservation; locking",
+    "Legacy collision on all four finite border planes",
+    "Legacy sampling discovers terrain inside and leaves outside pixels untouched",
+    "Saved Legacy spawn integration and initial-player radius",
+    "Default and Flat retain their existing map behavior",
+    "Nether and End retain native border size",
+    "Actual rendered-frame dimensions with OptiFine H1, shaders OFF and LCE Look enabled",
+    "Visual review of all 16 frames; no loading overlay captures; complete one-handed paper at 4:3"
+  ],
+  "limits": [
+    "Spawn coordinates above are results in this Java port, not complete-world PS4 captures",
+    "Controlled PS4 instruction vectors verify selection logic independently of target terrain",
+    "Full PS4 final-terrain and all-seed spawn equality is not established",
+    "1512x982 and 3024x1964 framebuffers cover MacBook-like geometry; physical Apple Retina scaling was not tested",
+    "Hardware GPUs, physical controller devices, authenticated online multiplayer, and a running PS4 console were not tested in this update"
+  ]
+}

@@ -1,0 +1,613 @@
+[
+  {
+    "item": "#axes",
+    "tip": {
+      "translate": "item.minecraft.axe.tip"
+    }
+  },
+  {
+    "items": [
+      "flower_banner_pattern",
+      "creeper_banner_pattern",
+      "skull_banner_pattern",
+      "mojang_banner_pattern",
+      "globe_banner_pattern",
+      "piglin_banner_pattern",
+      "flow_banner_pattern",
+      "guster_banner_pattern"
+    ],
+    "tip": {
+      "translate": "item.minecraft.banner_pattern.tip"
+    }
+  },
+  {
+    "item": "#boats",
+    "tip": {
+      "translate": "item.minecraft.boat.tip"
+    }
+  },
+  {
+    "item": "#chest_boats",
+    "tip": {
+      "translate": "item.minecraft.chest_boat.tip"
+    }
+  },
+  {
+    "blocks": [
+      "#stone_buttons",
+      "#wooden_buttons"
+    ],
+    "tip": {
+      "translate": "block.minecraft.button.tip"
+    }
+  },
+  {
+    "blocks": [
+      "cobblestone_wall",
+      "mossy_cobblestone_wall"
+    ],
+    "tip": {
+      "translate": "block.minecraft.cobblestone_wall.tip"
+    }
+  },
+  {
+    "blocks": [
+      "#terracotta",
+      "!terracotta"
+    ],
+    "tip": {
+      "translate": "block.minecraft.colored_terracotta.tip"
+    }
+  },
+  {
+    "block": "#shulker_boxes",
+    "tip": {
+      "translate": "block.minecraft.shulker_box.tip"
+    }
+  },
+  {
+    "block": "#beds",
+    "tip": {
+      "translate": "block.minecraft.bed.tip"
+    }
+  },
+  {
+    "block": "#wool",
+    "tip": {
+      "translate": "block.minecraft.wool.tip"
+    }
+  },
+  {
+    "block": "#wool_carpets",
+    "tip": {
+      "translate": "block.minecraft.carpet.tip"
+    }
+  },
+  {
+    "block": "#banners",
+    "tip": {
+      "translate": "block.minecraft.banner.tip"
+    }
+  },
+  {
+    "block": "#concrete_powder",
+    "tip": {
+      "translate": "block.minecraft.concrete_powder.tip"
+    }
+  },
+  {
+    "item": "#concrete",
+    "tip": {
+      "translate": "block.minecraft.concrete.tip"
+    }
+  },
+  {
+    "blocks": [
+      "#candles",
+      "!candle"
+    ],
+    "tip": {
+      "translate": "block.minecraft.colored_candle.tip"
+    }
+  },
+  {
+    "blocks": [
+      "black_stained_glass",
+      "blue_stained_glass",
+      "light_blue_stained_glass",
+      "cyan_stained_glass",
+      "green_stained_glass",
+      "lime_stained_glass",
+      "pink_stained_glass",
+      "magenta_stained_glass",
+      "purple_stained_glass",
+      "red_stained_glass",
+      "brown_stained_glass",
+      "orange_stained_glass",
+      "yellow_stained_glass",
+      "white_stained_glass",
+      "light_gray_stained_glass",
+      "gray_stained_glass"
+    ],
+    "tip": {
+      "translate": "block.minecraft.stained_glass.tip"
+    }
+  },
+  {
+    "blocks": [
+      "black_stained_glass_pane",
+      "blue_stained_glass_pane",
+      "light_blue_stained_glass_pane",
+      "cyan_stained_glass_pane",
+      "green_stained_glass_pane",
+      "lime_stained_glass_pane",
+      "pink_stained_glass_pane",
+      "magenta_stained_glass_pane",
+      "purple_stained_glass_pane",
+      "red_stained_glass_pane",
+      "brown_stained_glass_pane",
+      "orange_stained_glass_pane",
+      "yellow_stained_glass_pane",
+      "white_stained_glass_pane",
+      "light_gray_stained_glass_pane",
+      "gray_stained_glass_pane"
+    ],
+    "tip": {
+      "translate": "block.minecraft.stained_glass_pane.tip"
+    }
+  },
+  {
+    "item": "#harnesses",
+    "tip": {
+      "translate": "item.minecraft.harness.tip"
+    }
+  },
+  {
+    "item": "#bundles",
+    "tip": {
+      "translate": "item.minecraft.bundle.tip"
+    }
+  },
+  {
+    "blocks": [
+      "command_block",
+      "chain_command_block",
+      "repeating_command_block"
+    ],
+    "tip": {
+      "translate": "block.minecraft.command_block.tip"
+    }
+  },
+  {
+    "block": "#copper_chests",
+    "tip": {
+      "translate": "block.minecraft.copper_chest.tip"
+    }
+  },
+  {
+    "block": "#corals",
+    "tip": {
+      "translate": "block.minecraft.coral.tip"
+    }
+  },
+  {
+    "block": "#coral_plants",
+    "tip": {
+      "translate": "block.minecraft.coral_fan.tip"
+    }
+  },
+  {
+    "block": "#coral_blocks",
+    "tip": {
+      "translate": "block.minecraft.coral_block.tip"
+    }
+  },
+  {
+    "item": "#dead_coral_plants",
+    "tip": {
+      "translate": "block.minecraft.dead_coral.tip"
+    }
+  },
+  {
+    "item": "#dead_corals",
+    "tip": {
+      "translate": "block.minecraft.dead_coral_fan.tip"
+    }
+  },
+  {
+    "item": "#dead_coral_blocks",
+    "tip": {
+      "translate": "block.minecraft.dead_coral_block.tip"
+    }
+  },
+  {
+    "block": "#wooden_doors",
+    "tip": {
+      "translate": "block.minecraft.door.tip"
+    }
+  },
+  {
+    "blocks": [
+      "copper_door",
+      "exposed_copper_door",
+      "weathered_copper_door",
+      "oxidized_copper_door",
+      "waxed_copper_door",
+      "waxed_exposed_copper_door",
+      "waxed_weathered_copper_door",
+      "waxed_oxidized_copper_door"
+    ],
+    "tip": {
+      "translate": "block.minecraft.copper_door.tip"
+    }
+  },
+  {
+    "block": "#fence_gates",
+    "tip": {
+      "translate": "block.minecraft.fence_gate.tip"
+    }
+  },
+  {
+    "block": "nether_brick_fence",
+    "tip": {
+      "translate": "block.minecraft.nether_brick_fence.tip"
+    }
+  },
+  {
+    "block": "#fences",
+    "tip": {
+      "translate": "block.minecraft.fence.tip"
+    }
+  },
+  {
+    "blocks": [
+      "short_grass",
+      "fern",
+      "legacy:shrub"
+    ],
+    "tip": {
+      "translate": "block.minecraft.short_grass.tip"
+    }
+  },
+  {
+    "block": "#all_hanging_signs",
+    "tip": {
+      "translate": "block.minecraft.hanging_sign.tip"
+    }
+  },
+  {
+    "item": "#hoes",
+    "tip": {
+      "translate": "item.minecraft.hoe.tip"
+    }
+  },
+  {
+    "blocks": [
+      "crimson_hyphae",
+      "warped_hyphae"
+    ],
+    "tip": {
+      "translate": "block.minecraft.hyphae.tip"
+    }
+  },
+  {
+    "blocks": [
+      "infested_stone",
+      "infested_cobblestone",
+      "infested_stone_bricks",
+      "infested_mossy_stone_bricks",
+      "infested_cracked_stone_bricks",
+      "infested_chiseled_stone_bricks",
+      "infested_deepslate"
+    ],
+    "tip": {
+      "translate": "block.minecraft.infested_stone.tip"
+    }
+  },
+  {
+    "items": [
+      "iron_ingot",
+      "gold_ingot"
+    ],
+    "tip": {
+      "translate": "item.minecraft.ingot.tip"
+    }
+  },
+  {
+    "entity_type": "item_frame",
+    "tip": {
+      "itemIcon": {
+        "item": "item_frame"
+      }
+    }
+  },
+  {
+    "item": "charcoal",
+    "tip": {
+      "translate": "item.minecraft.coal.tip"
+    }
+  },
+  {
+    "blocks": [
+      "deepslate_bricks",
+      "cracked_deepslate_bricks"
+    ],
+    "tip": {
+      "translate": "block.minecraft.deepslate_bricks.tip"
+    }
+  },
+  {
+    "blocks": [
+      "deepslate_tiles",
+      "cracked_deepslate_tiles"
+    ],
+    "tip": {
+      "translate": "block.minecraft.deepslate_tiles.tip"
+    }
+  },
+  {
+    "blocks": [
+      "red_sandstone",
+      "smooth_red_sandstone",
+      "chiseled_red_sandstone",
+      "cut_red_sandstone"
+    ],
+    "tip": {
+      "translate": "block.minecraft.red_sandstone.tip"
+    }
+  },
+  {
+    "blocks": [
+      "sandstone",
+      "smooth_sandstone",
+      "chiseled_sandstone",
+      "cut_sandstone"
+    ],
+    "tip": {
+      "translate": "block.minecraft.sandstone.tip"
+    }
+  },
+  {
+    "block": "#stone_bricks",
+    "tip": {
+      "translate": "block.minecraft.stone_bricks.tip"
+    }
+  },
+  {
+    "blocks": [
+      "quartz_block",
+      "chiseled_quartz_block",
+      "quartz_pillar",
+      "smooth_quartz",
+      "quartz_bricks"
+    ],
+    "tip": {
+      "translate": "block.minecraft.quartz_block.tip"
+    }
+  },
+  {
+    "block": "#leaves",
+    "tip": {
+      "translate": "block.minecraft.leaves.tip"
+    }
+  },
+  {
+    "blocks": [
+      "dark_oak_log",
+      "oak_log",
+      "acacia_log",
+      "birch_log",
+      "jungle_log",
+      "spruce_log",
+      "mangrove_log",
+      "cherry_log",
+      "pale_oak_log",
+      "crimson_stem",
+      "warped_stem"
+    ],
+    "tip": {
+      "translate": "block.minecraft.log.tip"
+    }
+  },
+  {
+    "blocks": [
+      "red_mushroom_block",
+      "brown_mushroom_block",
+      "mushroom_stem"
+    ],
+    "tip": {
+      "translate": "block.minecraft.mushroom_block.tip"
+    }
+  },
+  {
+    "blocks": [
+      "red_mushroom",
+      "brown_mushroom"
+    ],
+    "tip": {
+      "translate": "block.minecraft.mushroom.tip"
+    }
+  },
+  {
+    "item": "#minecraft:creeper_drop_music_discs",
+    "tip": {
+      "translate": "item.minecraft.music_disc_generic.tip"
+    }
+  },
+  {
+    "blocks": [
+      "crimson_nylium",
+      "warped_nylium"
+    ],
+    "tip": {
+      "translate": "block.minecraft.nylium.tip"
+    }
+  },
+  {
+    "block": "#coal_ores",
+    "tip": {
+      "translate": "block.minecraft.coal_ore.tip"
+    }
+  },
+  {
+    "block": "#copper_ores",
+    "tip": {
+      "translate": "block.minecraft.copper_ore.tip"
+    }
+  },
+  {
+    "block": "#lapis_ores",
+    "tip": {
+      "translate": "block.minecraft.lapis_ore.tip"
+    }
+  },
+  {
+    "block": "#diamond_ores",
+    "tip": {
+      "translate": "block.minecraft.diamond_ore.tip"
+    }
+  },
+  {
+    "block": "#redstone_ores",
+    "tip": {
+      "translate": "block.minecraft.redstone_ore.tip"
+    }
+  },
+  {
+    "block": "#iron_ores",
+    "tip": {
+      "translate": "block.minecraft.iron_ore.tip"
+    }
+  },
+  {
+    "block": "#gold_ores",
+    "tip": {
+      "translate": "block.minecraft.gold_ore.tip"
+    }
+  },
+  {
+    "block": "#emerald_ores",
+    "tip": {
+      "translate": "block.minecraft.emerald_ore.tip"
+    }
+  },
+  {
+    "item": "#pickaxes",
+    "tip": {
+      "translate": "item.minecraft.pickaxe.tip"
+    }
+  },
+  {
+    "block": "#planks",
+    "tip": {
+      "translate": "block.minecraft.planks.tip"
+    }
+  },
+  {
+    "item": "#decorated_pot_sherds",
+    "tip": {
+      "translate": "item.minecraft.pottery_sherd.tip"
+    }
+  },
+  {
+    "block": "#saplings",
+    "tip": {
+      "translate": "block.minecraft.sapling.tip"
+    }
+  },
+  {
+    "block": "#wooden_shelves",
+    "tip": {
+      "translate": "block.minecraft.shelf.tip"
+    }
+  },
+  {
+    "item": "#shovels",
+    "tip": {
+      "translate": "item.minecraft.shovel.tip"
+    }
+  },
+  {
+    "block": "#signs",
+    "tip": {
+      "translate": "block.minecraft.sign.tip"
+    }
+  },
+  {
+    "block": "#c:skulls",
+    "tip": {
+      "translate": "block.minecraft.mob_head.tip"
+    }
+  },
+  {
+    "block": "#slabs",
+    "tip": {
+      "translate": "block.minecraft.slab.tip"
+    }
+  },
+  {
+    "item": "#trim_templates",
+    "tip": {
+      "translate": "item.minecraft.armor_trim_smithing_template.tip"
+    }
+  },
+  {
+    "block": "#stairs",
+    "tip": {
+      "translate": "block.minecraft.stairs.tip"
+    }
+  },
+  {
+    "block": "#stone_pressure_plates",
+    "tip": {
+      "translate": "block.minecraft.stone_pressure_plate.tip"
+    }
+  },
+  {
+    "blocks": [
+      "suspicious_sand",
+      "suspicious_gravel"
+    ],
+    "tip": {
+      "translate": "block.minecraft.suspicious_block.tip"
+    }
+  },
+  {
+    "item": "#swords",
+    "tip": {
+      "translate": "item.minecraft.sword.tip"
+    }
+  },
+  {
+    "blocks": [
+      "#wooden_trapdoors",
+      "copper_trapdoor",
+      "exposed_copper_trapdoor",
+      "weathered_copper_trapdoor",
+      "oxidized_copper_trapdoor",
+      "waxed_copper_trapdoor",
+      "waxed_exposed_copper_trapdoor",
+      "waxed_weathered_copper_trapdoor",
+      "waxed_oxidized_copper_trapdoor"
+    ],
+    "tip": {
+      "translate": "block.minecraft.trapdoor.tip"
+    }
+  },
+  {
+    "blocks": [
+      "dark_oak_wood",
+      "oak_wood",
+      "acacia_wood",
+      "birch_wood",
+      "jungle_wood",
+      "spruce_wood",
+      "mangrove_wood",
+      "cherry_wood",
+      "pale_oak_wood"
+    ],
+    "tip": {
+      "translate": "block.minecraft.wood.tip"
+    }
+  }
+]

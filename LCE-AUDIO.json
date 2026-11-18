@@ -1,0 +1,175 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/Sound/wood click.wav",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/press.ogg",
+      "sha256": "c40ce66aa569a63a0303a6c0767c7e3dadb15ef663ba50a49f77a80293abd52c",
+      "source_sha256": "c40ce66aa569a63a0303a6c0767c7e3dadb15ef663ba50a49f77a80293abd52c",
+      "kind": "copied_wav",
+      "subsong": 1,
+      "wave": "wood click",
+      "sample_rate": 44100,
+      "channels": 1,
+      "frames": 6934,
+      "pcm_sha256": "6d1211c9f8319000a9fc849d61cb2bd20b8b3b4e0d7eb0bada3b49db7e25b8ab",
+      "cue_volume_hundredths_db": -1670,
+      "cue_pitch_cents": 0,
+      "pitch_variation_cents": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "Minecraft.Client/PS4_GAME/Sound/Minecraft.msscmp",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/focus.ogg",
+      "sha256": "8a3d5ca2e466dda07bf9fd52ac7edd171b506e6be8e5e572fc6f2976bfd8a831",
+      "source_sha256": "2ca91e98ee8b631fc3dc23876be07d9ab27d26f541277bdac4a9b9f437737742",
+      "kind": "decoded_binka",
+      "wave": "Minecraft/UI/focus",
+      "sample_rate": 44100,
+      "channels": 1,
+      "frames": 11822,
+      "pcm_sha256": "3066ba57c78767039233d8e92b42856b58ec9519092319c8767b1d4462acb5a7",
+      "cue_volume_hundredths_db": 0,
+      "cue_pitch_cents": 0,
+      "pitch_variation_cents": [
+        -100,
+        100
+      ],
+      "bank_sound_index": 369,
+      "bank_entry_offset": 58192,
+      "data_offset": 12267520,
+      "encoded_bytes": 1878,
+      "event_parameters": "9;4;1;Minecraft/UI/focus:100:;;;;;Effect;;;0;0;0;0000;0000;80;01;;1.000000;1.000000;0.943874;1.059463;0.000000;3;0;",
+      "gain_range": [
+        1.0,
+        1.0
+      ],
+      "pitch_factor_range": [
+        0.943874,
+        1.059463
+      ],
+      "encoded_sha256": "0a755cbe00c01befb77d9e7c3eb5aae8aa8b311a84faf497d8df81555987c6c2"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Sound/pop.wav",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/craft.ogg",
+      "sha256": "165a4134b4bf0c925f87beb9cf2fbae8114580fb82683d7f79785e38beb6d9b2",
+      "source_sha256": "165a4134b4bf0c925f87beb9cf2fbae8114580fb82683d7f79785e38beb6d9b2",
+      "kind": "copied_wav",
+      "subsong": 3,
+      "wave": "pop",
+      "sample_rate": 44100,
+      "channels": 1,
+      "frames": 7670,
+      "pcm_sha256": "f638e10c525e92e12cc3e0559f6d183b4ffa23b42510ac75de4e7fe7c23bd137",
+      "cue_volume_hundredths_db": -1200,
+      "cue_pitch_cents": 0,
+      "pitch_variation_cents": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Sound/btn_Back.wav",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/fail.ogg",
+      "sha256": "03facbce4e4b18c3454a116e32f0b0a5046f84e8dd25402c4cfc83f8bd536e29",
+      "source_sha256": "03facbce4e4b18c3454a116e32f0b0a5046f84e8dd25402c4cfc83f8bd536e29",
+      "kind": "copied_wav",
+      "subsong": 2,
+      "wave": "btn_Back",
+      "sample_rate": 48000,
+      "channels": 2,
+      "frames": 11842,
+      "pcm_sha256": "895ca0580a96e49632216d0f4df77267e27f0f7bb215886e21be88c4bf0b3ac8",
+      "cue_volume_hundredths_db": -1200,
+      "cue_pitch_cents": 0,
+      "pitch_variation_cents": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Sound/Xbox/MenuSounds.xwb",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/back.ogg",
+      "sha256": "d3f207e5bea2a81ab14d8510f58b255ac59037991bd6c5ccb3db850da20c9426",
+      "source_sha256": "944eb79e522420533445fb9458d52de508dd8c6c122151b0a588a90c616d494e",
+      "kind": "decoded_xma",
+      "subsong": 5,
+      "wave": "Back3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 10818,
+      "pcm_sha256": "2fb1ad7565e7027715994afb1ad87394ee39b5c684fc09a4d2d0a5cf12843e8d",
+      "cue_volume_hundredths_db": -1200,
+      "cue_pitch_cents": 0,
+      "pitch_variation_cents": [
+        0,
+        0
+      ]
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Sound/Xbox/MenuSounds.xwb",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/scroll.ogg",
+      "sha256": "839ce0c342929ffd39ab726c363d6bb3f4dbf8c63732f769c7eb35a0bc68e191",
+      "source_sha256": "944eb79e522420533445fb9458d52de508dd8c6c122151b0a588a90c616d494e",
+      "kind": "decoded_xma",
+      "subsong": 6,
+      "wave": "Scroll3",
+      "sample_rate": 44100,
+      "channels": 2,
+      "frames": 1457,
+      "pcm_sha256": "68093fa7ce8bd0d05e0bbf3ad8a57095af4d0229eb89eb9e3fe5cce511371d89",
+      "cue_volume_hundredths_db": -1200,
+      "cue_pitch_cents": 0,
+      "pitch_variation_cents": [
+        0,
+        0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.Client/Common/Media/Sound/MenuSounds.xap",
+      "sha256": "ab3c26e7ef603e25187bfde5f7c30c40506b107faf6bdb95a6d3970172cdc8b6"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/Sound/Xbox/MenuSounds.xwb",
+      "sha256": "944eb79e522420533445fb9458d52de508dd8c6c122151b0a588a90c616d494e"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/Sound/Xbox/MenuSounds.xsb",
+      "sha256": "7320984ea28b9c9b9ba389ad6a3bd6e08c99c9a1386f1c7fc9e9df7775e98601"
+    },
+    {
+      "path": "Minecraft.Client/PS4_GAME/Sound/Minecraft.msscmp",
+      "sha256": "2ca91e98ee8b631fc3dc23876be07d9ab27d26f541277bdac4a9b9f437737742"
+    },
+    {
+      "path": "Minecraft.Client/Common/Audio/SoundEngine.cpp",
+      "sha256": "d1eb271971bdcb2491cfc381e1cd7ffa2d89f788bf139fe6014d9e5d4045e110"
+    },
+    {
+      "path": "Minecraft.Client/Common/Audio/SoundNames.cpp",
+      "sha256": "e293c274123ab591eef8e2b683616be5d6454087268315f2a3b67e89235f6d15"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene.cpp",
+      "sha256": "c476b0c7be0b81dd19a463f264d67ee8c1f2f2ae9e19589cbaa3b6880efdda99"
+    },
+    {
+      "path": "Minecraft.Client/Orbis/Miles/include/mss.h",
+      "sha256": "15c49e67748961507db38f5aa190088a3662c0d50694bf6dd29e923e3bb8df5c"
+    }
+  ],
+  "decoder": "vgmstream r2168 (XMA2 and Bink Audio to PCM16)",
+  "adaptations": [
+    "PCM WAV data retains .ogg resource names because Minecraft 1.11.2 appends .ogg; UiSoundCodec detects RIFF and reads PCM directly.",
+    "For bank-only waves, original XAP sample rates replace the packed XMA header rates, and encoder padding is trimmed to XAP source frame counts.",
+    "Focus is extracted by event name from the active PS4 Miles bank, with its original BCF1 sample count and native 0.943874..1.059463 pitch range. No resampling, trimming or extra gain/pitch processing is applied to this recording.",
+    "Playback averages stereo inputs to mono, then duplicates the mono signal into two output channels to prevent OpenAL positional panning.",
+    "Focus playback applies a 32-source-sample stop ramp to reach zero smoothly, adapting Miles DEFAULT_DLRS=32 and SAMPLE.fade_to_stop. Only the final 32 playback frames are affected; the decoded asset, attack/body, rate, length, gain and pitch remain unchanged. This Java adaptation is not a port of the complete closed Miles mixer."
+  ]
+}

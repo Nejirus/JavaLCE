@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="See LICENSE and THIRD-PARTY-NOTICES.md"
+[[mods]]
+modId="legacyconsole"
+version="1.0.0"
+displayName="Legacy Console"
+description="Legacy Console menus, crafting, controller support and presentation for Minecraft 1.17.1."
+[[dependencies.legacyconsole]]
+modId="forge"
+mandatory=true
+versionRange="[37.0.103,38)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.legacyconsole]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.17.1]"
+ordering="NONE"
+side="BOTH"

@@ -1,0 +1,1064 @@
+{
+  "environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "renderer": "llvmpipe software renderer"
+  },
+  "full_junit_suite": {
+    "tests": 348,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "log": "full-tests.log",
+    "final_asset_dependency_checks": "Three asset/hash/layout tests rerun after resolving the original nested AnvilPlusSmall display list."
+  },
+  "native_comparisons": {
+    "brewing_ticks_and_arrow_fills": 401,
+    "beacon_button_states": 8,
+    "section_transitions": 2232,
+    "enchantment_names": 84
+  },
+  "tested_jars": {
+    "legacy-console-1.17.1-2.3.4.jar": "d12eb0d77d28f91923308cad716c8c833f81c9b02454885ec7aaf9fe572aa022",
+    "legacy-join-compat-1.17.1-2.3.4.jar": "c4c5e9f66bc6d442dca159b2b1aa0ce1c48a2cfeac7941d9e6e8baf617df778d"
+  },
+  "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+  "shaderpack_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "inventory-funded crafting, stonecutting, reusable loom templates and context rejection",
+      "client input -> server: crafting",
+      "client input -> server: stonecutting",
+      "client input -> server: loom",
+      "client input -> server: cartography",
+      "client input -> server: enchanting",
+      "client input -> server: brewing",
+      "client input -> server: beacon"
+    ],
+    "screenshots": [
+      {
+        "file": "off-crafting-1280x720.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "3dbb0cf02fdd4c9bc8a5954fcb669f5e55ef4e337f23ff4148d06605a7520569"
+      },
+      {
+        "file": "off-stonecutting-1280x720.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "869774bb979db1633b4d28d93fa3491cecc886a06961bcf3d4e8eb737a46fb06"
+      },
+      {
+        "file": "off-loom-1280x720.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "f659da9532d05562f7183fdf743f10c04d77c597316a2961b1eddc56b9ca2a0a"
+      },
+      {
+        "file": "off-cartography-1280x720.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "87403651950a7bfcabd111fb221d940f310fc0d7f1da9f6f00a76fe3ee1a8b38"
+      },
+      {
+        "file": "off-enchanting-1280x720.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "883d61b0ecfa2bb17c3fcd6e7923dffaf3dfbb33c3ebf9df22426eb9ed566f14"
+      },
+      {
+        "file": "off-brewing-1280x720.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "2b5a2b4d46c191b15616855b3b734a869b36d4acd47aad84b5dc94801cb175e1"
+      },
+      {
+        "file": "off-beacon-1280x720.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "11a08ae6071f1e50a7d45c744cefac6001a6b09791a72d3e830d39f7065843b7"
+      },
+      {
+        "file": "off-crafting-1920x1080.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "e913fbaa85c5eff2bf004e577f10c76154bb1af6604c6effc43c6451aa84069e"
+      },
+      {
+        "file": "off-stonecutting-1920x1080.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "d05b6182d8158aea372ca5280121d9a294e87c58ff2f80a8dfc640c8350ec13b"
+      },
+      {
+        "file": "off-loom-1920x1080.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "fd6730c4bf0abc13f7945d9ac605630ba5968b0b1f4d359697bf51bde084d4d8"
+      },
+      {
+        "file": "off-cartography-1920x1080.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "9fd9249bb256ec1d99d51cfa8df6112c60fc22efc57d98291b1b66502d3d73c7"
+      },
+      {
+        "file": "off-enchanting-1920x1080.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "525f07a79c947964367ff7d62558b68826b7da709917ea2014c97696e323c2df"
+      },
+      {
+        "file": "off-brewing-1920x1080.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "c5f78a9ad1676698784b79d055c2b92cd9492eaf1c2993e2426303dc0ec0ed9e"
+      },
+      {
+        "file": "off-beacon-1920x1080.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "OFF",
+        "guiScale": 3.0,
+        "sha256": "a6b457205076fb22318356d532f2654c12b00f58d99efb1c36450b6fc6f04971"
+      },
+      {
+        "file": "off-crafting-2560x1440.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "04813f0793a9971cd1b44c8b0811f743148548994c3475b12042493c6e655f27"
+      },
+      {
+        "file": "off-stonecutting-2560x1440.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "5136ede751d7e8bf6c6c20ed8c68dbe6a160eb5d4be80f63b27dcaadd50c5721"
+      },
+      {
+        "file": "off-loom-2560x1440.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "bf9fb35e4e67f75c507b60c48518ad870754bc32f5b798b6be230cf3ec230ccc"
+      },
+      {
+        "file": "off-cartography-2560x1440.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "6786070085e24ec851db676a87f13308d68f946e3d3cfc4ad980e4e5da79fcd2"
+      },
+      {
+        "file": "off-enchanting-2560x1440.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "8a09f9befa7cc6fd379cf1bb1f7a44700133216064c900f1f41183373fe24a77"
+      },
+      {
+        "file": "off-brewing-2560x1440.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "c35125f84f06d0be97247c3d2012675b99860394b15dabd54265f74660d9322b"
+      },
+      {
+        "file": "off-beacon-2560x1440.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "fa8353c8f4f38e1fd679c218c8981bd0db0456d2cb2a8f6d5ae8aa837ffd7774"
+      },
+      {
+        "file": "off-crafting-3840x2160.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "0b17a18cdfc94002f5428d12187d094399f4295ed37d789c521ab3ddafbf2817"
+      },
+      {
+        "file": "off-stonecutting-3840x2160.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "9e49b6c194a8986ab26143344909d51ac03f9419749f1a1beee9f1a372a621ff"
+      },
+      {
+        "file": "off-loom-3840x2160.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "5d9db1b45f177e3fe4b158c518fa4021f0081a3ed4f5ae4f9e6ede78a83c2624"
+      },
+      {
+        "file": "off-cartography-3840x2160.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "7bbed31544662f0abb3226a371b328671fd126322a244d454f10165330bc0db5"
+      },
+      {
+        "file": "off-enchanting-3840x2160.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "3ba95d020a8e6a1fae302bdf9b48d81ce255acb327467a5a8d8b0c024754e358"
+      },
+      {
+        "file": "off-brewing-3840x2160.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "62dbfafe7c6e94acff59c322b3f6872d2c3b708175df980dbc433e07969f7f26"
+      },
+      {
+        "file": "off-beacon-3840x2160.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "OFF",
+        "guiScale": 6.0,
+        "sha256": "251d77ad5a2e1149b1c7177984732fb37347e8bb8a5b9da3fe2db15d6a5fab6b"
+      },
+      {
+        "file": "off-crafting-1024x768.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "a871adac5c646e7414c960f48506ac6e1ebd4cbd73ae28f03a7af95444ac2ee2"
+      },
+      {
+        "file": "off-stonecutting-1024x768.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "f4d0148f97930fb9691cbc5dc9e7ad6cb37f99994e2b43c279fcb332cf94930f"
+      },
+      {
+        "file": "off-loom-1024x768.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "0a8c2bdfe812a424073f26d61382f8d1fd2ef7c23339a376fd8612f176cb5fb7"
+      },
+      {
+        "file": "off-cartography-1024x768.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "9539219c94d40aca8fb8d2b48ff69c4a7525ff9be65ceb7abe5d647da99c4b7d"
+      },
+      {
+        "file": "off-enchanting-1024x768.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "eac1134c795ff5a3c5c010cfb0f334d963032ae60bac201e08a5036ff7e83799"
+      },
+      {
+        "file": "off-brewing-1024x768.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "951cc4455b6dff495d293ef28ecdcb07901ddf7a2aab1b9f87fe6a80b590f135"
+      },
+      {
+        "file": "off-beacon-1024x768.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "OFF",
+        "guiScale": 1.0,
+        "sha256": "90373ddac937e5644b742b7294344d687011d961d9f9c889c4b19bbc3f75d259"
+      },
+      {
+        "file": "off-crafting-1600x1000.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "969b1383cc66c2e4ee2c3afca48bd180922c930b11fcde9ca38a2a4bf0d9c1d3"
+      },
+      {
+        "file": "off-stonecutting-1600x1000.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "8156358ccb53816de3d6bdb5f74fa169516856c2203e0525efb03fec30f2eda4"
+      },
+      {
+        "file": "off-loom-1600x1000.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "3c27fbc34d259505cfb243e5d9c8846b7b9f07fd1f42c0fea2b26bab96954e1b"
+      },
+      {
+        "file": "off-cartography-1600x1000.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "307b05c407bb7186a91a80e61bf761745ac215a8af5f488588acb0b97b8e9edb"
+      },
+      {
+        "file": "off-enchanting-1600x1000.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "966d02d003ea9d4b7c38870c1a5bff6833a3323ddf43f3c5cfb569a61a55096f"
+      },
+      {
+        "file": "off-brewing-1600x1000.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "f49b48f790657149e7fc7dbad9c1fc929820d392bb0ce2a85239f207855b41c6"
+      },
+      {
+        "file": "off-beacon-1600x1000.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "0a65e3b5acb7b8ef365a5ec0d74aae78ad929a5226c2549cb8296b3e7f1d45f5"
+      },
+      {
+        "file": "off-crafting-1512x982.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "de2b4ae9ac85aaf1762feafbad09bb63b6c55077269cecdf9d93f217ad6b63b5"
+      },
+      {
+        "file": "off-stonecutting-1512x982.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "4bea2f1f5bbaeca013a8c11f1222f949788160a0dd504647eaa218e0ee7ea773"
+      },
+      {
+        "file": "off-loom-1512x982.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "fb940dee4a5c966560597bcd71c36e5e0425021afe05f0f020bc2bb1579cea5f"
+      },
+      {
+        "file": "off-cartography-1512x982.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "1b60b17f4b1bfc3d990ab6a4df1c5dd55cc1e73a7d51b1d256b32608b40e4589"
+      },
+      {
+        "file": "off-enchanting-1512x982.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "9a48a0e1a3b7f1cbfd876b9e226ff9a5c233cdd3139def8a41edcc002fc6c91b"
+      },
+      {
+        "file": "off-brewing-1512x982.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "ba6cc3b4b58a1968221ba68a504c44872b3d5d77936f8e138672a8647c8891d0"
+      },
+      {
+        "file": "off-beacon-1512x982.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "OFF",
+        "guiScale": 2.0,
+        "sha256": "be6b5dd541834c8217864656628b7ba09f520e0edd0c820181d652d8103e21f2"
+      },
+      {
+        "file": "off-crafting-3024x1964.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "70893a4f7ab320533df5d9976dd7ad2b515b726cdde4a5447fec389e81586163"
+      },
+      {
+        "file": "off-stonecutting-3024x1964.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "44a7f95c121e1b07b625d2317d322231e81996ede7c6876aff51af9fd37ba292"
+      },
+      {
+        "file": "off-loom-3024x1964.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "aeacd611ee0dc648e826c39d9603dff196095eaf23b05689f967dd40b178050e"
+      },
+      {
+        "file": "off-cartography-3024x1964.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "7c2eed553a5923c862d109d8f81ad8a52bb5904b3da92e795c1d764c2c1262ac"
+      },
+      {
+        "file": "off-enchanting-3024x1964.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "3fc6c3a912e942aea954274392b13203cabb46f03737427ad8a378c80a01e2e6"
+      },
+      {
+        "file": "off-brewing-3024x1964.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "048c4c2ee682ec07c3d056a45d638b1bfeedc0b79aa1890b0a0fc125c5aa1ac7"
+      },
+      {
+        "file": "off-beacon-3024x1964.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "OFF",
+        "guiScale": 4.0,
+        "sha256": "25b1f80aaaf67403cd8688e888386749b9536658ec68c37b59a9b4d73aadfde2"
+      },
+      {
+        "file": "look-crafting-1280x720.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "3e2e097f870c42fe52f4aa80ddd93079b8b19fb50a1de34e49eb1b303843e782"
+      },
+      {
+        "file": "look-stonecutting-1280x720.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "189652a92f2996c2005c0fc179fb16013e2ad91a77033c7700dd20a1f1b2945f"
+      },
+      {
+        "file": "look-loom-1280x720.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "eea65d1f6c84c42b5616d8c6cffb0d3d4be23f3c08e296155768b6790c7a8f54"
+      },
+      {
+        "file": "look-cartography-1280x720.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "491c76d3f7ac6b4f231159083a5e08c6ba834abb93f6b2e54e6b59e6e51ede35"
+      },
+      {
+        "file": "look-enchanting-1280x720.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "3b60d662440dcf7797e5d2e3682e8e26a39c290a113ef4f99a279471e662552d"
+      },
+      {
+        "file": "look-brewing-1280x720.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "1e42071cf72ac280d5fffc62c6bbd79a4cc44ea87ac78482d014f7cce209c3bb"
+      },
+      {
+        "file": "look-beacon-1280x720.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1280,
+        "height": 720,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "433b9b6804f417ddf930768dfcb1a258c8c5b208bdb96139a4d3b339ab2f8b64"
+      },
+      {
+        "file": "look-crafting-1920x1080.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "881fe4b886976a1b4dffe0b9bd7dd4793fe06917b1ec5637524f976c3af751be"
+      },
+      {
+        "file": "look-stonecutting-1920x1080.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "b8fd779203c9b7b31d053e98e42f8401955e6a6aa9feec0f7e6c137de26c5d31"
+      },
+      {
+        "file": "look-loom-1920x1080.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "c4a820039ea7a0b41349812348e06b956ebe9752a8c7ffa536411efa6d0a32c2"
+      },
+      {
+        "file": "look-cartography-1920x1080.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "aabe730d996712ee3a4430fc042a6bdfbbc4eff4009ce64d856953e195394471"
+      },
+      {
+        "file": "look-enchanting-1920x1080.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "5d8b462d9e97d4dd1a067d2a02f30d16b9b897fa0137b1e2ce7a2776fcc26534"
+      },
+      {
+        "file": "look-brewing-1920x1080.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "3fcaa6cccc2eb9b80e3ea2211f23cee120c38f88177be4e68e9108b9281fab42"
+      },
+      {
+        "file": "look-beacon-1920x1080.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1920,
+        "height": 1080,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 3.0,
+        "sha256": "0f1400a676b28236dd3033b2ab1cd2e38d4df41fdacdaecf5a17c981e0946377"
+      },
+      {
+        "file": "look-crafting-2560x1440.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "37bb8848f7ac8f05e1707233f9d07b336f2d05c332a3cc2755f5b804fc5c725a"
+      },
+      {
+        "file": "look-stonecutting-2560x1440.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "aabfc0ea0a71547836fcb290d364649c4b72cc5fe370f3e2d2b859a9df5ec66d"
+      },
+      {
+        "file": "look-loom-2560x1440.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "087e21f4f9667d0a240cfe1796481591b654a3614ec9bab849ddd91e5c98e255"
+      },
+      {
+        "file": "look-cartography-2560x1440.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "0cdffbef11392ccc502709072730b699a488c455dd3314ae92b682ead9b0c49d"
+      },
+      {
+        "file": "look-enchanting-2560x1440.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "d135f76edbfd105428f286e1d938139dade90faa32fbae6ac175b32ee5093641"
+      },
+      {
+        "file": "look-brewing-2560x1440.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "d4287a655f679b1a11ee33182fb64be7ecd55b0e4f33cc9819c9df9b3644fb89"
+      },
+      {
+        "file": "look-beacon-2560x1440.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 2560,
+        "height": 1440,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "842cd587e3e6f4feda7c7bff24ea43cdf5145ba7824b5892b408114c111f0751"
+      },
+      {
+        "file": "look-crafting-3840x2160.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "10db2dba38f6279a2c4d58d267ab4eec32d09797b12475b8bb0a3c4659072f41"
+      },
+      {
+        "file": "look-stonecutting-3840x2160.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "6a730cb12fd72ceeb6fd74463ef6eb1ad473b0b109cd89bb23b535fb75180d1b"
+      },
+      {
+        "file": "look-loom-3840x2160.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "f025834069bfdbef486f78b2fc43f0549f0834b922d45c74bd0198a33968cdd9"
+      },
+      {
+        "file": "look-cartography-3840x2160.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "0e9a9b4ade2ee51e1a0b3c410bfee25f760cdf6f70e07326ee41ae08295e8d31"
+      },
+      {
+        "file": "look-enchanting-3840x2160.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "7205bfbba6a91ba8e76b4cdce6dbab12f1f8594c7b8a30aa0d5bb8aaaf5a8e7d"
+      },
+      {
+        "file": "look-brewing-3840x2160.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "b6fd0cc318c9f8961d7dbebfb342b73f0c6e4e5c5b7eaa7d9485f2dfbb44c7bf"
+      },
+      {
+        "file": "look-beacon-3840x2160.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 3840,
+        "height": 2160,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 6.0,
+        "sha256": "be4173cfe23b17b6d1d5f9dca60c261e9d911a53396f12edad7ae0f36a277e98"
+      },
+      {
+        "file": "look-crafting-1024x768.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "1dcb8256fd637095aa35f0c1fa71deb5397209d07514d24ae3bab8481d6fef1e"
+      },
+      {
+        "file": "look-stonecutting-1024x768.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "e8286270255e5e10715adaa798db87fbe6cd00705901a2d992a677572f729ccc"
+      },
+      {
+        "file": "look-loom-1024x768.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "0c81009b81c3c67c19e1f95dac422bf1d22f175a9f6b3e9c3aff63905800400d"
+      },
+      {
+        "file": "look-cartography-1024x768.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "23bdc44fafa7c418473a7a35719bf2ac3e8dc73dc8c266d06dbcc2e55781ee4f"
+      },
+      {
+        "file": "look-enchanting-1024x768.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "4fc6cf3dd6252ccd89c1bfb054cb57a1a3169ca22eac06a0b93983478acb3e99"
+      },
+      {
+        "file": "look-brewing-1024x768.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "7ce20ff6ec2ad30c8c0753a711749e994ca64959be460c04808d42f4058e6bd1"
+      },
+      {
+        "file": "look-beacon-1024x768.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1024,
+        "height": 768,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 1.0,
+        "sha256": "f26d971c64846c11f8b91018a5c28e08253fc1bfccda6e648c9b9b29a1aa4de8"
+      },
+      {
+        "file": "look-crafting-1600x1000.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "c189073b82d01508d97551ca1f047bed19087968f6a6f1397e50025f184199d2"
+      },
+      {
+        "file": "look-stonecutting-1600x1000.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "4050dc93bc6276553c781f19e57a4bda0b45c4a3d658b3e6f35cda372aa5d577"
+      },
+      {
+        "file": "look-loom-1600x1000.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "0f00de99995f96fdec88c4c90c85cc541829c279d404c447b6a3e49aec5a1181"
+      },
+      {
+        "file": "look-cartography-1600x1000.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "f3e20d5cfdbb7d574cdf108b355e53f520ba5b9366b2ca88067da8bf03b65c09"
+      },
+      {
+        "file": "look-enchanting-1600x1000.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "24894ebe94839738eae14a65068d84556f235c51c2b42e3ae82f5e540e623122"
+      },
+      {
+        "file": "look-brewing-1600x1000.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "357db51ffc3e082805df668748554172d418a607ad1cc736a5617bb729f6d38c"
+      },
+      {
+        "file": "look-beacon-1600x1000.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1600,
+        "height": 1000,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "32edd607d1881f26e18afbd54e771e33b540736cadc43b99d1ce193bf9b32b82"
+      },
+      {
+        "file": "look-crafting-1512x982.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "2c473cdd646379cfaa868954dd468862a8d87165733bc7e74e088e84929da059"
+      },
+      {
+        "file": "look-stonecutting-1512x982.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "760799688de78985038b3e119e28f50b25ca05454716acb5a975ba1facac364e"
+      },
+      {
+        "file": "look-loom-1512x982.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "67bfea6288d2a3f724d2f42cdbe9690a0bbd6792bc6c8c4b85fdb8e640ec17a1"
+      },
+      {
+        "file": "look-cartography-1512x982.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "c7a68cdb348c774f8a40342ec999aff6eb232b65fc0b7f86950108b3af60f40a"
+      },
+      {
+        "file": "look-enchanting-1512x982.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "99fff63df482ce109091c3cfda4985388e0906c29247bded363ca008ba7933c4"
+      },
+      {
+        "file": "look-brewing-1512x982.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "76fc454257e0644052eddfde035b70b1004283ed4856a3b747748973c679f2ca"
+      },
+      {
+        "file": "look-beacon-1512x982.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 1512,
+        "height": 982,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 2.0,
+        "sha256": "cd3a74e1d68f79f2d2b9ac675872e9896ee393b5d7b28afc2b04d57701a73bbe"
+      },
+      {
+        "file": "look-crafting-3024x1964.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "2a5b8a69cfc4db6676964bee0f29211dcec93b6dbdb5b0c922fc6e6a5b707b10"
+      },
+      {
+        "file": "look-stonecutting-3024x1964.png",
+        "screen": "ConsoleCraftingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "9acb18df594df7f0911804d99ff5c96b5756f00fe711743c64470847ccbac3b1"
+      },
+      {
+        "file": "look-loom-3024x1964.png",
+        "screen": "ConsoleSpecialCrafting",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "a0fa40ea10c2c40ee56c76adcbcf6285f52352809d593061b412911610356011"
+      },
+      {
+        "file": "look-cartography-3024x1964.png",
+        "screen": "Ps4CartographyScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "15e25e700535b6967278fa88b2af3a51333de0bb24f8c06749365c2733909b7d"
+      },
+      {
+        "file": "look-enchanting-3024x1964.png",
+        "screen": "Ps4EnchantingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "55a92ba72c0c3c430387d6d3616b939922524cad595f8d268c407fda257ce210"
+      },
+      {
+        "file": "look-brewing-3024x1964.png",
+        "screen": "ConsoleBrewingScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "7ecceb69d7e53ba937cb25960825dbcd002f8db74a1052b54300372658dddd4a"
+      },
+      {
+        "file": "look-beacon-3024x1964.png",
+        "screen": "Ps4BeaconScreen",
+        "width": 3024,
+        "height": 1964,
+        "shaders": "LCE Look 2.0.0",
+        "guiScale": 4.0,
+        "sha256": "d345e573d6423f2d5c553c225d1b2fa3fd5e7372a5008d05e79618ccfa318e20"
+      }
+    ]
+  },
+  "visual_review": [
+    "Original PS4 scenes at 1440p",
+    "4:3 and 16:10 fitting",
+    "MacBook-like framebuffer geometry",
+    "LCE Look and shaders OFF"
+  ],
+  "limits": [
+    "Host item models, fonts, recipes and synchronized menus adapt the PS4 code to Java 1.17.1. See PS4-WORKSTATIONS.md.",
+    "Physical Retina display, controller hardware and authenticated remote multiplayer were not tested.",
+    "No claim of full PS4 gameplay or world-generation parity. Worldgen is unchanged from 2.3.3."
+  ]
+}

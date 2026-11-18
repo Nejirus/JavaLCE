@@ -1,0 +1,3800 @@
+{
+  "repository": "https://github.com/Nejirus/mcps4",
+  "commit": "37e258085773f11599cf0ffe29119926769554b7",
+  "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+  "input_kind": "Static instruction/dataflow recovery of 344 registrations at 0x957a0 and 345 named lookups at 0xc1520. Air is looked up here but is not registered by this routine. No block constructors, full registry or world generation executed.",
+  "registrations": [
+    {
+      "id": 1,
+      "name": "stone",
+      "register_pc": "0x95bed"
+    },
+    {
+      "id": 2,
+      "name": "grass",
+      "register_pc": "0x95d4f"
+    },
+    {
+      "id": 3,
+      "name": "dirt",
+      "register_pc": "0x95ec7"
+    },
+    {
+      "id": 4,
+      "name": "cobblestone",
+      "register_pc": "0x96177"
+    },
+    {
+      "id": 322,
+      "name": "smoothstone",
+      "register_pc": "0x963de"
+    },
+    {
+      "id": 5,
+      "name": "planks",
+      "register_pc": "0x9657c"
+    },
+    {
+      "id": 6,
+      "name": "sapling",
+      "register_pc": "0x966e5"
+    },
+    {
+      "id": 7,
+      "name": "bedrock",
+      "register_pc": "0x96940"
+    },
+    {
+      "id": 8,
+      "name": "flowing_water",
+      "register_pc": "0x96ac9"
+    },
+    {
+      "id": 9,
+      "name": "water",
+      "register_pc": "0x96c52"
+    },
+    {
+      "id": 10,
+      "name": "flowing_lava",
+      "register_pc": "0x96def"
+    },
+    {
+      "id": 11,
+      "name": "lava",
+      "register_pc": "0x96f8c"
+    },
+    {
+      "id": 12,
+      "name": "sand",
+      "register_pc": "0x97103"
+    },
+    {
+      "id": 13,
+      "name": "gravel",
+      "register_pc": "0x97269"
+    },
+    {
+      "id": 14,
+      "name": "gold_ore",
+      "register_pc": "0x973e3"
+    },
+    {
+      "id": 15,
+      "name": "iron_ore",
+      "register_pc": "0x9755d"
+    },
+    {
+      "id": 16,
+      "name": "coal_ore",
+      "register_pc": "0x976d7"
+    },
+    {
+      "id": 17,
+      "name": "log",
+      "register_pc": "0x97821"
+    },
+    {
+      "id": 18,
+      "name": "leaves",
+      "register_pc": "0x9796b"
+    },
+    {
+      "id": 19,
+      "name": "sponge",
+      "register_pc": "0x97ad1"
+    },
+    {
+      "id": 20,
+      "name": "glass",
+      "register_pc": "0x97c54"
+    },
+    {
+      "id": 21,
+      "name": "lapis_ore",
+      "register_pc": "0x97dce"
+    },
+    {
+      "id": 22,
+      "name": "lapis_block",
+      "register_pc": "0x98035"
+    },
+    {
+      "id": 23,
+      "name": "dispenser",
+      "register_pc": "0x981bd"
+    },
+    {
+      "id": 24,
+      "name": "sandstone",
+      "register_pc": "0x98371"
+    },
+    {
+      "id": 25,
+      "name": "noteblock",
+      "register_pc": "0x984e3"
+    },
+    {
+      "id": 26,
+      "name": "bed",
+      "register_pc": "0x98666"
+    },
+    {
+      "id": 27,
+      "name": "golden_rail",
+      "register_pc": "0x987fb"
+    },
+    {
+      "id": 28,
+      "name": "detector_rail",
+      "register_pc": "0x98990"
+    },
+    {
+      "id": 29,
+      "name": "sticky_piston",
+      "register_pc": "0x98af4"
+    },
+    {
+      "id": 30,
+      "name": "web",
+      "register_pc": "0x98c61"
+    },
+    {
+      "id": 31,
+      "name": "tallgrass",
+      "register_pc": "0x98dcf"
+    },
+    {
+      "id": 32,
+      "name": "deadbush",
+      "register_pc": "0x98f3d"
+    },
+    {
+      "id": 33,
+      "name": "piston",
+      "register_pc": "0x9909e"
+    },
+    {
+      "id": 34,
+      "name": "piston_head",
+      "register_pc": "0x9919a"
+    },
+    {
+      "id": 35,
+      "name": "wool",
+      "register_pc": "0x99317"
+    },
+    {
+      "id": 36,
+      "name": "piston_extension",
+      "register_pc": "0x99451"
+    },
+    {
+      "id": 37,
+      "name": "yellow_flower",
+      "register_pc": "0x995c0"
+    },
+    {
+      "id": 38,
+      "name": "red_flower",
+      "register_pc": "0x9972f"
+    },
+    {
+      "id": 39,
+      "name": "brown_mushroom",
+      "register_pc": "0x998cb"
+    },
+    {
+      "id": 40,
+      "name": "red_mushroom",
+      "register_pc": "0x99a3d"
+    },
+    {
+      "id": 41,
+      "name": "gold_block",
+      "register_pc": "0x99c98"
+    },
+    {
+      "id": 42,
+      "name": "iron_block",
+      "register_pc": "0x99f09"
+    },
+    {
+      "id": 43,
+      "name": "double_stone_slab",
+      "register_pc": "0x9a095"
+    },
+    {
+      "id": 44,
+      "name": "stone_slab",
+      "register_pc": "0x9a221"
+    },
+    {
+      "id": 45,
+      "name": "brick_block",
+      "register_pc": "0x9a4ab"
+    },
+    {
+      "id": 46,
+      "name": "tnt",
+      "register_pc": "0x9a608"
+    },
+    {
+      "id": 47,
+      "name": "bookshelf",
+      "register_pc": "0x9a8b3"
+    },
+    {
+      "id": 48,
+      "name": "mossy_cobblestone",
+      "register_pc": "0x9ab2d"
+    },
+    {
+      "id": 49,
+      "name": "obsidian",
+      "register_pc": "0x9acb3"
+    },
+    {
+      "id": 50,
+      "name": "torch",
+      "register_pc": "0x9ae47"
+    },
+    {
+      "id": 51,
+      "name": "fire",
+      "register_pc": "0x9afd5"
+    },
+    {
+      "id": 52,
+      "name": "mob_spawner",
+      "register_pc": "0x9b147"
+    },
+    {
+      "id": 53,
+      "name": "oak_stairs",
+      "register_pc": "0x9b31c"
+    },
+    {
+      "id": 54,
+      "name": "chest",
+      "register_pc": "0x9b4a7"
+    },
+    {
+      "id": 55,
+      "name": "redstone_wire",
+      "register_pc": "0x9b633"
+    },
+    {
+      "id": 56,
+      "name": "diamond_ore",
+      "register_pc": "0x9b7ad"
+    },
+    {
+      "id": 57,
+      "name": "diamond_block",
+      "register_pc": "0x9ba22"
+    },
+    {
+      "id": 58,
+      "name": "crafting_table",
+      "register_pc": "0x9bb9a"
+    },
+    {
+      "id": 59,
+      "name": "wheat",
+      "register_pc": "0x9bcfe"
+    },
+    {
+      "id": 60,
+      "name": "farmland",
+      "register_pc": "0x9be90"
+    },
+    {
+      "id": 61,
+      "name": "furnace",
+      "register_pc": "0x9c005"
+    },
+    {
+      "id": 62,
+      "name": "lit_furnace",
+      "register_pc": "0x9c196"
+    },
+    {
+      "id": 63,
+      "name": "standing_sign",
+      "register_pc": "0x9c31c"
+    },
+    {
+      "id": 64,
+      "name": "wooden_door",
+      "register_pc": "0x9c4aa"
+    },
+    {
+      "id": 65,
+      "name": "ladder",
+      "register_pc": "0x9c63f"
+    },
+    {
+      "id": 66,
+      "name": "rail",
+      "register_pc": "0x9c7d4"
+    },
+    {
+      "id": 323,
+      "name": "stone_stairs",
+      "register_pc": "0x9c93f"
+    },
+    {
+      "id": 68,
+      "name": "wall_sign",
+      "register_pc": "0x9cac5"
+    },
+    {
+      "id": 69,
+      "name": "lever",
+      "register_pc": "0x9cc4e"
+    },
+    {
+      "id": 70,
+      "name": "stone_pressure_plate",
+      "register_pc": "0x9cdd4"
+    },
+    {
+      "id": 71,
+      "name": "iron_door",
+      "register_pc": "0x9cf5f"
+    },
+    {
+      "id": 72,
+      "name": "wooden_pressure_plate",
+      "register_pc": "0x9d0e2"
+    },
+    {
+      "id": 73,
+      "name": "redstone_ore",
+      "register_pc": "0x9d26c"
+    },
+    {
+      "id": 74,
+      "name": "lit_redstone_ore",
+      "register_pc": "0x9d40e"
+    },
+    {
+      "id": 75,
+      "name": "unlit_redstone_torch",
+      "register_pc": "0x9d58d"
+    },
+    {
+      "id": 76,
+      "name": "redstone_torch",
+      "register_pc": "0x9d723"
+    },
+    {
+      "id": 77,
+      "name": "stone_button",
+      "register_pc": "0x9d8aa"
+    },
+    {
+      "id": 78,
+      "name": "snow_layer",
+      "register_pc": "0x9da3f"
+    },
+    {
+      "id": 79,
+      "name": "ice",
+      "register_pc": "0x9dbc1"
+    },
+    {
+      "id": 80,
+      "name": "snow",
+      "register_pc": "0x9dd36"
+    },
+    {
+      "id": 81,
+      "name": "cactus",
+      "register_pc": "0x9dea5"
+    },
+    {
+      "id": 82,
+      "name": "clay",
+      "register_pc": "0x9e01a"
+    },
+    {
+      "id": 83,
+      "name": "reeds",
+      "register_pc": "0x9e191"
+    },
+    {
+      "id": 84,
+      "name": "jukebox",
+      "register_pc": "0x9e32b"
+    },
+    {
+      "id": 85,
+      "name": "fence",
+      "register_pc": "0x9e4c4"
+    },
+    {
+      "id": 86,
+      "name": "carved_pumpkin",
+      "register_pc": "0x9e639"
+    },
+    {
+      "id": 257,
+      "name": "pumpkin",
+      "register_pc": "0x9e7c7"
+    },
+    {
+      "id": 87,
+      "name": "netherrack",
+      "register_pc": "0x9e914"
+    },
+    {
+      "id": 88,
+      "name": "soul_sand",
+      "register_pc": "0x9ea77"
+    },
+    {
+      "id": 89,
+      "name": "glowstone",
+      "register_pc": "0x9ec09"
+    },
+    {
+      "id": 90,
+      "name": "portal",
+      "register_pc": "0x9ed83"
+    },
+    {
+      "id": 91,
+      "name": "lit_pumpkin",
+      "register_pc": "0x9ef1d"
+    },
+    {
+      "id": 92,
+      "name": "cake",
+      "register_pc": "0x9f09d"
+    },
+    {
+      "id": 93,
+      "name": "unpowered_repeater",
+      "register_pc": "0x9f239"
+    },
+    {
+      "id": 94,
+      "name": "powered_repeater",
+      "register_pc": "0x9f3d8"
+    },
+    {
+      "id": 95,
+      "name": "stained_glass",
+      "register_pc": "0x9f563"
+    },
+    {
+      "id": 96,
+      "name": "trapdoor",
+      "register_pc": "0x9f708"
+    },
+    {
+      "id": 97,
+      "name": "monster_egg",
+      "register_pc": "0x9f856"
+    },
+    {
+      "id": 98,
+      "name": "stonebrick",
+      "register_pc": "0x9fa00"
+    },
+    {
+      "id": 99,
+      "name": "brown_mushroom_block",
+      "register_pc": "0x9fb76"
+    },
+    {
+      "id": 100,
+      "name": "red_mushroom_block",
+      "register_pc": "0x9fd09"
+    },
+    {
+      "id": 101,
+      "name": "iron_bars",
+      "register_pc": "0x9fec5"
+    },
+    {
+      "id": 102,
+      "name": "glass_pane",
+      "register_pc": "0xa0074"
+    },
+    {
+      "id": 103,
+      "name": "melon_block",
+      "register_pc": "0xa01ff"
+    },
+    {
+      "id": 104,
+      "name": "pumpkin_stem",
+      "register_pc": "0xa0368"
+    },
+    {
+      "id": 105,
+      "name": "melon_stem",
+      "register_pc": "0xa04eb"
+    },
+    {
+      "id": 106,
+      "name": "vine",
+      "register_pc": "0xa066b"
+    },
+    {
+      "id": 107,
+      "name": "fence_gate",
+      "register_pc": "0xa0847"
+    },
+    {
+      "id": 108,
+      "name": "brick_stairs",
+      "register_pc": "0xa09b8"
+    },
+    {
+      "id": 109,
+      "name": "stone_brick_stairs",
+      "register_pc": "0xa0b8d"
+    },
+    {
+      "id": 110,
+      "name": "mycelium",
+      "register_pc": "0xa0cf0"
+    },
+    {
+      "id": 111,
+      "name": "waterlily",
+      "register_pc": "0xa0e5b"
+    },
+    {
+      "id": 112,
+      "name": "nether_brick",
+      "register_pc": "0xa0ffe"
+    },
+    {
+      "id": 113,
+      "name": "nether_brick_fence",
+      "register_pc": "0xa1175"
+    },
+    {
+      "id": 114,
+      "name": "nether_brick_stairs",
+      "register_pc": "0xa12e0"
+    },
+    {
+      "id": 115,
+      "name": "nether_wart",
+      "register_pc": "0xa1436"
+    },
+    {
+      "id": 116,
+      "name": "enchanting_table",
+      "register_pc": "0xa15a9"
+    },
+    {
+      "id": 117,
+      "name": "brewing_stand",
+      "register_pc": "0xa172d"
+    },
+    {
+      "id": 118,
+      "name": "cauldron",
+      "register_pc": "0xa188b"
+    },
+    {
+      "id": 119,
+      "name": "end_portal",
+      "register_pc": "0xa19ab"
+    },
+    {
+      "id": 120,
+      "name": "end_portal_frame",
+      "register_pc": "0xa1b35"
+    },
+    {
+      "id": 121,
+      "name": "end_stone",
+      "register_pc": "0xa1d8a"
+    },
+    {
+      "id": 122,
+      "name": "dragon_egg",
+      "register_pc": "0xa1f18"
+    },
+    {
+      "id": 123,
+      "name": "redstone_lamp",
+      "register_pc": "0xa208f"
+    },
+    {
+      "id": 124,
+      "name": "lit_redstone_lamp",
+      "register_pc": "0xa2209"
+    },
+    {
+      "id": 125,
+      "name": "double_wooden_slab",
+      "register_pc": "0xa2393"
+    },
+    {
+      "id": 126,
+      "name": "wooden_slab",
+      "register_pc": "0xa251d"
+    },
+    {
+      "id": 127,
+      "name": "cocoa",
+      "register_pc": "0xa26a5"
+    },
+    {
+      "id": 128,
+      "name": "sandstone_stairs",
+      "register_pc": "0xa287a"
+    },
+    {
+      "id": 129,
+      "name": "emerald_ore",
+      "register_pc": "0xa29f1"
+    },
+    {
+      "id": 130,
+      "name": "ender_chest",
+      "register_pc": "0xa2ba3"
+    },
+    {
+      "id": 131,
+      "name": "tripwire_hook",
+      "register_pc": "0xa2d00"
+    },
+    {
+      "id": 132,
+      "name": "tripwire",
+      "register_pc": "0xa2e57"
+    },
+    {
+      "id": 133,
+      "name": "emerald_block",
+      "register_pc": "0xa30bd"
+    },
+    {
+      "id": 134,
+      "name": "spruce_stairs",
+      "register_pc": "0xa3287"
+    },
+    {
+      "id": 135,
+      "name": "birch_stairs",
+      "register_pc": "0xa3451"
+    },
+    {
+      "id": 136,
+      "name": "jungle_stairs",
+      "register_pc": "0xa361b"
+    },
+    {
+      "id": 137,
+      "name": "command_block",
+      "register_pc": "0xa3780"
+    },
+    {
+      "id": 138,
+      "name": "beacon",
+      "register_pc": "0xa38f5"
+    },
+    {
+      "id": 139,
+      "name": "cobblestone_wall",
+      "register_pc": "0xa3a48"
+    },
+    {
+      "id": 140,
+      "name": "flower_pot",
+      "register_pc": "0xa3baa"
+    },
+    {
+      "id": 141,
+      "name": "carrots",
+      "register_pc": "0xa3d16"
+    },
+    {
+      "id": 142,
+      "name": "potatoes",
+      "register_pc": "0xa3e5b"
+    },
+    {
+      "id": 143,
+      "name": "wooden_button",
+      "register_pc": "0xa3fe1"
+    },
+    {
+      "id": 144,
+      "name": "skull",
+      "register_pc": "0xa4142"
+    },
+    {
+      "id": 145,
+      "name": "anvil",
+      "register_pc": "0xa42db"
+    },
+    {
+      "id": 146,
+      "name": "trapped_chest",
+      "register_pc": "0xa4406"
+    },
+    {
+      "id": 147,
+      "name": "light_weighted_pressure_plate",
+      "register_pc": "0xa4579"
+    },
+    {
+      "id": 148,
+      "name": "heavy_weighted_pressure_plate",
+      "register_pc": "0xa46f7"
+    },
+    {
+      "id": 149,
+      "name": "unpowered_comparator",
+      "register_pc": "0xa4877"
+    },
+    {
+      "id": 150,
+      "name": "powered_comparator",
+      "register_pc": "0xa4a0e"
+    },
+    {
+      "id": 151,
+      "name": "daylight_detector",
+      "register_pc": "0xa4b49"
+    },
+    {
+      "id": 152,
+      "name": "redstone_block",
+      "register_pc": "0xa4ce6"
+    },
+    {
+      "id": 153,
+      "name": "quartz_ore",
+      "register_pc": "0xa4e67"
+    },
+    {
+      "id": 154,
+      "name": "hopper",
+      "register_pc": "0xa4ff0"
+    },
+    {
+      "id": 155,
+      "name": "quartz_block",
+      "register_pc": "0xa5177"
+    },
+    {
+      "id": 156,
+      "name": "quartz_stairs",
+      "register_pc": "0xa5325"
+    },
+    {
+      "id": 157,
+      "name": "activator_rail",
+      "register_pc": "0xa549b"
+    },
+    {
+      "id": 158,
+      "name": "dropper",
+      "register_pc": "0xa5610"
+    },
+    {
+      "id": 159,
+      "name": "stained_hardened_clay",
+      "register_pc": "0xa579a"
+    },
+    {
+      "id": 160,
+      "name": "stained_glass_pane",
+      "register_pc": "0xa591c"
+    },
+    {
+      "id": 161,
+      "name": "leaves2",
+      "register_pc": "0xa5a67"
+    },
+    {
+      "id": 162,
+      "name": "log2",
+      "register_pc": "0xa5bb2"
+    },
+    {
+      "id": 163,
+      "name": "acacia_stairs",
+      "register_pc": "0xa5d7c"
+    },
+    {
+      "id": 164,
+      "name": "dark_oak_stairs",
+      "register_pc": "0xa5f46"
+    },
+    {
+      "id": 165,
+      "name": "slime",
+      "register_pc": "0xa6064"
+    },
+    {
+      "id": 166,
+      "name": "barrier",
+      "register_pc": "0xa6187"
+    },
+    {
+      "id": 167,
+      "name": "iron_trapdoor",
+      "register_pc": "0xa6323"
+    },
+    {
+      "id": 168,
+      "name": "prismarine",
+      "register_pc": "0xa64c9"
+    },
+    {
+      "id": 169,
+      "name": "sea_lantern",
+      "register_pc": "0xa6645"
+    },
+    {
+      "id": 170,
+      "name": "hay_block",
+      "register_pc": "0xa67bc"
+    },
+    {
+      "id": 171,
+      "name": "carpet",
+      "register_pc": "0xa693f"
+    },
+    {
+      "id": 172,
+      "name": "hardened_clay",
+      "register_pc": "0xa6ac7"
+    },
+    {
+      "id": 173,
+      "name": "coal_block",
+      "register_pc": "0xa6d2d"
+    },
+    {
+      "id": 174,
+      "name": "packed_ice",
+      "register_pc": "0xa6ea3"
+    },
+    {
+      "id": 175,
+      "name": "double_plant",
+      "register_pc": "0xa6f9a"
+    },
+    {
+      "id": 176,
+      "name": "standing_banner",
+      "register_pc": "0xa70f4"
+    },
+    {
+      "id": 177,
+      "name": "wall_banner",
+      "register_pc": "0xa7264"
+    },
+    {
+      "id": 178,
+      "name": "daylight_detector_inverted",
+      "register_pc": "0xa73a3"
+    },
+    {
+      "id": 179,
+      "name": "red_sandstone",
+      "register_pc": "0xa752a"
+    },
+    {
+      "id": 180,
+      "name": "red_sandstone_stairs",
+      "register_pc": "0xa76d8"
+    },
+    {
+      "id": 181,
+      "name": "double_stone_slab_3",
+      "register_pc": "0xa7861"
+    },
+    {
+      "id": 182,
+      "name": "stone_slab_3",
+      "register_pc": "0xa79ea"
+    },
+    {
+      "id": 183,
+      "name": "spruce_fence_gate",
+      "register_pc": "0xa7bc6"
+    },
+    {
+      "id": 184,
+      "name": "birch_fence_gate",
+      "register_pc": "0xa7da8"
+    },
+    {
+      "id": 185,
+      "name": "jungle_fence_gate",
+      "register_pc": "0xa7f8a"
+    },
+    {
+      "id": 186,
+      "name": "dark_oak_fence_gate",
+      "register_pc": "0xa816c"
+    },
+    {
+      "id": 187,
+      "name": "acacia_fence_gate",
+      "register_pc": "0xa834e"
+    },
+    {
+      "id": 188,
+      "name": "spruce_fence",
+      "register_pc": "0xa84ed"
+    },
+    {
+      "id": 189,
+      "name": "birch_fence",
+      "register_pc": "0xa8686"
+    },
+    {
+      "id": 190,
+      "name": "jungle_fence",
+      "register_pc": "0xa881f"
+    },
+    {
+      "id": 191,
+      "name": "dark_oak_fence",
+      "register_pc": "0xa89b8"
+    },
+    {
+      "id": 192,
+      "name": "acacia_fence",
+      "register_pc": "0xa8b51"
+    },
+    {
+      "id": 193,
+      "name": "spruce_door",
+      "register_pc": "0xa8cdc"
+    },
+    {
+      "id": 194,
+      "name": "birch_door",
+      "register_pc": "0xa8e67"
+    },
+    {
+      "id": 195,
+      "name": "jungle_door",
+      "register_pc": "0xa8ff2"
+    },
+    {
+      "id": 196,
+      "name": "acacia_door",
+      "register_pc": "0xa917d"
+    },
+    {
+      "id": 197,
+      "name": "dark_oak_door",
+      "register_pc": "0xa9308"
+    },
+    {
+      "id": 198,
+      "name": "end_rod",
+      "register_pc": "0xa947b"
+    },
+    {
+      "id": 199,
+      "name": "chorus_plant",
+      "register_pc": "0xa95df"
+    },
+    {
+      "id": 200,
+      "name": "chorus_flower",
+      "register_pc": "0xa9742"
+    },
+    {
+      "id": 201,
+      "name": "purpur_block",
+      "register_pc": "0xa99c7"
+    },
+    {
+      "id": 202,
+      "name": "purpur_pillar",
+      "register_pc": "0xa9b8f"
+    },
+    {
+      "id": 203,
+      "name": "purpur_stairs",
+      "register_pc": "0xa9ca0"
+    },
+    {
+      "id": 204,
+      "name": "double_stone_slab_4",
+      "register_pc": "0xa9e17"
+    },
+    {
+      "id": 205,
+      "name": "stone_slab_4",
+      "register_pc": "0xa9fa4"
+    },
+    {
+      "id": 206,
+      "name": "end_bricks",
+      "register_pc": "0xaa227"
+    },
+    {
+      "id": 207,
+      "name": "beetroots",
+      "register_pc": "0xaa356"
+    },
+    {
+      "id": 208,
+      "name": "grass_path",
+      "register_pc": "0xaa4e3"
+    },
+    {
+      "id": 209,
+      "name": "end_gateway",
+      "register_pc": "0xaa63c"
+    },
+    {
+      "id": 210,
+      "name": "repeating_command_block",
+      "register_pc": "0xaa7a4"
+    },
+    {
+      "id": 211,
+      "name": "chain_command_block",
+      "register_pc": "0xaa90c"
+    },
+    {
+      "id": 212,
+      "name": "frosted_ice",
+      "register_pc": "0xaaa32"
+    },
+    {
+      "id": 213,
+      "name": "magma",
+      "register_pc": "0xaab94"
+    },
+    {
+      "id": 214,
+      "name": "nether_wart_block",
+      "register_pc": "0xaadfe"
+    },
+    {
+      "id": 215,
+      "name": "red_nether_brick",
+      "register_pc": "0xaafa3"
+    },
+    {
+      "id": 216,
+      "name": "bone_block",
+      "register_pc": "0xab1ec"
+    },
+    {
+      "id": 217,
+      "name": "structure_void",
+      "register_pc": "0xab326"
+    },
+    {
+      "id": 218,
+      "name": "observer",
+      "register_pc": "0xab425"
+    },
+    {
+      "id": 219,
+      "name": "white_shulker_box",
+      "register_pc": "0xab58f"
+    },
+    {
+      "id": 220,
+      "name": "orange_shulker_box",
+      "register_pc": "0xab70f"
+    },
+    {
+      "id": 221,
+      "name": "magenta_shulker_box",
+      "register_pc": "0xab88f"
+    },
+    {
+      "id": 222,
+      "name": "light_blue_shulker_box",
+      "register_pc": "0xaba0f"
+    },
+    {
+      "id": 223,
+      "name": "yellow_shulker_box",
+      "register_pc": "0xabb8f"
+    },
+    {
+      "id": 224,
+      "name": "lime_shulker_box",
+      "register_pc": "0xabd0f"
+    },
+    {
+      "id": 225,
+      "name": "pink_shulker_box",
+      "register_pc": "0xabe8f"
+    },
+    {
+      "id": 226,
+      "name": "gray_shulker_box",
+      "register_pc": "0xac00f"
+    },
+    {
+      "id": 227,
+      "name": "silver_shulker_box",
+      "register_pc": "0xac18f"
+    },
+    {
+      "id": 228,
+      "name": "cyan_shulker_box",
+      "register_pc": "0xac30f"
+    },
+    {
+      "id": 260,
+      "name": "purple_shulker_box",
+      "register_pc": "0xac48f"
+    },
+    {
+      "id": 230,
+      "name": "blue_shulker_box",
+      "register_pc": "0xac60f"
+    },
+    {
+      "id": 229,
+      "name": "undyed_shulker_box",
+      "register_pc": "0xac787"
+    },
+    {
+      "id": 231,
+      "name": "brown_shulker_box",
+      "register_pc": "0xac907"
+    },
+    {
+      "id": 232,
+      "name": "green_shulker_box",
+      "register_pc": "0xaca87"
+    },
+    {
+      "id": 233,
+      "name": "red_shulker_box",
+      "register_pc": "0xacc07"
+    },
+    {
+      "id": 234,
+      "name": "black_shulker_box",
+      "register_pc": "0xacd87"
+    },
+    {
+      "id": 235,
+      "name": "white_glazed_terracotta",
+      "register_pc": "0xacecb"
+    },
+    {
+      "id": 236,
+      "name": "orange_glazed_terracotta",
+      "register_pc": "0xad00f"
+    },
+    {
+      "id": 237,
+      "name": "magenta_glazed_terracotta",
+      "register_pc": "0xad153"
+    },
+    {
+      "id": 238,
+      "name": "light_blue_glazed_terracotta",
+      "register_pc": "0xad297"
+    },
+    {
+      "id": 239,
+      "name": "yellow_glazed_terracotta",
+      "register_pc": "0xad3db"
+    },
+    {
+      "id": 240,
+      "name": "lime_glazed_terracotta",
+      "register_pc": "0xad51f"
+    },
+    {
+      "id": 241,
+      "name": "pink_glazed_terracotta",
+      "register_pc": "0xad663"
+    },
+    {
+      "id": 242,
+      "name": "gray_glazed_terracotta",
+      "register_pc": "0xad7a7"
+    },
+    {
+      "id": 243,
+      "name": "silver_glazed_terracotta",
+      "register_pc": "0xad8eb"
+    },
+    {
+      "id": 244,
+      "name": "cyan_glazed_terracotta",
+      "register_pc": "0xada2f"
+    },
+    {
+      "id": 245,
+      "name": "purple_glazed_terracotta",
+      "register_pc": "0xadb73"
+    },
+    {
+      "id": 246,
+      "name": "blue_glazed_terracotta",
+      "register_pc": "0xadcb7"
+    },
+    {
+      "id": 247,
+      "name": "brown_glazed_terracotta",
+      "register_pc": "0xaddfb"
+    },
+    {
+      "id": 248,
+      "name": "green_glazed_terracotta",
+      "register_pc": "0xadf3f"
+    },
+    {
+      "id": 249,
+      "name": "red_glazed_terracotta",
+      "register_pc": "0xae083"
+    },
+    {
+      "id": 250,
+      "name": "black_glazed_terracotta",
+      "register_pc": "0xae1c7"
+    },
+    {
+      "id": 251,
+      "name": "concrete",
+      "register_pc": "0xae337"
+    },
+    {
+      "id": 252,
+      "name": "concrete_powder",
+      "register_pc": "0xae4ae"
+    },
+    {
+      "id": 255,
+      "name": "structure_block",
+      "register_pc": "0xae607"
+    },
+    {
+      "id": 256,
+      "name": "conduit",
+      "register_pc": "0xae72c"
+    },
+    {
+      "id": 258,
+      "name": "kelp",
+      "register_pc": "0xae876"
+    },
+    {
+      "id": 259,
+      "name": "coral_block",
+      "register_pc": "0xae9c4"
+    },
+    {
+      "id": 263,
+      "name": "coral",
+      "register_pc": "0xaeb19"
+    },
+    {
+      "id": 264,
+      "name": "coral_fan",
+      "register_pc": "0xaec82"
+    },
+    {
+      "id": 265,
+      "name": "coral_fan_dead",
+      "register_pc": "0xaedeb"
+    },
+    {
+      "id": 266,
+      "name": "coral_fan_hang",
+      "register_pc": "0xaef54"
+    },
+    {
+      "id": 267,
+      "name": "coral_fan_hang2",
+      "register_pc": "0xaf0bd"
+    },
+    {
+      "id": 268,
+      "name": "coral_fan_hang3",
+      "register_pc": "0xaf226"
+    },
+    {
+      "id": 269,
+      "name": "dried_kelp_block",
+      "register_pc": "0xaf3a7"
+    },
+    {
+      "id": 270,
+      "name": "sea_grass",
+      "register_pc": "0xaf507"
+    },
+    {
+      "id": 271,
+      "name": "sea_pickle",
+      "register_pc": "0xaf66a"
+    },
+    {
+      "id": 272,
+      "name": "bubble_column_segment",
+      "register_pc": "0xaf7bf"
+    },
+    {
+      "id": 273,
+      "name": "blue_ice",
+      "register_pc": "0xaf9d9"
+    },
+    {
+      "id": 274,
+      "name": "spruce_trapdoor",
+      "register_pc": "0xafb7f"
+    },
+    {
+      "id": 275,
+      "name": "birch_trapdoor",
+      "register_pc": "0xafd25"
+    },
+    {
+      "id": 276,
+      "name": "jungle_trapdoor",
+      "register_pc": "0xafecb"
+    },
+    {
+      "id": 277,
+      "name": "acacia_trapdoor",
+      "register_pc": "0xb0071"
+    },
+    {
+      "id": 278,
+      "name": "dark_oak_trapdoor",
+      "register_pc": "0xb0217"
+    },
+    {
+      "id": 279,
+      "name": "turtle_egg",
+      "register_pc": "0xb037e"
+    },
+    {
+      "id": 291,
+      "name": "prismarine_stairs",
+      "register_pc": "0xb0541"
+    },
+    {
+      "id": 292,
+      "name": "prismarine_bricks_stairs",
+      "register_pc": "0xb06f9"
+    },
+    {
+      "id": 293,
+      "name": "dark_prismarine_stairs",
+      "register_pc": "0xb08b1"
+    },
+    {
+      "id": 295,
+      "name": "stripped_log_spruce",
+      "register_pc": "0xb0a56"
+    },
+    {
+      "id": 296,
+      "name": "stripped_log_birch",
+      "register_pc": "0xb0c01"
+    },
+    {
+      "id": 297,
+      "name": "stripped_log_jungle",
+      "register_pc": "0xb0dac"
+    },
+    {
+      "id": 298,
+      "name": "stripped_log_acacia",
+      "register_pc": "0xb0f57"
+    },
+    {
+      "id": 299,
+      "name": "stripped_log_dark_oak",
+      "register_pc": "0xb1102"
+    },
+    {
+      "id": 300,
+      "name": "stripped_log_oak",
+      "register_pc": "0xb12ad"
+    },
+    {
+      "id": 301,
+      "name": "acacia_pressure_plate",
+      "register_pc": "0xb1436"
+    },
+    {
+      "id": 302,
+      "name": "birch_pressure_plate",
+      "register_pc": "0xb15b9"
+    },
+    {
+      "id": 303,
+      "name": "dark_oak_pressure_plate",
+      "register_pc": "0xb173c"
+    },
+    {
+      "id": 304,
+      "name": "jungle_pressure_plate",
+      "register_pc": "0xb18bf"
+    },
+    {
+      "id": 305,
+      "name": "spruce_pressure_plate",
+      "register_pc": "0xb1a42"
+    },
+    {
+      "id": 306,
+      "name": "acacia_button",
+      "register_pc": "0xb1bc8"
+    },
+    {
+      "id": 307,
+      "name": "birch_button",
+      "register_pc": "0xb1d4e"
+    },
+    {
+      "id": 308,
+      "name": "dark_oak_button",
+      "register_pc": "0xb1ed4"
+    },
+    {
+      "id": 309,
+      "name": "jungle_button",
+      "register_pc": "0xb205a"
+    },
+    {
+      "id": 310,
+      "name": "spruce_button",
+      "register_pc": "0xb21e0"
+    },
+    {
+      "id": 311,
+      "name": "double_stone_slab_2",
+      "register_pc": "0xb236d"
+    },
+    {
+      "id": 312,
+      "name": "stone_slab_2",
+      "register_pc": "0xb24fa"
+    },
+    {
+      "id": 313,
+      "name": "wood",
+      "register_pc": "0xb2632"
+    },
+    {
+      "id": 319,
+      "name": "bamboo",
+      "register_pc": "0xb2791"
+    },
+    {
+      "id": 320,
+      "name": "scaffolding",
+      "register_pc": "0xb2919"
+    },
+    {
+      "id": 321,
+      "name": "bamboo_sapling",
+      "register_pc": "0xb2a95"
+    },
+    {
+      "id": 67,
+      "name": "cobblestone_stairs",
+      "register_pc": "0xb2c00"
+    },
+    {
+      "id": 324,
+      "name": "mossy_cobblestone_stairs",
+      "register_pc": "0xb2d6b"
+    },
+    {
+      "id": 325,
+      "name": "andesite_stairs",
+      "register_pc": "0xb2f40"
+    },
+    {
+      "id": 326,
+      "name": "diorite_stairs",
+      "register_pc": "0xb310a"
+    },
+    {
+      "id": 327,
+      "name": "granite_stairs",
+      "register_pc": "0xb32d4"
+    },
+    {
+      "id": 328,
+      "name": "smooth_andesite_stairs",
+      "register_pc": "0xb349e"
+    },
+    {
+      "id": 329,
+      "name": "smooth_diorite_stairs",
+      "register_pc": "0xb3668"
+    },
+    {
+      "id": 330,
+      "name": "smooth_granite_stairs",
+      "register_pc": "0xb3832"
+    },
+    {
+      "id": 331,
+      "name": "smooth_quartz_stairs",
+      "register_pc": "0xb39fc"
+    },
+    {
+      "id": 332,
+      "name": "mossy_stone_brick_stairs",
+      "register_pc": "0xb3bc6"
+    },
+    {
+      "id": 333,
+      "name": "smooth_sandstone_stairs",
+      "register_pc": "0xb3d90"
+    },
+    {
+      "id": 334,
+      "name": "smooth_red_sandstone_stairs",
+      "register_pc": "0xb3f5a"
+    },
+    {
+      "id": 335,
+      "name": "red_nether_brick_stairs",
+      "register_pc": "0xb40c5"
+    },
+    {
+      "id": 336,
+      "name": "end_brick_stairs",
+      "register_pc": "0xb4230"
+    },
+    {
+      "id": 337,
+      "name": "standing_sign_spruce",
+      "register_pc": "0xb43b9"
+    },
+    {
+      "id": 338,
+      "name": "standing_sign_birch",
+      "register_pc": "0xb4542"
+    },
+    {
+      "id": 339,
+      "name": "standing_sign_acacia",
+      "register_pc": "0xb46cb"
+    },
+    {
+      "id": 340,
+      "name": "standing_sign_jungle",
+      "register_pc": "0xb4854"
+    },
+    {
+      "id": 341,
+      "name": "standing_sign_dark_oak",
+      "register_pc": "0xb49dd"
+    },
+    {
+      "id": 342,
+      "name": "wall_sign_spruce",
+      "register_pc": "0xb4b66"
+    },
+    {
+      "id": 343,
+      "name": "wall_sign_birch",
+      "register_pc": "0xb4cef"
+    },
+    {
+      "id": 344,
+      "name": "wall_sign_acacia",
+      "register_pc": "0xb4e78"
+    },
+    {
+      "id": 345,
+      "name": "wall_sign_jungle",
+      "register_pc": "0xb5001"
+    },
+    {
+      "id": 346,
+      "name": "wall_sign_dark_oak",
+      "register_pc": "0xb518a"
+    },
+    {
+      "id": 347,
+      "name": "lava_cauldron",
+      "register_pc": "0xb52fd"
+    },
+    {
+      "id": 348,
+      "name": "lectern",
+      "register_pc": "0xb5484"
+    },
+    {
+      "id": 349,
+      "name": "lantern",
+      "register_pc": "0xb561d"
+    },
+    {
+      "id": 350,
+      "name": "loom",
+      "register_pc": "0xb5792"
+    },
+    {
+      "id": 352,
+      "name": "blastfurnace",
+      "register_pc": "0xb597b"
+    },
+    {
+      "id": 353,
+      "name": "lit_blastfurnace",
+      "register_pc": "0xb5b59"
+    },
+    {
+      "id": 351,
+      "name": "composter",
+      "register_pc": "0xb5cc9"
+    },
+    {
+      "id": 354,
+      "name": "bell",
+      "register_pc": "0xb5e41"
+    },
+    {
+      "id": 355,
+      "name": "smoker",
+      "register_pc": "0xb5fcc"
+    },
+    {
+      "id": 356,
+      "name": "lit_smoker",
+      "register_pc": "0xb615d"
+    },
+    {
+      "id": 357,
+      "name": "fletching_table",
+      "register_pc": "0xb64c7"
+    },
+    {
+      "id": 358,
+      "name": "smithing_table",
+      "register_pc": "0xb686f"
+    },
+    {
+      "id": 359,
+      "name": "grindstone",
+      "register_pc": "0xb6a39"
+    },
+    {
+      "id": 360,
+      "name": "stonecutter2",
+      "register_pc": "0xb6bc6"
+    },
+    {
+      "id": 364,
+      "name": "cartography_table",
+      "register_pc": "0xb6d3f"
+    },
+    {
+      "id": 361,
+      "name": "campfire",
+      "register_pc": "0xb6ec9"
+    },
+    {
+      "id": 362,
+      "name": "barrel",
+      "register_pc": "0xb71ae"
+    },
+    {
+      "id": 363,
+      "name": "sweet_berry_bush",
+      "register_pc": "0xb737e"
+    },
+    {
+      "id": 365,
+      "name": "jigsaw",
+      "register_pc": "0xb74d8"
+    }
+  ],
+  "aliases": [
+    {
+      "alias": "0x1409f50",
+      "name": "air",
+      "string_pc": "0xc1542",
+      "store_pc": "0xc15dd"
+    },
+    {
+      "alias": "0x1409f60",
+      "name": "stone",
+      "string_pc": "0xc15fa",
+      "store_pc": "0xc1682"
+    },
+    {
+      "alias": "0x1409fb0",
+      "name": "grass",
+      "string_pc": "0xc169f",
+      "store_pc": "0xc1727"
+    },
+    {
+      "alias": "0x1409fa8",
+      "name": "dirt",
+      "string_pc": "0xc1744",
+      "store_pc": "0xc17cc"
+    },
+    {
+      "alias": "0x140b248",
+      "name": "cobblestone",
+      "string_pc": "0xc17e9",
+      "store_pc": "0xc1871"
+    },
+    {
+      "alias": "0x140b250",
+      "name": "smoothstone",
+      "string_pc": "0xc188e",
+      "store_pc": "0xc1916"
+    },
+    {
+      "alias": "0x1409f58",
+      "name": "planks",
+      "string_pc": "0xc1933",
+      "store_pc": "0xc19bb"
+    },
+    {
+      "alias": "0x140b258",
+      "name": "sapling",
+      "string_pc": "0xc19d8",
+      "store_pc": "0xc1a60"
+    },
+    {
+      "alias": "0x140b260",
+      "name": "bedrock",
+      "string_pc": "0xc1a7d",
+      "store_pc": "0xc1b05"
+    },
+    {
+      "alias": "0x140aba0",
+      "name": "flowing_water",
+      "string_pc": "0xc1b22",
+      "store_pc": "0xc1baa"
+    },
+    {
+      "alias": "0x140b268",
+      "name": "water",
+      "string_pc": "0xc1bc7",
+      "store_pc": "0xc1c4f"
+    },
+    {
+      "alias": "0x140aba8",
+      "name": "flowing_lava",
+      "string_pc": "0xc1c6c",
+      "store_pc": "0xc1cf4"
+    },
+    {
+      "alias": "0x140b270",
+      "name": "lava",
+      "string_pc": "0xc1d11",
+      "store_pc": "0xc1d99"
+    },
+    {
+      "alias": "0x140ab38",
+      "name": "sand",
+      "string_pc": "0xc1db6",
+      "store_pc": "0xc1e3e"
+    },
+    {
+      "alias": "0x140ab40",
+      "name": "gravel",
+      "string_pc": "0xc1e5b",
+      "store_pc": "0xc1ee3"
+    },
+    {
+      "alias": "0x140ab78",
+      "name": "gold_ore",
+      "string_pc": "0xc1f00",
+      "store_pc": "0xc1f88"
+    },
+    {
+      "alias": "0x140ab70",
+      "name": "iron_ore",
+      "string_pc": "0xc1fa5",
+      "store_pc": "0xc202d"
+    },
+    {
+      "alias": "0x140ab68",
+      "name": "coal_ore",
+      "string_pc": "0xc204a",
+      "store_pc": "0xc20d2"
+    },
+    {
+      "alias": "0x1409f88",
+      "name": "log",
+      "string_pc": "0xc20ef",
+      "store_pc": "0xc2177"
+    },
+    {
+      "alias": "0x140ae30",
+      "name": "log2",
+      "string_pc": "0xc2194",
+      "store_pc": "0xc221c"
+    },
+    {
+      "alias": "0x1409f90",
+      "name": "leaves",
+      "string_pc": "0xc2239",
+      "store_pc": "0xc22c1"
+    },
+    {
+      "alias": "0x140ae68",
+      "name": "leaves2",
+      "string_pc": "0xc22de",
+      "store_pc": "0xc2366"
+    },
+    {
+      "alias": "0x140b278",
+      "name": "sponge",
+      "string_pc": "0xc2383",
+      "store_pc": "0xc240b"
+    },
+    {
+      "alias": "0x140ae08",
+      "name": "glass",
+      "string_pc": "0xc2428",
+      "store_pc": "0xc24b0"
+    },
+    {
+      "alias": "0x140ab90",
+      "name": "lapis_ore",
+      "string_pc": "0xc24cd",
+      "store_pc": "0xc2555"
+    },
+    {
+      "alias": "0x140b280",
+      "name": "lapis_block",
+      "string_pc": "0xc2572",
+      "store_pc": "0xc25fa"
+    },
+    {
+      "alias": "0x140b288",
+      "name": "dispenser",
+      "string_pc": "0xc2617",
+      "store_pc": "0xc269f"
+    },
+    {
+      "alias": "0x140b290",
+      "name": "sandstone",
+      "string_pc": "0xc26bc",
+      "store_pc": "0xc2744"
+    },
+    {
+      "alias": "0x140b298",
+      "name": "noteblock",
+      "string_pc": "0xc2761",
+      "store_pc": "0xc27e9"
+    },
+    {
+      "alias": "0x140b2a0",
+      "name": "bed",
+      "string_pc": "0xc2806",
+      "store_pc": "0xc288e"
+    },
+    {
+      "alias": "0x140b2a8",
+      "name": "golden_rail",
+      "string_pc": "0xc28ab",
+      "store_pc": "0xc2933"
+    },
+    {
+      "alias": "0x140b2b0",
+      "name": "detector_rail",
+      "string_pc": "0xc2950",
+      "store_pc": "0xc29d8"
+    },
+    {
+      "alias": "0x140ade0",
+      "name": "sticky_piston",
+      "string_pc": "0xc29f5",
+      "store_pc": "0xc2a7d"
+    },
+    {
+      "alias": "0x140b2b8",
+      "name": "web",
+      "string_pc": "0xc2a9a",
+      "store_pc": "0xc2b22"
+    },
+    {
+      "alias": "0x1409f78",
+      "name": "tallgrass",
+      "string_pc": "0xc2b3f",
+      "store_pc": "0xc2bc7"
+    },
+    {
+      "alias": "0x140ab98",
+      "name": "deadbush",
+      "string_pc": "0xc2be4",
+      "store_pc": "0xc2c6c"
+    },
+    {
+      "alias": "0x140add8",
+      "name": "piston",
+      "string_pc": "0xc2c89",
+      "store_pc": "0xc2d11"
+    },
+    {
+      "alias": "0x140b2c0",
+      "name": "piston_head",
+      "string_pc": "0xc2d2e",
+      "store_pc": "0xc2db6"
+    },
+    {
+      "alias": "0x140b2c8",
+      "name": "wool",
+      "string_pc": "0xc2dd3",
+      "store_pc": "0xc2e5b"
+    },
+    {
+      "alias": "0x140ade8",
+      "name": "piston_extension",
+      "string_pc": "0xc2e78",
+      "store_pc": "0xc2f00"
+    },
+    {
+      "alias": "0x140ab48",
+      "name": "yellow_flower",
+      "string_pc": "0xc2f1d",
+      "store_pc": "0xc2fa5"
+    },
+    {
+      "alias": "0x140b2d0",
+      "name": "red_flower",
+      "string_pc": "0xc2fc2",
+      "store_pc": "0xc304a"
+    },
+    {
+      "alias": "0x140ab50",
+      "name": "brown_mushroom",
+      "string_pc": "0xc3067",
+      "store_pc": "0xc30ef"
+    },
+    {
+      "alias": "0x140ab58",
+      "name": "red_mushroom",
+      "string_pc": "0xc310c",
+      "store_pc": "0xc3194"
+    },
+    {
+      "alias": "0x140b2d8",
+      "name": "gold_block",
+      "string_pc": "0xc31b1",
+      "store_pc": "0xc3239"
+    },
+    {
+      "alias": "0x140b2e0",
+      "name": "iron_block",
+      "string_pc": "0xc3256",
+      "store_pc": "0xc32de"
+    },
+    {
+      "alias": "0x140b2e8",
+      "name": "double_stone_slab",
+      "string_pc": "0xc32fb",
+      "store_pc": "0xc3383"
+    },
+    {
+      "alias": "0x140b2f0",
+      "name": "stone_slab",
+      "string_pc": "0xc33a0",
+      "store_pc": "0xc3428"
+    },
+    {
+      "alias": "0x140b2f8",
+      "name": "brick_block",
+      "string_pc": "0xc3445",
+      "store_pc": "0xc34cd"
+    },
+    {
+      "alias": "0x140b300",
+      "name": "tnt",
+      "string_pc": "0xc34ea",
+      "store_pc": "0xc3572"
+    },
+    {
+      "alias": "0x140b308",
+      "name": "bookshelf",
+      "string_pc": "0xc358f",
+      "store_pc": "0xc3617"
+    },
+    {
+      "alias": "0x140b310",
+      "name": "mossy_cobblestone",
+      "string_pc": "0xc3634",
+      "store_pc": "0xc36bc"
+    },
+    {
+      "alias": "0x140b318",
+      "name": "obsidian",
+      "string_pc": "0xc36d9",
+      "store_pc": "0xc3761"
+    },
+    {
+      "alias": "0x140b320",
+      "name": "torch",
+      "string_pc": "0xc377e",
+      "store_pc": "0xc3806"
+    },
+    {
+      "alias": "0x140b328",
+      "name": "fire",
+      "string_pc": "0xc3823",
+      "store_pc": "0xc38ab"
+    },
+    {
+      "alias": "0x140b330",
+      "name": "mob_spawner",
+      "string_pc": "0xc38c8",
+      "store_pc": "0xc3950"
+    },
+    {
+      "alias": "0x140b338",
+      "name": "oak_stairs",
+      "string_pc": "0xc396d",
+      "store_pc": "0xc39f5"
+    },
+    {
+      "alias": "0x140b340",
+      "name": "chest",
+      "string_pc": "0xc3a12",
+      "store_pc": "0xc3a9a"
+    },
+    {
+      "alias": "0x140b348",
+      "name": "redstone_wire",
+      "string_pc": "0xc3ab7",
+      "store_pc": "0xc3b3f"
+    },
+    {
+      "alias": "0x140ab88",
+      "name": "diamond_ore",
+      "string_pc": "0xc3b5c",
+      "store_pc": "0xc3be4"
+    },
+    {
+      "alias": "0x140b350",
+      "name": "diamond_block",
+      "string_pc": "0xc3c01",
+      "store_pc": "0xc3c89"
+    },
+    {
+      "alias": "0x140b358",
+      "name": "crafting_table",
+      "string_pc": "0xc3ca6",
+      "store_pc": "0xc3d2e"
+    },
+    {
+      "alias": "0x140ae18",
+      "name": "wheat",
+      "string_pc": "0xc3d4b",
+      "store_pc": "0xc3dd3"
+    },
+    {
+      "alias": "0x1409fb8",
+      "name": "farmland",
+      "string_pc": "0xc3df0",
+      "store_pc": "0xc3e78"
+    },
+    {
+      "alias": "0x140b360",
+      "name": "furnace",
+      "string_pc": "0xc3e95",
+      "store_pc": "0xc3f1d"
+    },
+    {
+      "alias": "0x140b368",
+      "name": "lit_furnace",
+      "string_pc": "0xc3f3a",
+      "store_pc": "0xc3fc2"
+    },
+    {
+      "alias": "0x140ae38",
+      "name": "standing_sign",
+      "string_pc": "0xc3fdf",
+      "store_pc": "0xc4067"
+    },
+    {
+      "alias": "0x140ae40",
+      "name": "standing_sign_spruce",
+      "string_pc": "0xc4084",
+      "store_pc": "0xc410c"
+    },
+    {
+      "alias": "0x140ae48",
+      "name": "standing_sign_birch",
+      "string_pc": "0xc4129",
+      "store_pc": "0xc41b1"
+    },
+    {
+      "alias": "0x140ae50",
+      "name": "standing_sign_acacia",
+      "string_pc": "0xc41ce",
+      "store_pc": "0xc4256"
+    },
+    {
+      "alias": "0x140ae58",
+      "name": "standing_sign_jungle",
+      "string_pc": "0xc4273",
+      "store_pc": "0xc42fb"
+    },
+    {
+      "alias": "0x140ae60",
+      "name": "standing_sign_dark_oak",
+      "string_pc": "0xc4318",
+      "store_pc": "0xc43a0"
+    },
+    {
+      "alias": "0x140b370",
+      "name": "wooden_door",
+      "string_pc": "0xc43bd",
+      "store_pc": "0xc4445"
+    },
+    {
+      "alias": "0x140b378",
+      "name": "spruce_door",
+      "string_pc": "0xc4462",
+      "store_pc": "0xc44ea"
+    },
+    {
+      "alias": "0x140b380",
+      "name": "birch_door",
+      "string_pc": "0xc4507",
+      "store_pc": "0xc458f"
+    },
+    {
+      "alias": "0x140b388",
+      "name": "jungle_door",
+      "string_pc": "0xc45ac",
+      "store_pc": "0xc4634"
+    },
+    {
+      "alias": "0x140b390",
+      "name": "acacia_door",
+      "string_pc": "0xc4651",
+      "store_pc": "0xc46d9"
+    },
+    {
+      "alias": "0x140b398",
+      "name": "dark_oak_door",
+      "string_pc": "0xc46f6",
+      "store_pc": "0xc477e"
+    },
+    {
+      "alias": "0x140b3a0",
+      "name": "ladder",
+      "string_pc": "0xc479b",
+      "store_pc": "0xc4823"
+    },
+    {
+      "alias": "0x140b3a8",
+      "name": "rail",
+      "string_pc": "0xc4840",
+      "store_pc": "0xc48c8"
+    },
+    {
+      "alias": "0x140b3b0",
+      "name": "stone_stairs",
+      "string_pc": "0xc48e5",
+      "store_pc": "0xc496d"
+    },
+    {
+      "alias": "0x140b3b8",
+      "name": "wall_sign",
+      "string_pc": "0xc498a",
+      "store_pc": "0xc4a12"
+    },
+    {
+      "alias": "0x140b3c0",
+      "name": "wall_sign_spruce",
+      "string_pc": "0xc4a2f",
+      "store_pc": "0xc4ab7"
+    },
+    {
+      "alias": "0x140b3c8",
+      "name": "wall_sign_birch",
+      "string_pc": "0xc4ad4",
+      "store_pc": "0xc4b5c"
+    },
+    {
+      "alias": "0x140b3d0",
+      "name": "wall_sign_acacia",
+      "string_pc": "0xc4b79",
+      "store_pc": "0xc4c01"
+    },
+    {
+      "alias": "0x140b3d8",
+      "name": "wall_sign_jungle",
+      "string_pc": "0xc4c1e",
+      "store_pc": "0xc4ca6"
+    },
+    {
+      "alias": "0x140b3e0",
+      "name": "wall_sign_dark_oak",
+      "string_pc": "0xc4cc3",
+      "store_pc": "0xc4d4b"
+    },
+    {
+      "alias": "0x140b3e8",
+      "name": "lever",
+      "string_pc": "0xc4d68",
+      "store_pc": "0xc4df0"
+    },
+    {
+      "alias": "0x140b3f0",
+      "name": "stone_pressure_plate",
+      "string_pc": "0xc4e0d",
+      "store_pc": "0xc4e95"
+    },
+    {
+      "alias": "0x140b3f8",
+      "name": "iron_door",
+      "string_pc": "0xc4eb2",
+      "store_pc": "0xc4f3a"
+    },
+    {
+      "alias": "0x140b400",
+      "name": "wooden_pressure_plate",
+      "string_pc": "0xc4f57",
+      "store_pc": "0xc4fdf"
+    },
+    {
+      "alias": "0x140ab80",
+      "name": "redstone_ore",
+      "string_pc": "0xc4ffc",
+      "store_pc": "0xc5084"
+    },
+    {
+      "alias": "0x140b408",
+      "name": "lit_redstone_ore",
+      "string_pc": "0xc50a1",
+      "store_pc": "0xc5129"
+    },
+    {
+      "alias": "0x140b410",
+      "name": "unlit_redstone_torch",
+      "string_pc": "0xc5146",
+      "store_pc": "0xc51ce"
+    },
+    {
+      "alias": "0x140b418",
+      "name": "redstone_torch",
+      "string_pc": "0xc51eb",
+      "store_pc": "0xc5273"
+    },
+    {
+      "alias": "0x140b420",
+      "name": "stone_button",
+      "string_pc": "0xc5290",
+      "store_pc": "0xc5318"
+    },
+    {
+      "alias": "0x1409f70",
+      "name": "snow_layer",
+      "string_pc": "0xc5335",
+      "store_pc": "0xc53bd"
+    },
+    {
+      "alias": "0x140ae00",
+      "name": "ice",
+      "string_pc": "0xc53da",
+      "store_pc": "0xc5462"
+    },
+    {
+      "alias": "0x140b428",
+      "name": "snow",
+      "string_pc": "0xc547f",
+      "store_pc": "0xc5507"
+    },
+    {
+      "alias": "0x140b430",
+      "name": "cactus",
+      "string_pc": "0xc5524",
+      "store_pc": "0xc55ac"
+    },
+    {
+      "alias": "0x140b438",
+      "name": "clay",
+      "string_pc": "0xc55c9",
+      "store_pc": "0xc5651"
+    },
+    {
+      "alias": "0x140b440",
+      "name": "reeds",
+      "string_pc": "0xc566e",
+      "store_pc": "0xc56f6"
+    },
+    {
+      "alias": "0x140b448",
+      "name": "jukebox",
+      "string_pc": "0xc5713",
+      "store_pc": "0xc579b"
+    },
+    {
+      "alias": "0x140b450",
+      "name": "fence",
+      "string_pc": "0xc57b8",
+      "store_pc": "0xc5840"
+    },
+    {
+      "alias": "0x140b458",
+      "name": "spruce_fence",
+      "string_pc": "0xc585d",
+      "store_pc": "0xc58e5"
+    },
+    {
+      "alias": "0x140b460",
+      "name": "birch_fence",
+      "string_pc": "0xc5902",
+      "store_pc": "0xc598a"
+    },
+    {
+      "alias": "0x140b468",
+      "name": "jungle_fence",
+      "string_pc": "0xc59a7",
+      "store_pc": "0xc5a2f"
+    },
+    {
+      "alias": "0x140b470",
+      "name": "dark_oak_fence",
+      "string_pc": "0xc5a4c",
+      "store_pc": "0xc5ad4"
+    },
+    {
+      "alias": "0x140b478",
+      "name": "acacia_fence",
+      "string_pc": "0xc5af1",
+      "store_pc": "0xc5b79"
+    },
+    {
+      "alias": "0x140ab60",
+      "name": "pumpkin",
+      "string_pc": "0xc5b96",
+      "store_pc": "0xc5c1e"
+    },
+    {
+      "alias": "0x140b210",
+      "name": "carved_pumpkin",
+      "string_pc": "0xc5c3b",
+      "store_pc": "0xc5cc3"
+    },
+    {
+      "alias": "0x140b480",
+      "name": "netherrack",
+      "string_pc": "0xc5ce0",
+      "store_pc": "0xc5d68"
+    },
+    {
+      "alias": "0x140b488",
+      "name": "soul_sand",
+      "string_pc": "0xc5d85",
+      "store_pc": "0xc5e0d"
+    },
+    {
+      "alias": "0x140adf0",
+      "name": "glowstone",
+      "string_pc": "0xc5e2a",
+      "store_pc": "0xc5eb2"
+    },
+    {
+      "alias": "0x140b490",
+      "name": "portal",
+      "string_pc": "0xc5ecf",
+      "store_pc": "0xc5f57"
+    },
+    {
+      "alias": "0x140b498",
+      "name": "lit_pumpkin",
+      "string_pc": "0xc5f74",
+      "store_pc": "0xc5ffc"
+    },
+    {
+      "alias": "0x140b4a0",
+      "name": "cake",
+      "string_pc": "0xc6019",
+      "store_pc": "0xc60a1"
+    },
+    {
+      "alias": "0x140b4a8",
+      "name": "unpowered_repeater",
+      "string_pc": "0xc60be",
+      "store_pc": "0xc6146"
+    },
+    {
+      "alias": "0x140b4b0",
+      "name": "powered_repeater",
+      "string_pc": "0xc6163",
+      "store_pc": "0xc61eb"
+    },
+    {
+      "alias": "0x140b4b8",
+      "name": "trapdoor",
+      "string_pc": "0xc6208",
+      "store_pc": "0xc6290"
+    },
+    {
+      "alias": "0x140b4c0",
+      "name": "monster_egg",
+      "string_pc": "0xc62ad",
+      "store_pc": "0xc6335"
+    },
+    {
+      "alias": "0x140b4c8",
+      "name": "stonebrick",
+      "string_pc": "0xc6352",
+      "store_pc": "0xc63da"
+    },
+    {
+      "alias": "0x140b4d0",
+      "name": "brown_mushroom_block",
+      "string_pc": "0xc63f7",
+      "store_pc": "0xc647f"
+    },
+    {
+      "alias": "0x140b4d8",
+      "name": "red_mushroom_block",
+      "string_pc": "0xc649c",
+      "store_pc": "0xc6524"
+    },
+    {
+      "alias": "0x140b4e0",
+      "name": "iron_bars",
+      "string_pc": "0xc6541",
+      "store_pc": "0xc65c9"
+    },
+    {
+      "alias": "0x140b4e8",
+      "name": "glass_pane",
+      "string_pc": "0xc65e6",
+      "store_pc": "0xc666e"
+    },
+    {
+      "alias": "0x140b4f0",
+      "name": "melon_block",
+      "string_pc": "0xc668b",
+      "store_pc": "0xc6713"
+    },
+    {
+      "alias": "0x140b4f8",
+      "name": "pumpkin_stem",
+      "string_pc": "0xc6730",
+      "store_pc": "0xc67b8"
+    },
+    {
+      "alias": "0x140b500",
+      "name": "melon_stem",
+      "string_pc": "0xc67d5",
+      "store_pc": "0xc685d"
+    },
+    {
+      "alias": "0x140b508",
+      "name": "vine",
+      "string_pc": "0xc687a",
+      "store_pc": "0xc6902"
+    },
+    {
+      "alias": "0x140b510",
+      "name": "fence_gate",
+      "string_pc": "0xc691f",
+      "store_pc": "0xc69a7"
+    },
+    {
+      "alias": "0x140b518",
+      "name": "spruce_fence_gate",
+      "string_pc": "0xc69c4",
+      "store_pc": "0xc6a4c"
+    },
+    {
+      "alias": "0x140b520",
+      "name": "birch_fence_gate",
+      "string_pc": "0xc6a69",
+      "store_pc": "0xc6af1"
+    },
+    {
+      "alias": "0x140b528",
+      "name": "jungle_fence_gate",
+      "string_pc": "0xc6b0e",
+      "store_pc": "0xc6b96"
+    },
+    {
+      "alias": "0x140b530",
+      "name": "dark_oak_fence_gate",
+      "string_pc": "0xc6bb3",
+      "store_pc": "0xc6c3b"
+    },
+    {
+      "alias": "0x140b538",
+      "name": "acacia_fence_gate",
+      "string_pc": "0xc6c58",
+      "store_pc": "0xc6ce0"
+    },
+    {
+      "alias": "0x140b540",
+      "name": "brick_stairs",
+      "string_pc": "0xc6cfd",
+      "store_pc": "0xc6d85"
+    },
+    {
+      "alias": "0x140b548",
+      "name": "stone_brick_stairs",
+      "string_pc": "0xc6da2",
+      "store_pc": "0xc6e2a"
+    },
+    {
+      "alias": "0x140b550",
+      "name": "mycelium",
+      "string_pc": "0xc6e47",
+      "store_pc": "0xc6ecf"
+    },
+    {
+      "alias": "0x140b558",
+      "name": "waterlily",
+      "string_pc": "0xc6eec",
+      "store_pc": "0xc6f74"
+    },
+    {
+      "alias": "0x140b560",
+      "name": "nether_brick",
+      "string_pc": "0xc6f91",
+      "store_pc": "0xc7019"
+    },
+    {
+      "alias": "0x140b568",
+      "name": "nether_brick_fence",
+      "string_pc": "0xc7036",
+      "store_pc": "0xc70be"
+    },
+    {
+      "alias": "0x140b570",
+      "name": "nether_brick_stairs",
+      "string_pc": "0xc70db",
+      "store_pc": "0xc7163"
+    },
+    {
+      "alias": "0x140b578",
+      "name": "nether_wart",
+      "string_pc": "0xc7180",
+      "store_pc": "0xc7208"
+    },
+    {
+      "alias": "0x140b580",
+      "name": "enchanting_table",
+      "string_pc": "0xc7225",
+      "store_pc": "0xc72ad"
+    },
+    {
+      "alias": "0x140b588",
+      "name": "brewing_stand",
+      "string_pc": "0xc72ca",
+      "store_pc": "0xc7352"
+    },
+    {
+      "alias": "0x140adc0",
+      "name": "cauldron",
+      "string_pc": "0xc736f",
+      "store_pc": "0xc73f7"
+    },
+    {
+      "alias": "0x140adc8",
+      "name": "lava_cauldron",
+      "string_pc": "0xc7414",
+      "store_pc": "0xc749c"
+    },
+    {
+      "alias": "0x140b590",
+      "name": "end_portal",
+      "string_pc": "0xc74b9",
+      "store_pc": "0xc7541"
+    },
+    {
+      "alias": "0x140b598",
+      "name": "end_portal_frame",
+      "string_pc": "0xc755e",
+      "store_pc": "0xc75e6"
+    },
+    {
+      "alias": "0x140b5a0",
+      "name": "end_stone",
+      "string_pc": "0xc7603",
+      "store_pc": "0xc768b"
+    },
+    {
+      "alias": "0x140b5a8",
+      "name": "dragon_egg",
+      "string_pc": "0xc76a8",
+      "store_pc": "0xc7730"
+    },
+    {
+      "alias": "0x140b5b0",
+      "name": "redstone_lamp",
+      "string_pc": "0xc774d",
+      "store_pc": "0xc77d5"
+    },
+    {
+      "alias": "0x140b5b8",
+      "name": "lit_redstone_lamp",
+      "string_pc": "0xc77f2",
+      "store_pc": "0xc787a"
+    },
+    {
+      "alias": "0x140b5c0",
+      "name": "double_wooden_slab",
+      "string_pc": "0xc7897",
+      "store_pc": "0xc791f"
+    },
+    {
+      "alias": "0x140b5c8",
+      "name": "wooden_slab",
+      "string_pc": "0xc793c",
+      "store_pc": "0xc79c4"
+    },
+    {
+      "alias": "0x140b5d0",
+      "name": "cocoa",
+      "string_pc": "0xc79e1",
+      "store_pc": "0xc7a69"
+    },
+    {
+      "alias": "0x140b5d8",
+      "name": "sandstone_stairs",
+      "string_pc": "0xc7a86",
+      "store_pc": "0xc7b0e"
+    },
+    {
+      "alias": "0x140b5e0",
+      "name": "emerald_ore",
+      "string_pc": "0xc7b2b",
+      "store_pc": "0xc7bb3"
+    },
+    {
+      "alias": "0x140b5e8",
+      "name": "ender_chest",
+      "string_pc": "0xc7bd0",
+      "store_pc": "0xc7c58"
+    },
+    {
+      "alias": "0x140b5f0",
+      "name": "tripwire_hook",
+      "string_pc": "0xc7c75",
+      "store_pc": "0xc7cfd"
+    },
+    {
+      "alias": "0x140b5f8",
+      "name": "tripwire",
+      "string_pc": "0xc7d1a",
+      "store_pc": "0xc7da2"
+    },
+    {
+      "alias": "0x140b600",
+      "name": "emerald_block",
+      "string_pc": "0xc7dbf",
+      "store_pc": "0xc7e47"
+    },
+    {
+      "alias": "0x140b608",
+      "name": "spruce_stairs",
+      "string_pc": "0xc7e64",
+      "store_pc": "0xc7eec"
+    },
+    {
+      "alias": "0x140b610",
+      "name": "birch_stairs",
+      "string_pc": "0xc7f09",
+      "store_pc": "0xc7f91"
+    },
+    {
+      "alias": "0x140b618",
+      "name": "jungle_stairs",
+      "string_pc": "0xc7fae",
+      "store_pc": "0xc8036"
+    },
+    {
+      "alias": "0x140b620",
+      "name": "command_block",
+      "string_pc": "0xc8053",
+      "store_pc": "0xc80db"
+    },
+    {
+      "alias": "0x140b088",
+      "name": "beacon",
+      "string_pc": "0xc80f8",
+      "store_pc": "0xc8180"
+    },
+    {
+      "alias": "0x140b628",
+      "name": "cobblestone_wall",
+      "string_pc": "0xc819d",
+      "store_pc": "0xc8225"
+    },
+    {
+      "alias": "0x140b630",
+      "name": "flower_pot",
+      "string_pc": "0xc8242",
+      "store_pc": "0xc82ca"
+    },
+    {
+      "alias": "0x140ae28",
+      "name": "carrots",
+      "string_pc": "0xc82e7",
+      "store_pc": "0xc836f"
+    },
+    {
+      "alias": "0x140ae20",
+      "name": "potatoes",
+      "string_pc": "0xc838c",
+      "store_pc": "0xc8414"
+    },
+    {
+      "alias": "0x140b638",
+      "name": "wooden_button",
+      "string_pc": "0xc8431",
+      "store_pc": "0xc84b9"
+    },
+    {
+      "alias": "0x140b640",
+      "name": "skull",
+      "string_pc": "0xc84d6",
+      "store_pc": "0xc855e"
+    },
+    {
+      "alias": "0x140b648",
+      "name": "anvil",
+      "string_pc": "0xc857b",
+      "store_pc": "0xc8603"
+    },
+    {
+      "alias": "0x140b650",
+      "name": "trapped_chest",
+      "string_pc": "0xc8620",
+      "store_pc": "0xc86a8"
+    },
+    {
+      "alias": "0x140b658",
+      "name": "light_weighted_pressure_plate",
+      "string_pc": "0xc86c5",
+      "store_pc": "0xc874d"
+    },
+    {
+      "alias": "0x140b660",
+      "name": "heavy_weighted_pressure_plate",
+      "string_pc": "0xc876a",
+      "store_pc": "0xc87f2"
+    },
+    {
+      "alias": "0x140b668",
+      "name": "unpowered_comparator",
+      "string_pc": "0xc880f",
+      "store_pc": "0xc8897"
+    },
+    {
+      "alias": "0x140b670",
+      "name": "powered_comparator",
+      "string_pc": "0xc88b4",
+      "store_pc": "0xc893c"
+    },
+    {
+      "alias": "0x140b678",
+      "name": "daylight_detector",
+      "string_pc": "0xc8959",
+      "store_pc": "0xc89e1"
+    },
+    {
+      "alias": "0x140b680",
+      "name": "daylight_detector_inverted",
+      "string_pc": "0xc89fe",
+      "store_pc": "0xc8a86"
+    },
+    {
+      "alias": "0x140b688",
+      "name": "redstone_block",
+      "string_pc": "0xc8aa3",
+      "store_pc": "0xc8b2b"
+    },
+    {
+      "alias": "0x140b690",
+      "name": "quartz_ore",
+      "string_pc": "0xc8b48",
+      "store_pc": "0xc8bd0"
+    },
+    {
+      "alias": "0x1409f48",
+      "name": "hopper",
+      "string_pc": "0xc8bed",
+      "store_pc": "0xc8c75"
+    },
+    {
+      "alias": "0x140b698",
+      "name": "quartz_block",
+      "string_pc": "0xc8c92",
+      "store_pc": "0xc8d1a"
+    },
+    {
+      "alias": "0x140b6a0",
+      "name": "quartz_stairs",
+      "string_pc": "0xc8d37",
+      "store_pc": "0xc8dbf"
+    },
+    {
+      "alias": "0x140b6a8",
+      "name": "activator_rail",
+      "string_pc": "0xc8ddc",
+      "store_pc": "0xc8e64"
+    },
+    {
+      "alias": "0x140b6b0",
+      "name": "dropper",
+      "string_pc": "0xc8e81",
+      "store_pc": "0xc8f09"
+    },
+    {
+      "alias": "0x140b6b8",
+      "name": "stained_hardened_clay",
+      "string_pc": "0xc8f26",
+      "store_pc": "0xc8fae"
+    },
+    {
+      "alias": "0x140b6c0",
+      "name": "barrier",
+      "string_pc": "0xc8fcb",
+      "store_pc": "0xc9053"
+    },
+    {
+      "alias": "0x140b6c8",
+      "name": "iron_trapdoor",
+      "string_pc": "0xc9070",
+      "store_pc": "0xc90f8"
+    },
+    {
+      "alias": "0x140b1f8",
+      "name": "hay_block",
+      "string_pc": "0xc9115",
+      "store_pc": "0xc919d"
+    },
+    {
+      "alias": "0x140b6d0",
+      "name": "carpet",
+      "string_pc": "0xc91ba",
+      "store_pc": "0xc9242"
+    },
+    {
+      "alias": "0x140b6d8",
+      "name": "hardened_clay",
+      "string_pc": "0xc925f",
+      "store_pc": "0xc92e7"
+    },
+    {
+      "alias": "0x140b6e0",
+      "name": "coal_block",
+      "string_pc": "0xc9304",
+      "store_pc": "0xc938c"
+    },
+    {
+      "alias": "0x140b200",
+      "name": "packed_ice",
+      "string_pc": "0xc93a9",
+      "store_pc": "0xc9431"
+    },
+    {
+      "alias": "0x140b6e8",
+      "name": "acacia_stairs",
+      "string_pc": "0xc944e",
+      "store_pc": "0xc94d6"
+    },
+    {
+      "alias": "0x140b6f0",
+      "name": "dark_oak_stairs",
+      "string_pc": "0xc94f3",
+      "store_pc": "0xc957b"
+    },
+    {
+      "alias": "0x140b6f8",
+      "name": "slime",
+      "string_pc": "0xc9598",
+      "store_pc": "0xc9620"
+    },
+    {
+      "alias": "0x140b700",
+      "name": "double_plant",
+      "string_pc": "0xc963d",
+      "store_pc": "0xc96c5"
+    },
+    {
+      "alias": "0x140ae10",
+      "name": "stained_glass",
+      "string_pc": "0xc96e2",
+      "store_pc": "0xc976a"
+    },
+    {
+      "alias": "0x140b708",
+      "name": "stained_glass_pane",
+      "string_pc": "0xc9787",
+      "store_pc": "0xc980f"
+    },
+    {
+      "alias": "0x140b710",
+      "name": "prismarine",
+      "string_pc": "0xc982c",
+      "store_pc": "0xc98b4"
+    },
+    {
+      "alias": "0x140adf8",
+      "name": "sea_lantern",
+      "string_pc": "0xc98d1",
+      "store_pc": "0xc9959"
+    },
+    {
+      "alias": "0x140b718",
+      "name": "standing_banner",
+      "string_pc": "0xc9976",
+      "store_pc": "0xc99fe"
+    },
+    {
+      "alias": "0x140b720",
+      "name": "wall_banner",
+      "string_pc": "0xc9a1b",
+      "store_pc": "0xc9aa3"
+    },
+    {
+      "alias": "0x140b728",
+      "name": "red_sandstone",
+      "string_pc": "0xc9ac0",
+      "store_pc": "0xc9b48"
+    },
+    {
+      "alias": "0x140b730",
+      "name": "red_sandstone_stairs",
+      "string_pc": "0xc9b65",
+      "store_pc": "0xc9bed"
+    },
+    {
+      "alias": "0x140b738",
+      "name": "double_stone_slab_3",
+      "string_pc": "0xc9c0a",
+      "store_pc": "0xc9c92"
+    },
+    {
+      "alias": "0x140b740",
+      "name": "stone_slab_3",
+      "string_pc": "0xc9caf",
+      "store_pc": "0xc9d37"
+    },
+    {
+      "alias": "0x140b748",
+      "name": "end_rod",
+      "string_pc": "0xc9d54",
+      "store_pc": "0xc9ddc"
+    },
+    {
+      "alias": "0x140b750",
+      "name": "chorus_plant",
+      "string_pc": "0xc9df9",
+      "store_pc": "0xc9e81"
+    },
+    {
+      "alias": "0x140b758",
+      "name": "chorus_flower",
+      "string_pc": "0xc9e9e",
+      "store_pc": "0xc9f26"
+    },
+    {
+      "alias": "0x140b760",
+      "name": "purpur_block",
+      "string_pc": "0xc9f43",
+      "store_pc": "0xc9fcb"
+    },
+    {
+      "alias": "0x140b768",
+      "name": "purpur_pillar",
+      "string_pc": "0xc9fe8",
+      "store_pc": "0xca070"
+    },
+    {
+      "alias": "0x140b770",
+      "name": "purpur_stairs",
+      "string_pc": "0xca08d",
+      "store_pc": "0xca115"
+    },
+    {
+      "alias": "0x140b778",
+      "name": "double_stone_slab_4",
+      "string_pc": "0xca132",
+      "store_pc": "0xca1ba"
+    },
+    {
+      "alias": "0x140b780",
+      "name": "stone_slab_4",
+      "string_pc": "0xca1d7",
+      "store_pc": "0xca25f"
+    },
+    {
+      "alias": "0x140b788",
+      "name": "end_bricks",
+      "string_pc": "0xca27c",
+      "store_pc": "0xca304"
+    },
+    {
+      "alias": "0x140b790",
+      "name": "beetroots",
+      "string_pc": "0xca321",
+      "store_pc": "0xca3a9"
+    },
+    {
+      "alias": "0x140b1f0",
+      "name": "grass_path",
+      "string_pc": "0xca3c6",
+      "store_pc": "0xca44e"
+    },
+    {
+      "alias": "0x140b798",
+      "name": "end_gateway",
+      "string_pc": "0xca46b",
+      "store_pc": "0xca4f3"
+    },
+    {
+      "alias": "0x140b7a0",
+      "name": "repeating_command_block",
+      "string_pc": "0xca510",
+      "store_pc": "0xca598"
+    },
+    {
+      "alias": "0x140b7a8",
+      "name": "chain_command_block",
+      "string_pc": "0xca5b5",
+      "store_pc": "0xca63d"
+    },
+    {
+      "alias": "0x140b7b0",
+      "name": "frosted_ice",
+      "string_pc": "0xca65a",
+      "store_pc": "0xca6e2"
+    },
+    {
+      "alias": "0x140b7b8",
+      "name": "magma",
+      "string_pc": "0xca6ff",
+      "store_pc": "0xca787"
+    },
+    {
+      "alias": "0x140b7c0",
+      "name": "nether_wart_block",
+      "string_pc": "0xca7a4",
+      "store_pc": "0xca82c"
+    },
+    {
+      "alias": "0x140b7c8",
+      "name": "red_nether_brick",
+      "string_pc": "0xca849",
+      "store_pc": "0xca8d1"
+    },
+    {
+      "alias": "0x140b7d0",
+      "name": "bone_block",
+      "string_pc": "0xca8ee",
+      "store_pc": "0xca976"
+    },
+    {
+      "alias": "0x140b7d8",
+      "name": "structure_void",
+      "string_pc": "0xca993",
+      "store_pc": "0xcaa1b"
+    },
+    {
+      "alias": "0x140b7e0",
+      "name": "observer",
+      "string_pc": "0xcaa38",
+      "store_pc": "0xcaac0"
+    },
+    {
+      "alias": "0x140b7e8",
+      "name": "white_shulker_box",
+      "string_pc": "0xcaadd",
+      "store_pc": "0xcab65"
+    },
+    {
+      "alias": "0x140b7f0",
+      "name": "orange_shulker_box",
+      "string_pc": "0xcab82",
+      "store_pc": "0xcac0a"
+    },
+    {
+      "alias": "0x140b7f8",
+      "name": "magenta_shulker_box",
+      "string_pc": "0xcac27",
+      "store_pc": "0xcacaf"
+    },
+    {
+      "alias": "0x140b800",
+      "name": "light_blue_shulker_box",
+      "string_pc": "0xcaccc",
+      "store_pc": "0xcad54"
+    },
+    {
+      "alias": "0x140b808",
+      "name": "yellow_shulker_box",
+      "string_pc": "0xcad71",
+      "store_pc": "0xcadf9"
+    },
+    {
+      "alias": "0x140b810",
+      "name": "lime_shulker_box",
+      "string_pc": "0xcae16",
+      "store_pc": "0xcae9e"
+    },
+    {
+      "alias": "0x140b818",
+      "name": "pink_shulker_box",
+      "string_pc": "0xcaebb",
+      "store_pc": "0xcaf43"
+    },
+    {
+      "alias": "0x140b820",
+      "name": "gray_shulker_box",
+      "string_pc": "0xcaf60",
+      "store_pc": "0xcafe8"
+    },
+    {
+      "alias": "0x140b828",
+      "name": "silver_shulker_box",
+      "string_pc": "0xcb005",
+      "store_pc": "0xcb08d"
+    },
+    {
+      "alias": "0x140b830",
+      "name": "cyan_shulker_box",
+      "string_pc": "0xcb0aa",
+      "store_pc": "0xcb132"
+    },
+    {
+      "alias": "0x140b838",
+      "name": "purple_shulker_box",
+      "string_pc": "0xcb14f",
+      "store_pc": "0xcb1d7"
+    },
+    {
+      "alias": "0x140b840",
+      "name": "blue_shulker_box",
+      "string_pc": "0xcb1f4",
+      "store_pc": "0xcb27c"
+    },
+    {
+      "alias": "0x140b848",
+      "name": "brown_shulker_box",
+      "string_pc": "0xcb299",
+      "store_pc": "0xcb321"
+    },
+    {
+      "alias": "0x140b850",
+      "name": "green_shulker_box",
+      "string_pc": "0xcb33e",
+      "store_pc": "0xcb3c6"
+    },
+    {
+      "alias": "0x140b858",
+      "name": "red_shulker_box",
+      "string_pc": "0xcb3e3",
+      "store_pc": "0xcb46b"
+    },
+    {
+      "alias": "0x140b860",
+      "name": "black_shulker_box",
+      "string_pc": "0xcb488",
+      "store_pc": "0xcb510"
+    },
+    {
+      "alias": "0x140b868",
+      "name": "undyed_shulker_box",
+      "string_pc": "0xcb52d",
+      "store_pc": "0xcb5b5"
+    },
+    {
+      "alias": "0x140b870",
+      "name": "white_glazed_terracotta",
+      "string_pc": "0xcb5d2",
+      "store_pc": "0xcb65a"
+    },
+    {
+      "alias": "0x140b878",
+      "name": "orange_glazed_terracotta",
+      "string_pc": "0xcb677",
+      "store_pc": "0xcb6ff"
+    },
+    {
+      "alias": "0x140b880",
+      "name": "magenta_glazed_terracotta",
+      "string_pc": "0xcb71c",
+      "store_pc": "0xcb7a4"
+    },
+    {
+      "alias": "0x140b888",
+      "name": "light_blue_glazed_terracotta",
+      "string_pc": "0xcb7c1",
+      "store_pc": "0xcb849"
+    },
+    {
+      "alias": "0x140b890",
+      "name": "yellow_glazed_terracotta",
+      "string_pc": "0xcb866",
+      "store_pc": "0xcb8ee"
+    },
+    {
+      "alias": "0x140b898",
+      "name": "lime_glazed_terracotta",
+      "string_pc": "0xcb90b",
+      "store_pc": "0xcb993"
+    },
+    {
+      "alias": "0x140b8a0",
+      "name": "pink_glazed_terracotta",
+      "string_pc": "0xcb9b0",
+      "store_pc": "0xcba38"
+    },
+    {
+      "alias": "0x140b8a8",
+      "name": "gray_glazed_terracotta",
+      "string_pc": "0xcba55",
+      "store_pc": "0xcbadd"
+    },
+    {
+      "alias": "0x140b8b0",
+      "name": "silver_glazed_terracotta",
+      "string_pc": "0xcbafa",
+      "store_pc": "0xcbb82"
+    },
+    {
+      "alias": "0x140b8b8",
+      "name": "cyan_glazed_terracotta",
+      "string_pc": "0xcbb9f",
+      "store_pc": "0xcbc27"
+    },
+    {
+      "alias": "0x140b8c0",
+      "name": "purple_glazed_terracotta",
+      "string_pc": "0xcbc44",
+      "store_pc": "0xcbccc"
+    },
+    {
+      "alias": "0x140b8c8",
+      "name": "blue_glazed_terracotta",
+      "string_pc": "0xcbce9",
+      "store_pc": "0xcbd71"
+    },
+    {
+      "alias": "0x140b8d0",
+      "name": "brown_glazed_terracotta",
+      "string_pc": "0xcbd8e",
+      "store_pc": "0xcbe16"
+    },
+    {
+      "alias": "0x140b8d8",
+      "name": "green_glazed_terracotta",
+      "string_pc": "0xcbe33",
+      "store_pc": "0xcbebb"
+    },
+    {
+      "alias": "0x140b8e0",
+      "name": "red_glazed_terracotta",
+      "string_pc": "0xcbed8",
+      "store_pc": "0xcbf60"
+    },
+    {
+      "alias": "0x140b8e8",
+      "name": "black_glazed_terracotta",
+      "string_pc": "0xcbf7d",
+      "store_pc": "0xcc005"
+    },
+    {
+      "alias": "0x140b8f0",
+      "name": "concrete",
+      "string_pc": "0xcc022",
+      "store_pc": "0xcc0aa"
+    },
+    {
+      "alias": "0x140b8f8",
+      "name": "concrete_powder",
+      "string_pc": "0xcc0c7",
+      "store_pc": "0xcc14f"
+    },
+    {
+      "alias": "0x140b900",
+      "name": "structure_block",
+      "string_pc": "0xcc16c",
+      "store_pc": "0xcc1f4"
+    },
+    {
+      "alias": "0x140b908",
+      "name": "conduit",
+      "string_pc": "0xcc211",
+      "store_pc": "0xcc299"
+    },
+    {
+      "alias": "0x140b910",
+      "name": "kelp",
+      "string_pc": "0xcc2b6",
+      "store_pc": "0xcc33e"
+    },
+    {
+      "alias": "0x140b918",
+      "name": "coral_block",
+      "string_pc": "0xcc35b",
+      "store_pc": "0xcc3e3"
+    },
+    {
+      "alias": "0x140b920",
+      "name": "coral",
+      "string_pc": "0xcc400",
+      "store_pc": "0xcc488"
+    },
+    {
+      "alias": "0x140b928",
+      "name": "coral_fan",
+      "string_pc": "0xcc4a5",
+      "store_pc": "0xcc52d"
+    },
+    {
+      "alias": "0x140b930",
+      "name": "coral_fan_dead",
+      "string_pc": "0xcc54a",
+      "store_pc": "0xcc5d2"
+    },
+    {
+      "alias": "0x140b938",
+      "name": "coral_fan_hang",
+      "string_pc": "0xcc5ef",
+      "store_pc": "0xcc677"
+    },
+    {
+      "alias": "0x140b940",
+      "name": "coral_fan_hang2",
+      "string_pc": "0xcc694",
+      "store_pc": "0xcc71c"
+    },
+    {
+      "alias": "0x140b948",
+      "name": "coral_fan_hang3",
+      "string_pc": "0xcc739",
+      "store_pc": "0xcc7c1"
+    },
+    {
+      "alias": "0x140b950",
+      "name": "dried_kelp_block",
+      "string_pc": "0xcc7de",
+      "store_pc": "0xcc866"
+    },
+    {
+      "alias": "0x1409f80",
+      "name": "sea_grass",
+      "string_pc": "0xcc883",
+      "store_pc": "0xcc90b"
+    },
+    {
+      "alias": "0x140b958",
+      "name": "sea_pickle",
+      "string_pc": "0xcc928",
+      "store_pc": "0xcc9b0"
+    },
+    {
+      "alias": "0x140b960",
+      "name": "bubble_column_segment",
+      "string_pc": "0xcc9cd",
+      "store_pc": "0xcca55"
+    },
+    {
+      "alias": "0x140add0",
+      "name": "turtle_egg",
+      "string_pc": "0xcca72",
+      "store_pc": "0xccafa"
+    },
+    {
+      "alias": "0x140b208",
+      "name": "blue_ice",
+      "string_pc": "0xccb17",
+      "store_pc": "0xccb9f"
+    },
+    {
+      "alias": "0x140b968",
+      "name": "spruce_trapdoor",
+      "string_pc": "0xccbbc",
+      "store_pc": "0xccc44"
+    },
+    {
+      "alias": "0x140b970",
+      "name": "birch_trapdoor",
+      "string_pc": "0xccc61",
+      "store_pc": "0xccce9"
+    },
+    {
+      "alias": "0x140b978",
+      "name": "jungle_trapdoor",
+      "string_pc": "0xccd06",
+      "store_pc": "0xccd8e"
+    },
+    {
+      "alias": "0x140b980",
+      "name": "acacia_trapdoor",
+      "string_pc": "0xccdab",
+      "store_pc": "0xcce33"
+    },
+    {
+      "alias": "0x140b988",
+      "name": "dark_oak_trapdoor",
+      "string_pc": "0xcce50",
+      "store_pc": "0xcced8"
+    },
+    {
+      "alias": "0x140b990",
+      "name": "prismarine_stairs",
+      "string_pc": "0xccef5",
+      "store_pc": "0xccf7d"
+    },
+    {
+      "alias": "0x140b998",
+      "name": "prismarine_bricks_stairs",
+      "string_pc": "0xccf9a",
+      "store_pc": "0xcd022"
+    },
+    {
+      "alias": "0x140b9a0",
+      "name": "dark_prismarine_stairs",
+      "string_pc": "0xcd03f",
+      "store_pc": "0xcd0c7"
+    },
+    {
+      "alias": "0x140b9b0",
+      "name": "stone_slab_2",
+      "string_pc": "0xcd0e4",
+      "store_pc": "0xcd16c"
+    },
+    {
+      "alias": "0x140b9a8",
+      "name": "double_stone_slab_2",
+      "string_pc": "0xcd189",
+      "store_pc": "0xcd211"
+    },
+    {
+      "alias": "0x140b9b8",
+      "name": "stripped_log_spruce",
+      "string_pc": "0xcd22e",
+      "store_pc": "0xcd2b6"
+    },
+    {
+      "alias": "0x140b9c0",
+      "name": "stripped_log_birch",
+      "string_pc": "0xcd2d3",
+      "store_pc": "0xcd35b"
+    },
+    {
+      "alias": "0x140b9c8",
+      "name": "stripped_log_jungle",
+      "string_pc": "0xcd378",
+      "store_pc": "0xcd400"
+    },
+    {
+      "alias": "0x140b9d0",
+      "name": "stripped_log_acacia",
+      "string_pc": "0xcd41d",
+      "store_pc": "0xcd4a5"
+    },
+    {
+      "alias": "0x140b9d8",
+      "name": "stripped_log_dark_oak",
+      "string_pc": "0xcd4c2",
+      "store_pc": "0xcd54a"
+    },
+    {
+      "alias": "0x140b9e0",
+      "name": "stripped_log_oak",
+      "string_pc": "0xcd567",
+      "store_pc": "0xcd5ef"
+    },
+    {
+      "alias": "0x140b9e8",
+      "name": "acacia_pressure_plate",
+      "string_pc": "0xcd60c",
+      "store_pc": "0xcd694"
+    },
+    {
+      "alias": "0x140b9f0",
+      "name": "birch_pressure_plate",
+      "string_pc": "0xcd6b1",
+      "store_pc": "0xcd739"
+    },
+    {
+      "alias": "0x140b9f8",
+      "name": "dark_oak_pressure_plate",
+      "string_pc": "0xcd756",
+      "store_pc": "0xcd7de"
+    },
+    {
+      "alias": "0x140ba00",
+      "name": "jungle_pressure_plate",
+      "string_pc": "0xcd7fb",
+      "store_pc": "0xcd883"
+    },
+    {
+      "alias": "0x140ba08",
+      "name": "spruce_pressure_plate",
+      "string_pc": "0xcd8a0",
+      "store_pc": "0xcd928"
+    },
+    {
+      "alias": "0x140ba10",
+      "name": "acacia_button",
+      "string_pc": "0xcd945",
+      "store_pc": "0xcd9cd"
+    },
+    {
+      "alias": "0x140ba18",
+      "name": "birch_button",
+      "string_pc": "0xcd9ea",
+      "store_pc": "0xcda72"
+    },
+    {
+      "alias": "0x140ba20",
+      "name": "dark_oak_button",
+      "string_pc": "0xcda8f",
+      "store_pc": "0xcdb17"
+    },
+    {
+      "alias": "0x140ba28",
+      "name": "jungle_button",
+      "string_pc": "0xcdb34",
+      "store_pc": "0xcdbbc"
+    },
+    {
+      "alias": "0x140ba30",
+      "name": "spruce_button",
+      "string_pc": "0xcdbd9",
+      "store_pc": "0xcdc61"
+    },
+    {
+      "alias": "0x140ba38",
+      "name": "wood",
+      "string_pc": "0xcdc7e",
+      "store_pc": "0xcdd06"
+    },
+    {
+      "alias": "0x140ba40",
+      "name": "bamboo",
+      "string_pc": "0xcdd23",
+      "store_pc": "0xcddab"
+    },
+    {
+      "alias": "0x140b090",
+      "name": "scaffolding",
+      "string_pc": "0xcddc8",
+      "store_pc": "0xcde50"
+    },
+    {
+      "alias": "0x140ba48",
+      "name": "bamboo_sapling",
+      "string_pc": "0xcde6d",
+      "store_pc": "0xcdef5"
+    },
+    {
+      "alias": "0x140ba50",
+      "name": "cobblestone_stairs",
+      "string_pc": "0xcdf12",
+      "store_pc": "0xcdf9a"
+    },
+    {
+      "alias": "0x140ba58",
+      "name": "mossy_cobblestone_stairs",
+      "string_pc": "0xcdfb7",
+      "store_pc": "0xce03f"
+    },
+    {
+      "alias": "0x140ba60",
+      "name": "andesite_stairs",
+      "string_pc": "0xce05c",
+      "store_pc": "0xce0e4"
+    },
+    {
+      "alias": "0x140ba68",
+      "name": "diorite_stairs",
+      "string_pc": "0xce101",
+      "store_pc": "0xce189"
+    },
+    {
+      "alias": "0x140ba70",
+      "name": "granite_stairs",
+      "string_pc": "0xce1a6",
+      "store_pc": "0xce22e"
+    },
+    {
+      "alias": "0x140ba78",
+      "name": "smooth_andesite_stairs",
+      "string_pc": "0xce24b",
+      "store_pc": "0xce2d3"
+    },
+    {
+      "alias": "0x140ba80",
+      "name": "smooth_diorite_stairs",
+      "string_pc": "0xce2f0",
+      "store_pc": "0xce378"
+    },
+    {
+      "alias": "0x140ba88",
+      "name": "smooth_granite_stairs",
+      "string_pc": "0xce395",
+      "store_pc": "0xce41d"
+    },
+    {
+      "alias": "0x140ba90",
+      "name": "smooth_quartz_stairs",
+      "string_pc": "0xce43a",
+      "store_pc": "0xce4c2"
+    },
+    {
+      "alias": "0x140ba98",
+      "name": "mossy_stone_brick_stairs",
+      "string_pc": "0xce4df",
+      "store_pc": "0xce567"
+    },
+    {
+      "alias": "0x140baa0",
+      "name": "smooth_sandstone_stairs",
+      "string_pc": "0xce584",
+      "store_pc": "0xce60c"
+    },
+    {
+      "alias": "0x140baa8",
+      "name": "smooth_red_sandstone_stairs",
+      "string_pc": "0xce629",
+      "store_pc": "0xce6b1"
+    },
+    {
+      "alias": "0x140bab0",
+      "name": "red_nether_brick_stairs",
+      "string_pc": "0xce6ce",
+      "store_pc": "0xce756"
+    },
+    {
+      "alias": "0x140bab8",
+      "name": "end_brick_stairs",
+      "string_pc": "0xce773",
+      "store_pc": "0xce7fb"
+    },
+    {
+      "alias": "0x140bac0",
+      "name": "lantern",
+      "string_pc": "0xce818",
+      "store_pc": "0xce8a0"
+    },
+    {
+      "alias": "0x140bac8",
+      "name": "lectern",
+      "string_pc": "0xce8bd",
+      "store_pc": "0xce945"
+    },
+    {
+      "alias": "0x140bad0",
+      "name": "loom",
+      "string_pc": "0xce962",
+      "store_pc": "0xce9ea"
+    },
+    {
+      "alias": "0x140acc0",
+      "name": "blastfurnace",
+      "string_pc": "0xcea07",
+      "store_pc": "0xcea8f"
+    },
+    {
+      "alias": "0x140bad8",
+      "name": "lit_blastfurnace",
+      "string_pc": "0xceaac",
+      "store_pc": "0xceb34"
+    },
+    {
+      "alias": "0x140bae0",
+      "name": "smoker",
+      "string_pc": "0xceb51",
+      "store_pc": "0xcebd9"
+    },
+    {
+      "alias": "0x140bae8",
+      "name": "lit_smoker",
+      "string_pc": "0xcebf6",
+      "store_pc": "0xcec7e"
+    },
+    {
+      "alias": "0x140baf0",
+      "name": "composter",
+      "string_pc": "0xcec9b",
+      "store_pc": "0xced23"
+    },
+    {
+      "alias": "0x1409f40",
+      "name": "bell",
+      "string_pc": "0xced40",
+      "store_pc": "0xcedc8"
+    },
+    {
+      "alias": "0x140baf8",
+      "name": "fletching_table",
+      "string_pc": "0xcede5",
+      "store_pc": "0xcee6d"
+    },
+    {
+      "alias": "0x140bb00",
+      "name": "smithing_table",
+      "string_pc": "0xcee8a",
+      "store_pc": "0xcef12"
+    },
+    {
+      "alias": "0x140bb08",
+      "name": "grindstone",
+      "string_pc": "0xcef2f",
+      "store_pc": "0xcefb7"
+    },
+    {
+      "alias": "0x140bb10",
+      "name": "stonecutter2",
+      "string_pc": "0xcefd4",
+      "store_pc": "0xcf05c"
+    },
+    {
+      "alias": "0x140bb30",
+      "name": "campfire",
+      "string_pc": "0xcf079",
+      "store_pc": "0xcf101"
+    },
+    {
+      "alias": "0x140bb18",
+      "name": "barrel",
+      "string_pc": "0xcf11e",
+      "store_pc": "0xcf1a6"
+    },
+    {
+      "alias": "0x140bb20",
+      "name": "sweet_berry_bush",
+      "string_pc": "0xcf1c3",
+      "store_pc": "0xcf24b"
+    },
+    {
+      "alias": "0x140bb28",
+      "name": "cartography_table",
+      "string_pc": "0xcf268",
+      "store_pc": "0xcf2f0"
+    },
+    {
+      "alias": "0x140bb38",
+      "name": "jigsaw",
+      "string_pc": "0xcf30d",
+      "store_pc": "0xcf395"
+    }
+  ]
+}

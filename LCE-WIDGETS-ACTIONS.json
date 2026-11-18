@@ -1,0 +1,589 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/checkbox.png",
+      "symbol": "FJ_Tickbox_Background",
+      "bitmap_id": 185,
+      "width": 24,
+      "height": 24,
+      "rgba_sha256": "67f992df4e50b6e7b39de84d963fe165eac7cb5e91af1ea93f10fdaf7b83a582",
+      "sha256": "2aac81359d9ecd9651a5ce6d853abe9af7164f0cdd5a69ec68eab3ef790abfe8"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/checkbox_selected.png",
+      "symbol": "Tickbox_Over",
+      "bitmap_id": 183,
+      "width": 24,
+      "height": 24,
+      "rgba_sha256": "002dabe793e236fa5c09ea47211d4f7386a29ae0a13deeb056412820b295cb39",
+      "sha256": "872f165080f448538eec69430aad2c2f400e23d339cd86db419f3bff9873102c"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/tick.png",
+      "symbol": "Tick",
+      "bitmap_id": 184,
+      "width": 28,
+      "height": 24,
+      "rgba_sha256": "9393bba36942b8abc1fb0b8c393c995c1ab81dc82256dd620835afe95ffefc1a",
+      "sha256": "9a3ef5dc47ccce2f3243339f8276157401feadbc95f37c03ec60e5b1e02b8524"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/slider.png",
+      "symbol": "FJ_Slider_Background",
+      "bitmap_id": 188,
+      "width": 600,
+      "height": 32,
+      "rgba_sha256": "c1b0d495230ca1feb55938386a3f08fa563ed08deedfef83534ead77a5393edb",
+      "sha256": "d0c46c197844c27e9a43fa6d4a76d2aa856edea46a3fa5c319d704da3d794795"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/slider_handle.png",
+      "symbol": "Slider_Graphic",
+      "bitmap_id": 187,
+      "width": 16,
+      "height": 32,
+      "rgba_sha256": "c4c6f702a3d58c6d40bae968b20e6ca9099c34fcbfed8798cdba20bda6b8fc7e",
+      "sha256": "e4606c150dfa0398e67a5ea0b49bdc78284334b206ff83f46c61e6100b040d08"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/slider_outline.png",
+      "symbol": "MainMenuButton_Outline",
+      "bitmap_id": 196,
+      "width": 404,
+      "height": 44,
+      "rgba_sha256": "1769df732cf3fa8283d8ced22e99465e40a08b3885bee1c450b7aa2d1e1f2a5d",
+      "sha256": "8a6179cbe1b179c8b8a58a7760130b03ede21cad6dff0bdceae687dc89a65bfb"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/slider_highlight.png",
+      "symbol": "SliderBackgroundHighlight",
+      "bitmap_id": 186,
+      "width": 596,
+      "height": 28,
+      "rgba_sha256": "3b52573ad675794ed159d04e5610fcad2056dfdb8272a67fabe5b6d873c5d505",
+      "sha256": "a3b8db11e3fa76633224ac6b7fd3d7f70ea8480727c402ed970ecba68fe1f1ad"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/slider_tint_active.png",
+      "symbol": "Slider_Track_TintActive",
+      "bitmap_id": 106,
+      "width": 600,
+      "height": 32,
+      "rgba_sha256": "e2cc2a1fa6131cf4d86faa3baf78851f35a36853e2467c257b3df9d89e85cce5",
+      "sha256": "58455ab66836f452e9925205da08391666b86112ce638b03e2b58b02abe2e42a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/slider_tint_inactive.png",
+      "symbol": "Slider_Track_TintInactive",
+      "bitmap_id": 105,
+      "width": 600,
+      "height": 32,
+      "rgba_sha256": "e2cc2a1fa6131cf4d86faa3baf78851f35a36853e2467c257b3df9d89e85cce5",
+      "sha256": "58455ab66836f452e9925205da08391666b86112ce638b03e2b58b02abe2e42a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/text_border.png",
+      "symbol": "TextInputBGBorder",
+      "bitmap_id": 168,
+      "width": 440,
+      "height": 36,
+      "rgba_sha256": "69e3fc0e28a3fbfff16be236f14770597e3cca968043e0b32c4c46ed69cf53cf",
+      "sha256": "fa5092b33c52dd0dedf2360338bd0e26c8c21dcb2f31d54dc9371acf88fa7367"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/text_background.png",
+      "symbol": "TextInputBG",
+      "bitmap_id": 167,
+      "width": 436,
+      "height": 32,
+      "rgba_sha256": "662faa6fbb454908619949781690ac283ce9d3301c2edc48aeacf7ace783bbe7",
+      "sha256": "cda8afb9c5802ecf3cfec45a72362eb1b7cd345d35642c3deb7caa98ae88e6b3"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/text_selected.png",
+      "symbol": "TextInputSelectedBorder",
+      "bitmap_id": 110,
+      "width": 604,
+      "height": 36,
+      "rgba_sha256": "66eb920e9b4a9ebd230b81d012918947efdac68fc89302e643767f25ac6cfba6",
+      "sha256": "d29277e459cb34786b2c58fb8e2cee3a7bc5e7843890803512b6089d5245ee69"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/pack_outline.png",
+      "symbol": "TexturePackSelectorBorder",
+      "bitmap_id": 84,
+      "width": 60,
+      "height": 60,
+      "rgba_sha256": "e72071ba733dd1fbe88915ce915b1b81bea79f0510594cefa4d69ea233e3e31e",
+      "sha256": "c46d2e321f7fdc34fbdaffd2a643d37a9011252a477c1ddb64afffbe7b2a8225"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/scroll_arrow.png",
+      "symbol": "scrollRight",
+      "bitmap_id": 174,
+      "width": 12,
+      "height": 22,
+      "rgba_sha256": "23a64680b05da9ce9f8c375a8347278aaf20cd06153a1563b79ab969a950af6a",
+      "sha256": "0fd15fb93d59bff46873d970b0e8bf0ac0874a5c9af20e714cba165750649497"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/checkbox.png",
+      "symbol": "FJ_Tickbox_Background",
+      "bitmap_id": 178,
+      "width": 36,
+      "height": 36,
+      "rgba_sha256": "6195fbf21aa7526073f7e30c34bb07e55758a8035c53baf14f8f0f7ca2edec0d",
+      "sha256": "7150e285862615d90e40d34a14926fba85df9377159145126f76894332e80c66"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/checkbox_selected.png",
+      "symbol": "Tickbox_Over",
+      "bitmap_id": 176,
+      "width": 36,
+      "height": 36,
+      "rgba_sha256": "524ee0867b94fba54708f083ce541dbfabef496b3c7c98b286c9c5cc87b3c035",
+      "sha256": "64d2cf5950f49b24fa2f0e29b55ac9613c6fefa52ba4a74c53b7c80fd25afd9e"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/tick.png",
+      "symbol": "Tick",
+      "bitmap_id": 177,
+      "width": 42,
+      "height": 36,
+      "rgba_sha256": "4a67efa0860bd2ba73f3361cd94f696330b5d0f79bf14dfb5582ca41970a1713",
+      "sha256": "452915b9c88a023d663ce6d90724893b4dce82775009b552134550e0ce81dc87"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/slider.png",
+      "symbol": "FJ_Slider_Background",
+      "bitmap_id": 182,
+      "width": 900,
+      "height": 48,
+      "rgba_sha256": "8a4fe502e4815dc807dffe8974afba7b31469761f51985326517f7119e2b28ef",
+      "sha256": "c4279d6736d007116cb25dec65e885b58ba141cad8216821740fabd9d50c51f7"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/slider_handle.png",
+      "symbol": "Slider_Graphic",
+      "bitmap_id": 181,
+      "width": 24,
+      "height": 48,
+      "rgba_sha256": "5f2f03abeacfa671c98fd966d52132385fec1afe6f0749f13cabd8909cd88c31",
+      "sha256": "e258169d94271a1fb2e7210d0ba5c4fc1b8a341d721d70bb48a4df2b99c9ce2d"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/slider_outline.png",
+      "symbol": "MainMenuButton_Outline",
+      "bitmap_id": 190,
+      "width": 606,
+      "height": 66,
+      "rgba_sha256": "6a00db22feb7ea4803b9ec6af0bd1366b1beafbd011b42d5a82558ce3c9b8653",
+      "sha256": "eef12eed2e9f51e7286247a093816cd836e84bb0fd79bc52b6ba6bd3c2a11fa5"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/slider_highlight.png",
+      "symbol": "SliderBackgroundHighlight",
+      "bitmap_id": 180,
+      "width": 894,
+      "height": 42,
+      "rgba_sha256": "3b0f47a4f464c708883b84ed5a3f023dd7127c5eb2c860be0e48cf508ec13c34",
+      "sha256": "012bb7d0dcc41b2ae4a90c5e4c39a74d88370bd801d8caf7746661ac37e5cda6"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/slider_tint_active.png",
+      "symbol": "Slider_Track_TintActive",
+      "bitmap_id": 99,
+      "width": 600,
+      "height": 32,
+      "rgba_sha256": "e2cc2a1fa6131cf4d86faa3baf78851f35a36853e2467c257b3df9d89e85cce5",
+      "sha256": "58455ab66836f452e9925205da08391666b86112ce638b03e2b58b02abe2e42a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/slider_tint_inactive.png",
+      "symbol": "Slider_Track_TintInactive",
+      "bitmap_id": 100,
+      "width": 600,
+      "height": 32,
+      "rgba_sha256": "e2cc2a1fa6131cf4d86faa3baf78851f35a36853e2467c257b3df9d89e85cce5",
+      "sha256": "58455ab66836f452e9925205da08391666b86112ce638b03e2b58b02abe2e42a"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/text_border.png",
+      "symbol": "TextInputBGBorder",
+      "bitmap_id": 104,
+      "width": 456,
+      "height": 48,
+      "rgba_sha256": "400a6706bb4edb1f8f214c6538ed5ecec9283c3a6b2f2789d1d55e8618620c0a",
+      "sha256": "5c542c4c7855fd70c26772770261433f6dbee9ae04e91eea8155a62d87c26fb6"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/text_background.png",
+      "symbol": "TextInputBG",
+      "bitmap_id": 106,
+      "width": 450,
+      "height": 42,
+      "rgba_sha256": "407fa11df4c3dd4ac603e743ef23c80d887002f02be65fe161563d220d7ed058",
+      "sha256": "6518ed1d679e40ed2fccda699c4500f38da47ee2b1e01d33ff6271f8cb080361"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/text_selected.png",
+      "symbol": "TextInputSelectedBorder",
+      "bitmap_id": 103,
+      "width": 462,
+      "height": 54,
+      "rgba_sha256": "455c3cd2d7ffce657a16b9f022df95ed435df0044bd635aabfc82876ef12b7d1",
+      "sha256": "4e30c206af5beb8d74ccf1f67a6ba2fa6bcc4a5a66008be8f0d4d9354f57d5b6"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/pack_outline.png",
+      "symbol": "TexturePackSelectorBorder",
+      "bitmap_id": 81,
+      "width": 90,
+      "height": 90,
+      "rgba_sha256": "6809030f300c494a2e0366431988c56d491e707cae82e86d74b3385cc5a4a923",
+      "sha256": "cf84c52e6c81f8312aa54e9ff6c45ebf09d620b01870d4d9b3a0dd23c84b969b"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/scroll_arrow.png",
+      "symbol": "scrollRight",
+      "bitmap_id": 167,
+      "width": 18,
+      "height": 33,
+      "rgba_sha256": "414dd1e6ded6cfb9300e39ecaad27cab233ed61192296be569a2468d24596820",
+      "sha256": "3a54e0ddd5bf80695081b06834f538658855c64d14157de9017cc9b0bfda849b"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/world_tab_game.png",
+      "symbol": "MoreOptionsTabGame",
+      "bitmap_id": 72,
+      "width": 373,
+      "height": 90,
+      "rgba_sha256": "95922a0abda0e6d587f7a83ec1c5e71266aa0bf3667a89e36c55a99cf366bc12",
+      "sha256": "a2e7454b85b5dc63446f2d73fe94ad0493f44bfbbbb3577f75ee35f48de34934"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/world_tab_off.png",
+      "symbol": "MoreOptionsTabOff",
+      "bitmap_id": 71,
+      "width": 373,
+      "height": 83,
+      "rgba_sha256": "e44633d69314a13ab44a270cb771e6934ba639ac381d8e730f9fbe934a950511",
+      "sha256": "83dca68d6ac1498915369c264e35a0844c1532610506baddd64eda8c460326df"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/world_tab_world.png",
+      "symbol": "MoreOptionsTabWorld",
+      "bitmap_id": 70,
+      "width": 373,
+      "height": 90,
+      "rgba_sha256": "d0c51653b6a305e7cc09c6231976c17d0e97bf6aaefa99e75e0ae77c59ef1257",
+      "sha256": "424a1231161044177ee209ba592d09f6b994185139bbd879b6e34e4acdb756a0"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/pointer_panel.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 203,
+      "width": 24,
+      "height": 24,
+      "rgba_sha256": "c25f19db42e8616451b59a345898785fe7b3c3ec5d60ad550ad8bdbf336e1867",
+      "sha256": "7ec375609b9564eb3b317a55731653fbea07ffc9b8a8652d4e7dc3d1aa1669c5"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/recess.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 205,
+      "width": 44,
+      "height": 44,
+      "rgba_sha256": "b12361c4254177a3ff4a2b3c123fd0818c52102038b4da4642945e1e78b42738",
+      "sha256": "aecfd428ee97c56c76817705aa429f8d246f757206996b1aadb192f3ebd5f9c0"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/panel.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 209,
+      "width": 96,
+      "height": 96,
+      "rgba_sha256": "c8bff9c292f9e58b80c8b18fa8d7ac967959deb1aac07844938ec703a8907ac5",
+      "sha256": "26d22f39bf754f591c0f2d8013f1777426e1ba0af97ef871b2da532d282bf486"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/panel16.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 207,
+      "width": 48,
+      "height": 48,
+      "rgba_sha256": "3ae4ddf8a7f5f94757ee55cb51a23bb11d9b65c08f33dee727b706a8481c8771",
+      "sha256": "a89afeddab8d129171508fe3e04af02cd1e2bc3c80aa7c536c6563ec969878fa"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/sd/square_recess.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 198,
+      "width": 48,
+      "height": 48,
+      "rgba_sha256": "82542f2a22a532bb96482efb5132ba52a16eca0923eb9752f181466cb8e30a12",
+      "sha256": "bc61fe046544befc7c084bee74672e4edebe45d58aba5a27b14259c23e2855b1"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/pointer_panel.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 197,
+      "width": 36,
+      "height": 36,
+      "rgba_sha256": "f66fd1124964cb9054993458b97049622c5131a2a23cbaa3984e12947b6f14b8",
+      "sha256": "9bf11dccc1fbdc48e3aa189d01e4bf4281dc543947f346e0f5933a40f5ff9ac1"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/recess.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 199,
+      "width": 66,
+      "height": 66,
+      "rgba_sha256": "ced240398d103b8c859af368354b27c2474c7e6a87d75ad6867fa1da7168a519",
+      "sha256": "e61614b945dd33b23be836e9f843276758ccd35407bce5e3247ba0ad773d7a51"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/panel.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 203,
+      "width": 159,
+      "height": 159,
+      "rgba_sha256": "070a68d25e67c1334f5ea635e016eb06b3848e11fb382908b212b61086d19353",
+      "sha256": "1a52c7758c9d46262cc72a4050e27105e01b9c96008dbebd5356451f4cc5f4cd"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/panel16.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 201,
+      "width": 72,
+      "height": 72,
+      "rgba_sha256": "233c350bacc2096accdf9bba224a9a240e9bc92b2df0e4e0a378d11fd7e8a4ea",
+      "sha256": "62464eb8cabdb49be537dead71db98a42b87138d63f982d186bd0b0a1373e19e"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/hd/square_recess.png",
+      "kind": "rasterized_swf_shape",
+      "renderer": "JPEXS 26.4.0, original-size PNG export",
+      "shape_id": 192,
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "d8c7a3ecfc0a2b8c0c6454bbec757305e62018078014de6c71a6c986d510f996",
+      "sha256": "edaccc0bb12787901abc880a8476df73d130175080153cd4cd4f5f480ad32140"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/CreateWorldMenu1080.swf",
+      "source_sha256": "2bbb00462272f4b99de34e9a02edb61c68393035b6eca386ac3f678c3ddca9a9",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/default_pack_icon.png",
+      "symbol": "MinecraftIcon",
+      "bitmap_id": 1,
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "e1f25fa9187a84cce517ec58899ffc66d1c96eef5541f093ecfd38fcd2d674a9",
+      "sha256": "6ebde37866e5c280b109366246bda70a7e96fdd04191383404451dd387ec20d5"
+    },
+    {
+      "source": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "source_sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/widgets/default_pack_comparison.png",
+      "symbol": "DefaultPack_Comparison",
+      "bitmap_id": 9,
+      "width": 290,
+      "height": 144,
+      "rgba_sha256": "a880637ed44a29df0cf4bf4e06e3eb3cc309f544e60094ceb530bf9dc0e4c0bb",
+      "sha256": "ee438923957b179951d661b5e6636ce2e94ba8204aae5085ae7ddd4659a0aa52"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.Client/Minecraft.cpp",
+      "sha256": "73da12dd2730e1995e0c46a7aaa37a43d97a1158826868f4cb1611b0405ded34"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIController.cpp",
+      "sha256": "fa2bf58a5edd9f01112909f12bc595a0ee4874c80e76f822b414bb040a419c27"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/IUIScene_AbstractContainerMenu.cpp",
+      "sha256": "8e4ab884206fed5b6a86c99b1e9f49d6774587d73ca8e1cc15bff9a3e03fb7c3"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_CreateWorldMenu.cpp",
+      "sha256": "571d5f565d6a7864029356755bf918ad5e4dfd4242b5cd716996c3dc140f0e8b"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_LoadMenu.cpp",
+      "sha256": "a21a1bd40176a203c0e7dc2f71cf4257f0611e485aab42a0ba46ac28c4051bc8"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_LaunchMoreOptionsMenu.cpp",
+      "sha256": "c846d3680ed96ec872ac70b9bc74e0428a2b260abeeea86f0326e6023a0991d3"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsUIMenu.cpp",
+      "sha256": "c9fd227dc4c3317b30bb53a64631de32972174eb98d03de178f31698416262eb"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_HUD.cpp",
+      "sha256": "aec3167f04054395b61c53f6f16ad7b98bc4fc02bf323f9d3aaccc750f684975"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/strings.resx",
+      "sha256": "9dc63146e8f17dcd7df7d759ba25cc2c95b8af4068e6c2ce23d493448af4819f"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/HUD720.swf",
+      "sha256": "b61f9bcc83f618a4cb8940249aab6d27e3ec25b28ba617ea780dcf66dcb53d96"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/HUD1080.swf",
+      "sha256": "06912bf2e02800665afa9504e1a9871459b521bdab526484ecfc09dbea020448"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/CreateWorldMenu1080.swf",
+      "sha256": "2bbb00462272f4b99de34e9a02edb61c68393035b6eca386ac3f678c3ddca9a9"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/LoadMenu1080.swf",
+      "sha256": "71a68e6307023cd82f18308cf4455b9a51856dc01398bdc3cd218d54ff001bc4"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/SettingsUIMenu1080.swf",
+      "sha256": "9dbcccfdb7fdbae097248dba3b1dc4d0275e477da58703e4ae644912674c9b14"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/LaunchMoreOptionsMenu1080.swf",
+      "sha256": "11275701c7ad1e965014ddb90908bedf377cf548df5e12278d5fa7d687733c78"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skin.swf",
+      "sha256": "f2f1fc6c14c98da2507b4f711fa7efdffedc2f955224d8e2191b53fce6d37157"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHD.swf",
+      "sha256": "21d626cfbc06f605f1003fc6606ca33f3b4c42d54d5662214b02ac4aed878390"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae"
+    },
+    {
+      "path": "Minecraft.Client/OrbisMedia/Media/skinHDOrbis.swf",
+      "sha256": "156228ae89cde290851bb056970c953eefee23b80114bd5e54d8b27861be048d"
+    }
+  ],
+  "data": [
+    {
+      "destination": "src/main/resources/assets/legacyconsole/lce_widget_layout.json",
+      "sha256": "6a9917bcaf32a88863fb79132dbfd7f761d266d5a1d6bc6b9d7feecad8677a16"
+    },
+    {
+      "destination": "src/main/resources/assets/legacyconsole/action_prompts.json",
+      "sha256": "eb58d7e0865b2466c829cd058abd5dc6022ee5afaff61b1de408330edcd4787d"
+    }
+  ],
+  "ports": [
+    "Minecraft.cpp context prompts use held-item fallbacks before block/entity overrides.",
+    "UIController gates gameplay for ten presented frames; 1.9.4 corrects the earlier game-tick interpretation after inspecting the platform loop/input library.",
+    "IUIScene_AbstractContainerMenu maps Square/X to standard right-click half/one actions.",
+    "FJ_CheckBox toggles once per confirm press and draws its original tick bitmap.",
+    "UIScene_SettingsUIMenu uses the three original HUD sizes, labelled 1 through 3.",
+    "HD world setup uses the original mode button, difficulty slider, horizontal pack list, and More Options seed field."
+  ]
+}

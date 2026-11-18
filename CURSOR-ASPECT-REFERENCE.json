@@ -1,0 +1,28 @@
+{
+  "lce_repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "lce_revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "sources": [
+    "Minecraft.Client/Common/UI/IUIScene_AbstractContainerMenu.cpp",
+    "Minecraft.Client/Common/UI/UIScene.cpp",
+    "Minecraft.Client/Common/UI/IUIScene_CraftingMenu.cpp",
+    "Minecraft.Client/Common/UI/UIScene_LoadOrJoinMenu.cpp",
+    "Minecraft.Client/Common/UI/UIScene_CreateWorldMenu.cpp",
+    "Minecraft.Client/Common/UI/UIScene_LoadMenu.cpp"
+  ],
+  "source_behavior": [
+    "The container scene owns m_pointerPos, uses it for slot selection and the carried item, and snaps a stationary pointer to the slot center.",
+    "The source container pointer uses an SD/splitscreen input multiplier of 0.6.",
+    "UIScene selects a 480 movie for standard PS3 output and falls back to the 720 movie when that asset is absent.",
+    "UIScene uses 5% inset on each edge for the standard 90% safe zone.",
+    "IUIScene_CraftingMenu UpdateVerticalSlots keeps only the center variant in standard-definition non-wide mode."
+  ],
+  "java_port": [
+    "GLFW window points, framebuffer pixels and scaled GUI units are represented separately. GUI warps convert directly to window points, avoiding the old integer bottom-origin round trip.",
+    "A mouse accessor updates the native coordinates immediately before the OS warp; rendering a controller container uses the scene pointer directly for highlight and carried-item alignment even if an OS callback is delayed.",
+    "Container origins are synchronized after initialization and before input. Resizing preserves the hovered slot and suppresses fake movement from changed coordinate metrics.",
+    "Actual mouse clicks and scrolling switch to mouse input through Forge input events. Controller clicks continue through normal native menu transactions.",
+    "The standard profile uses the existing 640x480 GUI target and a centered uniform 720-scene fallback for intro/loading and menu anchors. It retains original available artwork and the native Java 1.17.1 panorama.",
+    "Standard crafting cycles the current variant in its center cell; standard pointer input uses the source 0.6 multiplier. HUD presets fit within the original 5% safe zone when a manually enlarged Java GUI is too small for the requested preset."
+  ],
+  "validation_limits": "Native checks run on Linux/Mesa, with 2x Retina window-point/framebuffer metrics and delayed cursor callbacks simulated. The M1 Pro MacBook and its macOS/Temurin combination are not physically available in this workspace."
+}

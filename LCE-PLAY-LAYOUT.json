@@ -1,0 +1,165 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/play/sd/list_button.png",
+      "symbol": "ListButton_Norm",
+      "bitmap_id": 191,
+      "width": 400,
+      "height": 60,
+      "rgba_sha256": "62853a1b358c0f48e6bfe0c9db8a495ed8d52f017bee51eb0b29e82432c82de6",
+      "sha256": "2b37a99aac59cf646c12ffd8ddd69215adc279baa5e6c16f84f7a5e54bfaa5b2"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/play/sd/scroll_up.png",
+      "symbol": "scrollUp",
+      "bitmap_id": 173,
+      "width": 32,
+      "height": 22,
+      "rgba_sha256": "8823273c59fc460654101f81e962b02ca68b2f1209df4e165f685aa6787fe834",
+      "sha256": "a96df9d01869536430f49ce4ba5ed4fd7a5cccc4b566832613c96e3efbc59bc8"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "source_sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/play/sd/scroll_down.png",
+      "symbol": "scrollDown",
+      "bitmap_id": 176,
+      "width": 32,
+      "height": 22,
+      "rgba_sha256": "e95bd73c86a3cdfe8778add4d57cc40aa6b70118eccd9a76306c049fd0236789",
+      "sha256": "6d44f9fe5068e5237a5d146159a55da5067e8846b62b157646cf17e7d869cb6b"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/play/hd/list_button.png",
+      "symbol": "ListButton_Norm",
+      "bitmap_id": 185,
+      "width": 600,
+      "height": 90,
+      "rgba_sha256": "7da92c1541ff15be5e209e26a04fe5debfb4558c19a37ca8f65844f906560dce",
+      "sha256": "3587438f6791773191a6458f510c79c6742cf79f00af9f27a1ef1d1337f3a493"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/play/hd/scroll_up.png",
+      "symbol": "scrollUp",
+      "bitmap_id": 166,
+      "width": 48,
+      "height": 33,
+      "rgba_sha256": "6cd0c447ba03949f31557a444c072d0d4dfa565b6eee2ece2a1b16f7c4ab05c3",
+      "sha256": "34d363a6d1de0bd66c2488a6a15213bfe60dfd7a4e910e76259a8afd65b84f14"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "source_sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/play/hd/scroll_down.png",
+      "symbol": "scrollDown",
+      "bitmap_id": 169,
+      "width": 48,
+      "height": 33,
+      "rgba_sha256": "46197d5b0fd12543fd581c6eea96337b046e339a19621c3d75e23182815188b4",
+      "sha256": "a9c5e0b411e8682d7de889c4d05054d0398de64bc2f56116a7f3f7f7aab0dbb8"
+    }
+  ],
+  "sources": [
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_LoadOrJoinMenu.cpp",
+      "sha256": "773178ac6e02e63acf97b9f35afd1ecc8aefc57759891a0120beee554db197c1"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_LoadOrJoinMenu.h",
+      "sha256": "e1ce348d96441894a406e09979f430d04d0417b9ac01b2bd175a8a48f1ff2e82"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_SaveList.cpp",
+      "sha256": "8c49b74b57884f410af7781943e833d672f494851445c707192a9d4dbaa86719"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_SaveList.h",
+      "sha256": "6d9ee449316b3ffe2994dd153c01b6bda6e2c42e4dff79fef9f1a7bf7f64a581"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_ButtonList.cpp",
+      "sha256": "f28d0a48de1d893ea37b5368b5dfb0b4a92958f5e2df420637541ef7d6f09037"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIControl_ButtonList.h",
+      "sha256": "6a445a98f31a7bf3fd08854140a8ab0be2db0f22b399de53656a2451148060c8"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsOptionsMenu.cpp",
+      "sha256": "5be4f8229aeacd1cb3a57e302cf9df2c034f4bf6aa5c5544864d6bedc632be36"
+    },
+    {
+      "path": "Minecraft.Client/Common/UI/UIScene_SettingsUIMenu.cpp",
+      "sha256": "c9fd227dc4c3317b30bb53a64631de32972174eb98d03de178f31698416262eb"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/LoadOrJoinMenu720.swf",
+      "sha256": "f75f004e93110e411b0be538d6350f99498e4cebf69b49634337015e535356bc"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/LoadOrJoinMenu1080.swf",
+      "sha256": "490ea05985bde449e4b524e7d927d65794a31b652133116a6cc1b5f65c1c45f0"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/SettingsOptionsMenu720.swf",
+      "sha256": "f497fe8f086b04a9b956390b3ed63f95e207cb287042f84bbc4b63032521b0e9"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/SettingsOptionsMenu1080.swf",
+      "sha256": "41ac274dec4f47344fc4db39c0642050ad6de02f8461bb5d19d447043843bc15"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/SettingsUIMenu720.swf",
+      "sha256": "90ac39ae5ad38398d488a9a57cfeadedd54de6e3f048dabdcf6528360403883d"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/SettingsUIMenu1080.swf",
+      "sha256": "9dbcccfdb7fdbae097248dba3b1dc4d0275e477da58703e4ae644912674c9b14"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skin.swf",
+      "sha256": "f2f1fc6c14c98da2507b4f711fa7efdffedc2f955224d8e2191b53fce6d37157"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHD.swf",
+      "sha256": "21d626cfbc06f605f1003fc6606ca33f3b4c42d54d5662214b02ac4aed878390"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinGraphics.swf",
+      "sha256": "53073e791ff0a6fd23baf027cecf7c1447a277e0133bd1ccf5e4e596ae6b2e5a"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/skinHDGraphics.swf",
+      "sha256": "68e24230eecb2a28420acd90ad618a94243d6c80cb33089dbf049faed46d96ae"
+    },
+    {
+      "path": "Minecraft.Client/Common/Media/strings.resx",
+      "sha256": "9dc63146e8f17dcd7df7d759ba25cc2c95b8af4068e6c2ce23d493448af4819f"
+    }
+  ],
+  "data": [
+    {
+      "destination": "src/main/resources/assets/legacyconsole/play_layout.json",
+      "sha256": "43f5dee30d217ad966a7a4459cb0783c837c69c4c2ff26bdda3fa4a6366fca24"
+    }
+  ],
+  "ports": [
+    "LoadOrJoinMenu: separate Start Game and Join Game panels, Create New World first, five rows per list.",
+    "The unnamed depth-one FJ_Panel9Grid is the opaque raised backing behind both fading recesses.",
+    "Java omits the platform storage meter/footer; its fitted frame repeats the source top inset below both recesses.",
+    "ListButton_Norm is drawn with its original untinted RGB, without the normal-button 67-percent brightness multiplier.",
+    "FJ_ButtonList uses zero row spacing, independent list selections, bounded scrolling and cross-list navigation.",
+    "SettingsOptionsMenu checkbox rows are 30/45 source pixels apart (15 logical); SettingsUI normally uses 36/54 (18 logical).",
+    "The requested existing blue highlight and native Java server/address workflows are retained."
+  ]
+}

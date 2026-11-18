@@ -1,0 +1,267 @@
+{
+  "version": "2.3.10",
+  "reference": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8e3"
+  },
+  "native_bounds": {
+    "movement": "0x961df0",
+    "constructor_flags": [
+      "0x9669ba",
+      "0x9669c1"
+    ],
+    "restrict_horizontal": true,
+    "restrict_vertical": false,
+    "bounds": [
+      -36.0,
+      0.0,
+      62.0,
+      20.0,
+      75.0,
+      113.0
+    ],
+    "original_code_cases": 141
+  },
+  "furnace_graph": {
+    "open_furnace_task": "0x965e63",
+    "set_furnace_flag": "0x965f9d",
+    "wait_for_furnace_state": "0x965fff",
+    "final_guided_glass_task": "0x96b39e",
+    "menu_state": 4,
+    "gameplay_next_stage": 38
+  },
+  "automated_suites": [
+    {
+      "tests": 384,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite after final tutorial progression and bounds changes"
+    }
+  ],
+  "runtime_environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "optifine": "1.17.1_HD_U_H1",
+    "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+    "lce_look": "2.0.0",
+    "lce_look_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+    "graphics": "Linux / llvmpipe / Mesa 25.0.7"
+  },
+  "limits": [
+    "Physical controllers and Apple Retina hardware were not tested; captures use software-controlled framebuffers.",
+    "Tutorial progression was advanced to the source furnace prerequisite for the focused smelting regression.",
+    "World generation and tutorial world-template assets are unchanged."
+  ],
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "World Options: Legacy has the short label and no Superflat control; Default still toggles and customizes Superflat",
+      "Actual furnace opening, charcoal and glass smelting/output transactions complete the original menu guide and advance gameplay to the wooden-door task even when the furnace is closed immediately after taking glass",
+      "Restricted starting area permits Y above 75, clamps horizontal crossings at the PS4 edge, and preserves vertical movement and edge sliding",
+      "Load Game resumes the same marked tutorial without its experimental warning and retains the completed furnace/glass progress"
+    ],
+    "screenshots": [
+      {
+        "file": "off-legacy-options-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "a18f58ab89352b0046836667bbbb9ef0a9b1af3e5087fc030f806e177b59870f"
+      },
+      {
+        "file": "off-legacy-options-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "138bf6bf9e350a68bdc14d15da72ccac067dce52bfd85dec751928f4e8e93e3e"
+      },
+      {
+        "file": "off-legacy-options-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "b293d7e90d68324513f6d8b5ee9a15317d89f3597ee3a629639386f12468e392"
+      },
+      {
+        "file": "off-legacy-options-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "d43cdbad904ad7ac846fa14ba76266f61eea2cefe4dd5945ffcfd94969baa9a6"
+      },
+      {
+        "file": "off-legacy-options-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "2c2037c19d996c699ccc83f1d5d12b5a5e826190c713c08c85475756937ec9b4"
+      },
+      {
+        "file": "off-legacy-options-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "16f92ca374275771cbe4235b3efd5264475d3be2ed6a317c722814aeff3bf272"
+      },
+      {
+        "file": "off-legacy-options-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "7b2dddd096eda28116c9bd68d8f39ebdba8fcedb66e21ed72d028893fc2419d1"
+      },
+      {
+        "file": "off-legacy-options-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "01bca6b40475b1bfea2afbe4d0eecf276879e7230c76a4db74211d6dbf8f0abc"
+      },
+      {
+        "file": "look-legacy-options-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "722aedd81e6058ff67eecfa5a6e85adc0f91c6031bf8ef0af3265b29f39635bc"
+      },
+      {
+        "file": "look-legacy-options-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": true,
+        "sha256": "066b7f6cc619c34c974e9585f1cebcea6915340e3303605380eefb4f0d8d7f84"
+      },
+      {
+        "file": "look-legacy-options-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "bd282000498888335dcfbe278fd6a8221fc8360c4f6951cad5171e5decd6cddb"
+      },
+      {
+        "file": "look-legacy-options-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": true,
+        "sha256": "41b763d3b1625dac932459c8f8ee068b3b84de1842820778f6bbf53d278f58ed"
+      },
+      {
+        "file": "look-legacy-options-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": true,
+        "sha256": "662baf0cf00f9f232b62eaa349fd90ad83414335abcc330b5a15dcf0cfe30382"
+      },
+      {
+        "file": "look-legacy-options-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": true,
+        "sha256": "1f7950fadeacd178188923c8d1978dbe948872ea33c8b2dda11048912b3779a9"
+      },
+      {
+        "file": "look-legacy-options-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": true,
+        "sha256": "9566c9d6599d3f7c5b0f21a77331d6bc613c999e43692a29bbad0ed90269a74e"
+      },
+      {
+        "file": "look-legacy-options-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": true,
+        "sha256": "e2f161ea2c5d6a585c56cb2526af0c38287a955cd052af637d2909a5dd8eab02"
+      },
+      {
+        "file": "off-furnace-complete-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "2cc12551a4e59b18d04e96ded53b04fccef43a39b5786cb066d97b336af04c02"
+      },
+      {
+        "file": "off-furnace-complete-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "bd9a380658eaf7cf95153a6a9720d7d074ffa87e08547cef79a059c35dd8637e"
+      },
+      {
+        "file": "look-furnace-complete-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "3e7c1518d9e15a979ba80cefa959f8480cbd1311e1f97ea1477c88fd2c324a7c"
+      },
+      {
+        "file": "look-furnace-complete-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "b3d5c078ce5020139713d8ac46b2f205e21fd5aa9f30e83a32cb6fb5319f5b45"
+      },
+      {
+        "file": "off-tutorial-height-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "0ef2af7fd5224d305eeb8afd30406aff67ceb61ee0a71c13f38241a1f40dd5cc"
+      },
+      {
+        "file": "off-tutorial-height-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "cac5263d2c8b506c03560f2c5882c4a8aa3da45d8bfab14b142ffea19af2ce0e"
+      },
+      {
+        "file": "look-tutorial-height-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "cec03a087cd490b0a6264ac179e16264c8e02ff380936519de6ed4cadf82c13b"
+      },
+      {
+        "file": "look-tutorial-height-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "2b5b5543d87c4edfa9e006478d7ca3c9ed9fd0e4138f258569fb72fb842945f3"
+      },
+      {
+        "file": "off-tutorial-reloaded-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "d59751c75f3554efee724e824199f59f9d4fd8a7ca954655aa0d4e8536dd6cfe"
+      },
+      {
+        "file": "off-tutorial-reloaded-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "41c91198261a3c5f05c0fd8fb8942537b3863b2e67c3c7fb963e1977526c49a1"
+      },
+      {
+        "file": "look-tutorial-reloaded-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "1e9bd0ce5d95e5259b2dc66b76b39551138c8a70e95490aff352ed79eb866600"
+      },
+      {
+        "file": "look-tutorial-reloaded-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "835d427201d50b40d9135ac6d9cf7a2937c06c754bf923a51e191b3705ef4d9f"
+      }
+    ]
+  }
+}

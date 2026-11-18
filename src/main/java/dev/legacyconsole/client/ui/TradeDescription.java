@@ -1,0 +1,84 @@
+package dev.legacyconsole.client.ui;
+import net.minecraft.client.*;
+import net.minecraft.client.gui.screens.*;
+import net.minecraft.client.gui.screens.inventory.*;
+import net.minecraft.client.gui.components.*;
+import net.minecraft.client.player.*;
+import net.minecraft.client.multiplayer.*;
+import net.minecraft.client.server.*;
+import net.minecraft.client.resources.language.*;
+import net.minecraft.client.sounds.*;
+import net.minecraft.client.resources.sounds.*;
+import net.minecraft.client.renderer.texture.*;
+import net.minecraft.client.renderer.entity.*;
+import net.minecraft.client.renderer.*;
+import net.minecraft.client.model.*;
+import net.minecraft.world.*;
+import net.minecraft.world.entity.*;
+import net.minecraft.world.entity.player.*;
+import net.minecraft.world.entity.animal.*;
+import net.minecraft.world.entity.npc.*;
+import net.minecraft.world.entity.vehicle.*;
+import net.minecraft.world.entity.decoration.*;
+import net.minecraft.world.entity.monster.*;
+import net.minecraft.world.level.*;
+import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.*;
+import net.minecraft.world.level.material.*;
+import net.minecraft.world.level.block.entity.*;
+import net.minecraft.world.level.storage.*;
+import net.minecraft.world.level.saveddata.maps.*;
+import net.minecraft.world.level.biome.*;
+import net.minecraft.world.level.levelgen.*;
+import net.minecraft.world.level.levelgen.flat.*;
+import net.minecraft.world.inventory.*;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.crafting.*;
+import net.minecraft.world.item.enchantment.*;
+import net.minecraft.world.item.alchemy.*;
+import net.minecraft.world.item.trading.*;
+import net.minecraft.world.effect.*;
+import net.minecraft.world.phys.*;
+import net.minecraft.resources.*;
+import net.minecraft.core.*;
+import net.minecraft.nbt.*;
+import net.minecraft.network.*;
+import net.minecraft.network.chat.*;
+import net.minecraft.network.protocol.game.*;
+import net.minecraft.sounds.*;
+import net.minecraft.util.*;
+import net.minecraft.server.*;
+import net.minecraft.server.level.*;
+import com.mojang.blaze3d.vertex.*;
+import net.minecraft.ChatFormatting;
+import net.minecraft.SharedConstants;
+import net.minecraft.client.server.IntegratedServer;
+import dev.legacyconsole.port.*;
+import dev.legacyconsole.port.Gui;
+import dev.legacyconsole.port.GlStateManager;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import dev.legacyconsole.port.ReflectionHelper;
+
+import java.util.*;
+
+
+
+/** PS4 0xad2560 / 0xad5510: selected result tooltip, including its item name. */
+final class TradeDescription {
+  private TradeDescription() {}
+  record Line(String text,int color) {}
+
+  static List<Line> details(ItemStack item, Player player) {
+    List<Line> lines = new ArrayList<>();
+    var tooltip = item.getTooltipLines(player, net.minecraft.world.item.TooltipFlag.Default.NORMAL);
+    for (var component:tooltip) {
+      String line = ChatFormatting.stripFormatting(component.getString());
+      // 0xad5510 copies item tooltip colors into the HTML panel. Its authored
+      // black placeholder style is replaced by these runtime colors.
+      var color=component.getStyle().getColor();
+      if (line != null && !line.trim().isEmpty()) lines.add(new Line(line,color==null?0xffffff:color.getValue()));
+    }
+    return lines;
+  }
+}

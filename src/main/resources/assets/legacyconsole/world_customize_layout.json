@@ -1,0 +1,388 @@
+{
+  "root": [
+    {
+      "depth": 1,
+      "id": 3,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        333.0,
+        350.0
+      ],
+      "name": "BackTabs"
+    },
+    {
+      "depth": 5,
+      "class": "fourj.HtmlText.FJ_HtmlText_WhiteNormal",
+      "matrix": [
+        2.066650390625,
+        0.0,
+        0.0,
+        3.820159912109375,
+        1088.0,
+        445.0
+      ],
+      "name": "Description"
+    },
+    {
+      "depth": 7,
+      "id": 5,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        372.0,
+        339.0
+      ],
+      "name": "GameOptions"
+    },
+    {
+      "depth": 20,
+      "id": 6,
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        333.0,
+        339.0
+      ],
+      "name": "WorldOptions"
+    },
+    {
+      "depth": 30,
+      "class": "fourj.Labels.FJ_Label_Black",
+      "matrix": [
+        1.567657470703125,
+        0.0,
+        0.0,
+        1.0,
+        342.0,
+        365.0
+      ],
+      "name": "LabelWorld"
+    },
+    {
+      "depth": 31,
+      "class": "fourj.Labels.FJ_Label_Black",
+      "matrix": [
+        1.567657470703125,
+        0.0,
+        0.0,
+        1.0,
+        715.0,
+        373.0
+      ],
+      "name": "LabelGame"
+    }
+  ],
+  "sprites": {
+    "BackTabs": [
+      {
+        "label": "",
+        "nodes": [
+          {
+            "depth": 1,
+            "id": 2,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              373.0,
+              0.0
+            ]
+          },
+          {
+            "depth": 2,
+            "id": 2,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "GameOptions": [
+      {
+        "label": "",
+        "nodes": [
+          {
+            "depth": 1,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              102.0
+            ],
+            "name": "CheckboxOnline"
+          },
+          {
+            "depth": 2,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              147.0
+            ],
+            "name": "CheckboxInviteOnly"
+          },
+          {
+            "depth": 3,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              192.0
+            ],
+            "name": "CheckboxAllowFoF"
+          },
+          {
+            "depth": 4,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              238.0
+            ],
+            "name": "CheckboxPVP"
+          },
+          {
+            "depth": 5,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              281.0
+            ],
+            "name": "CheckboxTrustSystem"
+          },
+          {
+            "depth": 6,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              418.0
+            ],
+            "name": "CheckboxHostPrivileges"
+          },
+          {
+            "depth": 7,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              327.0
+            ],
+            "name": "CheckboxFireSpreads"
+          },
+          {
+            "depth": 8,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              372.0
+            ],
+            "name": "CheckboxTNT"
+          },
+          {
+            "depth": 9,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              464.0
+            ],
+            "name": "CheckboxResetNether"
+          },
+          {
+            "depth": 10,
+            "id": 4,
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              334.0,
+              0.0
+            ],
+            "name": "Tab"
+          },
+          {
+            "depth": 12,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              510.0
+            ],
+            "name": "CheckboxDisableSaving"
+          }
+        ]
+      }
+    ],
+    "WorldOptions": [
+      {
+        "label": "",
+        "nodes": [
+          {
+            "depth": 1,
+            "class": "fourj.FJ_Slider",
+            "matrix": [
+              0.728515625,
+              0.0,
+              0.0,
+              1.0,
+              40.0,
+              302.0
+            ],
+            "name": "WorldSizeSlider"
+          },
+          {
+            "depth": 2,
+            "class": "fourj.TextInput.FJ_TextInput_Normal",
+            "matrix": [
+              0.990997314453125,
+              0.0,
+              0.0,
+              1.0,
+              41.0,
+              152.0
+            ],
+            "name": "EditSeed"
+          },
+          {
+            "depth": 3,
+            "class": "fourj.Labels.FJ_Label_Black",
+            "matrix": [
+              2.91461181640625,
+              0.0,
+              0.0,
+              1.0,
+              38.0,
+              112.0
+            ],
+            "name": "Seed"
+          },
+          {
+            "depth": 4,
+            "class": "fourj.Labels.FJ_Label_Black",
+            "matrix": [
+              2.91461181640625,
+              0.0,
+              0.0,
+              1.0,
+              39.0,
+              209.0
+            ],
+            "name": "RandomSeed"
+          },
+          {
+            "depth": 5,
+            "class": "fourj.Labels.FJ_Label_Black",
+            "matrix": [
+              2.914764404296875,
+              0.0,
+              0.0,
+              1.0,
+              38.0,
+              262.0
+            ],
+            "name": "WorldSize"
+          },
+          {
+            "depth": 6,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              39.0,
+              372.0
+            ],
+            "name": "CheckboxStructures"
+          },
+          {
+            "depth": 7,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              39.0,
+              418.0
+            ],
+            "name": "CheckboxBonusChest"
+          },
+          {
+            "depth": 8,
+            "class": "fourj.Checkbox.FJ_CheckBox_Normal",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              39.0,
+              464.0
+            ],
+            "name": "CheckboxFlatWorld"
+          },
+          {
+            "depth": 9,
+            "class": "MoreOptionsTabGame",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

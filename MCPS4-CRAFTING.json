@@ -1,0 +1,51 @@
+{
+  "version": "2.3.1",
+  "repository": "https://github.com/Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "executable_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+  "scenes": {
+    "CraftingMenu1080.fui": "5ff680be3c5080e09692731baddce151710da7e0544cd90e75b110f1136fbfa5",
+    "skinHDGraphicsInGame.fui": "4fd014d618f881b18231f1b5eadf2044f033ea0358edac2fd1b16fac2985b695"
+  },
+  "method_addresses": {
+    "banner_patterns": "0x46fd0",
+    "banner_recipes": "0x4d9d0",
+    "dye_palette": "0x21e8a0",
+    "input": "0x9ac010",
+    "banner_add": "0x9af470",
+    "banner_remove": "0x9ad6a0",
+    "ingredient_remove": "0x9aca40",
+    "craft": "0x9b04a0",
+    "groups": "0x9b23c0",
+    "selectors": "0x9b45a0",
+    "staged_grid": "0x9bb700",
+    "add_constraints": "0x9bb200",
+    "fixed_choices": "0x9bd000",
+    "fui_selector_position": "0x7f9ea0"
+  },
+  "source_pattern_recipes": 44,
+  "material_pattern_recipes": 38,
+  "loom_pattern_alternatives": 6,
+  "dye_choices": 16,
+  "sprites": 19,
+  "panel_slices": 18,
+  "scene_size": [
+    1920,
+    1080
+  ],
+  "channel_conversion": "PS4 BGRA to Java RGBA; no other pixel changes",
+  "java_adapters": [
+    "1.17 item models and resource packs",
+    "Java DyeColor NBT encoding",
+    "native firework and leather color recipes",
+    "wool/bed recoloring with sixteen native dye items",
+    "atomic server crafting packet; protocol4",
+    "uniform fitting of original 1080 scene on other aspect ratios"
+  ],
+  "details": "docs/PS4-CRAFTING.md",
+  "source_dye_choices": 20,
+  "fixes_231": [
+    "Remove bone meal, lapis, cocoa beans and ink sacs as dye substitutes",
+    "Paint the focused banner selector above the row without changing the original spacing or artwork"
+  ]
+}

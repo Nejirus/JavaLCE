@@ -1,0 +1,9 @@
+package dev.legacyconsole.crafting;
+import java.util.*;import net.minecraft.world.entity.player.Player;import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.world.item.*;import net.minecraft.world.level.saveddata.maps.MapItemSavedData;
+public final class MapCrafting {
+ public static boolean changesIdentity(ItemStack stack){return stack.is(Items.FILLED_MAP)&&stack.hasTag()&&(stack.getTag().contains("map_scale_direction",99)||stack.getTag().getBoolean("map_to_lock"));}
+ public static MapItemSavedData sourceMap(ItemStack stack,Player player){return stack.is(Items.FILLED_MAP)&&stack.hasTag()&&stack.getTag().contains("map_scale_direction",99)?MapItem.getSavedData(stack,player.level):null;}
+ public static void finishUpgrade(ItemStack stack,Player player,MapItemSavedData source){if(source==null)return;Integer id=MapItem.getMapId(stack);MapItemSavedData data=MapItem.getSavedData(stack,player.level);if(id==null||data==null)return;MapItemSavedData grid=Ps4Maps.size(player.level)!=null&&data.dimension==net.minecraft.world.level.Level.OVERWORLD?Ps4Maps.enlarged(source,data):MapItemSavedData.createFresh(player.getX(),player.getZ(),data.scale,data.trackingPosition,source.unlimitedTracking,data.dimension);if(grid.x!=data.x||grid.z!=data.z||data.unlimitedTracking!=source.unlimitedTracking){player.level.setMapData(MapItem.makeKey(id),grid);grid.setDirty();}}
+ public static void syncOwned(Player player){if(!(player instanceof ServerPlayer server))return;Set<Integer> sent=new HashSet<>();for(ItemStack stack:player.getInventory().items){if(!stack.is(Items.FILLED_MAP))continue;Integer id=MapItem.getMapId(stack);if(id==null||!sent.add(id))continue;MapItemSavedData data=MapItem.getSavedData(stack,player.level);if(data==null)continue;data.tickCarriedBy(player,stack);var packet=data.getUpdatePacket(id,player);if(packet!=null)server.connection.send(packet);}}
+}

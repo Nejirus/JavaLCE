@@ -1,0 +1,165 @@
+{
+  "source": "Original PS4 StrongholdFeature::selectPositions (0x68c130) and BiomeSource::findBiome (0x8e130); finite layer graph, original biome metadata, host allocations/libm, no application entrypoint.",
+  "cases": [
+    {
+      "seed": 0,
+      "width": 864,
+      "chunk": [
+        -3,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "width": 1024,
+      "chunk": [
+        -3,
+        0
+      ]
+    },
+    {
+      "seed": 0,
+      "width": 3072,
+      "chunk": [
+        -3,
+        -40
+      ]
+    },
+    {
+      "seed": 0,
+      "width": 5120,
+      "chunk": [
+        -3,
+        -40
+      ]
+    },
+    {
+      "seed": 1,
+      "width": 864,
+      "chunk": [
+        -3,
+        2
+      ]
+    },
+    {
+      "seed": 1,
+      "width": 1024,
+      "chunk": [
+        -3,
+        2
+      ]
+    },
+    {
+      "seed": 1,
+      "width": 3072,
+      "chunk": [
+        -1,
+        -46
+      ]
+    },
+    {
+      "seed": 1,
+      "width": 5120,
+      "chunk": [
+        -1,
+        -46
+      ]
+    },
+    {
+      "seed": -1,
+      "width": 864,
+      "chunk": [
+        2,
+        12
+      ]
+    },
+    {
+      "seed": -1,
+      "width": 1024,
+      "chunk": [
+        2,
+        12
+      ]
+    },
+    {
+      "seed": -1,
+      "width": 3072,
+      "chunk": [
+        -5,
+        47
+      ]
+    },
+    {
+      "seed": -1,
+      "width": 5120,
+      "chunk": [
+        -5,
+        47
+      ]
+    },
+    {
+      "seed": 123456789,
+      "width": 864,
+      "chunk": [
+        -10,
+        1
+      ]
+    },
+    {
+      "seed": 123456789,
+      "width": 1024,
+      "chunk": [
+        -10,
+        1
+      ]
+    },
+    {
+      "seed": 123456789,
+      "width": 3072,
+      "chunk": [
+        -23,
+        -45
+      ]
+    },
+    {
+      "seed": 123456789,
+      "width": 5120,
+      "chunk": [
+        -23,
+        -45
+      ]
+    },
+    {
+      "seed": 9223372036854775807,
+      "width": 864,
+      "chunk": [
+        4,
+        13
+      ]
+    },
+    {
+      "seed": 9223372036854775807,
+      "width": 1024,
+      "chunk": [
+        4,
+        13
+      ]
+    },
+    {
+      "seed": 9223372036854775807,
+      "width": 3072,
+      "chunk": [
+        -9,
+        47
+      ]
+    },
+    {
+      "seed": 9223372036854775807,
+      "width": 5120,
+      "chunk": [
+        -9,
+        47
+      ]
+    }
+  ]
+}

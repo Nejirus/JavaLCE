@@ -1,0 +1,1937 @@
+{
+  "minecraft:empty_element": {
+    "template_index": -1,
+    "projection": 0
+  },
+  "minecraft:plains_fountain_1": {
+    "template_index": 196,
+    "processor": "minecraft:cobblestone_building_decay",
+    "projection": 0,
+    "template": "village/plains/town_centers/plains_fountain_01"
+  },
+  "minecraft:plains_meeting_point_1": {
+    "template_index": 197,
+    "processor": "minecraft:cobblestone_building_decay",
+    "projection": 0,
+    "template": "village/plains/town_centers/plains_meeting_point_1"
+  },
+  "minecraft:plains_meeting_point_2": {
+    "template_index": 198,
+    "projection": 0,
+    "template": "village/plains/town_centers/plains_meeting_point_2"
+  },
+  "minecraft:plains_meeting_point_3": {
+    "template_index": 199,
+    "processor": "minecraft:cobblestone_building_high_decay",
+    "projection": 0,
+    "template": "village/plains/town_centers/plains_meeting_point_3"
+  },
+  "minecraft:savanna_meeting_point_1": {
+    "template_index": 200,
+    "projection": 0,
+    "template": "village/savanna/town_centers/savanna_meeting_point_1"
+  },
+  "minecraft:savanna_meeting_point_2": {
+    "template_index": 201,
+    "projection": 0,
+    "template": "village/savanna/town_centers/savanna_meeting_point_2"
+  },
+  "minecraft:savanna_meeting_point_3": {
+    "template_index": 202,
+    "projection": 0,
+    "template": "village/savanna/town_centers/savanna_meeting_point_3"
+  },
+  "minecraft:savanna_meeting_point_4": {
+    "template_index": 203,
+    "projection": 0,
+    "template": "village/savanna/town_centers/savanna_meeting_point_4"
+  },
+  "minecraft:snowy_meeting_point_1": {
+    "template_index": 204,
+    "projection": 0,
+    "template": "village/snowy/town_centers/snowy_meeting_point_1"
+  },
+  "minecraft:snowy_meeting_point_2": {
+    "template_index": 205,
+    "projection": 0,
+    "template": "village/snowy/town_centers/snowy_meeting_point_2"
+  },
+  "minecraft:snowy_meeting_point_3": {
+    "template_index": 206,
+    "projection": 0,
+    "template": "village/snowy/town_centers/snowy_meeting_point_3"
+  },
+  "minecraft:taiga_meeting_point_1": {
+    "template_index": 207,
+    "projection": 0,
+    "template": "village/taiga/town_centers/taiga_meeting_point_1"
+  },
+  "minecraft:taiga_meeting_point_2": {
+    "template_index": 208,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/town_centers/taiga_meeting_point_2"
+  },
+  "minecraft:desert_meeting_point_1": {
+    "template_index": 209,
+    "projection": 0,
+    "template": "village/desert/town_centers/desert_meeting_point_1"
+  },
+  "minecraft:desert_meeting_point_2": {
+    "template_index": 210,
+    "projection": 0,
+    "template": "village/desert/town_centers/desert_meeting_point_2"
+  },
+  "minecraft:desert_meeting_point_3": {
+    "template_index": 211,
+    "projection": 0,
+    "template": "village/desert/town_centers/desert_meeting_point_3"
+  },
+  "minecraft:plains_corner_1": {
+    "template_index": 212,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/corner_01"
+  },
+  "minecraft:plains_corner_2": {
+    "template_index": 213,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/corner_02"
+  },
+  "minecraft:plains_corner_3": {
+    "template_index": 214,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/corner_03"
+  },
+  "minecraft:plains_straight_1": {
+    "template_index": 215,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/straight_01"
+  },
+  "minecraft:plains_straight_2": {
+    "template_index": 216,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/straight_02"
+  },
+  "minecraft:plains_straight_3": {
+    "template_index": 217,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/straight_03"
+  },
+  "minecraft:plains_straight_4": {
+    "template_index": 218,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/straight_04"
+  },
+  "minecraft:plains_straight_5": {
+    "template_index": 219,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/straight_05"
+  },
+  "minecraft:plains_straight_6": {
+    "template_index": 220,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/straight_06"
+  },
+  "minecraft:plains_crossroad_1": {
+    "template_index": 221,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/crossroad_01"
+  },
+  "minecraft:plains_crossroad_2": {
+    "template_index": 222,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/crossroad_02"
+  },
+  "minecraft:plains_crossroad_3": {
+    "template_index": 223,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/crossroad_03"
+  },
+  "minecraft:plains_crossroad_4": {
+    "template_index": 224,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/crossroad_04"
+  },
+  "minecraft:plains_crossroad_5": {
+    "template_index": 225,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/crossroad_05"
+  },
+  "minecraft:plains_crossroad_6": {
+    "template_index": 226,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/crossroad_06"
+  },
+  "minecraft:plains_turn_1": {
+    "template_index": 227,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/streets/turn_01"
+  },
+  "minecraft:savanna_corner_1": {
+    "template_index": 228,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/corner_01"
+  },
+  "minecraft:savanna_corner_3": {
+    "template_index": 229,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/corner_03"
+  },
+  "minecraft:savanna_straight_2": {
+    "template_index": 230,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/straight_02"
+  },
+  "minecraft:savanna_straight_4": {
+    "template_index": 231,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/straight_04"
+  },
+  "minecraft:savanna_straight_5": {
+    "template_index": 232,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/straight_05"
+  },
+  "minecraft:savanna_straight_6": {
+    "template_index": 233,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/straight_06"
+  },
+  "minecraft:savanna_straight_8": {
+    "template_index": 234,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/straight_08"
+  },
+  "minecraft:savanna_straight_9": {
+    "template_index": 235,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/straight_09"
+  },
+  "minecraft:savanna_straight_10": {
+    "template_index": 236,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/straight_10"
+  },
+  "minecraft:savanna_straight_11": {
+    "template_index": 237,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/straight_11"
+  },
+  "minecraft:savanna_crossroad_2": {
+    "template_index": 238,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/crossroad_02"
+  },
+  "minecraft:savanna_crossroad_3": {
+    "template_index": 239,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/crossroad_03"
+  },
+  "minecraft:savanna_crossroad_4": {
+    "template_index": 240,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/crossroad_04"
+  },
+  "minecraft:savanna_crossroad_5": {
+    "template_index": 241,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/crossroad_05"
+  },
+  "minecraft:savanna_crossroad_6": {
+    "template_index": 242,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/crossroad_06"
+  },
+  "minecraft:savanna_crossroad_7": {
+    "template_index": 243,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/crossroad_07"
+  },
+  "minecraft:savanna_split_1": {
+    "template_index": 244,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/split_01"
+  },
+  "minecraft:savanna_split_2": {
+    "template_index": 245,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/split_02"
+  },
+  "minecraft:savanna_turn_1": {
+    "template_index": 246,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/streets/turn_01"
+  },
+  "minecraft:snowy_corner_1": {
+    "template_index": 247,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/corner_01"
+  },
+  "minecraft:snowy_corner_2": {
+    "template_index": 248,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/corner_02"
+  },
+  "minecraft:snowy_corner_3": {
+    "template_index": 249,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/corner_03"
+  },
+  "minecraft:snowy_square_1": {
+    "template_index": 250,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/square_01"
+  },
+  "minecraft:snowy_straight_1": {
+    "template_index": 251,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/straight_01"
+  },
+  "minecraft:snowy_straight_2": {
+    "template_index": 252,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/straight_02"
+  },
+  "minecraft:snowy_straight_3": {
+    "template_index": 253,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/straight_03"
+  },
+  "minecraft:snowy_straight_4": {
+    "template_index": 254,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/straight_04"
+  },
+  "minecraft:snowy_straight_6": {
+    "template_index": 255,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/straight_06"
+  },
+  "minecraft:snowy_straight_8": {
+    "template_index": 256,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/straight_08"
+  },
+  "minecraft:snowy_crossroad_2": {
+    "template_index": 258,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/crossroad_02"
+  },
+  "minecraft:snowy_crossroad_3": {
+    "template_index": 259,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/crossroad_03"
+  },
+  "minecraft:snowy_crossroad_4": {
+    "template_index": 260,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/crossroad_04"
+  },
+  "minecraft:snowy_crossroad_5": {
+    "template_index": 261,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/crossroad_05"
+  },
+  "minecraft:snowy_crossroad_6": {
+    "template_index": 262,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/crossroad_06"
+  },
+  "minecraft:snowy_turn_1": {
+    "template_index": 263,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/snowy/streets/turn_01"
+  },
+  "minecraft:taiga_corner_1": {
+    "template_index": 264,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/corner_01"
+  },
+  "minecraft:taiga_corner_2": {
+    "template_index": 265,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/corner_02"
+  },
+  "minecraft:taiga_corner_3": {
+    "template_index": 266,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/corner_03"
+  },
+  "minecraft:taiga_straight_1": {
+    "template_index": 267,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/straight_01"
+  },
+  "minecraft:taiga_straight_2": {
+    "template_index": 268,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/straight_02"
+  },
+  "minecraft:taiga_straight_3": {
+    "template_index": 269,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/straight_03"
+  },
+  "minecraft:taiga_straight_4": {
+    "template_index": 270,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/straight_04"
+  },
+  "minecraft:taiga_straight_5": {
+    "template_index": 271,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/straight_05"
+  },
+  "minecraft:taiga_straight_6": {
+    "template_index": 272,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/straight_06"
+  },
+  "minecraft:taiga_crossroad_1": {
+    "template_index": 273,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/crossroad_01"
+  },
+  "minecraft:taiga_crossroad_2": {
+    "template_index": 274,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/crossroad_02"
+  },
+  "minecraft:taiga_crossroad_4": {
+    "template_index": 275,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/crossroad_04"
+  },
+  "minecraft:taiga_crossroad_5": {
+    "template_index": 276,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/crossroad_05"
+  },
+  "minecraft:taiga_crossroad_6": {
+    "template_index": 277,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/crossroad_06"
+  },
+  "minecraft:taiga_turn_1": {
+    "template_index": 278,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/taiga/streets/turn_01"
+  },
+  "minecraft:desert_corner_1": {
+    "template_index": 279,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/corner_01"
+  },
+  "minecraft:desert_corner_2": {
+    "template_index": 280,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/corner_02"
+  },
+  "minecraft:desert_straight_1": {
+    "template_index": 281,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/straight_01"
+  },
+  "minecraft:desert_straight_2": {
+    "template_index": 282,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/straight_02"
+  },
+  "minecraft:desert_straight_3": {
+    "template_index": 283,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/straight_03"
+  },
+  "minecraft:desert_crossroad_1": {
+    "template_index": 284,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/crossroad_01"
+  },
+  "minecraft:desert_crossroad_2": {
+    "template_index": 285,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/crossroad_02"
+  },
+  "minecraft:desert_crossroad_3": {
+    "template_index": 286,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/crossroad_03"
+  },
+  "minecraft:desert_square_1": {
+    "template_index": 287,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/square_01"
+  },
+  "minecraft:desert_square_2": {
+    "template_index": 288,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/square_02"
+  },
+  "minecraft:desert_turn_1": {
+    "template_index": 289,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/streets/turn_01"
+  },
+  "minecraft:plains_house_1": {
+    "template_index": 290,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_house_1"
+  },
+  "minecraft:plains_house_2": {
+    "template_index": 291,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_house_2"
+  },
+  "minecraft:plains_house_3": {
+    "template_index": 292,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_house_3"
+  },
+  "minecraft:plains_house_4": {
+    "template_index": 293,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_house_4"
+  },
+  "minecraft:plains_house_5": {
+    "template_index": 294,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_house_5"
+  },
+  "minecraft:plains_house_6": {
+    "template_index": 295,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_house_6"
+  },
+  "minecraft:plains_house_7": {
+    "template_index": 296,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_house_7"
+  },
+  "minecraft:plains_house_8": {
+    "template_index": 297,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_house_8"
+  },
+  "minecraft:plains_medium_house_1": {
+    "template_index": 298,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_medium_house_1"
+  },
+  "minecraft:plains_medium_house_2": {
+    "template_index": 299,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_medium_house_2"
+  },
+  "minecraft:plains_big_house_1": {
+    "template_index": 300,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_big_house_1"
+  },
+  "minecraft:plains_butcher_1": {
+    "template_index": 301,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_butcher_shop_1"
+  },
+  "minecraft:plains_butcher_2": {
+    "template_index": 302,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_butcher_shop_2"
+  },
+  "minecraft:plains_toolsmith_1": {
+    "template_index": 303,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_tool_smith_1"
+  },
+  "minecraft:plains_fletcher_1": {
+    "template_index": 304,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_fletcher_house_1"
+  },
+  "minecraft:plains_shepherds_1": {
+    "template_index": 305,
+    "projection": 0,
+    "template": "village/plains/houses/plains_shepherds_house_1"
+  },
+  "minecraft:plains_armorer_1": {
+    "template_index": 306,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_armorer_house_1"
+  },
+  "minecraft:plains_fisher_1": {
+    "template_index": 307,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_fisher_cottage_1"
+  },
+  "minecraft:plains_tannery_1": {
+    "template_index": 308,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_tannery_1"
+  },
+  "minecraft:plains_cartographer_1": {
+    "template_index": 309,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_cartographer_1"
+  },
+  "minecraft:plains_library_1": {
+    "template_index": 310,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_library_1"
+  },
+  "minecraft:plains_library_2": {
+    "template_index": 311,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_library_2"
+  },
+  "minecraft:plains_mason_1": {
+    "template_index": 312,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_masons_house_1"
+  },
+  "minecraft:plains_weaponsmith_1": {
+    "template_index": 313,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_weaponsmith_1"
+  },
+  "minecraft:plains_temple_3": {
+    "template_index": 314,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_temple_3"
+  },
+  "minecraft:plains_temple_4": {
+    "template_index": 315,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_temple_4"
+  },
+  "minecraft:plains_stable_1": {
+    "template_index": 316,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_stable_1"
+  },
+  "minecraft:plains_stable_2": {
+    "template_index": 317,
+    "projection": 0,
+    "template": "village/plains/houses/plains_stable_2"
+  },
+  "minecraft:plains_large_farm_1_ww": {
+    "template_index": 318,
+    "processor": "minecraft:wheat_wheat_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_wp": {
+    "template_index": 318,
+    "processor": "minecraft:wheat_potato_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_wb": {
+    "template_index": 318,
+    "processor": "minecraft:wheat_beet_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_wc": {
+    "template_index": 318,
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_pp": {
+    "template_index": 318,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_pb": {
+    "template_index": 318,
+    "processor": "minecraft:potato_beet_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_pc": {
+    "template_index": 318,
+    "processor": "minecraft:potato_carrot_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_bb": {
+    "template_index": 318,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_bc": {
+    "template_index": 318,
+    "processor": "minecraft:beet_carrot_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_large_farm_1_cc": {
+    "template_index": 318,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_large_farm_1"
+  },
+  "minecraft:plains_small_farm_1_ww": {
+    "template_index": 319,
+    "processor": "minecraft:wheat_wheat_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_wp": {
+    "template_index": 319,
+    "processor": "minecraft:wheat_potato_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_wb": {
+    "template_index": 319,
+    "processor": "minecraft:wheat_beet_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_wc": {
+    "template_index": 319,
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_pp": {
+    "template_index": 319,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_pb": {
+    "template_index": 319,
+    "processor": "minecraft:potato_beet_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_pc": {
+    "template_index": 319,
+    "processor": "minecraft:potato_carrot_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_bb": {
+    "template_index": 319,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_bc": {
+    "template_index": 319,
+    "processor": "minecraft:beet_carrot_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_small_farm_1_cc": {
+    "template_index": 319,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/plains/houses/plains_small_farm_1"
+  },
+  "minecraft:plains_animal_pen_1": {
+    "template_index": 320,
+    "projection": 0,
+    "template": "village/plains/houses/plains_animal_pen_1"
+  },
+  "minecraft:plains_animal_pen_2": {
+    "template_index": 321,
+    "projection": 0,
+    "template": "village/plains/houses/plains_animal_pen_2"
+  },
+  "minecraft:plains_animal_pen_3": {
+    "template_index": 322,
+    "projection": 0,
+    "template": "village/plains/houses/plains_animal_pen_3"
+  },
+  "minecraft:plains_acessory_1": {
+    "template_index": 323,
+    "projection": 0,
+    "template": "village/plains/houses/plains_accessory_1"
+  },
+  "minecraft:plains_meeting_point_4": {
+    "template_index": 324,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/plains/houses/plains_meeting_point_4"
+  },
+  "minecraft:plains_meeting_point_5": {
+    "template_index": 325,
+    "projection": 0,
+    "template": "village/plains/houses/plains_meeting_point_5"
+  },
+  "minecraft:savanna_small_house_1": {
+    "template_index": 326,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_house_1"
+  },
+  "minecraft:savanna_small_house_2": {
+    "template_index": 327,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_house_2"
+  },
+  "minecraft:savanna_small_house_3": {
+    "template_index": 328,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_house_3"
+  },
+  "minecraft:savanna_small_house_4": {
+    "template_index": 329,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_house_4"
+  },
+  "minecraft:savanna_small_house_5": {
+    "template_index": 330,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_house_5"
+  },
+  "minecraft:savanna_small_house_6": {
+    "template_index": 331,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_house_6"
+  },
+  "minecraft:savanna_small_house_7": {
+    "template_index": 332,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_house_7"
+  },
+  "minecraft:savanna_small_house_8": {
+    "template_index": 333,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_house_8"
+  },
+  "minecraft:savanna_medium_house_1": {
+    "template_index": 334,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_medium_house_1"
+  },
+  "minecraft:savanna_medium_house_2": {
+    "template_index": 335,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_medium_house_2"
+  },
+  "minecraft:savanna_butchers_1": {
+    "template_index": 336,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_butchers_shop_1"
+  },
+  "minecraft:savanna_butchers_2": {
+    "template_index": 337,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_butchers_shop_2"
+  },
+  "minecraft:savanna_toolsmith_1": {
+    "template_index": 338,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_tool_smith_1"
+  },
+  "minecraft:savanna_fletcher_1": {
+    "template_index": 339,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_fletcher_house_1"
+  },
+  "minecraft:savanna_shepherd_1": {
+    "template_index": 340,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_shepherd_1"
+  },
+  "minecraft:savanna_armorer_1": {
+    "template_index": 341,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_armorer_1"
+  },
+  "minecraft:savanna_fisher_1": {
+    "template_index": 342,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_fisher_cottage_1"
+  },
+  "minecraft:savanna_tannery_1": {
+    "template_index": 343,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_tannery_1"
+  },
+  "minecraft:savanna_cartographer_1": {
+    "template_index": 344,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_cartographer_1"
+  },
+  "minecraft:savanna_library_1": {
+    "template_index": 345,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_library_1"
+  },
+  "minecraft:savanna_mason_1": {
+    "template_index": 346,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_mason_1"
+  },
+  "minecraft:savanna_weaponsmith_1": {
+    "template_index": 347,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_weaponsmith_1"
+  },
+  "minecraft:savanna_weaponsmith_2": {
+    "template_index": 348,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_weaponsmith_2"
+  },
+  "minecraft:savanna_temple_1": {
+    "template_index": 349,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_temple_1"
+  },
+  "minecraft:savanna_temple_2": {
+    "template_index": 350,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_temple_2"
+  },
+  "minecraft:savanna_large_farm_1_ww": {
+    "template_index": 351,
+    "processor": "minecraft:wheat_wheat_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_wp": {
+    "template_index": 351,
+    "processor": "minecraft:wheat_potato_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_wb": {
+    "template_index": 351,
+    "processor": "minecraft:wheat_beet_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_wc": {
+    "template_index": 351,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_pp": {
+    "template_index": 351,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_pb": {
+    "template_index": 351,
+    "processor": "minecraft:potato_beet_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_pc": {
+    "template_index": 351,
+    "processor": "minecraft:potato_carrot_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_bb": {
+    "template_index": 351,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_bc": {
+    "template_index": 351,
+    "processor": "minecraft:beet_carrot_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_1_cc": {
+    "template_index": 351,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_1"
+  },
+  "minecraft:savanna_large_farm_2_wc": {
+    "template_index": 352,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_2"
+  },
+  "minecraft:savanna_large_farm_2_pp": {
+    "template_index": 352,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_2"
+  },
+  "minecraft:savanna_large_farm_2_bb": {
+    "template_index": 352,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_2"
+  },
+  "minecraft:savanna_large_farm_2_cc": {
+    "template_index": 352,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_large_farm_2"
+  },
+  "minecraft:savanna_small_farm_wc": {
+    "template_index": 353,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_farm"
+  },
+  "minecraft:savanna_small_farm_pp": {
+    "template_index": 353,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_farm"
+  },
+  "minecraft:savanna_small_farm_bb": {
+    "template_index": 353,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_farm"
+  },
+  "minecraft:savanna_small_farm_cc": {
+    "template_index": 353,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_small_farm"
+  },
+  "minecraft:savanna_animal_pen_1": {
+    "template_index": 354,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_animal_pen_1"
+  },
+  "minecraft:savanna_animal_pen_2": {
+    "template_index": 355,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_animal_pen_2"
+  },
+  "minecraft:savanna_animal_pen_3": {
+    "template_index": 356,
+    "projection": 0,
+    "template": "village/savanna/houses/savanna_animal_pen_3"
+  },
+  "minecraft:snowy_small_house_1": {
+    "template_index": 357,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_small_house_1"
+  },
+  "minecraft:snowy_small_house_2": {
+    "template_index": 358,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_small_house_2"
+  },
+  "minecraft:snowy_small_house_3": {
+    "template_index": 359,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_small_house_3"
+  },
+  "minecraft:snowy_small_house_4": {
+    "template_index": 360,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_small_house_4"
+  },
+  "minecraft:snowy_small_house_5": {
+    "template_index": 361,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_small_house_5"
+  },
+  "minecraft:snowy_small_house_6": {
+    "template_index": 362,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_small_house_6"
+  },
+  "minecraft:snowy_small_house_7": {
+    "template_index": 363,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_small_house_7"
+  },
+  "minecraft:snowy_small_house_8": {
+    "template_index": 364,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_small_house_8"
+  },
+  "minecraft:snowy_medium_house_1": {
+    "template_index": 365,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_medium_house_1"
+  },
+  "minecraft:snowy_medium_house_2": {
+    "template_index": 366,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_medium_house_2"
+  },
+  "minecraft:snowy_medium_house_3": {
+    "template_index": 367,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_medium_house_3"
+  },
+  "minecraft:snowy_butchers_1": {
+    "template_index": 368,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_butchers_shop_1"
+  },
+  "minecraft:snowy_butchers_2": {
+    "template_index": 369,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_butchers_shop_2"
+  },
+  "minecraft:snowy_toolsmith_1": {
+    "template_index": 370,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_tool_smith_1"
+  },
+  "minecraft:snowy_fletcher_1": {
+    "template_index": 371,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_fletcher_house_1"
+  },
+  "minecraft:snowy_shepherds_1": {
+    "template_index": 372,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_shepherds_house_1"
+  },
+  "minecraft:snowy_armorer_1": {
+    "template_index": 373,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_armorer_house_1"
+  },
+  "minecraft:snowy_armorer_2": {
+    "template_index": 374,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_armorer_house_2"
+  },
+  "minecraft:snowy_fisher_1": {
+    "template_index": 375,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_fisher_cottage"
+  },
+  "minecraft:snowy_tannery_1": {
+    "template_index": 376,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_tannery_1"
+  },
+  "minecraft:snowy_cartographer_1": {
+    "template_index": 377,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_cartographer_house_1"
+  },
+  "minecraft:snowy_library_1": {
+    "template_index": 378,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_library_1"
+  },
+  "minecraft:snowy_masons_1": {
+    "template_index": 379,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_masons_house_1"
+  },
+  "minecraft:snowy_masons_2": {
+    "template_index": 380,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_masons_house_2"
+  },
+  "minecraft:snowy_weaponsmith_1": {
+    "template_index": 381,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_weapon_smith_1"
+  },
+  "minecraft:snowy_temple_1": {
+    "template_index": 382,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_temple_1"
+  },
+  "minecraft:snowy_farm_1_wc": {
+    "template_index": 383,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_farm_1"
+  },
+  "minecraft:snowy_farm_1_pp": {
+    "template_index": 383,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_farm_1"
+  },
+  "minecraft:snowy_farm_1_bb": {
+    "template_index": 383,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_farm_1"
+  },
+  "minecraft:snowy_farm_1_cc": {
+    "template_index": 383,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_farm_1"
+  },
+  "minecraft:snowy_farm_2_wc": {
+    "template_index": 384,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_farm_2"
+  },
+  "minecraft:snowy_farm_2_pp": {
+    "template_index": 384,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_farm_2"
+  },
+  "minecraft:snowy_farm_2_bb": {
+    "template_index": 384,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_farm_2"
+  },
+  "minecraft:snowy_farm_2_cc": {
+    "template_index": 384,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_farm_2"
+  },
+  "minecraft:snowy_animal_pen_1": {
+    "template_index": 385,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_animal_pen_1"
+  },
+  "minecraft:snowy_animal_pen_2": {
+    "template_index": 386,
+    "projection": 0,
+    "template": "village/snowy/houses/snowy_animal_pen_2"
+  },
+  "minecraft:taiga_small_house_1": {
+    "template_index": 387,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_small_house_1"
+  },
+  "minecraft:taiga_small_house_2": {
+    "template_index": 388,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_small_house_2"
+  },
+  "minecraft:taiga_small_house_3": {
+    "template_index": 389,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_small_house_3"
+  },
+  "minecraft:taiga_small_house_4": {
+    "template_index": 390,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_small_house_4"
+  },
+  "minecraft:taiga_small_house_5": {
+    "template_index": 391,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_small_house_5"
+  },
+  "minecraft:taiga_medium_house_1": {
+    "template_index": 392,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_medium_house_1"
+  },
+  "minecraft:taiga_medium_house_2": {
+    "template_index": 393,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_medium_house_2"
+  },
+  "minecraft:taiga_medium_house_3": {
+    "template_index": 394,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_medium_house_3"
+  },
+  "minecraft:taiga_medium_house_4": {
+    "template_index": 395,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_medium_house_4"
+  },
+  "minecraft:taiga_butcher_1": {
+    "template_index": 396,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_butcher_shop_1"
+  },
+  "minecraft:taiga_toolsmith_1": {
+    "template_index": 397,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_tool_smith_1"
+  },
+  "minecraft:taiga_fletcher_1": {
+    "template_index": 398,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_fletcher_house_1"
+  },
+  "minecraft:taiga_shepherds_1": {
+    "template_index": 399,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_shepherds_house_1"
+  },
+  "minecraft:taiga_armorer_1": {
+    "template_index": 400,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_armorer_house_1"
+  },
+  "minecraft:taiga_armorer_2": {
+    "template_index": 401,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_armorer_house_2"
+  },
+  "minecraft:taiga_fisher_1": {
+    "template_index": 402,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_fisher_cottage_1"
+  },
+  "minecraft:taiga_tannery_1": {
+    "template_index": 403,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_tannery_1"
+  },
+  "minecraft:taiga_cartographer_1": {
+    "template_index": 404,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_cartographer_house_1"
+  },
+  "minecraft:taiga_library_1": {
+    "template_index": 405,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_library_1"
+  },
+  "minecraft:taiga_masons_1": {
+    "template_index": 406,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_masons_house_1"
+  },
+  "minecraft:taiga_weaponsmith_1": {
+    "template_index": 407,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_weaponsmith_1"
+  },
+  "minecraft:taiga_weaponsmith_2": {
+    "template_index": 408,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_weaponsmith_2"
+  },
+  "minecraft:taiga_temple_1": {
+    "template_index": 409,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_temple_1"
+  },
+  "minecraft:taiga_large_farm_1_wc": {
+    "template_index": 410,
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_large_farm_1"
+  },
+  "minecraft:taiga_large_farm_1_pp": {
+    "template_index": 410,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_large_farm_1"
+  },
+  "minecraft:taiga_large_farm_1_bb": {
+    "template_index": 410,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_large_farm_1"
+  },
+  "minecraft:taiga_large_farm_1_cc": {
+    "template_index": 410,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_large_farm_1"
+  },
+  "minecraft:taiga_large_farm_2_wc": {
+    "template_index": 411,
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_large_farm_2"
+  },
+  "minecraft:taiga_large_farm_2_pp": {
+    "template_index": 411,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_large_farm_2"
+  },
+  "minecraft:taiga_large_farm_2_bb": {
+    "template_index": 411,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_large_farm_2"
+  },
+  "minecraft:taiga_large_farm_2_cc": {
+    "template_index": 411,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_large_farm_2"
+  },
+  "minecraft:taiga_small_farm_1": {
+    "template_index": 412,
+    "processor": "minecraft:cobblestone_building_low_decay",
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_small_farm_1"
+  },
+  "minecraft:taiga_animal_pen_1": {
+    "template_index": 413,
+    "projection": 0,
+    "template": "village/taiga/houses/taiga_animal_pen_1"
+  },
+  "minecraft:desert_small_house_1": {
+    "template_index": 416,
+    "projection": 0,
+    "template": "village/desert/houses/desert_small_house_1"
+  },
+  "minecraft:desert_small_house_2": {
+    "template_index": 417,
+    "projection": 0,
+    "template": "village/desert/houses/desert_small_house_2"
+  },
+  "minecraft:desert_small_house_3": {
+    "template_index": 418,
+    "projection": 0,
+    "template": "village/desert/houses/desert_small_house_3"
+  },
+  "minecraft:desert_small_house_4": {
+    "template_index": 419,
+    "projection": 0,
+    "template": "village/desert/houses/desert_small_house_4"
+  },
+  "minecraft:desert_small_house_5": {
+    "template_index": 420,
+    "projection": 0,
+    "template": "village/desert/houses/desert_small_house_5"
+  },
+  "minecraft:desert_small_house_6": {
+    "template_index": 421,
+    "projection": 0,
+    "template": "village/desert/houses/desert_small_house_6"
+  },
+  "minecraft:desert_small_house_7": {
+    "template_index": 422,
+    "projection": 0,
+    "template": "village/desert/houses/desert_small_house_7"
+  },
+  "minecraft:desert_small_house_8": {
+    "template_index": 423,
+    "projection": 0,
+    "template": "village/desert/houses/desert_small_house_8"
+  },
+  "minecraft:desert_medium_house_1": {
+    "template_index": 424,
+    "projection": 0,
+    "template": "village/desert/houses/desert_medium_house_1"
+  },
+  "minecraft:desert_medium_house_2": {
+    "template_index": 425,
+    "projection": 0,
+    "template": "village/desert/houses/desert_medium_house_2"
+  },
+  "minecraft:desert_butcher_1": {
+    "template_index": 426,
+    "projection": 0,
+    "template": "village/desert/houses/desert_butcher_shop_1"
+  },
+  "minecraft:desert_toolsmith_1": {
+    "template_index": 427,
+    "projection": 0,
+    "template": "village/desert/houses/desert_tool_smith_1"
+  },
+  "minecraft:desert_fletcher_1": {
+    "template_index": 428,
+    "projection": 0,
+    "template": "village/desert/houses/desert_fletcher_house_1"
+  },
+  "minecraft:desert_shepherd_1": {
+    "template_index": 429,
+    "projection": 0,
+    "template": "village/desert/houses/desert_shepherd_house_1"
+  },
+  "minecraft:desert_armorer_1": {
+    "template_index": 430,
+    "projection": 0,
+    "template": "village/desert/houses/desert_armorer_1"
+  },
+  "minecraft:desert_fisher_1": {
+    "template_index": 431,
+    "projection": 0,
+    "template": "village/desert/houses/desert_fisher_1"
+  },
+  "minecraft:desert_tannery_1": {
+    "template_index": 432,
+    "projection": 0,
+    "template": "village/desert/houses/desert_tannery_1"
+  },
+  "minecraft:desert_cartographer_1": {
+    "template_index": 433,
+    "projection": 0,
+    "template": "village/desert/houses/desert_cartographer_house_1"
+  },
+  "minecraft:desert_library_1": {
+    "template_index": 434,
+    "projection": 0,
+    "template": "village/desert/houses/desert_library_1"
+  },
+  "minecraft:desert_mason_1": {
+    "template_index": 435,
+    "projection": 0,
+    "template": "village/desert/houses/desert_mason_1"
+  },
+  "minecraft:desert_weaponsmith_1": {
+    "template_index": 436,
+    "projection": 0,
+    "template": "village/desert/houses/desert_weaponsmith_1"
+  },
+  "minecraft:desert_temple_1": {
+    "template_index": 437,
+    "projection": 0,
+    "template": "village/desert/houses/desert_temple_1"
+  },
+  "minecraft:desert_temple_2": {
+    "template_index": 438,
+    "projection": 0,
+    "template": "village/desert/houses/desert_temple_2"
+  },
+  "minecraft:desert_farm_1_wc": {
+    "template_index": 439,
+    "projection": 0,
+    "template": "village/desert/houses/desert_farm_1"
+  },
+  "minecraft:desert_farm_1_pp": {
+    "template_index": 439,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_farm_1"
+  },
+  "minecraft:desert_farm_1_bb": {
+    "template_index": 439,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_farm_1"
+  },
+  "minecraft:desert_farm_1_cc": {
+    "template_index": 439,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_farm_1"
+  },
+  "minecraft:desert_farm_2_wc": {
+    "template_index": 440,
+    "projection": 0,
+    "template": "village/desert/houses/desert_farm_2"
+  },
+  "minecraft:desert_farm_2_pp": {
+    "template_index": 440,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_farm_2"
+  },
+  "minecraft:desert_farm_2_bb": {
+    "template_index": 440,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_farm_2"
+  },
+  "minecraft:desert_farm_2_cc": {
+    "template_index": 440,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_farm_2"
+  },
+  "minecraft:desert_large_farm_1_wc": {
+    "template_index": 441,
+    "projection": 0,
+    "template": "village/desert/houses/desert_large_farm_1"
+  },
+  "minecraft:desert_large_farm_1_pp": {
+    "template_index": 441,
+    "processor": "minecraft:potato_potato_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_large_farm_1"
+  },
+  "minecraft:desert_large_farm_1_bb": {
+    "template_index": 441,
+    "processor": "minecraft:beet_beet_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_large_farm_1"
+  },
+  "minecraft:desert_large_farm_1_cc": {
+    "template_index": 441,
+    "processor": "minecraft:carrot_carrot_farm",
+    "projection": 0,
+    "template": "village/desert/houses/desert_large_farm_1"
+  },
+  "minecraft:desert_animal_pen_1": {
+    "template_index": 442,
+    "projection": 0,
+    "template": "village/desert/houses/desert_animal_pen_1"
+  },
+  "minecraft:desert_animal_pen_2": {
+    "template_index": 443,
+    "projection": 0,
+    "template": "village/desert/houses/desert_animal_pen_2"
+  },
+  "minecraft:plains_terminator_1": {
+    "template_index": 444,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_01"
+  },
+  "minecraft:plains_terminator_2": {
+    "template_index": 445,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_02"
+  },
+  "minecraft:plains_terminator_3": {
+    "template_index": 446,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_03"
+  },
+  "minecraft:plains_terminator_4": {
+    "template_index": 447,
+    "processor": "minecraft:plains_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_04"
+  },
+  "minecraft:savanna_terminator_1": {
+    "template_index": 444,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_01"
+  },
+  "minecraft:savanna_terminator_2": {
+    "template_index": 445,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_02"
+  },
+  "minecraft:savanna_terminator_3": {
+    "template_index": 446,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_03"
+  },
+  "minecraft:savanna_terminator_4": {
+    "template_index": 447,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_04"
+  },
+  "minecraft:savanna_terminator_5": {
+    "template_index": 448,
+    "processor": "minecraft:savanna_path_decay",
+    "projection": 1,
+    "template": "village/savanna/terminators/terminator_05"
+  },
+  "minecraft:desert_terminator_1": {
+    "template_index": 449,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/terminators/terminator_01"
+  },
+  "minecraft:desert_terminator_2": {
+    "template_index": 450,
+    "processor": "minecraft:desert_path_decay",
+    "projection": 1,
+    "template": "village/desert/terminators/terminator_02"
+  },
+  "minecraft:snowy_terminator_1": {
+    "template_index": 444,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_01"
+  },
+  "minecraft:snowy_terminator_2": {
+    "template_index": 445,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_02"
+  },
+  "minecraft:snowy_terminator_3": {
+    "template_index": 446,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_03"
+  },
+  "minecraft:snowy_terminator_4": {
+    "template_index": 447,
+    "processor": "minecraft:snowy_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_04"
+  },
+  "minecraft:taiga_terminator_1": {
+    "template_index": 444,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_01"
+  },
+  "minecraft:taiga_terminator_2": {
+    "template_index": 445,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_02"
+  },
+  "minecraft:taiga_terminator_3": {
+    "template_index": 446,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_03"
+  },
+  "minecraft:taiga_terminator_4": {
+    "template_index": 447,
+    "processor": "minecraft:taiga_path_decay",
+    "projection": 1,
+    "template": "village/plains/terminators/terminator_04"
+  },
+  "minecraft:plains_lamp": {
+    "template_index": 451,
+    "projection": 0,
+    "template": "village/plains/plains_lamp_1"
+  },
+  "minecraft:savanna_lamp": {
+    "template_index": 452,
+    "projection": 0,
+    "template": "village/savanna/savanna_lamp_post_01"
+  },
+  "minecraft:snowy_lamp_1": {
+    "template_index": 453,
+    "projection": 0,
+    "template": "village/snowy/snowy_lamp_post_01"
+  },
+  "minecraft:snowy_lamp_2": {
+    "template_index": 454,
+    "projection": 0,
+    "template": "village/snowy/snowy_lamp_post_02"
+  },
+  "minecraft:snowy_lamp_3": {
+    "template_index": 455,
+    "projection": 0,
+    "template": "village/snowy/snowy_lamp_post_03"
+  },
+  "minecraft:desert_lamp": {
+    "template_index": 456,
+    "projection": 0,
+    "template": "village/desert/desert_lamp_1"
+  },
+  "minecraft:taiga_lamp": {
+    "template_index": 457,
+    "projection": 0,
+    "template": "village/taiga/taiga_lamp_post_1"
+  },
+  "minecraft:taiga_decoration_1": {
+    "template_index": 458,
+    "projection": 0,
+    "template": "village/taiga/taiga_decoration_1"
+  },
+  "minecraft:taiga_decoration_2": {
+    "template_index": 459,
+    "projection": 0,
+    "template": "village/taiga/taiga_decoration_2"
+  },
+  "minecraft:taiga_decoration_3": {
+    "template_index": 460,
+    "projection": 0,
+    "template": "village/taiga/taiga_decoration_3"
+  },
+  "minecraft:taiga_decoration_4": {
+    "template_index": 461,
+    "projection": 0,
+    "template": "village/taiga/taiga_decoration_4"
+  },
+  "minecraft:taiga_decoration_5": {
+    "template_index": 462,
+    "projection": 0,
+    "template": "village/taiga/taiga_decoration_5"
+  },
+  "minecraft:oak_tree": {
+    "kind": "feature"
+  },
+  "minecraft:savanna_tree": {
+    "kind": "feature"
+  },
+  "minecraft:spruce_tree": {
+    "kind": "feature"
+  },
+  "minecraft:pine_tree": {
+    "kind": "feature"
+  },
+  "minecraft:fern": {
+    "kind": "feature"
+  },
+  "minecraft:cactus": {
+    "kind": "feature"
+  },
+  "minecraft:melon_pile": {
+    "kind": "feature"
+  },
+  "minecraft:pumpkin_pile": {
+    "kind": "feature"
+  },
+  "minecraft:hay_pile": {
+    "kind": "feature"
+  },
+  "minecraft:snow_pile": {
+    "kind": "feature"
+  },
+  "minecraft:ice_pile": {
+    "kind": "feature"
+  },
+  "minecraft:sweet_berry_bush": {
+    "kind": "feature"
+  },
+  "minecraft:animals_cow": {
+    "template_index": 463,
+    "projection": 0,
+    "template": "village/common/animals/cows_1"
+  },
+  "minecraft:animals_pig": {
+    "template_index": 464,
+    "projection": 0,
+    "template": "village/common/animals/pigs_1"
+  },
+  "minecraft:animals_horses_1": {
+    "template_index": 465,
+    "projection": 0,
+    "template": "village/common/animals/horses_1"
+  },
+  "minecraft:animals_horses_2": {
+    "template_index": 466,
+    "projection": 0,
+    "template": "village/common/animals/horses_2"
+  },
+  "minecraft:animals_sheep_1": {
+    "template_index": 467,
+    "projection": 0,
+    "template": "village/common/animals/sheep_1"
+  },
+  "minecraft:animals_cat": {
+    "template_index": 468,
+    "projection": 0,
+    "template": "village/common/animals/cat"
+  },
+  "minecraft:well": {
+    "template_index": 469,
+    "projection": 0,
+    "template": "village/common/well_bottom"
+  },
+  "minecraft:villagers": {
+    "template_index": 470,
+    "projection": 0,
+    "template": "village/common/villager"
+  }
+}

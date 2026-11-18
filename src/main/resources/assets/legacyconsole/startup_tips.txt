@@ -1,0 +1,8 @@
+If you set the game difficulty to Peaceful, your health will automatically regenerate, and no monsters will come out at night!
+Feed a bone to a wolf to tame it. You can then make it sit or follow you.
+Sleeping in a bed at night will fast forward the game to dawn, but all players in a multiplayer game need to sleep in beds at the same time.
+Harvest leather from cows, and use it to make armor.
+If you have an empty bucket, you can fill it with milk from a cow, or water, or lava!
+Use a hoe to prepare areas of ground for planting.
+Spiders won't attack you during the day - unless you attack them.
+Make some torches to light up areas at night. Monsters will avoid the areas around these torches.

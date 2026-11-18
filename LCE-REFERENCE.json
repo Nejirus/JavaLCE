@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "catalog_source": "Minecraft.Client/Common/UI/IUIScene_CreativeMenu.cpp",
+  "assets": [
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Creative_Panel_8.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/creative_panel.png",
+      "sha256": "54fc8d1b37bbe069a1c323335a408507d64723eb44f430bf5c251a7b9e2ef166"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Tab_Creative8_L.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/creative_tab_left.png",
+      "sha256": "8466f7ec6e38a93f246315d2d3c6eeb1ac198a8c1827b1faee826fc26bce6bf6"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Tab_Creative8_M.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/creative_tab_middle.png",
+      "sha256": "64602605ab1231b67251e9293c30ede1acb093842e271eb22148d95eb0b52f6f"
+    },
+    {
+      "source": "Minecraft.Client/Common/Media/Graphics/PanelsAndTabs/Tab_Creative8_R.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/lce/creative_tab_right.png",
+      "sha256": "5d1e2024c9ead0b2de7e9e4e5d23e06dafe8452c2686eddf242cf7c839789b8a"
+    }
+  ]
+}

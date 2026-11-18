@@ -1,0 +1,2835 @@
+{
+  "version": "2.3.18",
+  "scope": "PS4 map cursor depth layering and original world-select list artwork for server player rows",
+  "protocol": 8,
+  "automated_suites": [
+    {
+      "tests": 421,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite after map-layer and player-list style changes"
+    }
+  ],
+  "native_reference": {
+    "commit": "37e258085773f11599cf0ffe29119926769554b7",
+    "executable_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+    "layer_cases": 64,
+    "vectors_sha256": "21596d0402392070be5c236169d0a35143d2ba9327f54af8d7a9a1d57843ea12",
+    "reproduced_byte_identically": true
+  },
+  "reproduction": {
+    "status": "reproduced",
+    "mod": "2.3.17",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Published 2.3.17 first cursor and map image occupy the same -0.02 plane",
+      "Map render sweep 0: 64 tilted/rotated views compared with an unobstructed cursor reference"
+    ],
+    "screenshots": [
+      {
+        "file": "map-walk-0-0.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "334e762eb32e0810fd4d487d7240186d0e00d311a15fb38f4cfaf4f373e103d4"
+      },
+      {
+        "file": "map-walk-0-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "8920416ab879a1ecc31542c58a6c4983ba38375b72bc001957dcda5bf8e66a19"
+      },
+      {
+        "file": "map-walk-0-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "de45af7de0d7f7fa73053faaf26e39e41e48b72bb7cd1977fdabf2c3de1895c6"
+      },
+      {
+        "file": "map-walk-0-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "9ffe9d9cd13e5b3a84b6e0157aa7d65d29479168eaf2dd4e2d534a231d44b580"
+      },
+      {
+        "file": "map-walk-0-4.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "e1be94da6764126866a8f4601611632ace330c016e7e74f769841597572aa2d0"
+      },
+      {
+        "file": "map-walk-0-5.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "ef52be82e12f02cde4ad7d513f3884fef13a4cb91f03c448604831e17f67d3dc"
+      }
+    ],
+    "render_sweeps": [
+      {
+        "profile": 0,
+        "shaders": false,
+        "angles": 64,
+        "frames_with_missing_pixels": 26,
+        "worst_lost_pixels": 16,
+        "frames": [
+          {
+            "tilt": -70.0,
+            "roll": 0.0,
+            "expected_white": 6,
+            "actual_white": 6,
+            "lost": 0
+          },
+          {
+            "tilt": -67.77778,
+            "roll": 17.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": -65.55556,
+            "roll": 34.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -63.333332,
+            "roll": 51.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -61.11111,
+            "roll": 68.0,
+            "expected_white": 10,
+            "actual_white": 5,
+            "lost": 5
+          },
+          {
+            "tilt": -58.88889,
+            "roll": 85.0,
+            "expected_white": 9,
+            "actual_white": 6,
+            "lost": 3
+          },
+          {
+            "tilt": -56.666668,
+            "roll": 102.0,
+            "expected_white": 11,
+            "actual_white": 9,
+            "lost": 2
+          },
+          {
+            "tilt": -54.444443,
+            "roll": 119.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -52.22222,
+            "roll": 136.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -50.0,
+            "roll": 153.0,
+            "expected_white": 13,
+            "actual_white": 11,
+            "lost": 2
+          },
+          {
+            "tilt": -47.77778,
+            "roll": 170.0,
+            "expected_white": 13,
+            "actual_white": 6,
+            "lost": 7
+          },
+          {
+            "tilt": -45.555557,
+            "roll": 187.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": -43.333336,
+            "roll": 204.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -41.11111,
+            "roll": 221.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -38.88889,
+            "roll": 238.0,
+            "expected_white": 14,
+            "actual_white": 13,
+            "lost": 1
+          },
+          {
+            "tilt": -36.666668,
+            "roll": 255.0,
+            "expected_white": 15,
+            "actual_white": 10,
+            "lost": 5
+          },
+          {
+            "tilt": -34.444443,
+            "roll": 272.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -32.22222,
+            "roll": 289.0,
+            "expected_white": 17,
+            "actual_white": 1,
+            "lost": 16
+          },
+          {
+            "tilt": -30.0,
+            "roll": 306.0,
+            "expected_white": 19,
+            "actual_white": 17,
+            "lost": 2
+          },
+          {
+            "tilt": -27.777779,
+            "roll": 323.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -25.555557,
+            "roll": 340.0,
+            "expected_white": 16,
+            "actual_white": 10,
+            "lost": 6
+          },
+          {
+            "tilt": -23.333332,
+            "roll": 357.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -21.11111,
+            "roll": 14.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -18.88889,
+            "roll": 31.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -16.666668,
+            "roll": 48.0,
+            "expected_white": 21,
+            "actual_white": 20,
+            "lost": 1
+          },
+          {
+            "tilt": -14.444443,
+            "roll": 65.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -12.222221,
+            "roll": 82.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -10.0,
+            "roll": 99.0,
+            "expected_white": 19,
+            "actual_white": 16,
+            "lost": 3
+          },
+          {
+            "tilt": -7.7777786,
+            "roll": 116.0,
+            "expected_white": 19,
+            "actual_white": 9,
+            "lost": 10
+          },
+          {
+            "tilt": -5.5555573,
+            "roll": 133.0,
+            "expected_white": 22,
+            "actual_white": 22,
+            "lost": 0
+          },
+          {
+            "tilt": -3.3333359,
+            "roll": 150.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -1.1111145,
+            "roll": 167.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 1.1111145,
+            "roll": 184.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 3.3333359,
+            "roll": 201.0,
+            "expected_white": 20,
+            "actual_white": 7,
+            "lost": 13
+          },
+          {
+            "tilt": 5.5555573,
+            "roll": 218.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 7.7777786,
+            "roll": 235.0,
+            "expected_white": 21,
+            "actual_white": 15,
+            "lost": 6
+          },
+          {
+            "tilt": 10.0,
+            "roll": 252.0,
+            "expected_white": 20,
+            "actual_white": 5,
+            "lost": 15
+          },
+          {
+            "tilt": 12.222221,
+            "roll": 269.0,
+            "expected_white": 18,
+            "actual_white": 11,
+            "lost": 7
+          },
+          {
+            "tilt": 14.444443,
+            "roll": 286.0,
+            "expected_white": 20,
+            "actual_white": 10,
+            "lost": 10
+          },
+          {
+            "tilt": 16.666664,
+            "roll": 303.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 18.888885,
+            "roll": 320.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 21.111115,
+            "roll": 337.0,
+            "expected_white": 17,
+            "actual_white": 7,
+            "lost": 10
+          },
+          {
+            "tilt": 23.333336,
+            "roll": 354.0,
+            "expected_white": 18,
+            "actual_white": 2,
+            "lost": 16
+          },
+          {
+            "tilt": 25.555557,
+            "roll": 11.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 27.777779,
+            "roll": 28.0,
+            "expected_white": 16,
+            "actual_white": 4,
+            "lost": 12
+          },
+          {
+            "tilt": 30.0,
+            "roll": 45.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 32.22222,
+            "roll": 62.0,
+            "expected_white": 18,
+            "actual_white": 10,
+            "lost": 8
+          },
+          {
+            "tilt": 34.444443,
+            "roll": 79.0,
+            "expected_white": 16,
+            "actual_white": 15,
+            "lost": 1
+          },
+          {
+            "tilt": 36.666664,
+            "roll": 96.0,
+            "expected_white": 16,
+            "actual_white": 8,
+            "lost": 8
+          },
+          {
+            "tilt": 38.888885,
+            "roll": 113.0,
+            "expected_white": 17,
+            "actual_white": 5,
+            "lost": 12
+          },
+          {
+            "tilt": 41.111115,
+            "roll": 130.0,
+            "expected_white": 15,
+            "actual_white": 10,
+            "lost": 5
+          },
+          {
+            "tilt": 43.333336,
+            "roll": 147.0,
+            "expected_white": 14,
+            "actual_white": 13,
+            "lost": 1
+          },
+          {
+            "tilt": 45.555557,
+            "roll": 164.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 47.77778,
+            "roll": 181.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 50.0,
+            "roll": 198.0,
+            "expected_white": 14,
+            "actual_white": 4,
+            "lost": 10
+          },
+          {
+            "tilt": 52.22222,
+            "roll": 215.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": 54.444443,
+            "roll": 232.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 56.666664,
+            "roll": 249.0,
+            "expected_white": 11,
+            "actual_white": 10,
+            "lost": 1
+          },
+          {
+            "tilt": 58.888885,
+            "roll": 266.0,
+            "expected_white": 7,
+            "actual_white": 0,
+            "lost": 7
+          },
+          {
+            "tilt": 61.111115,
+            "roll": 283.0,
+            "expected_white": 10,
+            "actual_white": 4,
+            "lost": 6
+          },
+          {
+            "tilt": 63.33333,
+            "roll": 300.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 65.55556,
+            "roll": 317.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 67.77777,
+            "roll": 334.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 70.0,
+            "roll": 351.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          }
+        ]
+      }
+    ],
+    "walking": [
+      {
+        "profile": 0,
+        "sample": 0,
+        "x": -10.0,
+        "z": 6.811721131850457,
+        "yaw": 180.0
+      },
+      {
+        "profile": 0,
+        "sample": 1,
+        "x": -9.966670125322599,
+        "z": -8.533065266719278,
+        "yaw": 183.0
+      },
+      {
+        "profile": 0,
+        "sample": 2,
+        "x": -9.589900084703896,
+        "z": -24.751338466336946,
+        "yaw": 186.0
+      },
+      {
+        "profile": 0,
+        "sample": 3,
+        "x": -7.876414722716103,
+        "z": -40.97500798521042,
+        "yaw": 189.0
+      },
+      {
+        "profile": 0,
+        "sample": 4,
+        "x": -5.246112299840914,
+        "z": -57.08742331739322,
+        "yaw": 192.0
+      },
+      {
+        "profile": 0,
+        "sample": 5,
+        "x": -1.7722090052321575,
+        "z": -73.04017923559907,
+        "yaw": 195.0
+      }
+    ],
+    "jar_sha256": "dc81fd27f63b3fa0b4d0278528f0703fd18cece1217285fcdab0310826c488dc"
+  },
+  "emitted_vertex_depth_checks": 256,
+  "cursor_visibility_angles": 256,
+  "input_caveat": "Real forward movement and turning use the running client. Viewport profiles use Linux software rendering; physical Apple Retina hardware was not tested.",
+  "host_options_list_unchanged": true,
+  "original_list_artwork": [
+    {
+      "path": "assets/legacyconsole/textures/lce/play/sd/list_button.png",
+      "sha256": "2b37a99aac59cf646c12ffd8ddd69215adc279baa5e6c16f84f7a5e54bfaa5b2"
+    },
+    {
+      "path": "assets/legacyconsole/textures/lce/play/hd/list_button.png",
+      "sha256": "3587438f6791773191a6458f510c79c6742cf79f00af9f27a1ef1d1337f3a493"
+    },
+    {
+      "path": "assets/legacyconsole/textures/lce/widgets/sd/list_button_selected.png",
+      "sha256": "0ddb9b4c0a8f83fcaeaf2368d8fec75811eb0e73d1ae9f7ff31bb01fb6cef7de"
+    },
+    {
+      "path": "assets/legacyconsole/textures/lce/widgets/hd/list_button_selected.png",
+      "sha256": "99e3907f4a9ac270b2554a3e15e5516b0fd1b931ff8ad64ce1a8f47a460c87c0"
+    }
+  ],
+  "runtime": {
+    "status": "passed",
+    "mod": "2.3.18",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Held and framed maps emit all 32 original PS4 icon-layer depths, including the first -0.04 plane; image remains -0.02",
+      "Map render sweep 0: 64 tilted/rotated views compared with an unobstructed cursor reference",
+      "Map render sweep 1: 64 tilted/rotated views compared with an unobstructed cursor reference",
+      "Map render sweep 2: 64 tilted/rotated views compared with an unobstructed cursor reference",
+      "Map render sweep 3: 64 tilted/rotated views compared with an unobstructed cursor reference",
+      "Real held-map packets retain the player cursor while walking and turning at 720p/1440p, shaders OFF and supplied LCE Look",
+      "World-select list artwork, selected state and 30-unit rows stay inside server player-list frames across seven viewport profiles; all 32 names remain reachable"
+    ],
+    "screenshots": [
+      {
+        "file": "map-walk-0-0.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "19c27a3a05084eb3a093ea2db12de1eacfdf381f4c45b8d51acb73773d3074e9"
+      },
+      {
+        "file": "map-walk-0-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "76b56c21e07159dcfbc2e1f852a89ac4091d8d1c7fe046719c4d87d30603ce73"
+      },
+      {
+        "file": "map-walk-0-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "d8b63bd05780810d3a9ddb61e2ad9edf81540544b9a098fb285304ff8abb2695"
+      },
+      {
+        "file": "map-walk-0-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "2c2077ac4b23ca290948078ca086bf11a3163176125c942f916bd17889af50e2"
+      },
+      {
+        "file": "map-walk-0-4.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "7bc1a7083349606d7250168229427fe93a0f49957c1ef3cd73d2b3dcaaf2b119"
+      },
+      {
+        "file": "map-walk-0-5.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "35337a4c65c71b51d9cd8dce47e91654f5463e625a427f81eca574b9d0996572"
+      },
+      {
+        "file": "map-walk-1-0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "57deb972751dc5539e967b6f0121db8170d5cf1efe9132a540c73c138dfba562"
+      },
+      {
+        "file": "map-walk-1-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "e0e60db25a5baae1172986bbaa0547f7b670e8596e95a6d44caf4f6263be0259"
+      },
+      {
+        "file": "map-walk-1-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "f08ef38398c62579e6943ec1d3f73415ac930c0210d85dc9de4e420301b79591"
+      },
+      {
+        "file": "map-walk-1-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "064585f0eddfb3a8b65a665c33c8d09c495244d088737c581d0c3974feb80d9d"
+      },
+      {
+        "file": "map-walk-1-4.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "45f2f1e6341016d28a2885d88b552a6f473f2103df3e1b1e46b446e3f7beb1fd"
+      },
+      {
+        "file": "map-walk-1-5.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "ea416b6198008c4072b64aa19c81800676faf39dbae86db8ee7b6011b0cba556"
+      },
+      {
+        "file": "map-walk-2-0.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "66865023b070b9ffae20ee46e9ef65622fea052ffd9cda30f0a7340ef70484af"
+      },
+      {
+        "file": "map-walk-2-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "bd6c7a75125afb60bc81cae9471175853a02396f72a930c3cb154eeb5e546fb5"
+      },
+      {
+        "file": "map-walk-2-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "955d356d05c2d00539a2b6db4362310e9dc21d7d3354e58eb4cdc4502766e80f"
+      },
+      {
+        "file": "map-walk-2-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "e2439483d8ed44d05660a413ba999caf661f4760b047c75f4bd8b1f02bd09163"
+      },
+      {
+        "file": "map-walk-2-4.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "702eb3a8277a7d3023268afc0e6d6de800591ef75581aca2e656cade78f5c93a"
+      },
+      {
+        "file": "map-walk-2-5.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "e8f782ad5ddd9cdf02da62559351d652df263c77abf7f7fd8c02d9a5bef800e3"
+      },
+      {
+        "file": "map-walk-3-0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "132de4f27687f461dca1cbc063d04da344b218293f635ff00b772e7ece61da40"
+      },
+      {
+        "file": "map-walk-3-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "842274b48da69c4d79545a63f08beab32345453ff40228a73a5c1b3120cc8049"
+      },
+      {
+        "file": "map-walk-3-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "26da1a613e67fc725656dd27d83a47bd3ed51153784e83500107e19f0744f69a"
+      },
+      {
+        "file": "map-walk-3-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "69788d1f893763029bc3cea21c56d8f4e8c81a2aea74d29f6210c1545c959e9f"
+      },
+      {
+        "file": "map-walk-3-4.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c671d95bf4688d263a7cadc7137ec8d02f7a52c01d894cbd8b2984eb21352c69"
+      },
+      {
+        "file": "map-walk-3-5.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "026e40f932872d438530d49aedc8bb732691e4f192f96d38470c716812385faf"
+      },
+      {
+        "file": "player-list-0.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "7fa983c682deeb6fc5ca2656046088d13a5109428a3545a1b1cb04b1688f315e"
+      },
+      {
+        "file": "player-list-1.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "9bf22da8ca5723c60c5a0d59375ea55eb9a06a9f9bf417ade58bd1995d0da6f0"
+      },
+      {
+        "file": "player-list-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "93479f256194f4a0780acbb4681b66c7ba33551209365ff0e513d0ff69b917f4"
+      },
+      {
+        "file": "player-list-3.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "76d4064822f4f9038dbeed1e5a798bd41bddcac2d4ea5c089da827af0cc9c8a5"
+      },
+      {
+        "file": "player-list-4.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "215ec33a6b805b805018847f18a0998afd5d89ff158d082a0aa2eca4c51c1060"
+      },
+      {
+        "file": "player-list-5.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "dcb930b5926d638c1c8ec8cf40a0bb6890d6c9c931613260a989624981621006"
+      },
+      {
+        "file": "player-list-6.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "4b858b367564240a410e9bcc98483147dfc65dfc02ba87e2b5218184df89a3b1"
+      }
+    ],
+    "render_sweeps": [
+      {
+        "profile": 0,
+        "shaders": false,
+        "angles": 64,
+        "frames_with_missing_pixels": 0,
+        "worst_lost_pixels": 0,
+        "frames": [
+          {
+            "tilt": -70.0,
+            "roll": 0.0,
+            "expected_white": 6,
+            "actual_white": 6,
+            "lost": 0
+          },
+          {
+            "tilt": -67.77778,
+            "roll": 17.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": -65.55556,
+            "roll": 34.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -63.333332,
+            "roll": 51.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -61.11111,
+            "roll": 68.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -58.88889,
+            "roll": 85.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -56.666668,
+            "roll": 102.0,
+            "expected_white": 11,
+            "actual_white": 11,
+            "lost": 0
+          },
+          {
+            "tilt": -54.444443,
+            "roll": 119.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -52.22222,
+            "roll": 136.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": -50.0,
+            "roll": 153.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": -47.77778,
+            "roll": 170.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -45.555557,
+            "roll": 187.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -43.333336,
+            "roll": 204.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -41.11111,
+            "roll": 221.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -38.88889,
+            "roll": 238.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -36.666668,
+            "roll": 255.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -34.444443,
+            "roll": 272.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -32.22222,
+            "roll": 289.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -30.0,
+            "roll": 306.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -27.777779,
+            "roll": 323.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -25.555557,
+            "roll": 340.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": -23.333332,
+            "roll": 357.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -21.11111,
+            "roll": 14.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -18.88889,
+            "roll": 31.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -16.666668,
+            "roll": 48.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": -14.444443,
+            "roll": 65.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -12.222221,
+            "roll": 82.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -10.0,
+            "roll": 99.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -7.7777786,
+            "roll": 116.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -5.5555573,
+            "roll": 133.0,
+            "expected_white": 22,
+            "actual_white": 22,
+            "lost": 0
+          },
+          {
+            "tilt": -3.3333359,
+            "roll": 150.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -1.1111145,
+            "roll": 167.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 1.1111145,
+            "roll": 184.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 3.3333359,
+            "roll": 201.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 5.5555573,
+            "roll": 218.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 7.7777786,
+            "roll": 235.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": 10.0,
+            "roll": 252.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 12.222221,
+            "roll": 269.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 14.444443,
+            "roll": 286.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 16.666664,
+            "roll": 303.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 18.888885,
+            "roll": 320.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": 21.111115,
+            "roll": 337.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": 23.333336,
+            "roll": 354.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 25.555557,
+            "roll": 11.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 27.777779,
+            "roll": 28.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 30.0,
+            "roll": 45.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 32.22222,
+            "roll": 62.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 34.444443,
+            "roll": 79.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 36.666664,
+            "roll": 96.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 38.888885,
+            "roll": 113.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 41.111115,
+            "roll": 130.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 43.333336,
+            "roll": 147.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": 45.555557,
+            "roll": 164.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 47.77778,
+            "roll": 181.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 50.0,
+            "roll": 198.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 52.22222,
+            "roll": 215.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 54.444443,
+            "roll": 232.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 56.666664,
+            "roll": 249.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 58.888885,
+            "roll": 266.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": 61.111115,
+            "roll": 283.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 63.33333,
+            "roll": 300.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 65.55556,
+            "roll": 317.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 67.77777,
+            "roll": 334.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 70.0,
+            "roll": 351.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          }
+        ]
+      },
+      {
+        "profile": 1,
+        "shaders": false,
+        "angles": 64,
+        "frames_with_missing_pixels": 0,
+        "worst_lost_pixels": 0,
+        "frames": [
+          {
+            "tilt": -70.0,
+            "roll": 0.0,
+            "expected_white": 6,
+            "actual_white": 6,
+            "lost": 0
+          },
+          {
+            "tilt": -67.77778,
+            "roll": 17.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": -65.55556,
+            "roll": 34.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -63.333332,
+            "roll": 51.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -61.11111,
+            "roll": 68.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -58.88889,
+            "roll": 85.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -56.666668,
+            "roll": 102.0,
+            "expected_white": 11,
+            "actual_white": 11,
+            "lost": 0
+          },
+          {
+            "tilt": -54.444443,
+            "roll": 119.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -52.22222,
+            "roll": 136.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": -50.0,
+            "roll": 153.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": -47.77778,
+            "roll": 170.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -45.555557,
+            "roll": 187.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -43.333336,
+            "roll": 204.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -41.11111,
+            "roll": 221.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -38.88889,
+            "roll": 238.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -36.666668,
+            "roll": 255.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -34.444443,
+            "roll": 272.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -32.22222,
+            "roll": 289.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -30.0,
+            "roll": 306.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -27.777779,
+            "roll": 323.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -25.555557,
+            "roll": 340.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": -23.333332,
+            "roll": 357.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -21.11111,
+            "roll": 14.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -18.88889,
+            "roll": 31.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -16.666668,
+            "roll": 48.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": -14.444443,
+            "roll": 65.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -12.222221,
+            "roll": 82.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -10.0,
+            "roll": 99.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -7.7777786,
+            "roll": 116.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -5.5555573,
+            "roll": 133.0,
+            "expected_white": 22,
+            "actual_white": 22,
+            "lost": 0
+          },
+          {
+            "tilt": -3.3333359,
+            "roll": 150.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -1.1111145,
+            "roll": 167.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 1.1111145,
+            "roll": 184.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 3.3333359,
+            "roll": 201.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 5.5555573,
+            "roll": 218.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 7.7777786,
+            "roll": 235.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": 10.0,
+            "roll": 252.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 12.222221,
+            "roll": 269.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 14.444443,
+            "roll": 286.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 16.666664,
+            "roll": 303.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 18.888885,
+            "roll": 320.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": 21.111115,
+            "roll": 337.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": 23.333336,
+            "roll": 354.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 25.555557,
+            "roll": 11.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 27.777779,
+            "roll": 28.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 30.0,
+            "roll": 45.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 32.22222,
+            "roll": 62.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 34.444443,
+            "roll": 79.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 36.666664,
+            "roll": 96.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 38.888885,
+            "roll": 113.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 41.111115,
+            "roll": 130.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 43.333336,
+            "roll": 147.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": 45.555557,
+            "roll": 164.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 47.77778,
+            "roll": 181.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 50.0,
+            "roll": 198.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 52.22222,
+            "roll": 215.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 54.444443,
+            "roll": 232.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 56.666664,
+            "roll": 249.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 58.888885,
+            "roll": 266.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": 61.111115,
+            "roll": 283.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 63.33333,
+            "roll": 300.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 65.55556,
+            "roll": 317.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 67.77777,
+            "roll": 334.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 70.0,
+            "roll": 351.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          }
+        ]
+      },
+      {
+        "profile": 2,
+        "shaders": true,
+        "angles": 64,
+        "frames_with_missing_pixels": 0,
+        "worst_lost_pixels": 0,
+        "frames": [
+          {
+            "tilt": -70.0,
+            "roll": 0.0,
+            "expected_white": 6,
+            "actual_white": 6,
+            "lost": 0
+          },
+          {
+            "tilt": -67.77778,
+            "roll": 17.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": -65.55556,
+            "roll": 34.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -63.333332,
+            "roll": 51.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -61.11111,
+            "roll": 68.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -58.88889,
+            "roll": 85.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -56.666668,
+            "roll": 102.0,
+            "expected_white": 11,
+            "actual_white": 11,
+            "lost": 0
+          },
+          {
+            "tilt": -54.444443,
+            "roll": 119.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -52.22222,
+            "roll": 136.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": -50.0,
+            "roll": 153.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": -47.77778,
+            "roll": 170.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -45.555557,
+            "roll": 187.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -43.333336,
+            "roll": 204.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -41.11111,
+            "roll": 221.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -38.88889,
+            "roll": 238.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -36.666668,
+            "roll": 255.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -34.444443,
+            "roll": 272.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -32.22222,
+            "roll": 289.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -30.0,
+            "roll": 306.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -27.777779,
+            "roll": 323.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -25.555557,
+            "roll": 340.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": -23.333332,
+            "roll": 357.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -21.11111,
+            "roll": 14.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -18.88889,
+            "roll": 31.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -16.666668,
+            "roll": 48.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": -14.444443,
+            "roll": 65.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -12.222221,
+            "roll": 82.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -10.0,
+            "roll": 99.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -7.7777786,
+            "roll": 116.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -5.5555573,
+            "roll": 133.0,
+            "expected_white": 22,
+            "actual_white": 22,
+            "lost": 0
+          },
+          {
+            "tilt": -3.3333359,
+            "roll": 150.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -1.1111145,
+            "roll": 167.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 1.1111145,
+            "roll": 184.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 3.3333359,
+            "roll": 201.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 5.5555573,
+            "roll": 218.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 7.7777786,
+            "roll": 235.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": 10.0,
+            "roll": 252.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 12.222221,
+            "roll": 269.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 14.444443,
+            "roll": 286.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 16.666664,
+            "roll": 303.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 18.888885,
+            "roll": 320.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": 21.111115,
+            "roll": 337.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": 23.333336,
+            "roll": 354.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 25.555557,
+            "roll": 11.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 27.777779,
+            "roll": 28.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 30.0,
+            "roll": 45.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 32.22222,
+            "roll": 62.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 34.444443,
+            "roll": 79.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 36.666664,
+            "roll": 96.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 38.888885,
+            "roll": 113.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 41.111115,
+            "roll": 130.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 43.333336,
+            "roll": 147.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": 45.555557,
+            "roll": 164.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 47.77778,
+            "roll": 181.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 50.0,
+            "roll": 198.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 52.22222,
+            "roll": 215.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 54.444443,
+            "roll": 232.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 56.666664,
+            "roll": 249.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 58.888885,
+            "roll": 266.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": 61.111115,
+            "roll": 283.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 63.33333,
+            "roll": 300.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 65.55556,
+            "roll": 317.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 67.77777,
+            "roll": 334.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 70.0,
+            "roll": 351.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          }
+        ]
+      },
+      {
+        "profile": 3,
+        "shaders": true,
+        "angles": 64,
+        "frames_with_missing_pixels": 0,
+        "worst_lost_pixels": 0,
+        "frames": [
+          {
+            "tilt": -70.0,
+            "roll": 0.0,
+            "expected_white": 6,
+            "actual_white": 6,
+            "lost": 0
+          },
+          {
+            "tilt": -67.77778,
+            "roll": 17.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": -65.55556,
+            "roll": 34.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -63.333332,
+            "roll": 51.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -61.11111,
+            "roll": 68.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -58.88889,
+            "roll": 85.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": -56.666668,
+            "roll": 102.0,
+            "expected_white": 11,
+            "actual_white": 11,
+            "lost": 0
+          },
+          {
+            "tilt": -54.444443,
+            "roll": 119.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": -52.22222,
+            "roll": 136.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": -50.0,
+            "roll": 153.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": -47.77778,
+            "roll": 170.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -45.555557,
+            "roll": 187.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -43.333336,
+            "roll": 204.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -41.11111,
+            "roll": 221.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": -38.88889,
+            "roll": 238.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -36.666668,
+            "roll": 255.0,
+            "expected_white": 15,
+            "actual_white": 15,
+            "lost": 0
+          },
+          {
+            "tilt": -34.444443,
+            "roll": 272.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -32.22222,
+            "roll": 289.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -30.0,
+            "roll": 306.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -27.777779,
+            "roll": 323.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -25.555557,
+            "roll": 340.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": -23.333332,
+            "roll": 357.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -21.11111,
+            "roll": 14.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": -18.88889,
+            "roll": 31.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -16.666668,
+            "roll": 48.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": -14.444443,
+            "roll": 65.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -12.222221,
+            "roll": 82.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -10.0,
+            "roll": 99.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -7.7777786,
+            "roll": 116.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": -5.5555573,
+            "roll": 133.0,
+            "expected_white": 22,
+            "actual_white": 22,
+            "lost": 0
+          },
+          {
+            "tilt": -3.3333359,
+            "roll": 150.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": -1.1111145,
+            "roll": 167.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 1.1111145,
+            "roll": 184.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 3.3333359,
+            "roll": 201.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 5.5555573,
+            "roll": 218.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 7.7777786,
+            "roll": 235.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": 10.0,
+            "roll": 252.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 12.222221,
+            "roll": 269.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 14.444443,
+            "roll": 286.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 16.666664,
+            "roll": 303.0,
+            "expected_white": 19,
+            "actual_white": 19,
+            "lost": 0
+          },
+          {
+            "tilt": 18.888885,
+            "roll": 320.0,
+            "expected_white": 21,
+            "actual_white": 21,
+            "lost": 0
+          },
+          {
+            "tilt": 21.111115,
+            "roll": 337.0,
+            "expected_white": 17,
+            "actual_white": 17,
+            "lost": 0
+          },
+          {
+            "tilt": 23.333336,
+            "roll": 354.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 25.555557,
+            "roll": 11.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 27.777779,
+            "roll": 28.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 30.0,
+            "roll": 45.0,
+            "expected_white": 20,
+            "actual_white": 20,
+            "lost": 0
+          },
+          {
+            "tilt": 32.22222,
+            "roll": 62.0,
+            "expected_white": 18,
+            "actual_white": 18,
+            "lost": 0
+          },
+          {
+            "tilt": 34.444443,
+            "roll": 79.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 36.666664,
+            "roll": 96.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 38.888885,
+            "roll": 113.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 41.111115,
+            "roll": 130.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 43.333336,
+            "roll": 147.0,
+            "expected_white": 13,
+            "actual_white": 13,
+            "lost": 0
+          },
+          {
+            "tilt": 45.555557,
+            "roll": 164.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 47.77778,
+            "roll": 181.0,
+            "expected_white": 16,
+            "actual_white": 16,
+            "lost": 0
+          },
+          {
+            "tilt": 50.0,
+            "roll": 198.0,
+            "expected_white": 14,
+            "actual_white": 14,
+            "lost": 0
+          },
+          {
+            "tilt": 52.22222,
+            "roll": 215.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 54.444443,
+            "roll": 232.0,
+            "expected_white": 12,
+            "actual_white": 12,
+            "lost": 0
+          },
+          {
+            "tilt": 56.666664,
+            "roll": 249.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 58.888885,
+            "roll": 266.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          },
+          {
+            "tilt": 61.111115,
+            "roll": 283.0,
+            "expected_white": 10,
+            "actual_white": 10,
+            "lost": 0
+          },
+          {
+            "tilt": 63.33333,
+            "roll": 300.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 65.55556,
+            "roll": 317.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 67.77777,
+            "roll": 334.0,
+            "expected_white": 8,
+            "actual_white": 8,
+            "lost": 0
+          },
+          {
+            "tilt": 70.0,
+            "roll": 351.0,
+            "expected_white": 7,
+            "actual_white": 7,
+            "lost": 0
+          }
+        ]
+      }
+    ],
+    "walking": [
+      {
+        "profile": 0,
+        "sample": 0,
+        "x": -10.0,
+        "z": 6.811721131850457,
+        "yaw": 180.0
+      },
+      {
+        "profile": 0,
+        "sample": 1,
+        "x": -9.966670125322599,
+        "z": -8.533065266719278,
+        "yaw": 183.0
+      },
+      {
+        "profile": 0,
+        "sample": 2,
+        "x": -9.589900084703896,
+        "z": -24.751338466336946,
+        "yaw": 186.0
+      },
+      {
+        "profile": 0,
+        "sample": 3,
+        "x": -7.876414722716103,
+        "z": -40.97500798521042,
+        "yaw": 189.0
+      },
+      {
+        "profile": 0,
+        "sample": 4,
+        "x": -5.246112299840914,
+        "z": -57.08742331739322,
+        "yaw": 192.0
+      },
+      {
+        "profile": 0,
+        "sample": 5,
+        "x": -1.7722090052321575,
+        "z": -73.04017923559907,
+        "yaw": 195.0
+      },
+      {
+        "profile": 1,
+        "sample": 0,
+        "x": -10.0,
+        "z": 6.811721131850457,
+        "yaw": 180.0
+      },
+      {
+        "profile": 1,
+        "sample": 1,
+        "x": -9.966670125322599,
+        "z": -7.997206341267602,
+        "yaw": 183.0
+      },
+      {
+        "profile": 1,
+        "sample": 2,
+        "x": -9.589900084703896,
+        "z": -24.207400855868336,
+        "yaw": 186.0
+      },
+      {
+        "profile": 1,
+        "sample": 3,
+        "x": -7.820415838382336,
+        "z": -40.97206284432831,
+        "yaw": 189.0
+      },
+      {
+        "profile": 1,
+        "sample": 4,
+        "x": -5.189269168399663,
+        "z": -57.08444435447858,
+        "yaw": 192.0
+      },
+      {
+        "profile": 1,
+        "sample": 5,
+        "x": -1.489877325611654,
+        "z": -74.10246728659618,
+        "yaw": 195.0
+      },
+      {
+        "profile": 2,
+        "sample": 0,
+        "x": -10.0,
+        "z": 6.811721131850457,
+        "yaw": 180.0
+      },
+      {
+        "profile": 2,
+        "sample": 1,
+        "x": -9.966670125322599,
+        "z": -7.997206341267602,
+        "yaw": 183.0
+      },
+      {
+        "profile": 2,
+        "sample": 2,
+        "x": -9.589900084703896,
+        "z": -24.207400855868336,
+        "yaw": 186.0
+      },
+      {
+        "profile": 2,
+        "sample": 3,
+        "x": -7.876414722716103,
+        "z": -40.43059330395811,
+        "yaw": 189.0
+      },
+      {
+        "profile": 2,
+        "sample": 4,
+        "x": -5.246112299840914,
+        "z": -56.54298046366827,
+        "yaw": 192.0
+      },
+      {
+        "profile": 2,
+        "sample": 5,
+        "x": -1.6595111363784005,
+        "z": -73.02837306671032,
+        "yaw": 195.0
+      },
+      {
+        "profile": 3,
+        "sample": 0,
+        "x": -10.0,
+        "z": 6.811721131850457,
+        "yaw": 180.0
+      },
+      {
+        "profile": 3,
+        "sample": 1,
+        "x": -9.966670125322599,
+        "z": -8.533065266719278,
+        "yaw": 183.0
+      },
+      {
+        "profile": 3,
+        "sample": 2,
+        "x": -9.584772411676603,
+        "z": -25.837877403450417,
+        "yaw": 186.0
+      },
+      {
+        "profile": 3,
+        "sample": 3,
+        "x": -7.7592085302249965,
+        "z": -43.14530738782054,
+        "yaw": 189.0
+      },
+      {
+        "profile": 3,
+        "sample": 4,
+        "x": -4.873185837124174,
+        "z": -60.871143532645014,
+        "yaw": 192.0
+      },
+      {
+        "profile": 3,
+        "sample": 5,
+        "x": -1.1724735919382956,
+        "z": -77.88901550406914,
+        "yaw": 195.0
+      }
+    ]
+  }
+}

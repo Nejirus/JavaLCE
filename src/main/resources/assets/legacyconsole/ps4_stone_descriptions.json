@@ -1,0 +1,58 @@
+[
+  {
+    "native_id": 1,
+    "aux": 0,
+    "description_hash": "46782239",
+    "name_hash": "8bad4dac",
+    "text": "Can be mined with a pickaxe to collect cobblestone.",
+    "allocation_pc": "0x67f214"
+  },
+  {
+    "native_id": 1,
+    "aux": 1,
+    "description_hash": "91114554",
+    "name_hash": "19244f91",
+    "text": "Can be mined with a pickaxe to collect granite.",
+    "allocation_pc": "0x67f33e"
+  },
+  {
+    "native_id": 1,
+    "aux": 2,
+    "description_hash": "25e3fdc3",
+    "name_hash": "567cedee",
+    "text": "Can be crafted from granite for a polished look.",
+    "allocation_pc": "0x67f45f"
+  },
+  {
+    "native_id": 1,
+    "aux": 3,
+    "description_hash": "05e93db6",
+    "name_hash": "77f221b3",
+    "text": "Can be mined with a pickaxe to collect diorite.",
+    "allocation_pc": "0x67f579"
+  },
+  {
+    "native_id": 1,
+    "aux": 4,
+    "description_hash": "2a4cccf1",
+    "name_hash": "f1c0b35c",
+    "text": "Can be crafted from diorite for a polished look.",
+    "allocation_pc": "0x67f69a"
+  },
+  {
+    "native_id": 1,
+    "aux": 5,
+    "description_hash": "f2a753fb",
+    "name_hash": "bd013dc6",
+    "text": "Can be mined with a pickaxe to collect andesite.",
+    "allocation_pc": "0x67f7b4"
+  },
+  {
+    "native_id": 1,
+    "aux": 6,
+    "description_hash": "47be1614",
+    "name_hash": "1bb05261",
+    "text": "Can be crafted from andesite for a polished look.",
+    "allocation_pc": "0x67f8d7"
+  }
+]

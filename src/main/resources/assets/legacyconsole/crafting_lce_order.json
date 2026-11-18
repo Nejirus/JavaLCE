@@ -1,0 +1,601 @@
+{
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "source": "Minecraft.World/Recipes.cpp",
+  "order": [
+    {
+      "id": 5,
+      "meta": 0,
+      "symbol": "Tile::wood"
+    },
+    {
+      "id": 5,
+      "meta": 2,
+      "symbol": "Tile::wood"
+    },
+    {
+      "id": 5,
+      "meta": 1,
+      "symbol": "Tile::wood"
+    },
+    {
+      "id": 5,
+      "meta": 3,
+      "symbol": "Tile::wood"
+    },
+    {
+      "id": 280,
+      "meta": 0,
+      "symbol": "Item::stick"
+    },
+    {
+      "id": 359,
+      "meta": 0,
+      "symbol": "Item::shears"
+    },
+    {
+      "id": 322,
+      "meta": 0,
+      "symbol": "Item::apple_gold"
+    },
+    {
+      "id": 282,
+      "meta": 0,
+      "symbol": "Item::mushroomStew"
+    },
+    {
+      "id": 357,
+      "meta": 0,
+      "symbol": "Item::cookie"
+    },
+    {
+      "id": 103,
+      "meta": 0,
+      "symbol": "Tile::melon"
+    },
+    {
+      "id": 362,
+      "meta": 0,
+      "symbol": "Item::seeds_melon"
+    },
+    {
+      "id": 361,
+      "meta": 0,
+      "symbol": "Item::seeds_pumpkin"
+    },
+    {
+      "id": 400,
+      "meta": 0,
+      "symbol": "Item::pumpkinPie"
+    },
+    {
+      "id": 322,
+      "meta": 1,
+      "symbol": "Item::apple_gold"
+    },
+    {
+      "id": 396,
+      "meta": 0,
+      "symbol": "Item::carrotGolden"
+    },
+    {
+      "id": 376,
+      "meta": 0,
+      "symbol": "Item::fermentedSpiderEye"
+    },
+    {
+      "id": 382,
+      "meta": 0,
+      "symbol": "Item::speckledMelon"
+    },
+    {
+      "id": 377,
+      "meta": 0,
+      "symbol": "Item::blazePowder"
+    },
+    {
+      "id": 378,
+      "meta": 0,
+      "symbol": "Item::magmaCream"
+    },
+    {
+      "id": 24,
+      "meta": 0,
+      "symbol": "Tile::sandStone"
+    },
+    {
+      "id": 24,
+      "meta": 2,
+      "symbol": "Tile::sandStone"
+    },
+    {
+      "id": 24,
+      "meta": 1,
+      "symbol": "Tile::sandStone"
+    },
+    {
+      "id": 155,
+      "meta": 1,
+      "symbol": "Tile::quartzBlock"
+    },
+    {
+      "id": 155,
+      "meta": 2,
+      "symbol": "Tile::quartzBlock"
+    },
+    {
+      "id": 58,
+      "meta": 0,
+      "symbol": "Tile::workBench"
+    },
+    {
+      "id": 61,
+      "meta": 0,
+      "symbol": "Tile::furnace"
+    },
+    {
+      "id": 54,
+      "meta": 0,
+      "symbol": "Tile::chest"
+    },
+    {
+      "id": 130,
+      "meta": 0,
+      "symbol": "Tile::enderChest"
+    },
+    {
+      "id": 98,
+      "meta": 0,
+      "symbol": "Tile::stoneBrickSmooth"
+    },
+    {
+      "id": 102,
+      "meta": 0,
+      "symbol": "Tile::thinGlass"
+    },
+    {
+      "id": 112,
+      "meta": 0,
+      "symbol": "Tile::netherBrick"
+    },
+    {
+      "id": 123,
+      "meta": 0,
+      "symbol": "Tile::redstoneLight"
+    },
+    {
+      "id": 355,
+      "meta": 0,
+      "symbol": "Item::bed"
+    },
+    {
+      "id": 116,
+      "meta": 0,
+      "symbol": "Tile::enchantTable"
+    },
+    {
+      "id": 145,
+      "meta": 0,
+      "symbol": "Tile::anvil"
+    },
+    {
+      "id": 65,
+      "meta": 0,
+      "symbol": "Tile::ladder"
+    },
+    {
+      "id": 107,
+      "meta": 0,
+      "symbol": "Tile::fenceGate"
+    },
+    {
+      "id": 85,
+      "meta": 0,
+      "symbol": "Tile::fence"
+    },
+    {
+      "id": 113,
+      "meta": 0,
+      "symbol": "Tile::netherFence"
+    },
+    {
+      "id": 101,
+      "meta": 0,
+      "symbol": "Tile::ironFence"
+    },
+    {
+      "id": 139,
+      "meta": 0,
+      "symbol": "Tile::cobbleWall"
+    },
+    {
+      "id": 139,
+      "meta": 1,
+      "symbol": "Tile::cobbleWall"
+    },
+    {
+      "id": 324,
+      "meta": 0,
+      "symbol": "Item::door_wood"
+    },
+    {
+      "id": 330,
+      "meta": 0,
+      "symbol": "Item::door_iron"
+    },
+    {
+      "id": 53,
+      "meta": 0,
+      "symbol": "Tile::stairs_wood"
+    },
+    {
+      "id": 96,
+      "meta": 0,
+      "symbol": "Tile::trapdoor"
+    },
+    {
+      "id": 67,
+      "meta": 0,
+      "symbol": "Tile::stairs_stone"
+    },
+    {
+      "id": 108,
+      "meta": 0,
+      "symbol": "Tile::stairs_bricks"
+    },
+    {
+      "id": 109,
+      "meta": 0,
+      "symbol": "Tile::stairs_stoneBrickSmooth"
+    },
+    {
+      "id": 114,
+      "meta": 0,
+      "symbol": "Tile::stairs_netherBricks"
+    },
+    {
+      "id": 128,
+      "meta": 0,
+      "symbol": "Tile::stairs_sandstone"
+    },
+    {
+      "id": 156,
+      "meta": 0,
+      "symbol": "Tile::stairs_quartz"
+    },
+    {
+      "id": 35,
+      "meta": 0,
+      "symbol": "Tile::cloth"
+    },
+    {
+      "id": 351,
+      "meta": 0,
+      "symbol": "Item::dye_powder"
+    },
+    {
+      "id": 171,
+      "meta": 0,
+      "symbol": "Tile::woolCarpet"
+    },
+    {
+      "id": 80,
+      "meta": 0,
+      "symbol": "Tile::snow"
+    },
+    {
+      "id": 82,
+      "meta": 0,
+      "symbol": "Tile::clay"
+    },
+    {
+      "id": 45,
+      "meta": 0,
+      "symbol": "Tile::redBrick"
+    },
+    {
+      "id": 46,
+      "meta": 0,
+      "symbol": "Tile::tnt"
+    },
+    {
+      "id": 44,
+      "meta": 1,
+      "symbol": "Tile::stoneSlabHalf"
+    },
+    {
+      "id": 44,
+      "meta": 0,
+      "symbol": "Tile::stoneSlabHalf"
+    },
+    {
+      "id": 44,
+      "meta": 3,
+      "symbol": "Tile::stoneSlabHalf"
+    },
+    {
+      "id": 44,
+      "meta": 4,
+      "symbol": "Tile::stoneSlabHalf"
+    },
+    {
+      "id": 44,
+      "meta": 5,
+      "symbol": "Tile::stoneSlabHalf"
+    },
+    {
+      "id": 44,
+      "meta": 6,
+      "symbol": "Tile::stoneSlabHalf"
+    },
+    {
+      "id": 44,
+      "meta": 7,
+      "symbol": "Tile::stoneSlabHalf"
+    },
+    {
+      "id": 126,
+      "meta": 0,
+      "symbol": "Tile::woodSlabHalf"
+    },
+    {
+      "id": 126,
+      "meta": 2,
+      "symbol": "Tile::woodSlabHalf"
+    },
+    {
+      "id": 126,
+      "meta": 1,
+      "symbol": "Tile::woodSlabHalf"
+    },
+    {
+      "id": 126,
+      "meta": 3,
+      "symbol": "Tile::woodSlabHalf"
+    },
+    {
+      "id": 354,
+      "meta": 0,
+      "symbol": "Item::cake"
+    },
+    {
+      "id": 353,
+      "meta": 0,
+      "symbol": "Item::sugar"
+    },
+    {
+      "id": 66,
+      "meta": 0,
+      "symbol": "Tile::rail"
+    },
+    {
+      "id": 27,
+      "meta": 0,
+      "symbol": "Tile::goldenRail"
+    },
+    {
+      "id": 28,
+      "meta": 0,
+      "symbol": "Tile::detectorRail"
+    },
+    {
+      "id": 328,
+      "meta": 0,
+      "symbol": "Item::minecart"
+    },
+    {
+      "id": 342,
+      "meta": 0,
+      "symbol": "Item::minecart_chest"
+    },
+    {
+      "id": 343,
+      "meta": 0,
+      "symbol": "Item::minecart_furnace"
+    },
+    {
+      "id": 333,
+      "meta": 0,
+      "symbol": "Item::boat"
+    },
+    {
+      "id": 346,
+      "meta": 0,
+      "symbol": "Item::fishingRod"
+    },
+    {
+      "id": 398,
+      "meta": 0,
+      "symbol": "Item::carrotOnAStick"
+    },
+    {
+      "id": 259,
+      "meta": 0,
+      "symbol": "Item::flintAndSteel"
+    },
+    {
+      "id": 297,
+      "meta": 0,
+      "symbol": "Item::bread"
+    },
+    {
+      "id": 261,
+      "meta": 0,
+      "symbol": "Item::bow"
+    },
+    {
+      "id": 262,
+      "meta": 0,
+      "symbol": "Item::arrow"
+    },
+    {
+      "id": 325,
+      "meta": 0,
+      "symbol": "Item::bucket_empty"
+    },
+    {
+      "id": 281,
+      "meta": 0,
+      "symbol": "Item::bowl"
+    },
+    {
+      "id": 374,
+      "meta": 0,
+      "symbol": "Item::glassBottle"
+    },
+    {
+      "id": 390,
+      "meta": 0,
+      "symbol": "Item::flowerPot"
+    },
+    {
+      "id": 50,
+      "meta": 0,
+      "symbol": "Tile::torch"
+    },
+    {
+      "id": 89,
+      "meta": 0,
+      "symbol": "Tile::lightGem"
+    },
+    {
+      "id": 155,
+      "meta": 0,
+      "symbol": "Tile::quartzBlock"
+    },
+    {
+      "id": 69,
+      "meta": 0,
+      "symbol": "Tile::lever"
+    },
+    {
+      "id": 131,
+      "meta": 0,
+      "symbol": "Tile::tripWireSource"
+    },
+    {
+      "id": 76,
+      "meta": 0,
+      "symbol": "Tile::notGate_on"
+    },
+    {
+      "id": 356,
+      "meta": 0,
+      "symbol": "Item::diode"
+    },
+    {
+      "id": 347,
+      "meta": 0,
+      "symbol": "Item::clock"
+    },
+    {
+      "id": 381,
+      "meta": 0,
+      "symbol": "Item::eyeOfEnder"
+    },
+    {
+      "id": 385,
+      "meta": 0,
+      "symbol": "Item::fireball"
+    },
+    {
+      "id": 345,
+      "meta": 0,
+      "symbol": "Item::compass"
+    },
+    {
+      "id": 358,
+      "meta": 0,
+      "symbol": "Item::map"
+    },
+    {
+      "id": 143,
+      "meta": 0,
+      "symbol": "Tile::button_wood"
+    },
+    {
+      "id": 72,
+      "meta": 0,
+      "symbol": "Tile::pressurePlate_wood"
+    },
+    {
+      "id": 70,
+      "meta": 0,
+      "symbol": "Tile::pressurePlate_stone"
+    },
+    {
+      "id": 23,
+      "meta": 0,
+      "symbol": "Tile::dispenser"
+    },
+    {
+      "id": 380,
+      "meta": 0,
+      "symbol": "Item::cauldron"
+    },
+    {
+      "id": 379,
+      "meta": 0,
+      "symbol": "Item::brewingStand"
+    },
+    {
+      "id": 91,
+      "meta": 0,
+      "symbol": "Tile::litPumpkin"
+    },
+    {
+      "id": 84,
+      "meta": 0,
+      "symbol": "Tile::recordPlayer"
+    },
+    {
+      "id": 339,
+      "meta": 0,
+      "symbol": "Item::paper"
+    },
+    {
+      "id": 340,
+      "meta": 0,
+      "symbol": "Item::book"
+    },
+    {
+      "id": 25,
+      "meta": 0,
+      "symbol": "Tile::musicBlock"
+    },
+    {
+      "id": 47,
+      "meta": 0,
+      "symbol": "Tile::bookshelf"
+    },
+    {
+      "id": 321,
+      "meta": 0,
+      "symbol": "Item::painting"
+    },
+    {
+      "id": 266,
+      "meta": 0,
+      "symbol": "Item::goldIngot"
+    },
+    {
+      "id": 371,
+      "meta": 0,
+      "symbol": "Item::goldNugget"
+    },
+    {
+      "id": 323,
+      "meta": 0,
+      "symbol": "Item::sign"
+    },
+    {
+      "id": 33,
+      "meta": 0,
+      "symbol": "Tile::pistonBase"
+    },
+    {
+      "id": 29,
+      "meta": 0,
+      "symbol": "Tile::pistonStickyBase"
+    }
+  ]
+}

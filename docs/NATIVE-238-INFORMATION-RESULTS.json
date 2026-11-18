@@ -1,0 +1,618 @@
+{
+  "environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "renderer": "llvmpipe"
+  },
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Square cycles Inventory / Description / Ingredients; crafting still validates and consumes exactly three planks and two sticks",
+      "Inventory hover keeps the name tooltip; R2 opens the original upper-right information popup with Hints Off",
+      "Every explicit glyph setting overrides a differently named controller; Automatic resolves PS3, PS4, Xbox 360 and Xbox One",
+      "All seven SD/HD glyph families render the existing layered assets inside original tutorial text with shaders OFF and LCE Look"
+    ],
+    "screenshots": [
+      {
+        "file": "off-crafting-0-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "cd6a4a0353288123f4a1495e7f742d2f7c73035374b59c9bc951574857802153"
+      },
+      {
+        "file": "off-crafting-1-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "21d912312c63bf76c3580ca4a7e7233497ced47107e74b8492eb34f0587e036d"
+      },
+      {
+        "file": "off-crafting-2-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "35b3a3f7a84f95fce9fedc9490c78af3e713c0b38272f14c55c7a216a7f9f36c"
+      },
+      {
+        "file": "off-crafting-0-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "a27055f860c9450d2628af4bcc5d2b521b76eb52440c3909bcc85def860e37ac"
+      },
+      {
+        "file": "off-crafting-1-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "e763ff4009950570d53896bf647518fd98108eb86ab4a2c69afe052feaab3f8b"
+      },
+      {
+        "file": "off-crafting-2-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "d02bdf26c75ad6e876cd8239834a74616f30702814731e8895fed6a932f60cca"
+      },
+      {
+        "file": "off-crafting-0-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "c7091437e18b16bb4b4f4d642bb35bb490d182551d49ae0f498806cdbb6e1637"
+      },
+      {
+        "file": "off-crafting-1-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "a9344ea1df12c3df679d561796dc718e40283875ff911109230d12ec0ccdef74"
+      },
+      {
+        "file": "off-crafting-2-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "21f0ce88d86082a89260f2ffdc8874df497c772cf70f6a5a20a8dffbf44a5233"
+      },
+      {
+        "file": "off-crafting-0-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "415ceb062bdf3b3593419d55bfa79da57ad49a3747e806be0801c9c5da09e9bd"
+      },
+      {
+        "file": "off-crafting-1-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "5f0648ff7c09e08eb9e303a46943d74ca48ae6e6ee883bc580234f004a440bac"
+      },
+      {
+        "file": "off-crafting-2-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "a4b47ae82940a1462b8a59073e0f6b9b34bb54074560a88c7c1dbee42ec493dd"
+      },
+      {
+        "file": "off-crafting-0-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "9e7bd229a933979086e0fff4dfeb63cbae8d0296623c142b28a3754560ada030"
+      },
+      {
+        "file": "off-crafting-1-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "babb0a7a8d1b2553b18455908bd8ba382e422bbc3f200d96fe7e4d05fc3eb104"
+      },
+      {
+        "file": "off-crafting-2-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "e071a503a98a2c6a409df43f69235c6ac4eb804e4b6b2505bbeb5fe44e88cdef"
+      },
+      {
+        "file": "off-crafting-0-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "0945ff4aed1d1753b9c23539b9af58f18b75dcc7dacb0d69de3d8981a2d0d9f1"
+      },
+      {
+        "file": "off-crafting-1-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "efc4e4c224a273968b4f84c6b7dca7882d497a93761c1e56d38a44b3b5f1a9ab"
+      },
+      {
+        "file": "off-crafting-2-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "9428fe6f588c8047b298dcce2b2e4678e4e930c56129939fc0b1b13d2e7fa17a"
+      },
+      {
+        "file": "off-crafting-0-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "bd6aabfca8347ccc7f40bb1c3163f84fb3df97e4e2531ba95988893bb9d1f208"
+      },
+      {
+        "file": "off-crafting-1-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "c48e89a996520a94f22b8e6458e112e35991c560c1c586209379e465b48673f4"
+      },
+      {
+        "file": "off-crafting-2-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "324fdcfa97da33d75e430e477b6d883091a25ce2833dbdb7ea524a19165f312c"
+      },
+      {
+        "file": "off-crafting-0-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "23aad139f76795ede58081e32ea93ebe32050be80e6426cd6af368cf2c3f6bb9"
+      },
+      {
+        "file": "off-crafting-1-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "c0154e23bd4e4066abe8634f781d9e442348986ec71c75905485ddaad5e645ae"
+      },
+      {
+        "file": "off-crafting-2-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "3068156f160ae02bc0e054a8d42fd7600d5d3fefc92f213cc035afdbf53a31ee"
+      },
+      {
+        "file": "look-crafting-0-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "3d8e6ba5745cea105c1f8749cf178c83bd3eb334cd73e5c7b4c92c6cd2655474"
+      },
+      {
+        "file": "look-crafting-1-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "bde2db2700e692124bb4547d40326513cbb16200da613b65e7bfc8fa33633401"
+      },
+      {
+        "file": "look-crafting-2-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "0156cd82de1ee3dcc8a932b6a760dcc4514a598c085c0bb935801e2f9ed1f7f6"
+      },
+      {
+        "file": "look-crafting-0-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": true,
+        "sha256": "e15b18b8c3d9a3e5d72888bac87e02bbc584baaa6916300434a9bca107e2f50d"
+      },
+      {
+        "file": "look-crafting-1-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": true,
+        "sha256": "01ec137010758c51afe6ff572530fff51f16066e5e49ff146aadd6c52d0964e0"
+      },
+      {
+        "file": "look-crafting-2-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": true,
+        "sha256": "0484bcb142e9c55a3befaf7202da0cf0f08ceb436bde0b9773b2ebb90a298313"
+      },
+      {
+        "file": "look-crafting-0-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "b7af2b0990ad5e26a22ac60294546a0fcb6f28b7611c5b3c47c1f1c703675ca2"
+      },
+      {
+        "file": "look-crafting-1-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "55eb599b10e64e6b0ff307c7063732c059dce3fcb8a68ccb888ebd57a5973f90"
+      },
+      {
+        "file": "look-crafting-2-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "349e9e4e0214ff77b1bab87354367bfe051ad87be1b7d317d21bb78624e6aec7"
+      },
+      {
+        "file": "look-crafting-0-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": true,
+        "sha256": "22db7089f538add243884209d50b8725c3783f9271ae1eebb439e0853e55068f"
+      },
+      {
+        "file": "look-crafting-1-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": true,
+        "sha256": "4309435dad658e04ab242f63891d770d08143c3e9fba431f6e8b958e672d9ba8"
+      },
+      {
+        "file": "look-crafting-2-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": true,
+        "sha256": "346db228686882aa5d21045d51302d94babf8fff6d61887e744d0471927f6d2d"
+      },
+      {
+        "file": "look-crafting-0-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": true,
+        "sha256": "683037f772808b71e79870806e02987ee66ab0a80aeb8c9566cbc0c2f8c06266"
+      },
+      {
+        "file": "look-crafting-1-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": true,
+        "sha256": "8c40b6ca19794b5ca9cc92999e47a90f30af37c7d87129a02cd3110df48b2e5f"
+      },
+      {
+        "file": "look-crafting-2-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": true,
+        "sha256": "2ae03c764ed75c9961ec5034ef408944df741a22a98e2e6460c618051362de96"
+      },
+      {
+        "file": "look-crafting-0-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": true,
+        "sha256": "31ab65087c611539dcc47a77783edb7f4ea7b988e149be310577eeab7bfd383f"
+      },
+      {
+        "file": "look-crafting-1-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": true,
+        "sha256": "503b7752b231426554533d9f115fb3ab8e292f41b0fff9d1e45381ecf93b76be"
+      },
+      {
+        "file": "look-crafting-2-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": true,
+        "sha256": "ab354285d350ed08a55100073f9ffdbaa0e94eb607db1cb92b0609efbf40b817"
+      },
+      {
+        "file": "look-crafting-0-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": true,
+        "sha256": "8fc47a0b6a07b008a5b03665e3fe952fed9b058ff13bfb3f699ff3debd16105e"
+      },
+      {
+        "file": "look-crafting-1-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": true,
+        "sha256": "c6e247f5ac698902aec919116c672c810f86b11ea69b6969ea223bf9099eb0c7"
+      },
+      {
+        "file": "look-crafting-2-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": true,
+        "sha256": "fb3e514179bf6eb9f2b225f1174a06cec3f791b0f18964c3d1ea2bc41dd737ce"
+      },
+      {
+        "file": "look-crafting-0-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": true,
+        "sha256": "de3f3f0889a0d41a9ab518f21a1a7d84e0ecd089213233710c268ae6e6f0f34d"
+      },
+      {
+        "file": "look-crafting-1-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": true,
+        "sha256": "b2c910689ea6390e7e1c1cf07ad76a3b2f05c9bd974aeb6f639c8e468b095ba8"
+      },
+      {
+        "file": "look-crafting-2-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": true,
+        "sha256": "a052c55bc7b219e04518b0fe9cabe4042d5807f1b9ccac487ea961c2b8ca00b0"
+      },
+      {
+        "file": "off-inventory-r2-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "c7905666d3972fe7d0354a87f8d836b5bf8a4a4129d8e2574f76d860ef02e85a"
+      },
+      {
+        "file": "off-inventory-r2-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "93f4cff2bbe3575c06cb93425cbd9a5d2df3fb2330da6d51198940556d73f39f"
+      },
+      {
+        "file": "off-inventory-r2-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "565a7712d1ab87d38122d2d2e7d534aba51f298f18974c45926866bea3faef53"
+      },
+      {
+        "file": "off-inventory-r2-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "63419714a8bc969382e15b0c7c059e8c3fd765fe7c738a51f9a1a0cc15c6d9a4"
+      },
+      {
+        "file": "off-inventory-r2-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "6859b6102a09f826b992f52fdbc1e43d98bb8d6cb9f8cf61afafad39afc83428"
+      },
+      {
+        "file": "off-inventory-r2-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "89246e7f5921e513ad638c71cc93d7e77869a255fd7bd3a3de22dcd1aa9f6742"
+      },
+      {
+        "file": "off-inventory-r2-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "c81eb60f2c73a9d12ea4ca047f4988d9aecbce75c83bc2a8e6151250198a0047"
+      },
+      {
+        "file": "off-inventory-r2-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "62d7265a90e5cbd6e2e35f7ce0baad8c17a403e6f0f0198ccdbe922a3784d99f"
+      },
+      {
+        "file": "look-inventory-r2-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "53f66021c5bc5f1acb453f4b43b89e74c88fa1020f3c04b4f17e4e42b14a28d1"
+      },
+      {
+        "file": "look-inventory-r2-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": true,
+        "sha256": "b4093b18328a1ef8a5f281c096b671127847e7c9717d551dd333ae0a1eb4b873"
+      },
+      {
+        "file": "look-inventory-r2-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "83566343d5dbbcb2a74e26919bccd05b787315fd3e35b1ce760773ef7fcc035b"
+      },
+      {
+        "file": "look-inventory-r2-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": true,
+        "sha256": "78595b2658dcc061dcd34f898ae470eda8c70442298054aee560ed7acef9d6e9"
+      },
+      {
+        "file": "look-inventory-r2-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": true,
+        "sha256": "dccf315c200fa2457584b7611dcefbee69065ade20ea6854111384d2d1361a40"
+      },
+      {
+        "file": "look-inventory-r2-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": true,
+        "sha256": "d5dd7c4da05583f98c6fea865943e483d26f9bb2ce4d3ccaa76f0767c18ea668"
+      },
+      {
+        "file": "look-inventory-r2-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": true,
+        "sha256": "e8fd4148fe602ef4e3f72e17200f1cf8351a7e685cf218f5c0884309d1383a7e"
+      },
+      {
+        "file": "look-inventory-r2-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": true,
+        "sha256": "a1d668c01b2791faf5b8a2a982c8872b260e34314b7ed38960373bfb7dcfbb9c"
+      },
+      {
+        "file": "off-tutorial-ps4-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "5b85f01ed889a5cad376de48be9916aa38f6906fae8fe2a9f76b650624cca1f3"
+      },
+      {
+        "file": "off-tutorial-ps3-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "f71a2bbd2a14b8e2745c3f9c14bb83ad10ca1b42e6481fb0533df9202b830589"
+      },
+      {
+        "file": "off-tutorial-xbox360-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "5a77a48207f2f1c1dd4ec01b4405d16f4dd2a3d4bc14e1804e1e2ad5dad07ab7"
+      },
+      {
+        "file": "off-tutorial-xboxone-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "5a77a48207f2f1c1dd4ec01b4405d16f4dd2a3d4bc14e1804e1e2ad5dad07ab7"
+      },
+      {
+        "file": "off-tutorial-ps4-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "cc5ec495218deacdfe672f1a536394ce91275d33e120195f3a580d917abaf3b1"
+      },
+      {
+        "file": "off-tutorial-ps3-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "7d6f6c8c6d72aedd2f8e3fe654e7f38fadd10ec823fa7838b752b6d19dfa23b8"
+      },
+      {
+        "file": "off-tutorial-xbox360-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "de5136e85ce5f456688e179838c7c3f60b0844bd272507417ad7414752e9a1ba"
+      },
+      {
+        "file": "off-tutorial-xboxone-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "aee635ead5da8e8b3b80fe528ede53a7df19f23cf193a5a8ad4f9098d1d1a695"
+      },
+      {
+        "file": "look-tutorial-ps4-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "e06a487c0728c2ff1e714a9c46101e7cf2f1904b81395988f552a89d1acfdf53"
+      },
+      {
+        "file": "look-tutorial-ps3-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "d4586aab6e45c58655d25bd0ad22b2f61230121257cab6764bb2817d18f67249"
+      },
+      {
+        "file": "look-tutorial-xbox360-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "09dc76b1ed6ecfedeba7c569aae403a5001cda261cf07acc311df3fca1df8a4d"
+      },
+      {
+        "file": "look-tutorial-xboxone-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "09dc76b1ed6ecfedeba7c569aae403a5001cda261cf07acc311df3fca1df8a4d"
+      },
+      {
+        "file": "look-tutorial-ps4-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "a8217b1447c62d332975819b05ca3436b64ebc8dfc2b8b06be126e0243f46da4"
+      },
+      {
+        "file": "look-tutorial-ps3-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "f02d3129565d3e5c3b5f5ae830b5e550e3387dda4836537333bd648bcc316999"
+      },
+      {
+        "file": "look-tutorial-xbox360-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c38a3d54d153db3cba384b7aa90068185ccda065a0c9ed0c1bb9aa4d839f7878"
+      },
+      {
+        "file": "look-tutorial-xboxone-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "f5df1ad2d9c41e59e0127da965e0439ffffd699b380f1baf4cb5f57ee1421e65"
+      }
+    ]
+  },
+  "tested_jars": {
+    "legacy-console-1.17.1-2.3.8.jar": "60bcc4876a4261d7f59fc6888e75e937f465a1a698dfd398e4daa013e0c592c3",
+    "legacy-join-compat-1.17.1-2.3.8.jar": "c1d86af8284153e6e807f80af80b2b17bc01449368073e6f08d979c467be6738"
+  },
+  "native_comparisons": {
+    "display_cycle": "Original 0x9ac698..0x9ac6b8 instructions with R14 ABI adapter",
+    "panel_visibility": "Original 0x7f8d70 function with bounded string/allocation/lookup/Show callbacks",
+    "item_descriptions": 218
+  },
+  "visual_review": [
+    "1440p crafting Description and Ingredients views",
+    "PS3 720p and Xbox One 1440p inline glyphs",
+    "1440p inventory R2 popup with LCE Look"
+  ],
+  "limits": [
+    "Physical controller and Retina hardware were not tested.",
+    "Glyph inputs use a private synthetic pad fixture; crafting uses actual client/server packets.",
+    "Java recipes, fonts and wrapping adapt the source PS4 display logic.",
+    "World generation and the 2.3.7 tutorial save are unchanged."
+  ],
+  "test_heap_note": "The final full suite uses a 1 GiB test heap; initial 512 MiB run exhausted memory in the existing tree oracle.",
+  "automated_suites": [
+    {
+      "tests": 372,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite before final food/armor inline-icon adapter"
+    },
+    {
+      "tests": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Focused information, glyph, description and art tests after final render changes"
+    }
+  ]
+}

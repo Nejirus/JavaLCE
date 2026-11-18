@@ -1,0 +1,491 @@
+{
+  "version": "2.3.9",
+  "reference": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8e3"
+  },
+  "native_oracles": {
+    "info_handler": "0x979160",
+    "info_completion": "0x978ed0",
+    "info_cases": 30,
+    "map_projection": "0x44a610",
+    "map_cases": 450,
+    "inline_glyphs": [
+      {
+        "pc": "0xaf2e90",
+        "register": "r15d",
+        "size": 45,
+        "bytes": "41bf2d000000"
+      },
+      {
+        "pc": "0xaf34a2",
+        "register": "r10d",
+        "size": 45,
+        "bytes": "41ba2d000000"
+      }
+    ],
+    "inventory_pointer": "0x9a2950",
+    "inventory_tooltips": "0x9a2700",
+    "inventory_label_table": "0xee4b60"
+  },
+  "automated_suites": [
+    {
+      "tests": 381,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite after final tutorial wrapping and interaction changes"
+    }
+  ],
+  "runtime_environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "optifine": "1.17.1_HD_U_H1",
+    "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+    "lce_look": "2.0.0",
+    "lce_look_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+    "graphics": "llvmpipe / Mesa 25.0.7"
+  },
+  "limits": [
+    "No physical controller or Apple Retina hardware tested; framebuffer sizes are software-controlled.",
+    "Campfire prompt follows Minecraft 1.17.1 shovel use, not a claim of PS4 campfire implementation parity.",
+    "This release does not change world generation, map orientation or finite-world map centers."
+  ],
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Actual imported PS4 tutorial: Cross advances the original guide; early Square changes the panel and completes after the native minimum time",
+      "Three Square presses complete Description / Ingredients / Inventory tutorial tasks; keyboard X follows the same input path and displays its correct binding",
+      "Actual inventory hover: outside/empty, one item, eight items, empty placement and swap show only valid prompts at 720p/1440p with both shader settings",
+      "Actual map packets keep server and client cursor types stable across +/-503, 505 and 511 blocks; north decreases Z and moves the cursor toward the top",
+      "Lit campfire with shovel displays L2 Use; the actual interaction extinguishes it and removes the prompt",
+      "Tutorial glyphs and panel bounds verified at eight sizes, with PS3/Xbox360/XboxOne artwork at 720p/1440p, shaders OFF and LCE Look"
+    ],
+    "screenshots": [
+      {
+        "file": "off-crafting-square-tutorial-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "9a58eb0e3b0bda7beb48a6f684cac0c444a5cf87f4cb08a0680b9fd768478086"
+      },
+      {
+        "file": "off-crafting-square-tutorial-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "24a797669343aaa2d67b3393d706b4b0062341fdf1e1d2f43c2d440d521ac58a"
+      },
+      {
+        "file": "off-crafting-square-tutorial-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "24c7fdd43db093f978e9bd30e6e2b0e9cc352be12ad0a8aa50a74f85c1e24d7e"
+      },
+      {
+        "file": "off-crafting-square-tutorial-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "f09fdf692c472ba8c87d7685b74cbc820dc860c65b73b6ecf5dc0ffd3e86a6b7"
+      },
+      {
+        "file": "off-crafting-square-tutorial-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "b85397bd1e69875551c5af8bb1387b3d1599b858cf16afd86db2d79f031b326b"
+      },
+      {
+        "file": "off-crafting-square-tutorial-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "2febda92b38e5e34848bffdec5ee010235b786929af1cff995769e6b50da192e"
+      },
+      {
+        "file": "off-crafting-square-tutorial-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "8b9b50753e8aa460301ba95c5f05bd8de0ebb7fdc10cb82d17dfb3c7c6006c10"
+      },
+      {
+        "file": "off-crafting-square-tutorial-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "13b2127c88ed095b79af2ab9f1010587fd75b76ab0a713cda7b8325e4a7ee2d8"
+      },
+      {
+        "file": "look-crafting-square-tutorial-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "59fccfe360d80471b6550da00803059eb0695ac2b67187200270eecf84c72ea9"
+      },
+      {
+        "file": "look-crafting-square-tutorial-1920x1080.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": true,
+        "sha256": "fd40f8c93ef6019898876232113bcd61d607efce0b0d8800c41936c4f0413666"
+      },
+      {
+        "file": "look-crafting-square-tutorial-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c3c6b46d72225f82a8b5ba920773a642011738570ad7182c2a546011eff5f8f1"
+      },
+      {
+        "file": "look-crafting-square-tutorial-3840x2160.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": true,
+        "sha256": "2c65eadf704c83ab7a78e6f678406f14216882b3fe453623fc185342889eb1b3"
+      },
+      {
+        "file": "look-crafting-square-tutorial-1024x768.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": true,
+        "sha256": "074b00eea818dcf6e29049f77167ecabaa398db538b222c0b29abfda1c8716ff"
+      },
+      {
+        "file": "look-crafting-square-tutorial-1600x1000.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": true,
+        "sha256": "baaadc7434fe5f065ce48960be0047c921cc558305cf32d6ae8bced151fd6e9f"
+      },
+      {
+        "file": "look-crafting-square-tutorial-1512x982.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": true,
+        "sha256": "08f21934268761146c33714a3d84486b872bc39469ed31acb111ee06cd538bed"
+      },
+      {
+        "file": "look-crafting-square-tutorial-3024x1964.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": true,
+        "sha256": "aba7b10eb6cf2406d69b1aa2ea6e574d156e3efe6857c325de460327bddbd69c"
+      },
+      {
+        "file": "off-inventory-0-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "8a12a70096bfa29c55c682a97eaa4f380bc6776881fd395bd8b3921f2e77420b"
+      },
+      {
+        "file": "off-inventory-0-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "647912b403f52e230a76a3af4076f88cf34d465d97a88c158456870fbd908da4"
+      },
+      {
+        "file": "look-inventory-0-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "9a92d50dfb951b8acf5a17e34e2fa580e2b2b00b82b1faa6af85d6b83388fb9c"
+      },
+      {
+        "file": "look-inventory-0-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "fc3a88a0f5f01c9d13408d5d95a0c993d5a2ca84256426e1b3e90405c9684624"
+      },
+      {
+        "file": "off-inventory-1-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "ad21dc2814996fbff0f7b26f0c5570f17d7a4fbf935c8c4d7054fa80677fa734"
+      },
+      {
+        "file": "off-inventory-1-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "75a59dc40065a02a326716652fface7cdd07d3e6774ed0c377ab018f0d340071"
+      },
+      {
+        "file": "look-inventory-1-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "86a063bb2d782c831bb7abf7c5f446cb123e373a7cfdd2d5f961afc5dbc683f7"
+      },
+      {
+        "file": "look-inventory-1-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "29712f9347ddf5e4369ec760b6ac61d0fec47134a5e72f51f07776843e8cee95"
+      },
+      {
+        "file": "off-inventory-2-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "9ab21056b93eccf51f4ba207863fe50a797293db0d5d8e78f2d19c694e926569"
+      },
+      {
+        "file": "off-inventory-2-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "d3c41d0928783f70101f5f6d45cd3aae15c95cc386f102e7f6b16ed911946314"
+      },
+      {
+        "file": "look-inventory-2-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "fffd04693b518a4e3ba553b77582adc85683be49bec16326d4830076a8e7a8e0"
+      },
+      {
+        "file": "look-inventory-2-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "af8aa4e90f7efd0666f99b714cfd6a9f4e0181e736278da2eefb91b24b22f273"
+      },
+      {
+        "file": "off-inventory-3-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "a8f12bb3832b5b70e4269716191ce0fb2b0d2a1f786a2d5a15fad48612ab39fc"
+      },
+      {
+        "file": "off-inventory-3-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "47d428c84537ac6d7fdf9771019edbc7755dd01a959a219fd997f72cece86473"
+      },
+      {
+        "file": "look-inventory-3-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "ea0173bdc9b465fdc44580b6ff2f812e9d73ef29f75fed762c87267c9578c164"
+      },
+      {
+        "file": "look-inventory-3-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "2cbb313be1fe0ac3b74bfde710ea0cd61b5ec39abd78f8aa5044ea101547f5d0"
+      },
+      {
+        "file": "off-inventory-4-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "52ee473d6b86282df0227be2ba3e36d0cb0ecf7c706420d2dea12f7f0551ec5d"
+      },
+      {
+        "file": "off-inventory-4-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "83c71a5f59b6a45d69ed7191e12360ac8166def7cab9157ce68b9c3d569261aa"
+      },
+      {
+        "file": "look-inventory-4-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "6946e29271ee8faec4af8829fdfc06994c8dee0bc19f506bcfff7fa61f3e768d"
+      },
+      {
+        "file": "look-inventory-4-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4fb6fe55f4f2c0a2a4b0333f2ccfa0799147b45d341c307c3719ea0efb23dfd6"
+      },
+      {
+        "file": "off-inventory-5-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "41a3ca6b507f1ae9b8e49be498a303d8d7b966a6c112ffc3c2686a8a487babc1"
+      },
+      {
+        "file": "off-inventory-5-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "5fa51b857e54e89b705c36284529d538a7811e81c7d864731d214f285e625f4b"
+      },
+      {
+        "file": "look-inventory-5-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "deaeb6686c433969e7c7fedbf5f993d81fe85b188ec229973f61ceb4ad470fba"
+      },
+      {
+        "file": "look-inventory-5-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3c193068e37e3b284c4aabf27a5a46039b8cde982b00231712931ae7e4628b8f"
+      },
+      {
+        "file": "off-tutorial-glyphs-ps3-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "b9d45390c67a803d2c0ea90c3f6963f8bbe3590cc2b3c0498e5599c7d75297a4"
+      },
+      {
+        "file": "off-tutorial-glyphs-ps3-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "cfcb4f1421a4b2919e50db792b3c44c3b0c16edb988d30f35f8e0355a8ba9ab1"
+      },
+      {
+        "file": "look-tutorial-glyphs-ps3-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "07958755d1c585af3827229f1bf1d3f5322a03631e176f308ab4a10d6dcf6b94"
+      },
+      {
+        "file": "look-tutorial-glyphs-ps3-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "b803d224c38f65671df89b812e647c7b4f86547889a7c74f53cf8f5672804dbb"
+      },
+      {
+        "file": "off-tutorial-glyphs-xbox360-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "bb9c851909eee567b4dcca8000e703f5bb17e74703828b75d932add09e4dbbbd"
+      },
+      {
+        "file": "off-tutorial-glyphs-xbox360-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "28769c0176ab8d862088ee30d436b28aafed18fae417b1db24002cdd6e56c5f4"
+      },
+      {
+        "file": "look-tutorial-glyphs-xbox360-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "0430757c7718f34f561bfbc1c6722c7e1a89452186e9bad3701ec6bbb6127f02"
+      },
+      {
+        "file": "look-tutorial-glyphs-xbox360-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "55ae51e31a37b24a72c04920ebcbba5d99d16487e2a610406e2dd4e48f589737"
+      },
+      {
+        "file": "off-tutorial-glyphs-xboxone-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "f1d3083a5c02f607f9ef87743165867d904f3e109c6c88e2000f41b25e89b324"
+      },
+      {
+        "file": "off-tutorial-glyphs-xboxone-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "983a0994e3ddb6dc0eed5944695b3c496157f4764f22d7c7e942c9582bf8cd90"
+      },
+      {
+        "file": "look-tutorial-glyphs-xboxone-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "302c89c63088a590eb2024a7c11b5512d911e4ee2c30284415dc03a92ef878a9"
+      },
+      {
+        "file": "look-tutorial-glyphs-xboxone-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "fbc0bf5413b46da5ec9f9f569ea65a4b390a7efee1aaee76cde72c1c9cae474b"
+      },
+      {
+        "file": "off-map-north-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "7cb6c05289f2e170a9ac9778604f4e1bf5cbd7a806f0faaf9dae1ca54911126f"
+      },
+      {
+        "file": "off-map-north-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "ff1a3f6dc0ba8d54d413b8dc5f33c1c61943766f2bab10349c448d635d93e10a"
+      },
+      {
+        "file": "look-map-north-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "37a8b575a59930580a29986df3061cf54fa037746d9aea9c63a20bf5d766f628"
+      },
+      {
+        "file": "look-map-north-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "81db7f4e6fb5455c849940d825c42abc52b4105f408030919e8436276454479d"
+      },
+      {
+        "file": "off-campfire-shovel-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "370a051f895e571c6a6097aef8261989188dc17210af2309a397d7eb70d6f850"
+      },
+      {
+        "file": "off-campfire-shovel-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": false,
+        "sha256": "e5257cdc84d2fc8bb46d1ad6f1f7620d484440bffcc31287421624fd2f1fd619"
+      },
+      {
+        "file": "look-campfire-shovel-1280x720.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": true,
+        "sha256": "2bcfc2e1e49a44f7a6c814e77f132aace5bd75db65b891db483b5a8f4fa8b776"
+      },
+      {
+        "file": "look-campfire-shovel-2560x1440.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "70d333de5396ffa4c497af47689e3b99918620b433e18d9e5554ebbe14352e19"
+      }
+    ]
+  }
+}

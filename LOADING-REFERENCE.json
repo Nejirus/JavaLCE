@@ -1,0 +1,150 @@
+{
+  "repository": "https://github.com/chrisGrando/MinecraftLCE-7thGen",
+  "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+  "sources": [
+    "Minecraft.Client/Common/UI/UIScene_FullscreenProgress.cpp",
+    "Minecraft.Client/ProgressRenderer.cpp",
+    "Minecraft.Client/Common/UI/UIControl_Progress.cpp",
+    "Minecraft.Client/Common/Media/FullscreenProgress720.swf",
+    "Minecraft.Client/Common/Media/skin.swf",
+    "Minecraft.Client/Common/Media/skinGraphics.swf",
+    "Minecraft.Client/Common/Consoles_App.cpp",
+    "Minecraft.Client/Common/Media/strings.resx",
+    "Minecraft.Client/Common/Network/GameNetworkManager.cpp",
+    "Minecraft.Client/Common/UI/UIScene_ConnectingProgress.cpp",
+    "Minecraft.Client/Common/XUI/XUI_ConnectingProgress.cpp"
+  ],
+  "layout_1280x720": {
+    "title_center": [
+      640,
+      300
+    ],
+    "status_center": [
+      640,
+      374
+    ],
+    "progress_background": [
+      320,
+      390,
+      640,
+      20
+    ],
+    "progress_filler": [
+      322,
+      392,
+      636,
+      16
+    ],
+    "tip_panel": [
+      240,
+      510,
+      800,
+      110
+    ],
+    "tip_text_border": 20
+  },
+  "tip_interval_ms": 7000,
+  "tip_panel_scale9_grid": {
+    "swf": "skinGraphics.swf",
+    "symbol": "FJ_PointerTextPanel",
+    "character_id": 204,
+    "bitmap_id": 213,
+    "image_size": [
+      24,
+      24
+    ],
+    "rectangle": [
+      8,
+      8,
+      16,
+      16
+    ],
+    "equivalent_border": 8
+  },
+  "assets": "The unchanged lossless progress_background, progress_fill and tip_panel bitmaps and original tip strings are documented in STARTUP-BOAT-REFERENCE.json.",
+  "port_behavior": [
+    "Progress clips the fixed-size filler, following FJ_ProgressBar.setProgress and its mask. Values are clamped to 0..1.",
+    "Tips rotate every seven seconds. Normal entering and leaving transitions show tips, following the C++ completion data.",
+    "The Java 1.17.1 panorama and its resource-pack overrides are retained by user request.",
+    "The Java main-menu logo is rendered by the exact shared ConsoleMenuLayout.logo method, preserving its texture, size and position.",
+    "Native LoadingOverlay, ConnectScreen, ProgressScreen, LevelLoadingScreen and ReceivingLevelScreen continue to own lifecycle, resource reload/error callbacks, joining and saving. The console presentation covers their completed render before display gamma and the window swap.",
+    "The cover is retained for the last frame of a native reload, even when that overlay removes itself during render.",
+    "Native resource/chunk progress is displayed when available; saving and other phases without aggregate progress keep an empty progress bar. No synthetic percentages or loading delays are introduced.",
+    "The initial rating/Mojang/4J startup sequence is unchanged. No mixin targets LoadingOverlay; this preserves compatibility with the Java 17/ASM8 loader."
+  ],
+  "tip_selection": {
+    "source": "CMinecraftApp::InitialiseTips and CMinecraftApp::GetNextTip in Minecraft.Client/Common/Consoles_App.cpp",
+    "behavior": "Assign one random signed sort value per eligible gameplay tip at app initialization, sort the entries once, then use the shared cursor for each loading scene and seven-second timer callback. Scene closure keeps the startup order and cursor. End-of-list wraps to that same startup order.",
+    "source_configuration": "The C++ content-package build randomizes gameplay tips except the pinned introductory multiplayer/SD tip. Trivia tips are randomized separately and interleaved every third entry.",
+    "scope": "The retained eight original compatible gameplay tips are IDs 3, 4, 6, 8, 9, 10, 11 and 14; none is the pinned ID 1. Their eligible tail is randomized as in the content-package initialization. No DLC, splitscreen-only or extra trivia entries are introduced.",
+    "java_adaptation": "Integer.compare through comparingInt replaces the subtracting C++ qsort comparator to avoid signed overflow. A fresh java.util.Random supplies startup sort keys; scene transitions and timers do not draw new random keys."
+  },
+  "multiplayer_join": {
+    "entry_point": "CGameNetworkManager::StateChange_AnyToJoining -> UIScene_ConnectingProgress; StateChange_AnyToStarting -> UIScene_FullscreenProgress; StartNetworkGame -> IDS_PROGRESS_CONNECTING",
+    "initial_scene": {
+      "progress_visible": false,
+      "tips_visible": false,
+      "primary_title": "",
+      "timer_symbol": "skin.swf::fourj.FJ_Timer (character 31)",
+      "timer_placement": [
+        565,
+        363.1
+      ],
+      "square_shape": {
+        "swf": "skin.swf",
+        "character": 29,
+        "bounds": [
+          0,
+          0,
+          42,
+          42
+        ],
+        "fill": "#ffffff",
+        "stroke": null
+      },
+      "frames": 80,
+      "fps": 30,
+      "square_offsets": [
+        [
+          0,
+          0
+        ],
+        [
+          54,
+          0
+        ],
+        [
+          108,
+          0
+        ],
+        [
+          108,
+          54
+        ],
+        [
+          108,
+          108
+        ],
+        [
+          54,
+          108
+        ],
+        [
+          0,
+          108
+        ],
+        [
+          0,
+          54
+        ]
+      ]
+    },
+    "timeline_resource": "src/main/resources/assets/legacyconsole/connecting_timer.json",
+    "timeline_sha256": "e3cbbd19b293923bc5ef5f0819f86fa867a290a2dd0facaf92fa84f052a2ca55",
+    "timeline_extraction": "Read every PlaceObject color transform from skin.swf character 31 at each ShowFrame; retain source alpha multipliers in exact 1/256 units. The vector shape is rendered directly, with no replacement texture or invented interpolation.",
+    "java_stage_mapping": "Native ConnectScreen before its Connection exists uses the initial timer scene. Once the socket/Connection exists, native login and Forge negotiation use FullscreenProgress with Connecting to host, the native status Component text, original tips and an empty progress bar because Java does not expose an aggregate network percentage. Native ReceivingLevelScreen retains the existing console terrain view.",
+    "cancellation": "The Xbox XUI implementation offers IDS_TOOLTIPS_CANCEL_JOIN / VK_PAD_B. The later shared PS3/Iggy implementation disables cancellation because its console-network implementation did not work. This Java port retains the functioning native Java abort callback and the original Cancel Join footer. Circle/B, Escape, and a native Button whose hit bounds match that footer all invoke the native callback; no duplicate disconnect routine is introduced.",
+    "errors": "Only the native loading screen types are covered. Disconnect errors and resource-pack confirmation screens remain available; no connection-state overlay persists over them.",
+    "server_details": "ServerData.version and ServerData.status are Components; the detail panel displays getString(), preserves null/empty placeholders, and fits long server text to its existing 169-unit pane. It never concatenates Component.toString diagnostics."
+  }
+}

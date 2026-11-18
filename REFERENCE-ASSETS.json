@@ -1,0 +1,1213 @@
+{
+  "repository": "https://github.com/Wilyicaro/Legacy-Minecraft",
+  "branch": "1.20.1",
+  "revision": "80ca31049dd5ea9f7169810f3cadd0aa38114a51",
+  "files": [
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/intro/4j.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/intro/4j.png",
+      "sha256": "825801648eace2beaad5f21d6aab868d5fc04acc8a03768ac76e23fd2fa8d4f3"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/intro/background.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/intro/background.png",
+      "sha256": "e15fd389e3471aa4539d16121a1a2c871ccdb238933611074ffb310dc7e1e44e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/intro/eula.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/intro/eula.png",
+      "sha256": "9cf216b485ce892baddc627fe44f97c23cddf07e918aa7e7bd1f8bf15952af6a"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/intro/kyubion.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/intro/kyubion.png",
+      "sha256": "df661f3d6c96ebf3d97f613a4e0fcba0bb62d2e5ba2599297d00795d1535b576"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/intro/mojang.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/intro/mojang.png",
+      "sha256": "878c39d082613cd5d1522041825867dd241dab8622df2fbb5249210da904bce1"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/intro/xbox.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/intro/xbox.png",
+      "sha256": "d2fd27249876d68046fa76d72f5cdfa258f12c9742d24b8490c58005788b95b6"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/menu_background.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/menu_background.png",
+      "sha256": "b468fc39f182f0e69486b3decb3a452ecaf1e5257b1a5096a375a3aa126991ef"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/anvil_hammer.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/anvil_hammer.png",
+      "sha256": "36bc764165b331c9fc079c16041328679176568885dca4c4a3ae7a439413d413"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/armor_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/armor_slot.png",
+      "sha256": "7f8c3db42900963d4cb4868d2e778dccdd648765ee192272d4a77775ce9cd83c"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/arrow.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/arrow.png",
+      "sha256": "949607f3f0f4fdf869c8b3d864f0539eb0656911f9816b68520a048b9c231e83"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/beacon_1.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/beacon_1.png",
+      "sha256": "66475f3be23d90102c229ed38409d13a633195cf3609d148361f69e51a8a6597"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/beacon_2.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/beacon_2.png",
+      "sha256": "ff5d71ec7d3320f756bec36991321ab03c6b33dcd5c958c28ed685a659a16314"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/beacon_3.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/beacon_3.png",
+      "sha256": "742ccf5512b1c46f27516718ff75f9b1c39c2b375d72403ce056f4c443635183"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/beacon_4.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/beacon_4.png",
+      "sha256": "69420e45b9245114c22644b5fb0bf394153731f7654f53ab88ef3be16357bfcd"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/beacon_check.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/beacon_check.png",
+      "sha256": "292a5529f00b1d43761875904ff03604425dc9d5552357aee39913af2e62a840"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/brewing_coil_flame.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/brewing_coil_flame.png",
+      "sha256": "b7a5ee2db69540559aad89b19698cbfe2cc7d21db19ddc56eff996af6f458178"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/brewing_fuel_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/brewing_fuel_slot.png",
+      "sha256": "079604fe3ff9f4e65ef926ce194bf9220bb31cc4830acf4b61576d6e6320c11b"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/brewing_slots.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/brewing_slots.png",
+      "sha256": "42f586894d6f37063f974f16e0683385e3729a27fb29ef40fcaa81efc621e6e3"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/button_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/button_slot.png",
+      "sha256": "ba404c0a3a3fd5a891fe495ef726efbb5184087ed188aef91363b60f2f3aa86f"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/button_slot.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/button_slot.png.mcmeta",
+      "sha256": "1f5d7daadc75174c254aae55ccaa79c98db6a4f2a2cc875476c628d51e26844e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/button_slot_highlighted.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/button_slot_highlighted.png",
+      "sha256": "2137f7597b22194a82bf5449c55915fdc38c94f8f94241e6f357e5fdb7e74f7c"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/button_slot_highlighted.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/button_slot_highlighted.png.mcmeta",
+      "sha256": "1f5d7daadc75174c254aae55ccaa79c98db6a4f2a2cc875476c628d51e26844e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/button_slot_selected.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/button_slot_selected.png",
+      "sha256": "dd6d16b7b0c6930c3e8e38eca45f619c1847ccf30fb9e0b5d35eb2282a6fd3ba"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/button_slot_selected.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/button_slot_selected.png.mcmeta",
+      "sha256": "1f5d7daadc75174c254aae55ccaa79c98db6a4f2a2cc875476c628d51e26844e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/cartography_table_copy.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/cartography_table_copy.png",
+      "sha256": "6297cf07c77350bd5bf07eb4dc75cc9d84c20c0e6bea204a972c7c6379a90aa9"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/cartography_table_empty.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/cartography_table_empty.png",
+      "sha256": "861fb025a824098063e36cb4b43157712765ca4d4564044a1479d6a62958a009"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/cartography_table_glass.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/cartography_table_glass.png",
+      "sha256": "9bba526661cf0c63bb33aaa7b309a65a413e9a84918df316e6b3ef6fa59150e3"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/cartography_table_map.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/cartography_table_map.png",
+      "sha256": "f4de80554f918d967f4652225fc2a1fce19ccaefca589d0c5340d142ee2fc1c1"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/cartography_table_zoom.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/cartography_table_zoom.png",
+      "sha256": "4063df3833a86b6fac21c0b1b7b3a348055ffd987c2ccc04f339de97f4c17933"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/chest_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/chest_slot.png",
+      "sha256": "9fe22fc81fabfcefcd73a2097c8618afb1a01a8cbece3bfc6b2a2a5e98f3cd5b"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/combiner_plus.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/combiner_plus.png",
+      "sha256": "bfa7d79137a10f59ebe986aabe901da0ec6475c3a445f73436163cb026f42789"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/crafter_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/crafter_slot.png",
+      "sha256": "f724a26c39e81893a6f868ff8f5f87536e5a17499122509fb6aa2d34e6640e3c"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/crafting_2_slots_selection.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/crafting_2_slots_selection.png",
+      "sha256": "fba96dbf501700a7669e179fa1f10ce9493fe30187b32d1b14d4d547a672413d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/crafting_selection.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/crafting_selection.png",
+      "sha256": "25d3bf79a4cbe947d187c49a6f8498c8755c557c00ef68774709eb4c33e601a9"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/disabled_crafter_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/disabled_crafter_slot.png",
+      "sha256": "9b6fecd61821b006eca91f1301ca559e03aa7e488a0e7cefeaad73b25edbe451"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/enchanting_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchanting_slot.png",
+      "sha256": "4a47096768474ce3992d72d0856c1e562525b74d7dd3dd5c56201fc6c1095e12"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/enchantment_button_active.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchantment_button_active.png",
+      "sha256": "7e1d865f920266a2b41a0338de92d8e2ffff14162a4f64e25f6dec5d0f3687e4"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/enchantment_button_empty.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchantment_button_empty.png",
+      "sha256": "18dd1e879da1878306fe73813ea29f5c13f60cca7a4cc999b7e9e6ac6162e9d0"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/enchantment_button_selected.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchantment_button_selected.png",
+      "sha256": "555ba6da84b41275090c3a4fdd4d4be586707c7ed42c861b08dde3247f8f6e68"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/error_cross.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/error_cross.png",
+      "sha256": "3db320d9d5385185e961604d5b07de2db5a01543403f1f09e1bad27ebc689a50"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/experience_bar_result.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/experience_bar_result.png",
+      "sha256": "5bea6b82d765aa06b8ac48618b9aacd48f96641ba12dad9f2afa23627d2a7d51"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/feet_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/feet_slot.png",
+      "sha256": "4c09507cc91ce28d24d2d91951f951011b017001e502c8b06f8dabe0aff5fb14"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/full_arrow.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/full_arrow.png",
+      "sha256": "7fa8560ab4699f0aff2a293a86618203475de0882f98addf6be958c0fad43d17"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/gray_icon_holder.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/gray_icon_holder.png",
+      "sha256": "5536ea7cfe4d9f062ebb796ca447a37ef467a089f661faa480010ea00947f3ed"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/head_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/head_slot.png",
+      "sha256": "92de47dd8c9d349fcc7d8d4ae4e8a66a1e237c2343e3dbfb47a935cb52f99456"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/icon_holder.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/icon_holder.png",
+      "sha256": "481da946b1396eecbe72d658e74ac3878b853c62eec55ca11033a386fa47232f"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/icon_warning.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/icon_warning.png",
+      "sha256": "b3e3497b0a1dcdd45fc6e8d07011b323c0d1540513de06ff2bc73a20720b35f5"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/legs_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/legs_slot.png",
+      "sha256": "dd614f1daba006605e30dda3feb3f85a5bfe04d1926047574e4141b198dd4565"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/lit.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/lit.png",
+      "sha256": "1c31860a4aa309b8f110946e7eb48e23232762e4901e37be928574b7d36a0c37"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/lit_progress.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/lit_progress.png",
+      "sha256": "eeb4bc3595f7b67d1f12607b3f9d967f5f50bbbc448ce7eb165bbab82b61c78e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/llama_armor_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/llama_armor_slot.png",
+      "sha256": "a531521c370b7c84e1292c18af40c76ce6614a719b8d7b51ad4a515d34bc68ed"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/non_interactive_result_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/non_interactive_result_slot.png",
+      "sha256": "86c3e0fed365c104e1a2d71a11e3ba488466de57f4e234ccd834d480b7eac1fc"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/padlock.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/padlock.png",
+      "sha256": "8431d87fc5922e59e1815cee16c49d6b5cab4dcb45821fbc8483b799f6dfa823"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/pointer.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/pointer.png",
+      "sha256": "0e639d4ef9d7ad188bfe42f2ff0acf41490386f52a692a393df9ee488ecd2ed9"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/red_icon_holder.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/red_icon_holder.png",
+      "sha256": "0a0af520e53b9cff543873c1dd7cedd00f0dd0a417e9d049b86763528f1d92c8"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/saddle_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/saddle_slot.png",
+      "sha256": "620ef20082e4b5cf137e755c3a1767ae6383276a4800705e11a44cec7b015576"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/select_icon_highlight.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/select_icon_highlight.png",
+      "sha256": "99caf17a3016a1465a14fea62119fd92ac6efabeabbc0381266e3fc73cfd47c4"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/shield_slot.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/shield_slot.png",
+      "sha256": "50cb27fa7e57d9f5e2d8bf3c96205af658ca1643c0a492059c87247b7bc11b34"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/sizeable_icon_holder.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/sizeable_icon_holder.png",
+      "sha256": "73bc546a2f87eae968ff6bbe2e1ec1798c08fc0a381378e5f7e98523052b1f58"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/sizeable_icon_holder.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/sizeable_icon_holder.png.mcmeta",
+      "sha256": "c3be4eff5287eed912d8b0c5a6d4c5be4df332de6df170de6c7ad57cb9049767"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/slot_highlight.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/slot_highlight.png",
+      "sha256": "c249386bdf12e4b8223d40d3a622a47e8c29c23c6313f91118016b0f874483ab"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/small_arrow.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/small_arrow.png",
+      "sha256": "d54149b75448d4fa034a7b26060581c3248824a414101ccbeb014fe701034324"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/small_pointer.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/small_pointer.png",
+      "sha256": "f4179cd49540c3c23ea0581df4e2c471dea299dbf40ad4796744bf40a9832cf4"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/container/smithing_hammer.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/smithing_hammer.png",
+      "sha256": "8d7680cfc3282f5f3926e6d434e6177671ffc99ebadbd99bb0c4acf29f401599"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/creation_list/add_server.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/creation_list/add_server.png",
+      "sha256": "7fed363607d1e06b3c28099ef33ca2c47428e723751773ff637e5aacddb74693"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/creation_list/create_world.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/creation_list/create_world.png",
+      "sha256": "7fc2a68a7a71423f835176c3276d80c9ad90faf7a03671d029e3f0c1f0c4c3ad"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/creation_list/realms.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/creation_list/realms.png",
+      "sha256": "5356799978041ca82c1f579a9e167c1c04158bf110075b6babe44e80c75cf15d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/creation_list/tutorial.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/creation_list/tutorial.png",
+      "sha256": "f4492b29400ceb2f03ba1319aae4dcb1443a65568874d717bcf0441038aecf84"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/hud/hotbar_selection.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/hud/hotbar_selection.png",
+      "sha256": "135116b1cb536976447116b126ef1a2a5ee7baac0644a75d291d33e6d314f8be"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/hud/save_arrow.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/hud/save_arrow.png",
+      "sha256": "4dfb808295d289fb318f1f33d5e21811ebe67b516223ce7f8efcdb925df4f8ff"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/hud/save_chest.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/hud/save_chest.png",
+      "sha256": "da09d6ec21b3ed817ce7ee643191e82bef040fd54f14874550d62472a548d223"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/add_user.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/add_user.png",
+      "sha256": "44963e16092a433b1670617c11aa1ac8161b272a94699c19afe637ea836b7a89"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/add_user_portal.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/add_user_portal.png",
+      "sha256": "1691969bbb983ccd320ec99b82212a6e009cd11c8d71edd8c4b22211b574aa67"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/armour.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/armour.png",
+      "sha256": "21db293946aa3ff1ab4da20e0a23f498e935cd62ca07b44e6b4d867928216118"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/background.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/background.png",
+      "sha256": "8a37b0ebde6a49d7965cbd458847741c204313f2e3d1728d0f9bf898d0907693"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/brewing.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/brewing.png",
+      "sha256": "1acd1143a60ccd124d14fababd5e8aefa3b9eb25ccfd062dac05ecda2afe13bc"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/decoration.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/decoration.png",
+      "sha256": "81af2590f70cf27e4d128aac228df1e5611ab21a1aec504b7e85c7a040ca921f"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/food.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/food.png",
+      "sha256": "6a8cba7a1bbba5f46c0bd6e8f388cec627ee4a138108a22a0632c2d3f0866b1d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/map/player.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/map/player.png",
+      "sha256": "8adb7cd6deab3def543cbc363bfc575373eff77b338e38e2d6d4c4f2ae019200"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/materials.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/materials.png",
+      "sha256": "acd9c23f5f4943f0c7ac289ab5f9c29fc83a97f5bfa4b54f80a68e656034aab8"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/mechanisms.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/mechanisms.png",
+      "sha256": "3bab8e9fce707586b781f57f02e7935d919e8541d53828315270158fa43f6cc4"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/minecraft_classic.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/minecraft_classic.png",
+      "sha256": "3761f025350c8c8d4b42f8bd2b04e48883a98c54b4ba94f1e3dba7033eeac3be"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/minecraft_classic_background.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/minecraft_classic_background.png",
+      "sha256": "ea947e5ef1b5ea832351513362cfd0e0286889c9aaa75da7561ed539e041cfec"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/misc.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/misc.png",
+      "sha256": "88e03c5659e6fa5ed0c42903cc19a603b871c7defa872c928310fa0a016c07f9"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/redstone_and_transport.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/redstone_and_transport.png",
+      "sha256": "54f178c4db0199a120d411d21671c57f05184da0945cd498b4017e04f8f44d2d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/search.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/search.png",
+      "sha256": "803ed1cf4f89e33f1670f7ebbc4098dce08ccedd05554df9d69954cbe17fec38"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/structures.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/structures.png",
+      "sha256": "31be53c2e3ac0406121d631fd1393ce6181c4af4776a129b93cdc7585eb45f33"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/tools.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/tools.png",
+      "sha256": "49418c0fca1fc28d6873f9368460cec0796e34ac17615b89deb809075f54147c"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/icon/transport.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/icon/transport.png",
+      "sha256": "99d4f456c7e96bf306938bae3f8009da41f609356dcb5904bab564facd166ae1"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/creative_panel.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/creative_panel.png",
+      "sha256": "169ca3fcf3fe5e559ebe8df61e80e616f3736eeba9996d3837b84d1e894bf7ca"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/creative_panel.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/creative_panel.png.mcmeta",
+      "sha256": "e94611ab59c73120ef98ad5fa7f1836ce3620d12d535a77bdcfd554e48902a52"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/entity_panel.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/entity_panel.png",
+      "sha256": "db633abe1d44b20b146dfb6957d87524788933f64a6483bc774247cea714577c"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/entity_panel.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/entity_panel.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_tab.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_tab.png",
+      "sha256": "16a516a9959638a9af22ee995e27a03aefcf81955c7ce03d2cd8db848e4bf40e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_tab.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_tab.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_tab_left.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_tab_left.png",
+      "sha256": "0513ffb46b30ad56349952d7ad4cfabe9160b9845ce3db08d5fdb3410a4d17ff"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_tab_left.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_tab_left.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_tab_middle.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_tab_middle.png",
+      "sha256": "779922c8df2259677d88ddeb16b9e61b0c59824fb372d23c0e971094be7d15cf"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_tab_middle.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_tab_middle.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_tab_right.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_tab_right.png",
+      "sha256": "31d743cc6980c30b7006223399bcb65f9c4d6f7c1984a143d35578198843d44b"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_tab_right.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_tab_right.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_vert_tab_down.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_vert_tab_down.png",
+      "sha256": "46986926f57b51e4e91cc8e8aadbcbfae7430a983efeca5d498a0bf4f2d74103"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_vert_tab_down.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_vert_tab_down.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_vert_tab_middle.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_vert_tab_middle.png",
+      "sha256": "25761fe4f300bdf8bf45a1d5b89d4b5483637bae0d3b5045ef579f918c10c912"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_vert_tab_middle.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_vert_tab_middle.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_vert_tab_up.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_vert_tab_up.png",
+      "sha256": "567e9f26e1c9421f1febfde3a0f08bcb7caeb7a851a338b4610191e1329f862b"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/high_vert_tab_up.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/high_vert_tab_up.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_tab.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_tab.png",
+      "sha256": "a8e8aee67b518298eb5484e4ff5bea497a8b5cff5f0073b3e0479f2f5adf475e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_tab.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_tab.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_tab_left.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_tab_left.png",
+      "sha256": "d92fceffc38f3d7d7525570a829dc2491b2c36af3d19c6675b3e78e5b320ab7b"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_tab_left.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_tab_left.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_tab_middle.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_tab_middle.png",
+      "sha256": "f7286e9a30ae4198c61ebaccef0d7566a30fe630274f6a93d9b6c7f655224a97"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_tab_middle.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_tab_middle.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_tab_right.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_tab_right.png",
+      "sha256": "68d36cecddb61c11627320f7ac0fd110b642103ac58cffc40097af8d8dfd8699"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_tab_right.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_tab_right.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_vert_tab_down.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_vert_tab_down.png",
+      "sha256": "6853e1e4a2c7b6166ce0e7c29afdc17ca665cbae0d934e090e1065dd836941d3"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_vert_tab_down.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_vert_tab_down.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_vert_tab_middle.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_vert_tab_middle.png",
+      "sha256": "3e2926873a63cfa20861ceaeb2553bc82709134759bafa0ac04c5c725a30eb88"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_vert_tab_middle.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_vert_tab_middle.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_vert_tab_up.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_vert_tab_up.png",
+      "sha256": "ccd62aa3a3359853783c84bfc729e9e6337ea5c1856b0c1cf88d5674bb2a41e6"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/low_vert_tab_up.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/low_vert_tab_up.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/panel.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/panel.png",
+      "sha256": "169ca3fcf3fe5e559ebe8df61e80e616f3736eeba9996d3837b84d1e894bf7ca"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/panel.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/panel.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/panel_recess.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/panel_recess.png",
+      "sha256": "3934837b5e711e81fff8f69fc24452ae467eb9619ceb7b952697f1020cee0a66"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/panel_recess.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/panel_recess.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/panel_translucent_recess.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/panel_translucent_recess.png",
+      "sha256": "047e1fa8f1439609e75bc1a86ff7f96c2925597098168cd53ede983496b5bda3"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/panel_translucent_recess.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/panel_translucent_recess.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/pointer_panel.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/pointer_panel.png",
+      "sha256": "7b441a8447091ea09f23b416f37951e7fdf0cbfb8ea3485872889b665631f173"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/pointer_panel.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/pointer_panel.png.mcmeta",
+      "sha256": "7989b646c2958dfbb46f0332e5711240a3110d23a38fce5b9d423facec4ad908"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/small_panel.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/small_panel.png",
+      "sha256": "169ca3fcf3fe5e559ebe8df61e80e616f3736eeba9996d3837b84d1e894bf7ca"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/small_panel.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/small_panel.png.mcmeta",
+      "sha256": "e94611ab59c73120ef98ad5fa7f1836ce3620d12d535a77bdcfd554e48902a52"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/square_entity_panel.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/square_entity_panel.png",
+      "sha256": "4f31657a3d67c630286b6fa189ac516b19f37c8e33183daf33b71873d0a88946"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/square_entity_panel.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/square_entity_panel.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/square_recessed_panel.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/square_recessed_panel.png",
+      "sha256": "81c44fe403e6afc20760f78bacc3759c90c56154d7c82295132b3485505bb639"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/tiles/square_recessed_panel.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/tiles/square_recessed_panel.png.mcmeta",
+      "sha256": "b2bf49616480c92685fbb287bb55432f04a059830268b103e9c6dc82ef23d12d"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/back.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/back.png",
+      "sha256": "deccde6f95b1d0909014010a8a629e459ee6e749febcf388d54bb1c4897ba6d1"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/bad.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/bad.png",
+      "sha256": "824f4cb472b97c77fe06762c2f1456ff48b606e7df72949ca2315a745bcf6b43"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/bad.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/bad.png.mcmeta",
+      "sha256": "3c4cc710acff6c3805410872189b2943e262dfb9db69e8c498df00732497f149"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/funny.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/funny.png",
+      "sha256": "8c721d349b50437772637aa616f3c98c679db07cd975c598ba58a286e52c79c0"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/funny.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/funny.png.mcmeta",
+      "sha256": "3c4cc710acff6c3805410872189b2943e262dfb9db69e8c498df00732497f149"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/leaderboard_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/leaderboard_button.png",
+      "sha256": "fe5f8da983519df453d8e29182827c97308738efff170c2c5a0a051fbbaa5154"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/leaderboard_button.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/leaderboard_button.png.mcmeta",
+      "sha256": "0c164f938b9759c109613eb2d2de70479b8721f893e5966a926f40d208850782"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/leaderboard_button_highlighted.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/leaderboard_button_highlighted.png",
+      "sha256": "75f635e37e37cc57bbcdc65b4e2b4136c73aff25e5c4e3b8e42da97bb2a09c3e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/leaderboard_button_highlighted.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/leaderboard_button_highlighted.png.mcmeta",
+      "sha256": "0c164f938b9759c109613eb2d2de70479b8721f893e5966a926f40d208850782"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/loading_background.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/loading_background.png",
+      "sha256": "12faa51235a3ccc18a7afbec66ed0a2664a318974bd4ffed99da77d5362db386"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/loading_bar.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/loading_bar.png",
+      "sha256": "3e7f151f31c1f7d2241f8441b86b9fe79b5379af65c59f6e53369b7f60b91fd5"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/loading_block.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/loading_block.png",
+      "sha256": "1bbbe44d656d82d6547ae9696766f1833460f97a60ed4a0aa3ad2d4fee814ff3"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/pack_highlighted.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/pack_highlighted.png",
+      "sha256": "0dd3269a6d9c208d19989a0099311c91967dd32777400595856ec23e4cad2ba5"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/pack_selected.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/pack_selected.png",
+      "sha256": "d9b89c2e8a58f1ef69717ab1daacb9e714cb28710e2c6311a1bd6106cfd258f1"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/panel_highlight.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/panel_highlight.png",
+      "sha256": "632143a96179f7cf11328552b944a20f9345aa2510c18bc88c9c5153ebd6e4f5"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/scroll_down.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/scroll_down.png",
+      "sha256": "cb365b84bc21e3f3354203c591262b87c8367f4ef96bbf07fe9b0ea22acd8eaa"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/scroll_left.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/scroll_left.png",
+      "sha256": "f49fd5b3c40c320d9c0e0145b315f7bd80ac2e0ac0278f52af1914e630a9bdbf"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/scroll_right.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/scroll_right.png",
+      "sha256": "83f94351d6c3f474860af4a35c11f21726bae067138d508ac6a6252aca4961a1"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/scroll_up.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/scroll_up.png",
+      "sha256": "12e591650af9259c4679b477f8657474d2cf881cc9315ed8c59c4eeafae12dc5"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/shift.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/shift.png",
+      "sha256": "044f7bc6019e86e492e6caed3f645d0cf50cb504447aec1d41befbf8c31eb132"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/space.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/space.png",
+      "sha256": "9e88c8ff9db9b6b533930346bb2a1a8ee1ecf9eb72c5ec243a6e67c0e073aee2"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/tick.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/tick.png",
+      "sha256": "3cc69d82dabc96d1abb813e89c40f2c77111af284cc0868d26a681b9c9328dc6"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/tickbox.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/tickbox.png",
+      "sha256": "4fab12f8f4852702d72467689962931ee53f6e28250fa0c47662a71647bd4fda"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/sprites/widget/tickbox_hovered.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/tickbox_hovered.png",
+      "sha256": "07de24764c01ac426ad11ded96cda6d149acc6dad1619d94b35d9050a2f27330"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/title/panorama_day.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/title/panorama_day.png",
+      "sha256": "11a125b4fb3e9aa3b3b06b70ef42cea9aac3b3f6c44e36f8b601931706788f6f"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/gui/title/panorama_night.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/title/panorama_night.png",
+      "sha256": "4480792e1ad103b10f11a03259e0896f6a2c8fcd96d095e157ba702fa3793968"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/back_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/back_button.png",
+      "sha256": "717f733b6911a4aa804ebbf23cc7b611239d7a9e155d5676195d384e52311bfc"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/back_button_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/back_button_pressed.png",
+      "sha256": "f5605727f81e446cd78446b5e5d32c2e48a91c776cd16ef0bb917f8dcfaf803e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/down_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/down_button.png",
+      "sha256": "bf2ca234c47f8091956799f3d1c2d16c5f8b28c812855627d74a537210d9d517"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/down_button_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/down_button_pressed.png",
+      "sha256": "7dc3416da7099f45631ca30507270005a32e0429f2a9a77bbeb908c8737bebc4"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/dpad_down.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/dpad_down.png",
+      "sha256": "33e43a8ab1ae93fdca7ad9217d6fa62a1a7133908cffb6eb3e9613416906f995"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/dpad_down_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/dpad_down_pressed.png",
+      "sha256": "a1632456ecee01f154ef2b314a62a758be2d3a4c38a0484e1cb94e1e9aebecc0"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/dpad_left.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/dpad_left.png",
+      "sha256": "4eef5e5aa6701546558c120288c932525df78bcf9ffaf1aad8522edfa21a558f"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/dpad_left_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/dpad_left_pressed.png",
+      "sha256": "3ef53f64dae3fc5284d08bce9797e7a91f711daeaae08f0e7c7100fe17e27515"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/dpad_right.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/dpad_right.png",
+      "sha256": "77deb226b30e540a780a04671209b18168e629b3906c154be129e73e07b63cdf"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/dpad_right_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/dpad_right_pressed.png",
+      "sha256": "ff08ea83fbf1d5774a345bdb3db2637575208d5e42e3c63e2b8cd7438ae59be8"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/dpad_up.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/dpad_up.png",
+      "sha256": "00e2d592e5097a51a1c7af23f49eb76857f233d3d227ed3b3995bd97c42d2a36"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/dpad_up_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/dpad_up_pressed.png",
+      "sha256": "9b2966c40e7a70891517cd6415205c5116f1a90a587365c8c39ec7aedb6e3798"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/guide_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/guide_button.png",
+      "sha256": "7373ab320dd5944337006dc940df1e49f35d0b9c0fa39b218fc97a6116e1d126"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_bumper.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_bumper.png",
+      "sha256": "2b7671c1b9d20bc1f8ae25a7d0a08c4649f227e055db035dddd5b411fdda519c"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_bumper_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_bumper_pressed.png",
+      "sha256": "0b4b0a26af6d36139ea279dab7d7e9ac869dd79f30fa4ad949a0f5fcd410caec"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_button.png",
+      "sha256": "383e4c054097a5ed8c0f8795a045858d128e10ad05d15dd9ab3455152f53b603"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_button_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_button_pressed.png",
+      "sha256": "debecd6a18c6a52deeb0f85f0203a3c6b92dd681fe93427ad1842264a4985fec"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_stick.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_stick.png",
+      "sha256": "83ea7ad88a13fc368edc9eb0cfd71747d5e8859ae16b7a15e0623ff12f02c588"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_stick_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_stick_button.png",
+      "sha256": "0131cf6cec2482d6ba693a1cd2144feaf60077c4809df3b78d55d907b0dcfc06"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_stick_button_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_stick_button_pressed.png",
+      "sha256": "000a37faa003f649c86042536432cbfda1483e7c841eb6e3cae56e8f847999ab"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_stick_pressed_left.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_stick_pressed_left.png",
+      "sha256": "2840fa8561bc52daef14212838c488f79ee7d0588df919ba491d4fa21bd08852"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_stick_pressed_right.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_stick_pressed_right.png",
+      "sha256": "6ee2b7217d4564ac50dcc4686e566c5b7f7de99e7b4445b6c2bba001bb9dfce8"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_trigger.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_trigger.png",
+      "sha256": "16d75f4417737071ea9de0dac61472e36f15fd29a48e3a8f1aa5cbbdcf6eae5e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/left_trigger_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/left_trigger_pressed.png",
+      "sha256": "1b6973b666c78ab4a2c110a919f18bd9aa23129dfd35f2127f9177bfdf660377"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_bumper.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_bumper.png",
+      "sha256": "a742a7d378da87fa07036049736070adff36bb4a921eb28bd8dbaa014dda8ef6"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_bumper_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_bumper_pressed.png",
+      "sha256": "a2dc12d1a5c0ab0036da0ed6973a606025af14c5cf7d0549fab7bb162ad6e69e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_button.png",
+      "sha256": "a05c768e001a4a233b8a89dd13d349169b821458e077791271f7c185eb688771"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_button_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_button_pressed.png",
+      "sha256": "8af3f200bdf021746475f80c99b38b952b8120137e43b58dea38917cb46ebd46"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_stick.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_stick.png",
+      "sha256": "f1382dd27bed24d8c74f798c84eb13be098c1313678cff5368db586e84800ff6"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_stick_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_stick_button.png",
+      "sha256": "31e0e5f3fcb68e89e3e81547147b3738d6234537576e44acbbe7f7e52d5f1ba3"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_stick_button_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_stick_button_pressed.png",
+      "sha256": "347563f8973178123a658af3323e713be90c8901487390fe422daa60ca61a706"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_stick_pressed_left.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_stick_pressed_left.png",
+      "sha256": "98c471cdae66ed6d77c80e0d6ba71ef0e4c74c0a10a3635df561ba161ab9c1e3"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_stick_pressed_right.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_stick_pressed_right.png",
+      "sha256": "d604be658ffc60b1c8d436e72e4a79ac7890971e41cd985773920cba1ca9a40c"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_trigger.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_trigger.png",
+      "sha256": "ab08bcbed3a440863a9bc51579f1fd625d75f16d975aa45451b0a44d1a3e1247"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/right_trigger_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/right_trigger_pressed.png",
+      "sha256": "1b5fd85a57fa90bb95b187e5eb8785cfc548ce8d7a08b2a299ee242b42753351"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/start_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/start_button.png",
+      "sha256": "f6737ac376add5cf67ee825cc3330e3be6b0d237396581d73742128ff427e18c"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/start_button_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/start_button_pressed.png",
+      "sha256": "7a3726688029da0920e49180ffef807c8ace3dd240c7c36cf5b2dd8956789224"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/up_button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/up_button.png",
+      "sha256": "00cdfc534359d908d02ebcab5df8c6faccffd1f4ec80289c910a9b7798d5f8fe"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/textures/component/ps5/up_button_pressed.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/component/ps5/up_button_pressed.png",
+      "sha256": "7e4d10728eef0197138478b51332e3e23e002fd10cdac48e0f340fadb136686e"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/button.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/button.png",
+      "sha256": "0a2e159360200a39e0c7e9c0db0e6aa034ba4e1f8d99698c004084b5ba6e94cb"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/button.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/button.png.mcmeta",
+      "sha256": "c8f6fe62c01c357a814223d4ab6a368e5122c195fa2671e585fa24988557a505"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/button_highlighted.png",
+      "sha256": "7e4f5171581f0b15cbcacbdcf0e96d8b5184b5528860a76de6c18b76c9570ea6"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/button_highlighted.png.mcmeta",
+      "sha256": "c8f6fe62c01c357a814223d4ab6a368e5122c195fa2671e585fa24988557a505"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/slider.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/slider.png",
+      "sha256": "4895acd147454771fd6a61ad294dfc12e13ff15d6018da26c9fa0e884fd9c14e"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/slider.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/slider.png.mcmeta",
+      "sha256": "d7dd31a632fe41be64e07ef0676b726e50f0af053e638742ec1f6f9550a1b7e5"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/slider_handle.png",
+      "sha256": "9e9f72ccb8eb7886db92ac8e8dab1bf21ef09451bfcbafaf822fe0dafa54719d"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/slider_handle.png.mcmeta",
+      "sha256": "e455ece745d4f9d34e477a20dc60f0899e769e7c4fbdf0c2b7a9ccfab615201c"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/slider_handle_highlighted.png",
+      "sha256": "e6cb13b56d6f47c6b8fe700a8b69f4e9698ebc457a97d9eb9f9a1e8ba7751cc8"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta",
+      "sha256": "e455ece745d4f9d34e477a20dc60f0899e769e7c4fbdf0c2b7a9ccfab615201c"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/slider_highlighted.png",
+      "sha256": "53511ff2e2e8a24cc3a5f4520a30a33dea76bcffbe20d7f3675bab1cee173870"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/slider_highlighted.png.mcmeta",
+      "sha256": "ca75a9f830a64b899558f6512297369828e6cfe442942d4900e9cb3fa8ab4d80"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/text_field.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/text_field.png",
+      "sha256": "32097d0d7ba6163f55b1b50836b15ddd81d5c2b5ab868a9efbb226a4d2308dd2"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/text_field.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/text_field.png.mcmeta",
+      "sha256": "d7dd31a632fe41be64e07ef0676b726e50f0af053e638742ec1f6f9550a1b7e5"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/text_field_highlighted.png",
+      "sha256": "11fdeed0e8337916a9dfc570805df1c5576cbd77a859d5fb3c24d017c78ba2dd"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta",
+      "sha256": "ca75a9f830a64b899558f6512297369828e6cfe442942d4900e9cb3fa8ab4d80"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/creative_tab_listing.json",
+      "destination": "src/main/resources/assets/legacyconsole/creative_legacy4j.json",
+      "sha256": "981bf5771241f9f394348e355be1eb84c2bb27a12218b4f173033e9550adaf7e"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/crafting_tab_listing.json",
+      "destination": "src/main/resources/assets/legacyconsole/crafting_legacy4j.json",
+      "sha256": "9bafb2472b09ddcab7b4f1766747d4532233a710ecfe6acb86c7955cf21df926"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/brewing_stand/fuel_length.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/brewing_fuel_length.png",
+      "sha256": "1fe417e8197b14831d37063ee42fbdec87c0b28ac8f42e933e39a72b3eea8418"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_1.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchanting_level_1.png",
+      "sha256": "9e803b636672c7281cebc637a80e4a7dfa3fe4cb9c207018e8bd283ff1f69376"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_1_disabled.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchanting_level_1_disabled.png",
+      "sha256": "c8580cb8becd3601fc5a254c36c3ba2d62b53d77742ed72f555793aa5ca1625a"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_2.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchanting_level_2.png",
+      "sha256": "7e4d7d4f92dc3a76e9c1cdc7d741ee322fb38678c04dd9f66be415db84052c54"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_2_disabled.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchanting_level_2_disabled.png",
+      "sha256": "11d4bd79029c54486a9a6d8d72cf1c336d989d3a33384c8730ae824c68e10e34"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_3.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchanting_level_3.png",
+      "sha256": "793ad69acb1fa9292e9d3eb08683d73820bb0fc2c124471c9e5a390db9809c7a"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_3_disabled.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/enchanting_level_3_disabled.png",
+      "sha256": "c5635bf4575d9736dc4636a5d2c515b829b4ce3b8507088d4d174c980c11f526"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/brewing_stand/brew_progress.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/brewing_progress.png",
+      "sha256": "9f20e2965d9af7202a3e92483f53c1617c49505828358bd517e39954f09caf69"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/textures/gui/sprites/container/brewing_stand/bubbles.png",
+      "destination": "src/main/resources/assets/legacyconsole/textures/gui/sprites/container/brewing_bubbles.png",
+      "sha256": "43b4aa9edc97e7fbd31cba8322fbe67769ab3f00e18ac239dbe0f08d7732509c"
+    }
+  ],
+  "code_sources": [
+    {
+      "path": "common/src/main/java/wily/legacy/mixin/EnchantmentScreenMixin.java",
+      "sha256": "8524925e8750f7de0e90820b942dea3b256e2330c767d9d82771357ab74710a3"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/mixin/EnchantmentMenuMixin.java",
+      "sha256": "bb001738f7524d7df46c9b1aecc443d2cafb424f0665f9623e79d660a9f7a268"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/client/screen/LegacyIconHolder.java",
+      "sha256": "1b77a8fb044c3db8b5b75f846f47df6533807dbca99c79b309623fa797090e0a"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/mixin/BrewingStandScreenMixin.java",
+      "sha256": "a917408cb102dcffe8766f5871a4acce88d832d9cbcff7332e71dfc5d78e1431"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/mixin/BrewingStandMenuMixin.java",
+      "sha256": "cba6c169dc3803c97fe3049b6890cec0a55491452604cca7563d4863622b6972"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/inventory/LegacySlotDisplay.java",
+      "sha256": "b43cb336c8663d5fe754c2d8f154748ebf57fb27d812b243dd4fa582444cfcd5"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/mixin/AbstractContainerScreenMixin.java",
+      "sha256": "9a42b61f3359f8b8d175ce4839436f9d078515da7306cb26519a1a1e2bbc56cd"
+    },
+    {
+      "path": "common/src/main/java/wily/legacy/client/CommonColor.java",
+      "sha256": "1d42c47b3c1184914f2481cd4554506c08e950219e006ea0a7356fff80157f08"
+    }
+  ],
+  "retired_sound_files": [
+    {
+      "source": "common/src/main/resources/assets/legacy/sounds/focus.ogg",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/focus.ogg",
+      "sha256": "87406540cd63d9c4fbdddf96a0fae5cf40e52d1180637d59a87e7caa62a1ac90"
+    },
+    {
+      "source": "common/src/main/resources/assets/minecraft/sounds/ui/press.ogg",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/confirm.ogg",
+      "sha256": "491aa690db34f85ea661d83e60725aa6c66529f086f3af55a8eb8307843457fb"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/sounds/back.ogg",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/back.ogg",
+      "sha256": "9f089a9de669d2a49bac81be77b17db9caa503832cb1f3ed963513d5544e06f1"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/sounds/scroll.ogg",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/tab.ogg",
+      "sha256": "c8efedbacbf6599f5202d7a7b866605ab79e5dc508b4f4412851bc7d00fb9fb4"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/sounds/action.ogg",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/craft.ogg",
+      "sha256": "07a3f820ef768a8422aa02c282a119dab0c212689f10b53c22b3892c137fd03a"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/sounds/craft_fail.ogg",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/fail.ogg",
+      "sha256": "9a91f90abf0bf4c4ee4ee2663a58dc22ae56c4e3d4e98726080a427ca222f5a9"
+    },
+    {
+      "source": "common/src/main/resources/assets/legacy/sounds/action.ogg",
+      "destination": "src/main/resources/assets/legacyconsole/sounds/ui/open.ogg",
+      "sha256": "07a3f820ef768a8422aa02c282a119dab0c212689f10b53c22b3892c137fd03a"
+    }
+  ]
+}

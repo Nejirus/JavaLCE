@@ -1,0 +1,365 @@
+{
+  "version": "2.3.13",
+  "lce_reference": {
+    "repository": "chrisGrando/MinecraftLCE-7thGen",
+    "revision": "acff48c2c7e18406fd6000b56945746ca9a6eb69",
+    "manifest": "LCE-XBOX360-2312.json"
+  },
+  "ps4_reference": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8e3"
+  },
+  "size_stops": [
+    1,
+    2,
+    3
+  ],
+  "ratios": [
+    0.6666666666666666,
+    1,
+    1.3333333333333333
+  ],
+  "menu_types": [
+    "inventory",
+    "creative",
+    "furnace",
+    "single chest",
+    "double chest",
+    "smithing",
+    "grindstone"
+  ],
+  "runtime_environment": {
+    "minecraft": "1.17.1",
+    "forge": "37.1.1",
+    "java": "17.0.21",
+    "optifine": "1.17.1_HD_U_H1",
+    "optifine_sha256": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+    "lce_look": "2.0.0",
+    "lce_look_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+    "graphics": "Linux / llvmpipe / Mesa 25.0.7"
+  },
+  "network_protocol": 6,
+  "tutorial_save_version": 2,
+  "limits": [
+    "Physical controllers and Apple Retina hardware were not tested.",
+    "Runtime uses a private flat world and synthetic controller state.",
+    "The shared console ratios are adapted to the mod menu layers; this does not claim a native global menu zoom setting."
+  ],
+  "automated_suites": [
+    {
+      "tests": 397,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "Full suite after extending the console size adapter to LCE containers and smithing/grindstone"
+    }
+  ],
+  "runtime": {
+    "status": "passed",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "checks": [
+      "Furnace, single/double chest, inventory, creative, smithing and grindstone render and respond at all three Console UI Size stops",
+      "Real scaled mouse pickup/replacement preserves inventory stacks; creative catalog clicks add items through the native transaction and scaled tabs respond",
+      "Controller direction targets the on-screen scaled holder rectangles in each menu at each stop",
+      "HUD Size remains independent; creative tabs and double chests fit above the unscaled footer"
+    ],
+    "screenshots": [
+      {
+        "file": "view-0-inventory-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "0d8f99f41d9ae894f3621b9c6a127c67b72cd5adda2a89ffe79afa5712da8877"
+      },
+      {
+        "file": "view-0-inventory-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "13e06f00146ce8cb039e60795572041858e95ad7c7b408e83d6cb2f0b7dd3d45"
+      },
+      {
+        "file": "view-0-inventory-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "6f0172b8a2ed9bc04f92fb63b82769beb9056a2d880cd4ae2afecb50a075f851"
+      },
+      {
+        "file": "view-0-furnace-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "dbb6cd57c251c3f99993fea79de25414a2153692e69c3d52758284bf079f0e99"
+      },
+      {
+        "file": "view-0-furnace-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "f1979b742d2fff8b12da459574a5300caaec97113795a81f8aa6b05b110a2fd6"
+      },
+      {
+        "file": "view-0-furnace-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "1556fe5012903c751ac372f79cdeaa8ad75cf0cbec7fa4ca13b3db1826eee651"
+      },
+      {
+        "file": "view-0-chest-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "4ea177157af7979309d9ac233d5ef54cac7ece593efb42529967fe016d7d9ec9"
+      },
+      {
+        "file": "view-0-chest-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "bfdf77be833daf22103f61f8e6d8d91706a8d7d3c2cbc2f42c7dd7f4428559ec"
+      },
+      {
+        "file": "view-0-chest-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "7716f4243d75303ce30db7fc7fbfba3684fca07d8fdc3fa8322eda8ed3a596e1"
+      },
+      {
+        "file": "view-0-double-chest-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "870ea677cc49e9d3dd3c5f40010115141de8ad8bc3d947e2d15fe3ef8a76de33"
+      },
+      {
+        "file": "view-0-double-chest-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "204ea8a9c28470828a9c54c32648e949d8a1fc793aadd8c902d80bb0fa4b09de"
+      },
+      {
+        "file": "view-0-double-chest-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "2fb255ebbeb65bdb4ff0183125d196ac548190e6caca0214fd32527c0e37a5d4"
+      },
+      {
+        "file": "view-0-creative-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "e2ce17cd34544e4e54515a79b66c4e8bc366ce247603b0aa347dffdb0c33bc13"
+      },
+      {
+        "file": "view-0-creative-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "2bf5ca2054b20627eacc40c4088a77d425c98b470869560e19f069442393fba1"
+      },
+      {
+        "file": "view-0-creative-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "29ae773bfde3ac7b63872171834333458672adb1bb6c2817c2f810448d156b44"
+      },
+      {
+        "file": "view-0-smithing-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "27c0d459d13a2a5e42da364cafc8086a669677e43528c68178b5cef6cac40b18"
+      },
+      {
+        "file": "view-0-smithing-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "683b56b0c772479c7948cdd994ddc99d82144e00d911a3b2b74410d268f044ac"
+      },
+      {
+        "file": "view-0-smithing-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "53e670bed99e99f2201f966ac0d6c974e26cb0f8303867fcf3758d99da6cbb8b"
+      },
+      {
+        "file": "view-0-grindstone-size-1.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "c6fd7474f8a2618e96d7e5385f1fb6acf4bed1b54dac12186f464708990ca6c8"
+      },
+      {
+        "file": "view-0-grindstone-size-2.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "a4373da59225aee66a0806dda4b1a24f22b6733d36ae2962e2a01c74a078106e"
+      },
+      {
+        "file": "view-0-grindstone-size-3.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "48447b1d19d6f92ca6460ffe81f51e0a78103127fff4a051f9964bd03543f78a"
+      },
+      {
+        "file": "view-1-inventory-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "20b13d4e94750bc71e3d41425f8e54ae7d4caf0f216d3b91b480554677f51428"
+      },
+      {
+        "file": "view-1-inventory-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8bc4e0e036fee697c00837af97c5e4b815e4ecbb36da5be02c0684f16338536f"
+      },
+      {
+        "file": "view-1-inventory-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8fc68425c5151224e31e649f891633f32ca766c12c25bc99caf6bb34f2de7ce1"
+      },
+      {
+        "file": "view-1-furnace-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "7f43fe549613da1aeeb7d1791a0fc9223d4dbd86616217af07e3ede939b8bf8e"
+      },
+      {
+        "file": "view-1-furnace-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c413b20928d3b27d8ae9b5fc31b341b0d612388a54535b6ebfe0de082de8107f"
+      },
+      {
+        "file": "view-1-furnace-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "dde3e68d2344ea21200ab313e85e5e6895cd0a03242e288617d6fd3a78ddadbd"
+      },
+      {
+        "file": "view-1-chest-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "5c10ae2bcf939f76705997c7ba61fc15ab00116b9d20e3db6626f54c039cef8a"
+      },
+      {
+        "file": "view-1-chest-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "6a5ae1f389dba0e679586e10ee05025d2d24679660be44cbc9191073405dde33"
+      },
+      {
+        "file": "view-1-chest-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "92291d976da09684eb4f4f4f29cc64a75cdb2bcbb0b79beefce4108a11d265cb"
+      },
+      {
+        "file": "view-1-double-chest-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "26cfb6745605c55bba95a94829510d7a182e2b9ed26d0bf2a8600a161468473b"
+      },
+      {
+        "file": "view-1-double-chest-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "74007344bfeca7bb230bd6e987f0781ceaaf9721aae8f051de98353503ef9aa6"
+      },
+      {
+        "file": "view-1-double-chest-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "61786c28253037898d21f7cf6472896c9f729ef9888ee222a28598139d835c5d"
+      },
+      {
+        "file": "view-1-creative-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "95f1b5c315d361f72d5c3d7181c1ce1fe8f9205a698fd998461dc9255700dd68"
+      },
+      {
+        "file": "view-1-creative-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "e84864c50de86e46e6cbec815851367a484144b6cc218c4039129922625e2fc0"
+      },
+      {
+        "file": "view-1-creative-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ee2d735b80fb37d1ac21a78833024cb8a2624757a1c181758a15372979a133f3"
+      },
+      {
+        "file": "view-1-smithing-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "a1a561fd96fa1e7d3c6c5826e27f65972de0a9279a95be5486890781b29c9476"
+      },
+      {
+        "file": "view-1-smithing-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "b389fefa2a14b750eafa004058a0d7757652f4f0774d3f7d04d1a98f8c4c7679"
+      },
+      {
+        "file": "view-1-smithing-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "03d401f99b7a373a794f832baa7e007e73802d3747fce01cc6ef72897b1475e1"
+      },
+      {
+        "file": "view-1-grindstone-size-1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "515da72e7714ed31b036efa3d303276a02f6bdc98cca08f97deb93b90debf0ca"
+      },
+      {
+        "file": "view-1-grindstone-size-2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "e1ba73cf29310dd7e785140dccbb09b109ae09d5a7554bf58cafc602d1d63d0a"
+      },
+      {
+        "file": "view-1-grindstone-size-3.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "b471c70f100407f3d48ce251df8781a14f30997eae952978e5097c839c02a747"
+      }
+    ]
+  }
+}

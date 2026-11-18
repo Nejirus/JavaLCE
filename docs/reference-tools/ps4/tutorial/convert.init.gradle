@@ -1,0 +1,19 @@
+allprojects {
+ afterEvaluate { project ->
+  sourceSets {
+   tutorialConverter {
+    java.srcDirs = [System.getenv('PS4_TUTORIAL_CONVERTER')]
+    compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+    runtimeClasspath += sourceSets.main.runtimeClasspath
+   }
+  }
+  tasks.register('convertPs4Tutorial', JavaExec) {
+   classpath = sourceSets.tutorialConverter.runtimeClasspath
+   mainClass = 'ConvertPs4Tutorial'
+   javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(17) }
+   maxHeapSize = '4G'
+   args System.getenv('PS4_TUTORIAL_WORK')+'/anvil-intermediate-v2',System.getenv('PS4_TUTORIAL_WORK')+'/java-world-v2'
+   if(project.hasProperty('tutorialMetadataOnly'))args '--metadata-only'
+  }
+ }
+}
