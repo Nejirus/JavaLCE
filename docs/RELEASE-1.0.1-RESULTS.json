@@ -1,0 +1,1187 @@
+{
+  "version": "1.0.1",
+  "network_protocol": 8,
+  "automated_tests": {
+    "tests": 422,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "native_reference": {
+    "file": "src/test/resources/ps4/item-viewports-native.json",
+    "sha256": "59a9f305ee8f51e3bb09b38e7d677b91fa9e0ef304733382de45bc387a942ae4",
+    "executed_slot_cases": 12,
+    "routine": "0x83b9b0",
+    "rounding": "0x3c0ea0",
+    "pointer_item": "Original skinHDInGame.fui iggy_pointerIcon shape and transform"
+  },
+  "runtime": {
+    "status": "passed",
+    "version": "1.0.1",
+    "forge": "37.1.1",
+    "optifine": "1.17.1_HD_U_H1",
+    "client_sessions": 2,
+    "input_fixture": "Single clicks separated by at least 350 ms to avoid vanilla double-click collect during frame stalls",
+    "checks": [
+      "furnace-p0-size0: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p0-size1: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p0-size2: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p1-size0: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p1-size1: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p1-size2: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p2-size0: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p2-size1: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p2-size2: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p3-size0: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p3-size1: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p3-size2: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p4-size0: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p4-size1: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p4-size2: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p5-size0: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p5-size1: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p5-size2: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p6-size0: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p6-size1: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p6-size2: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p7-size0: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p7-size1: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "furnace-p7-size2: full stack pickup/replacement and actual GPU icon/count transforms match PS4 geometry",
+      "extra-anvil-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-anvil-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-anvil-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-cartography-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-cartography-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-cartography-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-enchanting-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-enchanting-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-enchanting-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-brewing-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-brewing-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-brewing-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-beacon-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-beacon-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-beacon-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-crafting-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-crafting-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-crafting-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-stonecutter-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-stonecutter-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-stonecutter-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-loom-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-loom-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-loom-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-fireworks-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-fireworks-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-fireworks-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-dyes-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-dyes-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-dyes-p2-size2: original item viewport and selector-decoration route rendered",
+      "extra-trading-p2-size0: original item viewport and selector-decoration route rendered",
+      "extra-trading-p2-size1: original item viewport and selector-decoration route rendered",
+      "extra-trading-p2-size2: original item viewport and selector-decoration route rendered"
+    ],
+    "captures": [
+      {
+        "file": "furnace-p0-size0-placed.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "be09719a4df8a4daec0a4c4c7210cbb03b3bd4ec1c38a5b0b9fd5aba91184331"
+      },
+      {
+        "file": "furnace-p0-size0-carried.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "3335b88c63ab082344c602204456764c607d4ad5ddc3506de2250a01f577142f"
+      },
+      {
+        "file": "furnace-p0-size1-placed.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "ca1799ffaf07df08b75a1fe4c16e3373c77e62fcc341a6b1ab0ba754a385f474"
+      },
+      {
+        "file": "furnace-p0-size1-carried.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "89be58cb723e48459a6995c338b89e298db6f4bb9fec06ac2060e6fca9f4910a"
+      },
+      {
+        "file": "furnace-p0-size2-placed.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "7bb79df3b21e7dbdfc7950be795ec318cb0ea9c170b6064ca0673518a4616d50"
+      },
+      {
+        "file": "furnace-p0-size2-carried.png",
+        "width": 1280,
+        "height": 720,
+        "shaders": false,
+        "sha256": "dc0690e7ec858d91df9c3c50bdcc6994731fd31204709db5be82a9aa349e379f"
+      },
+      {
+        "file": "furnace-p1-size0-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "b72b867a0cc4a2a4c578bdf2af89d2e1d168bf511508a10748391dcdff4437c4"
+      },
+      {
+        "file": "furnace-p1-size1-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "92bef7ff9ea9835be116ef5087e20b6464b48b5b49376c78ca0540a7f2796c28"
+      },
+      {
+        "file": "furnace-p1-size2-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "shaders": false,
+        "sha256": "9954f7442750d823bbf8607ba6e8da7ebedfb170462559e0e8e74d0b936ccbb8"
+      },
+      {
+        "file": "furnace-p2-size0-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4a8d828158e9e442daf24873d5a275516070431f955e491324a6a683d8a3a11c"
+      },
+      {
+        "file": "furnace-p2-size0-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "f62ee73373a52ef8c286a8ffa29319549196d688b08e68a55c23359bad967eb2"
+      },
+      {
+        "file": "furnace-p2-size1-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "ecbf76c454d18a7d1ee8055f624978e0546eb74fc788b38153e687693fea975f"
+      },
+      {
+        "file": "furnace-p2-size1-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "7c3a631439f89d040256d7918f58c3ba33fcfe1809bcc1e7172efcda85fa8f09"
+      },
+      {
+        "file": "furnace-p2-size2-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8cf09adc60f25855f78f29d5bb860d5316b89344bc53b3f71d16439f05e24b83"
+      },
+      {
+        "file": "furnace-p2-size2-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0a37429391d72a7774449d53fb7fe880e01447bca506f3feccbf1008b0020c6a"
+      },
+      {
+        "file": "furnace-p3-size0-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "f88fbd52f3ec19e87859f3695c541282208edebd9fe7b7e564ab01c4be933b3a"
+      },
+      {
+        "file": "furnace-p3-size1-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "5eee41d72771e8ea8c0db3a67696036a32ef82f997acc54f72074c54f76b3f42"
+      },
+      {
+        "file": "furnace-p3-size2-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "shaders": false,
+        "sha256": "b63e8d3524ef9f4e1182ca43d845bdcb53bcb241c90d08deb776ba5356a54389"
+      },
+      {
+        "file": "furnace-p4-size0-placed.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "8ebc5bdd4dbf2f594001adb4e9a289d8abe4953b8151489517bf41859c466294"
+      },
+      {
+        "file": "furnace-p4-size1-placed.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "10812a48e6e0b423a2e22bf01290fa49c16fd367a90ad6e4a826796fb54b4daa"
+      },
+      {
+        "file": "furnace-p4-size2-placed.png",
+        "width": 1024,
+        "height": 768,
+        "shaders": false,
+        "sha256": "db6d01c2b8ae632ff5a7826a85d154dba7791cd1c5d794c3c8f1210097ac3352"
+      },
+      {
+        "file": "furnace-p5-size0-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "d2d0ea1aa67fab4cd94657ca228e551d8f3a445d1bf5d925824236d21921124c"
+      },
+      {
+        "file": "furnace-p5-size1-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "03451d5cf217c9d3faf0e26a4ee50cd18f799b75a04f9eb3765b711b1297c66e"
+      },
+      {
+        "file": "furnace-p5-size2-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "shaders": false,
+        "sha256": "0758d4cad9afa47a8d505412fe997c930ad72efb9702031b264d6cac97852dc3"
+      },
+      {
+        "file": "furnace-p6-size0-placed.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "82d3403d4ba6525e7d3b74e8b7378d86a8e811d9148a9065d5d03886759f952d"
+      },
+      {
+        "file": "furnace-p6-size1-placed.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "bb3ea6bfab905f3eb6490c825a80c0d76d1ae98901284e353fbc30b3019de281"
+      },
+      {
+        "file": "furnace-p6-size2-placed.png",
+        "width": 1512,
+        "height": 982,
+        "shaders": false,
+        "sha256": "465698c90b28b9c7c3ba39e4623929be43b8feb931c3bd7f7f10eee71717f8df"
+      },
+      {
+        "file": "furnace-p7-size0-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "0d02cc33f39fad30d6c43c4d7ac1ce6e863c383d7ebf90a88ed3c547390a5ded"
+      },
+      {
+        "file": "furnace-p7-size1-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "47548d2cf5beb8334d0db3b145c1492b6f39b3a4b5ffd2958c7bc4c1177aa2f2"
+      },
+      {
+        "file": "furnace-p7-size2-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "shaders": false,
+        "sha256": "8c836439ddd024249ce4ba43a1b5ea0210f3ef76e7ded7aa5578a4da9545516f"
+      },
+      {
+        "file": "extra-anvil-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "40e2c505b75ec18e7e4fd3c6201ac2e5160805c0bbd84dafc73d5284fc66d0bc"
+      },
+      {
+        "file": "extra-anvil-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3caae4db041962b5c5d0157bea0011a7c11de426b472d959505095c7f17a7bb5"
+      },
+      {
+        "file": "extra-anvil-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8474b8dff27bb20689ba5515ef21d5f800f583b7b22f2a2613b62a291fae44b9"
+      },
+      {
+        "file": "extra-cartography-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "a01e47fddb22050f3a4b38911f8b0e20ed4e5d4b880c3b29c91441fe7e8d41c3"
+      },
+      {
+        "file": "extra-cartography-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "7844faabf90213a6be1b79c56dba8e423a652788665e01c18623fde410b2473f"
+      },
+      {
+        "file": "extra-cartography-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0f9e7e9e11fa9a862e45111b63c0b5b9c7e38db7a0bfff45a625a5d92fa67b84"
+      },
+      {
+        "file": "extra-enchanting-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "fe759aa919aaaf4c695b6e3fd4d50106e7d2af4cfa7f1c83a77bbbab2db6ff19"
+      },
+      {
+        "file": "extra-enchanting-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "fc6c4b1efe89e203fb7ad9653ee903aff55260d29dea416e1e87d269424b0718"
+      },
+      {
+        "file": "extra-enchanting-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3c19e5fa32894029931cf4d7cd7ac438835419e9dc1ba53eeccc99a1f8a548fc"
+      },
+      {
+        "file": "extra-brewing-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "fa9fb01d1ab1f7f4f68f4200b3fee375df07697700f830e4e9b9f0a88f5e9e21"
+      },
+      {
+        "file": "extra-brewing-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "84f86a42a4b838d95f770e240bcb9c6ddf765c9bfdad5386c3354fa9c851372d"
+      },
+      {
+        "file": "extra-brewing-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c1768dad017d27b176fae88e57ce32f05a3141ff208dda2a9ac561673f087666"
+      },
+      {
+        "file": "extra-beacon-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "cdf3a3f226fbb8a7178fbaa9bc57ed6dfdb76e70f40725abd7c7d174b4ba1112"
+      },
+      {
+        "file": "extra-beacon-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "15e2dbd78cec7574807bbcfc4922f33c79e0d9cde80d6a1af4534b6d4ae47c5d"
+      },
+      {
+        "file": "extra-beacon-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "62f0e9b4a296413dfd5238b444581fbf6591fe287d1004b883a35ebe01591237"
+      },
+      {
+        "file": "extra-crafting-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "a0159e81d8fb2f2b0a08e93beb6218802c47e32006d9febbad3340f2af05fb68"
+      },
+      {
+        "file": "extra-crafting-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "e5403002c093d0ea257e4594895f6c341a45a5037fb08ffa847705110474e7ad"
+      },
+      {
+        "file": "extra-crafting-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "8c41cbd5ebf6ca369b563367b7f8033e0207e3811101de0acd8897307703b22e"
+      },
+      {
+        "file": "extra-stonecutter-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "76fda210256db36df3150e55d879b872b3dc65599b480be80a9a8dc4b2455387"
+      },
+      {
+        "file": "extra-stonecutter-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "0940bce71728416566ed3284b50566267db31ffcb93c787ef648d4afd66fb52e"
+      },
+      {
+        "file": "extra-stonecutter-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "31c0a087c7d5bcf006b42d0c52fe8790f9c2bf19f4a3425db2e664a540e63322"
+      },
+      {
+        "file": "extra-loom-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "70d37beefee02b8c60ed9d68fb3de9d84b0a1834088a4dec41b2c14f33ad172b"
+      },
+      {
+        "file": "extra-loom-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "a1d88dd0552b036209b8d2bd3319890cc314b2e7d74aabaf324148805d87d92f"
+      },
+      {
+        "file": "extra-loom-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "82dc2e340e7892ee1b2a6af2ad4b886a14fc738d590d5984c97319bf48f54df6"
+      },
+      {
+        "file": "extra-fireworks-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "db38ea9669216b292c18719d37bc4455352f93a3e82cc7fbc0080fe5d02556a6"
+      },
+      {
+        "file": "extra-fireworks-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "b7f2ff24d15686dd964c21cddba4009cfb04ce8ea69ab5a78d0bef003974f18f"
+      },
+      {
+        "file": "extra-fireworks-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "57349079684f26abd3596ac65293e86687ee4c0371fc1760c34f66908467666c"
+      },
+      {
+        "file": "extra-dyes-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "3bf5df25ddf3a1aff8520389a919739af100f8350902bdec22dbb423eba56774"
+      },
+      {
+        "file": "extra-dyes-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "868cbd64dfe07c852f1432f87f6fbb193dc6b945e379b4343efdbb98460036df"
+      },
+      {
+        "file": "extra-dyes-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "c6dd2431ce16839eaf1f1339ddd4c2c7d75fe0ed73327bf5671d01553d199151"
+      },
+      {
+        "file": "extra-trading-p2-size0.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4a56d546d87db5a527de8d8a4d415d9b126127686d7e7a6f2aa1bc082f79edc9"
+      },
+      {
+        "file": "extra-trading-p2-size1.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "4657043b633fba6b2da6595ed58f2ce5fb76c4b7d60ca14ca315c73acf693148"
+      },
+      {
+        "file": "extra-trading-p2-size2.png",
+        "width": 2560,
+        "height": 1440,
+        "shaders": true,
+        "sha256": "27178f64b852113e98794be4c96464da4b5a5cc1ef1816bb671cbfad154b927e"
+      }
+    ],
+    "measurements": [
+      {
+        "case": "furnace-p0-size0",
+        "state": "placed",
+        "width": 12.666534,
+        "height": 12.666626,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p0-size0",
+        "state": "carried",
+        "width": 16.000061,
+        "height": 15.9999695,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p0-size0",
+        "state": "placed",
+        "width": 12.666534,
+        "height": 12.666626,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p0-size1",
+        "state": "placed",
+        "width": 18.999817,
+        "height": 18.999908,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p0-size1",
+        "state": "carried",
+        "width": 24.000092,
+        "height": 23.999962,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p0-size1",
+        "state": "placed",
+        "width": 18.999817,
+        "height": 18.999908,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p0-size2",
+        "state": "placed",
+        "width": 25.3331,
+        "height": 25.33319,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p0-size2",
+        "state": "carried",
+        "width": 32.000122,
+        "height": 31.999947,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p0-size2",
+        "state": "placed",
+        "width": 25.3331,
+        "height": 25.33319,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p1-size0",
+        "state": "placed",
+        "width": 12.666534,
+        "height": 12.666626,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p1-size0",
+        "state": "carried",
+        "width": 16.000061,
+        "height": 15.9999695,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p1-size0",
+        "state": "placed",
+        "width": 12.666534,
+        "height": 12.666626,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p1-size1",
+        "state": "placed",
+        "width": 18.999817,
+        "height": 18.999908,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p1-size1",
+        "state": "carried",
+        "width": 24.000092,
+        "height": 23.999962,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p1-size1",
+        "state": "placed",
+        "width": 18.999817,
+        "height": 18.999908,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p1-size2",
+        "state": "placed",
+        "width": 25.3331,
+        "height": 25.33319,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p1-size2",
+        "state": "carried",
+        "width": 32.000122,
+        "height": 31.999947,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p1-size2",
+        "state": "placed",
+        "width": 25.3331,
+        "height": 25.33319,
+        "gui_scale": 3.0
+      },
+      {
+        "case": "furnace-p2-size0",
+        "state": "placed",
+        "width": 12.666534,
+        "height": 12.666626,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p2-size0",
+        "state": "carried",
+        "width": 16.000061,
+        "height": 15.9999695,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p2-size0",
+        "state": "placed",
+        "width": 12.666534,
+        "height": 12.666626,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p2-size1",
+        "state": "placed",
+        "width": 18.999817,
+        "height": 18.999908,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p2-size1",
+        "state": "carried",
+        "width": 24.000092,
+        "height": 23.999962,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p2-size1",
+        "state": "placed",
+        "width": 18.999817,
+        "height": 18.999908,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p2-size2",
+        "state": "placed",
+        "width": 25.3331,
+        "height": 25.33319,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p2-size2",
+        "state": "carried",
+        "width": 32.000122,
+        "height": 31.999947,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p2-size2",
+        "state": "placed",
+        "width": 25.3331,
+        "height": 25.33319,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p3-size0",
+        "state": "placed",
+        "width": 12.666534,
+        "height": 12.666626,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p3-size0",
+        "state": "carried",
+        "width": 16.000076,
+        "height": 15.9999695,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p3-size0",
+        "state": "placed",
+        "width": 12.666534,
+        "height": 12.666626,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p3-size1",
+        "state": "placed",
+        "width": 18.999817,
+        "height": 18.999908,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p3-size1",
+        "state": "carried",
+        "width": 24.000092,
+        "height": 23.999962,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p3-size1",
+        "state": "placed",
+        "width": 18.999817,
+        "height": 18.999908,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p3-size2",
+        "state": "placed",
+        "width": 25.3331,
+        "height": 25.33319,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p3-size2",
+        "state": "carried",
+        "width": 32.000122,
+        "height": 31.999947,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p3-size2",
+        "state": "placed",
+        "width": 25.3331,
+        "height": 25.33319,
+        "gui_scale": 6.0
+      },
+      {
+        "case": "furnace-p4-size0",
+        "state": "placed",
+        "width": 20.26648,
+        "height": 20.266571,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p4-size0",
+        "state": "carried",
+        "width": 25.600098,
+        "height": 25.599976,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p4-size0",
+        "state": "placed",
+        "width": 20.26648,
+        "height": 20.266571,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p4-size1",
+        "state": "placed",
+        "width": 30.39972,
+        "height": 30.39981,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p4-size1",
+        "state": "carried",
+        "width": 38.400146,
+        "height": 38.399933,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p4-size1",
+        "state": "placed",
+        "width": 30.39972,
+        "height": 30.39981,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p4-size2",
+        "state": "placed",
+        "width": 40.53296,
+        "height": 40.533142,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p4-size2",
+        "state": "carried",
+        "width": 51.200195,
+        "height": 51.199905,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p4-size2",
+        "state": "placed",
+        "width": 40.53296,
+        "height": 40.533142,
+        "gui_scale": 1.0
+      },
+      {
+        "case": "furnace-p5-size0",
+        "state": "placed",
+        "width": 15.833191,
+        "height": 15.833252,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p5-size0",
+        "state": "carried",
+        "width": 20.000092,
+        "height": 19.99997,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p5-size0",
+        "state": "placed",
+        "width": 15.833191,
+        "height": 15.833252,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p5-size1",
+        "state": "placed",
+        "width": 23.749786,
+        "height": 23.749878,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p5-size1",
+        "state": "carried",
+        "width": 30.000092,
+        "height": 29.999939,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p5-size1",
+        "state": "placed",
+        "width": 23.749786,
+        "height": 23.749878,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p5-size2",
+        "state": "placed",
+        "width": 31.666382,
+        "height": 31.666565,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p5-size2",
+        "state": "carried",
+        "width": 40.000183,
+        "height": 39.99994,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p5-size2",
+        "state": "placed",
+        "width": 31.666382,
+        "height": 31.666565,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size0",
+        "state": "placed",
+        "width": 14.962372,
+        "height": 14.962433,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size0",
+        "state": "carried",
+        "width": 18.900055,
+        "height": 18.899979,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size0",
+        "state": "placed",
+        "width": 14.962372,
+        "height": 14.962433,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size1",
+        "state": "placed",
+        "width": 22.443542,
+        "height": 22.443634,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size1",
+        "state": "carried",
+        "width": 28.350098,
+        "height": 28.34996,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size1",
+        "state": "placed",
+        "width": 22.443542,
+        "height": 22.443634,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size2",
+        "state": "placed",
+        "width": 29.924713,
+        "height": 29.924866,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size2",
+        "state": "carried",
+        "width": 37.80014,
+        "height": 37.799927,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p6-size2",
+        "state": "placed",
+        "width": 29.924713,
+        "height": 29.924866,
+        "gui_scale": 2.0
+      },
+      {
+        "case": "furnace-p7-size0",
+        "state": "placed",
+        "width": 14.962372,
+        "height": 14.962433,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p7-size0",
+        "state": "carried",
+        "width": 18.900055,
+        "height": 18.899979,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p7-size0",
+        "state": "placed",
+        "width": 14.962372,
+        "height": 14.962433,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p7-size1",
+        "state": "placed",
+        "width": 22.443542,
+        "height": 22.443634,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p7-size1",
+        "state": "carried",
+        "width": 28.350098,
+        "height": 28.34996,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p7-size1",
+        "state": "placed",
+        "width": 22.443542,
+        "height": 22.443634,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p7-size2",
+        "state": "placed",
+        "width": 29.924713,
+        "height": 29.924866,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p7-size2",
+        "state": "carried",
+        "width": 37.80017,
+        "height": 37.799927,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "furnace-p7-size2",
+        "state": "placed",
+        "width": 29.924713,
+        "height": 29.924866,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-anvil-p2-size0",
+        "state": "placed",
+        "width": 12.666687,
+        "height": 12.666443,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-anvil-p2-size1",
+        "state": "placed",
+        "width": 19.000061,
+        "height": 18.999634,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-anvil-p2-size2",
+        "state": "placed",
+        "width": 25.333405,
+        "height": 25.332886,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-cartography-p2-size0",
+        "state": "placed",
+        "width": 12.666687,
+        "height": 12.666458,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-cartography-p2-size1",
+        "state": "placed",
+        "width": 19.000061,
+        "height": 18.999664,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-cartography-p2-size2",
+        "state": "placed",
+        "width": 24.172852,
+        "height": 24.172333,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-enchanting-p2-size0",
+        "state": "placed",
+        "width": 12.666626,
+        "height": 12.666611,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-enchanting-p2-size1",
+        "state": "placed",
+        "width": 18.999954,
+        "height": 18.999908,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-enchanting-p2-size2",
+        "state": "placed",
+        "width": 25.333282,
+        "height": 25.33319,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-brewing-p2-size0",
+        "state": "placed",
+        "width": 12.666595,
+        "height": 12.666443,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-brewing-p2-size1",
+        "state": "placed",
+        "width": 18.999893,
+        "height": 18.999664,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-brewing-p2-size2",
+        "state": "placed",
+        "width": 23.1427,
+        "height": 23.142426,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-beacon-p2-size0",
+        "state": "placed",
+        "width": 12.666718,
+        "height": 12.666428,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-beacon-p2-size1",
+        "state": "placed",
+        "width": 19.000046,
+        "height": 18.999664,
+        "gui_scale": 4.0
+      },
+      {
+        "case": "extra-beacon-p2-size2",
+        "state": "placed",
+        "width": 25.159378,
+        "height": 25.158875,
+        "gui_scale": 4.0
+      }
+    ]
+  },
+  "banner_runtime": {
+    "status": "passed",
+    "stage": 10,
+    "checks": [
+      "New banner selector is available with six wool and a stick and no existing banner",
+      "After server crafting consumes the wool and stick, new-banner selector becomes unavailable even though the output is now owned",
+      "Before Triangle Add, selected design is available and staged preview remains blank, following PS4 controls",
+      "Triangle Add updates preview to the black-cross design and enables Create without mutating the base banner",
+      "Actual server banner-design transaction succeeds with all required materials"
+    ],
+    "captures": [
+      {
+        "file": "blank-available.png",
+        "sha256": "53cc43d9062fe4b35d6e4c0c20c100a0548e752762fbe6ea2c638866490eef71",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "file": "blank-unavailable.png",
+        "sha256": "3e4500bd9220286dec553fdfcdda8960ac1fe6d450515ed2f397bcf3b8f4fe5a",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "file": "selected-design.png",
+        "sha256": "9c658fe4c424829e0d7a034585922d1c6ec709c236f5d950e35d9ba49cf6a173",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "file": "staged-design.png",
+        "sha256": "e8edc3ec59b935b59767f98ad356580213af7e31b3c3f9aeef77311568406950",
+        "width": 2560,
+        "height": 1440
+      }
+    ]
+  },
+  "runtime_files": {
+    "legacy-console-1.17.1-1.0.1.jar": "b64e1ee0ac04a1fbc0038ba632c3b6d970eb35917ccf718e481f8c671283132f",
+    "legacy-join-compat-1.17.1-1.0.1.jar": "6b6f6f8cf34e4fdcac31b283ad014c3070f5dc354498c898ead8878161d4e057",
+    "OptiFine_1.17.1_HD_U_H1.jar": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793"
+  },
+  "shaderpack_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+  "limits": [
+    "Minecraft 1.17.1 models and font remain Java adapters.",
+    "Retina-shaped framebuffers tested on Linux; no physical Apple Retina hardware.",
+    "Other menus use local client fixtures for rendering; furnace pickup/replacement and banner crafting use real synchronized server menus."
+  ]
+}

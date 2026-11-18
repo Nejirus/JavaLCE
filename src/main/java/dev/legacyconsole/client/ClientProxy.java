@@ -55,6 +55,7 @@ public final class ClientProxy {
   else if(screen instanceof BeaconScreen)replacement=new Ps4BeaconScreen((AbstractContainerScreen<?>)screen);
   else if(screen instanceof CartographyTableScreen)replacement=new Ps4CartographyScreen((AbstractContainerScreen<?>)screen);
   else if(screen instanceof BrewingStandScreen)replacement=new ConsoleBrewingScreen((AbstractContainerScreen<?>)screen);
+  else if(screen instanceof ContainerScreen chest&&(chest.getMenu().getRowCount()==3||chest.getMenu().getRowCount()==6))replacement=new Ps4ChestScreen(chest);
   else if(screen instanceof LoomScreen||screen instanceof CartographyTableScreen||screen instanceof StonecutterScreen||screen instanceof GrindstoneScreen||screen instanceof SmithingScreen)replacement=new ConsoleWorkstationScreen((AbstractContainerScreen<?>)screen);
   else if(screen instanceof AbstractContainerScreen<?> container)replacement=new ConsoleStorageScreen(container);
   if(replacement!=null)event.setGui(replacement);

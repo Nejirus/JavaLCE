@@ -1,203 +1,69 @@
 package dev.legacyconsole.client.ui;
-import net.minecraft.client.*;
-import net.minecraft.client.gui.screens.*;
-import net.minecraft.client.gui.screens.inventory.*;
-import net.minecraft.client.gui.components.*;
-import net.minecraft.client.player.*;
-import net.minecraft.client.multiplayer.*;
-import net.minecraft.client.server.*;
-import net.minecraft.client.resources.language.*;
-import net.minecraft.client.sounds.*;
-import net.minecraft.client.resources.sounds.*;
-import net.minecraft.client.renderer.texture.*;
-import net.minecraft.client.renderer.entity.*;
-import net.minecraft.client.renderer.*;
-import net.minecraft.client.model.*;
-import net.minecraft.world.*;
-import net.minecraft.world.entity.*;
-import net.minecraft.world.entity.player.*;
-import net.minecraft.world.entity.animal.*;
-import net.minecraft.world.entity.npc.*;
-import net.minecraft.world.entity.vehicle.*;
-import net.minecraft.world.entity.decoration.*;
-import net.minecraft.world.entity.monster.*;
-import net.minecraft.world.level.*;
-import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.state.*;
-import net.minecraft.world.level.material.*;
-import net.minecraft.world.level.block.entity.*;
-import net.minecraft.world.level.storage.*;
-import net.minecraft.world.level.saveddata.maps.*;
-import net.minecraft.world.level.biome.*;
-import net.minecraft.world.level.levelgen.*;
-import net.minecraft.world.level.levelgen.flat.*;
-import net.minecraft.world.inventory.*;
-import net.minecraft.world.item.*;
-import net.minecraft.world.item.crafting.*;
-import net.minecraft.world.item.enchantment.*;
-import net.minecraft.world.item.alchemy.*;
-import net.minecraft.world.item.trading.*;
-import net.minecraft.world.effect.*;
-import net.minecraft.world.phys.*;
-import net.minecraft.resources.*;
-import net.minecraft.core.*;
-import net.minecraft.nbt.*;
-import net.minecraft.network.*;
-import net.minecraft.network.chat.*;
-import net.minecraft.network.protocol.game.*;
-import net.minecraft.sounds.*;
-import net.minecraft.util.*;
-import net.minecraft.server.*;
-import net.minecraft.server.level.*;
-import com.mojang.blaze3d.vertex.*;
-import net.minecraft.ChatFormatting;
-import net.minecraft.SharedConstants;
-import net.minecraft.client.server.IntegratedServer;
-import dev.legacyconsole.port.*;
-import dev.legacyconsole.port.Gui;
-import dev.legacyconsole.port.GlStateManager;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import dev.legacyconsole.port.ReflectionHelper;
 
-import dev.legacyconsole.client.input.*;
+import dev.legacyconsole.port.Keyboard;
 import java.io.IOException;
+import java.util.ArrayList;
+import net.minecraft.client.gui.screens.inventory.InventoryScreen;
+import net.minecraft.client.resources.language.I18n;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.Slot;
 
-
-
-/** Retains every vanilla inventory slot ID; the manual crafting grid is hidden. */
-public final class ConsoleInventory extends ConsoleContainerScreen implements ControllerScreen {
+/** mcps4 InventoryMenu1080 and 0x81e150's console-crafting layout. */
+public final class ConsoleInventory extends Ps4ContainerScreen {
   private final int[][] original;
+  private float equipmentOffset;
 
   public ConsoleInventory(Player player) {
-    super(player.inventoryMenu);
-    xSize = 215;
-    ySize = 217;
-    original = new int[inventorySlots.slots.size()][2];
-    for (int i = 0; i < original.length; i++) {
-      Slot s = inventorySlots.getSlot(i);
-      original[i][0] = s.x;
-      original[i][1] = s.y;
+    super(player.inventoryMenu,"InventoryMenu");
+    original=new int[inventorySlots.slots.size()][2];
+    for(int i=0;i<original.length;i++) {
+      Slot slot=inventorySlots.getSlot(i);original[i][0]=slot.x;original[i][1]=slot.y;
     }
   }
-
-  @Override protected boolean consoleUiScaling(){return true;}
-
-  @Override
-  public void initGui() {
-    super.initGui();
-    mc.player.containerMenu = inventorySlots;
-    guiTop = Math.max(2, (height - ySize) / 2 - 6);
-    for (int i = 0; i < inventorySlots.slots.size(); i++) {
-      Slot s = inventorySlots.getSlot(i);
-      if (i <= 4) {
-        s.x = -10000;
-        s.y = -10000;
-      } else if (i <= 8) {
-        s.x = 66;
-        s.y = 14 + (i - 5) * 21;
-      } else if (i <= 35) {
-        s.x = 15 + (i - 9) % 9 * 21;
-        s.y = 117 + (i - 9) / 9 * 21;
-      } else if (i <= 44) {
-        s.x = 15 + (i - 36) * 21;
-        s.y = 187;
-      } else {
-        s.x = 164;
-        s.y = 78;
-      }
+  @Override protected void layoutControls() {
+    float[] armor=art.matrix("armorList"),player=art.matrix("iggy_player");
+    equipmentOffset=Ps4ContainerLogic.equipmentOffset(armor[4],50*armor[0],player[4],
+        art.scene.player_bounds[1]-art.scene.player_bounds[0],art.panelBounds().w()/art.scale);
+    var cells=new ArrayList<Ps4UiArt.Rect>();
+    for(int i=0;i<4;i++) {
+      var cell=shift(art.cell("armorList",0,i,1,4));place(5+i,cell);cells.add(cell);
     }
+    navigationGrid(12,1,cells);
+    var shield=shift(art.control("shieldList"));place(45,shield);
+    navigationSlot(13,45);
+    // Native console crafting hides the manual grid/result; C retains the
+    // existing console/creative crafting route.
   }
-
-  @Override
-  public void onGuiClosed() {
-    for (int i = 0; i < original.length; i++) {
-      inventorySlots.getSlot(i).x = original[i][0];
-      inventorySlots.getSlot(i).y = original[i][1];
+  private Ps4UiArt.Rect shift(Ps4UiArt.Rect r) {
+    return new Ps4UiArt.Rect(r.x()+equipmentOffset*art.scale,r.y(),r.w(),r.h());
+  }
+  @Override protected void drawGuiContainerBackgroundLayer(float partial,int mx,int my) {
+    art.backgrounds();art.label(I18n.get("container.inventory"),"inventoryLabel");
+    art.object("PlayerBackground",equipmentOffset);
+    drawHolders(mx,my);
+    String[] icons={"Head","Body","Legs","Feet"};
+    for(int i=0;i<4;i++)if(!inventorySlots.getSlot(5+i).hasItem())
+      art.emptyEquipment("Armour_Slot_"+icons[i],equipmentOffset);
+    if(!inventorySlots.getSlot(45).hasItem())art.emptyEquipment("Armour_Slot_Shield",equipmentOffset);
+    float[] p=art.matrix("iggy_player"),b=art.scene.player_bounds;
+    var r=shift(art.rect(p[4]+b[0],p[5]+b[2],b[1]-b[0],b[3]-b[2]));
+    // Java's entity renderer adapts the mesh/lighting; viewport, scale and foot
+    // anchor are from UIScene's original player draw at 0x9f6f30.
+    InventoryScreen.renderEntityInInventory(Math.round(r.x()+r.w()/2),
+        Math.round(r.y()+Ps4ContainerLogic.playerFoot(r.h())),Math.round(Ps4ContainerLogic.playerScale(r.w())),
+        r.x()+r.w()/2-mx,r.y()+r.h()/2-40*art.scale-my,mc.player);
+  }
+  @Override protected String[] actionPrompts() {
+    return Ps4InventoryActions.prompts(getSlotUnderMouse(),inventorySlots.getCarried(),mc.player);
+  }
+  @Override protected void keyTyped(char c,int key)throws IOException {
+    if(key==Keyboard.KEY_C){mc.player.closeContainer();ConsoleScreens.craftingOrCreative();}
+    else super.keyTyped(c,key);
+  }
+  @Override public void onGuiClosed() {
+    for(int i=0;i<original.length;i++) {
+      inventorySlots.getSlot(i).x=original[i][0];inventorySlots.getSlot(i).y=original[i][1];
     }
     super.onGuiClosed();
-  }
-
-  private void crafting() {
-    mc.player.closeContainer();
-    ConsoleScreens.craftingOrCreative();
-  }
-
-  @Override
-  protected void keyTyped(char c, int key) throws IOException {
-    if (key == Keyboard.KEY_C) crafting();
-    else super.keyTyped(c, key);
-  }
-
-  @Override
-  protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {}
-
-  @Override
-  public int[] controllerSlotBounds(Slot slot) {
-    return new int[] {slot.x - 2, slot.y - 2, 21, 21};
-  }
-
-  @Override
-  protected int[] inventoryHighlightBounds(Slot slot) {
-    return slot.x < 0 || slot.y < 0 ? null : controllerSlotBounds(slot);
-  }
-
-  @Override
-  public void drawTexturedModalRect(int x, int y, TextureAtlasSprite sprite, int w, int h) {
-    // GuiContainer otherwise paints Java's empty equipment sprite over our highlight.
-    // The reference equipment artwork has already been drawn in the background pass.
-    if (w == 16 && h == 16)
-      for (int i : new int[] {5, 6, 7, 8, 45}) {
-        Slot slot = inventorySlots.getSlot(i);
-        if (!slot.hasItem() && x == slot.x && y == slot.y) return;
-      }
-    super.drawTexturedModalRect(x, y, sprite, w, h);
-  }
-
-  @Override
-  protected void drawGuiContainerBackgroundLayer(float partial, int mx, int my) {
-    ConsoleTheme.panel(guiLeft, guiTop, xSize, ySize);
-    ConsoleTheme.sprite("gui/sprites/tiles/entity_panel", guiLeft + 90, guiTop + 13, 63, 84);
-    InventoryScreen.renderEntityInInventory(
-        guiLeft + 121, guiTop + 92, 35, guiLeft + 121 - mx, guiTop + 40 - my, mc.player);
-    String[] armor = {"head", "chest", "legs", "feet"};
-    for (int i = 5; i < inventorySlots.slots.size(); i++) {
-      Slot s = inventorySlots.getSlot(i);
-      int[] bounds = controllerSlotBounds(s);
-      ConsoleTheme.slot(guiLeft + bounds[0], guiTop + bounds[1], bounds[2], false);
-      if (!s.hasItem() && (i <= 8 || i == 45))
-        ConsoleTheme.sprite(
-            "gui/sprites/container/" + (i == 45 ? "shield" : armor[i - 5]) + "_slot",
-            guiLeft + s.x,
-            guiTop + s.y,
-            16,
-            16);
-    }
-    drawInventoryHighlight(mx, my);
-    ConsoleTheme.text("Inventory", guiLeft + 14, guiTop + 103, ConsoleTheme.DARK);
-  }
-
-  @Override
-  public void drawScreen(int mx, int my, float partial) {
-    drawDefaultBackground();
-    super.drawScreen(mx, my, partial);
-    ConsoleTheme.footer(width,height,Ps4InventoryActions.prompts(getSlotUnderMouse(),mc.player.containerMenu.getCarried(),mc.player));
-  }
-
-  @Override
-  public boolean controllerDirection(int direction) {
-    return false;
-  }
-
-  @Override
-  public boolean controllerButton(int button) {
-    // IUIScene_AbstractContainerMenu maps Square/X to native right click: half / one.
-    // ControllerMenus dispatches that click with the original slot and transaction IDs.
-    return false;
-  }
-
-  @Override
-  public boolean controllerPointer() {
-    return true;
   }
 }

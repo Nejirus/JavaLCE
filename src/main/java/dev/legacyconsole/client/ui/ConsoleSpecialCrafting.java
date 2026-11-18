@@ -31,6 +31,7 @@ public final class ConsoleSpecialCrafting extends ConsoleContainerScreen impleme
   private ItemStack banner=ItemStack.EMPTY;
   private RecipeCatalog.Entry recipe;
   private Ps4BannerCrafting.Plan bannerPlan;
+  private boolean blankBannerAvailable;
   private List<ItemStack> grid=List.of();
   private Ps4CraftingArt art;
   private final CraftRepeater repeater=new CraftRepeater();
@@ -140,6 +141,15 @@ public final class ConsoleSpecialCrafting extends ConsoleContainerScreen impleme
     return preview;
   }
   private List<ItemStack> emptyGrid(){return new ArrayList<>(Collections.nCopies(container.table?9:4,ItemStack.EMPTY));}
+  private List<ItemStack> blankBannerGrid(ItemStack result) {
+    List<ItemStack> cells=emptyGrid();
+    if(craftingTable() && result.getItem() instanceof BannerItem item) {
+      Item wool=Registry.ITEM.get(new ResourceLocation(item.getColor().getName()+"_wool"));
+      for(int i=0;i<6;i++)cells.set(i,new ItemStack(wool));
+      cells.set(7,new ItemStack(Items.STICK));
+    }
+    return cells;
+  }
   private void compose() {
     for(Selector selector:selectors)selector.refresh();
     recipe=null;bannerPlan=null;grid=emptyGrid();
@@ -151,9 +161,7 @@ public final class ConsoleSpecialCrafting extends ConsoleContainerScreen impleme
       bannerPlan=Ps4BannerCrafting.plan(banner,layers,container.table,type==5);
     } else if(banners()) {
       if(craftingTable() && selected==0) {
-        BannerItem item=(BannerItem)value(0).getItem();
-        Item wool=Registry.ITEM.get(new ResourceLocation(item.getColor().getName()+"_wool"));
-        for(int i=0;i<6;i++)grid.set(i,new ItemStack(wool));grid.set(7,new ItemStack(Items.STICK));
+        grid=blankBannerGrid(value(0));
       } else if(selected==copyBannerColumn() && !value(selected).isEmpty()) {
         grid.set(0,unit(value(selected)));grid.set(1,new ItemStack(value(selected).getItem()));
       } else if(selectingBanner())grid.set(0,unit(value(selected)));
@@ -170,6 +178,11 @@ public final class ConsoleSpecialCrafting extends ConsoleContainerScreen impleme
       }
       boolean missing=(type==3 || type==2 && mode==1) && value(0).isEmpty();
       if(!missing)recipe=DynamicRecipes.entry(grid,mc.level,container.table);
+    }
+    blankBannerAvailable=false;
+    if(banners() && mode==0 && craftingTable() && !selectors.isEmpty()) {
+      var creation=selected==0?recipe:DynamicRecipes.entry(blankBannerGrid(value(0)),mc.level,true);
+      blankBannerAvailable=creation!=null && creation.allocate(inventory())!=null;
     }
     inventoryHash=inventoryHash();
   }
@@ -327,11 +340,12 @@ public final class ConsoleSpecialCrafting extends ConsoleContainerScreen impleme
         float sourceX=(r.x()-art.x())/art.scale()-19;
         float sourceY=(r.y()-art.y())/art.scale()-(three?153:71);
         art.sprite(three?"Crafting_3SlotLargeV":"Crafting_2SlotLargeV",sourceX,sourceY);
-        if(three)art.slot(icon(i,-1),new Ps4CraftingArt.Rect(r.x(),r.y()-r.h(),r.w(),r.h()),false,false);
-        art.slot(icon(i,1),new Ps4CraftingArt.Rect(r.x(),r.y()+r.h(),r.w(),r.h()),false,false);
+        if(three)art.slot(icon(i,-1),new Ps4CraftingArt.Rect(r.x(),r.y()-r.h(),r.w(),r.h()),false,false,false);
+        art.slot(icon(i,1),new Ps4CraftingArt.Rect(r.x(),r.y()+r.h(),r.w(),r.h()),false,false,false);
       }
       boolean missing=s.pattern==null && !value(i).isEmpty() && count(value(i))==0;
-      art.slot(icon(i,0),r,i==selected,missing);
+      if(banners() && mode==0 && craftingTable() && i==0)missing=!blankBannerAvailable;
+      art.slot(icon(i,0),r,i==selected,missing,false);
       if(!editingBanner() && i==selected && s.choices.size()>1)art.selectorArrows(r);
   }
   private void drawGrid() {

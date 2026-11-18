@@ -1,0 +1,1000 @@
+{
+  "version": "1.0.2",
+  "network_protocol": 8,
+  "automated_tests": {
+    "tests": 426,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "native_reference": {
+    "file": "src/test/resources/ps4/containers-native.json",
+    "sha256": "7ca6c3f11a211d9b7cbb931ef7757878d9244c9bbe1d8764a01c6a33533a104c",
+    "executed_navigation_cases": 2448,
+    "inventory_layout": "0x81e150",
+    "inventory_navigation": "0xa66550",
+    "chest_navigation": "0xa17a60",
+    "export_reproduced_byte_for_byte": true
+  },
+  "runtime": {
+    "status": "passed",
+    "stage": 34,
+    "case": "inventory-p2-size3",
+    "version": "1.0.2",
+    "forge": "37.1.1",
+    "checks": [
+      "inventory-p0-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p0-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p0-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p0-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p0-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p0-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p0-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p0-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p0-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p1-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p1-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p1-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p1-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p1-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p1-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p1-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p1-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p1-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p2-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p2-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p2-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p2-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "Native Java armor and offhand transactions work through PS4 equipment slots",
+      "Odd-stack split and replacement preserve all 37 items",
+      "chest-single-p2-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p2-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p2-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p2-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p2-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p3-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p3-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p3-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p3-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p3-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p3-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p3-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p3-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p3-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p4-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p4-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p4-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p4-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p4-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p4-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p4-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p4-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p4-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p5-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p5-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p5-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p5-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p5-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p5-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p5-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p5-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p5-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p6-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p6-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p6-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p6-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p6-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p6-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p6-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p6-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p6-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p7-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p7-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p7-size0: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p7-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p7-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p7-size1: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "inventory-p7-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-single-p7-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "chest-double-p7-size2: synchronized pickup, replacement, quick move, item conservation, native D-pad route and slot layout passed",
+      "crafting-size0-selected0: vertical selector frame rendered after neighboring block icons",
+      "crafting-size0-selected3: vertical selector frame rendered after neighboring block icons",
+      "crafting-size0-selected6: vertical selector frame rendered after neighboring block icons",
+      "crafting-size0-selected9: vertical selector frame rendered after neighboring block icons",
+      "crafting-size1-selected0: vertical selector frame rendered after neighboring block icons",
+      "crafting-size1-selected3: vertical selector frame rendered after neighboring block icons",
+      "crafting-size1-selected6: vertical selector frame rendered after neighboring block icons",
+      "crafting-size1-selected9: vertical selector frame rendered after neighboring block icons",
+      "crafting-size2-selected0: vertical selector frame rendered after neighboring block icons",
+      "crafting-size2-selected3: vertical selector frame rendered after neighboring block icons",
+      "crafting-size2-selected6: vertical selector frame rendered after neighboring block icons",
+      "crafting-size2-selected9: vertical selector frame rendered after neighboring block icons"
+    ],
+    "captures": [
+      {
+        "file": "inventory-p0-size0-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 0,
+        "shaders": false,
+        "sha256": "0cd07c2292b1514c45f1e8b4e42758c9c7a7df912faa1be599d118baefa94f26"
+      },
+      {
+        "file": "chest-single-p0-size0-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 0,
+        "shaders": false,
+        "sha256": "7269fad6bdb380a1da6f6bc798f0bfb7b6b0547f14e9656ddf8046152b59653b"
+      },
+      {
+        "file": "chest-double-p0-size0-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 0,
+        "shaders": false,
+        "sha256": "643e26fd695c216ef605ae2ce8417b93bda3bc4fe49a54920a21bdd3f0775b0d"
+      },
+      {
+        "file": "inventory-p0-size1-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 1,
+        "shaders": false,
+        "sha256": "8835691adb4e48f9a9a36703a3ef3c6092678590dda0b90ee941205360c085f7"
+      },
+      {
+        "file": "chest-single-p0-size1-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 1,
+        "shaders": false,
+        "sha256": "dcdc4f458c37725d54416e5ffed493c29032ab2eae02df78d111d27f1ee9b3a7"
+      },
+      {
+        "file": "chest-double-p0-size1-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 1,
+        "shaders": false,
+        "sha256": "0efea5342dc770c856fe07386968b0ff90cd89409cf97a106bd095b5c3d5c6a7"
+      },
+      {
+        "file": "inventory-p0-size2-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 2,
+        "shaders": false,
+        "sha256": "d4b4ddfcc148a9db865b757dc4b5190c61c3743898328588772356e208a195f8"
+      },
+      {
+        "file": "chest-single-p0-size2-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 2,
+        "shaders": false,
+        "sha256": "f97cb5ec479a0e64727d337f9601d307ce571e0ce3c025ed52366b544f0efb57"
+      },
+      {
+        "file": "chest-double-p0-size2-placed.png",
+        "width": 1280,
+        "height": 720,
+        "size": 2,
+        "shaders": false,
+        "sha256": "55f56f54399aac0652286bd92e0304c1b5b8cde0d6f3414db8a94a555c4970ac"
+      },
+      {
+        "file": "inventory-p1-size0-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 0,
+        "shaders": false,
+        "sha256": "07f3ebe3cb5953c5c8041198dbe7e2e759090b9f74bfaf06c7e19b68dbc140de"
+      },
+      {
+        "file": "chest-single-p1-size0-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 0,
+        "shaders": false,
+        "sha256": "07a59e71a93d50f743ce0a9d1f7ec18c0e84295c9bcb2d375d48c41dfaadbc6e"
+      },
+      {
+        "file": "chest-double-p1-size0-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 0,
+        "shaders": false,
+        "sha256": "671e1e10b1bdcff3e8a80063d6d5b30f4bd1985af69ccaa15b29c32a3f0b6e54"
+      },
+      {
+        "file": "inventory-p1-size1-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 1,
+        "shaders": false,
+        "sha256": "7cbff80a23d06f5a784d6124601c807c709b04276f76fd38a8cfc141b291fdca"
+      },
+      {
+        "file": "chest-single-p1-size1-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 1,
+        "shaders": false,
+        "sha256": "ec1211df5c58685695c290a09c8b4319e3a37b034c4407e19242b49c80dfbe64"
+      },
+      {
+        "file": "chest-double-p1-size1-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 1,
+        "shaders": false,
+        "sha256": "c4850a0e34569e9db2661aa35200f322c560552d70dbbe0d463d4fd055ba0af6"
+      },
+      {
+        "file": "inventory-p1-size2-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 2,
+        "shaders": false,
+        "sha256": "dd7598dd94a87e38964b1dce5ee5e0a523f6079c9b68c8b36495fceaa2da878c"
+      },
+      {
+        "file": "chest-single-p1-size2-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 2,
+        "shaders": false,
+        "sha256": "c82f90020e8b7e6e5810bc3503454e93343a1815ec97663809ecb16a635f31a2"
+      },
+      {
+        "file": "chest-double-p1-size2-placed.png",
+        "width": 1920,
+        "height": 1080,
+        "size": 2,
+        "shaders": false,
+        "sha256": "4a669d47faec204e81adaf7fa05f548673849ba1f2741db8062e1b97b25682d3"
+      },
+      {
+        "file": "inventory-p2-size0-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": true,
+        "sha256": "cf7709cc3c233e06c3e3449da1d49e36b213ff45f9febdef9a7010adc2af9cdc"
+      },
+      {
+        "file": "inventory-p2-size0-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": true,
+        "sha256": "09c80b93b0d2a119a5e2171a66933da47857e99492b427be92828dab280c9a2a"
+      },
+      {
+        "file": "chest-single-p2-size0-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": true,
+        "sha256": "7fce7a3248bcd05707f17f0163d300df48c1338729b1334dca91ec62151e763d"
+      },
+      {
+        "file": "chest-single-p2-size0-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": true,
+        "sha256": "31ba2ee678692f8b8ea95e9b326b0d40ed55eb55b251aa10239625577e514145"
+      },
+      {
+        "file": "chest-double-p2-size0-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": true,
+        "sha256": "30277c261dc3902ac3e4c8cce544e6741d0a34ef7133b4eaf2bd13db42b203b5"
+      },
+      {
+        "file": "chest-double-p2-size0-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": true,
+        "sha256": "f180f7963d9ffaa08e95be6ea8d8ab9029cff432fc669d4d41cbfd8fcf947f8e"
+      },
+      {
+        "file": "inventory-p2-size1-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": true,
+        "sha256": "b380140f8e68739da33d451b4098c2d8bc0b298a97aa323894a09ce1f5c62623"
+      },
+      {
+        "file": "inventory-p2-size1-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": true,
+        "sha256": "5fc75cfe70410d8d95887086c5472ec0b65215e1e6f181a3334e214c6bc0d684"
+      },
+      {
+        "file": "inventory-equipped.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": true,
+        "sha256": "1df3b64ed483a2b47857ccc18e4f4b21021847ce954e9c758a1dd26abd246ab7"
+      },
+      {
+        "file": "chest-single-p2-size1-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": true,
+        "sha256": "ad6aeb83f2dba979cccf4be3c3644316d7f3e9c605dcc8def6824717133855e8"
+      },
+      {
+        "file": "chest-single-p2-size1-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": true,
+        "sha256": "62c226a2ac84fdb02b7f6f9d4c874a73ee5b2810a4d8695355da3fea962f4347"
+      },
+      {
+        "file": "chest-double-p2-size1-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": true,
+        "sha256": "880cf4b545d9dbeee90e44105f3a76f4e7c0a32616e5f748d7a4b19312b0228c"
+      },
+      {
+        "file": "chest-double-p2-size1-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": true,
+        "sha256": "4c9c5f0eaf4ba25107d479e72195eca67bc0cd6c75a4bcf9c65cb787f71680fc"
+      },
+      {
+        "file": "inventory-p2-size2-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": true,
+        "sha256": "3ebd744638d2d2e00d12530884e87ce261cc61a34a2dff3d0a954b6bdb29aad1"
+      },
+      {
+        "file": "inventory-p2-size2-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": true,
+        "sha256": "b5650bcdd4f61d66210df734ab5dd2efdab5551ee0bb8dc01f1affd7d46330e5"
+      },
+      {
+        "file": "chest-single-p2-size2-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": true,
+        "sha256": "6f036711ea723772559f41c3b7b307f483420f877478ccacbb2ff61e3d1c6ded"
+      },
+      {
+        "file": "chest-single-p2-size2-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": true,
+        "sha256": "f38770569985a528b86eebe5ef4d2a0c9d9d8593a68dca1153abbf16ee461416"
+      },
+      {
+        "file": "chest-double-p2-size2-placed.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": true,
+        "sha256": "f996ab77d8bcb44ba40131b9d11e83430b29766b756c2c39eea4804de4165e66"
+      },
+      {
+        "file": "chest-double-p2-size2-carried.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": true,
+        "sha256": "f0ae06a857c8585ce313d0586fbfc53af59365bb84d8c3f81ece88fb06b3d2f6"
+      },
+      {
+        "file": "inventory-p3-size0-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 0,
+        "shaders": false,
+        "sha256": "457d9d9a08c69c9af7a3b1909d7ce498a985210d9d377106d0dab9395d67ee8e"
+      },
+      {
+        "file": "chest-single-p3-size0-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 0,
+        "shaders": false,
+        "sha256": "b72682dafcf4585b91b1bdb2dcaf68c6e8113d817d646cb1728adce5bd8dcc5b"
+      },
+      {
+        "file": "chest-double-p3-size0-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 0,
+        "shaders": false,
+        "sha256": "7f8bc195c948e7a0f3a6507419b83978f0b158648187c27653faf0ab55266d55"
+      },
+      {
+        "file": "inventory-p3-size1-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 1,
+        "shaders": false,
+        "sha256": "211adae9a396b995bbb928d951e004a0b108eb444f2fd2253258dfb218df6215"
+      },
+      {
+        "file": "chest-single-p3-size1-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 1,
+        "shaders": false,
+        "sha256": "cbb716b36e8ed0409fac7cd6abe1986b2710ee3c002442258d22bea0e0fb78ce"
+      },
+      {
+        "file": "chest-double-p3-size1-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 1,
+        "shaders": false,
+        "sha256": "92b6fbf9583e90ae8303a391aa38012e07e64f32afbb51b9be192c6ecd8bcb77"
+      },
+      {
+        "file": "inventory-p3-size2-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 2,
+        "shaders": false,
+        "sha256": "8e301af877a2176d6d323553d1efddac9239a5c7c7d0544c2ffbacb983f8347f"
+      },
+      {
+        "file": "chest-single-p3-size2-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 2,
+        "shaders": false,
+        "sha256": "0aa98c826e3fcda622fb6f80d401c8a75c14ab3852fe395661f385bd98256eac"
+      },
+      {
+        "file": "chest-double-p3-size2-placed.png",
+        "width": 3840,
+        "height": 2160,
+        "size": 2,
+        "shaders": false,
+        "sha256": "1918274f4ab51e730fc2fa0757cd7fa1a5287245e92e5433fd6e7b9c2c9449ef"
+      },
+      {
+        "file": "inventory-p4-size0-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 0,
+        "shaders": false,
+        "sha256": "c0eed95bbcb69d48f6854fd7d7a3ca17536533530c04ddbcdd5ea181cc442cc7"
+      },
+      {
+        "file": "chest-single-p4-size0-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 0,
+        "shaders": false,
+        "sha256": "4440dbafc361e7e99da48456d93f7534a5ae0751b41d89a4f492e83bd668107f"
+      },
+      {
+        "file": "chest-double-p4-size0-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 0,
+        "shaders": false,
+        "sha256": "52f324cbac94d66178273235e4db43de57ce7d62148a9adcc43f3e659c2c21c3"
+      },
+      {
+        "file": "inventory-p4-size1-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 1,
+        "shaders": false,
+        "sha256": "d8ab0ec3c86072cc1d048599abb8f1718e8be018ccb536204ed63614cf45063e"
+      },
+      {
+        "file": "chest-single-p4-size1-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 1,
+        "shaders": false,
+        "sha256": "745735f0f6f7551f66abff29bbfb0bda9b11e1ec6d7a22789b5cc01f3109ea16"
+      },
+      {
+        "file": "chest-double-p4-size1-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 1,
+        "shaders": false,
+        "sha256": "bccc921db217db92eabbb13003c5ef6348715900bcd73f50c96f0849320ff809"
+      },
+      {
+        "file": "inventory-p4-size2-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 2,
+        "shaders": false,
+        "sha256": "304fa94ef0af59ed1043802e1284d60d913eaa17f7b6aa0a6a7e626a8ebadd6c"
+      },
+      {
+        "file": "chest-single-p4-size2-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 2,
+        "shaders": false,
+        "sha256": "2359cef9a79bc16cdaefcfc268fdba5681fd7b34f347c8fe03a9034be9e25290"
+      },
+      {
+        "file": "chest-double-p4-size2-placed.png",
+        "width": 1024,
+        "height": 768,
+        "size": 2,
+        "shaders": false,
+        "sha256": "3a5e124b9faa00bda95c3afe0c24f10e630bf9e60119fde898d4cfbb3f001f08"
+      },
+      {
+        "file": "inventory-p5-size0-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 0,
+        "shaders": false,
+        "sha256": "43cdfa7ad828cc95a1fbc7567566223121834c920b52a42d4c84d9431c2dd4db"
+      },
+      {
+        "file": "chest-single-p5-size0-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 0,
+        "shaders": false,
+        "sha256": "99c62dfb547cc6d33ad056c3f7e280926418b318a5c75b08a615491462e7d5e2"
+      },
+      {
+        "file": "chest-double-p5-size0-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 0,
+        "shaders": false,
+        "sha256": "aa06b4614e27ba179fa73faa0ed15efe26e12b6e305ff888e96cf28ba3a0c2d2"
+      },
+      {
+        "file": "inventory-p5-size1-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 1,
+        "shaders": false,
+        "sha256": "e732756f1a45c556276dd3480079590e0ede3bc110f57fd299c55764f50139f9"
+      },
+      {
+        "file": "chest-single-p5-size1-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 1,
+        "shaders": false,
+        "sha256": "1235f9118b6926c11792fd84ff97216e1abd35859435d8674c623d12580d41b2"
+      },
+      {
+        "file": "chest-double-p5-size1-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 1,
+        "shaders": false,
+        "sha256": "3aa2fea05a2999d9c79e89730ef968ccf1a5c4222dc73f6d8bc5304552647ec3"
+      },
+      {
+        "file": "inventory-p5-size2-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 2,
+        "shaders": false,
+        "sha256": "c7d21fd30249ee545a8a49d04a3cfec696ee226a093b6aeae0263446fb7f6ca2"
+      },
+      {
+        "file": "chest-single-p5-size2-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 2,
+        "shaders": false,
+        "sha256": "bdfe0f3f5192371a553a3d37957fd1901db9b58b690582bff930e097ec89f055"
+      },
+      {
+        "file": "chest-double-p5-size2-placed.png",
+        "width": 1600,
+        "height": 1000,
+        "size": 2,
+        "shaders": false,
+        "sha256": "525716eec56d113532029b98210da5e3184c4cab72c5f461ea79846fabbfa481"
+      },
+      {
+        "file": "inventory-p6-size0-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 0,
+        "shaders": false,
+        "sha256": "db265b2037c6f30acb1e322cd1bef1c316a8d3bf3def85868c6d97e7db623dfe"
+      },
+      {
+        "file": "chest-single-p6-size0-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 0,
+        "shaders": false,
+        "sha256": "1497339f0cb4d1bab1e0a0c35e354ae5ce76a01cbd18a5c1c6f7a7d30ad94989"
+      },
+      {
+        "file": "chest-double-p6-size0-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 0,
+        "shaders": false,
+        "sha256": "b9849403a6aacf30331a22b362fe8e0d4a14c3d0d71fe2a1fce5e84ccdd407a3"
+      },
+      {
+        "file": "inventory-p6-size1-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 1,
+        "shaders": false,
+        "sha256": "8304cf65d0dc2a20745a47d834d66948d2b98cbfa5fc510d999950179cc2f36f"
+      },
+      {
+        "file": "chest-single-p6-size1-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 1,
+        "shaders": false,
+        "sha256": "660baec5680ddb4f6bafd5fbc593d109b5381bd1a308cbfd6b4b0e4cb17348f8"
+      },
+      {
+        "file": "chest-double-p6-size1-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 1,
+        "shaders": false,
+        "sha256": "19b2debdfbd99dae88a879e84a326732a87ad23e532f20c844634a9a677aaaeb"
+      },
+      {
+        "file": "inventory-p6-size2-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 2,
+        "shaders": false,
+        "sha256": "2e4cd79f5fcaf73b9a05ade5b7e7eec678f57cc2e498feae3018ceca02251973"
+      },
+      {
+        "file": "chest-single-p6-size2-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 2,
+        "shaders": false,
+        "sha256": "e215c09c5ef4f75d296efcb59c03488290b6181d591c891fec3733f9bf970dde"
+      },
+      {
+        "file": "chest-double-p6-size2-placed.png",
+        "width": 1512,
+        "height": 982,
+        "size": 2,
+        "shaders": false,
+        "sha256": "a022bb3bb7e7bc1e5f7a240bd791c6490fd9a191c3db791f3acefde5af83b515"
+      },
+      {
+        "file": "inventory-p7-size0-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 0,
+        "shaders": false,
+        "sha256": "5f35e3dcd2242b5e04d917de617f8d08442951755b23f701b03ea75400d567d9"
+      },
+      {
+        "file": "chest-single-p7-size0-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 0,
+        "shaders": false,
+        "sha256": "a9f7b33579c8c5c7061d4f708524d4e9907fd1cf77296308d4d9658cbab9a9f0"
+      },
+      {
+        "file": "chest-double-p7-size0-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 0,
+        "shaders": false,
+        "sha256": "78306531097f0ddd401978bd353f9df99ca11e0d83e992a381fb9b887a300a62"
+      },
+      {
+        "file": "inventory-p7-size1-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 1,
+        "shaders": false,
+        "sha256": "fb87d7357541bdd7b5082d3f95d4e8f83a228c07a5a84f3b5678d7615777ca3a"
+      },
+      {
+        "file": "chest-single-p7-size1-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 1,
+        "shaders": false,
+        "sha256": "8ec41405a537fb06efe1742d165543493edfb0b29ad23c4c4eaafcfaa580ff69"
+      },
+      {
+        "file": "chest-double-p7-size1-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 1,
+        "shaders": false,
+        "sha256": "d80ca1cc717674e5f35426f5339c690c77e219c85d40e207c1a6650eb0e0beba"
+      },
+      {
+        "file": "inventory-p7-size2-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 2,
+        "shaders": false,
+        "sha256": "7cc0e9096206f9f82225dc324693d89cc1fb18391d1dfc9a0a252e9824e69c65"
+      },
+      {
+        "file": "chest-single-p7-size2-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 2,
+        "shaders": false,
+        "sha256": "a5cf5a990193ac490fb0ddc580b2a95b26a65931a6520348ff65cc505c726bd1"
+      },
+      {
+        "file": "chest-double-p7-size2-placed.png",
+        "width": 3024,
+        "height": 1964,
+        "size": 2,
+        "shaders": false,
+        "sha256": "a843be24d8fb42cbb3f7a903a0d857cb333c78bfac1fe1e5fb7e04b785b4423a"
+      },
+      {
+        "file": "crafting-size0-selected0.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": false,
+        "selector_left": 877.7777709960938,
+        "selector_top": 446.66668701171875,
+        "selector_scale": 0.888888955116272,
+        "sha256": "207c0c945f35629fe822997ea032261aae6aaffe8e6388f747dad0b1112b4da0"
+      },
+      {
+        "file": "crafting-size0-selected3.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": false,
+        "selector_left": 1096.4444580078125,
+        "selector_top": 446.66668701171875,
+        "selector_scale": 0.888888955116272,
+        "sha256": "ec3485057ea6a7971973110682b37d03cac7d99acd2f7d750af2c2106738fe5f"
+      },
+      {
+        "file": "crafting-size0-selected6.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": false,
+        "selector_left": 1315.111083984375,
+        "selector_top": 446.66668701171875,
+        "selector_scale": 0.888888955116272,
+        "sha256": "cbff1deaa4a36436fc03bd2b56a17d6a25e57e155a57f40ed8ad9bab92279bc8"
+      },
+      {
+        "file": "crafting-size0-selected9.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 0,
+        "shaders": false,
+        "selector_left": 1533.77783203125,
+        "selector_top": 446.66668701171875,
+        "selector_scale": 0.888888955116272,
+        "sha256": "e812cbeda0e68ec8c05e10b826ea57cf1619c1f39b7079aa4277fd736bb9cb6c"
+      },
+      {
+        "file": "crafting-size1-selected0.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": false,
+        "selector_left": 676.6666870117188,
+        "selector_top": 310.0,
+        "selector_scale": 1.3333333730697632,
+        "sha256": "e2a362fe07b98b5852694c4d61a8fb31524ebfe818cd08cb349e848517060c5e"
+      },
+      {
+        "file": "crafting-size1-selected3.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": false,
+        "selector_left": 1004.6666870117188,
+        "selector_top": 310.0,
+        "selector_scale": 1.3333333730697632,
+        "sha256": "fc25898826df6c757012a04acee0608b8555f863c55b826535e0d0b4529da20c"
+      },
+      {
+        "file": "crafting-size1-selected6.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": false,
+        "selector_left": 1332.6666259765625,
+        "selector_top": 310.0,
+        "selector_scale": 1.3333333730697632,
+        "sha256": "e4856f1627f42f963be28f8a3a64a6d828c308335365f523eaf6170c94cceac2"
+      },
+      {
+        "file": "crafting-size1-selected9.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 1,
+        "shaders": false,
+        "selector_left": 1660.6666259765625,
+        "selector_top": 310.0,
+        "selector_scale": 1.3333333730697632,
+        "sha256": "729660656fb49f94f48949ff9270996f7bd655df430e65fabc77c9108f586957"
+      },
+      {
+        "file": "crafting-size2-selected0.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": false,
+        "selector_left": 486.43170166015625,
+        "selector_top": 180.72430419921875,
+        "selector_scale": 1.7537420988082886,
+        "sha256": "d37903184bae5f3ef4b6e4c87297940770c57b79d739cb6c6572cac3f3ff669c"
+      },
+      {
+        "file": "crafting-size2-selected3.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": false,
+        "selector_left": 917.8522338867188,
+        "selector_top": 180.72430419921875,
+        "selector_scale": 1.7537420988082886,
+        "sha256": "4d1b3f51f41cbcb49123f7822357117cf118069d21a5c5e66606516d0104d681"
+      },
+      {
+        "file": "crafting-size2-selected6.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": false,
+        "selector_left": 1349.27294921875,
+        "selector_top": 180.72430419921875,
+        "selector_scale": 1.7537420988082886,
+        "sha256": "66317adcf453da2d427782afaea9904236530d02edaeddfecd149a41d532da54"
+      },
+      {
+        "file": "crafting-size2-selected9.png",
+        "width": 2560,
+        "height": 1440,
+        "size": 2,
+        "shaders": false,
+        "selector_left": 1780.693359375,
+        "selector_top": 180.72430419921875,
+        "selector_scale": 1.7537420988082886,
+        "sha256": "9c39c46e3a9360c5adced6ffbb465386a2c45c5b6df7d0a643ef7b2b46614ead"
+      }
+    ]
+  },
+  "visible_portrait_runtime": {
+    "status": "passed",
+    "version": "1.0.2",
+    "fixture": "Disable the old QA world's saved host-invisibility flag and remove potion effects; verify the normal visible character as well",
+    "captures": [
+      {
+        "file": "visible-player-off-size0.png",
+        "visible": true,
+        "shaders": false,
+        "width": 2560,
+        "height": 1440,
+        "sha256": "2929a73bc3988de3e64847913fd65dac8e7172163fcf868a4ed3e83499cd8ff7"
+      },
+      {
+        "file": "visible-player-off-size1.png",
+        "visible": true,
+        "shaders": false,
+        "width": 2560,
+        "height": 1440,
+        "sha256": "b2483fb83f2a6fa3cb799df6fb8caa0c2a95df5d2f2ac240beef30b87ff9c74a"
+      },
+      {
+        "file": "visible-player-off-size2.png",
+        "visible": true,
+        "shaders": false,
+        "width": 2560,
+        "height": 1440,
+        "sha256": "cb59917d45b949b8d99c2a10c004f9ee9d9dcdf9b2fdd44f6b548cc47c0f7dce"
+      },
+      {
+        "file": "visible-player-look-size0.png",
+        "visible": true,
+        "shaders": true,
+        "width": 2560,
+        "height": 1440,
+        "sha256": "bc373949daf0ebea2646ce301b45a88c15997560b116da8f9c2129d3a15177fd"
+      },
+      {
+        "file": "visible-player-look-size1.png",
+        "visible": true,
+        "shaders": true,
+        "width": 2560,
+        "height": 1440,
+        "sha256": "7acc7061c3aca3f8785eda0882e416eaa193fd3d198b4638a79e9ee74fc84f37"
+      },
+      {
+        "file": "visible-player-look-size2.png",
+        "visible": true,
+        "shaders": true,
+        "width": 2560,
+        "height": 1440,
+        "sha256": "8dde1c55d5e4b52844753fdff169eab3f537d873f46688a921d2ab1540bc515d"
+      }
+    ]
+  },
+  "selector_pixel_comparison": {
+    "status": "passed",
+    "method": "Opaque original frame pixels outside the highlight at identical 1440p geometry",
+    "cases": [
+      {
+        "selected": 0,
+        "frame_pixels": 545,
+        "overwritten_in_1_0_1": 0,
+        "overwritten_in_1_0_2": 0
+      },
+      {
+        "selected": 3,
+        "frame_pixels": 545,
+        "overwritten_in_1_0_1": 285,
+        "overwritten_in_1_0_2": 0
+      },
+      {
+        "selected": 6,
+        "frame_pixels": 545,
+        "overwritten_in_1_0_1": 0,
+        "overwritten_in_1_0_2": 0
+      },
+      {
+        "selected": 9,
+        "frame_pixels": 545,
+        "overwritten_in_1_0_1": 0,
+        "overwritten_in_1_0_2": 0
+      }
+    ]
+  },
+  "runtime_files": {
+    "legacy-console-1.17.1-1.0.2.jar": "d28c9c7fbcd3b1835f4967a74bdfd3eb7c5d40461266aaf3a867cdddbf33a3b5",
+    "legacy-join-compat-1.17.1-1.0.2.jar": "b8540770483b7aa1e9a477b7868a60af0b829f8ad3c9f8f308f16176b7848f86",
+    "OptiFine_1.17.1_HD_U_H1.jar": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793"
+  },
+  "shaderpack_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+  "limits": [
+    "Minecraft 1.17.1 item/entity models, fonts and synchronized inventory transactions remain Java adapters.",
+    "Retina-shaped framebuffers tested on Linux; no physical Apple Retina/controller hardware.",
+    "The initial matrix also exercised the saved QA player host-invisibility state; a separate run clears that flag and verifies normal visible portraits."
+  ]
+}

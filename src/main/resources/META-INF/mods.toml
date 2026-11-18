@@ -3,7 +3,7 @@ loaderVersion="[37,)"
 license="See LICENSE and THIRD-PARTY-NOTICES.md"
 [[mods]]
 modId="legacyconsole"
-version="1.0.0"
+version="1.0.2"
 displayName="Legacy Console"
 description="Legacy Console menus, crafting, controller support and presentation for Minecraft 1.17.1."
 [[dependencies.legacyconsole]]

@@ -1,0 +1,158 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+  "widgets_sha256": "7f23ceea63283bb054ee2f21e2d559d90783da80cf04a2e6e839c0ee92e6fc7f",
+  "slot_routine": "0x83b9b0",
+  "rounding_routine": "0x3c0ea0",
+  "slot_cases": [
+    {
+      "width": 20.0,
+      "height": 20.0,
+      "scale": 1.0,
+      "rectangle": [
+        1.0,
+        19.0,
+        1.0,
+        19.0
+      ]
+    },
+    {
+      "width": 31.5,
+      "height": 31.5,
+      "scale": 1.575,
+      "rectangle": [
+        2.0,
+        29.5,
+        2.0,
+        29.5
+      ]
+    },
+    {
+      "width": 42.0,
+      "height": 42.0,
+      "scale": 2.1,
+      "rectangle": [
+        2.0,
+        40.0,
+        2.0,
+        40.0
+      ]
+    },
+    {
+      "width": 48.0,
+      "height": 48.0,
+      "scale": 2.4,
+      "rectangle": [
+        2.0,
+        46.0,
+        2.0,
+        46.0
+      ]
+    },
+    {
+      "width": 63.0,
+      "height": 63.0,
+      "scale": 3.15,
+      "rectangle": [
+        3.0,
+        60.0,
+        3.0,
+        60.0
+      ]
+    },
+    {
+      "width": 70.0,
+      "height": 70.0,
+      "scale": 3.5,
+      "rectangle": [
+        4.0,
+        66.0,
+        4.0,
+        66.0
+      ]
+    },
+    {
+      "width": 81.0,
+      "height": 81.0,
+      "scale": 4.05,
+      "rectangle": [
+        4.0,
+        77.0,
+        4.0,
+        77.0
+      ]
+    },
+    {
+      "width": 82.0,
+      "height": 82.0,
+      "scale": 4.1,
+      "rectangle": [
+        4.0,
+        78.0,
+        4.0,
+        78.0
+      ]
+    },
+    {
+      "width": 88.0,
+      "height": 88.0,
+      "scale": 4.4,
+      "rectangle": [
+        4.0,
+        84.0,
+        4.0,
+        84.0
+      ]
+    },
+    {
+      "width": 96.0,
+      "height": 96.0,
+      "scale": 4.8,
+      "rectangle": [
+        5.0,
+        91.0,
+        5.0,
+        91.0
+      ]
+    },
+    {
+      "width": 108.0,
+      "height": 108.0,
+      "scale": 5.4,
+      "rectangle": [
+        5.0,
+        103.0,
+        5.0,
+        103.0
+      ]
+    },
+    {
+      "width": 63.0,
+      "height": 62.98,
+      "scale": 3.15,
+      "rectangle": [
+        3.0,
+        60.0,
+        3.0,
+        59.97999954223633
+      ]
+    }
+  ],
+  "pointer_item": {
+    "matrix": [
+      1.107696533203125,
+      0.0,
+      0.0,
+      1.2203369140625,
+      -31.0,
+      -31.0
+    ],
+    "shape_bounds": [
+      0.0,
+      65.0,
+      0.0,
+      59.0
+    ]
+  }
+}

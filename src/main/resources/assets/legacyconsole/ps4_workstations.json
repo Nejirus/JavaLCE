@@ -2828,6 +2828,187 @@
           "sha256": "4948051a0ea4b528c9887498b09ee4d5fc21d4f023787e8c3f46b03830735d0a"
         }
       ]
+    },
+    "FJ_PanelRecess": {
+      "grid": [
+        22.0,
+        44.0,
+        22.0,
+        44.0
+      ],
+      "pieces": [
+        {
+          "texture": "fj_panelrecess_0",
+          "rect": [
+            0.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_sha256": "70c68e3f932d716f883d59880624a42f18f820f0730629d6e2553b2165910d07",
+          "sha256": "a7d18e5c9e4c3647dc8d19674ceab6baccc14fdde70a5b897d3698f27d0593b7"
+        },
+        {
+          "texture": "fj_panelrecess_1",
+          "rect": [
+            22.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            0.0
+          ],
+          "source_sha256": "b408e2e39093decde13f23f15ad6745fc7430e5082dbd453282ab75521b0ac52",
+          "sha256": "bed5297d3428a30c9b975ee321b2eae966b8c88164a9a865a0762651d9ccc445"
+        },
+        {
+          "texture": "fj_panelrecess_2",
+          "rect": [
+            44.0,
+            0.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            0.0
+          ],
+          "source_sha256": "6042d7e658aa10279ebdb9c04bbd7a2e0100be9ea0b44628c7ab9dad02df5133",
+          "sha256": "4ac7930b3f6bbd4e508598ed49c3017bce948d07dd61d0d8474f9572195887a7"
+        },
+        {
+          "texture": "fj_panelrecess_3",
+          "rect": [
+            0.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            22.0
+          ],
+          "source_sha256": "616ce57f9dd433368b0d14ef22e79f63476fe89c97380a38f23294b21cd23166",
+          "sha256": "15f79c2cc8e98aff13f36775c4f8193551d41c9c946981a957eb6220c80145c4"
+        },
+        {
+          "texture": "fj_panelrecess_4",
+          "rect": [
+            22.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            22.0
+          ],
+          "source_sha256": "2a383c709db07ae3b71d0ffed6a77b90309b4b811fc546bf98174b960e39f8b2",
+          "sha256": "9495511e55085a4a16c98ecc419b6dd0bc775c62bec17aad16e954ad0c7a9284"
+        },
+        {
+          "texture": "fj_panelrecess_5",
+          "rect": [
+            44.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            22.0
+          ],
+          "source_sha256": "49263c0db8953dfd579c9eec850819fe3104ec517158a9b82e42e513d55aa932",
+          "sha256": "3199a4561fed72b1a4fea808f8c8db6b1d8d92e8d4a3538705729ad84f6ce981"
+        },
+        {
+          "texture": "fj_panelrecess_6",
+          "rect": [
+            0.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            44.0
+          ],
+          "source_sha256": "6057f73cb6e4b7c19e09a4de1c167304deac2be13c592c75ede54c6906f0e863",
+          "sha256": "ecd822c74d4ffff418b72d9d9345e25eb1e3f7cd28d2c5e508aa144a511f8deb"
+        },
+        {
+          "texture": "fj_panelrecess_7",
+          "rect": [
+            22.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            22.0,
+            44.0
+          ],
+          "source_sha256": "09c6c852fe549f64d11ea5c350363ef82bcbcec64ead8d18443e91b85e4548eb",
+          "sha256": "2279caf2a6e33e86746de41937fa8eab0ebf8ef07b16ec0f3147df2878a74296"
+        },
+        {
+          "texture": "fj_panelrecess_8",
+          "rect": [
+            44.0,
+            44.0,
+            22.0,
+            22.0
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            44.0,
+            44.0
+          ],
+          "source_sha256": "f17c4ed1eb624e191c1a83a309059dbb384275e3a4db4e140510fae53b96b31f",
+          "sha256": "10779b21a87d7d987ca22beb0578f27a822470e670db7dec4458debd09f3fc42"
+        }
+      ]
     }
   },
   "scenes": {
@@ -4833,6 +5014,598 @@
       ],
       "objects": {},
       "sha256": "d909253c4392888fde97a90aa1a40a66482353bb1a993efdcf73c79c6d15577d"
+    },
+    "ChestMenu": {
+      "sha256": "8b24e708001453d0aaab615684d31e56f90f94053203f604901f832bbf661948",
+      "root": [
+        637.0,
+        229.0
+      ],
+      "controls": {
+        "chestLabel": {
+          "matrix": [
+            2.4494476318359375,
+            0.0,
+            0.0,
+            1.0,
+            37.0,
+            25.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "inventoryLabel": {
+          "matrix": [
+            2.4494476318359375,
+            0.0,
+            0.0,
+            1.0,
+            37.0,
+            273.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "containerList": {
+          "matrix": [
+            11.339889526367188,
+            0.0,
+            0.0,
+            3.7800140380859375,
+            37.0,
+            75.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.339935302734375,
+            0.0,
+            0.0,
+            3.77996826171875,
+            37.0,
+            318.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.339935302734375,
+            0.0,
+            0.0,
+            1.2599945068359375,
+            37.0,
+            528.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            36.0,
+            36.0
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "name": "",
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            4.0565185546875,
+            0.0,
+            0.0,
+            3.9119110107421875,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "objects": {}
+    },
+    "ChestLargeMenu": {
+      "sha256": "7c74462a4c95e6530ae00632fb54e487b8c87a02e9bfb3319e7c86106b652a18",
+      "root": [
+        637.0,
+        134.0
+      ],
+      "controls": {
+        "chestLabel": {
+          "matrix": [
+            2.449981689453125,
+            0.0,
+            0.0,
+            1.0,
+            37.0,
+            25.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "inventoryLabel": {
+          "matrix": [
+            2.4499969482421875,
+            0.0,
+            0.0,
+            1.0,
+            37.0,
+            462.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "containerList": {
+          "matrix": [
+            11.339935302734375,
+            0.0,
+            0.0,
+            7.559967041015625,
+            37.0,
+            75.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.339935302734375,
+            0.0,
+            0.0,
+            3.779937744140625,
+            37.0,
+            506.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.339935302734375,
+            0.0,
+            0.0,
+            1.2599945068359375,
+            37.0,
+            716.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            58.5,
+            93.44999694824219
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "name": "",
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            4.0565185546875,
+            0.0,
+            0.0,
+            5.1005706787109375,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "objects": {}
+    },
+    "InventoryMenu": {
+      "sha256": "f321dcd0dbc71f84b051746511dc828a62407be6fe9a58289628ef1b2cb6da56",
+      "root": [
+        637.0,
+        214.0
+      ],
+      "controls": {
+        "inventoryLabel": {
+          "matrix": [
+            2.5010986328125,
+            0.0,
+            0.0,
+            1.0,
+            38.0,
+            300.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "inventoryList": {
+          "matrix": [
+            11.33978271484375,
+            0.0,
+            0.0,
+            3.7800140380859375,
+            38.0,
+            345.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "hotbarList": {
+          "matrix": [
+            11.339889526367188,
+            0.0,
+            0.0,
+            1.2599945068359375,
+            38.0,
+            555.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "EquipmentHolder": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            38.0,
+            39.0
+          ],
+          "symbol": "local:11"
+        },
+        "armorList": {
+          "matrix": [
+            1.2599945068359375,
+            0.0,
+            0.0,
+            5.039886474609375,
+            38.0,
+            39.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "craftingList": {
+          "matrix": [
+            2.52001953125,
+            0.0,
+            0.0,
+            2.52001953125,
+            332.0,
+            89.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "Result": {
+          "matrix": [
+            1.260009765625,
+            0.0,
+            0.0,
+            1.260009765625,
+            542.0,
+            121.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "CraftingArrow": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            464.0,
+            128.0
+          ],
+          "symbol": "local:12"
+        },
+        "PlayerBackground": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            120.0,
+            39.0
+          ],
+          "symbol": "local:13"
+        },
+        "iggy_player": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            120.0,
+            39.0
+          ],
+          "symbol": "local:14"
+        },
+        "craftingLabel": {
+          "matrix": [
+            0.88232421875,
+            0.0,
+            0.0,
+            1.0,
+            332.0,
+            44.0
+          ],
+          "symbol": "fourj.Labels.FJ_Label_Black"
+        },
+        "ShieldSlot": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            332.0,
+            228.0
+          ],
+          "symbol": "local:16"
+        },
+        "shieldList": {
+          "matrix": [
+            1.2599945068359375,
+            0.0,
+            0.0,
+            1.2599945068359375,
+            332.0,
+            228.0
+          ],
+          "symbol": "fourj.listClasses.FJ_SlotList"
+        },
+        "cursor": {
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            41.0,
+            390.0
+          ],
+          "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+        }
+      },
+      "static": [
+        {
+          "name": "",
+          "symbol": "FJ_Panel9Grid",
+          "matrix": [
+            4.06280517578125,
+            0.0,
+            0.0,
+            4.0944061279296875,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "objects": {
+        "EquipmentHolder": [
+          {
+            "name": "",
+            "symbol": "IconHolder_1x1border",
+            "matrix": [
+              3.1489105224609375,
+              0.0,
+              0.0,
+              3.1489105224609375,
+              38.0,
+              39.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "Armour_Slot_Head",
+            "matrix": [
+              2.4166259765625,
+              0.0,
+              0.0,
+              2.4166259765625,
+              40.0,
+              41.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "IconHolder_1x1border",
+            "matrix": [
+              3.148895263671875,
+              0.0,
+              0.0,
+              3.148895263671875,
+              38.0,
+              102.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "Armour_Slot_Body",
+            "matrix": [
+              2.4166259765625,
+              0.0,
+              0.0,
+              2.4166259765625,
+              40.0,
+              104.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "IconHolder_1x1border",
+            "matrix": [
+              3.148895263671875,
+              0.0,
+              0.0,
+              3.148895263671875,
+              38.0,
+              165.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "Armour_Slot_Legs",
+            "matrix": [
+              2.416656494140625,
+              0.0,
+              0.0,
+              2.416656494140625,
+              40.0,
+              167.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "IconHolder_1x1border",
+            "matrix": [
+              3.149017333984375,
+              0.0,
+              0.0,
+              3.149017333984375,
+              38.0,
+              228.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "Armour_Slot_Feet",
+            "matrix": [
+              2.4166259765625,
+              0.0,
+              0.0,
+              2.4166259765625,
+              40.0,
+              230.0
+            ]
+          }
+        ],
+        "CraftingArrow": [
+          {
+            "name": "",
+            "symbol": "Arrow_Small_Off",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              464.0,
+              128.0
+            ]
+          }
+        ],
+        "PlayerBackground": [
+          {
+            "name": "",
+            "symbol": "FJ_PanelRecess",
+            "matrix": [
+              2.8636474609375,
+              0.0,
+              0.0,
+              3.818206787109375,
+              120.0,
+              39.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "CharacterBackground",
+            "matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.991729736328125,
+              126.0,
+              45.0
+            ]
+          }
+        ],
+        "iggy_player": [],
+        "ShieldSlot": [
+          {
+            "name": "",
+            "symbol": "IconHolder_1x1border",
+            "matrix": [
+              3.148895263671875,
+              0.0,
+              0.0,
+              3.148895263671875,
+              332.0,
+              228.0
+            ]
+          },
+          {
+            "name": "",
+            "symbol": "Armour_Slot_Shield",
+            "matrix": [
+              2.4166259765625,
+              0.0,
+              0.0,
+              2.4166259765625,
+              334.0,
+              231.0
+            ]
+          }
+        ]
+      },
+      "player_bounds": [
+        0.0,
+        189.0,
+        0.0,
+        252.0
+      ],
+      "empty_icons": {
+        "Armour_Slot_Head": {
+          "name": "",
+          "symbol": "Armour_Slot_Head",
+          "matrix": [
+            2.4166259765625,
+            0.0,
+            0.0,
+            2.4166259765625,
+            40.0,
+            41.0
+          ]
+        },
+        "Armour_Slot_Body": {
+          "name": "",
+          "symbol": "Armour_Slot_Body",
+          "matrix": [
+            2.4166259765625,
+            0.0,
+            0.0,
+            2.4166259765625,
+            40.0,
+            104.0
+          ]
+        },
+        "Armour_Slot_Legs": {
+          "name": "",
+          "symbol": "Armour_Slot_Legs",
+          "matrix": [
+            2.416656494140625,
+            0.0,
+            0.0,
+            2.416656494140625,
+            40.0,
+            167.0
+          ]
+        },
+        "Armour_Slot_Feet": {
+          "name": "",
+          "symbol": "Armour_Slot_Feet",
+          "matrix": [
+            2.4166259765625,
+            0.0,
+            0.0,
+            2.4166259765625,
+            40.0,
+            230.0
+          ]
+        },
+        "Armour_Slot_Shield": {
+          "name": "",
+          "symbol": "Armour_Slot_Shield",
+          "matrix": [
+            2.4166259765625,
+            0.0,
+            0.0,
+            2.4166259765625,
+            334.0,
+            231.0
+          ]
+        }
+      }
     }
   },
   "widgets": {

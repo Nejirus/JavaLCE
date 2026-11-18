@@ -132,11 +132,28 @@ final class Ps4CraftingArt {
     sprite("scrollDown",sx+17,sy+91);
   }
   void slot(ItemStack stack,Rect bounds,boolean focus,boolean missing) {
+    slot(stack,bounds,focus,missing,true);
+  }
+  void slot(ItemStack stack,Rect bounds,boolean focus,boolean missing,boolean decorations) {
     image(missing?"IconHolderRed_1x1border":"IconHolder_1x1border",bounds);
     if(focus) {
       float extra=bounds.w*(108f/82-1)/2;
       image("Craft_Highlight_L_Small",new Rect(bounds.x-extra,bounds.y-extra,bounds.w+extra*2,bounds.h+extra*2));
     }
-    item(stack,bounds,bounds.w/scale*18/20);
+    if(stack.isEmpty())return;
+    float[] viewport=Ps4ItemGeometry.viewport(bounds.x,bounds.y,bounds.w,bounds.h,scale);
+    GlStateManager.pushMatrix();GlStateManager.translate(viewport[0],viewport[1],0);
+    GlStateManager.scale(viewport[2]/16,viewport[3]/16,1);
+    var game=net.minecraft.client.Minecraft.getInstance();
+    GlStateManager.enableDepth();dev.legacyconsole.port.RenderHelper.enableGUIStandardItemLighting();
+    try {
+      game.getItemRenderer().renderAndDecorateItem(stack,0,0);
+      if(decorations)game.getItemRenderer().renderGuiItemDecorations(game.font,stack,0,0);
+    } finally {
+      // FUI paints the next selector frame above previous custom-drawn items.
+      // Match ConsoleTheme.item's state cleanup, including undecorated selectors.
+      dev.legacyconsole.port.RenderHelper.disableStandardItemLighting();
+      GlStateManager.disableLighting();GlStateManager.disableDepth();GlStateManager.popMatrix();
+    }
   }
 }

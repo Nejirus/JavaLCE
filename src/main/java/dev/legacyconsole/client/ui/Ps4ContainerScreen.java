@@ -12,6 +12,7 @@ import dev.legacyconsole.client.input.PadState;
 import dev.legacyconsole.client.ConsoleAudio;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.inventory.AbstractContainerMenu;
 
 /** FUI slot lists mapped to Java's synchronized menu slots. */
 abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements ControllerScreen {
@@ -22,7 +23,10 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
   private final Map<Integer,Section> sections=new LinkedHashMap<>();
 
   Ps4ContainerScreen(AbstractContainerScreen<?> original, String scene) {
-    super(original.getMenu());
+    this(original.getMenu(),scene);
+  }
+  Ps4ContainerScreen(AbstractContainerMenu menu,String scene) {
+    super(menu);
     sceneName=scene;
   }
   @Override public void initGui() {
@@ -33,14 +37,18 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
     guiLeft = (int)Math.floor(art.x); guiTop = (int)Math.floor(art.y);
     mc.player.containerMenu = inventorySlots;
     holders.clear(); buttonList.clear();sections.clear();
-    for (Slot slot : inventorySlots.slots) if (slot.container == mc.player.getInventory()) {
+    for (Slot slot : inventorySlots.slots) {
+      slot.x=slot.y=-10000;
+      if (slot.container != mc.player.getInventory())continue;
       int index = slot.getContainerSlot();
+      if(index>=36)continue;
       place(slot.index, index<9 ? art.cell("hotbarList",index,0,9,1)
           : art.cell("inventoryList",(index-9)%9,(index-9)/9,9,3));
     }
     layoutControls();
     int hotbar=switch(sceneName){case "BrewingStandMenu"->0x29;case "EnchantingMenu"->0x21;
-      case "CartographyMenu"->0x59;case "BeaconMenu"->0x38;case "AnvilMenu"->0x31;case "FurnaceMenu"->4;default->throw new IllegalStateException(sceneName);};
+      case "CartographyMenu"->0x59;case "BeaconMenu"->0x38;case "AnvilMenu"->0x31;case "FurnaceMenu"->4;
+      case "InventoryMenu"->10;case "ChestMenu","ChestLargeMenu"->0;default->throw new IllegalStateException(sceneName);};
     for(int i=0;i<2;i++) {
       List<Ps4UiArt.Rect> cells=new ArrayList<>();
       int rows=i==0?1:3;
@@ -49,6 +57,14 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
     }
   }
   protected abstract void layoutControls();
+  protected final void navigationGrid(int section,String control,int columns,int rows) {
+    List<Ps4UiArt.Rect> cells=new ArrayList<>();
+    for(int row=0;row<rows;row++)for(int column=0;column<columns;column++)cells.add(art.cell(control,column,row,columns,rows));
+    sections.put(section,new Section(columns,rows,cells));
+  }
+  protected final void navigationGrid(int section,int columns,List<Ps4UiArt.Rect> cells) {
+    sections.put(section,new Section(columns,cells.size()/columns,List.copyOf(cells)));
+  }
   protected final void navigationSlot(int section,int slot) {
     var r=holders.get(slot);
     sections.put(section,new Section(1,1,List.of(new Ps4UiArt.Rect(guiLeft+r.x(),guiTop+r.y(),r.w(),r.h()))));
@@ -62,7 +78,8 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
     Ps4UiArt.Rect local = new Ps4UiArt.Rect(r.x()-guiLeft,r.y()-guiTop,r.w(),r.h());
     holders.put(index,local);
     Slot slot = inventorySlots.getSlot(index);
-    slot.x = Math.round(local.x()+local.w()/20); slot.y = Math.round(local.y()+local.h()/20);
+    float[] viewport=Ps4ItemGeometry.viewport(local.x(),local.y(),local.w(),local.h(),art.scale);
+    slot.x = Math.round(viewport[0]); slot.y = Math.round(viewport[1]);
   }
   @Override protected int[] inventoryHighlightBounds(Slot slot) {
     var r=holders.get(slot.index);
@@ -78,7 +95,13 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
     var r=holders.get(slot.index); if(r==null)return null;
     return new float[]{r.x()+r.w()/20,r.y()+r.h()/20,r.w()*.9f,r.h()*.9f};
   }
-  @Override protected float[] itemDisplayBounds(Slot slot) { return inventoryHighlightFace(slot); }
+  @Override protected float[] itemDisplayBounds(Slot slot) {
+    var r=holders.get(slot.index);
+    return r==null?null:Ps4ItemGeometry.viewport(r.x(),r.y(),r.w(),r.h(),art.scale);
+  }
+  @Override public float[] floatingItemBounds(int x,int y) {
+    return Ps4ItemGeometry.carried(x+8,y+8,art.scale);
+  }
   @Override protected void highlightSprite(float w,float h) {
     ConsoleTheme.spriteAt("ps4/workstations/slothighlight",0,0,w,h);
   }
@@ -93,10 +116,12 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
     drawInventoryHighlight(mx,my);
   }
   @Override protected void drawGuiContainerForegroundLayer(int x,int y) {}
+  protected String[] actionPrompts() {
+    return new String[]{"cross","Take / Select","square","Place One","triangle","Quick Move","circle","Back"};
+  }
   @Override public void drawScreen(int mx,int my,float partial) {
     drawDefaultBackground(); super.drawScreen(mx,my,partial);
-    ConsoleTheme.footer(width,height,"cross","Take / Select","square","Place One",
-        "triangle","Quick Move","circle","Back");
+    ConsoleTheme.footer(width,height,actionPrompts());
   }
   @Override public boolean controllerPointer() { return true; }
   @Override public boolean controllerDirection(int direction) {
@@ -122,6 +147,8 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
         case "BeaconMenu"->Ps4MenuNavigation.beacon(current,d,x,false,secondaryVisible());
         case "AnvilMenu"->Ps4MenuNavigation.anvil(current,d,x,false);
         case "FurnaceMenu"->Ps4MenuNavigation.furnace(current,d,x,false);
+        case "InventoryMenu"->Ps4ContainerLogic.inventory(current,d,x,y,false);
+        case "ChestMenu","ChestLargeMenu"->Ps4ContainerLogic.chest(current,d,false);
         default->throw new IllegalStateException(sceneName);
       };
       Section to=sections.get(route.section());if(to==null)return true;

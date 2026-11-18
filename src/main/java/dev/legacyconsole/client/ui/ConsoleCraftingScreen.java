@@ -131,12 +131,12 @@ public final class ConsoleCraftingScreen extends ConsoleContainerScreen implemen
           (r.x()-art.x())/art.scale()-19,(r.y()-art.y())/art.scale()-(three?153:71));
       if(three) {
         var previous=g.recipes.get(Math.floorMod(index-1,g.recipes.size()));
-        art.slot(previous.output,new Ps4CraftingArt.Rect(r.x(),r.y()-r.h(),r.w(),r.h()),false,!available(previous));
+        art.slot(previous.output,new Ps4CraftingArt.Rect(r.x(),r.y()-r.h(),r.w(),r.h()),false,!available(previous),false);
       }
       var next=g.recipes.get((index+1)%g.recipes.size());
-      art.slot(next.output,new Ps4CraftingArt.Rect(r.x(),r.y()+r.h(),r.w(),r.h()),false,!available(next));
+      art.slot(next.output,new Ps4CraftingArt.Rect(r.x(),r.y()+r.h(),r.w(),r.h()),false,!available(next),false);
     }
-    var e=g.recipes.get(index);art.slot(e.output,r,i==selected,!available(e));
+    var e=g.recipes.get(index);art.slot(e.output,r,i==selected,!available(e),false);
   }
   private void drawGrid() {
     int size=container.table?3:2;

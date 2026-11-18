@@ -104,6 +104,9 @@ public abstract class ConsoleContainerScreen extends GuiContainer {
     return null;
   }
 
+  /** Null keeps the host renderer's carried-item viewport for other menu families. */
+  public float[] floatingItemBounds(int x, int y) { return null; }
+
   @Override
   protected void drawSlot(Slot slot) {
     float[] face = itemDisplayBounds(slot);

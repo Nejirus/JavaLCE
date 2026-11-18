@@ -36,6 +36,8 @@ final class Ps4UiArt {
     @com.google.gson.annotations.SerializedName("static") List<Node> background;
     Map<String,List<Node>> objects;
     List<Node> experience;
+    Map<String,Node> empty_icons;
+    float[] player_bounds;
   }
   record Rect(float x, float y, float w, float h) {
     boolean contains(double px, double py) { return px >= x && py >= y && px < x+w && py < y+h; }
@@ -115,6 +117,15 @@ final class Ps4UiArt {
     scene.background.stream().filter(n -> n.symbol.equals(symbol)).forEach(this::drawNode);
   }
   void object(String control) { scene.objects.get(control).forEach(this::drawNode); }
+  void object(String control,float offsetX) {
+    GlStateManager.pushMatrix();GlStateManager.translate(offsetX*scale,0,0);
+    object(control);GlStateManager.popMatrix();
+  }
+  void emptyEquipment(String symbol,float offsetX) {
+    Node node=scene.empty_icons.get(symbol);
+    GlStateManager.pushMatrix();GlStateManager.translate(offsetX*scale,0,0);
+    drawNode(node);GlStateManager.popMatrix();
+  }
   void experience(float current,float preview) {
     for(Node n:scene.experience) {
       float fill=n.name.equals("PrevBarFiller")?preview:n.name.equals("ExpBarFiller")?current:1;
@@ -203,10 +214,10 @@ final class Ps4UiArt {
   }
   void item(ItemStack stack, Rect r) {
     if (stack.isEmpty()) return;
-    float size = Math.min(r.w,r.h)*.9f;
+    float[] viewport=Ps4ItemGeometry.viewport(r.x,r.y,r.w,r.h,scale);
     GlStateManager.pushMatrix();
-    GlStateManager.translate(r.x+(r.w-size)/2, r.y+(r.h-size)/2, 0);
-    GlStateManager.scale(size/16, size/16, 1);
+    GlStateManager.translate(viewport[0],viewport[1],0);
+    GlStateManager.scale(viewport[2]/16,viewport[3]/16,1);
     ConsoleTheme.item(stack,0,0);
     GlStateManager.popMatrix();
   }
