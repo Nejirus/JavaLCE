@@ -68,6 +68,21 @@ import dev.legacyconsole.client.ConsoleAudio;
 public abstract class ConsoleContainerScreen extends GuiContainer {
   private Slot highlightedSlot;
 
+  /** Same PS4 pointer actions as inventory/chests, plus an enabled UI control. */
+  protected final String[] containerActionPrompts() {
+    Slot slot = getSlotUnderMouse();
+    String[] prompts = Ps4InventoryActions.prompts(slot, inventorySlots.getCarried(), mc.player);
+    if (slot == null && inventorySlots.getCarried().isEmpty())
+      for (GuiButton button : buttonList)
+        if (button.visible && button.enabled && button.hovered) {
+          var result = new java.util.ArrayList<String>();
+          java.util.Collections.addAll(result, "cross", "Select");
+          java.util.Collections.addAll(result, prompts);
+          return result.toArray(String[]::new);
+        }
+    return prompts;
+  }
+
   public final boolean replacesNativeHighlight(int x,int y) {
     return highlightedSlot != null && highlightedSlot.x == x && highlightedSlot.y == y;
   }

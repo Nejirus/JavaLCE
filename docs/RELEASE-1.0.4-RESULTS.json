@@ -1,0 +1,291 @@
+{
+  "version": "1.0.4",
+  "network_protocol": 8,
+  "automated_tests": {
+    "tests": 426,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "ps4_native_crafting_row": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "routine": "0x9b6890",
+    "cases": [
+      {
+        "context": "personal",
+        "occupied_families": 0,
+        "emitted_columns": []
+      },
+      {
+        "context": "personal",
+        "occupied_families": 1,
+        "emitted_columns": [
+          0
+        ]
+      },
+      {
+        "context": "personal",
+        "occupied_families": 3,
+        "emitted_columns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "context": "personal",
+        "occupied_families": 7,
+        "emitted_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "context": "personal",
+        "occupied_families": 12,
+        "emitted_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "context": "table",
+        "occupied_families": 0,
+        "emitted_columns": []
+      },
+      {
+        "context": "table",
+        "occupied_families": 1,
+        "emitted_columns": [
+          0
+        ]
+      },
+      {
+        "context": "table",
+        "occupied_families": 3,
+        "emitted_columns": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "context": "table",
+        "occupied_families": 7,
+        "emitted_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "context": "table",
+        "occupied_families": 12,
+        "emitted_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ]
+  },
+  "ps4_heart_export_reproduced_byte_for_byte": true,
+  "runtime": {
+    "status": "passed",
+    "version": "1.0.4",
+    "forge": "37.1.1",
+    "checks": [
+      "Legacy Classic sends its 864-block Overworld border to the client",
+      "HUD size 0: Wither keeps normal hotbar, full/half heart positions and scale",
+      "HUD size 1: Wither keeps normal hotbar, full/half heart positions and scale",
+      "HUD size 2: Wither keeps normal hotbar, full/half heart positions and scale",
+      "Air refills naturally outside water; client supply=156",
+      "Air refill advances outside water; client supply=212",
+      "Air reaches maximum and the bubble row clears outside water",
+      "Context 0, showAll=true: honey bottles hidden; waxed recipes=0",
+      "Context 0, showAll=false: honey bottles hidden; waxed recipes=0",
+      "Context 1, showAll=true: honey bottles hidden; waxed recipes=0",
+      "Context 1, showAll=false: honey bottles hidden; waxed recipes=0",
+      "Context 2, showAll=true: honey bottles hidden; waxed recipes=20",
+      "Context 2, showAll=false: honey bottles hidden; waxed recipes=20",
+      "furnace: outside slots/controls has only Back",
+      "furnace: empty slot has only Back",
+      "furnace: single item shows Take/Quick Move without Split",
+      "furnace: stack shows Take/Split/Quick Move",
+      "furnace: carried stack over accepting empty slot shows Place/Place One",
+      "furnace: single carried item hides Place One",
+      "furnace: full slot hides Place/Place One",
+      "enchant: outside slots/controls has only Back",
+      "enchant: empty slot has only Back",
+      "enchant: single item shows Take/Quick Move without Split",
+      "enchant: stack shows Take/Split/Quick Move",
+      "enchant: carried stack over accepting empty slot shows Place/Place One",
+      "enchant: single carried item hides Place One",
+      "enchant: full slot hides Place/Place One",
+      "grindstone: outside slots/controls has only Back",
+      "grindstone: empty slot has only Back",
+      "grindstone: single item shows Take/Quick Move without Split",
+      "grindstone: stack shows Take/Split/Quick Move",
+      "grindstone: carried stack over accepting empty slot shows Place/Place One",
+      "grindstone: single carried item hides Place One",
+      "grindstone: full slot hides Place/Place One",
+      "smithing: outside slots/controls has only Back",
+      "smithing: empty slot has only Back",
+      "smithing: single item shows Take/Quick Move without Split",
+      "smithing: stack shows Take/Split/Quick Move",
+      "smithing: carried stack over accepting empty slot shows Place/Place One",
+      "smithing: single carried item hides Place One",
+      "smithing: full slot hides Place/Place One",
+      "brewing: outside slots/controls has only Back",
+      "brewing: empty slot has only Back",
+      "brewing: single item shows Take/Quick Move without Split",
+      "brewing: stack shows Take/Split/Quick Move",
+      "brewing: carried stack over accepting empty slot shows Place/Place One",
+      "brewing: single carried item hides Place One",
+      "brewing: full slot hides Place/Place One",
+      "Furnace fuel prompts follow actual slot acceptance",
+      "Enabled enchantment offer shows Select without inventory prompts",
+      "Disabled enchantment offer hides Select",
+      "Real trade packet retains level 3 and advances XP 100 to 105 (37.5% to 43.75%)",
+      "Entering End sends the End border instead of Classic Overworld bounds",
+      "An owned Ender pearl through a real gateway teleports to outer End x=1200.5 inside the client border",
+      "Native client use-item route places a synchronized stone block beyond the Classic Overworld limits",
+      "A real Nether music stream is active",
+      "Leaving Nether stops its stream; returning to Overworld restores its 864-block border"
+    ],
+    "captures": [
+      {
+        "file": "hud-size-0-normal.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "ab980f13c43ba893ca379fd330daa5fbceb69edc42b6b442f9b39bbba541d3c4"
+      },
+      {
+        "file": "hud-size-0-wither.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "39fdcb655b425971f1f9d86524e9a306f5b444453d5ca8c2798f4fd1560daca7"
+      },
+      {
+        "file": "hud-size-1-normal.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "0384584fb6d4ff41be54c8c6b2f24983ad3abfa3bf5e50359780c35a09a65b65"
+      },
+      {
+        "file": "hud-size-1-wither.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "343a201c2840d1ce60ea9d18d32f49c664e9065e9ec99d45ec829c792d10e78d"
+      },
+      {
+        "file": "hud-size-2-normal.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "3a6438ae721657db11a1fb0ad7eb1efcd82a836fecf3fbcc9db41e2cbe8b9e92"
+      },
+      {
+        "file": "hud-size-2-wither.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "53f12f7cfa3f899d4b7a4eb222b84f01e9a7c0393fc88a1fb33c63ea58791b87"
+      },
+      {
+        "file": "air-refilling-low.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "f9e9b0e8f60cbcf8f7693b6ccc1f951eff9f635ce413573b91e08b8ecf6a2a3b"
+      },
+      {
+        "file": "air-refilling-high.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "66aaea8fbc10869aeb6cbe7bb15e3b7744368ce62e7b46909c52e2fe68410cc4"
+      },
+      {
+        "file": "air-full.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "57e6858e57894937714f97886bbb3669d0e77baf02606192b5911056acd2b372"
+      },
+      {
+        "file": "crafting-context-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "d0a1e009fd9fac5fda61497fb7d66a1947611629a7c294795e401f6c4f086bcc"
+      },
+      {
+        "file": "crafting-context-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "b9067912a5d4b779c51f86070758b8273eca6c4b927fad72a38a9e5f5bae0e24"
+      },
+      {
+        "file": "crafting-context-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "5fc5265dab463d0f35fb20fe1613bb90a53653e9f1f7b2fa4b90e274893561a0"
+      },
+      {
+        "file": "trader-level-3-before.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "f4322c384d0684a6e6e452a8aa93a422e078d3c9d4cfd3436de853712a394662"
+      },
+      {
+        "file": "trader-level-3-after.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "3b8669a8d1663d1243db5ce491328a22d5f9f06272c592d1d859efedff19d6ab"
+      },
+      {
+        "file": "gateway-outer-end-placement.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "7db2cef15c05f8ead39be2e1446e8aa663b519dc3bcdcf9a50d17fd884662dcd"
+      }
+    ],
+    "prompt_validation": "Returned action lists were checked in five initialized client workstation menus. Direct-draw prompt captures were excluded because they retained the previous frame; the retained captures use the normal frame-render event."
+  },
+  "runtime_files": {
+    "legacy-console-1.17.1-1.0.4.jar": "7fdc3f566dc67e9e13815dce4ead7801dc316d5c2b85b70ba5f78922346c31de",
+    "legacy-join-compat-1.17.1-1.0.4.jar": "885661d1d03c055a1d8a0f7fc58c691543706ea0827bf1a449749905bd45fb86",
+    "OptiFine_1.17.1_HD_U_H1.jar": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793"
+  },
+  "shaderpack_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+  "limits": [
+    "Runtime cases use a 2560x1440 Linux framebuffer, all three HUD sizes and Console UI Size 1, with shaders OFF.",
+    "Workstation prompt lists are checked in initialized client menus; retained captures use the normal frame-render event.",
+    "Minecraft 1.17.1 owns air data, inventory transactions, dimension packets and sound channels. Those lifecycle fixes adapt existing console features to Java.",
+    "Honey/copper filtering is requested customization for Java 1.17.1 items."
+  ]
+}

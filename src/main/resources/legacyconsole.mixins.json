@@ -38,6 +38,7 @@
     "MapItemMixin",
     "EmptyMapItemMixin",
     "ServerPlayerSpawnMixin",
+    "PlayerListBorderMixin",
     "CartographyMenuMixin",
     "CartographyInputSlotMixin",
     "MapRenamePacketMixin",

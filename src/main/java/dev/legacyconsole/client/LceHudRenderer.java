@@ -77,7 +77,6 @@ public final class LceHudRenderer extends Gui {
   public static boolean supported(Minecraft game) {
     return game.player != null && !game.player.isSpectator()
         && game.player.getMaxHealth() <= 20 && game.player.getAbsorptionAmount() <= 0
-        && !game.player.hasEffect(MobEffects.WITHER)
         && !game.level.getLevelData().isHardcore()
         && !(game.player.getVehicle() instanceof LivingEntity);
   }
@@ -201,11 +200,15 @@ public final class LceHudRenderer extends Gui {
     lastHealth = health;
     boolean flash = ticks < flashUntil && (flashUntil - ticks) / 3 % 2 == 1;
     boolean poison = player.hasEffect(MobEffects.POISON);
+    boolean wither = player.hasEffect(MobEffects.WITHER);
     boolean hunger = player.hasEffect(MobEffects.HUNGER);
     int food = player.getFoodData().getFoodLevel(), armor = player.getArmorValue();
     random.setSeed(ticks * 312871L);
-    int fullAir = Mth.ceil((player.getAirSupply() - 2) * 10.0 / 300.0);
-    int allAir = Mth.ceil(player.getAirSupply() * 10.0 / 300.0);
+    int maxAir = player.getMaxAirSupply();
+    int fullAir = Mth.ceil((player.getAirSupply() - 2) * 10.0 / maxAir);
+    int allAir = Mth.ceil(player.getAirSupply() * 10.0 / maxAir);
+    boolean showAir = player.isEyeInFluid(net.minecraft.tags.FluidTags.WATER)
+        || player.getAirSupply() < maxAir;
     for (int i = 0; i < 10; i++) {
       float x = p.x + i * 12, right = p.x + LceHudLayout.WIDTH - 13.5f - i * 12;
       float y = p.rootY + 15;
@@ -213,7 +216,7 @@ public final class LceHudRenderer extends Gui {
       if (player.hasEffect(MobEffects.REGENERATION) && i == ticks % 25) y -= 3;
       icon("Health_Background" + (flash ? "_Flash" : ""), x, y);
       String part = health >= (i + 1) * 2 ? "Full" : health == i * 2 + 1 ? "Half" : null;
-      if (part != null) icon("Health_" + part + (poison ? "_Poison" : "")
+      if (part != null) icon("Health_" + part + (poison ? "_Poison" : wither ? "_Wither" : "")
           + (flash ? "_Flash" : ""), x, y);
       float foodY = p.rootY + 15;
       if (player.getFoodData().getSaturationLevel() <= 0 && ticks % (food * 3 + 1) == 0)
@@ -223,7 +226,7 @@ public final class LceHudRenderer extends Gui {
       if (part != null) icon("HUD_Food_" + part + (hunger ? "_Poison" : ""), right, foodY);
       if (armor > 0) icon("HUD_Armour_" + (armor >= (i + 1) * 2 ? "Full"
           : armor == i * 2 + 1 ? "Half" : "Empty"), x, p.rootY);
-      if (player.isEyeInFluid(net.minecraft.tags.FluidTags.WATER) && i < allAir)
+      if (showAir && i < allAir)
         icon(i < fullAir ? "HUD_Air_Bubble" : "HUD_Air_Pop", right, p.rootY);
     }
   }

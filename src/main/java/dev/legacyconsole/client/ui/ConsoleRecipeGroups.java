@@ -82,9 +82,18 @@ final class ConsoleRecipeGroups {
   try(Reader reader=new InputStreamReader(Minecraft.getInstance().getResourceManager().getResource(new ResourceLocation("legacyconsole","crafting_legacy4j.json")).getInputStream(),StandardCharsets.UTF_8)){load(reader);}
   catch(IOException e){throw new IllegalStateException("Cannot read Legacy4J recipe order",e);}
  }
- static boolean shown(ItemStack output){return !(output.getItem() instanceof BannerItem)&&!output.is(Items.FIREWORK_ROCKET);}
+ static boolean shown(ItemStack output){return shown(output,false);}
+ private static boolean shown(ItemStack output,boolean stonecutting){
+  // Wax copper in the world; omit its recipe variants from console crafting.
+  // Stonecutting keeps recipes for copper that has already been waxed.
+  return !(output.getItem() instanceof BannerItem)&&!output.is(Items.FIREWORK_ROCKET)
+      &&!output.is(Items.HONEY_BOTTLE)
+      &&(stonecutting||!(output.getItem() instanceof BlockItem block
+          &&HoneycombItem.WAX_OFF_BY_BLOCK.get().containsKey(block.getBlock())));
+ }
  static boolean shown(RecipeCatalog.Entry entry){
-  return shown(entry.output)&&(!(entry.output.getItem() instanceof BedItem)||entry.recipe instanceof net.minecraft.world.item.crafting.ShapedRecipe);
+  return shown(entry.output,dev.legacyconsole.crafting.StonecuttingRecipes.isStonecutting(entry))
+      &&(!(entry.output.getItem() instanceof BedItem)||entry.recipe instanceof net.minecraft.world.item.crafting.ShapedRecipe);
  }
  private static Position position(RecipeCatalog.Entry e){return position(e.recipe.getId(),e.output,e.category);}
  static Position position(ResourceLocation recipe,ItemStack output,RecipeCatalog.Category category){

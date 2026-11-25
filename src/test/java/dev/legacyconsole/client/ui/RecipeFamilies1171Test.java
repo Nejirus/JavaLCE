@@ -46,8 +46,8 @@ public class RecipeFamilies1171Test {
   assertTrue(at(Items.CANDLE).rank()<at(Items.RED_CANDLE).rank());
   assertNotEquals(at(Items.CANDLE).group(),at(Items.WHITE_WOOL).group());
  }
- @Test public void waxedCopperOutputsRemainAvailableWithRestoredGroups(){
-  for(Item i:new Item[]{Items.WAXED_COPPER_BLOCK,Items.WAXED_CUT_COPPER_STAIRS,Items.WAXED_OXIDIZED_CUT_COPPER_SLAB})assertTrue(ConsoleRecipeGroups.shown(new ItemStack(i)));
+ @Test public void waxedCopperOutputsAreHiddenFromConsoleCrafting(){
+  for(var block:HoneycombItem.WAX_OFF_BY_BLOCK.get().keySet())assertFalse(block.toString(),ConsoleRecipeGroups.shown(new ItemStack(block)));
   assertTrue(ConsoleRecipeGroups.shown(new ItemStack(Items.CUT_COPPER_STAIRS)));
   assertTrue(ConsoleRecipeGroups.shown(new ItemStack(Items.COPPER_BLOCK)));
  }
@@ -94,8 +94,9 @@ public class RecipeFamilies1171Test {
   assertTrue(ConsoleRecipeGroups.shown(new ItemStack(Items.GUNPOWDER)));
   assertTrue(ConsoleRecipeGroups.shown(new ItemStack(Items.PAPER)));
  }
- @Test public void honeyRecipesRemainAvailableWithRestoredGroups(){
-  assertTrue(ConsoleRecipeGroups.shown(new ItemStack(Items.HONEY_BOTTLE)));
+ @Test public void honeyBottlesAreHiddenWhileHoneyBlocksAndSugarRemainAvailable(){
+  assertFalse(ConsoleRecipeGroups.shown(new ItemStack(Items.HONEY_BOTTLE)));
+  assertTrue(ConsoleRecipeGroups.shown(new ItemStack(Items.GLASS_BOTTLE)));
   assertTrue(ConsoleRecipeGroups.shown(new ItemStack(Items.HONEY_BLOCK)));
   assertTrue(ConsoleRecipeGroups.shown(new ItemStack(Items.SUGAR)));
  }

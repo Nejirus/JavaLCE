@@ -1,0 +1,88 @@
+{
+  "version": "1.0.3",
+  "network_protocol": 8,
+  "automated_tests": {
+    "tests": 426,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "runtime": {
+    "status": "passed",
+    "version": "1.0.3",
+    "forge": "37.1.1",
+    "checks": [
+      "Actual server honeycomb interaction waxes a placed copper block and consumes exactly one honeycomb",
+      {
+        "check": "Source recipe manager still contains waxed copper recipes",
+        "recipes": 28
+      },
+      {
+        "context": "crafting table",
+        "show_all": true,
+        "waxed_recipes": 0,
+        "unwaxed_copper_recipes": 17
+      },
+      {
+        "context": "crafting table",
+        "show_all": false,
+        "waxed_recipes": 0,
+        "unwaxed_copper_recipes": 15
+      },
+      {
+        "context": "personal crafting",
+        "show_all": true,
+        "waxed_recipes": 0,
+        "unwaxed_copper_recipes": 7
+      },
+      {
+        "context": "personal crafting",
+        "show_all": false,
+        "waxed_recipes": 0,
+        "unwaxed_copper_recipes": 6
+      },
+      {
+        "context": "stonecutter",
+        "show_all": true,
+        "waxed_recipes": 20,
+        "unwaxed_copper_recipes": 20
+      },
+      {
+        "context": "stonecutter",
+        "show_all": false,
+        "waxed_recipes": 20,
+        "unwaxed_copper_recipes": 20
+      }
+    ],
+    "captures": [
+      {
+        "file": "copper-context-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "c2ac66f3e3a838c283421de1ef617225397f831832af21d9c1f41578f05cb12f"
+      },
+      {
+        "file": "copper-context-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "6ad834bbaa73befd8b59a1992e47a147127d7b0e84341d8370e2c569e4ec3f34"
+      },
+      {
+        "file": "copper-context-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "885c7b5c701a73875bdae4842cc89d6dafe88d3f9b1f0d5ec210252416e981e7"
+      }
+    ]
+  },
+  "runtime_files": {
+    "legacy-console-1.17.1-1.0.3.jar": "14e9747466402242bf6f0608292cf1e3e150939e79e7a60e987aab8aca23a4c8",
+    "legacy-join-compat-1.17.1-1.0.3.jar": "7f6ff6be6b56865cb9497a275b221562e28aaf599f22aa36248b043afa12ebd0",
+    "OptiFine_1.17.1_HD_U_H1.jar": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793"
+  },
+  "shaderpack_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+  "limits": [
+    "The recipe-list filter changes no screen geometry; runtime checks use 2560x1440, Console UI Size 1 and shaders OFF.",
+    "Copper is a Java 1.17.1 extension. This requested menu customization does not claim a PS4 copper implementation."
+  ]
+}

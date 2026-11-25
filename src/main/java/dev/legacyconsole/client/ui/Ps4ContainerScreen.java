@@ -117,7 +117,7 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
   }
   @Override protected void drawGuiContainerForegroundLayer(int x,int y) {}
   protected String[] actionPrompts() {
-    return new String[]{"cross","Take / Select","square","Place One","triangle","Quick Move","circle","Back"};
+    return containerActionPrompts();
   }
   @Override public void drawScreen(int mx,int my,float partial) {
     drawDefaultBackground(); super.drawScreen(mx,my,partial);

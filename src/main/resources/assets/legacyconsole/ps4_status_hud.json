@@ -1,0 +1,61 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "hud_sha256": "5bd610720f8702d6ce21c61db6882b8cc1c862dcbc8a888d0e9d5f8740296487",
+  "graphics_sha256": "4d85cda36e7cb84079209df3e2d03c5d56c7b0a553282e3e753c0e33b143843a",
+  "conversion": "Original BGRA to RGBA; no other pixel changes",
+  "sprites": {
+    "Health_Full_Wither": {
+      "file": "textures/lce/hud/health_full_wither.png",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "056f6c1004ea49ef6a874b55cec1567f01b8bb788e62c3c7fb6cb6bd2c350064",
+      "sha256": "aae24d815d3ecd45d7e6ac02240247624b18c87a17b3e02c8799c1408cabf689"
+    },
+    "Health_Half_Wither": {
+      "file": "textures/lce/hud/health_half_wither.png",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "d7b40042316f82a3537f69ab0513ccff4faf5c30e05e6fe14cfc8c79efd5cf55",
+      "sha256": "3cd367005fe3db58958e92a88958a5ed328114935082d15d71f319cdb5ec9f13"
+    },
+    "Health_Full_Wither_Flash": {
+      "file": "textures/lce/hud/health_full_wither_flash.png",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "a7c2796f5f1e1791a65e50ec322db94c865e34dd9c6f50d137d688ade02de14b",
+      "sha256": "0ca8c72340108a7c0b95d1fac5578c486872ab185c5d96443e9a0bd27fdd865c"
+    },
+    "Health_Half_Wither_Flash": {
+      "file": "textures/lce/hud/health_half_wither_flash.png",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "842548282d0c14e0c3915e06fe94c815decd240ccaa6a17cf5cfa652ec59db7b",
+      "sha256": "b0dec181a3a4a1a2779390fe8317a5c5dc42f1b22ba687a0756d22de8510e595"
+    }
+  },
+  "health_frames": [
+    "Health_Empty",
+    "Health_Empty_Flash",
+    "Health_Full",
+    "Health_Half",
+    "Health_Full_Flash",
+    "Health_Half_Flash",
+    "Health_Full_Poison",
+    "Health_Half_Poison",
+    "Health_Full_Poison_Flash",
+    "Health_Half_Poison_Flash",
+    "Health_Full_Wither",
+    "Health_Half_Wither",
+    "Health_Full_Wither_Flash",
+    "Health_Half_Wither_Flash"
+  ]
+}

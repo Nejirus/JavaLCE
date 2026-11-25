@@ -29,7 +29,11 @@ public final class NativeTrading {
   if(!remainder.isEmpty())p.drop(remainder,false);
   trader.notifyTrade(offer);trader.overrideXp(trader.getVillagerXp()+offer.getXp());
   p.awardStat(Stats.TRADED_WITH_VILLAGER);p.getInventory().setChanged();menu.broadcastChanges();
-  if(p instanceof ServerPlayer server)server.connection.send(new ClientboundMerchantOffersPacket(menu.containerId,trader.getOffers(),menu.getTraderLevel(),trader.getVillagerXp(),trader.showProgressBar(),trader.canRestock()));
+  // MerchantMenu's level is populated on the client by the offers packet. The
+  // server menu retains its default, so read the actual villager for updates.
+  int level=trader instanceof net.minecraft.world.entity.npc.Villager villager
+      ?villager.getVillagerData().getLevel():menu.getTraderLevel();
+  if(p instanceof ServerPlayer server)server.connection.send(new ClientboundMerchantOffersPacket(menu.containerId,trader.getOffers(),level,trader.getVillagerXp(),trader.showProgressBar(),trader.canRestock()));
   return true;
  }
  private static boolean consume(List<ItemStack> inv,ItemStack required){if(required.isEmpty())return true;int left=required.getCount();for(ItemStack s:inv)if(ItemStack.isSame(s,required)&&(!required.hasTag()||NbtUtils.compareNbt(required.getTag(),s.getTag(),false))){int take=Math.min(left,s.getCount());s.shrink(take);left-=take;if(left==0)return true;}return false;}

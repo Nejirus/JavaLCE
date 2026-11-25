@@ -7,7 +7,7 @@ import dev.legacyconsole.port.*;
 public final class ConsoleAudio {
  private static volatile ConsoleAudio current;private volatile SoundInstance music;private SoundInstance record;private int started,recordStarted;private volatile Runnable streamPump;
  private static boolean earlyAttempted,earlyLibrary;
- private boolean ownsVanillaMusic;
+ private boolean ownsVanillaMusic;private int musicDimension;
  private final java.util.concurrent.ScheduledExecutorService streamer;
  public static synchronized ConsoleAudio shared(){if(current==null)new ConsoleAudio();return current;}
  private final LceMusicPlaylist playlist=new LceMusicPlaylist(new Random());private final LceAudioClock clock=new LceAudioClock();
@@ -39,10 +39,13 @@ public final class ConsoleAudio {
  private boolean playing(){var engine=((SoundManagerAccess)Minecraft.getInstance().getSoundManager()).legacy$engine();return ((SoundEngineAccess)engine).legacy$isPlaying(music);}
  public void tick(){Minecraft mc=Minecraft.getInstance();SoundManager sounds=mc.getSoundManager();if(!((SoundEngineAccess)((SoundManagerAccess)sounds).legacy$engine()).legacy$ready()||!startupAssetsReady()&&!earlyLibrary)return;int frames=clock.updates(System.nanoTime());if(!ClientConfig.menuMusic||ClientConfig.musicVolume<=0||mc.options.getSoundSourceVolume(SoundSource.MUSIC)<=0){streamPump=null;if(music!=null)sounds.stop(music);music=null;return;}
   if(record!=null){if(sounds.isActive(record)){recordStarted=20;return;}if(++recordStarted<20)return;record=null;playlist.completed();}
-  if(music!=null&&playing()){if(streamPump==null)streamPump=((SoundEngineAccess)((SoundManagerAccess)sounds).legacy$engine()).legacy$musicPump(music);started=20;return;}if(music!=null&&++started<20)return;if(music!=null){streamPump=null;music=null;playlist.completed();}if(!playlist.ready(frames))return;
   int dimension=mc.level==null?0:mc.level.dimension()==Level.NETHER?-1:mc.level.dimension()==Level.END?1:0;
+  // Menu and Overworld share the existing pool. A dimension-specific track
+  // must be replaced before the active-channel early return below.
+  if(music!=null&&musicDimension!=dimension){streamPump=null;sounds.stop(music);music=null;started=0;}
+  if(music!=null&&playing()){if(streamPump==null)streamPump=((SoundEngineAccess)((SoundManagerAccess)sounds).legacy$engine()).legacy$musicPump(music);started=20;return;}if(music!=null&&++started<20)return;if(music!=null){streamPump=null;music=null;playlist.completed();}if(!playlist.ready(frames))return;
   String track=mc.level==null&&ClientConfig.musicMode!=0?(ClientConfig.musicMode==1?"menu2":"menu3"):playlist.next(dimension);
-  music=new MusicRecord(new ResourceLocation("legacyconsole","music."+track));sounds.play(music);streamPump=((SoundEngineAccess)((SoundManagerAccess)sounds).legacy$engine()).legacy$musicPump(music);started=0;
+  musicDimension=dimension;music=new MusicRecord(new ResourceLocation("legacyconsole","music."+track));sounds.play(music);streamPump=((SoundEngineAccess)((SoundManagerAccess)sounds).legacy$engine()).legacy$musicPump(music);started=0;
  }
  @SubscribeEvent public void sound(PlaySoundEvent event){SoundInstance sound=event.getSound();if(sound==null)return;ResourceLocation id=sound.getLocation();if(ClientConfig.menuSounds&&id.getNamespace().equals("minecraft")&&id.getPath().equals("ui.button.click")){event.setResultSound(ui("confirm"));return;}if(!ClientConfig.menuMusic)return;
   if(sound.getSource()==SoundSource.RECORDS&&id.getPath().startsWith("music_disc.")){streamPump=null;if(music!=null)Minecraft.getInstance().getSoundManager().stop(music);music=null;record=sound;recordStarted=0;}

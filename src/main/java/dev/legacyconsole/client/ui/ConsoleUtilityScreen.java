@@ -322,17 +322,7 @@ public final class ConsoleUtilityScreen extends ConsoleContainerScreen implement
   public void drawScreen(int x, int y, float partial) {
     drawDefaultBackground();
     super.drawScreen(x, y, partial);
-    ConsoleTheme.footer(
-        width,
-        height,
-        "cross",
-        "Take / Select",
-        "square",
-        "Split",
-        "triangle",
-        "Quick Move",
-        "circle",
-        "Back");
+    ConsoleTheme.footer(width, height, containerActionPrompts());
     if (kind == 1)
       for (GuiButton b : buttonList)
         if (x >= b.xPosition

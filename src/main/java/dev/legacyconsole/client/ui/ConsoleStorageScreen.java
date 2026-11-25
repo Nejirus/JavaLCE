@@ -200,17 +200,7 @@ public final class ConsoleStorageScreen extends ConsoleContainerScreen
   public void drawScreen(int mx, int my, float partial) {
     drawDefaultBackground();
     super.drawScreen(mx, my, partial);
-    ConsoleTheme.footer(
-        width,
-        height,
-        "cross",
-        "Take",
-        "square",
-        "Split",
-        "triangle",
-        "Quick Move",
-        "circle",
-        "Back");
+    ConsoleTheme.footer(width, height, containerActionPrompts());
   }
 
   @Override

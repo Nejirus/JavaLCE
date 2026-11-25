@@ -84,7 +84,7 @@ public final class ConsoleWorkstationScreen extends ConsoleContainerScreen imple
  @Override protected void mouseClicked(int x,int y,int button)throws IOException{if(button==0&&(kind==Kind.LOOM||kind==Kind.STONECUTTER)&&x>=guiLeft+148&&x<guiLeft+163&&y>=guiTop+18&&y<guiTop+93){scrolling=true;row=Math.max(0,Math.min(maxRow(),Math.round(maxRow()*(y-guiTop-18)/75f)));rebuild();return;}super.mouseClicked(x,y,button);}
  @Override public boolean mouseDragged(double x,double y,int b,double dx,double dy){if(scrolling){row=Math.max(0,Math.min(maxRow(),Math.round(maxRow()*((float)y-guiTop-18)/75)));rebuild();return true;}return super.mouseDragged(x,y,b,dx,dy);}
  @Override protected void mouseReleased(int x,int y,int b){scrolling=false;super.mouseReleased(x,y,b);}
- @Override public void drawScreen(int mx,int my,float partial){drawDefaultBackground();super.drawScreen(mx,my,partial);ConsoleTheme.footer(width,height,"cross","Take","square",inventorySlots.getCarried().isEmpty()?"Split":"Place One","triangle","Quick Move","circle","Back");}
+ @Override public void drawScreen(int mx,int my,float partial){drawDefaultBackground();super.drawScreen(mx,my,partial);ConsoleTheme.footer(width,height,containerActionPrompts());}
  @Override public boolean controllerDirection(int d){return false;}
  @Override public boolean controllerButton(int b){if((kind==Kind.LOOM||kind==Kind.STONECUTTER)&&(b==PadState.L2||b==PadState.R2)){scroll(b==PadState.L2?-1:1);return true;}return false;}
  @Override public boolean controllerPointer(){return true;}

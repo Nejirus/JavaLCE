@@ -1,0 +1,111 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "routine": "0x9b6890",
+  "cases": [
+    {
+      "context": "personal",
+      "occupied_families": 0,
+      "emitted_columns": []
+    },
+    {
+      "context": "personal",
+      "occupied_families": 1,
+      "emitted_columns": [
+        0
+      ]
+    },
+    {
+      "context": "personal",
+      "occupied_families": 3,
+      "emitted_columns": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "context": "personal",
+      "occupied_families": 7,
+      "emitted_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "context": "personal",
+      "occupied_families": 12,
+      "emitted_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "context": "table",
+      "occupied_families": 0,
+      "emitted_columns": []
+    },
+    {
+      "context": "table",
+      "occupied_families": 1,
+      "emitted_columns": [
+        0
+      ]
+    },
+    {
+      "context": "table",
+      "occupied_families": 3,
+      "emitted_columns": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "context": "table",
+      "occupied_families": 7,
+      "emitted_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "context": "table",
+      "occupied_families": 12,
+      "emitted_columns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  ]
+}
