@@ -1,0 +1,418 @@
+{
+  "automated": {
+    "tests": 452,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "runtime": {
+    "status": "passed",
+    "version": "1.0.11",
+    "forge": "37.1.1",
+    "created_world": "QA Online 111",
+    "independent_world_choices": true,
+    "toggle_saved_without_launch": true,
+    "online_a_published": true,
+    "offline_b_unpublished": true,
+    "created_world_choice_saved": true,
+    "new_create_starts_offline": true,
+    "old_global_ignored": true,
+    "remembered_after_exit": true,
+    "captures": [
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-1280x720-0.png",
+        "framebuffer": [
+          1280,
+          720
+        ],
+        "hud_size": 0,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-1280x720-1.png",
+        "framebuffer": [
+          1280,
+          720
+        ],
+        "hud_size": 1,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-1280x720-2.png",
+        "framebuffer": [
+          1280,
+          720
+        ],
+        "hud_size": 2,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-1920x1080-0.png",
+        "framebuffer": [
+          1920,
+          1080
+        ],
+        "hud_size": 0,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-1920x1080-1.png",
+        "framebuffer": [
+          1920,
+          1080
+        ],
+        "hud_size": 1,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-1920x1080-2.png",
+        "framebuffer": [
+          1920,
+          1080
+        ],
+        "hud_size": 2,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-2560x1440-0.png",
+        "framebuffer": [
+          2560,
+          1440
+        ],
+        "hud_size": 0,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-2560x1440-1.png",
+        "framebuffer": [
+          2560,
+          1440
+        ],
+        "hud_size": 1,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-2560x1440-2.png",
+        "framebuffer": [
+          2560,
+          1440
+        ],
+        "hud_size": 2,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-3840x2160-0.png",
+        "framebuffer": [
+          3840,
+          2160
+        ],
+        "hud_size": 0,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-3840x2160-1.png",
+        "framebuffer": [
+          3840,
+          2160
+        ],
+        "hud_size": 1,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.0,
+        "file": "hud-five-lines-3840x2160-2.png",
+        "framebuffer": [
+          3840,
+          2160
+        ],
+        "hud_size": 2,
+        "source_scale": 1.0,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.125,
+        "file": "hud-five-lines-1440x1080-0.png",
+        "framebuffer": [
+          1440,
+          1080
+        ],
+        "hud_size": 0,
+        "source_scale": 1.125,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.125,
+        "file": "hud-five-lines-1440x1080-1.png",
+        "framebuffer": [
+          1440,
+          1080
+        ],
+        "hud_size": 1,
+        "source_scale": 1.125,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.125,
+        "file": "hud-five-lines-1440x1080-2.png",
+        "framebuffer": [
+          1440,
+          1080
+        ],
+        "hud_size": 2,
+        "source_scale": 1.125,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.125,
+        "file": "hud-five-lines-1440x900-0.png",
+        "framebuffer": [
+          1440,
+          900
+        ],
+        "hud_size": 0,
+        "source_scale": 1.125,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.125,
+        "file": "hud-five-lines-1440x900-1.png",
+        "framebuffer": [
+          1440,
+          900
+        ],
+        "hud_size": 1,
+        "source_scale": 1.125,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.125,
+        "file": "hud-five-lines-1440x900-2.png",
+        "framebuffer": [
+          1440,
+          900
+        ],
+        "hud_size": 2,
+        "source_scale": 1.125,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.1812501,
+        "file": "hud-five-lines-3024x1964-0.png",
+        "framebuffer": [
+          3024,
+          1964
+        ],
+        "hud_size": 0,
+        "source_scale": 1.1812501,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.1812501,
+        "file": "hud-five-lines-3024x1964-1.png",
+        "framebuffer": [
+          3024,
+          1964
+        ],
+        "hud_size": 1,
+        "source_scale": 1.1812501,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      },
+      {
+        "render_scale": 1.1812501,
+        "file": "hud-five-lines-3024x1964-2.png",
+        "framebuffer": [
+          3024,
+          1964
+        ],
+        "hud_size": 2,
+        "source_scale": 1.1812501,
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "Unbreaking III",
+          "Mending",
+          "..."
+        ]
+      }
+    ],
+    "separate_process_restart_passed": true,
+    "opposite_choices_saved_after_restart": true,
+    "screenshots": {
+      "created-world-on.png": "bb13b75075c3e65f4f9b0874226737dd92aa240261ffc1ab04cb15664b5042a8",
+      "fresh-create-off.png": "48b1e9f37f5e175f866efaf6fe9965c89fb4355f15507655fdfec38854835aa2",
+      "hud-five-lines-1280x720-0.png": "41f85931c355c03d257fe29ba72b26fea6d0f216a3ec5ade625bcaecccfb2e68",
+      "hud-five-lines-1280x720-1.png": "7004acb3e37e8124dd4c1724752ff5ad9800b20e2fed873a9c61ce74f3754eee",
+      "hud-five-lines-1280x720-2.png": "0d0f3b92b04c3d3560ac4772494b7d636d012bd1a59dff182279c5a123ce1013",
+      "hud-five-lines-1440x1080-0.png": "c4cc00c8cf2f353babaaa2fa19a761afaa354088768199bcf3c4fdd24856fd3e",
+      "hud-five-lines-1440x1080-1.png": "c0a8165023a41c3d190989b6509f28eb72318382c867a7de6c707ed07f44eb45",
+      "hud-five-lines-1440x1080-2.png": "b2d588a450cf3da1f08c0afb273e548d9ae1e51d236b6566dfc5dc8858f7688e",
+      "hud-five-lines-1440x900-0.png": "8d459a999a115b08a286c2b881fb32ec3b1d3177848a89a1b831787f5221e562",
+      "hud-five-lines-1440x900-1.png": "f914266cfd9519068e84586c15f02decaabafebb917a87c6f3d1d30404567b5c",
+      "hud-five-lines-1440x900-2.png": "e11b922dfe0e59a00d32648d23c7461a4ecc35d06dd7d843517609fbdee629f7",
+      "hud-five-lines-1920x1080-0.png": "60221fc49fa0c7c036afcd4cdfaec820d33a2100c2b24e0a8d3e07ca293777a8",
+      "hud-five-lines-1920x1080-1.png": "7dd9cddab112e55b00aea3a18229351681052ec9b96d2f4bef3199bb8ee84fe2",
+      "hud-five-lines-1920x1080-2.png": "18e68ed282653d21f7f6e6dd46e679400f9130d92e5d7ddf83716f4fc5e19de9",
+      "hud-five-lines-2560x1440-0.png": "982a2b2ccad34a540f96b464b3007136cae1cf58004bee25129477d644714c8e",
+      "hud-five-lines-2560x1440-1.png": "b6afa0ce6434710986c615ffd79f588b3d3c45c8c78cbcd756d7c119fa271d04",
+      "hud-five-lines-2560x1440-2.png": "618b1f99d69a894c75bfe98e109c4ee36385b046b91df1cf1a909c41c86a7a01",
+      "hud-five-lines-3024x1964-0.png": "30f3756cdbcc9a33459e826e9d2382d039067e4665734614f97ec7460cc7ebf6",
+      "hud-five-lines-3024x1964-1.png": "3206f11879f47f3334d2e49ff1c621d699399ea1018ea9baf9a840d8165e6a39",
+      "hud-five-lines-3024x1964-2.png": "3820c0751a809c230818261e326374258dbbcda1b10e5eaeeb734f28b0f8e597",
+      "hud-five-lines-3840x2160-0.png": "0c8934f98c6770e15f4a36338d365d815394e052b3ec4c76a4617bcdfd6500e5",
+      "hud-five-lines-3840x2160-1.png": "d0428ccac3031cb98ffcd9bd1a29569e9d22135fbaf9802c112d5be719284eb7",
+      "hud-five-lines-3840x2160-2.png": "062d840d985bba4ef5238c3307f3015848e45bda796a082f62d8bf88f0e2c514",
+      "restart-world-a-off.png": "84e340b9515bb6f910f4ce94d1e17eecc99320253561d994919f6f91f2e69c66",
+      "restart-world-a-on.png": "680f99e5157737877886454eab8da7771ad09ba5533cbf13d7f9471e55b1e65a",
+      "restart-world-b-on.png": "13e67f2441f5dd6b8d365312282f6731f6504dd3f1111ff6fee3ccd3bd345b50",
+      "world-a-on.png": "74e98e83f664d844a53c14f8a792eac2f16170a47c8f594b580e3aa89443d9a9",
+      "world-b-off.png": "16256c38c7b10054cec8f2b58b38dd08d4f480306342afa1ba994c02fd380d15"
+    }
+  },
+  "shader_pack": "OFF",
+  "java": "17",
+  "optifine_hash": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+  "main_jar_sha256": "7687ad363078b09ac7e118102dc8f88e5d5183f35c063bf47243729c81826091",
+  "compatibility_jar_sha256": "937ad9d8c2c0fd38f54a4275f951cb17a6083d780c0624057728f037f2e7cf3e"
+}

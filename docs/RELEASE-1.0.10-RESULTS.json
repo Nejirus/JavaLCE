@@ -1,0 +1,367 @@
+{
+  "automated": {
+    "tests": 448,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "runtime": {
+    "captures": [
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 0,
+        "framebuffer": [
+          1280,
+          720
+        ],
+        "file": "hud-1280x720-0.png",
+        "render_scale": 1.0
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 1,
+        "framebuffer": [
+          1280,
+          720
+        ],
+        "file": "hud-1280x720-1.png",
+        "render_scale": 0.8249995
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 2,
+        "framebuffer": [
+          1280,
+          720
+        ],
+        "file": "hud-1280x720-2.png",
+        "render_scale": 1.0
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 0,
+        "framebuffer": [
+          1920,
+          1080
+        ],
+        "file": "hud-1920x1080-0.png",
+        "render_scale": 1.0
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 1,
+        "framebuffer": [
+          1920,
+          1080
+        ],
+        "file": "hud-1920x1080-1.png",
+        "render_scale": 0.8333333
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 2,
+        "framebuffer": [
+          1920,
+          1080
+        ],
+        "file": "hud-1920x1080-2.png",
+        "render_scale": 1.0
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 0,
+        "framebuffer": [
+          2560,
+          1440
+        ],
+        "file": "hud-2560x1440-0.png",
+        "render_scale": 1.0
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 1,
+        "framebuffer": [
+          2560,
+          1440
+        ],
+        "file": "hud-2560x1440-1.png",
+        "render_scale": 0.8333333
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 2,
+        "framebuffer": [
+          2560,
+          1440
+        ],
+        "file": "hud-2560x1440-2.png",
+        "render_scale": 1.0
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 0,
+        "framebuffer": [
+          3840,
+          2160
+        ],
+        "file": "hud-3840x2160-0.png",
+        "render_scale": 1.0
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 1,
+        "framebuffer": [
+          3840,
+          2160
+        ],
+        "file": "hud-3840x2160-1.png",
+        "render_scale": 0.8333333
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.0,
+        "hud_size": 2,
+        "framebuffer": [
+          3840,
+          2160
+        ],
+        "file": "hud-3840x2160-2.png",
+        "render_scale": 1.0
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.125,
+        "hud_size": 0,
+        "framebuffer": [
+          1440,
+          1080
+        ],
+        "file": "hud-1440x1080-0.png",
+        "render_scale": 1.125
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.125,
+        "hud_size": 1,
+        "framebuffer": [
+          1440,
+          1080
+        ],
+        "file": "hud-1440x1080-1.png",
+        "render_scale": 1.125
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.125,
+        "hud_size": 2,
+        "framebuffer": [
+          1440,
+          1080
+        ],
+        "file": "hud-1440x1080-2.png",
+        "render_scale": 0.044443768
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.125,
+        "hud_size": 0,
+        "framebuffer": [
+          1440,
+          900
+        ],
+        "file": "hud-1440x900-0.png",
+        "render_scale": 1.125
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.125,
+        "hud_size": 1,
+        "framebuffer": [
+          1440,
+          900
+        ],
+        "file": "hud-1440x900-1.png",
+        "render_scale": 1.125
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.125,
+        "hud_size": 2,
+        "framebuffer": [
+          1440,
+          900
+        ],
+        "file": "hud-1440x900-2.png",
+        "render_scale": 1.125
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.1812501,
+        "hud_size": 0,
+        "framebuffer": [
+          3024,
+          1964
+        ],
+        "file": "hud-3024x1964-0.png",
+        "render_scale": 1.1812501
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.1812501,
+        "hud_size": 1,
+        "framebuffer": [
+          3024,
+          1964
+        ],
+        "file": "hud-3024x1964-1.png",
+        "render_scale": 1.1812501
+      },
+      {
+        "lines": [
+          "Diamond Sword",
+          "Sharpness V",
+          "+10.0 Attack Damage"
+        ],
+        "source_scale": 1.1812501,
+        "hud_size": 2,
+        "framebuffer": [
+          3024,
+          1964
+        ],
+        "file": "hud-3024x1964-2.png",
+        "render_scale": 1.1812501
+      }
+    ],
+    "version": "1.0.10",
+    "status": "passed",
+    "forge": "37.1.1",
+    "lan_published": true,
+    "online_remembered_after_exit": true,
+    "online_saved_before_launch": true,
+    "separate_process_restart_passed": true,
+    "offline_saved_and_reloaded": true,
+    "screenshots": {
+      "create-online-on.png": "c4549bce4c6ba4afd7a91817784185158b6d2445ddbb6dfb4d2639db2ae1242a",
+      "hud-1280x720-0.png": "6b6171fb7b42814a682c72eec5678c97e2ce3d694e011049a12ef0f362fa5b5c",
+      "hud-1280x720-1.png": "d716c961dc3e3a29021e6e13871bd78cffb67c373e254102f06265ebfcac564f",
+      "hud-1280x720-2.png": "9ff633027600b1d461c55f91ffa25b33a9ee386d709106da687805e773c3daf4",
+      "hud-1440x1080-0.png": "d9115dca4ab202aeab296d376a39754fc1e4e0a32ef690efb4b70c0b15a25cd5",
+      "hud-1440x1080-1.png": "0a4111a810e233ad1184a12351c3a75b1b33b84610a5c7730e7511689aaca3f5",
+      "hud-1440x1080-2.png": "35a22d1a6eb7f5897cb3e75128087ac4bfe5047803915a3b21bf5aa689b2134f",
+      "hud-1440x900-0.png": "7be28f2426f36e42cca0f2d07abc1c10bc32dc42ac23c01608a3cc4f49b0451f",
+      "hud-1440x900-1.png": "bee053518c10bedb54588b2b81af6c1febda0d894b038e7ba23b6535d9798347",
+      "hud-1440x900-2.png": "b3dc6e7da4e13b85c03baab598caea0318c1b54199d868e0b95292a53db98d8a",
+      "hud-1920x1080-0.png": "59098e5e59c19cbe46e186b58b83b12f286706b6d59ec8c74698f6da75ec6889",
+      "hud-1920x1080-1.png": "a13cf48fdab9e303c36e8daa2f3202a406fea82b27d1f36be492204e3adaf406",
+      "hud-1920x1080-2.png": "90845766595a3c714c77e1daa419a962d68d8a6636f887eaa6943c61d497e71d",
+      "hud-2560x1440-0.png": "13a900376d817c42a12aecb53aa713c221d0b9099e03c5693236ea8e12a448db",
+      "hud-2560x1440-1.png": "75878b16f51ace12018ad4c579503e9cb5488a85ebba37716c19d72a711f8747",
+      "hud-2560x1440-2.png": "1768bce6104a4ff7f67b222d3224ff4472ae8f3423e2ec04db58ea0fc0b001e7",
+      "hud-3024x1964-0.png": "3f338f6e5a5e7d53ee69f0c8da59dfebfcd94a722ea900a61f7c8fc73f1769e6",
+      "hud-3024x1964-1.png": "8120a71ddec8f5593cc7e058201519c1bb5da9b05d8d1db288eb31bcc38c90cd",
+      "hud-3024x1964-2.png": "99b12ed476ededf18150623ec711a6a55fc9aa7a518406d3a6a675ee23bb9b6b",
+      "hud-3840x2160-0.png": "914315743be4b4ccbd21e7f556c55b28a710f17ca7971e3776d524b2e20b4090",
+      "hud-3840x2160-1.png": "3f7e7c7261a1ab535ebfc58dc09c5c7c01850762909e24dd2bb3a61c9d578a93",
+      "hud-3840x2160-2.png": "2b4264f01aa04aead13b4f25143290ce1fca32ec77a125c3f4cd64efb0956848",
+      "load-online-on.png": "e03fcbd98d7f441407e1cff8cff027c6a3e648f4c93da3210ad3a63bd190e008",
+      "restart-online-off.png": "999acbe254ba7b3dadb3edfa8dc130959dbcc81a1f2e9652a8cc191548acfbd6",
+      "restart-online-on.png": "fbe1ed7a8f6405ee448ae21ee23cb517940b4267f1299b5dde0226d597caeffc"
+    }
+  },
+  "shader_pack": "OFF",
+  "java": "17",
+  "optifine_hash": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+  "main_jar_sha256": "4d4e5e3794d7150a50d3c07cce07d4225642b7f9879882bb23a889b07d4743f6",
+  "compatibility_jar_sha256": "8d94b3b3a9ba044c64978b6ee4a53af387ec71bde3d67f546b111194aab17c35"
+}

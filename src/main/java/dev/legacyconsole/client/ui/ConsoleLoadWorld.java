@@ -61,6 +61,7 @@ import net.minecraftforge.event.TickEvent;
 import dev.legacyconsole.port.ReflectionHelper;
 
 import dev.legacyconsole.client.input.*;
+import dev.legacyconsole.world.WorldOnlineGame;
 
 
 
@@ -70,6 +71,8 @@ public final class ConsoleLoadWorld extends ConsolePanelScreen implements Contro
   private final LevelSummary level;
   private WorldInfo info;
   private boolean changed;
+  private boolean onlineGame;
+  private boolean onlineLoaded;
   private ConsoleLaunchLayout layout;
   private ConsolePacks.Selection packs;
   private ConsolePackSelector packSelector;
@@ -90,6 +93,10 @@ public final class ConsoleLoadWorld extends ConsolePanelScreen implements Contro
     super.initGui();
     if(info==null)try{info=new WorldInfo(mc.getLevelSource().getBaseDir().resolve(level.getLevelId()).toFile());}catch(java.io.IOException e){throw new IllegalStateException("Cannot read world settings",e);}
     saveFolder = mc.getLevelSource().getBaseDir().resolve(level.getLevelId()).toFile();
+    if (!onlineLoaded) {
+      onlineGame = WorldOnlineGame.read(saveFolder.toPath());
+      onlineLoaded = true;
+    }
     if (origin == null && info != null)
       origin = dev.legacyconsole.world.WorldPolicy.read(saveFolder, info);
     if(info!=null && origin!=null) {boolean wasLocked=info.isDifficultyLocked();origin.enforce(info);if(survivalLocked()||wasLocked!=info.isDifficultyLocked())changed=true;}
@@ -109,8 +116,8 @@ public final class ConsoleLoadWorld extends ConsolePanelScreen implements Contro
     difficulty.enabled=info!=null && !info.isHardcoreModeEnabled() && !info.isDifficultyLocked();
     buttonList.add(difficulty);
     packSelector=layout.place(new ConsolePackSelector(5,packs),"packs");buttonList.add(packSelector);
-    ConsoleButton online=layout.place(new ConsoleButton(6,0,0,220,12,"Online Game: Off"),"online");
-    online.enabled=false;online.allowCheckbox=true;buttonList.add(online);
+    ConsoleButton online=layout.place(new ConsoleButton(6,0,0,220,12,"Online Game: "+(onlineGame?"On":"Off")),"online");
+    online.allowCheckbox=true;buttonList.add(online);
     buttonList.add(layout.place(new ConsoleButton(4,0,0,220,20,"More World Options..."),"more"));
     buttonList.add(layout.place(new ConsoleButton(0,0,0,220,20,"Load Game"),"launch"));
   }
@@ -148,11 +155,16 @@ public final class ConsoleLoadWorld extends ConsolePanelScreen implements Contro
             }
             if (info != null)
               ConsoleWorldLaunch.prepare(
-                  level.getLevelId(), info.getGameType(), info.getDifficulty());
+                  level.getLevelId(), info.getGameType(), info.getDifficulty(), null, onlineGame);
           });
     else if (b.id == 4) mc.setScreen(new ConsoleWorldSettings(this));
     else if (b.id == 5) packs.activate(this);
     else if (b.id == 2) cycleMode();
+    else if (b.id == 6) {
+      WorldOnlineGame.write(saveFolder.toPath(), !onlineGame);
+      onlineGame=!onlineGame;
+      b.displayString="Online Game: "+(onlineGame?"On":"Off");
+    }
   }
 
   @Override

@@ -84,6 +84,7 @@ public final class ConsoleCreateWorld extends GuiCreateWorld implements Controll
   private int nonFlatIndex;
   boolean fireSpreads=true;
   private boolean findBalancedSeed=true;
+  private boolean onlineGame;
   private ConsoleLaunchLayout layout;
 
   public ConsoleCreateWorld(Screen parent) {
@@ -142,8 +143,8 @@ public final class ConsoleCreateWorld extends GuiCreateWorld implements Controll
             I18n.get(selectedDifficulty.getKey()))),"difficulty"));
     packSelector=layout.place(new ConsolePackSelector(103,packs),"packs");
     buttonList.add(packSelector);
-    ConsoleButton online=layout.place(new ConsoleButton(104,0,0,220,12,"Online Game: Off"),"online");
-    online.enabled=false;online.allowCheckbox=true;buttonList.add(online);
+    ConsoleButton online=layout.place(new ConsoleButton(104,0,0,220,12,"Online Game: "+(onlineGame?"On":"Off")),"online");
+    online.allowCheckbox=true;buttonList.add(online);
     buttonList.add(layout.place(new ConsoleButton(3,0,0,220,20,"More World Options..."),"more"));
     ConsoleButton create=layout.place(new ConsoleButton(0,0,0,220,20,"Create New World"),"launch");
     create.enabled=!name().getText().trim().isEmpty();buttonList.add(create);
@@ -240,6 +241,10 @@ public final class ConsoleCreateWorld extends GuiCreateWorld implements Controll
     if (b.id == 100 || b.id == 101) edit(b.id);
     else if (b.id == 2) cycleMode();
     else if (b.id == 103) packs.activate(this);
+    else if (b.id == 104) {
+      onlineGame=!onlineGame;
+      b.displayString="Online Game: "+(onlineGame?"On":"Off");
+    }
     else if (b.id == 3) mc.setScreen(new ConsoleWorldSettings(this));
     else if (b.id == 0) {
       if (name().getText().trim().isEmpty()) return;
@@ -260,7 +265,7 @@ public final class ConsoleCreateWorld extends GuiCreateWorld implements Controll
       ConsoleWorldLaunch.prepare(
           folder,
           "creative".equals(mode()) ? GameType.CREATIVE : GameType.SURVIVAL,
-          "hardcore".equals(mode()) ? Difficulty.HARD : selectedDifficulty,fireSpreads);
+          "hardcore".equals(mode()) ? Difficulty.HARD : selectedDifficulty,fireSpreads,onlineGame);
       boolean privileges=ReflectionHelper.getPrivateValue(GuiCreateWorld.class,this,"allowCheats","field_146340_t");
       dev.legacyconsole.world.WorldPolicy.prepareCreation(folder,
           "creative".equals(mode())?GameType.CREATIVE:GameType.SURVIVAL,

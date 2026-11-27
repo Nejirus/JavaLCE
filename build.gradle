@@ -6,7 +6,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'java'
 apply plugin: 'org.spongepowered.mixin'
 mixin { add sourceSets.main, 'legacyconsole.refmap.json'; config 'legacyconsole.mixins.json' }
-version = '1.0.8'
+version = '1.0.11'
 group = 'dev.legacyconsole'
 archivesBaseName = 'legacy-console-1.17.1'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)

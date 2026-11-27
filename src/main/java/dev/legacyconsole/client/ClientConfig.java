@@ -254,4 +254,5 @@ public final class ClientConfig {
     config.get("ui","consoleUiSize",1).set(consoleUiSize);
     config.save();
   }
+
 }

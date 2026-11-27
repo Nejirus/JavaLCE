@@ -9,7 +9,6 @@ import dev.legacyconsole.port.PortGraphics;
 import dev.legacyconsole.port.ScaledResolution;
 import dev.legacyconsole.port.ReflectionHelper;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 import net.minecraft.client.Minecraft;
@@ -17,7 +16,6 @@ import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.font.FontSet;
 import net.minecraft.client.gui.font.glyphs.BakedGlyph;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.FormattedCharSequence;
 import net.minecraft.world.item.ItemStack;
@@ -48,15 +46,7 @@ public final class Ps4ItemInformation {
   }
   public static List<Component> hotbarLines(ItemStack stack,Minecraft mc){
     if(stack.isEmpty())return List.of();
-    var lines=new ArrayList<Component>();
-    // 0xc78a90 calls ItemInstance::getTooltip(false), removes empty entries,
-    // and keeps four entries plus "..." when more than five remain.
-    for(var line:stack.getTooltipLines(mc.player,TooltipFlag.Default.NORMAL))
-      if(!line.getString().isBlank())lines.add(line);
-    if(lines.size()>Ps4InformationLayout.MAX_SELECTED_LINES){
-      lines.subList(4,lines.size()).clear();lines.add(new TextComponent("..."));
-    }
-    return List.copyOf(lines);
+    return Ps4HotbarTooltip.lines(stack.getTooltipLines(mc.player,TooltipFlag.Default.NORMAL));
   }
   /** Java adapter for PS4 0x863ea0(textField, 0), the first rendered glyph. */
   @SuppressWarnings("unchecked")
@@ -79,13 +69,14 @@ public final class Ps4ItemInformation {
         !mc.options.heldItemTooltips||remaining<=0||selected.isEmpty())return;
     var res=new ScaledResolution(mc);int width=res.getScaledWidth(),height=res.getScaledHeight();
     float base=Math.min(width/1920f,height/1080f);
-    float factor=Ps4UiScale.factor(ClientConfig.hudSize),bottom;
+    float bottom;
     if(LceHudRenderer.supported(mc)){
       var hud=LceHudRenderer.layout(res);bottom=hud.rootY+(mc.gameMode.canHurtPlayer()?-16:11)*hud.factor+9*base*3;
     }else bottom=height-(mc.gameMode.canHurtPlayer()?59:45)-20-ClientConfig.hudLift+9*base*3;
     int textWidth=selected.stream().mapToInt(mc.font::width).max().orElse(1);
     float clearance=LceHudRenderer.supported(mc)?Ps4InformationLayout.crosshairClearance(mc.getWindow().getHeight(),ClientConfig.hudSize):24;
-    var layout=Ps4InformationLayout.hotbar(width,height,bottom,3*base*factor,textWidth,selected.size(),clearance);
+    var layout=Ps4InformationLayout.hotbar(width,height,bottom,
+        Ps4InformationLayout.selectedScale(width,height),textWidth,selected.size(),clearance);
     float left=remaining-partial;float alpha=1;
     if(left<Ps4InformationLayout.FADE_TICKS){
       float[] fade=Ps4Information.DATA.selected_fade;

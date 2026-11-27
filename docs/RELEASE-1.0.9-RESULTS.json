@@ -1,0 +1,66 @@
+{
+  "automated": {
+    "tests": 439,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "runtime": {
+    "status": "passed",
+    "cases": [
+      {
+        "scenario": 0,
+        "create": false,
+        "online": false,
+        "published": false,
+        "commands": false,
+        "game_mode": "survival"
+      },
+      {
+        "scenario": 1,
+        "create": false,
+        "online": true,
+        "published": true,
+        "port": 41839,
+        "tcp_status": true,
+        "tcp_pong": true,
+        "lan_discovered": true,
+        "commands": false,
+        "game_mode": "survival"
+      },
+      {
+        "scenario": 2,
+        "create": false,
+        "online": false,
+        "published": false,
+        "commands": false,
+        "game_mode": "survival"
+      },
+      {
+        "scenario": 3,
+        "create": true,
+        "online": true,
+        "published": true,
+        "port": 42367,
+        "tcp_status": true,
+        "tcp_pong": true,
+        "lan_discovered": true,
+        "commands": true,
+        "game_mode": "creative"
+      }
+    ],
+    "forge": "37.1.1",
+    "version": "1.0.9",
+    "screenshots": {
+      "menu-0.png": "4521ccdfae1dd7185b434034f234272d30684900317d10201a595836e74a3d6f",
+      "menu-1.png": "e550b4307d6d988a5ae247a1bf720f98ef75d3aaa1073d9b9b7e59bd0de6c913",
+      "menu-2.png": "701c1fee6ac286a2afb7d80d475139f76ee1c76a71c67f370e75f1ab6cfde3c8",
+      "menu-3.png": "658b15f3469f4e7d3a4e21871f4773664cb26ca6b74810a7c0e2b697a4eb4452"
+    }
+  },
+  "shader_pack": "OFF",
+  "java": "17",
+  "optifine_hash": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+  "main_jar_sha256": "22dca48426ca131e94ca1184522e281981ef87b7424546bee64d8f9eb18e1439",
+  "compatibility_jar_sha256": "08fdb226e7daa1f343d139aa530a4c6601c915cf3bb90fb95580bfae86540b95"
+}

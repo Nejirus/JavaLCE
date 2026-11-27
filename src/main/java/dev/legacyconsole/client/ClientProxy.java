@@ -33,6 +33,7 @@ public final class ClientProxy {
  private static <T> T field(Object owner,Class<T> type){for(Class<?> c=owner.getClass();c!=null;c=c.getSuperclass())for(Field f:c.getDeclaredFields())if(!Modifier.isStatic(f.getModifiers())&&type.isAssignableFrom(f.getType()))try{f.setAccessible(true);return type.cast(f.get(owner));}catch(IllegalAccessException e){throw new IllegalStateException(e);}return null;}
  private static Screen parent(Screen source){Screen parent=field(source,Screen.class);return parent==null?Minecraft.getInstance().screen:parent;}
  @SubscribeEvent public void screen(GuiOpenEvent event){Minecraft mc=Minecraft.getInstance();Screen screen=event.getGui();hover.reset();ControllerMenus.reset();ControllerCursor.screenChanged();
+  if(screen instanceof TitleScreen || screen instanceof ConsoleMainMenu)ConsoleWorldLaunch.clear();
   if(screen==null&&mc.screen!=null)ControllerInput.INSTANCE.blockAfterMenu();else if(screen!=null)ControllerInput.INSTANCE.menuOpened();
   if(screen==null||!ClientConfig.consoleMenus||screen instanceof LegacyScreen||screen instanceof GuiContainer)return;
   Screen replacement=null;
@@ -61,7 +62,7 @@ public final class ClientProxy {
   else if(screen instanceof AbstractContainerScreen<?> container)replacement=new ConsoleStorageScreen(container);
   if(replacement!=null)event.setGui(replacement);
  }
- @SubscribeEvent public void logout(net.minecraftforge.client.event.ClientPlayerNetworkEvent.LoggedOutEvent event){LegacyWorldView.clear();Ps4Hints.clear();ConsoleHostOptions.clear();ClientPlayerColors.clear();}
+ @SubscribeEvent public void logout(net.minecraftforge.client.event.ClientPlayerNetworkEvent.LoggedOutEvent event){if(event.getPlayer()!=null)ConsoleWorldLaunch.clear();LegacyWorldView.clear();Ps4Hints.clear();ConsoleHostOptions.clear();ClientPlayerColors.clear();}
  @SubscribeEvent public void mouseClicked(GuiScreenEvent.MouseClickedEvent.Pre event){ControllerCursor.mouse();}
  @SubscribeEvent public void mouseScrolled(GuiScreenEvent.MouseScrollEvent.Pre event){ControllerCursor.mouse();}
  @SubscribeEvent public void loadingKey(GuiScreenEvent.KeyboardKeyPressedEvent.Pre event){int key=event.getKeyCode();if((key==org.lwjgl.glfw.GLFW.GLFW_KEY_ENTER||key==org.lwjgl.glfw.GLFW.GLFW_KEY_SPACE)&&dev.legacyconsole.client.loading.ConsoleStartup.confirmBlocked())event.setCanceled(true);else if(key==org.lwjgl.glfw.GLFW.GLFW_KEY_ESCAPE&&dev.legacyconsole.client.loading.ConsoleLoading.cancelConnection())event.setCanceled(true);}

@@ -1,0 +1,124 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "inputs": {
+    "HUD1080.fui": "e124b5473be9cfa27d612286a9616296f7bfb33c43e07db3e0ab64848e059cf9",
+    "skinHDGraphicsLabels.fui": "7ae77ad6df090546a50be3cb8b61f500c361d4e93a7c20f59eedab9ee7309351",
+    "eboot.elf": "1bc106605c15cd23a02bc28c03c36060bf5e4f6a185e709e28c7e5ba45eb3cdb"
+  },
+  "routines": {
+    "tooltip": "0x3bb630",
+    "attribute_format": "0x3cda0",
+    "selected_label": "0xa4e3f0 / 0x813030",
+    "line_limit": "0xc78a90",
+    "label_constructor": "0x7dabf0",
+    "label_set_text": "0x7dae40",
+    "control_set_text": "0x7d1170"
+  },
+  "selected_matrix": [
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    775.0,
+    731.0
+  ],
+  "selected_label": {
+    "bounds": [
+      -2.0,
+      367.0,
+      -2.0,
+      35.0
+    ],
+    "font_size": 30.0,
+    "color": 4294967295,
+    "alignment": 2,
+    "markup": "<p align=\"center\"><font face=\"Mojangles7\" size=\"30\" color=\"#ffffff\" letterSpacing=\"0.00\" kerning=\"1\">FJ_LabelWhiteCentered</font></p>",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      2.0,
+      2.0
+    ]
+  },
+  "number_format": " %ls%.1f %ls",
+  "percentage_format": " %ls%d%ls %ls",
+  "attributes": [
+    {
+      "id": 0,
+      "name": "max_health",
+      "label_crc": "0xbada09b9",
+      "supported": true
+    },
+    {
+      "id": 1,
+      "name": "follow_range",
+      "label_crc": "0x46bdc66f",
+      "supported": true
+    },
+    {
+      "id": 2,
+      "name": "knockback_resistance",
+      "label_crc": "0x102af61b",
+      "supported": true
+    },
+    {
+      "id": 3,
+      "name": "movement_speed",
+      "label_crc": "0xaa6bdc35",
+      "supported": true
+    },
+    {
+      "id": 4,
+      "name": "attack_damage",
+      "label_crc": "0xf25163d2",
+      "supported": true
+    },
+    {
+      "id": 5,
+      "name": "horse_jump_strength",
+      "label_crc": "0x400feb0c",
+      "supported": true
+    },
+    {
+      "id": 6,
+      "name": "zombie_reinforcements",
+      "label_crc": "0xad135001",
+      "supported": true
+    },
+    {
+      "id": 7,
+      "name": "attack_speed",
+      "label_crc": "0x1ea0e2fe",
+      "supported": false
+    },
+    {
+      "id": 8,
+      "name": "armor",
+      "label_crc": "0x6ca19582",
+      "supported": true
+    },
+    {
+      "id": 9,
+      "name": "armor_toughness",
+      "label_crc": "0xaae7cf20",
+      "supported": false
+    },
+    {
+      "id": 10,
+      "name": "luck",
+      "label_crc": "0xc9bc92c8",
+      "supported": false
+    }
+  ],
+  "label_set_text": {
+    "vtable": "0x1300928",
+    "virtual_offset": "0x50",
+    "target": "0x7dae40",
+    "code_sha256": "19f12547f5c3abce2d731a5a4a6d12b4494a295721a522ba933d87c1a2decf79",
+    "constructor_sha256": "a88b92f9a3ad412952581e055bd18a6ee93604231eaa8cf67278e8d3f86372fc",
+    "control_setter_sha256": "c2995031f298d97700b8ccac5f6ae6225886c3dc62290de12fabbf635a1b72ba"
+  }
+}

@@ -617,5 +617,25 @@
     "position": "0x813030",
     "effect_tiles": "0xa4f690 / 0x8191c0",
     "effect_bars": "0xa65460 / 0x81dfa0"
+  },
+  "selected_label": {
+    "bounds": [
+      -2.0,
+      367.0,
+      -2.0,
+      35.0
+    ],
+    "font_size": 30.0,
+    "color": 4294967295,
+    "alignment": 2,
+    "markup": "<p align=\"center\"><font face=\"Mojangles7\" size=\"30\" color=\"#ffffff\" letterSpacing=\"0.00\" kerning=\"1\">FJ_LabelWhiteCentered</font></p>",
+    "matrix": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      2.0,
+      2.0
+    ]
   }
 }

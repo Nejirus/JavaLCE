@@ -19,4 +19,5 @@ final class Ps4Information {
   Map<String,float[]> normal,small,tile,inventory_anchors,cursor,cursor_small;
   float[] inventory_offset,selected_fade;
   Map<String,Ps4UiArt.Label> effect_labels;
+  Ps4UiArt.Label selected_label;
 }
