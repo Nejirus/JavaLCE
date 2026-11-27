@@ -34,8 +34,8 @@ public class GuiContainer extends AbstractContainerScreen<AbstractContainerMenu>
   if(scaled){GlStateManager.pushMatrix();GlStateManager.translate(transform.offsetX(),transform.offsetY(),0);GlStateManager.scale(transform.scale(),transform.scale(),1);}
   try{super.render(PortGraphics.pose,x,y,partial);for(GuiButton b:buttonList)b.drawButton(mc,x,y);}
   finally{if(scaled)GlStateManager.popMatrix();}
-  // Match the existing PS4 menus: native hover text stays at the pointer and
-  // uses Minecraft's tooltip sizing and screen-edge placement.
+  // Render after removing the menu transform; the PS4 information panel owns
+  // its own scale and pointer/screen-edge placement.
   renderTooltip(PortGraphics.pose,tooltipMouseX,tooltipMouseY);
  }
  @Override protected void renderBg(PoseStack pose,float partial,int x,int y){drawGuiContainerBackgroundLayer(partial,x,y);}

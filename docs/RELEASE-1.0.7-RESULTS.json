@@ -1,0 +1,155 @@
+{
+  "automated": {
+    "tests": 438,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "runtime": {
+    "status": "passed",
+    "version": "1.0.7",
+    "forge": "37.1.1",
+    "captures": [
+      {
+        "file": "r3-1280x720.png",
+        "framebuffer": [
+          1280,
+          720
+        ],
+        "gui": [
+          640,
+          360
+        ],
+        "glyph_top": 325.5,
+        "glyph_height": 16.0,
+        "dismount_x": 231.0,
+        "jump_x": 32.0,
+        "family": "PlayStation 4",
+        "device": "Xbox Wireless Controller",
+        "sha256": "7dc89ddf6079fb83e75983c6290416a1928dc06e4282b49c29491a77c97f00db"
+      },
+      {
+        "file": "r3-2560x1440.png",
+        "framebuffer": [
+          2560,
+          1440
+        ],
+        "gui": [
+          640,
+          360
+        ],
+        "glyph_top": 326.0,
+        "glyph_height": 16.0,
+        "dismount_x": 229.0,
+        "jump_x": 32.0,
+        "family": "PlayStation 4",
+        "device": "Xbox Wireless Controller",
+        "sha256": "ee825ec080e7ad728b7a130a08d9c9297240e2e2a304e7f63175917b55091124"
+      },
+      {
+        "file": "r3-1440x1080.png",
+        "framebuffer": [
+          1440,
+          1080
+        ],
+        "gui": [
+          720,
+          540
+        ],
+        "glyph_top": 497.0,
+        "glyph_height": 16.0,
+        "dismount_x": 233.0,
+        "jump_x": 36.0,
+        "family": "PlayStation 4",
+        "device": "Xbox Wireless Controller",
+        "sha256": "f373211ca4da61b8f4f9c695406bf4f9077b24e02ad4ef7ce86c80732428d582"
+      },
+      {
+        "file": "r3-3024x1964.png",
+        "framebuffer": [
+          3024,
+          1964
+        ],
+        "gui": [
+          756,
+          491
+        ],
+        "glyph_top": 450.66666,
+        "glyph_height": 16.0,
+        "dismount_x": 234.66669,
+        "jump_x": 37.666668,
+        "family": "PlayStation 4",
+        "device": "Xbox Wireless Controller",
+        "sha256": "71e3d855376cb46f75caadddcfb28fb740bc951ec78af0b927dc422ffa3ebc8d"
+      },
+      {
+        "file": "r3-3840x2160.png",
+        "framebuffer": [
+          3840,
+          2160
+        ],
+        "gui": [
+          640,
+          360
+        ],
+        "glyph_top": 326.0,
+        "glyph_height": 16.0,
+        "dismount_x": 229.0,
+        "jump_x": 32.0,
+        "family": "PlayStation 4",
+        "device": "Xbox Wireless Controller",
+        "sha256": "0fe9e150d738b7fb2849b368dc5e8930736d7d3ed3a9d7d8be5717181b2ed0c4"
+      }
+    ]
+  },
+  "shader_pack": "OFF",
+  "java": "17",
+  "optifine_hash": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+  "ps4_model_routine": "0xc8abb0",
+  "ps4_witch_model_bounds": {
+    "helmet": {
+      "native_bounds": [
+        [
+          -4.5,
+          4.5
+        ],
+        [
+          -10.5,
+          0.5
+        ],
+        [
+          -4.5,
+          4.5
+        ]
+      ],
+      "native_origin": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "hat": {
+      "native_bounds": [
+        [
+          -5.0,
+          5.0
+        ],
+        [
+          -10.049999952316284,
+          -8.049999952316284
+        ],
+        [
+          -5.0,
+          5.0
+        ]
+      ],
+      "native_origin": [
+        -5.0,
+        -8.03125,
+        -5.0
+      ]
+    }
+  },
+  "main_jar_sha256": "842f4d346ac8f86614417b696d3e347d2bc110cfffd062ec2b2a209508efbfee",
+  "compatibility_jar_sha256": "4bb41a8bdb56944ee219eb766d4865b6086d066c727b4dc96973cce6e812b0e3"
+}

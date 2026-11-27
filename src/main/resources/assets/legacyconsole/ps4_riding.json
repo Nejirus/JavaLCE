@@ -1,0 +1,1107 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "scene": {
+    "sha256": "3d31915a1ef4c4dff9b2d3f614360cbfa750a10038726e1b1701f64a9725076b",
+    "root": [
+      637.0,
+      235.0
+    ],
+    "controls": {
+      "inventoryLabel": {
+        "matrix": [
+          2.50103759765625,
+          0.0,
+          0.0,
+          1.0,
+          38.0,
+          264.0
+        ],
+        "symbol": "fourj.Labels.FJ_Label_Black"
+      },
+      "SlotTypes": {
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          38.0,
+          60.0
+        ],
+        "symbol": "local:6"
+      },
+      "inventoryList": {
+        "matrix": [
+          11.33978271484375,
+          0.0,
+          0.0,
+          3.7800140380859375,
+          38.0,
+          309.0
+        ],
+        "symbol": "fourj.listClasses.FJ_SlotList"
+      },
+      "hotbarList": {
+        "matrix": [
+          11.339889526367188,
+          0.0,
+          0.0,
+          1.2599945068359375,
+          38.0,
+          519.0
+        ],
+        "symbol": "fourj.listClasses.FJ_SlotList"
+      },
+      "SlotSaddle": {
+        "matrix": [
+          1.2599945068359375,
+          0.0,
+          0.0,
+          1.259979248046875,
+          38.0,
+          60.0
+        ],
+        "symbol": "fourj.listClasses.FJ_SlotList"
+      },
+      "iggy_horse": {
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          105.0,
+          64.0
+        ],
+        "symbol": "local:7"
+      },
+      "DonkeyInventoryList": {
+        "matrix": [
+          6.300018310546875,
+          0.0,
+          0.0,
+          3.7800140380859375,
+          290.0,
+          60.0
+        ],
+        "symbol": "fourj.listClasses.FJ_SlotList"
+      },
+      "horseinventoryText": {
+        "matrix": [
+          2.501129150390625,
+          0.0,
+          0.0,
+          0.9445953369140625,
+          38.0,
+          20.0
+        ],
+        "symbol": "fourj.Labels.FJ_Label_Black"
+      },
+      "SlotArmor": {
+        "matrix": [
+          1.2599945068359375,
+          0.0,
+          0.0,
+          1.259979248046875,
+          38.0,
+          123.0
+        ],
+        "symbol": "fourj.listClasses.FJ_SlotList"
+      },
+      "cursor": {
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          41.0,
+          366.0
+        ],
+        "symbol": "fourj.Cursor.FJ_Cursor_Normal"
+      }
+    },
+    "static": [
+      {
+        "name": "",
+        "symbol": "FJ_Panel9Grid",
+        "matrix": [
+          4.0565032958984375,
+          0.0,
+          0.0,
+          3.830108642578125,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "",
+        "symbol": "FJ_SquareRecessedPanel",
+        "matrix": [
+          2.86334228515625,
+          0.0,
+          0.0,
+          2.8638763427734375,
+          101.0,
+          60.0
+        ]
+      },
+      {
+        "name": "",
+        "symbol": "CharacterBackground",
+        "matrix": [
+          1.022613525390625,
+          0.0,
+          0.0,
+          0.7479705810546875,
+          105.0,
+          64.0
+        ]
+      },
+      {
+        "name": "",
+        "symbol": "FJ_SquareRecessedPanel",
+        "matrix": [
+          4.7726287841796875,
+          0.0,
+          0.0,
+          2.86370849609375,
+          290.0,
+          59.95000076293945
+        ]
+      }
+    ],
+    "objects": {
+      "SlotTypes": [
+        {
+          "name": "",
+          "symbol": "IconHolder_1x1border",
+          "matrix": [
+            3.14996337890625,
+            0.0,
+            0.0,
+            3.14996337890625,
+            38.0,
+            60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Saddle_Slot_Small",
+          "matrix": [
+            3.000030517578125,
+            0.0,
+            0.0,
+            3.000030517578125,
+            39.0,
+            61.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "IconHolder_1x1border",
+          "matrix": [
+            3.14996337890625,
+            0.0,
+            0.0,
+            3.14996337890625,
+            38.0,
+            123.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "HorseArmor_Slot_Small",
+          "matrix": [
+            3.000030517578125,
+            0.0,
+            0.0,
+            3.000030517578125,
+            39.0,
+            124.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Carpet_Slot",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            39.0,
+            127.0
+          ]
+        }
+      ],
+      "iggy_horse": []
+    },
+    "player_bounds": [
+      0.0,
+      181.0,
+      0.0,
+      181.0
+    ],
+    "empty_icons": {
+      "Saddle_Slot_Small": {
+        "name": "",
+        "symbol": "Saddle_Slot_Small",
+        "matrix": [
+          3.000030517578125,
+          0.0,
+          0.0,
+          3.000030517578125,
+          39.0,
+          61.0
+        ]
+      },
+      "HorseArmor_Slot_Small": {
+        "name": "",
+        "symbol": "HorseArmor_Slot_Small",
+        "matrix": [
+          3.000030517578125,
+          0.0,
+          0.0,
+          3.000030517578125,
+          39.0,
+          124.0
+        ]
+      },
+      "Carpet_Slot": {
+        "name": "",
+        "symbol": "Carpet_Slot",
+        "matrix": [
+          3.0,
+          0.0,
+          0.0,
+          3.0,
+          39.0,
+          127.0
+        ]
+      }
+    }
+  },
+  "hud_sha256": "5bd610720f8702d6ce21c61db6882b8cc1c862dcbc8a888d0e9d5f8740296487",
+  "graphics_sha256": "4d85cda36e7cb84079209df3e2d03c5d56c7b0a553282e3e753c0e33b143843a",
+  "sprites": {
+    "HorseJump_bar_empty": {
+      "texture": "horsejump_bar_empty",
+      "size": [
+        182,
+        5
+      ],
+      "source_sha256": "0596bb1c832da4cda7ad0b39e0fde58c1634e334a53577a7d4e405821c09e280",
+      "sha256": "b71a29da87c914c1a2c6e08b488c4359f56ca5ff7dbb5d9e4c22969c9505e0f8"
+    },
+    "HorseJump_bar_full": {
+      "texture": "horsejump_bar_full",
+      "size": [
+        182,
+        5
+      ],
+      "source_sha256": "8c929705651bbf2891df0318bcb6ede5d059c776a1ab2f2a5c26e63dfb01aa0d",
+      "sha256": "2b6736f4a64d4f302691d33e9c62d82e5787f3b6d26e03cf9c8529617e1a9e21"
+    },
+    "Health_Background": {
+      "texture": "health_background",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "a79c00b7abf9aaa01c62bb13e81268c839b78cf2b6d1e7945920c60c3897d843",
+      "sha256": "a3c17fbe2e38163a31e4e7a5634e1ae7ad6809e6b313f0c7c931d2e1dd21b0e5"
+    },
+    "Health_Background_Flash": {
+      "texture": "health_background_flash",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "d14de5a4a8e52c518e83e6a17015acdf1252c1b6d15e24b985b11fdcb228a942",
+      "sha256": "828cab4c129096e5000bad89911fa708d929126f643b688f07cab71e76a47963"
+    },
+    "HorseHealth_Full": {
+      "texture": "horsehealth_full",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "e6efa6aaeec512aaac20ce7ad8ca500fbb6b09d2b64ab60acea7de716d403560",
+      "sha256": "21ce3f5446b52a8c016bed84f61ef9a05a1e290ed576e5b10579bd156ac9cd93"
+    },
+    "HorseHealth_Half": {
+      "texture": "horsehealth_half",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "5fdc9b882c9e1d220d396849aa2691319096c740f979e02dac98a62e366afab5",
+      "sha256": "d351e34f60174f2defc5360b6cdcade168620f1806f0abee67f663b11ffdf4d3"
+    },
+    "HorseHealth_Full_Flash": {
+      "texture": "horsehealth_full_flash",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "206ff54bb0034f8c74c9c292d6a449852dad012dd4b52f33f76c57738598a2dd",
+      "sha256": "0b6f01b81bf09f1ff2ea31c96d811eecd590a7413ebab18339ac1e68c3ee7357"
+    },
+    "HorseHealth_Half_Flash": {
+      "texture": "horsehealth_half_flash",
+      "size": [
+        9,
+        9
+      ],
+      "source_sha256": "a14bcfc3f3f40e9c01a5a51bc41062cef8f0c0e5f5359e20c4bb03b74c5c044e",
+      "sha256": "67369515056aebe5fe112a06860371742b32435f8ee8bb5242de03082a77844e"
+    }
+  },
+  "hud": {
+    "HorseJumpBar": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        61.0
+      ],
+      "children": [
+        {
+          "name": "",
+          "symbol": "HorseJump_bar_empty",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "HorseJump_bar_full",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "FJ_HorseHealthBar": {
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        303.0,
+        30.0
+      ],
+      "children": [
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            24.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            48.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            72.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            96.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            120.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            144.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            168.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            192.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            216.0,
+            0.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            0.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            24.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            48.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            72.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            96.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            120.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            144.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            168.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            192.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            216.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            0.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            24.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            48.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            72.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            96.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            120.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            144.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            168.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            192.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "",
+          "symbol": "Health_Background",
+          "matrix": [
+            3.0,
+            0.0,
+            0.0,
+            3.0,
+            216.0,
+            -60.0
+          ]
+        }
+      ],
+      "slots": [
+        {
+          "name": "FJ_Health_09",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_08",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_07",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            48.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_06",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            72.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_05",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            96.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_04",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            120.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_03",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            144.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_02",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            168.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_01",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            192.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_00",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            216.0,
+            0.0
+          ]
+        },
+        {
+          "name": "FJ_Health_19",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_18",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_17",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            48.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_16",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            72.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_15",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            96.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_14",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            120.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_13",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            144.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_12",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            168.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_11",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            192.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_10",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            216.0,
+            -30.0
+          ]
+        },
+        {
+          "name": "FJ_Health_29",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_28",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            24.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_27",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            48.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_26",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            72.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_25",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            96.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_24",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            120.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_23",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            144.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_22",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            168.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_21",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            192.0,
+            -60.0
+          ]
+        },
+        {
+          "name": "FJ_Health_20",
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            216.0,
+            -60.0
+          ]
+        }
+      ]
+    }
+  },
+  "portrait": {
+    "routine": "0x9f6ba0",
+    "aspect": 1.7777777777777777,
+    "foot_divisor": -7.5,
+    "scale": 0.7099999785423279,
+    "mouse_y": -40.0
+  }
+}

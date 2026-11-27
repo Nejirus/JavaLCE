@@ -20,6 +20,11 @@ public final class LceActionPrompts {
    }else if(mc.hitResult instanceof EntityHitResult hit){Entity target=hit.getEntity();if(target.isAttackable())attack=label(ConsoleVehicle.isVehicle(target)?"MINE":"HIT");String special=entityUse(p,target,p.getMainHandItem());if(special==null)special=entityUse(p,target,p.getOffhandItem());if(special!=null)use=special;}
    if(ConsoleVehicle.isVehicle(p.getVehicle()))use=label("EXIT");
   }else if(mc.hitResult instanceof BlockHitResult hit){Block block=mc.level.getBlockState(hit.getBlockPos()).getBlock();if(block instanceof ChestBlock||block instanceof EnderChestBlock||block instanceof ShulkerBoxBlock||block instanceof BarrelBlock)use=label("OPEN");}
+  if(p.getVehicle() instanceof net.minecraft.world.entity.animal.horse.AbstractHorse horse){
+   // PS4's CONTROLLER_ACTION_DISMOUNT / INVENTORY / JUMP bindings are R3 / Triangle / Cross.
+   out.add("right_stick_button");out.add("Dismount");
+   if(horse.canJump()){out.add("cross");out.add("Jump");}
+  }
   if(use!=null){out.add("left_trigger");out.add(use);}if(attack!=null){out.add("right_trigger");out.add(attack);}return out.toArray(new String[0]);
  }
  public static String blockUse(Block block,boolean creative,boolean hungry,boolean record){

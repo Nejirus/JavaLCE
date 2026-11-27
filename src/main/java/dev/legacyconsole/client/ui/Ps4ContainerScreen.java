@@ -48,7 +48,7 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
     layoutControls();
     int hotbar=switch(sceneName){case "BrewingStandMenu"->0x29;case "EnchantingMenu"->0x21;
       case "CartographyMenu"->0x59;case "BeaconMenu"->0x38;case "AnvilMenu"->0x31;case "FurnaceMenu"->4;
-      case "InventoryMenu"->10;case "ChestMenu","ChestLargeMenu"->0;default->throw new IllegalStateException(sceneName);};
+      case "InventoryMenu"->10;case "ChestMenu","ChestLargeMenu"->0;case "HorseInventoryMenu"->0x48;default->throw new IllegalStateException(sceneName);};
     for(int i=0;i<2;i++) {
       List<Ps4UiArt.Rect> cells=new ArrayList<>();
       int rows=i==0?1:3;
@@ -57,6 +57,7 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
     }
   }
   protected abstract void layoutControls();
+  protected Ps4MenuNavigation.Route horseRoute(int section,int d,int x,int y){throw new IllegalStateException(sceneName);}
   protected final void navigationGrid(int section,String control,int columns,int rows) {
     List<Ps4UiArt.Rect> cells=new ArrayList<>();
     for(int row=0;row<rows;row++)for(int column=0;column<columns;column++)cells.add(art.cell(control,column,row,columns,rows));
@@ -149,6 +150,7 @@ abstract class Ps4ContainerScreen extends ConsoleContainerScreen implements Cont
         case "FurnaceMenu"->Ps4MenuNavigation.furnace(current,d,x,false);
         case "InventoryMenu"->Ps4ContainerLogic.inventory(current,d,x,y,false);
         case "ChestMenu","ChestLargeMenu"->Ps4ContainerLogic.chest(current,d,false);
+        case "HorseInventoryMenu"->horseRoute(current,d,x,y);
         default->throw new IllegalStateException(sceneName);
       };
       Section to=sections.get(route.section());if(to==null)return true;

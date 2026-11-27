@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.List;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.inventory.MerchantScreen;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.world.entity.npc.VillagerData;
 import net.minecraft.world.inventory.*;
 import net.minecraft.world.item.ItemStack;
@@ -164,13 +165,17 @@ public final class ConsoleMerchantScreen extends GuiMerchant implements Controll
     var lines=new java.util.ArrayList<TradeDescription.Line>();
     for(var line:details)for(String text:fontRendererObj.listFormattedStringToWidth(line.text(),wrap))
       lines.add(new TradeDescription.Line(text,line.color()));
-    var cell=offerCell(trades.column());float w=label.bounds[1]-label.bounds[0]+6,h=10+lines.size()*20;
+    float glyph=Ps4ItemInformation.glyphHeight(mc.font,
+        new TextComponent(lines.get(0).text()).getVisualOrderText(),2);
+    var layout=Ps4PointerPanelLayout.layout(label.bounds[1]-label.bounds[0],lines.size()*20,glyph,true);
+    var cell=offerCell(trades.column());float w=Math.max(24,layout.width()),h=Math.max(24,layout.height());
     float sx=(cell.x()-art.x)/art.scale,sy=(cell.y()-art.y)/art.scale;
     float x=trades.column()<5?sx+cell.w()/art.scale/2:sx+cell.w()/art.scale/2-w;
     float y=sy+cell.h()/art.scale/2-h/2;
     float[] last=Ps4UiArt.DATA.panels.get("FJ_PointerTextPanel").pieces.get(8).rect;
     art.panel("FJ_PointerTextPanel",x,y,w/(last[0]+last[2]),h/(last[1]+last[3]));
-    for(int i=0;i<lines.size();i++)art.text(lines.get(i).text(),art.rect(x+3,y+5+i*20,w-6,20),lines.get(i).color(),false,2);
+    for(int i=0;i<lines.size();i++)art.text(lines.get(i).text(),art.rect(x+layout.textX(),y+layout.textY()+i*20,
+        label.bounds[1]-label.bounds[0],20),lines.get(i).color(),false,2);
   }
   @Override protected void keyTyped(char c,int key) throws IOException {
     if(key==Keyboard.KEY_LEFT)choose(trades.selected()-1);

@@ -46,9 +46,12 @@ final class Ps4UiArt {
   final Scene scene;
   final float x, y, scale;
 
+  /** A native widget without a menu scene, positioned by its owning renderer. */
+  Ps4UiArt(float x,float y,float scale){this.scene=null;this.x=x;this.y=y;this.scale=scale;}
+
   Ps4UiArt(String scene,int width,int height){this(scene,width,height,315);}
   Ps4UiArt(String scene,int width,int height,float popupHeight){
-    this.scene=DATA.scenes.get(scene);
+    this.scene=scene.equals("HorseInventoryMenu")?Ps4Riding.DATA.scene:DATA.scenes.get(scene);
     Ps4UiScale.Layout layout;
     if(scene.equals("TutorialPopup"))layout=Ps4UiScale.popup(width,height,dev.legacyconsole.client.ClientConfig.consoleUiSize,popupHeight);
     else{

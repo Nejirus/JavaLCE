@@ -22,7 +22,7 @@ import net.minecraftforge.fmllegacy.RegistryObject;
 import org.apache.logging.log4j.*;
 @Mod(LegacyConsole.ID)
 public final class LegacyConsole {
- public static final String ID="legacyconsole",VERSION="1.0.4";
+ public static final String ID="legacyconsole",VERSION="1.0.8";
  public static final Logger log=LogManager.getLogger("LegacyConsole");
  public static final ConsoleNetwork NETWORK=new ConsoleNetwork();
  private static final DeferredRegister<MenuType<?>> MENUS=DeferredRegister.create(ForgeRegistries.CONTAINERS,ID);

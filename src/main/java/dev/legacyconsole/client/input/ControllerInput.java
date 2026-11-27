@@ -211,7 +211,8 @@ public final class ControllerInput {
     }
     if (pressed(PadState.L3)) tap(mc.options.keyTogglePerspective);
     boolean flying = mc.player.getAbilities().flying;
-    if (flying || ridingVehicle) shiftKeyDown = false;
+    boolean ridingHorse=mc.player.getVehicle() instanceof net.minecraft.world.entity.animal.horse.AbstractHorse;
+    if (flying || ridingVehicle || ridingHorse) shiftKeyDown = false;
     else if (pressed(PadState.R3)) shiftKeyDown = !shiftKeyDown;
     if (state.ly < .65f || mc.player.horizontalCollision) sprint = false;
     hold(
@@ -219,7 +220,7 @@ public final class ControllerInput {
         !ridingVehicle && state.held(PadState.CROSS) && !menuBuffer.blocksJump());
     hold(
         mc.options.keyShift,
-        vehicleUse.dismount() || (!ridingVehicle && (flying ? state.held(PadState.R3) : shiftKeyDown)));
+        vehicleUse.dismount() || (!ridingVehicle && (flying || ridingHorse ? state.held(PadState.R3) : shiftKeyDown)));
 
     hold(mc.options.keyAttack, state.held(PadState.R2));
     hold(

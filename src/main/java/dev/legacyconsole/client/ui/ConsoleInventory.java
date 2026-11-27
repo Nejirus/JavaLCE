@@ -52,6 +52,7 @@ public final class ConsoleInventory extends Ps4ContainerScreen {
     InventoryScreen.renderEntityInInventory(Math.round(r.x()+r.w()/2),
         Math.round(r.y()+Ps4ContainerLogic.playerFoot(r.h())),Math.round(Ps4ContainerLogic.playerScale(r.w())),
         r.x()+r.w()/2-mx,r.y()+r.h()/2-40*art.scale-my,mc.player);
+    Ps4Effects.inventory(art);
   }
   @Override protected String[] actionPrompts() {
     return Ps4InventoryActions.prompts(getSlotUnderMouse(),inventorySlots.getCarried(),mc.player);

@@ -31,6 +31,14 @@ for role,(symbol,ids) in roles.items():
 extra={'left_stick_button':'ButtonLS','right_stick_button':'ButtonRS','right_stick':'ButtonRightStick','start_button':'ButtonStart','back_button':'ButtonBack','dpad_up':'ButtonDpadU','dpad_down':'ButtonDpadD','dpad_left':'ButtonDpadL','dpad_right':'ButtonDpadR'}
 for role,name in extra.items():
  path=base+'Graphics/X360ControllerIcons/'+name+'.png';tex=image(path);w,h=records[path]['size'];glyphs[role]=dict(bounds=[0,w,0,h],layers=[dict(path=tex,x=0,y=0,width=w,height=h)],symbol=name)
+# The supplementary RS image is a controller-diagram bitmap. Fit its display
+# to the authored A-button row while preserving the original bitmap's aspect.
+rs = glyphs['right_stick_button']
+height = glyphs['cross']['bounds'][3] - glyphs['cross']['bounds'][2]
+factor = height / rs['layers'][0]['height']
+rs['bounds'] = [value * factor for value in rs['bounds']]
+for key in ['x', 'y', 'width', 'height']:
+ rs['layers'][0][key] *= factor
 p=assets/'glyphs.json';data=json.loads(p.read_text())
 for name,mult in [('xbox360',1),('xbox360_hd',1.5)]:
  family=data[name];family['glyphs']=copy.deepcopy(glyphs)
@@ -39,5 +47,5 @@ for name,mult in [('xbox360',1),('xbox360_hd',1.5)]:
   for layer in g['layers']:
    for key in ['x','y','width','height']:layer[key]*=mult
 p.write_text(json.dumps(data,indent=2)+'\n')
-record=dict(repository='https://github.com/chrisGrando/MinecraftLCE-7thGen',revision=revision,source_xui={'path':xml,'git_blob':blobs[xml]['sha'],'sha256':sha(raw)},assets=list(records.values()),glyphs=glyphs,adaptations=['Normal Xbox 360 XUI glyph images and geometry replace Windows SWF glyphs. Existing common prompt text/spacing and bindings remain.','At 1080p and above the same unchanged PNGs use the existing 3/2 coordinate conversion; no Xbox 360 HD artwork is invented.','Supplementary glyphs use original Button PNGs at their natural source dimensions.'])
+record=dict(repository='https://github.com/chrisGrando/MinecraftLCE-7thGen',revision=revision,source_xui={'path':xml,'git_blob':blobs[xml]['sha'],'sha256':sha(raw)},assets=list(records.values()),glyphs=glyphs,adaptations=['Normal Xbox 360 XUI glyph images and geometry replace Windows SWF glyphs. Existing common prompt text/spacing and bindings remain.','At 1080p and above the same unchanged PNGs use the existing 3/2 coordinate conversion; no Xbox 360 HD artwork is invented.','Supplementary glyphs use original Button PNGs. The RS display fits the authored A-button height and preserves its source aspect ratio.'])
 (a.project_root/'LCE-XBOX360-2312.json').write_text(json.dumps(record,indent=2)+'\n');print('Verified/copied',len(records),'original PNGs;',len(glyphs),'glyphs per scale')

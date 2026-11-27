@@ -115,8 +115,13 @@ public final class LceGlyphLayout {
     }
 
     public float labelY(String name, String label) {
-      float[] symbol = glyph(name).bounds, ink = LcePromptFont.INSTANCE.ink(label);
-      return (symbol[2] + symbol[3]) / (2 * units) - (ink[2] + ink[3]) / 2;
+      float[] ink = LcePromptFont.INSTANCE.ink(label);
+      return glyphCenterY(name) - (ink[2] + ink[3]) / 2;
+    }
+
+    private float glyphCenterY(String name) {
+      float[] bounds = glyph(name).bounds;
+      return (bounds[2] + bounds[3]) / (2 * units);
     }
 
     public float labelWidth(String text, ToIntFunction<String> textWidth) {
@@ -156,6 +161,10 @@ public final class LceGlyphLayout {
       this.glyph = glyph;
       this.label = label;
       this.x = x;
+      // Stick-click artwork has its own origin. Center it on the footer's face-button row.
+      if (glyph.equals("right_stick_button")) {
+        y += family.glyphCenterY("cross") - family.glyphCenterY(glyph);
+      }
       this.y = y;
       textX = x + family.labelX(glyph);
       textY = y + family.labelY(glyph, label);

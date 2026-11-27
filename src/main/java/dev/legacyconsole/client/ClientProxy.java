@@ -17,7 +17,7 @@ public final class ClientProxy {
  private static final KeyMapping SETTINGS=new KeyMapping("key.legacyconsole.settings",org.lwjgl.glfw.GLFW.GLFW_KEY_F8,"key.categories.legacyconsole");
  private final ConsoleAudio audio=ConsoleAudio.shared();
  public ClientProxy(){MinecraftForge.EVENT_BUS.register(audio);}private final MenuHoverSound hover=new MenuHoverSound();
- public static void register(){ClientConfig.load(FMLPaths.CONFIGDIR.get().toFile());FMLJavaModLoadingContext.get().getModEventBus().addListener(ClientProxy::setup);FMLJavaModLoadingContext.get().getModEventBus().addListener(LceMapRenderType::registerShaders);}
+ public static void register(){ClientConfig.load(FMLPaths.CONFIGDIR.get().toFile());FMLJavaModLoadingContext.get().getModEventBus().addListener(ClientProxy::setup);FMLJavaModLoadingContext.get().getModEventBus().addListener(LceMapRenderType::registerShaders);FMLJavaModLoadingContext.get().getModEventBus().addListener(Ps4WitchHood::register);}
  private static void setup(FMLClientSetupEvent event){event.enqueueWork(()->{ClientRegistry.registerKeyBinding(CRAFTING);ClientRegistry.registerKeyBinding(SETTINGS);MenuScreens.register((net.minecraft.world.inventory.MenuType)LegacyConsole.CRAFTING.get(), (MenuScreens.ScreenConstructor)(menu,inventory,title)->((dev.legacyconsole.crafting.ConsoleContainer)menu).kind==dev.legacyconsole.crafting.ConsoleContainer.LOOM?new ConsoleSpecialCrafting((dev.legacyconsole.crafting.ConsoleContainer)menu,5):new ConsoleCraftingScreen((dev.legacyconsole.crafting.ConsoleContainer)menu));MinecraftForge.EVENT_BUS.register(new ClientProxy());MinecraftForge.EVENT_BUS.register(new ConsoleHud());MinecraftForge.EVENT_BUS.register(new Ps4Hints.Events());});}
  @SubscribeEvent public void recipesReloaded(net.minecraftforge.client.event.RecipesUpdatedEvent event){dev.legacyconsole.crafting.RecipeCatalog.invalidate();}
  @SubscribeEvent public void tick(TickEvent.ClientTickEvent event){if(event.phase!=TickEvent.Phase.START)return;Minecraft mc=Minecraft.getInstance();
@@ -46,6 +46,7 @@ public final class ClientProxy {
   else if(screen instanceof SelectWorldScreen)replacement=new ConsolePlayScreen(parent(screen),0);
   else if(screen instanceof JoinMultiplayerScreen)replacement=new ConsolePlayScreen(parent(screen),2);
   else if(screen instanceof net.minecraft.client.gui.screens.worldselection.CreateWorldScreen)replacement=new ConsoleCreateWorld(parent(screen));
+  else if(screen instanceof HorseInventoryScreen horse)replacement=new Ps4HorseScreen(horse,field(horse,net.minecraft.world.entity.animal.horse.AbstractHorse.class));
   else if(screen instanceof InventoryScreen||screen instanceof CreativeModeInventoryScreen)replacement=new ConsoleInventory(mc.player);
   else if(screen instanceof MerchantScreen merchant)replacement=new ConsoleMerchantScreen(merchant);
   else if(screen instanceof SignEditScreen)replacement=new ConsoleSignScreen(field(screen,SignBlockEntity.class));

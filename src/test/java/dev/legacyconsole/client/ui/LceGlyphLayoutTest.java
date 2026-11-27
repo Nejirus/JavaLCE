@@ -35,6 +35,41 @@ public class LceGlyphLayoutTest {
   }
 
   @Test
+  public void ps4DismountUsesTheLceR3ArtworkAtFaceButtonHeight() {
+    for (int height : new int[] {720, 1080, 1440, 2160}) {
+      var family = LceGlyphLayout.family("ps4", height);
+      var prompts = LceGlyphLayout.footer(family, 640, 360, String::length,
+          "cross", "Jump", "right_stick_button", "Dismount");
+      var jump = prompts.get(0);
+      var dismount = prompts.get(1);
+      var cross = family.glyph(jump.glyph).bounds;
+      var r3 = family.glyph(dismount.glyph).layers[0];
+      assertEquals("lce/prompts/ps4/40", r3.path);
+      assertEquals(cross[3] - cross[2], r3.height, .001f);
+      assertEquals(jump.y + cross[2] / family.units, dismount.y + r3.y / family.units, .001f);
+    }
+  }
+
+  @Test
+  public void xbox360DismountMatchesTheFaceButtonRowAtBothScales() throws Exception {
+    BufferedImage bitmap = ImageIO.read(getClass().getResourceAsStream(
+        "/assets/legacyconsole/textures/lce/prompts/xbox360/ButtonRS.png"));
+    for (int height : new int[] {720, 1080, 1440, 2160}) {
+      var family = LceGlyphLayout.family("xbox360", height);
+      var prompts = LceGlyphLayout.footer(family, 640, 360, String::length,
+          "cross", "Jump", "right_stick_button", "Dismount");
+      var jump = prompts.get(0);
+      var dismount = prompts.get(1);
+      var face = family.glyph(jump.glyph).bounds;
+      var rs = family.glyph(dismount.glyph).layers[0];
+      assertEquals("lce/prompts/xbox360/ButtonRS", rs.path);
+      assertEquals((face[3] - face[2]) / family.units, rs.height / family.units, .001f);
+      assertEquals(jump.y + face[2] / family.units, dismount.y + rs.y / family.units, .001f);
+      assertEquals((double) bitmap.getWidth() / bitmap.getHeight(), rs.width / rs.height, .001);
+    }
+  }
+
+  @Test
   public void reference720CoordinatesMatchTheSourceSafeZoneAndCommonBaseline() {
     LceGlyphLayout.Family sd = LceGlyphLayout.family("ps4", 720);
     List<LceGlyphLayout.Prompt> prompts = LceGlyphLayout.footer(

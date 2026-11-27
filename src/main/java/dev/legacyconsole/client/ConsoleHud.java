@@ -13,6 +13,9 @@ import dev.legacyconsole.port.*;
 
 /** Console HUD placement over Forge's native, individually cancellable HUD layers. */
 public final class ConsoleHud {
+  private final Ps4ItemInformation information=new Ps4ItemInformation();
+  @SubscribeEvent public void tick(net.minecraftforge.event.TickEvent.ClientTickEvent event){information.tick(event);}
+  @SubscribeEvent public void tooltip(net.minecraftforge.client.event.RenderTooltipEvent.Pre event){information.tooltip(event);}
   private static final Set<IIngameOverlay> BOTTOM = Set.of(
       ForgeIngameGui.HOTBAR_ELEMENT, ForgeIngameGui.ARMOR_LEVEL_ELEMENT,
       ForgeIngameGui.PLAYER_HEALTH_ELEMENT, ForgeIngameGui.FOOD_LEVEL_ELEMENT,
@@ -47,6 +50,7 @@ public final class ConsoleHud {
     if (!ClientConfig.consoleHud) return;
     Minecraft mc = Minecraft.getInstance();
     IIngameOverlay layer = event.getOverlay();
+    if(layer==ForgeIngameGui.POTION_ICONS_ELEMENT){event.setCanceled(true);return;}
     if (layer == ForgeIngameGui.CROSSHAIR_ELEMENT
         && (mc.screen != null || original && !mc.options.renderDebug)) {
       event.setCanceled(true);
@@ -79,18 +83,8 @@ public final class ConsoleHud {
       suppressed = false;
       if (original && mc.screen == null && !mc.options.hideGui)
         LceHudRenderer.render(res, event.getPartialTicks());
-      if (tooltips && mc.screen == null) {
-        GlStateManager.pushMatrix();
-        float offset = -(20 + ClientConfig.hudLift);
-        if (original) {
-          var layout = LceHudRenderer.layout(res);
-          float target = layout.rootY + (mc.gameMode.canHurtPlayer() ? -16 : 11) * layout.factor;
-          offset = target - (res.getScaledHeight() - (mc.gameMode.canHurtPlayer() ? 59 : 45));
-        }
-        GlStateManager.translate(0, offset, 0);
-        mc.gui.renderSelectedItemName(event.getMatrixStack());
-        GlStateManager.popMatrix();
-      }
+      information.hotbar(event.getMatrixStack(),event.getPartialTicks());
+      Ps4Effects.hud(event.getMatrixStack(),res.getScaledWidth(),res.getScaledHeight());
     }
     LcePaperDoll.render();
     if (!ClientConfig.consoleHud || mc.player == null || mc.screen != null

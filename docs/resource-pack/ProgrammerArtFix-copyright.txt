@@ -1,0 +1,16 @@
+Resource Pack Name: Programmer Art Fix
+
+Resource Pack Author: THGABS
+
+Officially Release on: Modrinth & CurseForge (Nov 20, 2024)
+
+You may use (parts of) my textures in your own pack and post it, as long as you have got my authorization. Also:
+- You CAN'T repost my resource pack to other websites, unless in your country it is restricted to visit the websites above or region, or there are other understandable reasons; before doing so, you should ALWAYS get authorized. You have to sign the original author (me) and original links to this pack.
+- You MUST NOT use my work for commercial purposes.
+- Private uses, which means you've made something that would never be distributed to others, is not subject to these terms.
+- Sharing this pack with your friends is not restricted.
+
+DO NOT violate the terms above, or I have the right to revoke all your permissions in this license and expose your misbehavior.
+
+Official Page (Modrinth): https://modrinth.com/resourcepack/programmer-art-fix
+Official Page (CurseForge): https://www.curseforge.com/minecraft/texture-packs/programmer-art-fix

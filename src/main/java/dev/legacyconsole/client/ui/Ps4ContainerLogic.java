@@ -28,6 +28,49 @@ public final class Ps4ContainerLogic {
       default->section;
     },0,0);
   }
+  /** UIScene_HorseInventoryMenu::handleSection, 0xa47bd0. */
+  public static Ps4MenuNavigation.Route horse(int section,int d,int x,int y,boolean split,
+      boolean chest,boolean armor,boolean saddle,int columns){
+    int to=section,dx=0,dy=0;
+    switch(section){
+      case 0x48:
+        if(d==1){
+          if(!split)to=0x49;
+          else if(chest&&x>=4){to=0x4a;dx=4;}
+          else to=armor?0x4b:saddle?0x4c:0x48;
+        }else if(d==2){
+          if(armor&&x>=4){to=0x4a;dx=4;}
+          else to=saddle?0x4c:0x48;
+        }
+        break;
+      case 0x49:
+        if(d==2)to=0x48;
+        else if(d==1){
+          if(chest&&x>=4){to=0x4a;dx=4;}
+          else to=armor?0x4b:saddle?0x4c:0x49;
+        }
+        break;
+      case 0x4a:
+        if(d==1||d==2){to=d==1||split?0x48:0x49;dx=-4;}
+        else if(d==3&&x<0||d==4&&x>=columns){
+          if(armor&&y==1)to=0x4b;
+          else if(y==0)to=saddle?0x4c:0x4a;
+        }
+        break;
+      case 0x4b:
+        if(d==1)to=saddle?0x4c:0x4b;
+        else if(d==2)to=chest?0x4a:split?0x48:0x49;
+        else if((d==3||d==4)&&chest){to=0x4a;dx=x-(d==3?columns:0);dy=-1;}
+        break;
+      case 0x4c:
+        if(d==1)to=0x48;
+        else if(d==2)to=armor?0x4b:split?0x48:0x49;
+        else if((d==3||d==4)&&chest){to=0x4a;dx=x-(d==3?columns:0);}
+        break;
+      default:break;
+    }
+    return r(to,dx,dy);
+  }
   /** UIScene's player draw 0x9f6f30: original 1920/1080 aspect and 8/9 foot anchor. */
   public static float playerScale(float width){return width/(1920f/1080f);}
   public static float playerFoot(float height){return height+height/-9f;}

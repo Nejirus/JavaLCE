@@ -71,14 +71,15 @@ public final class LceHudRenderer extends Gui {
   private static final LceHudRenderer DRAW = new LceHudRenderer();
   private static final ResourceLocation WIDGETS = new ResourceLocation("textures/gui/widgets.png");
   private final Random random = new Random();
-  private int lastHealth = 20, flashUntil;
+  private int lastHealth = 20, flashUntil,lastHorse=-1,lastHorseHealth,horseFlashUntil;
 
-  /** Keep Java's extra health/hardcore/horse/spectator HUD when LCE has no matching assets. */
+  /** Keep Java's extra health/hardcore/spectator HUD when no matching console widget exists. */
   public static boolean supported(Minecraft game) {
     return game.player != null && !game.player.isSpectator()
         && game.player.getMaxHealth() <= 20 && game.player.getAbsorptionAmount() <= 0
         && !game.level.getLevelData().isHardcore()
-        && !(game.player.getVehicle() instanceof LivingEntity);
+        && (!(game.player.getVehicle() instanceof LivingEntity)
+            || game.player.getVehicle() instanceof net.minecraft.world.entity.animal.horse.AbstractHorse);
   }
 
   public static LceHudLayout layout(ScaledResolution resolution) {
@@ -133,10 +134,14 @@ public final class LceHudRenderer extends Gui {
     GlStateManager.popMatrix();
     if (game.gameMode.canHurtPlayer()) {
       status(game, p);
-      image("experience_bar_empty", p.x, p.rootY + 30, LceHudLayout.WIDTH, 7.5f);
-      ConsoleTheme.croppedSprite("lce/hud/experience_bar_full", p.x, p.rootY + 30,
-          LceHudLayout.WIDTH, 7.5f, 0, 0, Mth.clamp(player.experienceProgress, 0, 1), 1);
-      if (player.experienceLevel > 0) {
+      boolean jumping=player.getVehicle() instanceof net.minecraft.world.entity.animal.horse.AbstractHorse horse&&horse.canJump();
+      if(jumping)dev.legacyconsole.client.ui.Ps4Riding.jump(game.player.getJumpRidingScale(),p.x,p.rootY);
+      else{
+        image("experience_bar_empty", p.x, p.rootY + 30, LceHudLayout.WIDTH, 7.5f);
+        ConsoleTheme.croppedSprite("lce/hud/experience_bar_full", p.x, p.rootY + 30,
+            LceHudLayout.WIDTH, 7.5f, 0, 0, Mth.clamp(player.experienceProgress, 0, 1), 1);
+      }
+      if (!jumping && player.experienceLevel > 0) {
         String label = Integer.toString(player.experienceLevel);
         // ExpBar is at +30; PlayerLevel is at -37 source px, with a +2 px text inset.
         GlStateManager.pushMatrix();
@@ -209,6 +214,7 @@ public final class LceHudRenderer extends Gui {
     int allAir = Mth.ceil(player.getAirSupply() * 10.0 / maxAir);
     boolean showAir = player.isEyeInFluid(net.minecraft.tags.FluidTags.WATER)
         || player.getAirSupply() < maxAir;
+    boolean mounted=player.getVehicle() instanceof net.minecraft.world.entity.animal.horse.AbstractHorse;
     for (int i = 0; i < 10; i++) {
       float x = p.x + i * 12, right = p.x + LceHudLayout.WIDTH - 13.5f - i * 12;
       float y = p.rootY + 15;
@@ -221,13 +227,23 @@ public final class LceHudRenderer extends Gui {
       float foodY = p.rootY + 15;
       if (player.getFoodData().getSaturationLevel() <= 0 && ticks % (food * 3 + 1) == 0)
         foodY += (random.nextInt(3) - 1) * 1.5f;
+      if(!mounted){
       icon("HUD_Food_Background" + (hunger ? "_Poison" : ""), right, foodY);
       part = food >= (i + 1) * 2 ? "Full" : food == i * 2 + 1 ? "Half" : null;
       if (part != null) icon("HUD_Food_" + part + (hunger ? "_Poison" : ""), right, foodY);
+      }
       if (armor > 0) icon("HUD_Armour_" + (armor >= (i + 1) * 2 ? "Full"
           : armor == i * 2 + 1 ? "Half" : "Empty"), x, p.rootY);
       if (showAir && i < allAir)
         icon(i < fullAir ? "HUD_Air_Bubble" : "HUD_Air_Pop", right, p.rootY);
     }
+    if(player.getVehicle() instanceof net.minecraft.world.entity.animal.horse.AbstractHorse horse){
+      int hp=Mth.ceil(horse.getHealth());
+      if(horse.getId()!=lastHorse){lastHorse=horse.getId();horseFlashUntil=0;}
+      else if(hp!=lastHorseHealth&&horse.invulnerableTime>0)horseFlashUntil=ticks+20;
+      lastHorseHealth=hp;
+      dev.legacyconsole.client.ui.Ps4Riding.health(horse,p.x,p.rootY,
+          ticks<horseFlashUntil&&(horseFlashUntil-ticks)/3%2==1);
+    }else lastHorse=-1;
   }
 }

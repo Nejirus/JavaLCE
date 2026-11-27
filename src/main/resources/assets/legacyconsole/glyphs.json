@@ -218,17 +218,17 @@
       "right_stick_button": {
         "bounds": [
           0,
-          30,
+          32,
           0,
-          30
+          32
         ],
         "layers": [
           {
             "path": "lce/prompts/ps4/40",
             "x": 0,
             "y": 0,
-            "width": 30,
-            "height": 30
+            "width": 32,
+            "height": 32
           }
         ],
         "symbol": "ButtonRS"
@@ -552,16 +552,16 @@
       "right_stick_button": {
         "bounds": [
           0,
-          58,
+          48,
           0,
           48
         ],
         "layers": [
           {
-            "path": "lce/prompts/ps4_hd/252",
+            "path": "lce/prompts/ps4/40",
             "x": 0,
             "y": 0,
-            "width": 58,
+            "width": 48,
             "height": 48
           }
         ],
@@ -1971,18 +1971,18 @@
       },
       "right_stick_button": {
         "bounds": [
-          0,
-          67,
-          0,
-          64
+          0.0,
+          34.546875,
+          0.0,
+          33.0
         ],
         "layers": [
           {
             "path": "lce/prompts/xbox360/ButtonRS",
-            "x": 0,
-            "y": 0,
-            "width": 67,
-            "height": 64
+            "x": 0.0,
+            "y": 0.0,
+            "width": 34.546875,
+            "height": 33.0
           }
         ],
         "symbol": "ButtonRS"
@@ -2334,17 +2334,17 @@
       "right_stick_button": {
         "bounds": [
           0.0,
-          100.5,
+          51.8203125,
           0.0,
-          96.0
+          49.5
         ],
         "layers": [
           {
             "path": "lce/prompts/xbox360/ButtonRS",
             "x": 0.0,
             "y": 0.0,
-            "width": 100.5,
-            "height": 96.0
+            "width": 51.8203125,
+            "height": 49.5
           }
         ],
         "symbol": "ButtonRS"

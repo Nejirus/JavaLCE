@@ -1,0 +1,332 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+  "routines": {
+    "cursor": "0x7d57c0 / 0x7d5920",
+    "trading": "0x864f80"
+  },
+  "inputs": "Explicit character-zero glyph extents and text-field dimensions; isolated UI callbacks.",
+  "cases": [
+    {
+      "kind": "cursor",
+      "width": 20.0,
+      "height": 20.0,
+      "glyph_height": 13.0,
+      "panel_width": 30.0,
+      "panel_height": 33.0,
+      "inset_x": 5.0,
+      "inset_y": 7.0
+    },
+    {
+      "kind": "trading",
+      "width": 20.0,
+      "height": 20.0,
+      "glyph_height": 13.0,
+      "panel_width": 30.0,
+      "panel_height": 33.0,
+      "inset_x": 5.0,
+      "inset_y": 6.0
+    },
+    {
+      "kind": "cursor",
+      "width": 20.0,
+      "height": 20.0,
+      "glyph_height": 18.0,
+      "panel_width": 34.0,
+      "panel_height": 38.0,
+      "inset_x": 6.0,
+      "inset_y": 9.0
+    },
+    {
+      "kind": "trading",
+      "width": 20.0,
+      "height": 20.0,
+      "glyph_height": 18.0,
+      "panel_width": 34.0,
+      "panel_height": 38.0,
+      "inset_x": 6.0,
+      "inset_y": 9.0
+    },
+    {
+      "kind": "cursor",
+      "width": 20.0,
+      "height": 20.0,
+      "glyph_height": 20.0,
+      "panel_width": 36.0,
+      "panel_height": 40.0,
+      "inset_x": 7.0,
+      "inset_y": 10.0
+    },
+    {
+      "kind": "trading",
+      "width": 20.0,
+      "height": 20.0,
+      "glyph_height": 20.0,
+      "panel_width": 36.0,
+      "panel_height": 40.0,
+      "inset_x": 7.0,
+      "inset_y": 10.0
+    },
+    {
+      "kind": "cursor",
+      "width": 20.0,
+      "height": 20.0,
+      "glyph_height": 26.8,
+      "panel_width": 41.0,
+      "panel_height": 46.0,
+      "inset_x": 9.0,
+      "inset_y": 13.0
+    },
+    {
+      "kind": "trading",
+      "width": 20.0,
+      "height": 20.0,
+      "glyph_height": 26.8,
+      "panel_width": 41.0,
+      "panel_height": 46.0,
+      "inset_x": 9.0,
+      "inset_y": 13.0
+    },
+    {
+      "kind": "cursor",
+      "width": 200.0,
+      "height": 20.0,
+      "glyph_height": 13.0,
+      "panel_width": 210.0,
+      "panel_height": 33.0,
+      "inset_x": 5.0,
+      "inset_y": 7.0
+    },
+    {
+      "kind": "trading",
+      "width": 200.0,
+      "height": 20.0,
+      "glyph_height": 13.0,
+      "panel_width": 210.0,
+      "panel_height": 33.0,
+      "inset_x": 5.0,
+      "inset_y": 6.0
+    },
+    {
+      "kind": "cursor",
+      "width": 200.0,
+      "height": 20.0,
+      "glyph_height": 18.0,
+      "panel_width": 214.0,
+      "panel_height": 38.0,
+      "inset_x": 6.0,
+      "inset_y": 9.0
+    },
+    {
+      "kind": "trading",
+      "width": 200.0,
+      "height": 20.0,
+      "glyph_height": 18.0,
+      "panel_width": 214.0,
+      "panel_height": 38.0,
+      "inset_x": 6.0,
+      "inset_y": 9.0
+    },
+    {
+      "kind": "cursor",
+      "width": 200.0,
+      "height": 20.0,
+      "glyph_height": 20.0,
+      "panel_width": 216.0,
+      "panel_height": 40.0,
+      "inset_x": 7.0,
+      "inset_y": 10.0
+    },
+    {
+      "kind": "trading",
+      "width": 200.0,
+      "height": 20.0,
+      "glyph_height": 20.0,
+      "panel_width": 216.0,
+      "panel_height": 40.0,
+      "inset_x": 7.0,
+      "inset_y": 10.0
+    },
+    {
+      "kind": "cursor",
+      "width": 200.0,
+      "height": 20.0,
+      "glyph_height": 26.8,
+      "panel_width": 221.0,
+      "panel_height": 46.0,
+      "inset_x": 9.0,
+      "inset_y": 13.0
+    },
+    {
+      "kind": "trading",
+      "width": 200.0,
+      "height": 20.0,
+      "glyph_height": 26.8,
+      "panel_width": 221.0,
+      "panel_height": 46.0,
+      "inset_x": 9.0,
+      "inset_y": 13.0
+    },
+    {
+      "kind": "cursor",
+      "width": 200.0,
+      "height": 80.0,
+      "glyph_height": 13.0,
+      "panel_width": 210.0,
+      "panel_height": 93.0,
+      "inset_x": 5.0,
+      "inset_y": 7.0
+    },
+    {
+      "kind": "trading",
+      "width": 200.0,
+      "height": 80.0,
+      "glyph_height": 13.0,
+      "panel_width": 210.0,
+      "panel_height": 93.0,
+      "inset_x": 5.0,
+      "inset_y": 6.0
+    },
+    {
+      "kind": "cursor",
+      "width": 200.0,
+      "height": 80.0,
+      "glyph_height": 18.0,
+      "panel_width": 214.0,
+      "panel_height": 98.0,
+      "inset_x": 6.0,
+      "inset_y": 9.0
+    },
+    {
+      "kind": "trading",
+      "width": 200.0,
+      "height": 80.0,
+      "glyph_height": 18.0,
+      "panel_width": 214.0,
+      "panel_height": 98.0,
+      "inset_x": 6.0,
+      "inset_y": 9.0
+    },
+    {
+      "kind": "cursor",
+      "width": 200.0,
+      "height": 80.0,
+      "glyph_height": 20.0,
+      "panel_width": 216.0,
+      "panel_height": 100.0,
+      "inset_x": 7.0,
+      "inset_y": 10.0
+    },
+    {
+      "kind": "trading",
+      "width": 200.0,
+      "height": 80.0,
+      "glyph_height": 20.0,
+      "panel_width": 216.0,
+      "panel_height": 100.0,
+      "inset_x": 7.0,
+      "inset_y": 10.0
+    },
+    {
+      "kind": "cursor",
+      "width": 200.0,
+      "height": 80.0,
+      "glyph_height": 26.8,
+      "panel_width": 221.0,
+      "panel_height": 106.0,
+      "inset_x": 9.0,
+      "inset_y": 13.0
+    },
+    {
+      "kind": "trading",
+      "width": 200.0,
+      "height": 80.0,
+      "glyph_height": 26.8,
+      "panel_width": 221.0,
+      "panel_height": 106.0,
+      "inset_x": 9.0,
+      "inset_y": 13.0
+    },
+    {
+      "kind": "cursor",
+      "width": 399.0,
+      "height": 140.0,
+      "glyph_height": 13.0,
+      "panel_width": 409.0,
+      "panel_height": 153.0,
+      "inset_x": 5.0,
+      "inset_y": 7.0
+    },
+    {
+      "kind": "trading",
+      "width": 399.0,
+      "height": 140.0,
+      "glyph_height": 13.0,
+      "panel_width": 409.0,
+      "panel_height": 153.0,
+      "inset_x": 5.0,
+      "inset_y": 6.0
+    },
+    {
+      "kind": "cursor",
+      "width": 399.0,
+      "height": 140.0,
+      "glyph_height": 18.0,
+      "panel_width": 413.0,
+      "panel_height": 158.0,
+      "inset_x": 6.0,
+      "inset_y": 9.0
+    },
+    {
+      "kind": "trading",
+      "width": 399.0,
+      "height": 140.0,
+      "glyph_height": 18.0,
+      "panel_width": 413.0,
+      "panel_height": 158.0,
+      "inset_x": 6.0,
+      "inset_y": 9.0
+    },
+    {
+      "kind": "cursor",
+      "width": 399.0,
+      "height": 140.0,
+      "glyph_height": 20.0,
+      "panel_width": 415.0,
+      "panel_height": 160.0,
+      "inset_x": 7.0,
+      "inset_y": 10.0
+    },
+    {
+      "kind": "trading",
+      "width": 399.0,
+      "height": 140.0,
+      "glyph_height": 20.0,
+      "panel_width": 415.0,
+      "panel_height": 160.0,
+      "inset_x": 7.0,
+      "inset_y": 10.0
+    },
+    {
+      "kind": "cursor",
+      "width": 399.0,
+      "height": 140.0,
+      "glyph_height": 26.8,
+      "panel_width": 420.0,
+      "panel_height": 166.0,
+      "inset_x": 9.0,
+      "inset_y": 13.0
+    },
+    {
+      "kind": "trading",
+      "width": 399.0,
+      "height": 140.0,
+      "glyph_height": 26.8,
+      "panel_width": 420.0,
+      "panel_height": 166.0,
+      "inset_x": 9.0,
+      "inset_y": 13.0
+    }
+  ]
+}

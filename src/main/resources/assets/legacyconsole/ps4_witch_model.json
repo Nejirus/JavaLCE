@@ -1,0 +1,49 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "source": "Common/res/TitleUpdate/res/models.bin",
+  "models_sha256": "563b5d9c90a03f5235a775e1875d01f3803eb45e2ef9b8e835a895c7e0459baf",
+  "constructor": "0xd7eff0",
+  "base_name_getter": "0xd84340",
+  "base_model": "villager_v2",
+  "variant": "villager.witch",
+  "texture_size": [
+    64,
+    128
+  ],
+  "part": {
+    "name": "helmet",
+    "parent": "head",
+    "transform": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cubes": [
+      {
+        "position": [
+          -4.0,
+          -10.0,
+          -4.0
+        ],
+        "size": [
+          8,
+          10,
+          8
+        ],
+        "uv": [
+          32.0,
+          0.0
+        ],
+        "inflate": 0.5,
+        "mirror": false
+      }
+    ]
+  }
+}

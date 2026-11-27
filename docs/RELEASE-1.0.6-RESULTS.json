@@ -1,0 +1,1460 @@
+{
+  "version": "1.0.6",
+  "network_protocol": 8,
+  "automated_tests": {
+    "tests": 437,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "ps4_native_pointer_panels": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "eboot_sha256": "c6089834fe1372854eed8f9acf2cb307f7009aaeb32ee303ce5bf6a1160786c8",
+    "routines": {
+      "cursor": "0x7d57c0 / 0x7d5920",
+      "trading": "0x864f80"
+    },
+    "inputs": "Explicit character-zero glyph extents and text-field dimensions; isolated UI callbacks.",
+    "cases": [
+      {
+        "kind": "cursor",
+        "width": 20.0,
+        "height": 20.0,
+        "glyph_height": 13.0,
+        "panel_width": 30.0,
+        "panel_height": 33.0,
+        "inset_x": 5.0,
+        "inset_y": 7.0
+      },
+      {
+        "kind": "trading",
+        "width": 20.0,
+        "height": 20.0,
+        "glyph_height": 13.0,
+        "panel_width": 30.0,
+        "panel_height": 33.0,
+        "inset_x": 5.0,
+        "inset_y": 6.0
+      },
+      {
+        "kind": "cursor",
+        "width": 20.0,
+        "height": 20.0,
+        "glyph_height": 18.0,
+        "panel_width": 34.0,
+        "panel_height": 38.0,
+        "inset_x": 6.0,
+        "inset_y": 9.0
+      },
+      {
+        "kind": "trading",
+        "width": 20.0,
+        "height": 20.0,
+        "glyph_height": 18.0,
+        "panel_width": 34.0,
+        "panel_height": 38.0,
+        "inset_x": 6.0,
+        "inset_y": 9.0
+      },
+      {
+        "kind": "cursor",
+        "width": 20.0,
+        "height": 20.0,
+        "glyph_height": 20.0,
+        "panel_width": 36.0,
+        "panel_height": 40.0,
+        "inset_x": 7.0,
+        "inset_y": 10.0
+      },
+      {
+        "kind": "trading",
+        "width": 20.0,
+        "height": 20.0,
+        "glyph_height": 20.0,
+        "panel_width": 36.0,
+        "panel_height": 40.0,
+        "inset_x": 7.0,
+        "inset_y": 10.0
+      },
+      {
+        "kind": "cursor",
+        "width": 20.0,
+        "height": 20.0,
+        "glyph_height": 26.8,
+        "panel_width": 41.0,
+        "panel_height": 46.0,
+        "inset_x": 9.0,
+        "inset_y": 13.0
+      },
+      {
+        "kind": "trading",
+        "width": 20.0,
+        "height": 20.0,
+        "glyph_height": 26.8,
+        "panel_width": 41.0,
+        "panel_height": 46.0,
+        "inset_x": 9.0,
+        "inset_y": 13.0
+      },
+      {
+        "kind": "cursor",
+        "width": 200.0,
+        "height": 20.0,
+        "glyph_height": 13.0,
+        "panel_width": 210.0,
+        "panel_height": 33.0,
+        "inset_x": 5.0,
+        "inset_y": 7.0
+      },
+      {
+        "kind": "trading",
+        "width": 200.0,
+        "height": 20.0,
+        "glyph_height": 13.0,
+        "panel_width": 210.0,
+        "panel_height": 33.0,
+        "inset_x": 5.0,
+        "inset_y": 6.0
+      },
+      {
+        "kind": "cursor",
+        "width": 200.0,
+        "height": 20.0,
+        "glyph_height": 18.0,
+        "panel_width": 214.0,
+        "panel_height": 38.0,
+        "inset_x": 6.0,
+        "inset_y": 9.0
+      },
+      {
+        "kind": "trading",
+        "width": 200.0,
+        "height": 20.0,
+        "glyph_height": 18.0,
+        "panel_width": 214.0,
+        "panel_height": 38.0,
+        "inset_x": 6.0,
+        "inset_y": 9.0
+      },
+      {
+        "kind": "cursor",
+        "width": 200.0,
+        "height": 20.0,
+        "glyph_height": 20.0,
+        "panel_width": 216.0,
+        "panel_height": 40.0,
+        "inset_x": 7.0,
+        "inset_y": 10.0
+      },
+      {
+        "kind": "trading",
+        "width": 200.0,
+        "height": 20.0,
+        "glyph_height": 20.0,
+        "panel_width": 216.0,
+        "panel_height": 40.0,
+        "inset_x": 7.0,
+        "inset_y": 10.0
+      },
+      {
+        "kind": "cursor",
+        "width": 200.0,
+        "height": 20.0,
+        "glyph_height": 26.8,
+        "panel_width": 221.0,
+        "panel_height": 46.0,
+        "inset_x": 9.0,
+        "inset_y": 13.0
+      },
+      {
+        "kind": "trading",
+        "width": 200.0,
+        "height": 20.0,
+        "glyph_height": 26.8,
+        "panel_width": 221.0,
+        "panel_height": 46.0,
+        "inset_x": 9.0,
+        "inset_y": 13.0
+      },
+      {
+        "kind": "cursor",
+        "width": 200.0,
+        "height": 80.0,
+        "glyph_height": 13.0,
+        "panel_width": 210.0,
+        "panel_height": 93.0,
+        "inset_x": 5.0,
+        "inset_y": 7.0
+      },
+      {
+        "kind": "trading",
+        "width": 200.0,
+        "height": 80.0,
+        "glyph_height": 13.0,
+        "panel_width": 210.0,
+        "panel_height": 93.0,
+        "inset_x": 5.0,
+        "inset_y": 6.0
+      },
+      {
+        "kind": "cursor",
+        "width": 200.0,
+        "height": 80.0,
+        "glyph_height": 18.0,
+        "panel_width": 214.0,
+        "panel_height": 98.0,
+        "inset_x": 6.0,
+        "inset_y": 9.0
+      },
+      {
+        "kind": "trading",
+        "width": 200.0,
+        "height": 80.0,
+        "glyph_height": 18.0,
+        "panel_width": 214.0,
+        "panel_height": 98.0,
+        "inset_x": 6.0,
+        "inset_y": 9.0
+      },
+      {
+        "kind": "cursor",
+        "width": 200.0,
+        "height": 80.0,
+        "glyph_height": 20.0,
+        "panel_width": 216.0,
+        "panel_height": 100.0,
+        "inset_x": 7.0,
+        "inset_y": 10.0
+      },
+      {
+        "kind": "trading",
+        "width": 200.0,
+        "height": 80.0,
+        "glyph_height": 20.0,
+        "panel_width": 216.0,
+        "panel_height": 100.0,
+        "inset_x": 7.0,
+        "inset_y": 10.0
+      },
+      {
+        "kind": "cursor",
+        "width": 200.0,
+        "height": 80.0,
+        "glyph_height": 26.8,
+        "panel_width": 221.0,
+        "panel_height": 106.0,
+        "inset_x": 9.0,
+        "inset_y": 13.0
+      },
+      {
+        "kind": "trading",
+        "width": 200.0,
+        "height": 80.0,
+        "glyph_height": 26.8,
+        "panel_width": 221.0,
+        "panel_height": 106.0,
+        "inset_x": 9.0,
+        "inset_y": 13.0
+      },
+      {
+        "kind": "cursor",
+        "width": 399.0,
+        "height": 140.0,
+        "glyph_height": 13.0,
+        "panel_width": 409.0,
+        "panel_height": 153.0,
+        "inset_x": 5.0,
+        "inset_y": 7.0
+      },
+      {
+        "kind": "trading",
+        "width": 399.0,
+        "height": 140.0,
+        "glyph_height": 13.0,
+        "panel_width": 409.0,
+        "panel_height": 153.0,
+        "inset_x": 5.0,
+        "inset_y": 6.0
+      },
+      {
+        "kind": "cursor",
+        "width": 399.0,
+        "height": 140.0,
+        "glyph_height": 18.0,
+        "panel_width": 413.0,
+        "panel_height": 158.0,
+        "inset_x": 6.0,
+        "inset_y": 9.0
+      },
+      {
+        "kind": "trading",
+        "width": 399.0,
+        "height": 140.0,
+        "glyph_height": 18.0,
+        "panel_width": 413.0,
+        "panel_height": 158.0,
+        "inset_x": 6.0,
+        "inset_y": 9.0
+      },
+      {
+        "kind": "cursor",
+        "width": 399.0,
+        "height": 140.0,
+        "glyph_height": 20.0,
+        "panel_width": 415.0,
+        "panel_height": 160.0,
+        "inset_x": 7.0,
+        "inset_y": 10.0
+      },
+      {
+        "kind": "trading",
+        "width": 399.0,
+        "height": 140.0,
+        "glyph_height": 20.0,
+        "panel_width": 415.0,
+        "panel_height": 160.0,
+        "inset_x": 7.0,
+        "inset_y": 10.0
+      },
+      {
+        "kind": "cursor",
+        "width": 399.0,
+        "height": 140.0,
+        "glyph_height": 26.8,
+        "panel_width": 420.0,
+        "panel_height": 166.0,
+        "inset_x": 9.0,
+        "inset_y": 13.0
+      },
+      {
+        "kind": "trading",
+        "width": 399.0,
+        "height": 140.0,
+        "glyph_height": 26.8,
+        "panel_width": 420.0,
+        "panel_height": 166.0,
+        "inset_x": 9.0,
+        "inset_y": 13.0
+      }
+    ]
+  },
+  "ps4_native_information_regression": {
+    "repository": "Nejirus/mcps4",
+    "revision": "37e258085773f11599cf0ffe29119926769554b7",
+    "routines": [
+      "0x81dfa0",
+      "0x81e940",
+      "0xa4e3f0",
+      "0xa4f690"
+    ],
+    "layouts": [
+      {
+        "count": 1,
+        "y": [
+          567.0
+        ]
+      },
+      {
+        "count": 2,
+        "y": [
+          567.0,
+          473.0
+        ]
+      },
+      {
+        "count": 3,
+        "y": [
+          567.0,
+          473.0,
+          379.0
+        ]
+      },
+      {
+        "count": 4,
+        "y": [
+          567.0,
+          473.0,
+          379.0,
+          285.0
+        ]
+      },
+      {
+        "count": 5,
+        "y": [
+          567.0,
+          473.0,
+          379.0,
+          285.0,
+          191.0
+        ]
+      },
+      {
+        "count": 6,
+        "y": [
+          567.0,
+          473.0,
+          379.0,
+          285.0,
+          191.0,
+          97.0
+        ]
+      },
+      {
+        "count": 7,
+        "y": [
+          567.0,
+          473.0,
+          379.0,
+          285.0,
+          191.0,
+          97.0,
+          3.0
+        ]
+      },
+      {
+        "count": 8,
+        "y": [
+          567.0,
+          486.0,
+          405.0,
+          324.0,
+          243.0,
+          162.0,
+          81.0,
+          0.0
+        ]
+      },
+      {
+        "count": 9,
+        "y": [
+          567.0,
+          496.0,
+          425.0,
+          354.0,
+          283.0,
+          212.0,
+          141.0,
+          70.0,
+          -1.0
+        ]
+      },
+      {
+        "count": 10,
+        "y": [
+          567.0,
+          504.0,
+          441.0,
+          378.0,
+          315.0,
+          252.0,
+          189.0,
+          126.0,
+          63.0,
+          0.0
+        ]
+      },
+      {
+        "count": 11,
+        "y": [
+          567.0,
+          510.0,
+          453.0,
+          396.0,
+          339.0,
+          282.0,
+          225.0,
+          168.0,
+          111.0,
+          54.0,
+          -3.0
+        ]
+      },
+      {
+        "count": 12,
+        "y": [
+          567.0,
+          515.0,
+          463.0,
+          411.0,
+          359.0,
+          307.0,
+          255.0,
+          203.0,
+          151.0,
+          99.0,
+          47.0,
+          -5.0
+        ]
+      },
+      {
+        "count": 13,
+        "y": [
+          567.0,
+          520.0,
+          473.0,
+          426.0,
+          379.0,
+          332.0,
+          285.0,
+          238.0,
+          191.0,
+          144.0,
+          97.0,
+          50.0,
+          3.0
+        ]
+      },
+      {
+        "count": 14,
+        "y": [
+          567.0,
+          523.0,
+          479.0,
+          435.0,
+          391.0,
+          347.0,
+          303.0,
+          259.0,
+          215.0,
+          171.0,
+          127.0,
+          83.0,
+          39.0,
+          -5.0
+        ]
+      },
+      {
+        "count": 15,
+        "y": [
+          567.0,
+          526.0,
+          485.0,
+          444.0,
+          403.0,
+          362.0,
+          321.0,
+          280.0,
+          239.0,
+          198.0,
+          157.0,
+          116.0,
+          75.0,
+          34.0,
+          -7.0
+        ]
+      },
+      {
+        "count": 16,
+        "y": [
+          567.0,
+          529.0,
+          491.0,
+          453.0,
+          415.0,
+          377.0,
+          339.0,
+          301.0,
+          263.0,
+          225.0,
+          187.0,
+          149.0,
+          111.0,
+          73.0,
+          35.0,
+          -3.0
+        ]
+      },
+      {
+        "count": 17,
+        "y": [
+          567.0,
+          532.0,
+          497.0,
+          462.0,
+          427.0,
+          392.0,
+          357.0,
+          322.0,
+          287.0,
+          252.0,
+          217.0,
+          182.0,
+          147.0,
+          112.0,
+          77.0,
+          42.0,
+          7.0
+        ]
+      },
+      {
+        "count": 18,
+        "y": [
+          567.0,
+          534.0,
+          501.0,
+          468.0,
+          435.0,
+          402.0,
+          369.0,
+          336.0,
+          303.0,
+          270.0,
+          237.0,
+          204.0,
+          171.0,
+          138.0,
+          105.0,
+          72.0,
+          39.0,
+          6.0
+        ]
+      },
+      {
+        "count": 19,
+        "y": [
+          567.0,
+          535.0,
+          503.0,
+          471.0,
+          439.0,
+          407.0,
+          375.0,
+          343.0,
+          311.0,
+          279.0,
+          247.0,
+          215.0,
+          183.0,
+          151.0,
+          119.0,
+          87.0,
+          55.0,
+          23.0,
+          -9.0
+        ]
+      },
+      {
+        "count": 20,
+        "y": [
+          567.0,
+          537.0,
+          507.0,
+          477.0,
+          447.0,
+          417.0,
+          387.0,
+          357.0,
+          327.0,
+          297.0,
+          267.0,
+          237.0,
+          207.0,
+          177.0,
+          147.0,
+          117.0,
+          87.0,
+          57.0,
+          27.0,
+          -3.0
+        ]
+      },
+      {
+        "count": 21,
+        "y": [
+          567.0,
+          539.0,
+          511.0,
+          483.0,
+          455.0,
+          427.0,
+          399.0,
+          371.0,
+          343.0,
+          315.0,
+          287.0,
+          259.0,
+          231.0,
+          203.0,
+          175.0,
+          147.0,
+          119.0,
+          91.0,
+          63.0,
+          35.0,
+          7.0
+        ]
+      },
+      {
+        "count": 22,
+        "y": [
+          567.0,
+          540.0,
+          513.0,
+          486.0,
+          459.0,
+          432.0,
+          405.0,
+          378.0,
+          351.0,
+          324.0,
+          297.0,
+          270.0,
+          243.0,
+          216.0,
+          189.0,
+          162.0,
+          135.0,
+          108.0,
+          81.0,
+          54.0,
+          27.0,
+          0.0
+        ]
+      },
+      {
+        "count": 23,
+        "y": [
+          567.0,
+          541.0,
+          515.0,
+          489.0,
+          463.0,
+          437.0,
+          411.0,
+          385.0,
+          359.0,
+          333.0,
+          307.0,
+          281.0,
+          255.0,
+          229.0,
+          203.0,
+          177.0,
+          151.0,
+          125.0,
+          99.0,
+          73.0,
+          47.0,
+          21.0,
+          -5.0
+        ]
+      },
+      {
+        "count": 24,
+        "y": [
+          567.0,
+          542.0,
+          517.0,
+          492.0,
+          467.0,
+          442.0,
+          417.0,
+          392.0,
+          367.0,
+          342.0,
+          317.0,
+          292.0,
+          267.0,
+          242.0,
+          217.0,
+          192.0,
+          167.0,
+          142.0,
+          117.0,
+          92.0,
+          67.0,
+          42.0,
+          17.0,
+          -8.0
+        ]
+      },
+      {
+        "count": 25,
+        "y": [
+          567.0,
+          543.0,
+          519.0,
+          495.0,
+          471.0,
+          447.0,
+          423.0,
+          399.0,
+          375.0,
+          351.0,
+          327.0,
+          303.0,
+          279.0,
+          255.0,
+          231.0,
+          207.0,
+          183.0,
+          159.0,
+          135.0,
+          111.0,
+          87.0,
+          63.0,
+          39.0,
+          15.0,
+          -9.0
+        ]
+      },
+      {
+        "count": 26,
+        "y": [
+          567.0,
+          544.0,
+          521.0,
+          498.0,
+          475.0,
+          452.0,
+          429.0,
+          406.0,
+          383.0,
+          360.0,
+          337.0,
+          314.0,
+          291.0,
+          268.0,
+          245.0,
+          222.0,
+          199.0,
+          176.0,
+          153.0,
+          130.0,
+          107.0,
+          84.0,
+          61.0,
+          38.0,
+          15.0,
+          -8.0
+        ]
+      },
+      {
+        "count": 27,
+        "y": [
+          567.0,
+          545.0,
+          523.0,
+          501.0,
+          479.0,
+          457.0,
+          435.0,
+          413.0,
+          391.0,
+          369.0,
+          347.0,
+          325.0,
+          303.0,
+          281.0,
+          259.0,
+          237.0,
+          215.0,
+          193.0,
+          171.0,
+          149.0,
+          127.0,
+          105.0,
+          83.0,
+          61.0,
+          39.0,
+          17.0,
+          -5.0
+        ]
+      },
+      {
+        "count": 28,
+        "y": [
+          567.0,
+          546.0,
+          525.0,
+          504.0,
+          483.0,
+          462.0,
+          441.0,
+          420.0,
+          399.0,
+          378.0,
+          357.0,
+          336.0,
+          315.0,
+          294.0,
+          273.0,
+          252.0,
+          231.0,
+          210.0,
+          189.0,
+          168.0,
+          147.0,
+          126.0,
+          105.0,
+          84.0,
+          63.0,
+          42.0,
+          21.0,
+          0.0
+        ]
+      },
+      {
+        "count": 29,
+        "y": [
+          567.0,
+          547.0,
+          527.0,
+          507.0,
+          487.0,
+          467.0,
+          447.0,
+          427.0,
+          407.0,
+          387.0,
+          367.0,
+          347.0,
+          327.0,
+          307.0,
+          287.0,
+          267.0,
+          247.0,
+          227.0,
+          207.0,
+          187.0,
+          167.0,
+          147.0,
+          127.0,
+          107.0,
+          87.0,
+          67.0,
+          47.0,
+          27.0,
+          7.0
+        ]
+      }
+    ],
+    "selections": [
+      {
+        "length": 0,
+        "ticks": 0
+      },
+      {
+        "length": 1,
+        "ticks": 60
+      },
+      {
+        "length": 5,
+        "ticks": 60
+      },
+      {
+        "length": 250,
+        "ticks": 60
+      }
+    ],
+    "pulses": [
+      {
+        "ticks": 1200,
+        "alpha": 1.0
+      },
+      {
+        "ticks": 200,
+        "alpha": 1.0
+      },
+      {
+        "ticks": 199,
+        "alpha": 0.5202248692512512
+      },
+      {
+        "ticks": 180,
+        "alpha": 0.5249999761581421
+      },
+      {
+        "ticks": 150,
+        "alpha": 0.574999988079071
+      },
+      {
+        "ticks": 100,
+        "alpha": 0.625
+      },
+      {
+        "ticks": 50,
+        "alpha": 0.699999988079071
+      },
+      {
+        "ticks": 20,
+        "alpha": 0.42500001192092896
+      },
+      {
+        "ticks": 10,
+        "alpha": 0.3499999940395355
+      },
+      {
+        "ticks": 1,
+        "alpha": 0.21226270496845245
+      },
+      {
+        "ticks": 0,
+        "alpha": 0.25
+      }
+    ],
+    "ordering": [
+      {
+        "effect_id": 1,
+        "slot": 12
+      },
+      {
+        "effect_id": 2,
+        "slot": 9
+      },
+      {
+        "effect_id": 3,
+        "slot": 2
+      },
+      {
+        "effect_id": 4,
+        "slot": 14
+      },
+      {
+        "effect_id": 5,
+        "slot": 11
+      },
+      {
+        "effect_id": 6,
+        "slot": 5
+      },
+      {
+        "effect_id": 7,
+        "slot": 3
+      },
+      {
+        "effect_id": 8,
+        "slot": 6
+      },
+      {
+        "effect_id": 9,
+        "slot": 13
+      },
+      {
+        "effect_id": 10,
+        "slot": 16
+      },
+      {
+        "effect_id": 11,
+        "slot": 7
+      },
+      {
+        "effect_id": 12,
+        "slot": 8
+      },
+      {
+        "effect_id": 13,
+        "slot": 1
+      },
+      {
+        "effect_id": 14,
+        "slot": 0
+      },
+      {
+        "effect_id": 15,
+        "slot": 4
+      },
+      {
+        "effect_id": 16,
+        "slot": 10
+      },
+      {
+        "effect_id": 17,
+        "slot": 15
+      },
+      {
+        "effect_id": 18,
+        "slot": 17
+      },
+      {
+        "effect_id": 19,
+        "slot": 18
+      },
+      {
+        "effect_id": 20,
+        "slot": 19
+      },
+      {
+        "effect_id": 21,
+        "slot": 20
+      },
+      {
+        "effect_id": 22,
+        "slot": 21
+      },
+      {
+        "effect_id": 23,
+        "slot": 22
+      },
+      {
+        "effect_id": 24,
+        "slot": 23
+      },
+      {
+        "effect_id": 26,
+        "slot": 25
+      },
+      {
+        "effect_id": 27,
+        "slot": 24
+      },
+      {
+        "effect_id": 28,
+        "slot": 27
+      },
+      {
+        "effect_id": 29,
+        "slot": 26
+      }
+    ]
+  },
+  "ps4_default_texture_manifest_sha256": "4677e54d803b5cb3de9cd30216f63b47d017738938b2367dd9600b387c1b8432",
+  "texture_files": 1002,
+  "supplied_ore_deepslate_files": 22,
+  "ps4_texture_export_reproduced_byte_for_byte": true,
+  "animation_metadata_files": 16,
+  "ps4_riding_scene_sha256": "cccec7b88316e5ef3111a97b4999c0e6ad14d87aa4d8e935367f4b0238ddf2cd",
+  "native_horse_routes": 3312,
+  "ps4_witch_model_sha256": "e66f104f92de91752f934b42261c34675106ab61bb8c61d2a6586c8eac52292e",
+  "runtime": {
+    "status": "passed",
+    "version": "1.0.6",
+    "forge": "37.1.1",
+    "checks": [
+      "Default resource manager resolves all 1002 imported textures, 22 supplied ore/deepslate files, 16 animation metadata files; Java nether gold and zombie pigmen retained",
+      "Blast furnace lit sprite has two 16x16 animation frames",
+      "Rendered first-glyph extent 16.0 drives source padding 6.0,8.0",
+      "Server enchantments and custom item name appear in the native five-line information model",
+      "1280x720 HUD 0: five lines clear the crosshair; four active effects retained",
+      "1280x720 HUD 1: five lines clear the crosshair; four active effects retained",
+      "1280x720 HUD 2: five lines clear the crosshair; four active effects retained",
+      "1920x1080 HUD 0: five lines clear the crosshair; four active effects retained",
+      "1920x1080 HUD 1: five lines clear the crosshair; four active effects retained",
+      "1920x1080 HUD 2: five lines clear the crosshair; four active effects retained",
+      "2560x1440 HUD 0: five lines clear the crosshair; four active effects retained",
+      "2560x1440 HUD 1: five lines clear the crosshair; four active effects retained",
+      "2560x1440 HUD 2: five lines clear the crosshair; four active effects retained",
+      "3840x2160 HUD 0: five lines clear the crosshair; four active effects retained",
+      "3840x2160 HUD 1: five lines clear the crosshair; four active effects retained",
+      "3840x2160 HUD 2: five lines clear the crosshair; four active effects retained",
+      "1280x960 HUD 0: five lines clear the crosshair; four active effects retained",
+      "1280x960 HUD 1: five lines clear the crosshair; four active effects retained",
+      "1280x960 HUD 2: five lines clear the crosshair; four active effects retained",
+      "1440x900 HUD 0: five lines clear the crosshair; four active effects retained",
+      "1440x900 HUD 1: five lines clear the crosshair; four active effects retained",
+      "1440x900 HUD 2: five lines clear the crosshair; four active effects retained",
+      "3024x1964 HUD 0: five lines clear the crosshair; four active effects retained",
+      "3024x1964 HUD 1: five lines clear the crosshair; four active effects retained",
+      "3024x1964 HUD 2: five lines clear the crosshair; four active effects retained",
+      "Inventory UI 0: item hover replaced, with four named effect bars",
+      "Inventory UI 1: item hover replaced, with four named effect bars",
+      "Inventory UI 2: item hover replaced, with four named effect bars",
+      "Inventory UI 3: item hover replaced, with four named effect bars",
+      "Furnace: server-opened menu uses the PS4 item panel",
+      "Enchanting: server-opened menu uses the PS4 item panel",
+      "Real blast furnace smelts with original animated lit texture",
+      "Trading UI 0: selected-offer information and hovered inventory item render with native padding",
+      "Trading UI 1: selected-offer information and hovered inventory item render with native padding",
+      "Trading UI 2: selected-offer information and hovered inventory item render with native padding",
+      "Trading UI 3: selected-offer information and hovered inventory item render with native padding",
+      "Actual stone mining damaged enchanted tool 9 times without rearming the HUD information timer",
+      "Mount 0 HUD 0: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 0 inventory UI 0: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Mount 0 HUD 1: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 0 inventory UI 1: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Mount 0 HUD 2: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 0 inventory UI 2: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Mount 1 HUD 0: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 1 inventory UI 0: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Mount 1 HUD 1: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 1 inventory UI 1: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Mount 1 HUD 2: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 1 inventory UI 2: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Mount 2 HUD 0: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 2 inventory UI 0: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Mount 2 HUD 1: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 2 inventory UI 1: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Mount 2 HUD 2: console HUD scale retained; R3 dismount, Triangle inventory, conditional Cross jump",
+      "Mount 2 inventory UI 2: native scene, equipment and synchronized storage slots with PS4 hover panel",
+      "Witch uses original PS4 inherited helmet geometry and native texture"
+    ],
+    "captures": [
+      {
+        "file": "hud-1280x720-2.png",
+        "width": 1280,
+        "height": 720,
+        "sha256": "84fc34ffdc7683c91ae6bebde439a40ff0e19348423515fbdd2a403943d2c757"
+      },
+      {
+        "file": "hud-1920x1080-2.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "6913a6a7e76ac7bd2a4891675714db5fc394137150ff804f12cb35c670aa76b0"
+      },
+      {
+        "file": "hud-2560x1440-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "71cf34a0cbbdff0ff54320afe1c3bd86f8feb4c617d791d2208961abe533b610"
+      },
+      {
+        "file": "hud-2560x1440-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "b78b5cc2d4ab08dd0dfeee48bde306c38fd0b35c929c287293c9a4cc5f85ad17"
+      },
+      {
+        "file": "hud-2560x1440-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "57a79e22474ceb2805d80bc520fd7f1c355eeab3cb52aaadceaa7e42e71fd1b2"
+      },
+      {
+        "file": "hud-3840x2160-2.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "5cb7390ec6f56666aeb077bd301a05d6218312ac37ac51f546748f307e23be42"
+      },
+      {
+        "file": "hud-1280x960-2.png",
+        "width": 1280,
+        "height": 960,
+        "sha256": "8ef82e90f8e770e0d2dbd1fc011f71d1ead925834692e36ec86a1fe2f26c493e"
+      },
+      {
+        "file": "hud-1440x900-2.png",
+        "width": 1440,
+        "height": 900,
+        "sha256": "304236350566401e9207de0ab09669612b743823e2d0b10ae10bea70c7a61314"
+      },
+      {
+        "file": "hud-3024x1964-2.png",
+        "width": 3024,
+        "height": 1964,
+        "sha256": "917510b5d4446c0d7d8d6b8e732013a53df2a0afab4c102239ed20fe70ca9ff6"
+      },
+      {
+        "file": "inventory-hover-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "a1f9e190833b22084d56f6e4613ab01c1f729d801ceef76c3f888766a0727a5e"
+      },
+      {
+        "file": "inventory-hover-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "203c504f8edde4d5e1c39aaeab62c752208f2a49f7930ff09c3a8dcf566229a3"
+      },
+      {
+        "file": "inventory-hover-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "5f7a1c624ea09612bc916e2f89c38f6c4ccedfea34c653c9c35ad5a0d124bb7d"
+      },
+      {
+        "file": "inventory-hover-3.png",
+        "width": 1280,
+        "height": 960,
+        "sha256": "73cfa65d4cfe8470a44fbc4943240d92b746a31e9054baec7d8719f48db2bf00"
+      },
+      {
+        "file": "furnace-hover.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "533d0aa7983110487241a686f06368a22425f8363a1bdbc1515ef9a1916b8481"
+      },
+      {
+        "file": "enchanting-hover.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "7dec1f6f740eda18218f94d5491373f7f424bcde70240fa1a1175a74e20c7a92"
+      },
+      {
+        "file": "textures-world.png",
+        "width": 1364,
+        "height": 1024,
+        "sha256": "627fee32b3ceae0899002a5794f6a054067fb8070326f00a55642a4758796b2c"
+      },
+      {
+        "file": "trading-hover-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "72e00c311c9c22cabd144ddb5bc37bc3dfc869e45321bd9595741ceefc81d15e"
+      },
+      {
+        "file": "trading-hover-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "1de76f69bdc9c1a5294f292de8ed71455cbd878f7c18d9c4e61302af79cf1062"
+      },
+      {
+        "file": "trading-hover-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "72bec3c672a1ac78e0eb3ef98f7c72a699775c9c82c84a0d422386365b42cb9d"
+      },
+      {
+        "file": "trading-hover-3.png",
+        "width": 1280,
+        "height": 960,
+        "sha256": "cb0557f2da13178450629a7337aba48deaf9d359c322d4aa4b2692bdd941f51b"
+      },
+      {
+        "file": "mining-no-repeated-popup.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "8d53f9493fcce8acc9049f1bac1eeb855905b97bfee8b6254ed7576513ed1a94"
+      },
+      {
+        "file": "mount-0-hud-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "fae4df1dbceda4ad258549f451624912c22603c1e6ffe92343810c7a934bbec6"
+      },
+      {
+        "file": "mount-0-inventory-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "e86f890ad0a637297503d5100ddb09ad1ff104696293beec4d5a4db47a424641"
+      },
+      {
+        "file": "mount-0-hud-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "a2c9a38e7311f3c7b3b2cddc5b59b49dd76114b92a95d6ebc35abf6f8fd05795"
+      },
+      {
+        "file": "mount-0-inventory-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "45c9956fb4347ff2cdf5a3dd0adab317797353e1e6fb6dbdca5a13dcb6120c05"
+      },
+      {
+        "file": "mount-0-hud-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "b28f87b1fbf7d35dc7250697004516755c43d93bf8968bcdc94585c53b79d8b7"
+      },
+      {
+        "file": "mount-0-inventory-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "5f6e49fa475a910dfd085b92b01da3d548cb22ce3b371866ec2d2bd9cea9e54f"
+      },
+      {
+        "file": "mount-1-hud-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "935e8ac6e5099674383da1c88e33f7e823225b1e4bca8e50593fdfce3bed1ef2"
+      },
+      {
+        "file": "mount-1-inventory-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "eb1f582c70a3ab653092ce3adc507ff9b4bef3191fae2c970ef99157bb11a06b"
+      },
+      {
+        "file": "mount-1-hud-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "92d677fb81cff5206e24f04d826da40bcfa19a1a60ca40f066d69c672de08c0f"
+      },
+      {
+        "file": "mount-1-inventory-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "72fc34694f8c73c11d8a99e961f787386077343c145a1a11ed04f0229d8ce65c"
+      },
+      {
+        "file": "mount-1-hud-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "c96b866671590fdfb955cb064df629b42e2eff217952f895ac310c004b68f705"
+      },
+      {
+        "file": "mount-1-inventory-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "784fdd4047b384e656ce8fb2ee4fc8e9526c111887567ed9eaea752e58210dfa"
+      },
+      {
+        "file": "mount-2-hud-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "639f69eae7d5f66ffc5eda6ff158047e5e3e715ed4ab7c5342ded57a4ee38d5b"
+      },
+      {
+        "file": "mount-2-inventory-0.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "d49514d5ab8098ace99068a599bb042cc677f2db591e9b186b0e061948eef355"
+      },
+      {
+        "file": "mount-2-hud-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "e5c9224703c32d8c176cfa6f66d8ca853169dc08a6a1f70f9fd261a3da4e6fc1"
+      },
+      {
+        "file": "mount-2-inventory-1.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "697197a89d0d4794950a1a5c1ba0bfa97213138ae654f81ceef174975d1070c5"
+      },
+      {
+        "file": "mount-2-hud-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "e3fd92ee46d631f8eb0cd32ee306f509b4f0faac576adafab6c67e53a8850478"
+      },
+      {
+        "file": "mount-2-inventory-2.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "1c4722556608a702d6f21799b0f9f596f8bfe4832cc6dcf5aacfd2c07d129314"
+      },
+      {
+        "file": "witch-hood.png",
+        "width": 2560,
+        "height": 1440,
+        "sha256": "8ba9541c214efb881bd3c00aca890c5c72ba297d6a54135ad3c61f8f11b3e1dc"
+      }
+    ],
+    "tooltip_events": 28,
+    "item_tooltip_events": 28,
+    "resumed_baseline": {
+      "version": "1.0.6",
+      "forge": "37.1.1",
+      "tooltip_events": 17,
+      "item_tooltip_events": 17,
+      "runtime_files": {
+        "legacy-join-compat-1.17.1-1.0.6.jar": "ebf771c67450955da51c614d854d3f4fe8ad546fd5f19444cbf7bbec3300d47a",
+        "OptiFine_1.17.1_HD_U_H1.jar": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793",
+        "legacy-console-1.17.1-1.0.6.jar": "e6d20e47a88fa250fca539f5b0a8cedb8b658ff5c76c63cea0fac5d6670d17d0"
+      },
+      "log_sha256": "07e464898177dc60aee29f82fe1811c0665cfb549238f442f47b90b6209ae8f6"
+    },
+    "hovered_slot": -1,
+    "carried": "1 air",
+    "screen_size": "640x360",
+    "gui_size": "640x360",
+    "mouse_window": "640.0,360.0"
+  },
+  "runtime_files": {
+    "legacy-console-1.17.1-1.0.6.jar": "e6d20e47a88fa250fca539f5b0a8cedb8b658ff5c76c63cea0fac5d6670d17d0",
+    "legacy-join-compat-1.17.1-1.0.6.jar": "ebf771c67450955da51c614d854d3f4fe8ad546fd5f19444cbf7bbec3300d47a",
+    "OptiFine_1.17.1_HD_U_H1.jar": "1c7b7be3b6c81d863f58d031d7d98d82f9cbacb0aa68a22ac179a607b03cf793"
+  },
+  "shaderpack_sha256": "e774210f40dc79f1f7fce3b200bd1d310a6c362ec7c84fe6a2916beb23c1ba62",
+  "limits": [
+    "Production client runs Forge 37.1.1 and supplied OptiFine H1, with shaders OFF.",
+    "Seven Linux framebuffer profiles and all three HUD sizes; Retina-shaped geometry does not verify macOS display-density handling.",
+    "Inventory and villager trading cover all three Console UI Size stops plus 4:3. Furnace and enchanting menus are server-opened at normal UI size.",
+    "Java supplies rendered font glyph bounds to the original PS4 panel calculation.",
+    "Horse, donkey and llama HUD and inventories cover all three size stops at 1440p. No physical controller was attached.",
+    "Java supplies mount simulation, item transactions, renderer meshes, jump charge and health/invulnerability state.",
+    "Native RGB textures retain original colors. Explicit entity alpha-coverage adapters are documented in the texture manifest.",
+    "Unverified console mesh/UV mappings and procedural animations retain existing Java assets/renderer."
+  ]
+}

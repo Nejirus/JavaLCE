@@ -1,0 +1,621 @@
+{
+  "repository": "Nejirus/mcps4",
+  "revision": "37e258085773f11599cf0ffe29119926769554b7",
+  "files": {
+    "skinHDInGame.fui": "7f23ceea63283bb054ee2f21e2d559d90783da80cf04a2e6e839c0ee92e6fc7f",
+    "skinHDGraphicsInGame.fui": "4fd014d618f881b18231f1b5eadf2044f033ea0358edac2fd1b16fac2985b695",
+    "InventoryMenu1080.fui": "f321dcd0dbc71f84b051746511dc828a62407be6fe9a58289628ef1b2cb6da56",
+    "HUD1080.fui": "e124b5473be9cfa27d612286a9616296f7bfb33c43e07db3e0ab64848e059cf9"
+  },
+  "effect_icons": {
+    "1": "Potion_Effect_Icon_Blindness_Small",
+    "2": "Potion_Effect_Icon_Fire_Resistance_Small",
+    "3": "Potion_Effect_Icon_Haste_Small",
+    "4": "Potion_Effect_Icon_Hunger_Small",
+    "5": "Potion_Effect_Icon_Invisibility_Small",
+    "6": "Potion_Effect_Icon_Jump_Boost_Small",
+    "7": "Potion_Effect_Icon_Mining_Fatigue_Small",
+    "8": "Potion_Effect_Icon_Nausea_Small",
+    "9": "Potion_Effect_Icon_Night_Vision_Small",
+    "10": "Potion_Effect_Icon_Poison_Small",
+    "11": "Potion_Effect_Icon_Regeneration_Small",
+    "12": "Potion_Effect_Icon_Resistance_Small",
+    "13": "Potion_Effect_Icon_Slowness_Small",
+    "14": "Potion_Effect_Icon_Speed_Small",
+    "15": "Potion_Effect_Icon_Strength_Small",
+    "16": "Potion_Effect_Icon_Water_Breathing_Small",
+    "17": "Potion_Effect_Icon_Weakness_Small",
+    "18": "Potion_Effect_Icon_Wither_Small",
+    "19": "Potion_Effect_Icon_Absorption_Small",
+    "21": "Potion_Effect_Icon_Glowing",
+    "22": "Potion_Effect_Icon_Levitation",
+    "23": "Potion_Effect_Icon_Luck",
+    "24": "Potion_Effect_Icon_Badluck",
+    "26": "Potion_Effect_Icon_Slow_Fall_Small",
+    "27": "Potion_Effect_Icon_Conduit_Small",
+    "28": "Potion_Effect_Icon_bad_omen_effect",
+    "29": "Potion_Effect_Icon_village_hero_effect"
+  },
+  "effect_order": {
+    "1": 12,
+    "2": 9,
+    "3": 2,
+    "4": 14,
+    "5": 11,
+    "6": 5,
+    "7": 3,
+    "8": 6,
+    "9": 13,
+    "10": 16,
+    "11": 7,
+    "12": 8,
+    "13": 1,
+    "14": 0,
+    "15": 4,
+    "16": 10,
+    "17": 15,
+    "18": 17,
+    "19": 18,
+    "20": 19,
+    "21": 20,
+    "22": 21,
+    "23": 22,
+    "24": 23,
+    "26": 25,
+    "27": 24,
+    "28": 27,
+    "29": 26
+  },
+  "icon_frames": [
+    "",
+    "Potion_Effect_Icon_Speed_Small",
+    "Potion_Effect_Icon_Slowness_Small",
+    "Potion_Effect_Icon_Haste_Small",
+    "Potion_Effect_Icon_Mining_Fatigue_Small",
+    "Potion_Effect_Icon_Strength_Small",
+    "Potion_Effect_Icon_Jump_Boost_Small",
+    "Potion_Effect_Icon_Nausea_Small",
+    "Potion_Effect_Icon_Regeneration_Small",
+    "Potion_Effect_Icon_Resistance_Small",
+    "Potion_Effect_Icon_Fire_Resistance_Small",
+    "Potion_Effect_Icon_Water_Breathing_Small",
+    "Potion_Effect_Icon_Invisibility_Small",
+    "Potion_Effect_Icon_Blindness_Small",
+    "Potion_Effect_Icon_Night_Vision_Small",
+    "Potion_Effect_Icon_Hunger_Small",
+    "Potion_Effect_Icon_Weakness_Small",
+    "Potion_Effect_Icon_Poison_Small",
+    "Potion_Effect_Icon_Wither_Small",
+    "Potion_Effect_Icon_Absorption_Small",
+    "",
+    "Potion_Effect_Icon_Glowing",
+    "Potion_Effect_Icon_Levitation",
+    "Potion_Effect_Icon_Luck",
+    "Potion_Effect_Icon_Badluck",
+    "Potion_Effect_Icon_Conduit_Small",
+    "Potion_Effect_Icon_Slow_Fall_Small",
+    "Potion_Effect_Icon_village_hero_effect",
+    "Potion_Effect_Icon_bad_omen_effect"
+  ],
+  "normal": {
+    "PointerTextPanel": [
+      0.65325927734375,
+      0.0,
+      0.0,
+      0.9206390380859375,
+      0.0,
+      0.0
+    ],
+    "Icon": [
+      3.0,
+      0.0,
+      0.0,
+      3.0,
+      15.0,
+      15.0
+    ],
+    "EffectName": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      75.0,
+      15.0
+    ],
+    "EffectDuration": [
+      1.63043212890625,
+      0.0,
+      0.0,
+      1.0,
+      75.0,
+      43.0
+    ]
+  },
+  "small": {
+    "PointerTextPanel": [
+      0.435516357421875,
+      0.0,
+      0.0,
+      0.61376953125,
+      0.0,
+      0.0
+    ],
+    "Icon": [
+      2.0,
+      0.0,
+      0.0,
+      2.0,
+      7.0,
+      10.0
+    ],
+    "EffectDuration": [
+      1.5001068115234375,
+      0.0,
+      0.0,
+      1.0,
+      47.0,
+      30.0
+    ],
+    "EffectName": [
+      1.2198486328125,
+      0.0,
+      0.0,
+      1.0,
+      47.0,
+      10.0
+    ]
+  },
+  "tile": {
+    "PointerTextPanel": [
+      1.09375,
+      0.0,
+      0.0,
+      1.09375,
+      0.0,
+      0.0
+    ],
+    "Icon": [
+      3.0,
+      0.0,
+      0.0,
+      3.0,
+      6.0,
+      6.0
+    ]
+  },
+  "effect_labels": {
+    "FJ_Label_MobEffectName": {
+      "bounds": [
+        -2.0,
+        190.35000610351562,
+        -2.0,
+        24.0
+      ],
+      "font_size": 20.0,
+      "color": 4294967295,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"20\" color=\"#ffffff\" letterSpacing=\"0.00\" kerning=\"1\">FJ_MobEffectName</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label_MobEffectTime": {
+      "bounds": [
+        -2.0,
+        182.0,
+        -2.0,
+        24.0
+      ],
+      "font_size": 20.0,
+      "color": 2576980479,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles7\" size=\"20\" color=\"#999999\" letterSpacing=\"0.00\" kerning=\"1\">FJ_MobEffectTime</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label_MobEffectNameSmall": {
+      "bounds": [
+        -2.0,
+        166.0500030517578,
+        -2.0,
+        16.299999237060547
+      ],
+      "font_size": 13.0,
+      "color": 4294967295,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles11\" size=\"13\" color=\"#ffffff\" letterSpacing=\"0.00\" kerning=\"1\">FJ_MobEffectsNameSmall</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    },
+    "FJ_Label_MobEffectTimeSmall": {
+      "bounds": [
+        -2.0,
+        134.64999389648438,
+        -2.0,
+        16.299999237060547
+      ],
+      "font_size": 13.0,
+      "color": 2576980479,
+      "alignment": 0,
+      "markup": "<p align=\"left\"><font face=\"Mojangles11\" size=\"13\" color=\"#999999\" letterSpacing=\"0.00\" kerning=\"1\">FJ_MobEffectsSmall</font></p>",
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        2.0
+      ]
+    }
+  },
+  "inventory_offset": [
+    666.0,
+    0.0
+  ],
+  "inventory_anchors": {
+    "Effect1": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      567.0
+    ],
+    "Effect2": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      473.0
+    ],
+    "Effect3": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      378.0
+    ],
+    "Effect4": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      284.0
+    ],
+    "Effect5": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      189.0
+    ],
+    "Effect6": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      95.0
+    ],
+    "Effect7": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.800000011920929
+    ],
+    "Effect8": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect9": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect10": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect11": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect12": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect13": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect14": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect15": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect16": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect17": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect18": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect19": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect20": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect21": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect22": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect23": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect24": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect25": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect26": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect27": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect28": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Effect29": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "selected_fade": [
+    0.96875,
+    0.94140625,
+    0.921875,
+    0.890625,
+    0.859375,
+    0.83984375,
+    0.80859375,
+    0.78125,
+    0.76171875,
+    0.73046875,
+    0.7109375,
+    0.6796875,
+    0.6484375,
+    0.62890625,
+    0.6015625,
+    0.5703125,
+    0.55078125,
+    0.51953125,
+    0.5,
+    0.46875,
+    0.44140625,
+    0.421875,
+    0.390625,
+    0.359375,
+    0.33984375,
+    0.30859375,
+    0.28125,
+    0.26171875,
+    0.23046875,
+    0.2109375,
+    0.1796875,
+    0.1484375,
+    0.12890625,
+    0.1015625,
+    0.0703125,
+    0.05078125,
+    0.01953125,
+    0.0
+  ],
+  "cursor": {
+    "iggy_pointerIcon": [
+      1.107696533203125,
+      0.0,
+      0.0,
+      1.2203369140625,
+      -31.0,
+      -31.0
+    ],
+    "CursorImage": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -24.0,
+      -24.0
+    ],
+    "PointerTextPanel": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      24.0,
+      -31.0
+    ],
+    "FJ_TextContainer": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      27.0,
+      -26.0
+    ]
+  },
+  "cursor_small": {
+    "iggy_pointerIcon": [
+      0.6923065185546875,
+      0.0,
+      0.0,
+      0.7627105712890625,
+      -20.0,
+      -20.0
+    ],
+    "CursorImage": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      -24.0,
+      -24.0
+    ],
+    "PointerTextPanel": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      25.0,
+      -20.0
+    ],
+    "FJ_TextContainer": [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      28.0,
+      -15.0
+    ]
+  },
+  "routines": {
+    "hotbar": "0xc78a90",
+    "selected_label": "0xa4e3f0",
+    "position": "0x813030",
+    "effect_tiles": "0xa4f690 / 0x8191c0",
+    "effect_bars": "0xa65460 / 0x81dfa0"
+  }
+}

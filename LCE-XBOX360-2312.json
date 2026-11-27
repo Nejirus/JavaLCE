@@ -439,18 +439,18 @@
     },
     "right_stick_button": {
       "bounds": [
-        0,
-        67,
-        0,
-        64
+        0.0,
+        34.546875,
+        0.0,
+        33.0
       ],
       "layers": [
         {
           "path": "lce/prompts/xbox360/ButtonRS",
-          "x": 0,
-          "y": 0,
-          "width": 67,
-          "height": 64
+          "x": 0.0,
+          "y": 0.0,
+          "width": 34.546875,
+          "height": 33.0
         }
       ],
       "symbol": "ButtonRS"
@@ -585,6 +585,6 @@
   "adaptations": [
     "Normal Xbox 360 XUI glyph images and geometry replace Windows SWF glyphs. Existing common prompt text/spacing and bindings remain.",
     "At 1080p and above the same unchanged PNGs use the existing 3/2 coordinate conversion; no Xbox 360 HD artwork is invented.",
-    "Supplementary glyphs use original Button PNGs at their natural source dimensions."
+    "Supplementary glyphs use original Button PNGs. The RS display fits the authored A-button height and preserves its source aspect ratio."
   ]
 }
